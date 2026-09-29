@@ -1,0 +1,30 @@
+{
+  "schema_version": "4.0",
+  "generated_at": "2026-09-28T00:00:00-03:00",
+  "page": {
+    "url": "https://agendatucuman.com.ar/radio/",
+    "title": "Agenda Radio",
+    "description": ""
+  },
+  "player": {
+    "player_url": "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/?p=8718",
+    "provider": "Shock Media / SonicPanel",
+    "player_id": "8718",
+    "api_url": "https://streaming01.shockmedia.com.ar/cp/get_info.php?p=8718",
+    "stream_urls": [
+      "https://streaming01.shockmedia.com.ar:10693/stream"
+    ],
+    "audio_urls": [
+      "https://streaming01.shockmedia.com.ar:10693/stream"
+    ]
+  },
+  "stream_urls": [
+    "https://streaming01.shockmedia.com.ar:10693/stream"
+  ],
+  "audio_urls": [
+    "https://streaming01.shockmedia.com.ar:10693/stream"
+  ],
+  "spotify_urls": [],
+  "youtube_urls": [],
+  "external_urls": []
+}

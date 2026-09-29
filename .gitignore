@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.tmp/
+
+# Expo / Node
+node_modules/
+.expo/
+dist/
+web-build/
+*.log
+
+# Local/editor
+.vscode/
+.idea/
+.DS_Store
+
+# EAS local
+.eas/
