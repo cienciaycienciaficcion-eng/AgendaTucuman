@@ -27,10 +27,19 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r extractores/requirements.txt
 
+      # ============================================================
+      # AGENDA
+      # ============================================================
+
       - name: Extraer agenda MEC
+        id: agenda
+        continue-on-error: true
         run: |
+          mkdir -p .tmp/agenda
+
           YEAR=$(date -u +%Y)
           MONTH=$(date -u +%m)
+
           python extractores/agenda_mec.py \
             --start-year "$YEAR" \
             --start-month "$MONTH" \
@@ -38,53 +47,188 @@ jobs:
             --delay 0.15 \
             --out .tmp/agenda
 
+      - name: Publicar agenda
+        if: steps.agenda.outcome == 'success'
+        run: |
+          if [ -f ".tmp/agenda/agenda_eventos.json" ]; then
+            cp .tmp/agenda/agenda_eventos.json datos/agenda_eventos.json
+            echo "Agenda actualizada correctamente."
+          else
+            echo "ADVERTENCIA: el extractor no generó agenda_eventos.json."
+          fi
+
+      - name: Informar error de agenda
+        if: steps.agenda.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: no se pudo actualizar la agenda."
+          echo "Se conservarán los datos anteriores."
+
+      # ============================================================
+      # RADIO / CONTENIDOS
+      # ============================================================
+
       - name: Extraer contenidos y radio
+        id: radio
+        continue-on-error: true
         run: |
           mkdir -p .tmp/contenidos
           cd .tmp/contenidos
+
           python ../../extractores/contenidos.py
 
+      - name: Publicar radio
+        if: steps.radio.outcome == 'success'
+        run: |
+          if [ -f ".tmp/contenidos/radio_tucuman.json" ]; then
+            cp .tmp/contenidos/radio_tucuman.json datos/radio_tucuman.json
+            echo "Radio actualizada correctamente."
+          else
+            echo "ADVERTENCIA: no se generó radio_tucuman.json."
+          fi
+
+      - name: Publicar cine de Agenda
+        if: steps.radio.outcome == 'success'
+        run: |
+          if [ -f ".tmp/contenidos/cine_tucuman.json" ]; then
+            cp .tmp/contenidos/cine_tucuman.json datos/cine_tucuman.json
+            echo "Cine de Agenda actualizado correctamente."
+          else
+            echo "ADVERTENCIA: no se generó cine_tucuman.json."
+          fi
+
+      - name: Informar error de radio
+        if: steps.radio.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: no se pudo actualizar Radio/Contenidos."
+          echo "Se conservarán los datos anteriores."
+
+      # ============================================================
+      # CINEMACENTER
+      # ============================================================
+
       - name: Extraer Cinemacenter Tucumán
+        id: cinemacenter
+        continue-on-error: true
         run: |
           mkdir -p .tmp/cinemacenter
           cd .tmp/cinemacenter
+
           python ../../extractores/cinemacenter.py
 
-      - name: Publicar JSON
+      - name: Publicar Cinemacenter
+        if: steps.cinemacenter.outcome == 'success'
         run: |
-          cp .tmp/agenda/agenda_eventos.json datos/agenda_eventos.json
-          cp .tmp/contenidos/radio_tucuman.json datos/radio_tucuman.json
-          cp .tmp/contenidos/cine_tucuman.json datos/cine_tucuman.json
-          cp .tmp/cinemacenter/cine_cinemacenter_tucuman.json datos/cine_cinemacenter_tucuman.json
+          if [ -f ".tmp/cinemacenter/cine_cinemacenter_tucuman.json" ]; then
+            cp .tmp/cinemacenter/cine_cinemacenter_tucuman.json datos/cine_cinemacenter_tucuman.json
+            echo "Cinemacenter actualizado correctamente."
+          else
+            echo "ADVERTENCIA: no se generó cine_cinemacenter_tucuman.json."
+          fi
+
+      - name: Informar error de Cinemacenter
+        if: steps.cinemacenter.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: Cinemacenter no respondió."
+          echo "Se conservará la cartelera anterior."
+
+      # ============================================================
+      # VALIDACIÓN
+      # ============================================================
 
       - name: Validar JSON
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+
           files = [
               "datos/agenda_eventos.json",
-              "datos/radio_tucuman.json",
               "datos/cine_tucuman.json",
+              "datos/radio_tucuman.json",
               "datos/cine_cinemacenter_tucuman.json",
           ]
-          for f in files:
-              p = Path(f)
-              with p.open(encoding="utf-8") as fh:
-                  data = json.load(fh)
-              print(f"{f}: OK")
-              if f.endswith("agenda_eventos.json"):
-                  print("  eventos:", len(data))
+
+          print("")
+          print("=" * 60)
+          print("VALIDACIÓN DE DATOS")
+          print("=" * 60)
+
+          for filename in files:
+              path = Path(filename)
+
+              if not path.exists():
+                  print(f"⚠ {filename}: NO EXISTE")
+                  continue
+
+              try:
+                  with path.open(encoding="utf-8") as f:
+                      data = json.load(f)
+
+                  print(f"✓ {filename}: JSON válido")
+
+                  if filename.endswith("agenda_eventos.json"):
+                      if isinstance(data, list):
+                          print(f"  Eventos: {len(data)}")
+                      else:
+                          print("  Formato: objeto")
+
+              except Exception as e:
+                  print(f"✗ {filename}: ERROR")
+                  print(f"  {e}")
+
+          print("=" * 60)
           PY
+
+      # ============================================================
+      # COMMIT
+      # ============================================================
 
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add datos/
+
           if git diff --cached --quiet; then
-            echo "No hay cambios en los datos."
+            echo "No hay cambios nuevos en los datos."
           else
             git commit -m "Actualizar datos de Agenda Tucumán"
             git push
+            echo "Datos publicados correctamente."
           fi
+
+      # ============================================================
+      # RESUMEN
+      # ============================================================
+
+      - name: Resumen final
+        if: always()
+        run: |
+          echo ""
+          echo "============================================================"
+          echo "RESUMEN"
+          echo "============================================================"
+
+          if [ "${{ steps.agenda.outcome }}" = "success" ]; then
+            echo "✓ Agenda MEC: OK"
+          else
+            echo "⚠ Agenda MEC: no actualizada"
+          fi
+
+          if [ "${{ steps.radio.outcome }}" = "success" ]; then
+            echo "✓ Radio/Contenidos: OK"
+          else
+            echo "⚠ Radio/Contenidos: no actualizado"
+          fi
+
+          if [ "${{ steps.cinemacenter.outcome }}" = "success" ]; then
+            echo "✓ Cinemacenter: OK"
+          else
+            echo "⚠ Cinemacenter: no actualizado"
+          fi
+
+          echo ""
+          echo "Los datos que no pudieron actualizarse conservan"
+          echo "la versión anterior del repositorio."
+          echo "============================================================"
