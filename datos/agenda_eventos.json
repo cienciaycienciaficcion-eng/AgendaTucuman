@@ -51,7 +51,36 @@
         "start_datetime": "2026-10-02T08:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_range",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-09-30",
+      "card_time": "08:00",
+      "date": "title_range",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "46289",
@@ -91,7 +120,36 @@
         "start_datetime": "2026-10-03T08:00:00-03:00",
         "end_datetime": "2026-10-03T20:00:00-03:00"
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "08:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "46479",
@@ -131,7 +189,36 @@
         "start_datetime": "2026-10-03T08:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "08:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "46001",
@@ -171,7 +258,36 @@
         "start_datetime": "2026-10-04T15:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "15:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "45779",
@@ -215,7 +331,36 @@
         "start_datetime": "2026-10-04T16:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "45785",
@@ -276,7 +421,36 @@
         "start_datetime": "2026-10-11T08:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-08",
+      "card_time": "08:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "44233",
@@ -330,7 +504,36 @@
         "start_datetime": "2026-10-11T08:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-09",
+      "card_time": "08:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "46481",
@@ -384,7 +587,36 @@
         "start_datetime": "2026-10-11T12:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-09",
+      "card_time": "12:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   },
   {
     "id": "45792",
@@ -424,6 +656,35 @@
         "start_datetime": "2026-10-31T08:00:00-03:00",
         "end_datetime": ""
       }
-    ]
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.77
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "08:00",
+      "date": "card",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-09"
+    }
   }
 ]
