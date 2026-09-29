@@ -8,7 +8,7 @@ import { useCinemaData } from '@/data/use-remote-data';
 
 export default function CineScreen() {
   const today = todayIso();
-  const { data: cinemaData } = useCinemaData();
+  const { data: cinemaData, loading, online, refresh } = useCinemaData();
 
   const movies = useMemo(() => {
     return cinemaData.cartelera.movies
@@ -22,7 +22,7 @@ export default function CineScreen() {
         }
         return acc;
       }, []);
-  }, [today]);
+  }, [cinemaData, today]);
 
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
@@ -36,6 +36,15 @@ export default function CineScreen() {
           </View>
           <Pressable onPress={() => Linking.openURL('https://www.cinemacenter.com.ar/cartelera#contenido')} style={styles.source}>
             <ThemedText style={styles.sourceText}>Sitio oficial</ThemedText>
+          </Pressable>
+        </View>
+
+        <View style={styles.statusRow}>
+          <ThemedText themeColor="textSecondary">
+            {loading ? 'Actualizando cartelera…' : online ? 'Cartelera actualizada desde GitHub' : 'Sin conexión · cartelera guardada'}
+          </ThemedText>
+          <Pressable onPress={refresh} style={styles.refreshButton}>
+            <ThemedText style={styles.refreshText}>Actualizar</ThemedText>
           </Pressable>
         </View>
 
@@ -90,4 +99,7 @@ const styles = StyleSheet.create({
   timeText:{fontSize:15,fontWeight:'800'},
   note:{backgroundColor:'#EAF5EE',borderRadius:16,padding:16,marginTop:4},
   noteTitle:{fontWeight:'800',marginBottom:4,color:Colors.light.primaryDark},
+  statusRow:{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginBottom:12,gap:8},
+  refreshButton:{borderWidth:1,borderColor:Colors.light.border,borderRadius:10,paddingHorizontal:10,paddingVertical:6,backgroundColor:'#fff'},
+  refreshText:{color:Colors.light.primaryDark,fontWeight:'700',fontSize:12},
 });

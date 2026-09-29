@@ -26,7 +26,7 @@ export default function CalendarScreen() {
 
   const daysWithEvents = useMemo(
     () => new Set(agendaEvents.flatMap(e => e.occurrences?.map(o => o.date) ?? [e.date_start])),
-    []
+    [agendaEvents]
   );
 
   const selectedEvents = agendaEvents

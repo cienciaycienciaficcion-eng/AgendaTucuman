@@ -25,7 +25,7 @@ export default function AgendaScreen() {
       .filter(e => filter === 'Todos' || e.categories?.includes(filter))
       .filter(e => !query.trim() || `${e.title} ${e.location} ${e.description}`.toLowerCase().includes(query.toLowerCase()))
       .sort((a, b) => a.start_datetime.localeCompare(b.start_datetime));
-  }, [query, filter, today]);
+  }, [agendaEvents, query, filter, today]);
 
   const openEvent = (event: any) => {
     const lines = [

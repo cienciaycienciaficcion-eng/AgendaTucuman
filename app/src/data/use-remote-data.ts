@@ -21,6 +21,7 @@ export function useAgendaData() {
     setLoading(true);
     try {
       const data = await fetchRemoteAgenda();
+      if (!Array.isArray(data)) throw new Error('Agenda remota inválida');
       setEvents(data);
       setOnline(true);
       setUpdatedAt(new Date().toISOString());
@@ -44,7 +45,11 @@ export function useCinemaData() {
   const refresh = useCallback(async () => {
     setLoading(true);
     try {
-      setData(await fetchRemoteCinema());
+      const next = await fetchRemoteCinema();
+      if (!next?.cartelera?.movies || !Array.isArray(next.cartelera.movies)) {
+        throw new Error('Cartelera remota inválida');
+      }
+      setData(next);
       setOnline(true);
     } catch {
       setOnline(false);
@@ -70,7 +75,11 @@ export function useRadioData() {
   const refresh = useCallback(async () => {
     setLoading(true);
     try {
-      setData(await fetchRemoteRadio());
+      const next = await fetchRemoteRadio();
+      if (!next || (!next.stream_urls?.length && !next.audio_urls?.length && !next.player?.player_url)) {
+        throw new Error('Radio remota inválida');
+      }
+      setData(next);
       setOnline(true);
     } catch {
       setOnline(false);

@@ -10,7 +10,8 @@ async function fetchJson<T>(url: string): Promise<T> {
     : undefined;
 
   try {
-    const response = await fetch(url, {
+    const separator = url.includes('?') ? '&' : '?';
+    const response = await fetch(`${url}${separator}t=${Date.now()}`, {
       headers: { Accept: 'application/json' },
       signal: controller?.signal,
       cache: 'no-store',

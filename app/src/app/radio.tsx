@@ -5,7 +5,7 @@ import { Colors, MaxContentWidth, Spacing } from '@/constants/theme';
 import { useRadioData } from '@/data/use-remote-data';
 
 export default function RadioScreen() {
-  const { stream, player, online } = useRadioData();
+  const { stream, player, online, loading, refresh } = useRadioData();
 
   return (
     <SafeAreaView style={styles.safe} edges={['top']}>
@@ -25,6 +25,15 @@ export default function RadioScreen() {
         <Pressable onPress={() => Linking.openURL(player)} style={styles.secondary}>
           <ThemedText style={styles.secondaryText}>Abrir reproductor web</ThemedText>
         </Pressable>
+
+        <View style={styles.statusRow}>
+          <ThemedText themeColor="textSecondary">
+            {loading ? 'Actualizando radio…' : online ? 'Fuente actualizada desde GitHub' : 'Sin conexión · usando fuente guardada'}
+          </ThemedText>
+          <Pressable onPress={refresh} style={styles.refreshButton}>
+            <ThemedText style={styles.refreshText}>Actualizar</ThemedText>
+          </Pressable>
+        </View>
 
         <View style={styles.info}>
           <ThemedText themeColor="textSecondary">
@@ -51,5 +60,8 @@ const styles=StyleSheet.create({
   playText:{color:'#fff',fontWeight:'800',fontSize:16},
   secondary:{marginTop:10,borderWidth:1,borderColor:Colors.light.border,borderRadius:16,padding:15,alignItems:'center',backgroundColor:'#fff'},
   secondaryText:{fontWeight:'700',color:Colors.light.primaryDark},
-  info:{marginTop:24,backgroundColor:'#fff',borderWidth:1,borderColor:Colors.light.border,borderRadius:18,padding:18,gap:7},
+  statusRow:{flexDirection:'row',justifyContent:'space-between',alignItems:'center',marginTop:18,gap:8},
+  refreshButton:{borderWidth:1,borderColor:Colors.light.border,borderRadius:10,paddingHorizontal:10,paddingVertical:6,backgroundColor:'#fff'},
+  refreshText:{color:Colors.light.primaryDark,fontWeight:'700',fontSize:12},
+  info:{marginTop:18,backgroundColor:'#fff',borderWidth:1,borderColor:Colors.light.border,borderRadius:18,padding:18,gap:7},
 });
