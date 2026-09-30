@@ -77,3 +77,8 @@ python ../../extractores/cinemacenter.py
 ## Estado
 
 La app parte de datos de respaldo ya generados. Los datos remotos se actualizan automáticamente cuando el workflow se ejecuta correctamente.
+
+
+### Películas
+
+`datos/agenda_peliculas.json` contiene el enriquecimiento cinematográfico generado automáticamente desde las películas detectadas por Cinemacenter. La app lo consume desde GitHub Raw.

@@ -42,3 +42,7 @@ export async function fetchRemoteCinema(): Promise<any> {
 export async function fetchRemoteRadio(): Promise<any> {
   return fetchJson<any>(REMOTE_DATA_URLS.radio);
 }
+
+export async function fetchRemoteMovies(): Promise<any> {
+  return fetchJson<any>(REMOTE_DATA_URLS.movies);
+}

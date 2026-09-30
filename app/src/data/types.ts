@@ -61,3 +61,61 @@ export type CinemaData = {
     movies: CinemaMovie[];
   };
 };
+
+
+export type MovieTrailer = {
+  id?: string;
+  titulo: string;
+  tipo: string;
+  youtube_id: string;
+  url: string;
+  oficial?: boolean;
+};
+
+export type MovieInfo = {
+  id: string;
+  titulo: string;
+  titulo_original: string;
+  anio: number | null;
+  fecha_estreno: string | null;
+  duracion_minutos: number | null;
+  generos: string[];
+  director: string[];
+  actores: Array<{
+    nombre: string;
+    personaje: string;
+  }>;
+  sinopsis: string;
+  poster: string | null;
+  trailers: MovieTrailer[];
+  tmdb_id: number | null;
+  tmdb_url: string | null;
+  fuente: string | null;
+  titulo_cinemacenter: string;
+  actualizado_at: string;
+};
+
+export type MovieInfoData = {
+  schema_version: string;
+  generated_at: string;
+  source: {
+    metadata: string;
+    cinema: string;
+    tmdb_api: string;
+    attribution_required: boolean;
+    attribution_notice: string;
+  };
+  cinema_reference: {
+    week_start: string | null;
+    week_end: string | null;
+  };
+  peliculas: MovieInfo[];
+  summary: {
+    total: number;
+    resueltas_tmdb: number;
+    sinopsis_disponibles: number;
+    posters_disponibles: number;
+    trailers_disponibles: number;
+    sin_resolver: string[];
+  };
+};

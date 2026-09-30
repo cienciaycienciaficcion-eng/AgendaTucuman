@@ -4,11 +4,13 @@ import {
   fallbackCinemaData,
   RADIO_STREAM_URL,
   RADIO_PLAYER_URL,
+  fallbackMovieInfoData,
 } from '@/data';
 import {
   fetchRemoteAgenda,
   fetchRemoteCinema,
   fetchRemoteRadio,
+  fetchRemoteMovies,
 } from './remote';
 
 export function useAgendaData() {
@@ -100,4 +102,31 @@ export function useRadioData() {
     RADIO_PLAYER_URL;
 
   return { data, stream, player, loading, online, refresh };
+}
+
+
+export function useMovieInfoData() {
+  const [data, setData] = useState<any>(fallbackMovieInfoData);
+  const [loading, setLoading] = useState(true);
+  const [online, setOnline] = useState(false);
+
+  const refresh = useCallback(async () => {
+    setLoading(true);
+    try {
+      const next = await fetchRemoteMovies();
+      if (!next?.peliculas || !Array.isArray(next.peliculas)) {
+        throw new Error('Información de películas remota inválida');
+      }
+      setData(next);
+      setOnline(true);
+    } catch {
+      setOnline(false);
+    } finally {
+      setLoading(false);
+    }
+  }, []);
+
+  useEffect(() => { refresh(); }, [refresh]);
+
+  return { data, loading, online, refresh };
 }

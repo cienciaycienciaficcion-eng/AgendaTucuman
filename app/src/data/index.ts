@@ -1,5 +1,6 @@
 import agendaData from './agenda_tucuman.json';
 import cinemaData from './cine_cinemacenter_tucuman.json';
+import movieInfoData from './agenda_peliculas.json';
 
 export const fallbackAgendaEvents: any[] = Array.isArray(agendaData)
   ? agendaData
@@ -97,3 +98,5 @@ export type CinemaData = {
     movies: CinemaMovie[];
   };
 };
+
+export const fallbackMovieInfoData: any = movieInfoData;
