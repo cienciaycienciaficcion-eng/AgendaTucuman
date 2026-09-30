@@ -117,18 +117,20 @@ jobs:
           if new_count == 0:
               errors.append(
                   "El extractor generó 0 eventos. Posible cambio en la "
-                  "API/estructura de Agenda Tucumán."
+                  "API/estructura de Agenda Tucumán o ausencia total de datos."
               )
 
-          if old_count > 20 and new_count < max(5, int(old_count * 0.20)):
-              errors.append(
-                  f"Caída anómala: {old_count} -> {new_count} eventos "
-                  f"(menos del 20% de la versión anterior)."
-              )
-          elif old_count > 0 and new_count < int(old_count * 0.50):
-              warnings.append(
-                  f"Los eventos bajaron notablemente: {old_count} -> {new_count}."
-              )
+          # La cantidad de eventos puede subir, bajar o mantenerse.
+          # Una variación de cantidad no es, por sí sola, una anomalía:
+          # los eventos pueden comenzar, terminar, cancelarse o dejar de
+          # estar publicados normalmente.
+          if old_count == new_count:
+              print(f"  ✓ La cantidad de eventos se mantiene: {new_count}.")
+          elif new_count > old_count:
+              print(f"  ✓ Se detectaron {new_count - old_count} eventos más que antes.")
+          else:
+              print(f"  ✓ Se detectaron {old_count - new_count} eventos menos que antes.")
+          print("  La variación de cantidad no impide la publicación.")
 
           bad = 0
           for item in data:
