@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-09-30T13:18:59.306466+00:00",
+  "generated_at": "2026-09-30T19:03:47.966688+00:00",
   "reference_date": "2026-09-30",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "a17b41b52eaa7ce9d57ee5b3c9ad8219b1a547577597e7d8846c7bfb7af4de9d"
+    "pdf_sha256": "49fd65990682cef32fae28ab497b9149c8df14f424438c1cd84d3c7662a98f10"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
