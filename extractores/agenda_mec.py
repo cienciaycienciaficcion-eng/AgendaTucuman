@@ -102,7 +102,7 @@ def parse_args():
     p.add_argument("--start-year", type=int, default=2026)
     p.add_argument("--start-month", type=int, default=9)
     p.add_argument("--months", type=int, default=12)
-    p.add_argument("--lookback-months", type=int, default=2, help="Meses anteriores a consultar para conservar eventos ya iniciados pero aún vigentes")
+    p.add_argument("--lookback-months", type=int, default=2, help="Meses anteriores adicionales para capturar eventos en curso")
     p.add_argument("--delay", type=float, default=0.15)
     p.add_argument("--out", default="agenda_extraccion_mec_v7")
     return p.parse_args()
@@ -635,10 +635,7 @@ def ajax_month(session, year, month, delay):
         "atts[author]": "",
         "atts[skin]": "tile",
         "atts[sk-options][list][style]": "standard",
-        # No usar "today": MEC puede ocultar eventos que ya comenzaron
-        # aunque todavía tengan una fecha de fin futura. La vigencia se
-        # determina después a partir de date_end/occurrences.
-        "atts[sk-options][list][start_date_type]": "",
+        "atts[sk-options][list][start_date_type]": "today",
         "atts[sk-options][list][start_date]": "",
         "atts[sk-options][list][end_date_type]": "date",
         "atts[sk-options][list][maximum_date_range]": "",
@@ -702,7 +699,7 @@ def parse_cards(html, year, month):
             try:
                 cd = datetime.strptime(card_date, "%Y-%m-%d").date()
                 # permitimos eventos que caen realmente en el mes consultado
-                if cd.month != month or cd.year != year:
+                if cd.month != month and cd.year != year:
                     continue
             except Exception:
                 pass
@@ -1427,6 +1424,207 @@ def clean_final_event(ev):
     return ev
 
 
+
+def parse_wp_service_date(title, content, default_year):
+    """Obtiene el período de vigencia de una publicación de Servicios."""
+    texts = [clean_text(title), clean_text(content)]
+    for normalized in texts:
+        if not normalized:
+            continue
+
+        # 7 al 11 de septiembre / 26 y 27 de agosto
+        m = re.search(
+            r"\b(\d{1,2})\s*(?:al|hasta|y)\s*(\d{1,2})\s+de\s+([a-záéíóúñ]+)",
+            normalized, re.I
+        )
+        if m:
+            d1, d2 = int(m.group(1)), int(m.group(2))
+            mo = normalize_month_name(m.group(3))
+            if mo:
+                try:
+                    a = date(default_year, mo, d1)
+                    b = date(default_year, mo, d2)
+                    return a.isoformat(), b.isoformat(), "services_range", 0.95
+                except ValueError:
+                    pass
+
+        # 31 de agosto hasta el 4 de septiembre / 30 de septiembre al 2 de octubre
+        m = re.search(
+            r"\b(?:desde\s+)?(?:este\s+|el\s+)?(?:lunes|martes|miércoles|jueves|viernes|sábado|domingo)?\s*"
+            r"(\d{1,2})\s+de\s+([a-záéíóúñ]+)\s+"
+            r"(?:al|hasta|-)\s+(?:el\s+|este\s+)?(?:lunes|martes|miércoles|jueves|viernes|sábado|domingo)?\s*"
+            r"(\d{1,2})\s+de\s+([a-záéíóúñ]+)",
+            normalized, re.I
+        )
+        if m:
+            d1, mo1, d2, mo2 = int(m.group(1)), normalize_month_name(m.group(2)), int(m.group(3)), normalize_month_name(m.group(4))
+            if mo1 and mo2:
+                try:
+                    y2 = default_year + (1 if mo2 < mo1 else 0)
+                    return date(default_year, mo1, d1).isoformat(), date(y2, mo2, d2).isoformat(), "services_range", 0.95
+                except ValueError:
+                    pass
+
+        # Reutilizamos el parser general para formatos completos.
+        a, b, source, score = parse_title_dates(normalized, default_year)
+        if a:
+            return a, b or a, f"services_{source}", score
+
+        # Caso: "hasta el viernes 4 de septiembre".
+        m = re.search(
+            r"(?:hasta|finaliza|termina|terminará)\s+(?:el\s+)?(?:lunes|martes|miércoles|jueves|viernes|sábado|domingo)?\s*"
+            r"(\d{1,2})\s+de\s+([a-záéíóúñ]+)", normalized, re.I
+        )
+        if m:
+            d = int(m.group(1)); mo = normalize_month_name(m.group(2))
+            if mo:
+                try:
+                    end = date(default_year, mo, d)
+                    return end.isoformat(), end.isoformat(), "services_until", 0.55
+                except ValueError:
+                    pass
+    return "", "", "", 0
+
+
+def extract_services(session, delay, year, max_pages=12):
+    """Extrae publicaciones de /category/servicios/ mediante la REST API.
+
+    Se busca dinámicamente la categoría 'servicios' y luego sus posts. Cada
+    publicación se normaliza al mismo esquema de agenda, con la categoría
+    'Servicios', para que la app la trate igual que un evento MEC.
+    """
+    events = []
+    errors = []
+    category_url = BASE + "/wp-json/wp/v2/categories"
+    posts_url = BASE + "/wp-json/wp/v2/posts"
+
+    try:
+        r = session.get(category_url, params={"slug": "servicios", "per_page": 10}, timeout=25)
+        r.raise_for_status()
+        cats = r.json()
+        category_id = next((c.get("id") for c in cats if c.get("slug") == "servicios"), None)
+        if not category_id:
+            return events, [{"stage": "services_category", "error": "No se encontró la categoría servicios"}]
+    except Exception as exc:
+        return events, [{"stage": "services_category", "error": repr(exc)}]
+
+    for page in range(1, max_pages + 1):
+        try:
+            r = session.get(
+                posts_url,
+                params={
+                    "categories": category_id,
+                    "per_page": 100,
+                    "page": page,
+                    "_embed": 1,
+                },
+                timeout=25,
+            )
+            if r.status_code == 400:
+                break
+            r.raise_for_status()
+            posts = r.json()
+            if not posts:
+                break
+        except Exception as exc:
+            errors.append({"stage": "services_posts", "page": page, "error": repr(exc)})
+            break
+
+        for post in posts:
+            try:
+                post_id = post.get("id")
+                title = clean_text((post.get("title") or {}).get("rendered", ""))
+                content_html = (post.get("content") or {}).get("rendered", "") or ""
+                content_text = strip_html(content_html)
+                url = post.get("link") or ""
+
+                date_start, date_end, date_source, date_score = parse_wp_service_date(
+                    title, content_text, year
+                )
+                if not date_start:
+                    # Sin fecha verificable no se publica como evento: evita
+                    # llenar la agenda con notas de servicios sin vigencia.
+                    continue
+
+                soup = BeautifulSoup(content_html, "html.parser")
+                image = ""
+                embedded = post.get("_embedded") or {}
+                media = (embedded.get("wp:featuredmedia") or [{}])[0]
+                image = media.get("source_url") or ""
+                if not image:
+                    og = soup.find("img", src=True)
+                    image = og.get("src", "") if og else ""
+
+                location, location_source, location_score = extract_labeled_location(content_text)
+                if not location:
+                    location, location_source, location_score = extract_narrative_location(content_text)
+                address, address_source, address_score = extract_address(content_text)
+                city = infer_city(content_text, location, address)
+                price, currency = extract_price(content_text)
+                is_free = explicit_free(content_text)
+                map_search_url = build_map_search_url(location, address, city)
+
+                occurrences = build_occurrences(date_start, date_end, "", "")
+                tags = []
+                for tag in (embedded.get("wp:term") or []):
+                    if isinstance(tag, list):
+                        tags.extend(t.get("name", "") for t in tag if t.get("taxonomy") == "post_tag")
+                tags = uniq(tags)
+
+                events.append({
+                    "id": f"servicios-{post_id}",
+                    "source": "SERVICIOS",
+                    "title": title,
+                    "url": url,
+                    "date_start": date_start,
+                    "date_end": date_end,
+                    "time_start": "",
+                    "time_end": "",
+                    "start_datetime": occurrences[0]["start_datetime"] if occurrences else make_local_datetime(date_start, ""),
+                    "end_datetime": occurrences[-1]["end_datetime"] if occurrences and occurrences[-1].get("end_datetime") else "",
+                    "description": content_html,
+                    "image": image,
+                    "price": price,
+                    "currency": currency,
+                    "is_free": is_free,
+                    "location": location,
+                    "address": address,
+                    "city": city,
+                    "organizer": "",
+                    "contact_email": [],
+                    "contact_phone": [],
+                    "categories": ["Servicios"],
+                    "tags": tags,
+                    "map_urls": [],
+                    "map_search_url": map_search_url,
+                    "registration_urls": [],
+                    "external_urls": [url] if url else [],
+                    "occurrences": occurrences,
+                    "confidence": {
+                        "date": {"source": date_source, "score": date_score},
+                        "time": {"source": "none", "score": 0, "has_start": False, "has_end": False},
+                        "location": {"source": location_source, "score": location_score},
+                        "overall": round(min(1.0, date_score * 0.55 + location_score * 0.25 + (0.10 if image else 0) + 0.10), 2),
+                    },
+                    "_sources": {
+                        "source_url": BASE + "/category/servicios/",
+                        "post_id": post_id,
+                        "date": date_source,
+                    },
+                })
+            except Exception as exc:
+                errors.append({"stage": "services_event", "post_id": post.get("id"), "error": repr(exc)})
+
+        if len(posts) < 100:
+            break
+        time.sleep(delay)
+
+    # Deduplicar por URL/ID.
+    dedup = OrderedDict()
+    for e in events:
+        dedup[e["id"]] = e
+    return list(dedup.values()), errors
+
 def main():
     args = parse_args()
     out = Path(args.out)
@@ -1437,12 +1635,16 @@ def main():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    # Consultamos también meses anteriores para capturar eventos que ya
-    # comenzaron pero continúan vigentes.
-    start_total = args.start_year * 12 + (args.start_month - 1) - max(0, args.lookback_months)
-    first_year = start_total // 12
-    first_month = start_total % 12 + 1
-    months = month_sequence(first_year, first_month, args.months + max(0, args.lookback_months))
+    months = month_sequence(args.start_year, args.start_month, args.months)
+    if args.lookback_months:
+        # Incluye meses anteriores para no perder eventos que ya comenzaron
+        # pero todavía siguen vigentes.
+        first = date(args.start_year, args.start_month, 1)
+        lookback_start = first
+        for _ in range(args.lookback_months):
+            lookback_start = (lookback_start.replace(day=1) - timedelta(days=1)).replace(day=1)
+        lookback = month_sequence(lookback_start.year, lookback_start.month, args.lookback_months)
+        months = lookback + months
 
     all_cards = []
     ajax_report = []
@@ -1551,6 +1753,15 @@ def main():
                 "error": repr(e),
             })
 
+    # ---------------------------------------------------------
+    # 3b. SERVICIOS (WordPress category)
+    # ---------------------------------------------------------
+    service_events, service_errors = extract_services(
+        session, args.delay, args.start_year
+    )
+    events.extend(service_events)
+    errors.extend(service_errors)
+
     events.sort(
         key=lambda x: (
             x.get("date_start") or "9999-99-99",
@@ -1651,6 +1862,8 @@ def main():
         f"Meses consultados: {args.months}",
         f"Tarjetas MEC encontradas: {len(all_cards)}",
         f"Eventos únicos: {len(events)}",
+        f"Eventos MEC: {sum(1 for e in events if e.get('source') == 'MEC')}",
+        f"Servicios: {sum(1 for e in events if e.get('source') == 'SERVICIOS')}",
         f"Errores: {len(errors)}",
         "",
         "CRITERIOS V11.1",
@@ -1663,6 +1876,8 @@ def main():
         "• Las tarjetas repetidas entre meses se deduplican por MEC ID.",
         "• Datetimes se construyen directamente en hora local -03:00.",
         "• Google Calendar y redes sociales no se consideran inscripción.",
+        "• Las publicaciones de /category/servicios/ se normalizan como eventos con categoría Servicios.",
+        "• Servicios sin fecha verificable no se publican como eventos.",
         "• El precio sólo se registra con evidencia textual explícita.",
         "• Gratis sólo con evidencia textual explícita.",
         "",

@@ -7,7 +7,14 @@ import { Colors, Spacing, MaxContentWidth } from '@/constants/theme';
 import { formatDate } from '@/data';
 import { useAgendaData } from '@/data/use-remote-data';
 
-const filters = ['Todos', 'Música', 'Teatro', 'Variedades', 'Talleres y Cursos'];
+const filters = ['Todos', 'Música', 'Teatro', 'Variedades', 'Talleres y Cursos', 'Servicios'];
+
+const normalizeCategory = (value: unknown) =>
+  String(value ?? '')
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
 
 export default function AgendaScreen() {
   const { events: agendaEvents, loading, online, refresh } = useAgendaData();
@@ -22,7 +29,7 @@ export default function AgendaScreen() {
   const events = useMemo(() => {
     return [...agendaEvents]
       .filter(e => e.date_end >= today)
-      .filter(e => filter === 'Todos' || e.categories?.includes(filter))
+      .filter(e => filter === 'Todos' || (e.categories || []).some((category: unknown) => normalizeCategory(category) === normalizeCategory(filter)))
       .filter(e => !query.trim() || `${e.title} ${e.location} ${e.description}`.toLowerCase().includes(query.toLowerCase()))
       .sort((a, b) => a.start_datetime.localeCompare(b.start_datetime));
   }, [agendaEvents, query, filter, today]);
