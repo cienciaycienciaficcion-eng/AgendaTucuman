@@ -135,6 +135,30 @@ jobs:
           echo "Se conservará la cartelera anterior."
 
       # ============================================================
+      # INFORMACIÓN DETALLADA DE PELÍCULAS
+      # ============================================================
+
+      - name: Enriquecer películas con TMDB
+        id: peliculas
+        continue-on-error: true
+        env:
+          TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
+        run: |
+          if [ -z "$TMDB_API_TOKEN" ]; then
+            echo "ADVERTENCIA: no existe el secret TMDB_API_TOKEN."
+            echo "Se conserva la información cinematográfica anterior."
+            exit 0
+          fi
+
+          python extractores/peliculas_tmdb.py
+
+      - name: Informar estado de películas
+        if: steps.peliculas.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: no se pudo actualizar la información cinematográfica."
+          echo "Se conservará la versión anterior de datos/agenda_peliculas.json."
+
+      # ============================================================
       # VALIDACIÓN GENERAL DE JSON PUBLICADOS
       # ============================================================
 
@@ -151,6 +175,7 @@ jobs:
               "datos/cine_tucuman.json",
               "datos/radio_tucuman.json",
               "datos/cine_cinemacenter_tucuman.json",
+              "datos/agenda_peliculas.json",
           ]
 
           failed = False
