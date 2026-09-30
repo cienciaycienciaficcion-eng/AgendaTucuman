@@ -22,6 +22,8 @@ agenda-tucuman/
 ### Agenda
 `agenda_mec.py` consulta Agenda Tucumán mediante MEC/AJAX y WordPress REST. Conserva la lógica del extractor V11.1 proporcionado para el proyecto.
 
+El extractor consulta también los dos meses anteriores al período solicitado. Esto evita perder eventos de varios días que ya comenzaron pero cuya fecha de finalización todavía no llegó. Además, cada consulta mensual parte del primer día del mes en lugar de `today`, para que MEC no descarte esos eventos antes de que podamos evaluar su `date_end`.
+
 ### Cine
 `cinemacenter.py` consulta directamente Cinemacenter Tucumán, usando el PDF oficial de horarios (`cityId=13`) y la página oficial de estrenos.
 
@@ -55,7 +57,7 @@ pip install -r extractores/requirements.txt
 Agenda:
 
 ```bash
-python extractores/agenda_mec.py --start-year 2026 --start-month 9 --months 12 --out .tmp/agenda
+python extractores/agenda_mec.py --start-year 2026 --start-month 9 --months 12 --lookback-months 2 --out .tmp/agenda
 ```
 
 Contenidos/radio:
