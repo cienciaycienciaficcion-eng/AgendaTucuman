@@ -11,14 +11,14 @@ permissions:
 
 jobs:
   actualizar:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
@@ -44,6 +44,7 @@ jobs:
             --start-year "$YEAR" \
             --start-month "$MONTH" \
             --months 12 \
+            --lookback-months 2 \
             --delay 0.15 \
             --out .tmp/agenda
 
@@ -194,7 +195,7 @@ jobs:
             echo "No hay cambios nuevos en los datos."
           else
             git commit -m "Actualizar datos de Agenda Tucumán"
-            git push
+            git push origin HEAD:${GITHUB_REF_NAME}
             echo "Datos publicados correctamente."
           fi
 
