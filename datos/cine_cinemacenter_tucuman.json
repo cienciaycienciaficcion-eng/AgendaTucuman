@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-09-30T00:34:52.732763+00:00",
+  "generated_at": "2026-09-30T06:32:25.457809+00:00",
   "reference_date": "2026-09-30",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "671f325304638306f49fc1b91520939ee82dfcacefe5ffff2711bb034cce8c13"
+    "pdf_sha256": "a5fda52c2edec004113cbb7cb6981f1604da3bc8cc4e13831d392af32dc05ce8"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -38,21 +38,13 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "18:20"
-          ],
+          "martes": [],
           "miércoles": [
             "16:00",
             "18:20"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-09-29",
-            "time": "18:20",
-            "datetime": "2026-09-29T18:20:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-09-30",
             "time": "16:00",
@@ -85,20 +77,12 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "21:50"
-          ],
+          "martes": [],
           "miércoles": [
             "21:50"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-09-29",
-            "time": "21:50",
-            "datetime": "2026-09-29T21:50:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-09-30",
             "time": "21:50",
@@ -125,11 +109,7 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "18:00",
-            "20:30",
-            "21:30"
-          ],
+          "martes": [],
           "miércoles": [
             "17:20",
             "18:00",
@@ -138,24 +118,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-09-29",
-            "time": "18:00",
-            "datetime": "2026-09-29T18:00:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-09-29",
-            "time": "20:30",
-            "datetime": "2026-09-29T20:30:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-09-29",
-            "time": "21:30",
-            "datetime": "2026-09-29T21:30:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-09-30",
             "time": "17:20",
@@ -200,11 +162,7 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "18:15",
-            "20:20",
-            "22:30"
-          ],
+          "martes": [],
           "miércoles": [
             "18:15",
             "20:20",
@@ -212,24 +170,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-09-29",
-            "time": "18:15",
-            "datetime": "2026-09-29T18:15:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-09-29",
-            "time": "20:20",
-            "datetime": "2026-09-29T20:20:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-09-29",
-            "time": "22:30",
-            "datetime": "2026-09-29T22:30:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-09-30",
             "time": "18:15",
@@ -268,20 +208,12 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "19:30"
-          ],
+          "martes": [],
           "miércoles": [
             "19:30"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-09-29",
-            "time": "19:30",
-            "datetime": "2026-09-29T19:30:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-09-30",
             "time": "19:30",
@@ -308,28 +240,13 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "19:40",
-            "22:00"
-          ],
+          "martes": [],
           "miércoles": [
             "19:40",
             "22:00"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-09-29",
-            "time": "19:40",
-            "datetime": "2026-09-29T19:40:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-09-29",
-            "time": "22:00",
-            "datetime": "2026-09-29T22:00:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-09-30",
             "time": "19:40",
