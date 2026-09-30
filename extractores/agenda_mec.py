@@ -13,8 +13,7 @@ MEC:
 
 Enfoque V10:
 - MEC es la fuente primaria de fecha/hora visibles.
-- Consulta cada mes desde el primer día del mes, no sólo desde hoy.
-- Incluye un período de retroceso para detectar eventos ya iniciados pero aún vigentes.
+- Filtra tarjetas según el mes realmente consultado.
 - Deduplica por MEC ID.
 - Conserva ocurrencias individuales para eventos de varios días.
 - Construye datetimes locales de Tucumán sin conversión UTC.
@@ -103,43 +102,21 @@ def parse_args():
     p.add_argument("--start-year", type=int, default=2026)
     p.add_argument("--start-month", type=int, default=9)
     p.add_argument("--months", type=int, default=12)
-    p.add_argument(
-        "--lookback-months",
-        type=int,
-        default=2,
-        help="Meses anteriores a incluir para detectar eventos ya iniciados pero aún vigentes.",
-    )
+    p.add_argument("--lookback-months", type=int, default=2, help="Meses anteriores a consultar para conservar eventos ya iniciados pero aún vigentes")
     p.add_argument("--delay", type=float, default=0.15)
     p.add_argument("--out", default="agenda_extraccion_mec_v7")
     return p.parse_args()
 
 
-def month_sequence(year, month, count, lookback_months=0):
-    """
-    Devuelve los meses a consultar incluyendo un período de retroceso.
-
-    El retroceso es importante para eventos de varios días que comenzaron
-    en un mes anterior pero todavía continúan durante el mes actual.
-    """
+def month_sequence(year, month, count):
     result = []
-
-    # Retroceder N meses desde el mes inicial.
     y, m = year, month
-    for _ in range(max(0, int(lookback_months or 0))):
-        m -= 1
-        if m < 1:
-            m = 12
-            y -= 1
-
-    # Consultar también el mes inicial y los meses siguientes solicitados.
-    total = max(0, int(lookback_months or 0)) + max(0, int(count or 0))
-    for _ in range(total):
+    for _ in range(count):
         result.append((y, m))
         m += 1
         if m > 12:
             m = 1
             y += 1
-
     return result
 
 
@@ -658,11 +635,11 @@ def ajax_month(session, year, month, delay):
         "atts[author]": "",
         "atts[skin]": "tile",
         "atts[sk-options][list][style]": "standard",
-        # "today" hace que MEC pueda ocultar eventos cuyo inicio ya pasó,
-        # aunque su fecha de finalización todavía sea futura.
-        # Consultamos desde el primer día del mes para no perderlos.
-        "atts[sk-options][list][start_date_type]": "date",
-        "atts[sk-options][list][start_date]": f"{year:04d}-{month:02d}-01",
+        # No usar "today": MEC puede ocultar eventos que ya comenzaron
+        # aunque todavía tengan una fecha de fin futura. La vigencia se
+        # determina después a partir de date_end/occurrences.
+        "atts[sk-options][list][start_date_type]": "",
+        "atts[sk-options][list][start_date]": "",
         "atts[sk-options][list][end_date_type]": "date",
         "atts[sk-options][list][maximum_date_range]": "",
     }
@@ -1460,12 +1437,12 @@ def main():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    months = month_sequence(
-        args.start_year,
-        args.start_month,
-        args.months,
-        args.lookback_months,
-    )
+    # Consultamos también meses anteriores para capturar eventos que ya
+    # comenzaron pero continúan vigentes.
+    start_total = args.start_year * 12 + (args.start_month - 1) - max(0, args.lookback_months)
+    first_year = start_total // 12
+    first_month = start_total % 12 + 1
+    months = month_sequence(first_year, first_month, args.months + max(0, args.lookback_months))
 
     all_cards = []
     ajax_report = []
