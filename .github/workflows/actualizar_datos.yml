@@ -64,6 +64,119 @@ jobs:
           echo "ADVERTENCIA: no se pudo actualizar la agenda."
           echo "Se conservarán los datos anteriores."
 
+
+      - name: Diagnóstico y validación de Agenda
+        id: validate
+        continue-on-error: true
+        if: steps.agenda.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          errors = []
+          warnings = []
+
+          generated = Path(".tmp/agenda/agenda_eventos.json")
+          previous = Path("datos/agenda_eventos.json")
+
+          print("")
+          print("=" * 72)
+          print("DIAGNÓSTICO AGENDA TUCUMÁN")
+          print("=" * 72)
+
+          if not generated.exists():
+              errors.append("El extractor NO generó .tmp/agenda/agenda_eventos.json.")
+              data = []
+          else:
+              try:
+                  data = json.loads(generated.read_text(encoding="utf-8"))
+                  if not isinstance(data, list):
+                      errors.append("El JSON generado no contiene una lista de eventos.")
+                      data = []
+              except Exception as e:
+                  errors.append(f"El JSON generado es inválido: {e}")
+                  data = []
+
+          new_count = len(data)
+
+          old_count = 0
+          if previous.exists():
+              try:
+                  old = json.loads(previous.read_text(encoding="utf-8"))
+                  if isinstance(old, list):
+                      old_count = len(old)
+              except Exception as e:
+                  warnings.append(f"No se pudo leer la versión anterior: {e}")
+
+          print(f"Eventos anteriores : {old_count}")
+          print(f"Eventos nuevos     : {new_count}")
+          print("")
+
+          if new_count == 0:
+              errors.append(
+                  "El extractor generó 0 eventos. Posible cambio en la "
+                  "API/estructura de Agenda Tucumán."
+              )
+
+          if old_count > 20 and new_count < max(5, int(old_count * 0.20)):
+              errors.append(
+                  f"Caída anómala: {old_count} -> {new_count} eventos "
+                  f"(menos del 20% de la versión anterior)."
+              )
+          elif old_count > 0 and new_count < int(old_count * 0.50):
+              warnings.append(
+                  f"Los eventos bajaron notablemente: {old_count} -> {new_count}."
+              )
+
+          bad = 0
+          for item in data:
+              if not isinstance(item, dict) or not item.get("title") or not item.get("link"):
+                  bad += 1
+
+          if bad:
+              errors.append(f"{bad} eventos no tienen título o enlace.")
+
+          if warnings:
+              print("ADVERTENCIAS:")
+              for warning in warnings:
+                  print(f"  ⚠ {warning}")
+              print("")
+
+          if errors:
+              print("ERRORES CRÍTICOS:")
+              for error in errors:
+                  print(f"  ✗ {error}")
+              print("")
+              print("ACCIÓN:")
+              print("  ✗ NO reemplazar datos anteriores.")
+              print("  ✓ Mantener la última versión válida.")
+              print("  ✗ Marcar el workflow como FAILED.")
+              print("=" * 72)
+              sys.exit(1)
+
+          print("RESULTADO:")
+          print("  ✓ Agenda validada correctamente.")
+          print("  ✓ Los datos pueden publicarse.")
+          print("=" * 72)
+          PY
+
+      - name: Publicar agenda validada
+        if: steps.agenda.outcome == 'success' && steps.validate.outcome == 'success'
+        run: |
+          cp .tmp/agenda/agenda_eventos.json datos/agenda_eventos.json
+          echo "✓ Agenda validada y publicada."
+
+      - name: Informar fallo de validación de Agenda
+        if: steps.validate.outcome == 'failure' || steps.agenda.outcome != 'success'
+        run: |
+          echo ""
+          echo "🚨 ALERTA: actualización de Agenda Tucumán FALLIDA."
+          echo "Los datos anteriores se conservarán."
+          echo "Revisar el paso 'Diagnóstico y validación de Agenda'."
+          echo ""
+
       # ============================================================
       # RADIO / CONTENIDOS
       # ============================================================
