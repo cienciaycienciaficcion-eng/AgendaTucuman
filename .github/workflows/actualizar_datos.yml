@@ -118,11 +118,11 @@ jobs:
 
           PYTHONUNBUFFERED=1 python -u ../../extractores/cinemacenter.py
 
-      - name: Validar vigencia de Cinemacenter
+      - name: Validar cartelera Cinemacenter
         id: validate_cinemacenter
         if: steps.cinemacenter.outcome == 'success'
         run: |
-          python - <<'PY'
+          python - <<'PY2'
           import json
           import sys
           from datetime import date
@@ -137,10 +137,12 @@ jobs:
           cartelera = data.get('cartelera') or {}
           week_start = cartelera.get('week_start')
           week_end = cartelera.get('week_end')
+          movies = cartelera.get('movies') or []
           today = date.today().isoformat()
 
           print(f'Fecha del runner: {today}')
           print(f'Semana detectada: {week_start} -> {week_end}')
+          print(f'Películas detectadas: {len(movies)}')
 
           if not week_start or not week_end:
               print('ERROR: la cartelera no contiene week_start/week_end.')
@@ -151,21 +153,28 @@ jobs:
               print('No se reemplazarán los datos publicados anteriormente.')
               sys.exit(1)
 
-          if week_start > today:
-              print('ADVERTENCIA: Cinemacenter devolvió una cartelera futura.')
-
-          movies = cartelera.get('movies') or []
+          # Una cartelera sin películas se considera una respuesta incompleta.
+          # No borramos una cartelera válida por un fallo puntual del extractor.
           if not movies:
-              print('ERROR: la cartelera vigente no contiene películas.')
-              sys.exit(1)
+              print('ADVERTENCIA: Cinemacenter devolvió una cartelera sin películas.')
+              print('No se reemplazará la cartelera anterior.')
+              with open('.tmp/cinemacenter/KEEP_PREVIOUS', 'w', encoding='utf-8') as f:
+                  f.write('1\n')
+              sys.exit(0)
 
-          print(f'✓ Cartelera vigente aceptada: {len(movies)} películas.')
-          PY
+          for movie in movies:
+              title = movie.get('title') or '(sin título)'
+              print(f'  - {title}')
+
+          print(f'✓ Cartelera aceptada: {len(movies)} películas.')
+          PY2
 
       - name: Publicar Cinemacenter
         if: steps.cinemacenter.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
         run: |
-          if [ -f ".tmp/cinemacenter/cine_cinemacenter_tucuman.json" ]; then
+          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
+            echo "No se publica una cartelera vacía; se conserva la cartelera anterior."
+          elif [ -f ".tmp/cinemacenter/cine_cinemacenter_tucuman.json" ]; then
             cp .tmp/cinemacenter/cine_cinemacenter_tucuman.json datos/cine_cinemacenter_tucuman.json
             echo "Cinemacenter actualizado correctamente."
           else
@@ -178,7 +187,7 @@ jobs:
           if [ "${{ steps.cinemacenter.outcome }}" != "success" ]; then
             echo "ADVERTENCIA: Cinemacenter no respondió."
           else
-            echo "ADVERTENCIA: la cartelera obtenida no fue aceptada como vigente."
+            echo "ADVERTENCIA: la cartelera obtenida no fue aceptada."
           fi
           echo "Se conservará la cartelera anterior."
 
@@ -191,6 +200,10 @@ jobs:
       - name: Preparar cartelera para enriquecimiento Cinemacenter
         if: steps.validate_cinemacenter.outcome == 'success'
         run: |
+          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
+            echo "No hay cartelera nueva; no se prepara metadata."
+            exit 0
+          fi
           if [ -f "datos/cine_cinemacenter_tucuman.json" ]; then
             cp datos/cine_cinemacenter_tucuman.json src/data/cine_cinemacenter_tucuman.json
             echo "Cartelera Cinemacenter sincronizada con src/data/."
@@ -208,7 +221,12 @@ jobs:
           CINEMACENTER_FETCH_MODE: jina
           CINEMACENTER_READER_TIMEOUT: '60'
           PYTHONUNBUFFERED: '1'
-        run: python scripts/enrich-cinemacenter-metadata.py
+        run: |
+          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
+            echo "No se ejecuta metadata porque la cartelera obtenida está vacía."
+            exit 0
+          fi
+          python scripts/enrich-cinemacenter-metadata.py
 
       - name: Informar estado de metadata Cinemacenter
         if: steps.cine_metadata.outcome != 'success'
@@ -227,6 +245,10 @@ jobs:
         env:
           TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
         run: |
+          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
+            echo "No se actualizan películas porque la cartelera no fue reemplazada."
+            exit 0
+          fi
           if [ -z "$TMDB_API_TOKEN" ]; then
             echo "ADVERTENCIA: no existe el secret TMDB_API_TOKEN."
             echo "Se conserva la información cinematográfica anterior."
