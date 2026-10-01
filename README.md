@@ -1,51 +1,34 @@
-# Agenda Tucumán — App
+# Fix GitHub: metadata faltante de Cinemacenter
 
-Aplicación Expo/React Native para consultar:
+Este parche NO modifica la app Expo.
 
-- Agenda de eventos de Tucumán.
-- Calendario mensual.
-- Cartelera vigente de Cinemacenter Tucumán.
-- Radio de Agenda Tucumán.
-- Enlaces y servicios.
+## Archivos
 
-## Datos dinámicos
+- `.github/workflows/actualizar_datos.yml`
+  - después de Cinemacenter intenta completar los campos faltantes con TMDB.
+  - conserva los datos ya obtenidos por Cinemacenter.
+  - obtiene la clasificación argentina desde TMDB cuando está disponible.
+  - sigue ejecutándose automáticamente cada 6 horas.
+- `.github/workflows/enrich-cine-metadata.yml`
+  - workflow manual para volver a intentar el enriquecimiento.
+- `scripts/enrich-cine-metadata-fallback.py`
+  - resuelve películas que Cinemacenter dejó incompletas.
+  - agrega `metadata_status`, `metadata_missing`, `sources_checked`.
+  - elimina de `cine_metadata.json` las películas que ya no están en la cartelera actual.
+  - si una película vuelve a cartelera, vuelve a resolverla.
 
-La app intenta descargar los JSON publicados por este repositorio:
+## Secret requerido
 
-- `datos/agenda_eventos.json`
-- `datos/cine_cinemacenter_tucuman.json`
-- `datos/radio_tucuman.json`
+Usa el mismo secret que ya utiliza el proyecto:
 
-Si GitHub no está disponible, utiliza los JSON incluidos dentro de `src/data/` como respaldo.
+`TMDB_API_TOKEN`
 
-### Configuración
+No se agrega ningún secret nuevo.
 
-Editar:
+## Orden de fuentes
 
-`src/config/remote.ts`
+1. Cinemacenter: fuente principal.
+2. TMDB: solo completa campos que siguen vacíos.
+3. Clasificación: se toma de la certificación de Argentina de TMDB cuando existe.
 
-y cambiar:
-
-```ts
-https://raw.githubusercontent.com/TU_USUARIO/agenda-tucuman/main/datos
-```
-
-por la URL real del repositorio.
-
-## Ejecutar
-
-```bash
-npm install
-npx expo start -c
-```
-
-## Android
-
-```bash
-npx expo start --android
-```
-
-Para generar una build, usar EAS Build según la configuración de Expo del proyecto.
-
-## Clima
-La app incorpora una cabecera global con logo, sección activa y clima actual de San Miguel de Tucumán. El bloque de clima se actualiza automáticamente y abre la sección `/weather` con condiciones actuales y pronóstico de 5 días. Los datos meteorológicos provienen de Open-Meteo y no requieren una API key.
+No se inventan valores.
