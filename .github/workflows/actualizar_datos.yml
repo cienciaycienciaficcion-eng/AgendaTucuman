@@ -118,8 +118,52 @@ jobs:
 
           PYTHONUNBUFFERED=1 python -u ../../extractores/cinemacenter.py
 
-      - name: Publicar Cinemacenter
+      - name: Validar vigencia de Cinemacenter
+        id: validate_cinemacenter
         if: steps.cinemacenter.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          import sys
+          from datetime import date
+          from pathlib import Path
+
+          path = Path('.tmp/cinemacenter/cine_cinemacenter_tucuman.json')
+          if not path.exists():
+              print('ERROR: no se generó cine_cinemacenter_tucuman.json.')
+              sys.exit(1)
+
+          data = json.loads(path.read_text(encoding='utf-8'))
+          cartelera = data.get('cartelera') or {}
+          week_start = cartelera.get('week_start')
+          week_end = cartelera.get('week_end')
+          today = date.today().isoformat()
+
+          print(f'Fecha del runner: {today}')
+          print(f'Semana detectada: {week_start} -> {week_end}')
+
+          if not week_start or not week_end:
+              print('ERROR: la cartelera no contiene week_start/week_end.')
+              sys.exit(1)
+
+          if week_end < today:
+              print('ERROR: Cinemacenter devolvió una cartelera vencida.')
+              print('No se reemplazarán los datos publicados anteriormente.')
+              sys.exit(1)
+
+          if week_start > today:
+              print('ADVERTENCIA: Cinemacenter devolvió una cartelera futura.')
+
+          movies = cartelera.get('movies') or []
+          if not movies:
+              print('ERROR: la cartelera vigente no contiene películas.')
+              sys.exit(1)
+
+          print(f'✓ Cartelera vigente aceptada: {len(movies)} películas.')
+          PY
+
+      - name: Publicar Cinemacenter
+        if: steps.cinemacenter.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
         run: |
           if [ -f ".tmp/cinemacenter/cine_cinemacenter_tucuman.json" ]; then
             cp .tmp/cinemacenter/cine_cinemacenter_tucuman.json datos/cine_cinemacenter_tucuman.json
@@ -128,11 +172,49 @@ jobs:
             echo "ADVERTENCIA: no se generó cine_cinemacenter_tucuman.json."
           fi
 
-      - name: Informar error de Cinemacenter
-        if: steps.cinemacenter.outcome != 'success'
+      - name: Informar estado de Cinemacenter
+        if: steps.cinemacenter.outcome != 'success' || steps.validate_cinemacenter.outcome != 'success'
         run: |
-          echo "ADVERTENCIA: Cinemacenter no respondió."
+          if [ "${{ steps.cinemacenter.outcome }}" != "success" ]; then
+            echo "ADVERTENCIA: Cinemacenter no respondió."
+          else
+            echo "ADVERTENCIA: la cartelera obtenida no fue aceptada como vigente."
+          fi
           echo "Se conservará la cartelera anterior."
+
+      # ============================================================
+      # METADATA DETALLADA DE CINEMACENTER
+      # Se ejecuta después de publicar la cartelera nueva para que la
+      # metadata siempre corresponda a las películas recién extraídas.
+      # ============================================================
+
+      - name: Preparar cartelera para enriquecimiento Cinemacenter
+        if: steps.validate_cinemacenter.outcome == 'success'
+        run: |
+          if [ -f "datos/cine_cinemacenter_tucuman.json" ]; then
+            cp datos/cine_cinemacenter_tucuman.json src/data/cine_cinemacenter_tucuman.json
+            echo "Cartelera Cinemacenter sincronizada con src/data/."
+          else
+            echo "No hay una cartelera nueva; se utilizará la versión local anterior."
+          fi
+
+      - name: Enriquecer metadata de Cinemacenter
+        id: cine_metadata
+        if: steps.validate_cinemacenter.outcome == 'success'
+        continue-on-error: true
+        env:
+          # Cinemacenter puede bloquear o ralentizar el acceso desde GitHub.
+          # Jina Reader accede a la página; la fuente de los datos sigue siendo Cinemacenter.
+          CINEMACENTER_FETCH_MODE: jina
+          CINEMACENTER_READER_TIMEOUT: '60'
+          PYTHONUNBUFFERED: '1'
+        run: python scripts/enrich-cinemacenter-metadata.py
+
+      - name: Informar estado de metadata Cinemacenter
+        if: steps.cine_metadata.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: no se pudo actualizar la metadata de Cinemacenter."
+          echo "Se conservará la metadata disponible anteriormente."
 
       # ============================================================
       # INFORMACIÓN DETALLADA DE PELÍCULAS
@@ -140,6 +222,7 @@ jobs:
 
       - name: Enriquecer películas con TMDB
         id: peliculas
+        if: steps.validate_cinemacenter.outcome == 'success'
         continue-on-error: true
         env:
           TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
@@ -175,6 +258,9 @@ jobs:
               "datos/cine_tucuman.json",
               "datos/radio_tucuman.json",
               "datos/cine_cinemacenter_tucuman.json",
+              "datos/cine_metadata.json",
+              "src/data/cine_cinemacenter_tucuman.json",
+              "src/data/cine_metadata.json",
               "datos/agenda_peliculas.json",
           ]
 
@@ -215,12 +301,12 @@ jobs:
       # ============================================================
 
       - name: Guardar cambios
-        if: steps.agenda.outcome == 'success' && steps.json_validation.outcome == 'success'
+        if: steps.json_validation.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add datos/
+          git add datos/ src/data/cine_cinemacenter_tucuman.json src/data/cine_metadata.json
 
           if git diff --cached --quiet; then
             echo "No hay cambios nuevos en los datos."
@@ -256,10 +342,16 @@ jobs:
             echo "⚠ Radio/Contenidos: no actualizado"
           fi
 
-          if [ "${{ steps.cinemacenter.outcome }}" = "success" ]; then
-            echo "✓ Cinemacenter: OK"
+          if [ "${{ steps.cinemacenter.outcome }}" = "success" ] && [ "${{ steps.validate_cinemacenter.outcome }}" = "success" ]; then
+            echo "✓ Cinemacenter: OK y cartelera vigente"
           else
-            echo "⚠ Cinemacenter: no actualizado"
+            echo "⚠ Cinemacenter: no actualizado / cartelera anterior conservada"
+          fi
+
+          if [ "${{ steps.cine_metadata.outcome }}" = "success" ]; then
+            echo "✓ Metadata Cinemacenter: OK"
+          else
+            echo "⚠ Metadata Cinemacenter: no actualizada"
           fi
 
           echo ""
