@@ -52,40 +52,21 @@ Si no hay conexión o GitHub no responde, utiliza los datos incluidos dentro de 
 El workflow está programado para ejecutarse cada 6 horas y también puede ejecutarse manualmente.
 
 
-## Información cinematográfica (TMDB)
+## Información cinematográfica (Cinemacenter)
 
-El workflow actualiza automáticamente `datos/agenda_peliculas.json` a partir de las películas que
-Cinemacenter publica en `datos/cine_cinemacenter_tucuman.json`.
+La información de las películas de Cinemacenter se genera dentro del mismo extractor que obtiene la cartelera.
 
-Para activar el enriquecimiento cinematográfico:
+El flujo es:
 
-1. Crear una cuenta en TMDB y solicitar un **API Read Access Token**.
-2. En GitHub abrir:
-   **Settings → Secrets and variables → Actions → New repository secret**
-3. Crear el secret:
-   - **Name:** `TMDB_API_TOKEN`
-   - **Secret:** el API Read Access Token de TMDB.
-4. Ejecutar manualmente **Actions → Actualizar datos Agenda Tucumán → Run workflow**.
+1. Descargar la cartelera oficial semanal de Tucumán.
+2. Obtener los `movieId` internos mediante `seleccionarMovie(...)`.
+3. Consultar `ajax_movieSlider.php` con ese ID.
+4. Abrir la ficha oficial `/ficha/{movieId}-...`.
+5. Extraer la metadata disponible en la ficha.
 
-El proceso obtiene, cuando están disponibles:
+No se necesita `TMDB_API_TOKEN` para la información de Cinemacenter. Tampoco se utilizan IMDb, Google, Jina ni coincidencias externas.
 
-- título
-- título original
-- año
-- fecha de estreno
-- duración
-- géneros
-- director
-- actores
-- sinopsis
-- póster
-- tráilers de YouTube
-
-La aplicación **no contiene el token de TMDB**. El token se usa únicamente en GitHub Actions y nunca se
-envía a la APK.
-
-Si el secret no existe, el workflow conserva la información cinematográfica anterior y continúa con
-las demás fuentes.
+Si Cinemacenter no publica un campo, se deja vacío/null.
 
 ### Licencia y atribución
 

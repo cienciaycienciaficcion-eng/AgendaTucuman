@@ -38,8 +38,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint",
-    "update:cine": "python scripts/enrich-cinemacenter-metadata.py"
+    "lint": "expo lint"
   },
   "private": true
 }

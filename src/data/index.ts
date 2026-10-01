@@ -139,9 +139,11 @@ export type CinemaData = {
   proximos_estrenos?: Array<{
     id: string;
     title: string;
-    release_date: string;
+    release_date?: string | null;
     source_url?: string;
+    source?: string;
   }>;
+  mi_boleteria_url?: string;
 };
 
 

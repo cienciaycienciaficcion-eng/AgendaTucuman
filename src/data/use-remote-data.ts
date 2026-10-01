@@ -69,33 +69,9 @@ export function useAgendaData() {
 
 
 function mergeCinemaMetadata(data: any) {
-  if (!data?.cartelera?.movies || !Array.isArray(data.cartelera.movies)) return data;
-  return {
-    ...data,
-    cartelera: {
-      ...data.cartelera,
-      movies: data.cartelera.movies.map((movie: any) => {
-        const remoteMetadata = movie.metadata ?? {};
-        const localMetadata = fallbackCinemaMetadata.find((item: any) => {
-          const aliases = [
-            ...(Array.isArray(item?.match) ? item.match : []),
-            item?.title,
-            item?.original_title,
-          ].filter(Boolean);
-          return aliases.some((title: string) =>
-            normalizeSearchText(title) === normalizeSearchText(movie.title)
-          );
-        });
-        return {
-          ...movie,
-          metadata: {
-            ...(localMetadata ?? {}),
-            ...remoteMetadata,
-          },
-        };
-      }),
-    },
-  };
+  // Cinemacenter es la única fuente de metadata. No mezclamos con la copia
+  // histórica/bundled porque podría reintroducir posters o datos de terceros.
+  return data;
 }
 
 let cinemaLastServerCheck = 0;
