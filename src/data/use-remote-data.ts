@@ -15,6 +15,7 @@ import {
 } from './remote';
 
 const AGENDA_CHECK_INTERVAL_MS = 8 * 60 * 60 * 1000;
+const CINEMA_CHECK_INTERVAL_MS = 15 * 60 * 1000;
 let agendaLastServerCheck = 0;
 let agendaRefreshPromise: Promise<any[]> | null = null;
 
@@ -97,6 +98,23 @@ function mergeCinemaMetadata(data: any) {
   };
 }
 
+let cinemaLastServerCheck = 0;
+let cinemaRefreshPromise: Promise<any> | null = null;
+
+async function refreshCinemaOnce() {
+  if (cinemaRefreshPromise) return cinemaRefreshPromise;
+  cinemaRefreshPromise = fetchRemoteCinema()
+    .then(next => {
+      if (!next?.cartelera?.movies || !Array.isArray(next.cartelera.movies)) {
+        throw new Error('Cartelera remota inválida');
+      }
+      cinemaLastServerCheck = Date.now();
+      return next;
+    })
+    .finally(() => { cinemaRefreshPromise = null; });
+  return cinemaRefreshPromise;
+}
+
 export function useCinemaData() {
   const [data, setData] = useState<any>(mergeCinemaMetadata(fallbackCinemaData));
   const [loading, setLoading] = useState(true);
@@ -105,9 +123,7 @@ export function useCinemaData() {
   const refresh = useCallback(async () => {
     setLoading(true);
     try {
-      const next = await fetchRemoteCinema();
-      if (!next?.cartelera?.movies || !Array.isArray(next.cartelera.movies)) throw new Error('Cartelera remota inválida');
-
+      const next = await refreshCinemaOnce();
       const merged = mergeCinemaMetadata(next);
       setData(merged);
       setOnline(true);
@@ -118,7 +134,27 @@ export function useCinemaData() {
     }
   }, []);
 
-  useEffect(() => { void refresh(); }, [refresh]);
+  useEffect(() => {
+    void refresh();
+
+    const interval = setInterval(() => {
+      if (Date.now() - cinemaLastServerCheck >= CINEMA_CHECK_INTERVAL_MS) {
+        void refresh();
+      }
+    }, 60 * 1000);
+
+    const subscription = AppState.addEventListener('change', nextState => {
+      if (nextState === 'active' && Date.now() - cinemaLastServerCheck >= CINEMA_CHECK_INTERVAL_MS) {
+        void refresh();
+      }
+    });
+
+    return () => {
+      clearInterval(interval);
+      subscription.remove();
+    };
+  }, [refresh]);
+
   return { data, loading, online, refresh };
 }
 

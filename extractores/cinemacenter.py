@@ -666,8 +666,22 @@ def main():
     if not pdf_text and pdf_bytes.startswith(b"{"):
         try:
             previous = json.loads(pdf_bytes.decode("utf-8"))
+            previous_week = previous.get("cartelera", {}) or {}
+            previous_end = previous_week.get("week_end")
+            today = date.today().isoformat()
+
+            # Un fallback vencido no puede presentarse como una actualización
+            # exitosa. GitHub Actions conservará el archivo publicado anterior
+            # y el workflow marcará la ejecución como fallida/advertida.
+            if previous_end and previous_end < today:
+                print(
+                    f"ERROR: no hay conexión con Cinemacenter y la última cartelera "
+                    f"disponible ({previous_end}) ya está vencida."
+                )
+                sys.exit(3)
+
             previous["generated_at"] = datetime.now().astimezone().isoformat()
-            previous["reference_date"] = date.today().isoformat()
+            previous["reference_date"] = today
             previous.setdefault("source", {})["fallback_reason"] = (
                 "Cinemacenter no respondió; se conservó la última cartelera válida."
             )
@@ -678,6 +692,8 @@ def main():
             print("Cartelera anterior conservada correctamente.")
             print(f"Archivo: {OUTPUT.resolve()}")
             sys.exit(0)
+        except SystemExit:
+            raise
         except Exception as exc:
             print(f"ERROR procesando fallback anterior: {exc}")
             sys.exit(3)

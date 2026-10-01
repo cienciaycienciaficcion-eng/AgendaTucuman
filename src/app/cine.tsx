@@ -200,6 +200,12 @@ export default function CineScreen() {
           </View>
         ) : null}
 
+        {!loading && movies.length === 0 && cinemaData?.cartelera?.week_end && cinemaData.cartelera.week_end < today ? (
+          <View style={styles.loadingBox}>
+            <ThemedText themeColor="textSecondary">La cartelera local está vencida. Se está esperando la actualización automática de Cinemacenter.</ThemedText>
+          </View>
+        ) : null}
+
         {movies.map((movie: any) => (
           <Pressable
             key={movie.title}
