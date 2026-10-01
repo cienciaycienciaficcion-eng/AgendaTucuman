@@ -54936,6 +54936,144 @@
     }
   },
   {
+    "id": "46544",
+    "source": "MEC",
+    "title": "2 de Octubre | Caminata turística guiada por el circuito histórico de San Miguel de Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-caminata-turistica-guiada-por-el-circuito-historico-de-san-miguel-de-tucuman/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "10:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T10:00:00-03:00",
+    "end_datetime": "",
+    "description": "Este jueves 2 de octubre, vecinos y visitantes tendrán una nueva oportunidad para descubrir algunos de los edificios y espacios más representativos de San Miguel de Tucumán a través de una caminata turística guiada por el casco histórico de la ciudad. La propuesta, organizada por la Dirección de Turismo de la Municipalidad de San Miguel de Tucumán, comenzará a las 10 y permitirá recorrer a pie sitios fundamentales para conocer la historia, la arquitectura y el patrimonio de la capital tucumana. Un recorrido por la historia de la ciudad El punto de encuentro será la Oficina de Información Turística, ubicada en la esquina de Congreso y Crisóstomo Álvarez, junto a la Casa Histórica de la Independencia. Desde allí comenzará un recorrido que tendrá como primera parada al Museo Casa Histórica de la Independencia, uno de los sitios más emblemáticos de Tucumán y de la historia argentina. La caminata continuará por calle Congreso, donde se encuentran el Museo Provincial Nicolás Avellaneda y el Museo de Arte Sacro, para luego visitar la Iglesia Catedral. Plaza Independencia y edificios emblemáticos El circuito también incluirá la Plaza Independencia, donde se encuentra la Estatua de la Libertad realizada por Lola Mora. Durante el recorrido, los participantes podrán conocer distintos edificios históricos y espacios que rodean la principal plaza de la ciudad, entre ellos el Ex Banco Provincia, la Federación Económica, el Jockey Club, la Caja Popular de Ahorros, el Ex Cine Plaza, la Iglesia San Francisco y la Casa de Gobierno. También forman parte del itinerario el Museo Casa Padilla, la Casa Nougués y el Centro Cultural Alberto Rougés. La actividad se presenta como una alternativa ideal para quienes buscan qué hacer en Tucumán y desean conocer la ciudad desde una mirada histórica, cultural y patrimonial. Cómo participar Los interesados deben realizar previamente la inscripción a través del sistema digital habilitado por la Municipalidad de San Miguel de Tucumán para sus propuestas turísticas. Una oportunidad para caminar por el centro tucumano, mirar con otros ojos edificios que forman parte de la vida cotidiana y conocer las historias que se esconden detrás de algunos de los principales monumentos de la ciudad. Datos destacados 📅 Fecha: jueves 2 de octubre de 2026 🕙 Horario: 10:00 📍 Punto de encuentro: Oficina de Información Turística, Congreso y Crisóstomo Álvarez 🚶 Actividad: caminata turística guiada por el casco histórico 📝 Requiere inscripción previa 🏛️ Recorrido por museos, iglesias, Plaza Independencia y edificios históricos",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/caminata-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "10:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T10:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46546",
+    "source": "MEC",
+    "title": "2 de Octubre | La Ruta de la Empanada Tucumana invita a recorrer sabores y cultura en pleno centro",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-la-ruta-de-la-empanada-tucumana-invita-a-recorrer-sabores-y-cultura-en-pleno-centro/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "12:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T12:00:00-03:00",
+    "end_datetime": "",
+    "description": "La empanada será protagonista de una experiencia que combina gastronomía, turismo y cultura este jueves 2 de octubre en San Miguel de Tucumán. “La Ruta de la Empanada Tucumana” volverá a recorrer el centro de la ciudad con una propuesta gratuita organizada por la Municipalidad, en la que los participantes podrán visitar reconocidos espacios gastronómicos, degustar empanadas y disfrutar de distintas expresiones artísticas. La salida está prevista para las 12 desde Laprida primera cuadra, frente a Plaza Independencia. Un recorrido con sabor bien tucumano La propuesta consiste en un circuito turístico a pie por tres restaurantes tradicionales de San Miguel de Tucumán: El Portal, La Peña del Cardón y la Casa de Yamil. En cada una de las paradas, los participantes podrán degustar empanadas tucumanas y disfrutar de propuestas artísticas, en una experiencia que busca poner en valor uno de los platos más representativos de la identidad gastronómica de la provincia. El recorrido combina así sabores, música y cultura local en pleno centro de la ciudad. Una propuesta gratuita para disfrutar de la ciudad La participación es gratuita, aunque requiere inscripción previa mediante el formulario digital dispuesto para las actividades turísticas de la Municipalidad. Para quienes buscan qué hacer en Tucumán, la Ruta de la Empanada ofrece una alternativa diferente para recorrer la ciudad y, al mismo tiempo, acercarse a una de sus tradiciones culinarias más reconocidas. Además, el clima no será un impedimento para realizar la actividad. La organización informó que el paseo no se suspenderá por lluvia: en caso de precipitaciones, el circuito se desarrollará a bordo del Bus Turístico. Una invitación para disfrutar del mediodía tucumano entre empanadas, música, historia y cultura. Datos destacados 📅 Fecha: jueves 2 de octubre de 2026 🕛 Horario de salida: 12:00 📍 Punto de encuentro: Laprida primera cuadra, frente a Plaza Independencia 🥟 Propuesta: Ruta de la Empanada Tucumana 🍴 Paradas: El Portal, La Peña del Cardón y Casa de Yamil 🎶 Incluye degustaciones y propuestas artísticas 🎟️ Actividad gratuita con inscripción previa 🌧️ No se suspende por lluvia",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/empanada.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "la Municipalidad, en la que los participantes podrán visitar reconocidos espacios gastronómicos, degustar empanadas y disfrutar de distintas expresiones artísticas",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "12:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T12:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "12:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "46532",
     "source": "MEC",
     "title": "02 de Octubre | Folklore, freestyle y danza protagonizan el viernes del Septiembre Musical en Tucumán",
@@ -54996,6 +55134,213 @@
       "rest_status": 200,
       "card_date": "2026-10-02",
       "card_time": "14:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46548",
+    "source": "MEC",
+    "title": "2 de Octubre | Taller gratuito de folclore en la Plaza del Barrio San Martín",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-taller-gratuito-de-folclore-en-la-plaza-del-barrio-san-martin/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música y las danzas tradicionales argentinas tendrán su espacio este jueves 2 de octubre con un taller gratuito de folclore que se realizará en la Plaza del Barrio San Martín, en San Miguel de Tucumán. La actividad comenzará a las 18 y forma parte del ciclo “La Muni en las plazas”, una propuesta que lleva distintas actividades recreativas y culturales a los espacios públicos de la capital tucumana. Folclore al aire libre El encuentro tendrá lugar en la plaza ubicada en Horacio Poviña y Alsina, donde quienes se acerquen podrán participar del taller de folclore de manera gratuita. La propuesta busca generar un espacio de encuentro a través de las danzas tradicionales y acercar actividades culturales a los barrios de la ciudad. Es además una alternativa para quienes están buscando qué hacer en Tucumán durante la tarde y quieren disfrutar de una actividad diferente al aire libre. La Muni en las plazas El taller forma parte del ciclo “La Muni en las plazas”, mediante el cual se desarrollan diferentes propuestas en espacios públicos de San Miguel de Tucumán. En esta oportunidad, el folclore será el protagonista de una jornada pensada para compartir, bailar y mantener vivas expresiones profundamente vinculadas con la cultura popular argentina. La actividad está sujeta a las condiciones climáticas, ya que será suspendida en caso de lluvia. Una buena oportunidad para acercarse a la plaza, sumarse al baile y disfrutar de una tarde diferente en el Barrio San Martín. Datos destacados 📅 Fecha: jueves 2 de octubre de 2026 🕕 Horario: 18:00 📍 Lugar: Plaza del Barrio San Martín 📌 Dirección: Horacio Poviña y Alsina 💃 Actividad: taller de folclore 🎟️ Participación gratuita 🌳 Forma parte del ciclo “La Muni en las plazas” 🌧️ Se suspende en caso de lluvia",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/barrio-san-martin.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Plaza del Barrio San Martín 📌 Dirección: Horacio Poviña y Alsina 💃",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Plaza+del+Barrio+San+Mart%C3%ADn+%F0%9F%93%8C+Direcci%C3%B3n%3A+Horacio+Povi%C3%B1a+y+Alsina+%F0%9F%92%83%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46568",
+    "source": "MEC",
+    "title": "2 de Octubre | Quique Yance celebra 40 años con la música en el Centro Cultural Virla",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-quique-yance-celebra-40-anos-con-la-musica-en-el-centro-cultural-virla/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "21:30",
+    "time_end": "",
+    "start_datetime": "2026-10-02T21:30:00-03:00",
+    "end_datetime": "",
+    "description": "El Centro Cultural Virla será escenario este viernes 2 de octubre de una noche especial dedicada a la música con la celebración de los 40 años de trayectoria de Quique Yance. El espectáculo comenzará a las 21:30 en el Auditorio y contará con la participación de numerosos artistas invitados, en una velada pensada para recorrer distintas etapas de una carrera estrechamente vinculada a la escena musical de la región. Cuatro décadas de trayectoria A lo largo de 40 años de carrera, Quique Yance se destacó por acompañar a reconocidos artistas y por formar parte de diferentes proyectos y espectáculos musicales. Su recorrido incluye décadas de trabajo en escenarios, colaboraciones y propuestas que lo convirtieron en una presencia habitual dentro de la actividad artística regional. Este aniversario propone mirar hacia atrás y celebrar ese camino con un show especialmente preparado para la ocasión. Una noche con artistas invitados La presentación contará con numerosos invitados que se sumarán al escenario para acompañar a Yance en este festejo. La propuesta promete combinar música en vivo, recuerdos y encuentros, en una noche dedicada tanto a su trayectoria como a las distintas personas que fueron parte de su camino artístico. Para quienes buscan qué hacer en Tucumán este viernes, el espectáculo se suma a la agenda cultural con una propuesta centrada en la música y en la celebración de cuatro décadas de carrera. Entradas Las entradas anticipadas tienen un valor de $25.000. Las entradas generales cuestan $35.000. Una oportunidad para acompañar a Quique Yance en una noche que recorrerá 40 años de música junto a invitados especiales. Datos destacados 📅 Fecha: viernes 2 de octubre de 2026 🕤 Horario: 21:30 📍 Lugar: Centro Cultural Virla 🎶 Espectáculo: “40 años con la música de Quique Yance” 🎤 Artista: Quique Yance 🌟 Participan artistas invitados 🎟️ Anticipadas: $25.000 🎟️ Generales: $35.000",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/quique-yance.jpg",
+    "price": 25000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "21:30",
+        "time_end": "",
+        "start_datetime": "2026-10-02T21:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "21:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46562",
+    "source": "MEC",
+    "title": "2 de Octubre | “Canciones con Sol y Luna” llega a CiTá con música y poesía",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-canciones-con-sol-y-luna-llega-a-cita-con-musica-y-poesia/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "21:30",
+    "time_end": "",
+    "start_datetime": "2026-10-02T21:30:00-03:00",
+    "end_datetime": "",
+    "description": "La música popular argentina y latinoamericana será protagonista este viernes 2 de octubre en CiTá, Abasto de Cultura, con la presentación de “Canciones con Sol y Luna”, un espectáculo encabezado por Mariana Rodríguez. La propuesta comenzará a las 21:30 en el espacio ubicado en Lamadrid 1457, en San Miguel de Tucumán, y reunirá música y poesía en una noche pensada para escuchar, cantar, recordar y compartir. Canciones que cuentan historias Mariana Rodríguez estará acompañada por José Pinto en guitarra y Negro Burgo en percusión. El repertorio estará integrado por canciones de la música popular argentina y latinoamericana, con historias que recorren distintas emociones y experiencias de la vida cotidiana, entre luces, sombras, recuerdos y encuentros. La propuesta busca generar un clima íntimo en el que la música dialogue con la poesía y con las historias que cada canción tiene para contar. Rossana Medina será la invitada especial La noche contará además con la participación especial de Rossana Medina, quien interpretará canciones de su reciente trabajo discográfico “Acontece”. Su presencia se suma a una formación integrada por artistas tucumanos que compartirán escenario en una propuesta especialmente pensada para quienes disfrutan de la canción y la música de raíz latinoamericana. Para quienes buscan qué hacer en Tucumán este viernes, “Canciones con Sol y Luna” se presenta como una alternativa para disfrutar de una noche de música en vivo en pleno Abasto tucumano. Entradas y reservas La entrada general tiene un valor de $20.000. Las reservas pueden realizarse comunicándose al 381 522 9099. Una invitación para comenzar el fin de semana entre canciones, poesía y música en vivo. Datos destacados 📅 Fecha: viernes 2 de octubre de 2026 🕤 Horario: 21:30 📍 Lugar: CiTá, Abasto de Cultura 📌 Dirección: Lamadrid 1457, San Miguel de Tucumán 🎤 Voz: Mariana Rodríguez 🎸 Guitarra: José Pinto 🥁 Percusión: Negro Burgo 🌟 Artista invitada: Rossana Medina 🎶 Espectáculo: “Canciones con Sol y Luna” 🎟️ Entrada general: $20.000 📲 Reservas: 381 522 9099",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/cita.png",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "que la música dialogue con la poesía y con las historias que cada canción tiene para contar",
+    "address": "Lamadrid 1457, San Miguel de Tucumán 🎤 Voz: Mariana Rodríguez 🎸 Guitarra: José Pinto 🥁 Percusión: Negro Burgo 🌟 Artista invitada: Rossana Medina 🎶 Espectáculo: “Canciones con Sol y Luna” 🎟️ Entrada general: $20",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=que+la+m%C3%BAsica+dialogue+con+la+poes%C3%ADa+y+con+las+historias+que+cada+canci%C3%B3n+tiene+para+contar%2C+Lamadrid+1457%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A4+Voz%3A+Mariana+Rodr%C3%ADguez+%F0%9F%8E%B8+Guitarra%3A+Jos%C3%A9+Pinto+%F0%9F%A5%81+Percusi%C3%B3n%3A+Negro+Burgo+%F0%9F%8C%9F+Artista+invitada%3A+Rossana+Medina+%F0%9F%8E%B6+Espect%C3%A1culo%3A+%E2%80%9CCanciones+con+Sol+y+Luna%E2%80%9D+%F0%9F%8E%9F%EF%B8%8F+Entrada+general%3A+%2420",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "21:30",
+        "time_end": "",
+        "start_datetime": "2026-10-02T21:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "21:30",
       "date": "title_day",
       "time": "mec_card",
       "location": "narrative",
@@ -55169,41 +55514,41 @@
     }
   },
   {
-    "id": "46479",
+    "id": "46570",
     "source": "MEC",
-    "title": "3 de octubre| Gran fiesta de la Ciudad",
-    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-gran-fiesta-de-la-ciudad/",
+    "title": "3 de Octubre | Yerba Buena celebra el 6° Encuentro con la Cultura Japonesa en Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-yerba-buena-celebra-el-6-encuentro-con-la-cultura-japonesa-en-tucuman/",
     "date_start": "2026-10-03",
     "date_end": "2026-10-03",
-    "time_start": "08:00",
+    "time_start": "12:00",
     "time_end": "",
-    "start_datetime": "2026-10-03T08:00:00-03:00",
+    "start_datetime": "2026-10-03T12:00:00-03:00",
     "end_datetime": "",
-    "description": "El municipio capitalino prepara este próximo sábado 3 de octubre la Gran fiesta de la Ciudad en el Hipódromo de Tucumán. El evento contará con la presencia de Karina y Rodrigo Tapari como protagonistas principales del espectaculo",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/Karina.jpg",
+    "description": "La cultura japonesa volverá a tener un espacio especial en Tucumán este sábado 3 de octubre con la realización del 6° Encuentro con la Cultura Japonesa, una jornada que reunirá gastronomía, espectáculos, artesanías y distintas expresiones culturales en Yerba Buena. La actividad se desarrollará de 12 a 18 en la Casa de la Cultura, ubicada en Higueritas 1850, con entrada libre y gratuita. Una jornada para acercarse a la cultura japonesa El encuentro es organizado en el marco de los 140 años de la inmigración japonesa en Argentina y también forma parte de las celebraciones por un nuevo aniversario de la colectividad Nikkei tucumana. La propuesta busca acercar al público distintas tradiciones, costumbres y manifestaciones de la cultura japonesa a través de una experiencia abierta a toda la familia. Durante la jornada habrá gastronomía típica, espectáculos, artesanías y diferentes actividades pensadas para conocer más sobre una cultura con una fuerte identidad y una larga historia en nuestro país. Un encuentro para disfrutar en familia El evento se presenta como una oportunidad para recorrer stands, probar sabores tradicionales, descubrir expresiones artísticas y compartir una tarde diferente en la Casa de la Cultura de Yerba Buena. Para quienes buscan qué hacer en Tucumán durante el fin de semana, el 6° Encuentro con la Cultura Japonesa ofrece una alternativa cultural gratuita y apta para todas las edades. La jornada también busca poner en valor el aporte de la colectividad japonesa y fortalecer el intercambio cultural con la comunidad tucumana. Entrada libre y gratuita No será necesario abonar entrada para participar del encuentro. Una propuesta ideal para disfrutar de una tarde distinta, conocer más sobre Japón y celebrar el encuentro entre culturas en Yerba Buena. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕛 Horario: de 12:00 a 18:00 📍 Lugar: Casa de la Cultura 📌 Dirección: Higueritas 1850, Yerba Buena 🇯🇵 Evento: 6° Encuentro con la Cultura Japonesa en Tucumán 🍱 Habrá gastronomía 🎭 Espectáculos y actividades culturales 🎎 Artesanías y propuestas vinculadas a la cultura japonesa 🎟️ Entrada libre y gratuita 🌸 Actividad en el marco de los 140 años de la inmigración japonesa en Argentina",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/japonesa.png",
     "price": null,
     "currency": "",
-    "is_free": false,
-    "location": "Hipódromo de Tucumán",
-    "address": "",
-    "city": "",
+    "is_free": true,
+    "location": "Casa de la Cultura 📌 Dirección: Higueritas 1850, Yerba Buena 🇯🇵",
+    "address": "Higueritas 1850",
+    "city": "Yerba Buena",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
     "categories": [
-      "Musica"
+      "Variedades"
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Hip%C3%B3dromo+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+%F0%9F%93%8C+Direcci%C3%B3n%3A+Higueritas+1850%2C+Yerba+Buena+%F0%9F%87%AF%F0%9F%87%B5%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
       {
         "date": "2026-10-03",
-        "time_start": "08:00",
+        "time_start": "12:00",
         "time_end": "",
-        "start_datetime": "2026-10-03T08:00:00-03:00",
+        "start_datetime": "2026-10-03T12:00:00-03:00",
         "end_datetime": ""
       }
     ],
@@ -55219,19 +55564,226 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "label",
+        "score": 0.95
       },
-      "overall": 0.91
+      "overall": 0.97
     },
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
       "card_date": "2026-10-03",
-      "card_time": "08:00",
+      "card_time": "12:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46550",
+    "source": "MEC",
+    "title": "3 de Octubre | El Bus Turístico recorrerá el histórico Barrio Ciudadela",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-el-bus-turistico-recorrera-el-historico-barrio-ciudadela/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Bus Turístico de San Miguel de Tucumán vuelve a ponerse en marcha este sábado 3 de octubre con una propuesta gratuita para conocer uno de los sectores con mayor historia de la capital: el tradicional Barrio Ciudadela. La salida será a las 16 desde la parada ubicada en Laprida primera cuadra y el recorrido permitirá descubrir distintos lugares vinculados con la historia, la cultura y la identidad tucumana. Un paseo por sitios emblemáticos de la Ciudadela El circuito guiado incluye la Casa Belgraniana, un espacio fundamental para conocer la presencia del general Manuel Belgrano en Tucumán, y continuará por Plaza Belgrano y las calles donde funcionó el histórico Fortín de La Ciudadela. El paseo también permitirá conocer el sector del ex Mercado de Abasto y el Teatro Municipal Rosita Ávila. Entre los puntos incluidos en el recorrido se encuentran además el Museo de Ciencias Naturales de la Fundación Miguel Lillo y el Estadio del Club Atlético San Martín. La propuesta permite recorrer diferentes épocas y aspectos de la historia de San Miguel de Tucumán desde la comodidad del Bus Turístico y con acompañamiento durante el trayecto. Cómo participar El servicio es gratuito y requiere inscripción previa. Los interesados pueden registrarse mediante los códigos QR disponibles en la parada del Bus Turístico ubicada en Laprida 50 o a través del sistema digital de inscripción habilitado por el Municipio. Para quienes buscan qué hacer en Tucumán durante el fin de semana, este circuito es una alternativa para redescubrir lugares conocidos y conocer las historias detrás de uno de los barrios más tradicionales de la capital. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕓 Horario: 16:00 📍 Salida: Laprida primera cuadra, San Miguel de Tucumán 🚌 Actividad: recorrido guiado en el Bus Turístico SMT 🏛️ Circuito: Barrio Ciudadela 🎟️ Servicio gratuito 📝 Requiere inscripción previa 📌 Incluye Casa Belgraniana, Plaza Belgrano, Fortín de La Ciudadela, ex Mercado de Abasto, Teatro Rosita Ávila, Fundación Miguel Lillo y Estadio de San Martín",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/bus-san-martin.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46479",
+    "source": "MEC",
+    "title": "3 de Octubre | Karina y Rodrigo Tapari encabezan la Gran Fiesta de la Ciudad en el Hipódromo",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-gran-fiesta-de-la-ciudad/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "San Miguel de Tucumán celebrará sus 341 años con una jornada a pura música. Este sábado 3 de octubre se realizará la Gran Fiesta de la Ciudad 2026 en el Hipódromo de Tucumán, con Karina y Rodrigo Tapari como principales figuras de una extensa grilla artística. El encuentro comenzará a las 16 y estará acompañado por artistas tucumanos, DJ, propuestas gastronómicas y diferentes sorpresas para disfrutar en familia y con amigos. Una tarde con grandes shows La “Princesita” Karina y Rodrigo Tapari, ex líder de Ráfaga, serán las figuras centrales del espectáculo organizado para celebrar un nuevo aniversario de San Miguel de Tucumán. La programación comenzará desde las 16 con la presentación de Rock & Lobos, Tawa, La Wai Fai, Adriana Tula, Solana Ávila, Los Olmos y el Ballet El Arriero. A lo largo de la jornada también habrá DJ locales encargados de musicalizar el predio. La combinación de artistas nacionales y talento tucumano convertirá al Hipódromo en uno de los principales puntos de encuentro de este fin de semana. Gastronomía y una celebración para toda la familia Además de los recitales, quienes asistan podrán encontrar food trucks con diferentes alternativas gastronómicas y otras sorpresas preparadas para acompañar la celebración. La Gran Fiesta de la Ciudad forma parte de las actividades organizadas por el 341º aniversario de San Miguel de Tucumán. Para quienes buscan qué hacer en Tucumán, será una de las propuestas musicales más importantes del fin de semana. Entradas Las entradas generales tienen un valor de $10.000 y pueden adquirirse a través de la ticketera digital de la Municipalidad de San Miguel de Tucumán. Una oportunidad para celebrar el cumpleaños de la ciudad con música, gastronomía y una extensa programación de artistas. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕓 Inicio: 16:00 📍 Lugar: Hipódromo de Tucumán 📌 Dirección: Irineo Leguisamo 800 🎤 Artistas principales: Karina y Rodrigo Tapari 🎶 También participan: Rock & Lobos, Tawa, La Wai Fai, Adriana Tula, Solana Ávila, Los Olmos y Ballet El Arriero 🎧 Habrá DJ locales 🍔 Food trucks y propuestas gastronómicas 🎟️ Entrada general: $10.000",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/Karina.jpg",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Hipódromo de Tucumán 📌 Dirección: Irineo Leguisamo 800 🎤 Artistas principales: Karina y Rodrigo Tapari",
+    "address": "Irineo Leguisamo 800 🎤 Artistas principales: Karina y Rodrigo Tapari 🎶 También participan: Rock & Lobos, Tawa, La Wai Fai, Adriana Tula, Solana Ávila, Los Olmos y Ballet El Arriero 🎧 Habrá DJ locales 🍔 Food trucks y propuestas gastronómicas 🎟️ Entrada general: $10",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Hip%C3%B3dromo+de+Tucum%C3%A1n+%F0%9F%93%8C+Direcci%C3%B3n%3A+Irineo+Leguisamo+800+%F0%9F%8E%A4+Artistas+principales%3A+Karina+y+Rodrigo+Tapari%2C+Irineo+Leguisamo+800+%F0%9F%8E%A4+Artistas+principales%3A+Karina+y+Rodrigo+Tapari+%F0%9F%8E%B6+Tambi%C3%A9n+participan%3A+Rock+%26+Lobos%2C+Tawa%2C+La+Wai+Fai%2C+Adriana+Tula%2C+Solana+%C3%81vila%2C+Los+Olmos+y+Ballet+El+Arriero+%F0%9F%8E%A7+Habr%C3%A1+DJ+locales+%F0%9F%8D%94+Food+trucks+y+propuestas+gastron%C3%B3micas+%F0%9F%8E%9F%EF%B8%8F+Entrada+general%3A+%2410%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46560",
+    "source": "MEC",
+    "title": "3 de Octubre | La Feria de Artesanos y Emprendedores vuelve a la Avenida Alem de Tafí Viejo",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-la-feria-de-artesanos-y-emprendedores-vuelve-a-la-avenida-alem-de-tafi-viejo/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "17:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T17:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Avenida Alem volverá a convertirse este sábado 3 de octubre en uno de los principales puntos de encuentro de Tafí Viejo con una nueva edición de la Feria de Artesanos y Emprendedores. La propuesta se desarrollará de 17 a 23 y combinará producción local, paseo, música y espectáculos, en una jornada pensada para disfrutar durante la tarde y la noche. Emprendimientos y producción local La feria reúne a artesanos y emprendedores taficeños que tendrán la posibilidad de exhibir sus productos, mostrar sus proyectos y acercar sus propuestas a vecinos y visitantes. El objetivo es acompañar a quienes forman parte de la economía social, generar nuevas oportunidades de comercialización y fortalecer el consumo de productos elaborados en la ciudad. Para quienes buscan qué hacer en Tucumán durante el fin de semana, la feria ofrece una alternativa para pasear, conocer emprendimientos locales y compartir una tarde diferente en Tafí Viejo. Música y espectáculos en vivo La propuesta no se limitará a los puestos de artesanos y emprendedores. Durante la jornada también habrá un escenario destinado a diferentes espectáculos y presentaciones musicales. De esta manera, la Avenida Alem combinará feria, cultura y entretenimiento en un mismo espacio, convirtiéndose nuevamente en un punto de encuentro para la comunidad. Cómo participar como emprendedor Quienes quieran sumarse como expositores deben estar inscriptos en el padrón municipal de la Dirección de Empleo y Economía Social. El registro se realiza de lunes a viernes, de 8 a 13, en Congreso 286. Para completar la inscripción se solicita una foto carnet, fotocopia del DNI y una tarjeta de presentación del emprendimiento. Una propuesta ideal para recorrer Tafí Viejo, apoyar a los emprendedores locales y disfrutar de música y actividades al aire libre. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕔 Horario: de 17:00 a 23:00 📍 Lugar: Avenida Alem, Tafí Viejo 🛍️ Actividad: Feria de Artesanos y Emprendedores 🎨 Participan artesanos y emprendimientos locales 🎶 Habrá música y espectáculos 👨‍👩‍👧‍👦 Propuesta para disfrutar en familia y con amigos 📌 Inscripción de emprendedores: Dirección de Empleo y Economía Social, Congreso 286 🕗 Atención para inscripción: lunes a viernes, de 8 a 13",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/feria-tafo-viejo.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Avenida Alem, Tafí Viejo 🛍️",
+    "address": "Alem volverá a convertirse este sábado 3",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Avenida+Alem%2C+Taf%C3%AD+Viejo+%F0%9F%9B%8D%EF%B8%8F%2C+Alem+volver%C3%A1+a+convertirse+este+s%C3%A1bado+3%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "17:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T17:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -55301,6 +55853,213 @@
       "date": "title_day",
       "time": "mec_card",
       "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46552",
+    "source": "MEC",
+    "title": "3 de Octubre | “Las Luces de mi Ciudad” propone descubrir Tucumán de noche en el Bus Turístico",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-las-luces-de-mi-ciudad-propone-descubrir-tucuman-de-noche-en-el-bus-turistico/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "San Miguel de Tucumán también puede descubrirse cuando cae el sol. Este sábado 3 de octubre, el Bus Turístico SMT realizará una nueva salida de “Las Luces de mi Ciudad”, el circuito nocturno que invita a observar algunos de los espacios más representativos de la capital desde una perspectiva diferente. La salida está prevista para las 20 desde Laprida primera cuadra, frente a Plaza Independencia. La ciudad iluminada desde otra perspectiva Durante el recorrido, los pasajeros podrán conocer distintos puntos de San Miguel de Tucumán mientras disfrutan de la iluminación nocturna de sus edificios y espacios urbanos. La experiencia incluye paradas especialmente pensadas para tomar fotografías y selfies en lugares icónicos de la ciudad. El circuito también recorre algunos de los principales polos de esparcimiento de la capital y pone especial atención en la iluminación arquitectónica de tres escenarios culturales fundamentales: los teatros Mercedes Sosa, San Martín y Alberdi. Intervenciones artísticas durante el recorrido El paseo no se limita a observar la ciudad desde el Bus Turístico. La propuesta contempla también diferentes intervenciones artísticas y culturales a lo largo del trayecto. Para quienes buscan qué hacer en Tucumán durante la noche, “Las Luces de mi Ciudad” ofrece una manera distinta de recorrer y redescubrir la capital. La actividad es gratuita, requiere inscripción previa y puede suspenderse en caso de lluvias fuertes. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕗 Horario: 20:00 📍 Salida: Laprida primera cuadra, frente a Plaza Independencia 🚌 Actividad: Bus Turístico nocturno “Las Luces de mi Ciudad” 📸 Incluye paradas para fotografías y selfies 🎭 Destaca la iluminación de los teatros Mercedes Sosa, San Martín y Alberdi 🎨 Habrá intervenciones artísticas y culturales 🎟️ Actividad gratuita 📝 Requiere inscripción previa 🌧️ Se suspende en caso de lluvias fuertes",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/luces-de-mi-ciudad-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46564",
+    "source": "MEC",
+    "title": "3 de Octubre | Juampi González presenta “Oveja Negra” en el Centro Cultural Virla",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-juampi-gonzalez-presenta-oveja-negra-en-el-centro-cultural-virla/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El humor llega este sábado 3 de octubre al Centro Cultural Virla con “Oveja Negra”, el unipersonal de Juampi González que propone una mirada filosa, honesta y desopilante sobre la identidad, las contradicciones personales y los mandatos que aparecen al acercarse a los 40. La función comenzará a las 21 en el Auditorio del Centro Cultural Virla, en San Miguel de Tucumán. Un show sobre la vida “ideal” y todo lo que no salió como estaba previsto En “Oveja Negra”, Juampi González explora con humor el vértigo de crecer y descubrir que muchas de las metas asociadas a la vida adulta no siempre llegan en el momento esperado. El espectáculo se mete de lleno en temas como las expectativas sociales, los mandatos familiares, las contradicciones cotidianas y esa sensación de estar recorriendo un camino distinto al que supuestamente había que seguir. Todo atravesado por un humor directo, incómodo por momentos y construido desde la observación de situaciones reconocibles para buena parte del público. Una noche de stand up en el Virla La propuesta está pensada para quienes disfrutan del stand up y de los espectáculos donde el humor parte de experiencias personales y situaciones cotidianas. Para quienes buscan qué hacer en Tucumán durante el fin de semana, “Oveja Negra” se suma a la agenda cultural del sábado con una función que promete risas y una mirada irreverente sobre la vida adulta. Entradas Las entradas generales tienen un valor de $33.000. Una oportunidad para disfrutar de una noche de humor en uno de los espacios culturales más reconocidos de San Miguel de Tucumán. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: Centro Cultural Virla 🎭 Espectáculo: “Oveja Negra” 😂 Género: unipersonal de humor 🎤 Artista: Juampi González 🎟️ Entrada general: $33.000 📌 Propuesta: humor sobre identidad, contradicciones, mandatos y la llegada a los 40",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/oveja.png",
+    "price": 33000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Centro Cultural Virla 🎭 Espectáculo: “Oveja Negra” 😂 Género: unipersonal de humor 🎤 Artista: Juampi González",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla+%F0%9F%8E%AD+Espect%C3%A1culo%3A+%E2%80%9COveja+Negra%E2%80%9D+%F0%9F%98%82+G%C3%A9nero%3A+unipersonal+de+humor+%F0%9F%8E%A4+Artista%3A+Juampi+Gonz%C3%A1lez%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46554",
+    "source": "MEC",
+    "title": "3 de Octubre | Martín Rivas presenta “Soñar despierto” en el Teatro Rosita Ávila",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-martin-rivas-presenta-sonar-despierto-en-el-teatro-rosita-avila/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música tucumana tendrá una cita especial este sábado 3 de octubre en el Teatro Municipal Rosita Ávila. Desde las 21, el cantautor Martín Rivas presentará su concierto “Soñar despierto”. La propuesta permitirá conocer en vivo el trabajo de un artista tucumano que comenzó su camino musical desde muy joven y que formó parte de diferentes grupos folclóricos antes de desarrollar su propuesta como solista. Una noche para disfrutar de la música tucumana Martín Rivas cuenta con una trayectoria construida sobre distintos escenarios y festivales tanto de Tucumán como de otras provincias argentinas. Ese recorrido artístico será parte del espectáculo “Soñar despierto”, que llegará al escenario del Rosita Ávila para compartir una noche especialmente dedicada a su música. El Teatro Municipal, ubicado en Las Piedras 1550, volverá así a recibir una propuesta protagonizada por artistas de la provincia. Para quienes buscan qué hacer en Tucumán y quieren acompañar a músicos locales, el recital se suma a la amplia agenda cultural del primer fin de semana de octubre. Cómo conseguir las entradas Las entradas pueden adquirirse mediante la ticketera digital de la Municipalidad de San Miguel de Tucumán. También están disponibles en la boletería del Teatro Rosita Ávila, que atiende los días hábiles de 9 a 18 y, durante los días de función, desde las 17. Una invitación para disfrutar de una noche de música y conocer más de cerca la propuesta artística de Martín Rivas. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: Teatro Municipal Rosita Ávila 📌 Dirección: Las Piedras 1550, San Miguel de Tucumán 🎤 Artista: Martín Rivas 🎶 Espectáculo: “Soñar despierto” 🎟️ Entradas disponibles online y en boletería 🕔 Boletería los días de función: desde las 17",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/rosita-avila.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Municipal Rosita Ávila 📌 Dirección: Las Piedras 1550, San Miguel de Tucumán 🎤 Artista: Martín Rivas",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila+%F0%9F%93%8C+Direcci%C3%B3n%3A+Las+Piedras+1550%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A4+Artista%3A+Mart%C3%ADn+Rivas",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -55568,6 +56327,75 @@
     }
   },
   {
+    "id": "46556",
+    "source": "MEC",
+    "title": "4 de Octubre | El Bus Turístico realizará un City Tour con visita al Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/4-de-octubre-el-bus-turistico-realizara-un-city-tour-con-visita-al-cementerio-del-oeste/",
+    "date_start": "2026-10-04",
+    "date_end": "2026-10-04",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-10-04T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Bus Turístico de San Miguel de Tucumán ofrecerá este domingo 4 de octubre una nueva salida de su tradicional City Tour, con un recorrido guiado por algunos de los puntos más representativos de la capital y una visita especial al Cementerio del Oeste. La actividad comenzará a las 16 desde la parada ubicada en Laprida primera cuadra y tendrá una duración aproximada de dos horas. El servicio es gratuito y requiere inscripción previa. Un recorrido por lugares emblemáticos de la ciudad El City Tour permitirá conocer distintos sitios destacados de San Miguel de Tucumán y acercarse a su patrimonio histórico, institucional y religioso. El itinerario comienza y finaliza en Plaza Independencia y recorre su entorno, uno de los sectores donde se concentran algunos de los edificios y espacios más significativos de la capital tucumana. Durante el trayecto, los pasajeros podrán conocer más sobre la historia de la ciudad acompañados por un recorrido guiado pensado tanto para turistas como para vecinos que quieran redescubrir San Miguel de Tucumán. Visita al Cementerio del Oeste Una de las particularidades de esta salida será la visita al Cementerio del Oeste, uno de los espacios históricos de la ciudad. La incorporación de esta parada suma una mirada diferente al paseo y permite acercarse a un sitio estrechamente relacionado con la memoria y la historia tucumana. Para quienes buscan qué hacer en Tucumán durante el domingo, el City Tour ofrece una alternativa gratuita que combina paseo, turismo e historia. Cómo participar Las inscripciones pueden realizarse mediante los códigos QR disponibles en la parada del Bus Turístico, ubicada en Laprida 50, o a través del formulario digital habilitado por la Municipalidad de San Miguel de Tucumán. Una propuesta ideal para recorrer la ciudad desde otra perspectiva y conocer algunos de los lugares que forman parte de su identidad. Datos destacados 📅 Fecha: domingo 4 de octubre de 2026 🕓 Horario: 16:00 📍 Salida: parada del Bus Turístico, Laprida primera cuadra 🚌 Actividad: City Tour guiado ⏱️ Duración aproximada: 2 horas 🏛️ Recorrido: lugares emblemáticos de San Miguel de Tucumán ⚰️ Incluye visita al Cementerio del Oeste 🎟️ Servicio gratuito 📝 Requiere inscripción previa",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/bus-oeste.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "Laprida 50",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-04",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "45779",
     "source": "MEC",
     "title": "4 de octubre| «Barrileteada por la Dislexia»: una invitación a elevar cometas y visibilizar una realidad que necesita ser conocida",
@@ -55773,6 +56601,144 @@
       "date": "title_day",
       "time": "mec_card",
       "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46566",
+    "source": "MEC",
+    "title": "4 de Octubre | “He visto a Dios (un ensayo)” tendrá su última función en el Centro Cultural Virla",
+    "url": "https://agendatucuman.com.ar/eventos/4-de-octubre-he-visto-a-dios-un-ensayo-tendra-su-ultima-funcion-en-el-centro-cultural-virla/",
+    "date_start": "2026-10-04",
+    "date_end": "2026-10-04",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-04T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El teatro tendrá una cita especial este domingo 4 de octubre en el Centro Cultural Virla con la última función de “He visto a Dios (un ensayo)”, una versión escénica basada en el texto de Defilippis Novoa. La presentación comenzará a las 20 en el Auditorio del espacio cultural y será la última oportunidad para ver esta propuesta, que regresa a pedido del público. Una nueva mirada sobre un texto teatral “He visto a Dios (un ensayo)” propone una versión del texto de Defilippis Novoa, con dirección de Jorge de Lassaletta y adaptación de Fabián Bonilla. La puesta trabaja desde una mirada contemporánea sobre el material original y construye una experiencia teatral centrada en los vínculos, las emociones y los conflictos que atraviesan a sus personajes. La propuesta se completa con el trabajo técnico y fotográfico de Lucas Cuellar. Última función a pedido del público Luego de sus presentaciones anteriores, la obra vuelve al escenario del Virla para una función final. Para quienes buscan qué hacer en Tucumán este domingo, la propuesta se suma a la agenda teatral de la ciudad con una función especial que marcará el cierre de este ciclo. Entradas Las entradas generales tienen valores de $20.000 y $15.000. Una oportunidad para disfrutar de una obra que vuelve a escena a pedido del público y despedirse con una última función en el Centro Cultural Virla. Datos destacados 📅 Fecha: domingo 4 de octubre de 2026 🕗 Horario: 20:00 📍 Lugar: Centro Cultural Virla 🎭 Obra: “He visto a Dios (un ensayo)” 📖 Basada en un texto de Defilippis Novoa 🎬 Dirección: Jorge de Lassaletta ✍️ Versión: Fabián Bonilla 📸 Fotografía y técnica: Lucas Cuellar 🎟️ Entradas generales: $20.000 / $15.000 ⭐ Última función a pedido del público",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/he-visto-a-dios.png",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "texto de Defilippis Novoa",
+    "address": "Jorge de Lassaletta ✍️ Versión: Fabián Bonilla 📸 Fotografía y técnica: Lucas Cuellar 🎟️ Entradas generales: $20",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=texto+de+Defilippis+Novoa%2C+Jorge+de+Lassaletta+%E2%9C%8D%EF%B8%8F+Versi%C3%B3n%3A+Fabi%C3%A1n+Bonilla+%F0%9F%93%B8+Fotograf%C3%ADa+y+t%C3%A9cnica%3A+Lucas+Cuellar+%F0%9F%8E%9F%EF%B8%8F+Entradas+generales%3A+%2420%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-04",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46558",
+    "source": "MEC",
+    "title": "4 de Octubre | “Los Loros” vuelve al Teatro Rosita Ávila con una historia de infancia, memoria y esperanza",
+    "url": "https://agendatucuman.com.ar/eventos/4-de-octubre-los-loros-vuelve-al-teatro-rosita-avila-con-una-historia-de-infancia-memoria-y-esperanza/",
+    "date_start": "2026-10-04",
+    "date_end": "2026-10-04",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-04T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Teatro Municipal Rosita Ávila recibirá este domingo 4 de octubre una nueva función de “Los Loros”, una obra basada en una experiencia real que propone un viaje íntimo por la infancia, los recuerdos y la esperanza. La función comenzará a las 20 en la sala ubicada en Las Piedras 1550, en San Miguel de Tucumán. La obra está protagonizada y escrita por Emanuel Rodríguez, cuenta con dirección de Viviana Perea y producción de Lucas Rodríguez. Una historia atravesada por los sueños y la memoria “Los Loros” construye un relato autobiográfico en torno a un niño que atraviesa una experiencia médica transformadora y encuentra refugio en su propio mundo interior. En ese recorrido aparece Ludovico, su loro, convertido en compañero y figura simbólica de fe, esperanza, inocencia y contención. La puesta propone acercarse a esos recuerdos desde una mirada sensible, donde la infancia y la imaginación ocupan un lugar central. Una nueva función en el Rosita Ávila La obra ya tuvo diferentes presentaciones en el Teatro Municipal y vuelve ahora con una nueva oportunidad para que el público tucumano pueda conocer esta propuesta. Para quienes buscan qué hacer en Tucumán durante el domingo, “Los Loros” se suma a la agenda teatral de la ciudad con una historia personal que pone en escena temas como la memoria, los vínculos y la capacidad de encontrar esperanza en momentos difíciles. Cómo conseguir las entradas Las entradas generales pueden adquirirse a través de la ticketera digital del Teatro Municipal Rosita Ávila. También se venden presencialmente en la boletería de la sala, que atiende los días hábiles de 9 a 18 y, durante los días de función, desde las 17. Una propuesta para cerrar el fin de semana disfrutando del teatro independiente y de una historia nacida de una experiencia personal. Datos destacados 📅 Fecha: domingo 4 de octubre de 2026 🕗 Horario: 20:00 📍 Lugar: Teatro Municipal Rosita Ávila 📌 Dirección: Las Piedras 1550, San Miguel de Tucumán 🎭 Obra: “Los Loros” ✍️ Protagonista y autor: Emanuel Rodríguez 🎬 Dirección: Viviana Perea 🎞️ Producción: Lucas Rodríguez 🎟️ Entradas disponibles online y en boletería 🕔 Boletería los días de función: desde las 17",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/los-loros.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-04",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
