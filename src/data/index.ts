@@ -100,6 +100,8 @@ export type CinemaMovieMetadata = {
   source_url?: string;
   trailer?: string;
   nationality?: string;
+  classification?: string;
+  /** @deprecated kept for backward compatibility with older metadata */
   rating?: string;
   distributor?: string;
 };

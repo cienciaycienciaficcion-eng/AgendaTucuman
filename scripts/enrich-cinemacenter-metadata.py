@@ -263,6 +263,24 @@ def label_value(text: str, labels: list[str]) -> str | None:
     return m.group(1).strip() if m else None
 
 
+def classification_value(text: str) -> str | None:
+    """Extract the age classification without swallowing the next metadata label."""
+    labels = [
+        "Género", "Generos", "Director", "Dirección", "Protagonistas",
+        "Actores", "Reparto", "Duración", "Nacionalidad", "Origen",
+        "País de origen", "Distribuidora", "Distribuidor", "Estreno",
+        "Fecha de estreno", "Lanzamiento", "Sinopsis", "Tráiler",
+        "Trailer", "Formato", "Horarios",
+    ]
+    stop = "|".join(re.escape(x) for x in labels)
+    pattern = rf"Clasificación\s*[:\-]?\s*(.+?)(?=\s+(?:{stop})\s*[:\-]?|$)"
+    m = re.search(pattern, text, re.I | re.S)
+    if not m:
+        return None
+    value = re.sub(r"\s+", " ", m.group(1)).strip(" -:")
+    return value or None
+
+
 def parse_movie_page(url: str, expected_title: str) -> dict:
     source = fetch(url)
     # Direct Cinemacenter responses are HTML; Jina Reader responses are Markdown.
@@ -300,6 +318,7 @@ def parse_movie_page(url: str, expected_title: str) -> dict:
         genres = [x.strip() for x in re.split(r",|/| y |·", g or "") if x.strip()]
 
     original_title = first_nonempty(movie.get("alternateName"), parser.metas.get("movie:original_title"))
+    classification = first_nonempty(movie.get("contentRating"), movie.get("rating"))
     if isinstance(original_title, list):
         original_title = original_title[0] if original_title else None
 
@@ -316,15 +335,17 @@ def parse_movie_page(url: str, expected_title: str) -> dict:
         "poster": urljoin(url, str(image)) if image else None,
         "trailer": movie.get("trailer", {}).get("url") if isinstance(movie.get("trailer"), dict) else (movie.get("trailer") if isinstance(movie.get("trailer"), str) else None),
         "nationality": None,
-        "rating": None,
+        "classification": None,
         "distributor": None,
     }
+    if classification is not None:
+        result["classification"] = str(classification).strip()
     for key, labels in {
         "nationality": ["Nacionalidad", "Origen", "País de origen"],
-        "rating": ["Calificación", "Clasificación"],
+        "classification": ["Clasificación"],
         "distributor": ["Distribuidora", "Distribuidor"],
     }.items():
-        value = label_value(text, labels)
+        value = classification_value(text) if key == "classification" else label_value(text, labels)
         if value:
             result[key] = value
     if movie.get("countryOfOrigin"):
@@ -337,13 +358,13 @@ def markdown_label_value(text: str, labels: list[str]) -> str | None:
     # Handles both **Director:** X and plain "Director: X" in Reader Markdown.
     joined = "|".join(re.escape(x) for x in labels)
     patterns = [
-        rf"(?:^|\\n|\\s)(?:\\*\\*)?(?:{joined})(?:\\*\\*)?\\s*[:\\-]\\s*([^\\n]+)",
-        rf"(?:{joined})\\s+([^\\n|]+)",
+        rf"(?:^|\n|\s)(?:\*\*)?(?:{joined})(?:\*\*)?\s*[:\-]\s*([^\n]+)",
+        rf"(?:{joined})\s+([^\n|]+)",
     ]
     for pattern in patterns:
         m = re.search(pattern, text, re.I)
         if m:
-            value = re.sub(r"\\*+", "", m.group(1)).strip(" -:")
+            value = re.sub(r"\*+", "", m.group(1)).strip(" -:")
             if value:
                 return value
     return None
@@ -356,7 +377,7 @@ def parse_movie_markdown(source: str, url: str, expected_title: str) -> dict:
 
     # Reader may expose OpenGraph values as metadata text or as headings.
     title = expected_title
-    m = re.search(r"(?im)^#\\s+(.+?)\\s*$", text)
+    m = re.search(r"(?im)^#\s+(.+?)\s*$", text)
     if m:
         title = re.sub(r"[*_`]+", "", m.group(1)).strip()
     if not title:
@@ -365,9 +386,9 @@ def parse_movie_markdown(source: str, url: str, expected_title: str) -> dict:
     description = markdown_label_value(text, ["Sinopsis", "Descripción", "Descripcion"])
     if not description:
         # Cinemacenter fichas normally put the synopsis after a heading.
-        m = re.search(r"(?is)(?:^|\\n)#{1,4}\\s*(?:Sinopsis|Descripción|Descripcion)\\s*\\n(.+?)(?:\\n#{1,4}\\s|$)", text)
+        m = re.search(r"(?is)(?:^|\n)#{1,4}\s*(?:Sinopsis|Descripción|Descripcion)\s*\n(.+?)(?:\n#{1,4}\s|$)", text)
         if m:
-            description = re.sub(r"\\s+", " ", m.group(1)).strip()
+            description = re.sub(r"\s+", " ", m.group(1)).strip()
 
     release_date = clean_date(markdown_label_value(text, ["Fecha de estreno", "Estreno", "Lanzamiento"]))
     duration = parse_duration(markdown_label_value(text, ["Duración", "Duracion"]))
@@ -375,7 +396,11 @@ def parse_movie_markdown(source: str, url: str, expected_title: str) -> dict:
     cast_text = markdown_label_value(text, ["Protagonistas", "Actores", "Reparto"])
     genre_text = markdown_label_value(text, ["Género", "Genero", "Generos"])
     nationality = markdown_label_value(text, ["Nacionalidad", "Origen", "País de origen"])
-    rating = markdown_label_value(text, ["Calificación", "Clasificación"])
+    classification = markdown_label_value(text, ["Clasificación"])
+    if not classification:
+        classification = markdown_label_value(text, ["Calificación"])
+    if classification:
+        classification = re.sub(r"\s+", " ", classification).strip(" -:")
     distributor = markdown_label_value(text, ["Distribuidora", "Distribuidor"])
     original_title = markdown_label_value(text, ["Título original", "Titulo original"])
 
@@ -402,7 +427,7 @@ def parse_movie_markdown(source: str, url: str, expected_title: str) -> dict:
         "poster": poster,
         "trailer": trailer,
         "nationality": nationality,
-        "rating": rating,
+        "classification": classification,
         "distributor": distributor,
         "year": int(release_date[:4]) if release_date else None,
     }
@@ -414,8 +439,8 @@ def candidate_score(title: str, link_text: str, url: str) -> int:
         value = normalize(value)
         # Cinemacenter y algunos carteles agregan "LA PELICULA", "THE MOVIE",
         # dos puntos o subtítulos promocionales al nombre de la misma ficha.
-        value = re.sub(r"\\b(the movie|la pelicula|la película|pelicula|película)\\b", " ", value)
-        return re.sub(r"\\s+", " ", value).strip()
+        value = re.sub(r"\b(the movie|la pelicula|la película|pelicula|película)\b", " ", value)
+        return re.sub(r"\s+", " ", value).strip()
 
     a = compact(title)
     b = compact(link_text + " " + url)
@@ -497,7 +522,15 @@ def main() -> int:
             "duration_minutes", "genres", "director", "cast",
             "synopsis", "poster",
         )
-        return bool(item) and all(item.get(key) not in (None, "", [], {}) for key in required)
+        if not item or not all(item.get(key) not in (None, "", [], {}) for key in required):
+            return False
+        # Classification is a newly added field. If an older record has no
+        # classification, give it one enrichment pass. If Cinemacenter does
+        # not publish it, the attempt is recorded so we do not hammer the site
+        # every six hours forever.
+        if not item.get("classification") and not item.get("classification_checked"):
+            return False
+        return True
 
     needs_cartelera_lookup = False
     for movie in movies:
@@ -535,6 +568,8 @@ def main() -> int:
         # Película ya conocida: conservar metadata.
         if metadata_is_usable(old):
             merged = dict(old)
+            if merged.get("classification"):
+                merged.pop("classification_checked", None)
             print(f"  = {title}: metadata conservada (ya estaba en cartelera).")
         else:
             url = find_movie_url(cartelera_parser, title) if cartelera_parser is not None else None
@@ -547,6 +582,10 @@ def main() -> int:
                 failures.append(f"{title}: no se encontró ficha en la cartelera")
             merged = dict(old)
             merged.update({k: v for k, v in fresh.items() if v not in (None, "", [], {})})
+            if not merged.get("classification"):
+                merged["classification_checked"] = True
+            else:
+                merged.pop("classification_checked", None)
             print(f"  + {title}: metadata generada/actualizada.")
         # Poster alternativo estable para La isla olvidada; el poster anterior
         # de Citi Cinemas puede bloquear hotlinking desde la app.

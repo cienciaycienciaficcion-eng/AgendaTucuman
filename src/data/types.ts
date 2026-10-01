@@ -44,6 +44,7 @@ export type CinemaMovieMetadata = {
   poster?: string;
   imdb_id?: string;
   imdb_url?: string;
+  classification?: string;
 };
 
 export type CinemaMovie = {

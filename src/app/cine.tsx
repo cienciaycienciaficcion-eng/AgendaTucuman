@@ -102,7 +102,7 @@ function MovieDetails({ movie, visible, onClose }: { movie: any | null; visible:
             {director.length ? <InfoLine label="Director" value={director.join(', ')} /> : null}
             {cast.length ? <InfoLine label="Actores" value={cast.join(', ')} /> : null}
             {metadata.nationality ? <InfoLine label="Nacionalidad" value={String(metadata.nationality)} /> : null}
-            {metadata.rating ? <InfoLine label="Clasificación" value={String(metadata.rating)} /> : null}
+            {(metadata.classification || metadata.rating) ? <InfoLine label="Clasificación" value={String(metadata.classification || metadata.rating)} /> : null}
             {metadata.distributor ? <InfoLine label="Distribuidora" value={String(metadata.distributor)} /> : null}
 
             {metadata.synopsis ? (
