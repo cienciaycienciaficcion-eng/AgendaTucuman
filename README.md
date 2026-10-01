@@ -1,34 +1,22 @@
-# Fix GitHub: metadata faltante de Cinemacenter
+# Agenda Tucumán — Cinemacenter Metadata V4
 
-Este parche NO modifica la app Expo.
+Reemplazar en el repositorio:
 
-## Archivos
-
-- `.github/workflows/actualizar_datos.yml`
-  - después de Cinemacenter intenta completar los campos faltantes con TMDB.
-  - conserva los datos ya obtenidos por Cinemacenter.
-  - obtiene la clasificación argentina desde TMDB cuando está disponible.
-  - sigue ejecutándose automáticamente cada 6 horas.
+- `scripts/enrich-cinemacenter-metadata.py`
 - `.github/workflows/enrich-cine-metadata.yml`
-  - workflow manual para volver a intentar el enriquecimiento.
-- `scripts/enrich-cine-metadata-fallback.py`
-  - resuelve películas que Cinemacenter dejó incompletas.
-  - agrega `metadata_status`, `metadata_missing`, `sources_checked`.
-  - elimina de `cine_metadata.json` las películas que ya no están en la cartelera actual.
-  - si una película vuelve a cartelera, vuelve a resolverla.
 
-## Secret requerido
+Esta versión reconstruye `cine_metadata.json` en cada ejecución exclusivamente desde Cinemacenter.
 
-Usa el mismo secret que ya utiliza el proyecto:
+No usa TMDB, IMDb, Google, La Nación ni metadata histórica para completar películas.
 
-`TMDB_API_TOKEN`
+La coincidencia de fichas es estricta: el título completo debe corresponder con el título de la ficha. Esto evita falsos positivos como `VERTIGO 2` -> `U2: Vertigo`.
 
-No se agrega ningún secret nuevo.
+Si una ficha no se encuentra o le faltan datos, la película permanece en cartelera con `metadata_status: partial` y los campos faltantes se informan en `metadata_missing`.
 
-## Orden de fuentes
+El workflow ya no necesita `TMDB_API_TOKEN` ni instala `requests`.
 
-1. Cinemacenter: fuente principal.
-2. TMDB: solo completa campos que siguen vacíos.
-3. Clasificación: se toma de la certificación de Argentina de TMDB cuando existe.
+## Ejecución
 
-No se inventan valores.
+GitHub → Actions → Actualizar metadata de cine → Run workflow.
+
+Revisar el bloque `RESUMEN DE METADATA CINEMACENTER`.
