@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T12:16:07+00:00",
+  "generated_at": "2026-10-01T14:44:11+00:00",
   "source_policy": "Cinemacenter is the primary movie-metadata source; previous metadata is retained when a field is unavailable.",
   "source": "https://www.cinemacenter.com.ar/cartelera#contenido",
   "movies": [
@@ -35,43 +35,8 @@
       "poster": "https://cdn.teater.co/imgs/toy-story-5-2026_600_880.webp",
       "imdb_id": "tt29355505",
       "imdb_url": "https://www.imdb.com/title/tt29355505/",
-      "source": "Cinemacenter"
-    },
-    {
-      "match": [
-        "SPIDER-MAN: UN NUEVO DIA",
-        "SPIDER-MAN: UN NUEVO DÍA",
-        "SPIDER-MAN: BRAND NEW DAY",
-        "Spider-Man: Un nuevo día",
-        "Spider-Man: Brand New Day"
-      ],
-      "title": "Spider-Man: Un nuevo día",
-      "original_title": "Spider-Man: Brand New Day",
-      "year": 2026,
-      "release_date": "2026-07-29",
-      "duration_minutes": 145,
-      "genres": [
-        "Acción",
-        "Aventura",
-        "Ciencia ficción",
-        "Superhéroes"
-      ],
-      "director": [
-        "Destin Daniel Cretton"
-      ],
-      "cast": [
-        "Tom Holland",
-        "Zendaya",
-        "Sadie Sink",
-        "Jacob Batalon",
-        "Jon Bernthal",
-        "Mark Ruffalo"
-      ],
-      "synopsis": "Tras el Día del Juicio Final, Peter Parker intenta centrarse en la universidad y abandonar a Spider-Man. Cuando una nueva amenaza pone en peligro a sus amigos, debe romper su promesa y volver al traje.",
-      "poster": "https://adminweb.cinemadevoto.com.ar/media/posters/spiderman-un-nuevo-dia.webp",
-      "imdb_id": "tt22084616",
-      "imdb_url": "https://www.imdb.com/title/tt22084616/",
-      "source": "Cinemacenter"
+      "source": "Cinemacenter",
+      "classification_checked": true
     },
     {
       "match": [
@@ -104,7 +69,8 @@
       "poster": "https://www.querofilme.com.br/images/posters/t2x/3624-coyote-vs-acme-1.jpg",
       "imdb_id": "",
       "imdb_url": "",
-      "source": "Cinemacenter"
+      "source": "Cinemacenter",
+      "classification_checked": true
     },
     {
       "match": [
@@ -136,7 +102,8 @@
       "poster": "https://d9s3e2ooa0od7.cloudfront.net/assets/resident-evil/4569e7e0-a5b5-4b5b-84fc-2c39ede8ac67/4569e7e0-a5b5-4b5b-84fc-2c39ede8ac67.jpg",
       "imdb_id": "tt35538033",
       "imdb_url": "https://www.imdb.com/title/tt35538033/",
-      "source": "Cinemacenter"
+      "source": "Cinemacenter",
+      "classification_checked": true
     },
     {
       "match": [
@@ -172,10 +139,12 @@
         "Lea Salonga"
       ],
       "synopsis": "Jo y Raissa, dos mejores amigas a punto de iniciar caminos separados, atraviesan un misterioso portal hacia Nakali, una isla mágica. Para volver a casa tendrán que enfrentarse a un peligro inesperado: perder sus recuerdos compartidos.",
-      "poster": "https://www.citicinemas.com/_next/image?q=75&url=https%3A%2F%2Fstorage.googleapis.com%2Fciticinemas-store%2FMovie-2304%2Fposter%2F5T7oJw6wwoRP%2FLA%2BISLA%2BOLVIDADA.jpg&w=1920",
+      "poster": "https://media-cartelera.glanacion.com/media/posters/peliculas/20396.webp",
       "imdb_id": "tt36583977",
       "imdb_url": "https://www.imdb.com/title/tt36583977/",
-      "source": "Cinemacenter"
+      "source": "Cinemacenter",
+      "classification_checked": true,
+      "poster_fallback_source": "La Nación cartelera"
     },
     {
       "match": [
@@ -211,6 +180,49 @@
       "poster": "https://media-cartelera.glanacion.com/media/posters/peliculas/20397.webp",
       "imdb_id": "tt7526136",
       "imdb_url": "https://www.imdb.com/title/tt7526136/",
+      "source": "Cinemacenter",
+      "classification_checked": true
+    },
+    {
+      "classification_checked": true,
+      "match": [
+        "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA"
+      ],
+      "source": "Cinemacenter"
+    },
+    {
+      "classification_checked": true,
+      "match": [
+        "DIGGER"
+      ],
+      "source": "Cinemacenter"
+    },
+    {
+      "classification_checked": true,
+      "match": [
+        "VERITY LA SOMBRA DE UN ENGAÑO"
+      ],
+      "source": "Cinemacenter"
+    },
+    {
+      "classification_checked": true,
+      "match": [
+        "VERTIGO 2"
+      ],
+      "source": "Cinemacenter"
+    },
+    {
+      "classification_checked": true,
+      "match": [
+        "ESCONDIDA EN MI CABEZA"
+      ],
+      "source": "Cinemacenter"
+    },
+    {
+      "classification_checked": true,
+      "match": [
+        "GUARDIANES DEL MUSEO 2"
+      ],
       "source": "Cinemacenter"
     }
   ]
