@@ -13,19 +13,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.x'
+          python-version: '3.13'
 
       - name: Actualizar metadata desde Cinemacenter
         env:
-          # Los runners de GitHub pueden tener problemas de red con Cinemacenter.
-          # Jina Reader actúa como transporte/proxy, pero la fuente sigue siendo Cinemacenter.
+          # Cinemacenter puede bloquear o ralentizar el acceso desde GitHub.
+          # Jina Reader accede a la página y devuelve su contenido; la fuente
+          # de los datos sigue siendo Cinemacenter.
           CINEMACENTER_FETCH_MODE: jina
           CINEMACENTER_READER_TIMEOUT: '60'
+          PYTHONUNBUFFERED: '1'
         run: python scripts/enrich-cinemacenter-metadata.py
 
       - name: Guardar cambios
