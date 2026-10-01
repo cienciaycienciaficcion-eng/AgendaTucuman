@@ -44,19 +44,40 @@ def normalize(value: object) -> str:
 
 
 def _fetch_direct(url: str) -> str:
-    req = Request(
-        url,
-        headers={
-            "User-Agent": USER_AGENT,
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-            "Accept-Language": "es-AR,es;q=0.9,en;q=0.7",
-            "Cache-Control": "no-cache",
-        },
-    )
-    with urlopen(req, timeout=DIRECT_TIMEOUT) as response:
-        raw = response.read()
-        charset = response.headers.get_content_charset() or "utf-8"
-        return raw.decode(charset, errors="replace")
+    """Fetch Cinemacenter directly, trying both canonical hostnames.
+
+    GitHub runners can receive a 403 from one hostname while the other is
+    reachable. Both URLs still point directly to Cinemacenter; no external
+    metadata provider is involved.
+    """
+    parsed = urlparse(url)
+    variants = [url]
+    if parsed.netloc == "www.cinemacenter.com.ar":
+        variants.append(url.replace("https://www.cinemacenter.com.ar", "https://cinemacenter.com.ar", 1))
+    elif parsed.netloc == "cinemacenter.com.ar":
+        variants.append(url.replace("https://cinemacenter.com.ar", "https://www.cinemacenter.com.ar", 1))
+
+    last_error = None
+    for candidate in variants:
+        req = Request(
+            candidate,
+            headers={
+                "User-Agent": USER_AGENT,
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "es-AR,es;q=0.9,en;q=0.7",
+                "Referer": "https://www.cinemacenter.com.ar/",
+                "Cache-Control": "no-cache",
+            },
+        )
+        try:
+            with urlopen(req, timeout=DIRECT_TIMEOUT) as response:
+                raw = response.read()
+                charset = response.headers.get_content_charset() or "utf-8"
+                return raw.decode(charset, errors="replace")
+        except Exception as exc:
+            last_error = exc
+
+    raise last_error or RuntimeError("falló la consulta directa")
 
 
 def _fetch_reader(url: str) -> str:
@@ -96,6 +117,12 @@ def _fetch_reader(url: str) -> str:
 
 
 def fetch(url: str) -> str:
+    """Fetch content while keeping Cinemacenter as the only data source.
+
+    `auto` is deliberately the default: direct Cinemacenter is attempted first
+    and Jina Reader is only a transport fallback. The workflow must not force
+    Jina because that service can return HTTP 403 for Cinemacenter.
+    """
     errors = []
     if FETCH_MODE in {"auto", "direct"}:
         try:
@@ -103,7 +130,7 @@ def fetch(url: str) -> str:
         except Exception as exc:
             errors.append(f"directo: {exc}")
             if FETCH_MODE == "direct":
-                raise
+                raise RuntimeError("No se pudo consultar Cinemacenter directamente: " + str(exc)) from exc
     if FETCH_MODE in {"auto", "jina", "reader"}:
         try:
             return _fetch_reader(url)
