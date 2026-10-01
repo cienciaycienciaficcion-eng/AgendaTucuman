@@ -118,40 +118,83 @@ def tmdb_request(session: requests.Session, path: str, params: dict[str, Any]) -
         return None
 
 
+def title_variants(title: str) -> list[str]:
+    """Generate conservative search variants for Cinemacenter titles."""
+    raw = re.sub(r"\s+", " ", title or "").strip()
+    variants: list[str] = []
+
+    def add(value: str) -> None:
+        value = re.sub(r"\s+", " ", value).strip(" :-–—")
+        if value and value not in variants:
+            variants.append(value)
+
+    add(raw)
+    add(re.sub(r"\s*[:|]\s*", " ", raw))
+    # Cinemacenter frequently appends these Spanish/English descriptors.
+    stripped = re.sub(r"\s+(la\s+pel[ií]cula|the\s+movie)\s*$", "", raw, flags=re.I)
+    add(stripped)
+    add(re.sub(r"\s*[:|]\s*", " ", stripped))
+
+    # If a colon is present, search the main title as a last resort.
+    if ":" in stripped:
+        add(stripped.split(":", 1)[0])
+
+    # Cinemacenter often uses a Spanish subtitle after " LA ...".
+    # Search the principal title as an additional, conservative variant.
+    parts = re.split(r"\s+LA\s+", stripped, maxsplit=1, flags=re.I)
+    if len(parts) == 2 and len(parts[0].split()) <= 6:
+        add(parts[0])
+
+    # Search a compact form without accents/punctuation.
+    add(normalize(stripped))
+    return variants
+
+
 def choose_result(query: str, results: list[dict[str, Any]]) -> dict[str, Any] | None:
     if not results:
         return None
 
     nq = normalize(query)
+    q_words = set(nq.split())
 
     def score(item: dict[str, Any]) -> float:
         title = normalize(item.get("title"))
         original = normalize(item.get("original_title"))
-        year = year_from_date(item.get("release_date"))
+        title_words = set(title.split())
+        original_words = set(original.split())
+        candidates = [title, original]
         value = 0.0
 
         if title == nq:
-            value += 110
+            value += 140
         elif original == nq:
-            value += 108
-        elif nq and (nq in title or title in nq):
-            value += 70
-        elif nq and (nq in original or original in nq):
-            value += 68
+            value += 138
+        elif nq and nq in candidates:
+            value += 105
+        elif nq and any(nq in c or c in nq for c in candidates if c):
+            value += 78
 
-        q_words = set(nq.split())
-        t_words = set(title.split()) | set(original.split())
-        if q_words and t_words:
-            value += len(q_words & t_words) / max(len(q_words), len(t_words)) * 30
+        overlaps = []
+        for words in (title_words, original_words):
+            if words:
+                overlaps.append(len(q_words & words) / max(1, len(q_words)))
+        overlap = max(overlaps or [0.0])
+        value += overlap * 55
 
-        if year:
-            value += 2
-        value += min(float(item.get("popularity") or 0), 20) / 20
+        # Penalize a result that only matches one tiny word of a long title.
+        if len(q_words) >= 3 and overlap < 0.50:
+            value -= 30
+
+        popularity = float(item.get("popularity") or 0)
+        value += min(popularity, 20) / 20
         return value
 
     ranked = sorted(results, key=score, reverse=True)
     best = ranked[0]
-    if score(best) < 55:
+    best_score = score(best)
+
+    # Conservative threshold: don't attach metadata to a clearly unrelated movie.
+    if best_score < 70:
         return None
     return best
 
@@ -160,28 +203,33 @@ def search_movie(session: requests.Session, title: str) -> dict[str, Any] | None
     all_results: list[dict[str, Any]] = []
     seen: set[int] = set()
 
-    for language, region in (("es-AR", "AR"), ("en-US", "AR")):
-        data = tmdb_request(
-            session,
-            "/search/movie",
-            {
-                "query": title,
-                "language": language,
-                "region": region,
-                "include_adult": "false",
-                "page": 1,
-            },
-        )
-        if data:
-            for item in data.get("results", []):
-                movie_id = item.get("id")
-                if movie_id and movie_id not in seen:
-                    seen.add(movie_id)
-                    all_results.append(item)
-        time.sleep(SLEEP)
+    for variant in title_variants(title):
+        for language, region in (("es-AR", "AR"), ("en-US", "AR")):
+            data = tmdb_request(
+                session,
+                "/search/movie",
+                {
+                    "query": variant,
+                    "language": language,
+                    "region": region,
+                    "include_adult": "false",
+                    "page": 1,
+                },
+            )
+            if data:
+                for item in data.get("results", []):
+                    movie_id = item.get("id")
+                    if movie_id and movie_id not in seen:
+                        seen.add(movie_id)
+                        all_results.append(item)
+            time.sleep(SLEEP)
+
+        # If an exact/strong result is already present, stop issuing requests.
+        candidate = choose_result(title, all_results)
+        if candidate:
+            return candidate
 
     return choose_result(title, all_results)
-
 
 def get_details(session: requests.Session, movie_id: int) -> dict[str, Any] | None:
     data = tmdb_request(
@@ -189,7 +237,7 @@ def get_details(session: requests.Session, movie_id: int) -> dict[str, Any] | No
         f"/movie/{movie_id}",
         {
             "language": "es-AR",
-            "append_to_response": "credits,videos",
+            "append_to_response": "credits,videos,external_ids",
             "include_image_language": "es,null,en",
         },
     )
@@ -276,6 +324,11 @@ def build_tmdb(details: dict[str, Any], certification: str | None) -> dict[str, 
         "trailer": trailer_url,
         "tmdb_id": details.get("id"),
         "tmdb_url": f"https://www.themoviedb.org/movie/{details.get('id')}" if details.get("id") else None,
+        "imdb_id": (details.get("external_ids") or {}).get("imdb_id"),
+        "imdb_url": (
+            f"https://www.imdb.com/title/{(details.get("external_ids") or {}).get("imdb_id")}/"
+            if (details.get("external_ids") or {}).get("imdb_id") else None
+        ),
     }
 
     if certification:
