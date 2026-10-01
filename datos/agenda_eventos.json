@@ -55350,6 +55350,75 @@
     }
   },
   {
+    "id": "46588",
+    "source": "MEC",
+    "title": "2 de Octubre | “Somos Música” reúne a Marcelo Giullitti, Rodrigo Rivadeneira y Leo Díaz en La Gesta Cultural",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-somos-musica-reune-a-marcelo-giullitti-rodrigo-rivadeneira-y-leo-diaz-en-la-gesta-cultural/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Gesta Cultural propone una noche dedicada a la canción de autor este viernes 2 de octubre con “Somos Música”, un encuentro que reunirá en un mismo escenario a Marcelo Giullitti, Rodrigo Rivadeneira y Leo Díaz. La cita será a las 21 en Av. Alem 747, con una propuesta que combinará canciones propias, rock, piano y diferentes miradas sobre el amor, las ausencias, la esperanza y la realidad social. Tres artistas, tres universos musicales Leo Díaz regresará a los escenarios con composiciones propias atravesadas por temáticas como el amor, las ausencias y la esperanza. Marcelo Giullitti presentará nuevas canciones, manteniendo una impronta ligada al rock y a una mirada crítica sobre la realidad social. Por su parte, Rodrigo Rivadeneira despedirá su primer disco, “Inmanente”, con versiones al piano de sus canciones antes de iniciar una nueva etapa con su segundo álbum. Una noche para descubrir música tucumana “Somos Música” propone un encuentro entre tres artistas con estilos y recorridos diferentes, unidos por la composición y la interpretación de repertorio propio. Para quienes buscan qué hacer en Tucumán este viernes, la fecha se suma a la agenda cultural como una alternativa para acercarse a producciones locales y disfrutar de música en vivo en un formato íntimo. Modalidad de entrada El espectáculo será bajo la modalidad “al sobre”, por lo que el público podrá realizar su aporte en el lugar. Una oportunidad para disfrutar de tres propuestas musicales diferentes en una misma noche. Datos destacados 📅 Fecha: viernes 2 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: La Gesta Cultural 📌 Dirección: Av. Alem 747 🎶 Espectáculo: “Somos Música” 🎤 Artistas: Marcelo Giullitti, Rodrigo Rivadeneira y Leo Díaz 🎹 Rodrigo Rivadeneira despedirá su disco “Inmanente” 🎸 Marcelo Giullitti presentará nuevas canciones 🎤 Leo Díaz vuelve a los escenarios con repertorio propio 🎟️ Modalidad: show al sobre",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/somos-musica.png",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Gesta Cultural 📌 Dirección: Av. Alem 747",
+    "address": "Alem 747",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Alem+747%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "46572",
     "source": "MEC",
     "title": "2 de Octubre | La Orquesta Sinfónica de la UNT presenta “El Primer Romanticismo” en el Teatro Alberdi",
@@ -55551,6 +55620,144 @@
       "date": "title_day",
       "time": "mec_card",
       "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46590",
+    "source": "MEC",
+    "title": "2 de Octubre | La Escondida celebra su 4° aniversario con una gran peña",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-la-escondida-celebra-su-4-aniversario-con-una-gran-pena/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Escondida está de festejo y este viernes 2 de octubre celebrará sus cuatro años con una noche cargada de música, baile, guitarreada, fogón y encuentro entre amigos. La celebración comenzará desde las 22 en Miguel Lillo 234, en San Miguel de Tucumán, con una extensa grilla de artistas en vivo, academias de baile, comidas regionales y promociones en bebidas. Una noche para celebrar a lo grande La propuesta reúne varios de los elementos que caracterizan a una peña tradicional: música en vivo, baile, guitarreada y fogón. El aniversario también busca reconocer a la comunidad que se fue formando alrededor de La Escondida durante estos cuatro años, con una jornada pensada para reencontrarse, cantar, bailar y compartir. Para quienes buscan qué hacer en Tucumán este viernes por la noche, la celebración se presenta como una de las propuestas folklóricas destacadas de la agenda. Una extensa grilla de artistas Por el escenario pasarán numerosos músicos y artistas invitados. Entre los nombres anunciados se encuentran Zoe Ruiz, Escondidos, Miguel Aragón, Rodrigo Urueña, Gastón Vázquez, Denisse Cajal, Matías Brito, Tobías Salto, Daniel Saba, David Risso, Mariana Villagra, Jorge Miguel, Tobías Calatayu, Bruno Díaz, Julio Ramos, Luis Corbalán, Fede Olivera, Rubén Paz, Franco Veliz, Leo Ruiz, Mariano Ruiz, Nico Sarco y Lautaro Urueña. La noche también contará con academias de baile, que se sumarán a una programación atravesada por el folklore y la música popular. Fogón, comidas regionales y promociones Además de los espectáculos, habrá fogón, comidas regionales y promociones en bebidas. La propuesta apunta a recrear el espíritu de una gran peña, con distintos espacios y actividades para acompañar toda la noche. Entradas La entrada tendrá un valor de $3.000 y deberá abonarse en efectivo. Datos destacados 📅 Fecha: viernes 2 de octubre de 2026 🕙 Horario: desde las 22:00 📍 Lugar: La Escondida 📌 Dirección: Miguel Lillo 234, San Miguel de Tucumán 🎉 Motivo: 4° aniversario 🎤 Habrá artistas en vivo 💃 Academias de baile 🎸 Show y guitarreada 🔥 Fogón 🥟 Comidas regionales 🍷 Promociones en bebidas 🎟️ Entrada: $3.000 en efectivo",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/escondida.png",
+    "price": 3000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "La Escondida 📌 Dirección: Miguel Lillo 234, San Miguel de Tucumán 🎉 Motivo: 4° aniversario 🎤 Habrá artistas en vivo 💃 Academias de baile 🎸 Show y guitarreada",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán 🎉 Motivo: 4° aniversario 🎤 Habrá artistas en vivo 💃 Academias de baile 🎸 Show y guitarreada 🔥 Fogón 🥟 Comidas regionales 🍷 Promociones en bebidas 🎟️ Entrada: $3",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Escondida+%F0%9F%93%8C+Direcci%C3%B3n%3A+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%89+Motivo%3A+4%C2%B0+aniversario+%F0%9F%8E%A4+Habr%C3%A1+artistas+en+vivo+%F0%9F%92%83+Academias+de+baile+%F0%9F%8E%B8+Show+y+guitarreada%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%89+Motivo%3A+4%C2%B0+aniversario+%F0%9F%8E%A4+Habr%C3%A1+artistas+en+vivo+%F0%9F%92%83+Academias+de+baile+%F0%9F%8E%B8+Show+y+guitarreada+%F0%9F%94%A5+Fog%C3%B3n+%F0%9F%A5%9F+Comidas+regionales+%F0%9F%8D%B7+Promociones+en+bebidas+%F0%9F%8E%9F%EF%B8%8F+Entrada%3A+%243",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46586",
+    "source": "MEC",
+    "title": "2 de Octubre | Don Luca presenta un tributo a Sumo en La Gesta Cultural",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-don-luca-presenta-un-tributo-a-sumo-en-la-gesta-cultural/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "23:55",
+    "time_end": "",
+    "start_datetime": "2026-10-02T23:55:00-03:00",
+    "end_datetime": "",
+    "description": "El rock argentino tendrá una noche especial este viernes 2 de octubre con la presentación de Don Luca en La Gesta Cultural, donde ofrecerá un homenaje a Sumo con un show de aproximadamente dos horas. La cita será a la medianoche en Av. Alem 747, con un repertorio centrado en los grandes éxitos de una de las bandas más influyentes del rock nacional. Un homenaje a Sumo Don Luca propone un recorrido por canciones emblemáticas de Sumo, banda que marcó una etapa clave de la música argentina y dejó una fuerte huella en generaciones de seguidores. La propuesta estará orientada a revivir la energía, el sonido y el espíritu de sus temas más conocidos en una noche de rock en vivo. Dos horas a puro rock El espectáculo tendrá una duración aproximada de dos horas y estará pensado para quienes quieran reencontrarse con clásicos del repertorio de Sumo en un formato de homenaje. Para quienes buscan qué hacer en Tucumán este viernes por la noche, la fecha se suma a la agenda musical con una propuesta directa, intensa y cargada de rock nacional. Entradas Las entradas tienen un valor de $5.000 y también pueden adquirirse a través de Passline. Una buena oportunidad para cerrar el viernes con un tributo dedicado a una de las bandas más importantes de la historia del rock argentino. Datos destacados 📅 Fecha: viernes 2 de octubre de 2026 🕛 Horario: 00:00 📍 Lugar: La Gesta Cultural 📌 Dirección: Av. Alem 747 🎸 Espectáculo: tributo a Sumo 🎤 Banda: Don Luca ⏱️ Duración aproximada: 2 horas 🎶 Repertorio: grandes éxitos de Sumo 🎟️ Entrada: $5.000 💻 Venta: Passline",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/don-luca.png",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "La Gesta Cultural 📌 Dirección: Av. Alem 747 🎸 Espectáculo: tributo a Sumo 🎤 Banda: Don Luca ⏱️ Duración aproximada: 2 horas",
+    "address": "Alem 747",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Alem+747+%F0%9F%8E%B8+Espect%C3%A1culo%3A+tributo+a+Sumo+%F0%9F%8E%A4+Banda%3A+Don+Luca+%E2%8F%B1%EF%B8%8F+Duraci%C3%B3n+aproximada%3A+2+horas%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "23:55",
+        "time_end": "",
+        "start_datetime": "2026-10-02T23:55:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "23:55",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -56204,6 +56411,75 @@
     }
   },
   {
+    "id": "46584",
+    "source": "MEC",
+    "title": "3 de Octubre | Kurosawa presenta “Total Interferencia”, un recorrido por Charly García, Fito Páez y Spinetta",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-kurosawa-presenta-total-interferencia-un-recorrido-por-charly-garcia-fito-paez-y-spinetta/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música argentina será protagonista este sábado 3 de octubre con “Total Interferencia”, una propuesta de Kurosawa que recorrerá canciones de Charly García, Fito Páez y Luis Alberto Spinetta. El show comenzará a las 21 en Av. Alem 747 y propone una noche para reencontrarse con algunos de los grandes nombres del rock nacional. Un recorrido por tres referentes fundamentales “Total Interferencia” toma como punto de partida el repertorio de Charly García, Fito Páez y Luis Alberto Spinetta, tres artistas centrales de la música argentina. La propuesta busca generar un recorrido por canciones que marcaron distintas épocas y generaciones, con una puesta pensada para quienes disfrutan del rock nacional y de sus composiciones más emblemáticas. Kurosawa en vivo Kurosawa estará a cargo de esta presentación, impulsada por Jardín de Gentes y La Gesta Cultural. Para quienes buscan qué hacer en Tucumán este sábado, el recital se suma a la agenda nocturna con una propuesta centrada en la música en vivo y en un repertorio muy ligado a la historia del rock argentino. Entradas Las entradas tienen un valor de $7.000 y pueden adquirirse a través de Passline. Una oportunidad para disfrutar de una noche dedicada a las canciones de Charly García, Fito Páez y Luis Alberto Spinetta. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: Av. Alem 747 🎶 Espectáculo: “Total Interferencia” 🎸 Artista: Kurosawa 🎤 Repertorio: canciones de Charly García, Fito Páez y Luis Alberto Spinetta 🎟️ Entradas: $7.000 💻 Venta: Passline",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/total.png",
+    "price": 7000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Av. Alem 747",
+    "address": "Alem 747",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Av.+Alem+747%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "46554",
     "source": "MEC",
     "title": "3 de Octubre | Martín Rivas presenta “Soñar despierto” en el Teatro Rosita Ávila",
@@ -56402,6 +56678,291 @@
       "rest_status": 200,
       "card_date": "2026-10-03",
       "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46592",
+    "source": "MEC",
+    "title": "3 de Octubre | “Nada” llega a La Colorida con una historia sobre deporte, identidad y búsqueda personal",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-nada-llega-a-la-colorida-con-una-historia-sobre-deporte-identidad-y-busqueda-personal/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El teatro independiente suma una nueva propuesta a la agenda tucumana este sábado 3 de octubre con la presentación de “Nada”, una obra que cuenta la historia de Nicolás Vanetto, un nadador tucumano que intenta encontrar su lugar en el mundo mientras carga con una fuerte herencia deportiva familiar. La función comenzará a las 21 en La Colorida, ubicada en Mendoza 2955, San Miguel de Tucumán. El agua como refugio y como escenario de preguntas Nicolás forma parte del plantel de Barrio Sur y transita su vida entre entrenamientos, competencias y brazadas. Sin embargo, a medida que avanza la historia, la natación deja de ser solamente una práctica deportiva para convertirse en una herramienta de búsqueda personal. El agua aparece como refugio, pero también como el espacio donde el protagonista comienza a enfrentarse con sus propias preguntas y con el desafío de construir una identidad propia. Un equipo artístico tucumano La actuación y dramaturgia están a cargo de Rami Grignola, mientras que Vale Mendoza se ocupa de la preparación física. El equipo se completa con Flora Burgos en vestuario, Gabriel Argiró en iluminación y asistencia técnica, Aguito Rossini en proyecciones y Majo Valdez en fotografía. La dirección está a cargo de Colectiva. Para quienes buscan qué hacer en Tucumán este sábado, “Nada” propone una alternativa dentro del teatro independiente que combina deporte, vínculos familiares e interrogantes sobre la identidad y el crecimiento personal. Entradas y reservas La entrada general tendrá un valor de $25.000 en puerta. Hasta el 2 de octubre también estará disponible una modalidad de entrada solidaria, con un aporte de entre $15.000 y $25.000. Las reservas y consultas pueden realizarse al 381 4189792. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: La Colorida 📌 Dirección: Mendoza 2955, San Miguel de Tucumán 🎭 Obra: “Nada” 🎤 Actuación y dramaturgia: Rami Grignola 🎬 Dirección: Colectiva 🏊 Historia: un nadador tucumano en busca de su propia identidad 🎟️ Entrada general en puerta: $25.000 🤝 Entrada solidaria hasta el 2 de octubre: entre $15.000 y $25.000 📲 Reservas y consultas: 381 4189792",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/nada.jpg",
+    "price": 25000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "mundo mientras carga con una fuerte herencia deportiva familiar",
+    "address": "Mendoza 2955, San Miguel de Tucumán 🎭 Obra: “Nada” 🎤 Actuación y dramaturgia: Rami Grignola 🎬 Dirección: Colectiva 🏊 Historia: un nadador tucumano en busca de su propia identidad 🎟️ Entrada general en puerta: $25",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "381 4189792"
+    ],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=mundo+mientras+carga+con+una+fuerte+herencia+deportiva+familiar%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%AD+Obra%3A+%E2%80%9CNada%E2%80%9D+%F0%9F%8E%A4+Actuaci%C3%B3n+y+dramaturgia%3A+Rami+Grignola+%F0%9F%8E%AC+Direcci%C3%B3n%3A+Colectiva+%F0%9F%8F%8A+Historia%3A+un+nadador+tucumano+en+busca+de+su+propia+identidad+%F0%9F%8E%9F%EF%B8%8F+Entrada+general+en+puerta%3A+%2425",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46594",
+    "source": "MEC",
+    "title": "3 de Octubre | La Peña de Orellana Lucca reúne a grandes figuras del folklore en Club Floresta",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-la-pena-de-orellana-lucca-reune-a-grandes-figuras-del-folklore-en-club-floresta/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El folklore tendrá una cita destacada este sábado 3 de octubre con una nueva edición de La Peña de Orellana Lucca, una noche que reunirá música en vivo y una importante grilla de artistas en el Club Sportivo Floresta. El encuentro comenzará a las 22 en Av. Colón 471, San Miguel de Tucumán, y tendrá como protagonistas al Dúo Orellana Lucca junto a reconocidos nombres de la escena folklórica. Una noche a puro folklore La propuesta contará con la participación del Dúo Orellana Lucca, Ángelo Aranda, Demi Carabajal, Marcelo Toledo, Sofi Salomón y Fidelio. La variedad de artistas anticipa una noche atravesada por distintos estilos y generaciones del folklore, con una programación pensada para quienes disfrutan de las peñas y de la música popular en vivo. Para quienes buscan qué hacer en Tucumán este sábado, La Peña de Orellana Lucca se suma a la agenda nocturna con una propuesta de fuerte identidad folklórica. Entradas Las entradas pueden adquirirse online a través de Alpogo. También hay un punto de venta físico en La Rockería, ubicada en Buenos Aires 39, local 6, en San Miguel de Tucumán. Una oportunidad para disfrutar de una noche de folklore con una grilla que reúne artistas de reconocida trayectoria y nuevas voces. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕙 Horario: 22:00 📍 Lugar: Club Sportivo Floresta 📌 Dirección: Av. Colón 471, San Miguel de Tucumán 🎶 Evento: La Peña de Orellana Lucca 🎤 Artistas: Dúo Orellana Lucca, Ángelo Aranda, Demi Carabajal, Marcelo Toledo, Sofi Salomón y Fidelio 🎟️ Entradas online: Alpogo 🏪 Punto de venta físico: La Rockería, Buenos Aires 39, local 6 📲 Prensa: 381 574 4791",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/pena-orellana.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Club Sportivo Floresta 📌 Dirección: Av. Colón 471, San Miguel de Tucumán",
+    "address": "Buenos Aires 39",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Club+Sportivo+Floresta+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Col%C3%B3n+471%2C+San+Miguel+de+Tucum%C3%A1n%2C+Buenos+Aires+39",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46596",
+    "source": "MEC",
+    "title": "3 y 4 de Octubre | El Flaco Pailos llega a Tucumán con “Solo de Humor… Más Rápido y Más Gracioso”",
+    "url": "https://agendatucuman.com.ar/eventos/3-y-4-de-octubre-el-flaco-pailos-llega-a-tucuman-con-solo-de-humor-mas-rapido-y-mas-gracioso/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-04",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Fernando “El Flaco” Pailos regresa a Tucumán este fin de semana con “Solo de Humor… Más Rápido y Más Gracioso”, su nuevo espectáculo en el que combina personajes, historias cotidianas, música, sonidos y cambios de vestuario realizados frente al público. El humorista ofrecerá dos funciones en la provincia: el sábado 3 de octubre en San Miguel de Tucumán y el domingo 4 en Monteros. Humor, personajes y cambios de vestuario Durante aproximadamente una hora y media, Pailos desplegará una sucesión de situaciones humorísticas sin pausas. El espectáculo propone un viaje imaginario por diferentes lugares del mundo y toma como punto de partida escenas y situaciones de la vida cotidiana. Una de sus particularidades serán los rápidos cambios de vestuario realizados en segundos sobre el escenario, además del uso de música, sonidos y expresión corporal para construir cada personaje. Primera función en San Miguel de Tucumán La primera presentación será el sábado 3 de octubre a las 22 en Resto Bar Siglo 21, ubicado en Mitre 502, San Miguel de Tucumán. Para quienes buscan qué hacer en Tucumán el sábado por la noche, la llegada del Flaco Pailos suma una propuesta de humor a la cartelera del fin de semana. El domingo llega a Monteros La segunda función tendrá lugar el domingo 4 de octubre a las 21 en el Cine Teatro Marconi de Monteros. En esta presentación, Pailos compartirá la noche con la comediante tucumana Cris Álvarez. Entradas Las entradas para ambas funciones pueden conseguirse a través de Entradaweb. También se pueden realizar consultas y gestionar entradas al teléfono 381 476-9832. Datos destacados 📅 Sábado 3 de octubre de 2026 🕙 Horario: 22:00 📍 Resto Bar Siglo 21 📌 Mitre 502, San Miguel de Tucumán 📅 Domingo 4 de octubre de 2026 🕘 Horario: 21:00 📍 Cine Teatro Marconi, Monteros 😂 Artista invitada: Cris Álvarez 🎤 Protagonista: Fernando “El Flaco” Pailos 😂 Espectáculo: “Solo de Humor… Más Rápido y Más Gracioso” ⏱️ Duración aproximada: 1 hora y 30 minutos 🎟️ Entradas: Entradaweb 📲 Consultas: 381 476-9832",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/pailos.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "escenas y situaciones de la vida cotidiana",
+    "address": "Mitre 502",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=escenas+y+situaciones+de+la+vida+cotidiana%2C+Mitre+502%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T22:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-04",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "22:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46598",
+    "source": "MEC",
+    "title": "3 de Octubre | Nicolás Taboada encabeza una nueva noche electrónica en La Boite",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-nicolas-taboada-encabeza-una-nueva-noche-electronica-en-la-boite/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "23:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T23:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música electrónica tendrá una nueva cita este sábado 3 de octubre con la presentación de Nicolás Taboada en La Boite Club, uno de los espacios vinculados a la noche tucumana. La propuesta comenzará a las 23 en San Martín 1161, San Miguel de Tucumán, con una fecha indoor pensada para quienes buscan pista y electrónica para arrancar el mes. Una nueva noche en La Boite La fecha marcará una nueva apertura de La Boite Club con Nicolás Taboada al frente de la música. La propuesta estará centrada en la electrónica y el baile, en una noche que busca reunir nuevamente al público habituado a este tipo de fiestas y a la escena nocturna local. Para quienes buscan qué hacer en Tucumán este sábado por la noche, la fecha se suma a la agenda del fin de semana con una alternativa orientada a la música electrónica. Entradas Las entradas para la presentación ya se encuentran disponibles de manera online. Una opción para comenzar octubre con música, pista y una nueva noche en La Boite. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕚 Horario: 23:00 📍 Lugar: La Boite Club 📌 Dirección: San Martín 1161, San Miguel de Tucumán 🎧 Artista: Nicolás Taboada 🎶 Género: música electrónica 🌙 Modalidad: noche indoor 🎟️ Entradas: disponibles online",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/boite.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Boite Club 📌 Dirección: San Martín 1161, San Miguel de Tucumán 🎧 Artista: Nicolás Taboada",
+    "address": "San Martín 1161, San Miguel de Tucumán 🎧 Artista: Nicolás Taboada 🎶 Género: música electrónica 🌙 Modalidad: noche indoor 🎟️ Entradas: disponibles online",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Boite+Club+%F0%9F%93%8C+Direcci%C3%B3n%3A+San+Mart%C3%ADn+1161%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A7+Artista%3A+Nicol%C3%A1s+Taboada%2C+San+Mart%C3%ADn+1161%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A7+Artista%3A+Nicol%C3%A1s+Taboada+%F0%9F%8E%B6+G%C3%A9nero%3A+m%C3%BAsica+electr%C3%B3nica+%F0%9F%8C%99+Modalidad%3A+noche+indoor+%F0%9F%8E%9F%EF%B8%8F+Entradas%3A+disponibles+online",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "23:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T23:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "23:00",
       "date": "title_day",
       "time": "mec_card",
       "location": "label",
