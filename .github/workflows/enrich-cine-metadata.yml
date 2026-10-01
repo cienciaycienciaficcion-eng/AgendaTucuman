@@ -25,16 +25,19 @@ jobs:
           PYTHONUNBUFFERED: '1'
         run: python scripts/enrich-cinemacenter-metadata.py
 
-      - name: Completar metadata faltante con TMDB
-        env:
-          TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
-          PYTHONUNBUFFERED: '1'
-        run: |
-          if [ -z "$TMDB_API_TOKEN" ]; then
-            echo "ADVERTENCIA: no existe TMDB_API_TOKEN; se omite el fallback."
-          else
-            python scripts/enrich-cine-metadata-fallback.py
-          fi
+    - name: Completar metadata faltante con TMDB
+  env:
+    TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
+    PYTHONUNBUFFERED: '1'
+  run: |
+    python -m pip install --upgrade pip
+    python -m pip install requests
+
+    if [ -z "$TMDB_API_TOKEN" ]; then
+      echo "ADVERTENCIA: no existe TMDB_API_TOKEN; se omite el fallback."
+    else
+      python scripts/enrich-cine-metadata-fallback.py
+    fi
 
       - name: Validar metadata generada
         run: |
