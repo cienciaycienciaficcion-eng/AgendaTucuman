@@ -472,19 +472,11 @@ def main() -> int:
         print("No se encontró una cartelera local válida", file=sys.stderr)
         return 1
 
-    cartelera_parser = PageParser()
-    try:
-        cartelera_html = fetch(CARTELERA_URL)
-        if "<html" in cartelera_html[:2000].lower() or "<meta" in cartelera_html[:5000].lower():
-            cartelera_parser.feed(cartelera_html)
-        else:
-            cartelera_parser = MarkdownParser(cartelera_html)
-        print("Cartelera Cinemacenter consultada correctamente.")
-    except Exception as exc:
-        # Do not make the entire GitHub workflow fail because the site is
-        # temporarily unreachable. Existing metadata is still useful and will
-        # be preserved. Individual pages can still be retried from cached URLs.
-        print(f"Aviso: no se pudo consultar la cartelera de Cinemacenter: {exc}", file=sys.stderr)
+    movies = cinema["cartelera"]["movies"]
+    if not movies:
+        print("La cartelera actual no contiene películas; no se modifica la metadata anterior.")
+        return 0
+
     previous = load_json(LOCAL_METADATA, {"movies": []})
     previous_movies = previous.get("movies", []) if isinstance(previous, dict) else []
     by_title = {}
@@ -493,28 +485,69 @@ def main() -> int:
             if alias:
                 by_title[normalize(alias)] = item
 
+    # Solo consultamos las fichas de Cinemacenter para películas nuevas o que
+    # quedaron sin metadata suficiente. Las películas que siguen en cartelera
+    # conservan exactamente su metadata anterior. Si una película desaparece
+    # de la cartelera, deja de entrar en `enriched` y por lo tanto se elimina
+    # también de cine_metadata.json; si vuelve más adelante será tratada como
+    # una película nueva y se generará nuevamente su metadata.
+    def metadata_is_usable(item: dict) -> bool:
+        required = (
+            "title", "original_title", "year", "release_date",
+            "duration_minutes", "genres", "director", "cast",
+            "synopsis", "poster",
+        )
+        return bool(item) and all(item.get(key) not in (None, "", [], {}) for key in required)
+
+    needs_cartelera_lookup = False
+    for movie in movies:
+        title = str(movie.get("title") or "").strip()
+        old = by_title.get(normalize(title), {})
+        if not metadata_is_usable(old):
+            needs_cartelera_lookup = True
+            break
+
+    cartelera_parser = None
+    if needs_cartelera_lookup:
+        try:
+            cartelera_html = fetch(CARTELERA_URL)
+            if "<html" in cartelera_html[:2000].lower() or "<meta" in cartelera_html[:5000].lower():
+                cartelera_parser = PageParser()
+                cartelera_parser.feed(cartelera_html)
+            else:
+                cartelera_parser = MarkdownParser(cartelera_html)
+            print("Cartelera Cinemacenter consultada para localizar películas nuevas.")
+        except Exception as exc:
+            print(f"Aviso: no se pudo consultar la cartelera de Cinemacenter: {exc}", file=sys.stderr)
+
     enriched = []
     seen = set()
     failures = []
-    for movie in cinema["cartelera"]["movies"]:
+    for movie in movies:
         title = str(movie.get("title") or "").strip()
         key = normalize(title)
         if not key or key in seen:
             continue
         seen.add(key)
         old = by_title.get(key, {})
-        url = old.get("source_url") or find_movie_url(cartelera_parser, title)
         fresh = {}
-        if url:
-            try:
-                fresh = parse_movie_page(url, title)
-            except Exception as exc:
-                failures.append(f"{title}: {exc}")
-        else:
-            failures.append(f"{title}: no se encontró ficha en la cartelera")
 
-        merged = dict(old)
-        merged.update({k: v for k, v in fresh.items() if v not in (None, "", [], {})})
+        # Película ya conocida: conservar metadata.
+        if metadata_is_usable(old):
+            merged = dict(old)
+            print(f"  = {title}: metadata conservada (ya estaba en cartelera).")
+        else:
+            url = find_movie_url(cartelera_parser, title) if cartelera_parser is not None else None
+            if url:
+                try:
+                    fresh = parse_movie_page(url, title)
+                except Exception as exc:
+                    failures.append(f"{title}: {exc}")
+            else:
+                failures.append(f"{title}: no se encontró ficha en la cartelera")
+            merged = dict(old)
+            merged.update({k: v for k, v in fresh.items() if v not in (None, "", [], {})})
+            print(f"  + {title}: metadata generada/actualizada.")
         # Poster alternativo estable para La isla olvidada; el poster anterior
         # de Citi Cinemas puede bloquear hotlinking desde la app.
         if normalize(merged.get("title", title)) == "la isla olvidada":
@@ -543,7 +576,7 @@ def main() -> int:
 
     # Inject metadata into the remote cinema JSON too, so the app no longer needs a
     # separate manual metadata table for current films.
-    for movie in cinema["cartelera"]["movies"]:
+    for movie in movies:
         key = normalize(movie.get("title"))
         match = next((x for x in enriched if key in {normalize(a) for a in x.get("match", [])}), None)
         if match:
