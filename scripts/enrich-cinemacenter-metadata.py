@@ -10,6 +10,7 @@ from __future__ import annotations
 import html
 import json
 import re
+import os
 import sys
 import unicodedata
 from datetime import datetime, timezone
@@ -20,7 +21,11 @@ from urllib.request import Request, urlopen
 
 BASE = "https://www.cinemacenter.com.ar"
 CARTELERA_URL = f"{BASE}/cartelera#contenido"
-USER_AGENT = "AgendaTucuman/1.0 (+https://github.com/cienciaycienciaficcion-eng/AgendaTucuman)"
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0 Safari/537.36 AgendaTucuman/1.0"
+DIRECT_TIMEOUT = float(os.getenv("CINEMACENTER_DIRECT_TIMEOUT", "12"))
+READER_TIMEOUT = int(os.getenv("CINEMACENTER_READER_TIMEOUT", "45"))
+FETCH_MODE = os.getenv("CINEMACENTER_FETCH_MODE", "auto").lower()
+READER_BASE = "https://r.jina.ai/"
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "src" / "data"
 LOCAL_CINEMA = DATA_DIR / "cine_cinemacenter_tucuman.json"
@@ -38,12 +43,73 @@ def normalize(value: object) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
-def fetch(url: str) -> str:
-    req = Request(url, headers={"User-Agent": USER_AGENT, "Accept": "text/html,application/xhtml+xml"})
-    with urlopen(req, timeout=30) as response:
+def _fetch_direct(url: str) -> str:
+    req = Request(
+        url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+            "Accept-Language": "es-AR,es;q=0.9,en;q=0.7",
+            "Cache-Control": "no-cache",
+        },
+    )
+    with urlopen(req, timeout=DIRECT_TIMEOUT) as response:
         raw = response.read()
         charset = response.headers.get_content_charset() or "utf-8"
         return raw.decode(charset, errors="replace")
+
+
+def _fetch_reader(url: str) -> str:
+    # GitHub-hosted runners can be unable to reach Cinemacenter directly.
+    # Jina Reader acts only as an HTTP transport/proxy here; the content source
+    # remains Cinemacenter. Request raw HTML so the existing parser keeps working.
+    reader_url = READER_BASE + url
+    req = Request(
+        reader_url,
+        headers={
+            "User-Agent": USER_AGENT,
+            "Accept": "application/json",
+            "X-Engine": "browser",
+            "X-Timeout": str(READER_TIMEOUT),
+            "X-No-Cache": "true",
+        },
+    )
+    with urlopen(req, timeout=READER_TIMEOUT + 15) as response:
+        raw = response.read()
+        charset = response.headers.get_content_charset() or "utf-8"
+        text = raw.decode(charset, errors="replace")
+        if not text.strip():
+            raise RuntimeError("Jina Reader devolvió una respuesta vacía")
+        # With Accept: application/json Reader returns {url,title,content,...}.
+        # Keep the content string because it is Markdown, not the original HTML.
+        try:
+            payload = json.loads(text)
+            if isinstance(payload, dict) and isinstance(payload.get("data"), dict):
+                content = payload["data"].get("content")
+                if content:
+                    return str(content)
+            if isinstance(payload, dict) and payload.get("content"):
+                return str(payload["content"])
+        except Exception:
+            pass
+        return text
+
+
+def fetch(url: str) -> str:
+    errors = []
+    if FETCH_MODE in {"auto", "direct"}:
+        try:
+            return _fetch_direct(url)
+        except Exception as exc:
+            errors.append(f"directo: {exc}")
+            if FETCH_MODE == "direct":
+                raise
+    if FETCH_MODE in {"auto", "jina", "reader"}:
+        try:
+            return _fetch_reader(url)
+        except Exception as exc:
+            errors.append(f"reader: {exc}")
+    raise RuntimeError("No se pudo consultar Cinemacenter (" + "; ".join(errors) + ")")
 
 
 class PageParser(HTMLParser):
@@ -92,6 +158,30 @@ class PageParser(HTMLParser):
                 self.json_ld.append("".join(self._script_text))
             self._script_type = None
             self._script_text = []
+
+
+class MarkdownParser:
+    """Minimal parser for Jina Reader Markdown output.
+
+    Jina Reader returns clean Markdown rather than the original HTML. We only
+    need links, images and text for the Cinemacenter pages.
+    """
+    def __init__(self, source: str):
+        self.source = source or ""
+        self.links: list[tuple[str, str]] = []
+        self.images: list[str] = []
+        self.text = re.sub(r"\s+", " ", self.source).strip()
+        for m in re.finditer(r"!?\[([^\]]*)\]\((https?://[^)\s]+)", self.source):
+            label, url = m.group(1).strip(), m.group(2).strip()
+            if m.group(0).startswith("!"):
+                self.images.append(url)
+            else:
+                self.links.append((label, url))
+
+
+def parse_markdown_links(source: str) -> list[tuple[str, str]]:
+    parser = MarkdownParser(source)
+    return parser.links
 
 
 def parse_json_ld(parser: PageParser) -> list[dict]:
@@ -174,8 +264,13 @@ def label_value(text: str, labels: list[str]) -> str | None:
 
 
 def parse_movie_page(url: str, expected_title: str) -> dict:
-    parser = PageParser()
     source = fetch(url)
+    # Direct Cinemacenter responses are HTML; Jina Reader responses are Markdown.
+    looks_html = "<html" in source[:2000].lower() or "<meta" in source[:5000].lower()
+    if not looks_html:
+        return parse_movie_markdown(source, url, expected_title)
+
+    parser = PageParser()
     parser.feed(source)
     json_items = parse_json_ld(parser)
     movie = next((x for x in json_items if str(x.get("@type", "")).lower() in {"movie", "movieevent"}), {})
@@ -204,7 +299,7 @@ def parse_movie_page(url: str, expected_title: str) -> dict:
         g = label_value(text, ["Género", "Generos"])
         genres = [x.strip() for x in re.split(r",|/| y |·", g or "") if x.strip()]
 
-    original_title = first_nonempty(movie.get("alternateName"), parser.metas.get("og:site_name"))
+    original_title = first_nonempty(movie.get("alternateName"), parser.metas.get("movie:original_title"))
     if isinstance(original_title, list):
         original_title = original_title[0] if original_title else None
 
@@ -224,7 +319,6 @@ def parse_movie_page(url: str, expected_title: str) -> dict:
         "rating": None,
         "distributor": None,
     }
-
     for key, labels in {
         "nationality": ["Nacionalidad", "Origen", "País de origen"],
         "rating": ["Calificación", "Clasificación"],
@@ -233,14 +327,85 @@ def parse_movie_page(url: str, expected_title: str) -> dict:
         value = label_value(text, labels)
         if value:
             result[key] = value
-
     if movie.get("countryOfOrigin"):
         result["nationality"] = ", ".join(people(movie["countryOfOrigin"])) or str(movie["countryOfOrigin"])
+    result["year"] = int(release_date[:4]) if release_date else None
+    return {k: v for k, v in result.items() if v not in (None, "", [], {})}
 
-    year = None
-    if release_date:
-        year = int(release_date[:4])
-    result["year"] = year
+
+def markdown_label_value(text: str, labels: list[str]) -> str | None:
+    # Handles both **Director:** X and plain "Director: X" in Reader Markdown.
+    joined = "|".join(re.escape(x) for x in labels)
+    patterns = [
+        rf"(?:^|\\n|\\s)(?:\\*\\*)?(?:{joined})(?:\\*\\*)?\\s*[:\\-]\\s*([^\\n]+)",
+        rf"(?:{joined})\\s+([^\\n|]+)",
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, text, re.I)
+        if m:
+            value = re.sub(r"\\*+", "", m.group(1)).strip(" -:")
+            if value:
+                return value
+    return None
+
+
+def parse_movie_markdown(source: str, url: str, expected_title: str) -> dict:
+    text = source or ""
+    links = parse_markdown_links(text)
+    images = MarkdownParser(text).images
+
+    # Reader may expose OpenGraph values as metadata text or as headings.
+    title = expected_title
+    m = re.search(r"(?im)^#\\s+(.+?)\\s*$", text)
+    if m:
+        title = re.sub(r"[*_`]+", "", m.group(1)).strip()
+    if not title:
+        title = expected_title
+
+    description = markdown_label_value(text, ["Sinopsis", "Descripción", "Descripcion"])
+    if not description:
+        # Cinemacenter fichas normally put the synopsis after a heading.
+        m = re.search(r"(?is)(?:^|\\n)#{1,4}\\s*(?:Sinopsis|Descripción|Descripcion)\\s*\\n(.+?)(?:\\n#{1,4}\\s|$)", text)
+        if m:
+            description = re.sub(r"\\s+", " ", m.group(1)).strip()
+
+    release_date = clean_date(markdown_label_value(text, ["Fecha de estreno", "Estreno", "Lanzamiento"]))
+    duration = parse_duration(markdown_label_value(text, ["Duración", "Duracion"]))
+    director_text = markdown_label_value(text, ["Director"])
+    cast_text = markdown_label_value(text, ["Protagonistas", "Actores", "Reparto"])
+    genre_text = markdown_label_value(text, ["Género", "Genero", "Generos"])
+    nationality = markdown_label_value(text, ["Nacionalidad", "Origen", "País de origen"])
+    rating = markdown_label_value(text, ["Calificación", "Clasificación"])
+    distributor = markdown_label_value(text, ["Distribuidora", "Distribuidor"])
+    original_title = markdown_label_value(text, ["Título original", "Titulo original"])
+
+    # Prefer a Cinemacenter image from Markdown. Avoid generic logos.
+    poster = next((u for u in images if any(x in u.lower() for x in ["cartel", "poster", "pelicula", "ficha", "movie"]) and "logo" not in u.lower()), None)
+    if not poster and images:
+        poster = next((u for u in images if "logo" not in u.lower()), images[0])
+
+    trailer = next((u for label, u in links if "trailer" in normalize(label)), None)
+    genres = [x.strip() for x in re.split(r",|/| y |·", genre_text or "") if x.strip()]
+    director = [x.strip() for x in re.split(r",| y ", director_text or "") if x.strip()]
+    cast = [x.strip() for x in re.split(r",| y ", cast_text or "") if x.strip()]
+
+    result = {
+        "title": title,
+        "source_url": url,
+        "original_title": original_title,
+        "release_date": release_date,
+        "duration_minutes": duration,
+        "genres": list(dict.fromkeys(genres)),
+        "director": list(dict.fromkeys(director)),
+        "cast": list(dict.fromkeys(cast)),
+        "synopsis": description,
+        "poster": poster,
+        "trailer": trailer,
+        "nationality": nationality,
+        "rating": rating,
+        "distributor": distributor,
+        "year": int(release_date[:4]) if release_date else None,
+    }
     return {k: v for k, v in result.items() if v not in (None, "", [], {})}
 
 
@@ -263,9 +428,10 @@ def candidate_score(title: str, link_text: str, url: str) -> int:
     return score
 
 
-def find_movie_url(parser: PageParser, title: str) -> str | None:
+def find_movie_url(parser, title: str) -> str | None:
     candidates = []
-    for text, url in parser.links:
+    links = parser.links if hasattr(parser, "links") else parse_markdown_links(getattr(parser, "source", ""))
+    for text, url in links:
         path = urlparse(url).path.lower()
         if "/ficha" not in path:
             continue
@@ -298,14 +464,19 @@ def main() -> int:
         print("No se encontró una cartelera local válida", file=sys.stderr)
         return 1
 
+    cartelera_parser = PageParser()
     try:
         cartelera_html = fetch(CARTELERA_URL)
+        if "<html" in cartelera_html[:2000].lower() or "<meta" in cartelera_html[:5000].lower():
+            cartelera_parser.feed(cartelera_html)
+        else:
+            cartelera_parser = MarkdownParser(cartelera_html)
+        print("Cartelera Cinemacenter consultada correctamente.")
     except Exception as exc:
-        print(f"No se pudo consultar Cinemacenter: {exc}", file=sys.stderr)
-        return 1
-
-    cartelera_parser = PageParser()
-    cartelera_parser.feed(cartelera_html)
+        # Do not make the entire GitHub workflow fail because the site is
+        # temporarily unreachable. Existing metadata is still useful and will
+        # be preserved. Individual pages can still be retried from cached URLs.
+        print(f"Aviso: no se pudo consultar la cartelera de Cinemacenter: {exc}", file=sys.stderr)
     previous = load_json(LOCAL_METADATA, {"movies": []})
     previous_movies = previous.get("movies", []) if isinstance(previous, dict) else []
     by_title = {}
@@ -324,7 +495,7 @@ def main() -> int:
             continue
         seen.add(key)
         old = by_title.get(key, {})
-        url = find_movie_url(cartelera_parser, title)
+        url = old.get("source_url") or find_movie_url(cartelera_parser, title)
         fresh = {}
         if url:
             try:
@@ -341,11 +512,20 @@ def main() -> int:
         merged["source"] = "Cinemacenter"
         enriched.append(merged)
 
-    metadata = {
-        "generated_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
+    previous_metadata = previous if isinstance(previous, dict) else {}
+    previous_without_timestamp = {k: v for k, v in previous_metadata.items() if k != "generated_at"}
+    current_without_timestamp = {
         "source_policy": "Cinemacenter is the primary movie-metadata source; previous metadata is retained when a field is unavailable.",
         "source": CARTELERA_URL,
         "movies": enriched,
+    }
+    metadata = {
+        "generated_at": (
+            previous_metadata.get("generated_at")
+            if previous_without_timestamp == current_without_timestamp
+            else datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
+        ),
+        **current_without_timestamp,
     }
 
     # Inject metadata into the remote cinema JSON too, so the app no longer needs a
