@@ -55005,6 +55005,82 @@
     }
   },
   {
+    "id": "46600",
+    "source": "MEC",
+    "title": "2 y 3 de Octubre | Tucumán recibe por primera vez la Copa NOA de Cervezas",
+    "url": "https://agendatucuman.com.ar/eventos/2-y-3-de-octubre-tucuman-recibe-por-primera-vez-la-copa-noa-de-cervezas/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-03",
+    "time_start": "10:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T10:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tucumán será sede este viernes 2 y sábado 3 de octubre de la IV Copa NOA de Cervezas, una competencia que reunirá alrededor de 200 muestras provenientes de nueve provincias argentinas y que llegará por primera vez a la provincia. El encuentro se desarrollará en Fábrica Beet, ubicada en San Miguel 531, en San Miguel de Tucumán, y convocará a productores, especialistas y referentes de la cultura cervecera del Noroeste argentino. Una competencia con alcance federal e internacional La cuarta edición de la Copa NOA contará con la participación de unas 200 muestras de cerveza que serán evaluadas por un panel de 32 jueces y juezas. Los especialistas llegarán desde distintos puntos de Argentina y también desde Uruguay, Brasil y Perú, lo que le dará al certamen una dimensión internacional. Cada cerveza será analizada y puntuada de acuerdo con su estilo. Al finalizar la competencia se entregarán medallas de oro, plata y bronce y también se elegirá a la mejor cervecería del certamen. Dos días dedicados a la cultura cervecera La programación comenzará el viernes 2 de octubre con la cata de las cervezas participantes. El sábado 3 continuará la evaluación de las muestras y se sumarán conferencias, antes de llegar a la premiación y al cierre de la cuarta edición. El evento busca no sólo distinguir a las mejores producciones, sino también contribuir a mejorar la calidad de la cerveza artesanal de la región mediante la devolución de especialistas y generar mayor visibilidad para productores y cervecerías. Música, gastronomía y cervecerías regionales El cierre de la Copa estará abierto a una experiencia más amplia para el público. Habrá bandas en vivo, música, propuestas gastronómicas y stands de cervecerías regionales, en una jornada que culminará con la coronación de las cervezas y cervecerías ganadoras. Para quienes buscan qué hacer en Tucumán este fin de semana y disfrutan de la gastronomía y la producción artesanal, la Copa NOA de Cervezas suma una propuesta diferente a la agenda de la ciudad. Una competencia que recorre el Norte La Copa NOA nació en Salta y luego pasó por Santiago del Estero y Jujuy. En 2026 será el turno de Tucumán, que se convertirá por primera vez en sede del certamen. Además, el evento recibió la declaratoria de interés turístico por parte del Ente Tucumán Turismo. Datos destacados 📅 Fechas: viernes 2 y sábado 3 de octubre de 2026 🕙 Horario general informado: de 10:00 a 22:00 📍 Lugar: Fábrica Beet 📌 Dirección: San Miguel 531, San Miguel de Tucumán 🍺 Evento: IV Copa NOA de Cervezas 🏅 Participan alrededor de 200 muestras 🗺️ Representación: nueve provincias argentinas 👨‍⚖️ Jurado: 32 especialistas de Argentina, Uruguay, Brasil y Perú 🎤 Cierre con bandas en vivo 🍽️ Habrá gastronomía 🍻 Stands de cervecerías regionales 🏆 Premiación con medallas de oro, plata y bronce y reconocimiento a la mejor cervecería",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/copa-noa.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Fábrica Beet 📌 Dirección: San Miguel 531, San Miguel de Tucumán 🍺",
+    "address": "San Miguel 531",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=F%C3%A1brica+Beet+%F0%9F%93%8C+Direcci%C3%B3n%3A+San+Miguel+531%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8D%BA",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "10:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T10:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-03",
+        "time_start": "10:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T10:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "10:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "46546",
     "source": "MEC",
     "title": "2 de Octubre | La Ruta de la Empanada Tucumana invita a recorrer sabores y cultura en pleno centro",
@@ -55203,6 +55279,75 @@
       "rest_status": 200,
       "card_date": "2026-10-02",
       "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46608",
+    "source": "MEC",
+    "title": "2 de Octubre | Dillom abre en Tucumán la gira de “La nueva violencia” con un show único en el NOA",
+    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-dillom-abre-en-tucuman-la-gira-de-la-nueva-violencia-con-un-show-unico-en-el-noa/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Dillom llega este viernes 2 de octubre a Tucumán para presentar “La nueva violencia”, su tercer disco de estudio, en el show que marcará el comienzo de su nueva gira. La cita será a las 21 en el Palacio de los Deportes del Parque 9 de Julio y tendrá un carácter especial: será la única parada de esta etapa en el NOA. Tucumán, punto de partida de la “Gira Violenta” La presentación tucumana será la primera fecha de la denominada “Gira Violenta”, con la que Dillom llevará su nuevo material por distintas ciudades de Argentina y también por otros países. Luego de Tucumán, el recorrido continuará por San Luis, San Juan, Mendoza, Santa Fe, Rosario, Asunción, Santiago de Chile, Ciudad de México, Montevideo, La Plata y Buenos Aires. Un nuevo capítulo en la carrera de Dillom “La nueva violencia” es el tercer disco de estudio del artista y, según la nota de La Gaceta, presenta un sonido más cercano al rock y al baile que sus trabajos anteriores. El propio Dillom lo definió además como su álbum más personal. Su recorrido musical muestra una fuerte capacidad de transformación: desde el trap oscuro de “Post Mortem”, pasando por el universo conceptual y teatral de “Por cesárea”, hasta esta nueva etapa en la que vuelve a modificar su sonido y su puesta artística. Un artista difícil de encasillar Dillom se consolidó como uno de los nombres más singulares de la escena argentina, con una propuesta que cruza géneros, estética visual y una fuerte construcción escénica. Esa identidad cambiante también se refleja en la relación con su público. Para el videoclip de “Cocodrilo”, una canción de “La nueva violencia”, se anotaron 10.722 personas para participar de una convocatoria que terminó incorporando tatuajes reales de seguidores a una animación en stop-motion. Para quienes buscan qué hacer en Tucumán este viernes, la llegada de Dillom se presenta como una de las fechas musicales más destacadas del comienzo de octubre. Entradas Las entradas son generales y la ubicación dentro del predio se definirá por orden de llegada. La segunda tanda de anticipadas tiene un valor de $60.000 más gastos de servicio y puede adquirirse a través de Passeshow y en La Rockería, ubicada en Buenos Aires 39. Datos destacados 📅 Fecha: viernes 2 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: Palacio de los Deportes 📌 Ubicación: Parque 9 de Julio, San Miguel de Tucumán 🎤 Artista: Dillom 💿 Presentación: “La nueva violencia” 🔥 Gira: “Gira Violenta” ⭐ Particularidad: primera fecha de la gira y única presentación en el NOA 🎟️ Segunda tanda de anticipadas: $60.000 + gastos de servicio 💻 Venta online: Passeshow 🏪 Punto de venta: La Rockería, Buenos Aires 39",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/dillom.webp",
+    "price": 60000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Palacio de los Deportes 📌 Ubicación: Parque 9 de Julio, San Miguel de Tucumán 🎤 Artista: Dillom 💿 Presentación: “La nueva violencia”",
+    "address": "Buenos Aires 39",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Palacio+de+los+Deportes+%F0%9F%93%8C+Ubicaci%C3%B3n%3A+Parque+9+de+Julio%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A4+Artista%3A+Dillom+%F0%9F%92%BF+Presentaci%C3%B3n%3A+%E2%80%9CLa+nueva+violencia%E2%80%9D%2C+Buenos+Aires+39",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
       "location": "label",
@@ -55928,6 +56073,75 @@
     }
   },
   {
+    "id": "46602",
+    "source": "MEC",
+    "title": "3 de Octubre | Tafí del Valle recibe el 3° Torneo Nacional e Internacional del Asado a la Estaca en Alturas",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-tafi-del-valle-recibe-el-3-torneo-nacional-e-internacional-del-asado-a-la-estaca-en-alturas/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "08:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T08:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tafí del Valle será escenario este sábado 3 de octubre de una nueva edición del Torneo Nacional e Internacional del Asado a la Estaca en Alturas, una propuesta que combina gastronomía, tradición y espectáculo en pleno paisaje de los Valles Calchaquíes. La actividad se desarrollará de 8 a 18 en el Complejo Democracia, con entrada libre y gratuita. Una competencia que pone en valor la tradición del asado El certamen llegará a su tercera edición con una propuesta centrada en una de las costumbres gastronómicas más arraigadas de la región: el asado a la estaca. La competencia reunirá participantes que buscarán destacarse en una jornada donde la técnica, el fuego y la cocción serán protagonistas. Para quienes buscan qué hacer en Tucumán este sábado, el torneo se presenta como una alternativa ideal para combinar gastronomía, cultura y paseo en Tafí del Valle. Paseo artesanal y espectáculos La jornada no estará limitada a la competencia. También habrá paseo artesanal, stands de auspiciantes y shows de artistas, lo que convertirá al Complejo Democracia en un punto de encuentro para disfrutar durante buena parte del día. La propuesta está pensada tanto para quienes siguen de cerca este tipo de competencias como para familias y visitantes que quieran acercarse a una actividad diferente. Copa Luna Tucumana Esta edición llevará el nombre de Copa Luna Tucumana y buscará consolidarse como uno de los encuentros gastronómicos destacados del calendario local. El evento también cuenta con el acompañamiento de organismos provinciales y municipales vinculados al turismo y a la producción regional. Entrada libre y gratuita El acceso será libre y gratuito, por lo que no será necesario adquirir entradas para participar de la jornada. Una buena oportunidad para acercarse a Tafí del Valle, disfrutar del paisaje y vivir una jornada a puro sabor y tradición. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕗 Horario: de 8:00 a 18:00 📍 Lugar: Complejo Democracia 📌 Ubicación: Tafí del Valle 🔥 Evento: 3° Torneo Nacional e Internacional del Asado a la Estaca en Alturas 🏆 Copa: Luna Tucumana 🧺 Habrá paseo artesanal 🎤 Shows de artistas 🏪 Stands de auspiciantes 🎟️ Entrada libre y gratuita",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/asado.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Complejo Democracia 📌 Ubicación: Tafí del Valle",
+    "address": "",
+    "city": "Tafí del Valle",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Complejo+Democracia+%F0%9F%93%8C+Ubicaci%C3%B3n%3A+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "08:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T08:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "08:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "46570",
     "source": "MEC",
     "title": "3 de Octubre | Yerba Buena celebra el 6° Encuentro con la Cultura Japonesa en Tucumán",
@@ -56612,6 +56826,75 @@
       "date": "title_day",
       "time": "mec_card",
       "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46604",
+    "source": "MEC",
+    "title": "3 de Octubre | “La Cena de los Tontos” llega al Teatro Mercedes Sosa",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-la-cena-de-los-tontos-llega-al-teatro-mercedes-sosa/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-03T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El humor será protagonista este sábado 3 de octubre con la presentación de “La Cena de los Tontos” en el Teatro Mercedes Sosa, uno de los escenarios más importantes de San Miguel de Tucumán. La función comenzará a las 21 y propone una noche de comedia con una historia que combina enredos, situaciones absurdas y personajes llevados al límite. Una comedia reconocida por el público “La Cena de los Tontos” es una obra construida alrededor de una situación tan simple como disparatada: una reunión en la que los participantes buscan llevar al invitado más “tonto”, sin imaginar las consecuencias que ese juego puede desencadenar. A partir de allí, la historia avanza entre equívocos, malentendidos y giros que sostienen el ritmo de la comedia. Para quienes buscan qué hacer en Tucumán este sábado, la obra se suma a la agenda cultural con una propuesta ideal para disfrutar de teatro y humor en vivo. Un elenco con figuras reconocidas La versión que llega a Tucumán cuenta con un elenco encabezado por Gustavo Bermúdez, Martín Bossi y Laurita Fernández. La adaptación se presenta bajo la versión de Fernando Masllorens y Federico González del Pino, con dirección de Marcos Carnevale. Una noche de teatro en el Mercedes Sosa La función tendrá lugar en el Teatro Mercedes Sosa, en pleno centro de San Miguel de Tucumán. Una oportunidad para disfrutar de una de las comedias más conocidas del repertorio contemporáneo en una puesta protagonizada por figuras de amplia trayectoria. Datos destacados 📅 Fecha: sábado 3 de octubre de 2026 🕘 Horario: 21:00 📍 Lugar: Teatro Mercedes Sosa 🎭 Obra: “La Cena de los Tontos” 🎤 Protagonistas: Gustavo Bermúdez, Martín Bossi y Laurita Fernández ✍️ Versión: Fernando Masllorens y Federico González del Pino 🎬 Dirección: Marcos Carnevale 😂 Género: comedia",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/cena-de-los-tontos.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Mercedes Sosa, en pleno centro de San Miguel de Tucumán",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+en+pleno+centro+de+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -57507,6 +57790,75 @@
       "date": "title_day",
       "time": "mec_card",
       "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46606",
+    "source": "MEC",
+    "title": "4 de Octubre | Axel llega al Teatro Mercedes Sosa con su “Así Vivir Tour”",
+    "url": "https://agendatucuman.com.ar/eventos/4-de-octubre-axel-llega-al-teatro-mercedes-sosa-con-su-asi-vivir-tour/",
+    "date_start": "2026-10-04",
+    "date_end": "2026-10-04",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-04T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Axel vuelve a Tucumán este domingo 4 de octubre con “Así Vivir”, su nueva propuesta en vivo, en una noche que recorrerá algunos de los momentos más importantes de su carrera junto a canciones que representan su presente artístico. El concierto comenzará a las 20 en el Teatro Mercedes Sosa, en San Miguel de Tucumán. Un recorrido por sus canciones más emblemáticas Con una extensa trayectoria y una fuerte conexión con su público, Axel propone en “Así Vivir” un viaje por canciones que marcaron distintas etapas de su carrera. El repertorio combinará temas ya conocidos por sus seguidores con nuevas composiciones, en un show pensado para recorrer emociones, recuerdos y nuevas búsquedas musicales. Una propuesta para detenerse y sentir “AsÍ Vivir” plantea una mirada más íntima y reflexiva sobre el presente del artista. La propuesta invita a detenerse, conectar con las emociones y reencontrarse con lo esencial a través de melodías que acompañaron a distintas generaciones. Para quienes buscan qué hacer en Tucumán este domingo, el recital se suma a la agenda cultural con una de las presentaciones musicales destacadas del fin de semana. Una noche especial en el Mercedes Sosa El Teatro Mercedes Sosa será el escenario elegido para esta nueva visita de Axel a la provincia. La función promete combinar canciones conocidas, nuevas composiciones y una puesta pensada para acompañar el clima emocional del espectáculo. Datos destacados 📅 Fecha: domingo 4 de octubre de 2026 🕗 Horario: 20:00 📍 Lugar: Teatro Mercedes Sosa 🎤 Artista: Axel 🎶 Tour: “Así Vivir” 🎵 Repertorio: grandes canciones de su carrera y nuevas composiciones ⏱️ Horario informado: de 20:00 a 23:00 📌 Ubicación: San Miguel de Tucumán",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/axel.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Mercedes Sosa 🎤 Artista: Axel",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa+%F0%9F%8E%A4+Artista%3A+Axel%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-04",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
