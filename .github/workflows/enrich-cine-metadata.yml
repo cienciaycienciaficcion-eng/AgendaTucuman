@@ -19,28 +19,12 @@ jobs:
         with:
           python-version: '3.13'
 
-      - name: Instalar dependencias
-        run: |
-          python -m pip install --upgrade pip
-          python -m pip install requests
-
-      - name: Actualizar metadata desde Cinemacenter
+      - name: Actualizar metadata exclusivamente desde Cinemacenter
         env:
           CINEMACENTER_FETCH_MODE: jina
           CINEMACENTER_READER_TIMEOUT: '60'
           PYTHONUNBUFFERED: '1'
         run: python scripts/enrich-cinemacenter-metadata.py
-
-      - name: Completar metadata faltante con TMDB
-        env:
-          TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
-          PYTHONUNBUFFERED: '1'
-        run: |
-          if [ -z "$TMDB_API_TOKEN" ]; then
-            echo "ADVERTENCIA: no existe TMDB_API_TOKEN; se omite el fallback."
-          else
-            python scripts/enrich-cine-metadata-fallback.py
-          fi
 
       - name: Validar metadata generada
         run: |
@@ -54,11 +38,12 @@ jobs:
           summary = data.get('summary') or {}
 
           print('==============================================')
-          print('RESUMEN DE METADATA')
+          print('RESUMEN DE METADATA CINEMACENTER')
           print('==============================================')
           print(f"Películas: {len(movies)}")
           print(f"Completas: {summary.get('complete', 0)}")
           print(f"Parciales: {summary.get('partial', 0)}")
+          print(f"Fichas exactas: {summary.get('resolved_this_run', 0)}")
           print('')
 
           for movie in movies:
@@ -81,6 +66,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "Sin cambios de metadata."
           else
-            git commit -m "Completar metadata de películas"
+            git commit -m "Actualizar metadata exclusivamente desde Cinemacenter"
             git push
           fi
