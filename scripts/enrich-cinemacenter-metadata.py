@@ -410,20 +410,28 @@ def parse_movie_markdown(source: str, url: str, expected_title: str) -> dict:
 
 
 def candidate_score(title: str, link_text: str, url: str) -> int:
-    a = normalize(title)
-    b = normalize(link_text + " " + url)
+    def compact(value: str) -> str:
+        value = normalize(value)
+        # Cinemacenter y algunos carteles agregan "LA PELICULA", "THE MOVIE",
+        # dos puntos o subtítulos promocionales al nombre de la misma ficha.
+        value = re.sub(r"\\b(the movie|la pelicula|la película|pelicula|película)\\b", " ", value)
+        return re.sub(r"\\s+", " ", value).strip()
+
+    a = compact(title)
+    b = compact(link_text + " " + url)
     if not a or not b:
         return 0
     if a == b:
-        return 100
+        return 120
     score = 0
     tokens = [x for x in a.split() if len(x) > 2]
-    for token in tokens:
-        if token in b:
-            score += 10
+    matched = sum(1 for token in tokens if token in b)
+    score += matched * 10
     if a in b:
-        score += 40
-    if "/ficha" in url.lower():
+        score += 50
+    if matched >= max(2, int(len(tokens) * 0.65)):
+        score += 35
+    if "/ficha" in url.lower() or "/ficham" in url.lower():
         score += 10
     return score
 
@@ -433,7 +441,7 @@ def find_movie_url(parser, title: str) -> str | None:
     links = parser.links if hasattr(parser, "links") else parse_markdown_links(getattr(parser, "source", ""))
     for text, url in links:
         path = urlparse(url).path.lower()
-        if "/ficha" not in path:
+        if not ("/ficha" in path or "/ficham" in path):
             continue
         score = candidate_score(title, text, url)
         if score:
@@ -507,6 +515,11 @@ def main() -> int:
 
         merged = dict(old)
         merged.update({k: v for k, v in fresh.items() if v not in (None, "", [], {})})
+        # Poster alternativo estable para La isla olvidada; el poster anterior
+        # de Citi Cinemas puede bloquear hotlinking desde la app.
+        if normalize(merged.get("title", title)) == "la isla olvidada":
+            merged["poster"] = "https://media-cartelera.glanacion.com/media/posters/peliculas/20396.webp"
+            merged["poster_fallback_source"] = "La Nación cartelera"
         aliases = list(dict.fromkeys([*(old.get("match") or []), title, merged.get("title", title), merged.get("original_title", "")]))
         merged["match"] = [x for x in aliases if x]
         merged["source"] = "Cinemacenter"

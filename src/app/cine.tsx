@@ -18,6 +18,34 @@ function formatReleaseDate(value?: string) {
   });
 }
 
+function PosterImage({ uri, style, contentFit = 'cover' }: { uri: string; style: any; contentFit?: 'cover' | 'contain' }) {
+  const [source, setSource] = useState(uri);
+  const [failed, setFailed] = useState(false);
+
+  if (failed || !source) {
+    return (
+      <View style={[style, styles.posterPlaceholder]}>
+        <ThemedText themeColor="textSecondary">Imagen no disponible</ThemedText>
+      </View>
+    );
+  }
+
+  return (
+    <Image
+      source={{ uri: source }}
+      style={style}
+      contentFit={contentFit}
+      onError={() => {
+        if (source === uri) {
+          setSource(`https://wsrv.nl/?url=${encodeURIComponent(uri)}`);
+        } else {
+          setFailed(true);
+        }
+      }}
+    />
+  );
+}
+
 function MovieDetails({ movie, visible, onClose }: { movie: any | null; visible: boolean; onClose: () => void }) {
   if (!movie) return null;
   const metadata = movie.metadata ?? {};
@@ -40,7 +68,7 @@ function MovieDetails({ movie, visible, onClose }: { movie: any | null; visible:
             </View>
 
             {metadata.poster ? (
-              <Image source={{ uri: metadata.poster }} style={styles.poster} contentFit="cover" />
+              <PosterImage uri={metadata.poster} style={styles.poster} contentFit="cover" />
             ) : (
               <View style={styles.posterPlaceholder}>
                 <ThemedText themeColor="textSecondary">Imagen no disponible</ThemedText>
@@ -180,7 +208,7 @@ export default function CineScreen() {
           >
             <View style={styles.movieHeader}>
               {movie.metadata?.poster ? (
-                <Image source={{ uri: movie.metadata.poster }} style={styles.thumb} contentFit="cover" />
+                <PosterImage uri={movie.metadata.poster} style={styles.thumb} contentFit="cover" />
               ) : null}
               <View style={{ flex: 1 }}>
                 <ThemedText type="subtitle" style={styles.movieTitle}>{movie.metadata?.title || movie.title}</ThemedText>
