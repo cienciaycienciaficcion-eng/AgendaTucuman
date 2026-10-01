@@ -28,6 +28,17 @@ jobs:
           PYTHONUNBUFFERED: '1'
         run: python scripts/enrich-cinemacenter-metadata.py
 
+      - name: Completar metadata faltante con TMDB
+        env:
+          TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
+          PYTHONUNBUFFERED: '1'
+        run: |
+          if [ -z "$TMDB_API_TOKEN" ]; then
+            echo "ADVERTENCIA: no existe TMDB_API_TOKEN; se omite el fallback."
+            exit 0
+          fi
+          python scripts/enrich-cine-metadata-fallback.py
+
       - name: Guardar cambios
         run: |
           git config user.name "github-actions[bot]"

@@ -235,6 +235,37 @@ jobs:
           echo "Se conservará la metadata disponible anteriormente."
 
       # ============================================================
+      # COMPLETAR METADATA FALTANTE
+      # Usa TMDB únicamente para los campos que Cinemacenter no pudo
+      # obtener. No pisa datos existentes y obtiene la clasificación
+      # argentina desde TMDB cuando está disponible.
+      # ============================================================
+
+      - name: Completar metadata faltante con TMDB
+        id: cine_metadata_fallback
+        if: steps.validate_cinemacenter.outcome == 'success'
+        continue-on-error: true
+        env:
+          TMDB_API_TOKEN: ${{ secrets.TMDB_API_TOKEN }}
+          PYTHONUNBUFFERED: '1'
+        run: |
+          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
+            echo "No se completa metadata porque no hubo cartelera nueva."
+            exit 0
+          fi
+          if [ -z "$TMDB_API_TOKEN" ]; then
+            echo "ADVERTENCIA: no existe TMDB_API_TOKEN; se conserva la metadata disponible."
+            exit 0
+          fi
+          python scripts/enrich-cine-metadata-fallback.py
+
+      - name: Informar estado del fallback de metadata
+        if: steps.cine_metadata_fallback.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: el fallback TMDB no pudo completar toda la metadata."
+          echo "Las películas permanecerán publicadas con los campos disponibles."
+
+      # ============================================================
       # INFORMACIÓN DETALLADA DE PELÍCULAS
       # ============================================================
 
