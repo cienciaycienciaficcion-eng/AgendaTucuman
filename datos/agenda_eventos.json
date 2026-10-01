@@ -40877,75 +40877,6 @@
     }
   },
   {
-    "id": "42093",
-    "source": "MEC",
-    "title": "Enero y Febrero 2026 en San Pedro de Colalao: cronograma de actividades",
-    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-2026-en-san-pedro-de-colalao-cronograma-de-actividades/",
-    "date_start": "2026-08-04",
-    "date_end": "2026-08-04",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-08-04T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Las autoridades de la Comuna de San Pedro de Colalao lanzaron una extensa agenda de actividades y eventos para los meses de Enero y Febrero de 2026",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/04/tour-religioso-a-San-Pedro-de-Colalao-y-Trancas.jpeg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "San Pedro de Colalao",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-08-04",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-08-04T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "card",
-        "score": 0.9
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.47
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-08-04",
-      "card_time": "",
-      "date": "card",
-      "time": "",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-09"
-    }
-  },
-  {
     "id": "servicios-34701",
     "source": "SERVICIOS",
     "title": "05 al 09 de agosto: Mercado en tu Barrio",
@@ -41131,6 +41062,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 34703,
       "date": "services_range"
+    }
+  },
+  {
+    "id": "42093",
+    "source": "MEC",
+    "title": "Enero y Febrero 2026 en San Pedro de Colalao: cronograma de actividades",
+    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-2026-en-san-pedro-de-colalao-cronograma-de-actividades/",
+    "date_start": "2026-08-05",
+    "date_end": "2026-08-05",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-08-05T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las autoridades de la Comuna de San Pedro de Colalao lanzaron una extensa agenda de actividades y eventos para los meses de Enero y Febrero de 2026",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/04/tour-religioso-a-San-Pedro-de-Colalao-y-Trancas.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Pedro de Colalao",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-08-05",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-08-05T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.47
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-08-05",
+      "card_time": "",
+      "date": "card",
+      "time": "",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -43473,75 +43473,6 @@
     }
   },
   {
-    "id": "42092",
-    "source": "MEC",
-    "title": "Enero y Febrero 2026 en El Mollar: cronograma de actividades",
-    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-en-el-mollar-cronograma-de-actividades/",
-    "date_start": "2026-08-16",
-    "date_end": "2026-08-16",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-08-16T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Las autoridades de la comuna veraniega de El Mollar dieron a conocer el cronograma de actividades programadas para los mes de Enero y Febrero del 2026:",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/01/el-mollar-tucuman.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "El Mollar",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-08-16",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-08-16T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "card",
-        "score": 0.9
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.47
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-08-16",
-      "card_time": "",
-      "date": "card",
-      "time": "",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-09"
-    }
-  },
-  {
     "id": "servicios-45496",
     "source": "SERVICIOS",
     "title": "Por el Día del Niño, el comercio tucumano abrirá viernes y sábado en horario corrido",
@@ -43739,6 +43670,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 15637,
       "date": "services_title_day"
+    }
+  },
+  {
+    "id": "42092",
+    "source": "MEC",
+    "title": "Enero y Febrero 2026 en El Mollar: cronograma de actividades",
+    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-en-el-mollar-cronograma-de-actividades/",
+    "date_start": "2026-08-17",
+    "date_end": "2026-08-17",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-08-17T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las autoridades de la comuna veraniega de El Mollar dieron a conocer el cronograma de actividades programadas para los mes de Enero y Febrero del 2026:",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/01/el-mollar-tucuman.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "El Mollar",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-08-17",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-08-17T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.47
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-08-17",
+      "card_time": "",
+      "date": "card",
+      "time": "",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -54459,14 +54459,14 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-09-30",
+      "card_date": "2026-10-01",
       "card_time": "08:00",
       "date": "title_range",
       "time": "mec_card",
       "location": "narrative",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
@@ -54651,6 +54651,227 @@
     }
   },
   {
+    "id": "46528",
+    "source": "MEC",
+    "title": "01 de Octubre | Ciclo Cine Bar: RIMBAUD llevará las canciones de Estelares al escenario",
+    "url": "https://agendatucuman.com.ar/eventos/01-de-octubre-ciclo-cine-bar-rimbaud-llevara-las-canciones-de-estelares-al-escenario/",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-01",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-01T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El cine y la música volverán a encontrarse este jueves 1 de octubre en Yerba Buena con una nueva edición del ciclo Cine Bar, una de las propuestas de la 66ª edición del Septiembre Musical. Desde las 20, Pura Vida Mae será escenario de la proyección de “Nuestros días en mi memoria: una película sobre Estelares”, documental que recorre la historia y el universo artístico de una de las bandas más representativas de la escena musical platense. La actividad será con entrada libre y gratuita. Un recorrido por la historia de Estelares Dirigida por Gonza López, la película se interna en los orígenes de Estelares y en la escena musical de La Plata durante los años 90. A lo largo de sus 90 minutos, el documental reconstruye el camino de una banda que construyó una identidad propia alrededor de las canciones, la poesía, la melancolía y las historias de amor. La propuesta permite conocer el contexto en el que nació Estelares y recorrer una trayectoria musical que se mantiene vigente décadas después de sus primeros pasos. RIMBAUD llevará las canciones de Estelares al escenario La experiencia no terminará con la proyección. La jornada continuará con la presentación en vivo de RIMBAUD, banda tributo a Estelares que interpretará parte del repertorio del grupo. De esta manera, Cine Bar propone pasar de la pantalla al escenario y transformar el documental en una experiencia musical en vivo. Una propuesta gratuita para disfrutar en Yerba Buena El encuentro forma parte del Septiembre Musical, organizado por el Gobierno de Tucumán a través del Ente Cultural, con el apoyo del Consejo Federal de Inversiones. Para quienes están buscando qué hacer en Tucumán y Yerba Buena, la combinación de documental y música en vivo aparece como una opción diferente para la noche del jueves, especialmente para seguidores de Estelares y del rock argentino. La entrada será libre y gratuita. Datos destacados Fecha: jueves 1 de octubre. Horario: 20 horas. Lugar: Pura Vida Mae, Pringles 1714, Yerba Buena. Proyección: “Nuestros días en mi memoria: una película sobre Estelares”. Dirección: Gonza López. Duración: 90 minutos. Música en vivo: RIMBAUD, banda tributo a Estelares. Entrada: libre y gratuita.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/cine-bar.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "escena musical de La Plata durante los años 90",
+    "address": "",
+    "city": "Yerba Buena",
+    "organizer": "el Gobierno de Tucumán a través del Ente Cultural, con el apoyo del Consejo Federal de Inversiones",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=escena+musical+de+La+Plata+durante+los+a%C3%B1os+90%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-01",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-01T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-01",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46526",
+    "source": "MEC",
+    "title": "01, 02 y 03 de Octubre | «Sin ley” en el Espacio Incaa",
+    "url": "https://agendatucuman.com.ar/eventos/01-02-y-03-de-octubre-sin-ley-en-el-espacio-incaa/",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-03",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-01T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Espacio INCAA Tucumán suma una nueva propuesta a la agenda cultural de la provincia con la proyección de “Sin ley”, película dirigida por Carlos Lasso que combina acción, drama y suspenso. El film podrá verse durante tres noches consecutivas: jueves 1, viernes 2 y sábado 3 de octubre, siempre a las 20, en la Sala Hynes O’Connor, ubicada en San Martín 251. Una historia atravesada por la violencia y una búsqueda desesperada “Sin ley” tiene como protagonista a Nico, un expolicía viudo que fue expulsado de la fuerza luego de la muerte de su esposa. Alejado de su antigua profesión, intenta sobrevivir trabajando como entrenador de boxeadores que participan en peleas clandestinas, mientras cuida a su hija adolescente, Sol. Su vida cambia de manera abrupta cuando una organización criminal secuestra a la joven. A partir de ese momento, Nico inicia una búsqueda contrarreloj que lo enfrentará a un ambiente dominado por la violencia, el poder y el delito. La película propone así una historia de acción en la que el vínculo entre un padre y su hija funciona como motor de una trama marcada por el peligro y la desesperación. Cine argentino en pleno centro tucumano Para quienes buscan qué hacer en Tucumán durante los primeros días de octubre, las funciones del Espacio INCAA representan una alternativa para acercarse a nuevas producciones del cine nacional. Las entradas podrán adquirirse en la boletería de la Sala Hynes O’Connor desde una hora antes de cada función. El valor de la entrada general será de $5.000, mientras que jubilados y estudiantes podrán acceder a una tarifa de $2.500. Una oportunidad para sumar cine argentino a los planes culturales de esta semana en Tucumán. Datos destacados Fecha: jueves 1, viernes 2 y sábado 3 de octubre. Horario: 20 horas. Lugar: Sala Hynes O’Connor, San Martín 251. Película: “Sin ley”. Dirección: Carlos Lasso. Entrada general: $5.000. Jubilados y estudiantes: $2.500. Venta de entradas: boletería, desde una hora antes de cada función.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/sin-ley.jpeg",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "boletería de la Sala Hynes O’Connor desde una hora antes de cada función",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=boleter%C3%ADa+de+la+Sala+Hynes+O%E2%80%99Connor+desde+una+hora+antes+de+cada+funci%C3%B3n%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-01",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-01T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-02",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-03",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-03T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-01",
+      "card_time": "20:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46530",
+    "source": "MEC",
+    "title": "01 de Octubre | Jueves de Milonga: Mariela Acotto",
+    "url": "https://agendatucuman.com.ar/eventos/01-de-octubre-jueves-de-milonga-mariela-acotto/",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-01",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-10-01T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "El tango tendrá una nueva cita este jueves 1 de octubre en San Miguel de Tucumán con otra edición de los Jueves de Milonga, propuesta que combina música en vivo, clases, práctica y baile social. El encuentro comenzará a las 20:30 en el Punto Digital del Ente Cultural de Tucumán, en San Martín 251, con entrada libre y gratuita. La invitada especial de esta edición será la cantante tucumana Mariela Acotto. Una noche para escuchar, aprender y bailar tango La propuesta está pensada tanto para quienes ya tienen experiencia en la pista como para aquellas personas que quieran acercarse por primera vez al tango. Además de la música en vivo, habrá clases y prácticas de baile a cargo de la docente Sara Rueda, generando un espacio para aprender pasos, practicar y compartir una noche alrededor de uno de los géneros centrales de la música argentina. Mariela Acotto, invitada especial La cantante tucumana cuenta con una extensa trayectoria vinculada al tango y se presentó en escenarios de Tucumán, Córdoba, Buenos Aires y distintos puntos del exterior. Entre los momentos destacados de su carrera se encuentra su presentación junto a la Orquesta Nacional de Música Argentina Juan de Dios Filiberto en el Teatro Mercedes Sosa. También actuó en Buenos Aires junto al Esteban Morgado Cuarteto y llevó su música a Europa con presentaciones en ciudades como Madrid, Barcelona, Valencia y París. Su trayectoria recibió diferentes reconocimientos, entre ellos distinciones como Voz Femenina del Tango y el Premio Mercedes Sosa a la Voz Femenina del Tango. Tango con entrada gratuita en pleno centro Los Jueves de Milonga forman parte de la 66ª edición del Septiembre Musical, organizado por el Gobierno de Tucumán a través del Ente Cultural, con el apoyo del Consejo Federal de Inversiones. Para quienes buscan qué hacer en Tucumán durante la noche del jueves, será una oportunidad para disfrutar música en vivo, aprender tango o directamente sumarse al baile en pleno centro de la ciudad. La participación es libre y gratuita. Datos destacados Fecha: jueves 1 de octubre. Horario: desde las 20:30. Lugar: Punto Digital del Ente Cultural de Tucumán, San Martín 251. Artista invitada: Mariela Acotto. Clases y práctica de baile: Sara Rueda. Propuesta: música en vivo, clases, práctica y baile social. Entrada: libre y gratuita.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/acotto.png",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "pista como para aquellas personas que quieran acercarse por primera vez al tango",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "el Gobierno de Tucumán a través del Ente Cultural, con el apoyo del Consejo Federal de Inversiones",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=pista+como+para+aquellas+personas+que+quieran+acercarse+por+primera+vez+al+tango%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-01",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-10-01T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-01",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
     "id": "servicios-20445",
     "source": "SERVICIOS",
     "title": "Se confirmaron las fechas de acreditación de la Tarjeta Alimentar en octubre",
@@ -54712,6 +54933,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 20445,
       "date": "services_title_day"
+    }
+  },
+  {
+    "id": "46532",
+    "source": "MEC",
+    "title": "02 de Octubre | Folklore, freestyle y danza protagonizan el viernes del Septiembre Musical en Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/02-de-octubre-folklore-freestyle-y-danza-protagonizan-el-viernes-del-septiembre-musical-en-tucuman/",
+    "date_start": "2026-10-02",
+    "date_end": "2026-10-02",
+    "time_start": "14:00",
+    "time_end": "",
+    "start_datetime": "2026-10-02T14:00:00-03:00",
+    "end_datetime": "",
+    "description": "El 66º Septiembre Musical continúa desplegando su programación por distintos puntos de la provincia y este viernes 2 de octubre ofrecerá una jornada con propuestas para públicos muy diferentes. Desde la tarde y hasta la noche habrá folklore en el histórico Ibatín y en pleno centro tucumano, una competencia dedicada a la cultura urbana y el estreno de una nueva producción de danza contemporánea. Para quienes buscan qué hacer en Tucumán este viernes, estas son algunas de las actividades que integran la programación del festival. A las 14: música y danza en el histórico Ibatín La jornada comenzará a las 14 en el Museo Arqueológico a Cielo Abierto de Ibatín, en León Rougés, Monteros, con las presentaciones de Daniela Álvarez y Juanjo Costilla. Daniela Álvarez, cantante oriunda de Monteros, llevará al histórico sitio un repertorio relacionado con la música popular y las expresiones folklóricas del norte argentino. También participará Juanjo Costilla, cantante tucumano reconocido especialmente por su trayectoria como voz principal de Los Avelinos y por sus actuaciones en festivales y encuentros culturales de la provincia. La música se complementará con academias de danzas folklóricas, entre ellas la Academia de Danzas Folklóricas y Malambo Alma Huayna. La actividad tendrá entrada libre y gratuita. A las 19: las batallas llegan con Tucumán Freestyle La cultura urbana tendrá su propio espacio desde las 19 en el Centro Cultural Juan B. Terán, ubicado en Marco Avellaneda 254, con una nueva edición de Tucumán Freestyle. La competencia reunirá a 24 participantes que se enfrentarán en batallas de improvisación bajo un formato eliminatorio. Un jurado especializado evaluará aspectos como creatividad, capacidad de improvisación y respuesta, flow, métrica y puesta en escena. La programación contará además con host y DJ oficiales y la presentación del artista urbano tucumano Jota Fly. También participará Agus Pedernera en la difusión del encuentro. La propuesta busca fortalecer una escena urbana que continúa creciendo en la provincia y generar nuevos espacios para las expresiones artísticas vinculadas a las juventudes. La entrada será libre y gratuita. A las 20: folklore tucumano en la Casa Museo Una hora después, desde las 20, la Casa Museo Folklórico Provincial General Manuel Belgrano, ubicada en 24 de Septiembre 565, abrirá sus puertas para una noche dedicada a la música popular. El escenario recibirá a Las Voces del Carmen, Luis Soria “La Voz del Norte” y Abril Sierra. Las Voces del Carmen cuentan con más de dos décadas de trayectoria y participaron de importantes festivales tucumanos. Luis Soria, por su parte, posee más de 50 años de recorrido artístico interpretando zambas, chacareras y otros ritmos del cancionero argentino. La joven Abril Sierra aportará la mirada de una nueva generación del folklore tucumano, combinando la tradición de la música criolla con una propuesta renovada. Además, habrá una feria de artesanos con producciones de emprendedores locales. La entrada será libre y gratuita. La actividad se suspende en caso de lluvia. A las 21: estreno de “Las Primaveras” en el Orestes Caviglia El viernes cerrará con danza contemporánea. A las 21, la Escuela Taller de Danza estrenará “Las Primaveras” en el Teatro Orestes Caviglia, San Martín 251. La obra fue concebida y dirigida por Marcos Acevedo y constituye la primera producción de egreso en la trayectoria formativa de la Escuela Taller de Danza, dirigida por José Pintos. La propuesta toma como punto de partida “La Consagración de la Primavera”, de Igor Stravinsky y Vaslav Nijinsky, para construir una mirada contemporánea alrededor del ritual, el sacrificio, el cuerpo colectivo y las formas de pertenencia. A través de una creación colectiva, la puesta trabaja sobre conceptos como la ronda, el sostén, la caída, la dependencia y el señalamiento, poniendo en tensión la relación entre el individuo y la comunidad. “Las Primaveras” tendrá funciones el viernes 2 y sábado 3 de octubre a las 21. La entrada general cuesta $10.000 y cuenta con una promoción anticipada 2×1. Cuatro propuestas para disfrutar el viernes El Septiembre Musical propone así un recorrido especialmente diverso para este viernes: desde las expresiones populares y folklóricas hasta las nuevas formas de la cultura urbana y la danza contemporánea. Tres de las cuatro actividades son gratuitas y la programación también vuelve a extenderse fuera de San Miguel de Tucumán, con una jornada artística en el histórico Ibatín. Si todavía no armaste tus planes para el viernes, podés elegir una propuesta —o combinar varias— y seguir disfrutando de uno de los encuentros culturales más tradicionales de Tucumán. Datos destacados Viernes 2 de octubre 14 h — Daniela Álvarez y Juanjo Costilla Museo Arqueológico a Cielo Abierto de Ibatín, León Rougés, Monteros. Entrada libre y gratuita. 19 h — Tucumán Freestyle Centro Cultural Juan B. Terán, Marco Avellaneda 254. Entrada libre y gratuita. 20 h — Las Voces del Carmen, Luis Soria y Abril Sierra Casa Museo Folklórico Provincial Gral. Manuel Belgrano, 24 de Septiembre 565. Entrada libre y gratuita. Se suspende por lluvia. 21 h — “Las Primaveras” Teatro Orestes Caviglia, San Martín 251. Entrada general: $10.000. Promoción anticipada 2×1.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/freestyle.jpeg",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": true,
+    "location": "Centro Cultural Juan B",
+    "address": "Marco Avellaneda 254",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Juan+B%2C+Marco+Avellaneda+254%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-02",
+        "time_start": "14:00",
+        "time_end": "",
+        "start_datetime": "2026-10-02T14:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-02",
+      "card_time": "14:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -54875,7 +55165,7 @@
       "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
@@ -54944,7 +55234,76 @@
       "location": "narrative",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46534",
+    "source": "MEC",
+    "title": "3 de Octubre | Colectividades, folklore, ballet y danza animan el sábado del Septiembre Musical en Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-colectividades-folklore-ballet-y-danza-animan-el-sabado-del-septiembre-musical-en-tucuman/",
+    "date_start": "2026-10-03",
+    "date_end": "2026-10-03",
+    "time_start": "18:00",
+    "time_end": "00:00",
+    "start_datetime": "2026-10-03T18:00:00-03:00",
+    "end_datetime": "2026-10-03T00:00:00-03:00",
+    "description": "El 66º Septiembre Musical entra en su tramo final con un sábado cargado de propuestas en distintos puntos de la provincia. Este 3 de octubre habrá actividades desde la tarde hasta la noche, con opciones que van desde gastronomía y expresiones de diferentes colectividades hasta folklore, danza contemporánea, ballet clásico y música popular en los Valles Calchaquíes. La programación se desplegará en San Miguel de Tucumán, Los Puestos y Amaicha del Valle, con varias actividades de entrada libre y gratuita. Para quienes buscan qué hacer en Tucumán este sábado, estas son cinco propuestas para disfrutar del Septiembre Musical. Desde las 18: un viaje por el mundo en el Encuentro de Colectividades La primera gran cita de la jornada comenzará a las 18 en el Complejo Juan B. Terán, donde se realizará el Encuentro de Colectividades. Hasta la medianoche, más de 13 colectividades compartirán expresiones culturales, gastronomía, música, danza, historia y tradiciones en una jornada con entrada libre y gratuita. Entre las comunidades representadas estarán la sirio-libanesa, española, venezolana, árabe, japonesa, boliviana, sarda, coreana, brasileña, peruana y mexicana, entre otras. El escenario tendrá flamenco, folklore árabe y dabke, ritmos venezolanos, música argentina, expresiones del folklore boliviano, una demostración de aikido, K-Pop, danzas afro, Axé y samba no pé. También se presentarán Los Mariachis de León con clásicos de la música popular mexicana. La gastronomía tendrá un espacio destacado con propuestas como shawarma, paella, dulces regionales, preparaciones japonesas, platos bolivianos, especialidades sardas, coxinhas brasileñas y comidas peruanas y mexicanas. A las 18:30: gran festival musical en Los Puestos Media hora más tarde comenzará otra de las grandes propuestas gratuitas de la jornada. El Complejo Deportivo de Los Puestos, sobre la Ruta Nacional Nº 9, km 1235, será escenario del Festival Los Puestos. El encuentro marcará el cierre de las actividades del Septiembre Musical desarrolladas en el interior de la provincia y reunirá sobre un mismo escenario a artistas de diferentes localidades tucumanas. La grilla incluirá a Las Voces de Simoca, Nacho Romano, Los Toto’s, Mario Ponce y la Guaracha, Gustavo Lazarte y Canto Cruceño, Los Tucumanos de Oro, Katete Díaz y su Acordeón, TucFolk – Nahuel Mendiolar y Florencia Ríos, entre otros. Además de los espectáculos musicales, habrá artesanos, emprendedores y un patio de comidas. La entrada será libre y gratuita. A las 21: “El Lago de los Cisnes” regresa al Teatro San Martín Uno de los acontecimientos artísticos de esta edición del Septiembre Musical tendrá una nueva función este sábado a las 21 en el Teatro San Martín. Después de tres décadas, el Ballet Estable de Tucumán y la Orquesta Estable de la Provincia vuelven a reunirse para poner en escena “El Lago de los Cisnes”, una de las obras fundamentales del repertorio clásico. La producción aborda los actos II y III de la obra. El Ballet Estable está dirigido por el maestro Ángel Gómez, mientras que la Orquesta Estable estará bajo la dirección del maestro Diego Guzmán Villalobos, con interpretación musical en vivo. María Belén Serrano asumirá el doble papel de Odette y Odile, mientras que Miguel Ángel Klug, bailarín invitado del Teatro Argentino de La Plata, interpretará al príncipe Sigfrido. Oscar Medina tendrá a su cargo el personaje de Rothbart. Otro de los atractivos de la puesta será el vestuario producido por el Teatro Colón. La función comenzará a las 21 en el Teatro San Martín, ubicado en avenida Sarmiento 601. La entrada general cuesta $10.000 y se encuentra disponible una promoción 2×1. También a las 21: segunda función de “Las Primaveras” En simultáneo, el Teatro Orestes Caviglia recibirá la segunda función de “Las Primaveras”, nueva creación de la Escuela Taller de Danza. La obra, concebida y dirigida por Marcos Acevedo, representa la primera producción de egreso en la trayectoria formativa de la institución y surge de un proceso de creación colectiva junto a sus jóvenes intérpretes. “Las Primaveras” toma como punto de partida “La Consagración de la Primavera”, de Igor Stravinsky y Vaslav Nijinsky, pero propone una mirada contemporánea sobre conceptos como el ritual, el sacrificio, el cuerpo colectivo y las formas de pertenencia. La puesta trabaja con la ronda, el sostén, la caída, la dependencia y el señalamiento como materiales de una dramaturgia física que pone en tensión la relación entre el individuo y la comunidad. La función será a las 21 en el Teatro Orestes Caviglia, San Martín 251. La entrada cuesta $10.000 y cuenta con promoción anticipada 2×1. A las 22: Lucho Hoyos lleva Cultura Bar a Amaicha del Valle La jornada continuará en los Valles Calchaquíes. Desde las 22, el ciclo Cultura Bar llegará a Rancho Candelaria, en Amaicha del Valle, con la presentación de Lucho Hoyos. El reconocido cantautor tucumano ofrecerá un repertorio vinculado con la música popular argentina y latinoamericana, atravesado por las raíces, los paisajes y las historias de la región. La propuesta combinará música en vivo con gastronomía y sabores característicos de los Valles, en una de las últimas noches de esta edición del Septiembre Musical. Rancho Candelaria está ubicado en Ernesto Padilla 100, Amaicha del Valle, y la entrada será libre y gratuita. Un sábado para recorrer el Septiembre Musical La programación del sábado muestra buena parte de la diversidad que caracterizó a esta 66ª edición: expresiones culturales de distintas comunidades, artistas del interior, grandes producciones de los cuerpos estables, jóvenes intérpretes de danza y música popular tucumana. Con propuestas gratuitas y espectáculos en distintos puntos de la provincia, el 3 de octubre ofrece alternativas para armar diferentes recorridos y aprovechar uno de los últimos días del festival. ¿Ya elegiste cuál vas a disfrutar este sábado? Datos destacados Sábado 3 de octubre 18 a 00 h — Encuentro de Colectividades Complejo Juan B. Terán, Marco Avellaneda 350. Entrada libre y gratuita. 18:30 h — Festival Los Puestos Complejo Deportivo de Los Puestos, Ruta Nacional Nº 9, km 1235. Música en vivo, artesanos, emprendedores y patio de comidas. Entrada libre y gratuita. 21 h — El Lago de los Cisnes Teatro San Martín, avenida Sarmiento 601. Ballet Estable y Orquesta Estable de la Provincia. Entrada general: $10.000. Promoción 2×1. 21 h — Las Primaveras Teatro Orestes Caviglia, San Martín 251. Escuela Taller de Danza. Entrada: $10.000. Promoción anticipada 2×1. 22 h — Lucho Hoyos Rancho Candelaria, Ernesto Padilla 100, Amaicha del Valle. Ciclo Cultura Bar. Entrada libre y gratuita.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/lago-de-los-cisnes.png",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": true,
+    "location": "Complejo Juan B",
+    "address": "avenida Sarmiento 601",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Complejo+Juan+B%2C+avenida+Sarmiento+601%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-03",
+        "time_start": "18:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-10-03T18:00:00-03:00",
+        "end_datetime": "2026-10-03T00:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-03",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -55205,7 +55564,7 @@
       "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
@@ -55278,7 +55637,145 @@
       "location": "label",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46536",
+    "source": "MEC",
+    "title": "04 de Octubre | Cámara, ballet y una gran peña folklórica marcan el domingo del Septiembre Musical en Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/04-de-octubre-camara-ballet-y-una-gran-pena-folklorica-marcan-el-domingo-del-septiembre-musical-en-tucuman/",
+    "date_start": "2026-10-04",
+    "date_end": "2026-10-04",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-10-04T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "El 66º Septiembre Musical continúa este domingo 4 de octubre con una jornada que reunirá música de cámara, uno de los grandes clásicos del ballet universal y una peña para disfrutar del folklore, bailar y compartir en familia. Las actividades comenzarán a las 18 y se desarrollarán en dos espacios emblemáticos de San Miguel de Tucumán: el Teatro San Martín y el Centro Cultural Juan B. Terán. Para quienes buscan qué hacer en Tucumán este domingo, la programación ofrece alternativas gratuitas y espectáculos de gran formato para cerrar el fin de semana con música y danza. A las 18: el Cuarteto Tréboles abre el Ciclo de Cámara La primera propuesta de la tarde comenzará a las 18 en el Foyer del Teatro San Martín, donde se pondrá en marcha el Ciclo de Cámara del Septiembre Musical. La iniciativa propone conciertos en un formato íntimo y cercano, con la participación de destacados músicos y cantantes tucumanos y una programación que combinará diferentes géneros y lenguajes musicales. El primer encuentro estará protagonizado por el Cuarteto Tréboles, integrado por Estela García en violonchelo; Vivi Vargas, docente de canto, cantautora, cantora y gestora cultural; Nancy Pedro, música, docente, compositora y gestora cultural; y María Dip en guitarra. Será una oportunidad para disfrutar de la música desde otra perspectiva, en uno de los espacios más tradicionales del Teatro San Martín. La presentación tendrá entrada libre y gratuita. A las 20: última función de “El Lago de los Cisnes” El Teatro San Martín volverá a convertirse en escenario de una de las producciones centrales de esta edición del Septiembre Musical. A las 20 comenzará la función dominical de “El Lago de los Cisnes”, que volvió al repertorio provincial después de tres décadas con una producción conjunta del Ballet Estable de Tucumán y la Orquesta Estable de la Provincia. Bajo la dirección del maestro Ángel Gómez, el Ballet Estable aborda los actos II y III de la célebre obra, mientras que la Orquesta Estable, dirigida por Diego Guzmán Villalobos, interpreta la música en vivo. La producción reúne así a dos de los cuerpos artísticos estables de la Provincia en torno a uno de los grandes títulos del ballet clásico. La puesta cuenta además con vestuario producido por el Teatro Colón. Entre los roles centrales aparecen Odette y Odile, el príncipe Sigfrido y Rothbart, protagonistas de una historia marcada por el amor, el engaño y el hechizo que transforma a la princesa y sus compañeras en cisnes. La función será en el Teatro San Martín, avenida Sarmiento 601. Las entradas generales tienen un valor de $10.000 y cuentan con promoción 2×1. Pueden adquirirse en la boletería del teatro y a través del sistema de venta online habilitado por Cultura de Tucumán. A las 20: una gran peña para cantar y bailar folklore También desde las 20, pero en el Centro Cultural Juan B. Terán, el folklore y la música popular argentina serán protagonistas de una gran peña con entrada libre y gratuita. El escenario recibirá a ALHMA, Las Voces de Ranchillos, Pedro y Pedro, Bianca Gómez y el dúo Luna Creciente. Cada propuesta recorrerá diferentes expresiones del cancionero popular argentino, en una noche pensada no solamente para escuchar música, sino también para sumarse al baile. Clases para quienes quieran animarse a bailar Uno de los atractivos de la peña será la posibilidad de aprender algunos pasos de las danzas tradicionales. La profesora Carolina Lozano brindará clases de folklore para principiantes, destinadas a quienes quieran acercarse por primera vez a estos ritmos y participar activamente de la fiesta. También presentará una muestra del taller de folklore “El Carro de nuestros sueños”, con un recorrido por diferentes expresiones de la danza tradicional argentina. Entre los ritmos que formarán parte de la propuesta se encuentran la chacarera, el gato, el bailecito, el tuaj, la arunguita y la zamba. La noche se completará con un patio de comidas y una feria de artesanos, generando un espacio para disfrutar en familia o con amigos. Tres maneras de disfrutar el domingo La programación del 66º Septiembre Musical propone así tres experiencias muy diferentes para este domingo: la cercanía de un concierto de cámara, la magnitud escénica de “El Lago de los Cisnes” y una gran celebración de las raíces folklóricas argentinas. Además, quienes quieran aprovechar varias actividades pueden comenzar la tarde con el Cuarteto Tréboles en el Foyer del Teatro San Martín y luego elegir entre el ballet en la sala principal o la peña gratuita del Centro Cultural Juan B. Terán. ¿Con cuál de estas propuestas vas a cerrar tu fin de semana? Datos destacados Domingo 4 de octubre 18 h — Ciclo de Cámara: Cuarteto Tréboles Foyer del Teatro San Martín, avenida Sarmiento 601. Entrada libre y gratuita. 20 h — El Lago de los Cisnes Teatro San Martín, avenida Sarmiento 601. Ballet Estable de Tucumán y Orquesta Estable de la Provincia. Entrada general: $10.000. Promoción: 2×1. 20 h — Gran Peña Folklórica Centro Cultural Juan B. Terán, Marco Avellaneda 254. Artistas: ALHMA, Las Voces de Ranchillos, Pedro y Pedro, Bianca Gómez y Luna Creciente. Habrá clases de folklore, muestra de danzas tradicionales, patio de comidas y feria de artesanos. Entrada libre y gratuita.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/septim.png",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": true,
+    "location": "boletería del teatro y a través del sistema de venta online habilitado por Cultura de Tucumán",
+    "address": "Sarmiento 601",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=boleter%C3%ADa+del+teatro+y+a+trav%C3%A9s+del+sistema+de+venta+online+habilitado+por+Cultura+de+Tucum%C3%A1n%2C+Sarmiento+601%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-04",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    }
+  },
+  {
+    "id": "46538",
+    "source": "MEC",
+    "title": "04 de Octubre | “Pepita, La Pistolera” llega al Espacio INCAA Tucumán con dos funciones en la Sala Hynes O’Connor",
+    "url": "https://agendatucuman.com.ar/eventos/04-de-octubre-pepita-la-pistolera-llega-al-espacio-incaa-tucuman-con-dos-funciones-en-la-sala-hynes-oconnor/",
+    "date_start": "2026-10-04",
+    "date_end": "2026-10-04",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-04T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Espacio INCAA Tucumán suma una nueva película a su programación con la llegada de “Pepita, La Pistolera”, dirigida por Lucía Puenzo. La producción tendrá funciones el domingo 4 de octubre a las 20 y el martes 6 a las 18 en la Sala Hynes O’Connor, ubicada en San Martín 251. La propuesta lleva al público a la Mar del Plata de 1985 para reconstruir la historia de Margarita Di Tullio, una mujer que decide enfrentarse a un entorno atravesado por la explotación, la violencia y un sistema que restringe sus posibilidades. Una historia ambientada en la Mar del Plata de los años 80 “Pepita, La Pistolera” presenta a Margarita Di Tullio como una trabajadora sexual embarazada que busca construir una alternativa para ella y para otras mujeres. En ese camino crea NEISIS, un refugio clandestino en el que las mujeres comienzan a desarrollar otras herramientas para alcanzar independencia económica y escapar de un contexto en el que sus cuerpos son tratados como mercancía. La película avanza desde esa búsqueda de autonomía hacia un escenario todavía más oscuro, cuando los crímenes atribuidos al denominado “Loco de la Ruta” comienzan a golpear de cerca a las mujeres de su entorno. Margarita decide entonces buscar respuestas y enfrentarse a una realidad marcada por la violencia. Lucía Puenzo detrás de la historia La película está dirigida por Lucía Puenzo, realizadora argentina que en esta oportunidad aborda un relato donde se cruzan marginalidad, violencia, supervivencia y las estrategias desarrolladas por un grupo de mujeres para construir sus propios espacios de protección. El film propone así una historia situada en una época y un contexto social concretos, con Margarita como centro de una trama que combina drama y tensión. Dos oportunidades para verla en Tucumán La primera función será el domingo 4 de octubre a las 20, mientras que quienes no puedan asistir ese día tendrán una segunda oportunidad el martes 6 de octubre a las 18. Ambas proyecciones se realizarán en la Sala Hynes O’Connor, dentro del Espacio INCAA Tucumán. Las entradas generales tienen un valor de $5.000, mientras que jubilados y estudiantes abonan $2.500. Los tickets estarán disponibles en la boletería una hora antes de cada función. Para quienes están buscando qué hacer en Tucumán y quieren sumar cine argentino a su agenda, esta propuesta ofrece dos oportunidades para acercarse a una nueva producción nacional. ¿Con quién irías a verla? Compartí la propuesta y agendá la función que mejor se adapte a tus planes. Datos destacados Película: “Pepita, La Pistolera” Dirección: Lucía Puenzo. Domingo 4 de octubre — 20 h. Martes 6 de octubre — 18 h. Lugar: Sala Hynes O’Connor, San Martín 251. Entrada general: $5.000. Jubilados y estudiantes: $2.500. Venta de entradas: boletería, desde una hora antes de cada función.",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/pepita.jpeg",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "que sus cuerpos son tratados como mercancía",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=que+sus+cuerpos+son+tratados+como+mercanc%C3%ADa%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-04",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-04T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-04",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -56135,7 +56632,7 @@
       "location": "",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
@@ -56346,7 +56843,7 @@
       "location": "narrative",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
@@ -56429,7 +56926,7 @@
       "location": "narrative",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
@@ -59259,7 +59756,7 @@
       "location": "",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
-      "query_month": "2026-09"
+      "query_month": "2026-10"
     }
   },
   {
