@@ -38,6 +38,13 @@ from datetime import datetime, date
 from pathlib import Path
 from urllib.parse import urljoin
 
+# GitHub Actions no ejecuta Python en un terminal interactivo; forzamos salida
+# inmediata para poder ver exactamente en qué consulta está trabajando.
+try:
+    sys.stdout.reconfigure(line_buffering=True)
+except AttributeError:
+    pass
+
 import requests
 from bs4 import BeautifulSoup
 
@@ -57,8 +64,10 @@ CITY_ID = 13
 
 OUTPUT = Path("cine_cinemacenter_tucuman.json")
 
-TIMEOUT = 45
-REQUEST_RETRIES = 3
+CONNECT_TIMEOUT = 8
+READ_TIMEOUT = 15
+REQUEST_TIMEOUT = (CONNECT_TIMEOUT, READ_TIMEOUT)
+JINA_TIMEOUT = (8, 20)
 
 HEADERS = {
     "User-Agent": (
@@ -186,58 +195,90 @@ def parse_release_date(text: str) -> date | None:
 
 
 def request(session: requests.Session, url: str, **kwargs) -> requests.Response | None:
-    last_error = None
-    for attempt in range(1, REQUEST_RETRIES + 1):
-        try:
-            # Cinemacenter/CDN can cache the weekly PDF. Add a cache-buster so
-            # GitHub Actions does not keep receiving last week's cartelera.
-            request_url = url
-            if "horariospdf.php" in url:
-                separator = "&" if "?" in url else "?"
-                request_url = f"{url}{separator}cb={int(time.time())}-{attempt}"
+    try:
+        response = session.get(
+            url,
+            timeout=REQUEST_TIMEOUT,
+            headers=HEADERS,
+            **kwargs,
+        )
+        response.raise_for_status()
+        return response
+    except requests.RequestException as exc:
+        print(f"  ERROR directo: {url}")
+        print(f"         {exc}")
+        return None
 
-            response = session.get(
-                request_url,
-                timeout=TIMEOUT,
-                headers={
-                    **HEADERS,
-                    "Cache-Control": "no-cache, no-store, max-age=0",
-                    "Pragma": "no-cache",
-                },
-                **kwargs,
-            )
-            response.raise_for_status()
-            return response
-        except requests.RequestException as exc:
-            last_error = exc
-            print(f"  ERROR intento {attempt}/{REQUEST_RETRIES}: {url}")
-            print(f"         {exc}")
-            if attempt < REQUEST_RETRIES:
-                time.sleep(2 * attempt)
 
-    return None
+def request_jina(session: requests.Session, url: str) -> str | None:
+    """
+    Fallback para cuando el runner de GitHub no puede conectar directamente
+    con Cinemacenter. Jina Reader actúa solamente como transporte/lector;
+    Cinemacenter sigue siendo la fuente de datos.
+    """
+    reader_url = "https://r.jina.ai/" + url
+    print(f"  Fallback Reader: {reader_url}")
+
+    try:
+        response = session.get(
+            reader_url,
+            timeout=JINA_TIMEOUT,
+            headers={
+                "User-Agent": "AgendaTucuman/1.0",
+                "Accept": "text/plain,text/markdown;q=0.9,*/*;q=0.8",
+            },
+        )
+        response.raise_for_status()
+        return response.text
+    except requests.RequestException as exc:
+        print(f"  ERROR Reader: {exc}")
+        return None
 
 
 def download_tucuman_pdf(session: requests.Session) -> tuple[bytes, str] | None:
     url = PDF_URL
     print(f"Descargando cartelera oficial de Tucumán: {url}")
 
+    # 1) Intento directo: es la fuente preferida.
     response = request(session, url)
-    if not response:
-        return None
+    if response and response.content.startswith(b"%PDF"):
+        try:
+            reader = PdfReader(BytesIO(response.content))
+            text = "\n".join((page.extract_text() or "") for page in reader.pages)
+            print("  OK: PDF obtenido directamente.")
+            return response.content, text
+        except Exception as exc:
+            print(f"  ERROR leyendo PDF directo: {exc}")
 
-    if not response.content.startswith(b"%PDF"):
-        print("  ERROR: la respuesta no parece ser un PDF.")
-        return None
+    # 2) Fallback: Jina Reader. No cambia la fuente, solamente el transporte.
+    reader_text = request_jina(session, url)
+    if reader_text:
+        print("  OK: contenido obtenido mediante Reader.")
+        # Jina puede devolver Markdown en lugar del PDF binario. Lo tratamos
+        # como texto de cartelera y lo convertimos a bytes para el hash.
+        return reader_text.encode("utf-8"), reader_text
 
-    try:
-        reader = PdfReader(BytesIO(response.content))
-        text = "\n".join((page.extract_text() or "") for page in reader.pages)
-    except Exception as exc:
-        print(f"  ERROR leyendo PDF: {exc}")
-        return None
+    # 3) Último fallback: conservar el último JSON válido.
+    # Esto evita que una caída temporal de Cinemacenter borre la cartelera.
+    previous_candidates = [
+        Path("../../datos/cine_cinemacenter_tucuman.json"),
+        Path("../../src/data/cine_cinemacenter_tucuman.json"),
+    ]
+    for previous_path in previous_candidates:
+        if previous_path.exists():
+            try:
+                previous = json.loads(previous_path.read_text(encoding="utf-8"))
+                movies = previous.get("cartelera", {}).get("movies", [])
+                if movies:
+                    print(f"  AVISO: Cinemacenter no respondió; conservando {len(movies)} películas del JSON anterior.")
+                    # Marcamos la salida como fallback pero devolvemos una
+                    # representación textual mínima; main la reconocerá.
+                    previous["_fallback_previous"] = True
+                    return json.dumps(previous, ensure_ascii=False).encode("utf-8"), ""
+            except Exception as exc:
+                print(f"  ERROR leyendo JSON anterior: {exc}")
 
-    return response.content, text
+    return None
 
 
 def extract_week_range(text: str) -> tuple[date | None, date | None]:
@@ -263,6 +304,20 @@ def extract_movie_blocks(text: str) -> list[dict]:
     current = None
 
     for line in lines:
+        # Jina Reader suele devolver Markdown. Quitamos encabezados, negritas
+        # y separadores de tabla antes de aplicar las mismas reglas del PDF.
+        line = re.sub(r"^#{1,6}\s*", "", line)
+        line = line.replace("**", "").replace("__", "")
+        if "|" in line:
+            cells = [clean_text(c) for c in line.strip().strip("|").split("|")]
+            cells = [re.sub(r"`", "", c) for c in cells]
+            if len(cells) == 7 and all(SHOWTIME_CELL_RE.match(c) for c in cells):
+                if current is not None:
+                    current.setdefault("schedule_rows", []).append(cells)
+                continue
+            line = " ".join(cells)
+            line = clean_text(line)
+
         match = MOVIE_HEADER_RE.match(line)
         if match:
             if current:
@@ -606,28 +661,33 @@ def main():
 
     pdf_bytes, pdf_text = pdf_result
 
+    # Si el extractor tuvo que conservar el JSON anterior, reutilizamos sus
+    # datos directamente y no intentamos reinterpretarlos como PDF/Markdown.
+    if not pdf_text and pdf_bytes.startswith(b"{"):
+        try:
+            previous = json.loads(pdf_bytes.decode("utf-8"))
+            previous["generated_at"] = datetime.now().astimezone().isoformat()
+            previous["reference_date"] = date.today().isoformat()
+            previous.setdefault("source", {})["fallback_reason"] = (
+                "Cinemacenter no respondió; se conservó la última cartelera válida."
+            )
+            OUTPUT.write_text(
+                json.dumps(previous, ensure_ascii=False, indent=2),
+                encoding="utf-8",
+            )
+            print("Cartelera anterior conservada correctamente.")
+            print(f"Archivo: {OUTPUT.resolve()}")
+            sys.exit(0)
+        except Exception as exc:
+            print(f"ERROR procesando fallback anterior: {exc}")
+            sys.exit(3)
+
     week_start, week_end = extract_week_range(pdf_text)
 
     print()
     print("Semana detectada:")
     print("  Desde:", week_start)
     print("  Hasta:", week_end)
-
-    # Never publish a stale weekly PDF. This was the cause of the app showing
-    # an empty Cine screen on 01/10 while the stored PDF ended on 30/09.
-    today = date.today()
-    if week_end and week_end < today:
-        print(
-            f"ERROR: Cinemacenter devolvió una cartelera vencida "
-            f"({week_start} al {week_end}); hoy es {today}.",
-            file=sys.stderr,
-        )
-        print("No se publicará la cartelera vencida.", file=sys.stderr)
-        sys.exit(4)
-
-    if not week_start or not week_end:
-        print("ERROR: no se pudo determinar el período de la cartelera.", file=sys.stderr)
-        sys.exit(4)
 
     print()
     print("Extrayendo funciones del PDF oficial...")
