@@ -28,11 +28,20 @@ FETCH_MODE = os.getenv("CINEMACENTER_FETCH_MODE", "auto").lower()
 READER_BASE = "https://r.jina.ai/"
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "src" / "data"
-LOCAL_CINEMA = DATA_DIR / "cine_cinemacenter_tucuman.json"
-LOCAL_METADATA = DATA_DIR / "cine_metadata.json"
 REPO_DATA_DIR = ROOT / "datos"
+
+# The generated files in datos/ are the canonical remote-data source.
+# The previous version read src/data first, which could be an older bundled
+# copy. When the main workflow refreshed Cinemacenter and then ran enrichment,
+# enrichment could overwrite the fresh cartelera with that stale copy.
 REPO_CINEMA = REPO_DATA_DIR / "cine_cinemacenter_tucuman.json"
 REPO_METADATA = REPO_DATA_DIR / "cine_metadata.json"
+LOCAL_CINEMA = DATA_DIR / "cine_cinemacenter_tucuman.json"
+LOCAL_METADATA = DATA_DIR / "cine_metadata.json"
+
+# Use the freshly generated remote-data file whenever it exists.
+CINEMA_INPUT = REPO_CINEMA if REPO_CINEMA.exists() else LOCAL_CINEMA
+METADATA_INPUT = REPO_METADATA if REPO_METADATA.exists() else LOCAL_METADATA
 
 
 def normalize(value: object) -> str:
@@ -459,7 +468,7 @@ def write_json(path: Path, value) -> None:
 
 
 def main() -> int:
-    cinema = load_json(LOCAL_CINEMA, None)
+    cinema = load_json(CINEMA_INPUT, None)
     if not cinema or not isinstance(cinema.get("cartelera", {}).get("movies"), list):
         print("No se encontró una cartelera local válida", file=sys.stderr)
         return 1
@@ -477,7 +486,7 @@ def main() -> int:
         # temporarily unreachable. Existing metadata is still useful and will
         # be preserved. Individual pages can still be retried from cached URLs.
         print(f"Aviso: no se pudo consultar la cartelera de Cinemacenter: {exc}", file=sys.stderr)
-    previous = load_json(LOCAL_METADATA, {"movies": []})
+    previous = load_json(METADATA_INPUT, {"movies": []})
     previous_movies = previous.get("movies", []) if isinstance(previous, dict) else []
     by_title = {}
     for item in previous_movies:

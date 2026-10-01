@@ -57,7 +57,8 @@ CITY_ID = 13
 
 OUTPUT = Path("cine_cinemacenter_tucuman.json")
 
-TIMEOUT = 30
+TIMEOUT = 45
+REQUEST_RETRIES = 3
 
 HEADERS = {
     "User-Agent": (
@@ -185,19 +186,36 @@ def parse_release_date(text: str) -> date | None:
 
 
 def request(session: requests.Session, url: str, **kwargs) -> requests.Response | None:
-    try:
-        response = session.get(
-            url,
-            timeout=TIMEOUT,
-            headers=HEADERS,
-            **kwargs,
-        )
-        response.raise_for_status()
-        return response
-    except requests.RequestException as exc:
-        print(f"  ERROR: {url}")
-        print(f"         {exc}")
-        return None
+    last_error = None
+    for attempt in range(1, REQUEST_RETRIES + 1):
+        try:
+            # Cinemacenter/CDN can cache the weekly PDF. Add a cache-buster so
+            # GitHub Actions does not keep receiving last week's cartelera.
+            request_url = url
+            if "horariospdf.php" in url:
+                separator = "&" if "?" in url else "?"
+                request_url = f"{url}{separator}cb={int(time.time())}-{attempt}"
+
+            response = session.get(
+                request_url,
+                timeout=TIMEOUT,
+                headers={
+                    **HEADERS,
+                    "Cache-Control": "no-cache, no-store, max-age=0",
+                    "Pragma": "no-cache",
+                },
+                **kwargs,
+            )
+            response.raise_for_status()
+            return response
+        except requests.RequestException as exc:
+            last_error = exc
+            print(f"  ERROR intento {attempt}/{REQUEST_RETRIES}: {url}")
+            print(f"         {exc}")
+            if attempt < REQUEST_RETRIES:
+                time.sleep(2 * attempt)
+
+    return None
 
 
 def download_tucuman_pdf(session: requests.Session) -> tuple[bytes, str] | None:
@@ -594,6 +612,22 @@ def main():
     print("Semana detectada:")
     print("  Desde:", week_start)
     print("  Hasta:", week_end)
+
+    # Never publish a stale weekly PDF. This was the cause of the app showing
+    # an empty Cine screen on 01/10 while the stored PDF ended on 30/09.
+    today = date.today()
+    if week_end and week_end < today:
+        print(
+            f"ERROR: Cinemacenter devolvió una cartelera vencida "
+            f"({week_start} al {week_end}); hoy es {today}.",
+            file=sys.stderr,
+        )
+        print("No se publicará la cartelera vencida.", file=sys.stderr)
+        sys.exit(4)
+
+    if not week_start or not week_end:
+        print("ERROR: no se pudo determinar el período de la cartelera.", file=sys.stderr)
+        sys.exit(4)
 
     print()
     print("Extrayendo funciones del PDF oficial...")
