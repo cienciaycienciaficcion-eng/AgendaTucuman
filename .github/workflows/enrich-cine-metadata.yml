@@ -21,6 +21,11 @@ jobs:
           python-version: '3.x'
 
       - name: Actualizar metadata desde Cinemacenter
+        env:
+          # Los runners de GitHub pueden tener problemas de red con Cinemacenter.
+          # Jina Reader actúa como transporte/proxy, pero la fuente sigue siendo Cinemacenter.
+          CINEMACENTER_FETCH_MODE: jina
+          CINEMACENTER_READER_TIMEOUT: '60'
         run: python scripts/enrich-cinemacenter-metadata.py
 
       - name: Guardar cambios
