@@ -131,11 +131,34 @@ jobs:
       - name: Informar error de Cinemacenter
         if: steps.cinemacenter.outcome != 'success'
         run: |
-          echo "ADVERTENCIA: Cinemacenter no respondió."
+          echo "ADVERTENCIA: Cinemacenter no respondió o devolvió una cartelera vencida."
           echo "Se conservará la cartelera anterior."
 
       # ============================================================
       # INFORMACIÓN DETALLADA DE PELÍCULAS
+      # Se ejecuta DESPUÉS de publicar la cartelera actual. De este modo
+      # el enriquecedor nunca vuelve a escribir una copia vieja de cine.
+      # ============================================================
+
+      - name: Enriquecer metadata de Cinemacenter
+        id: enrich_cine
+        if: steps.cinemacenter.outcome == 'success'
+        env:
+          CINEMACENTER_FETCH_MODE: jina
+          CINEMACENTER_READER_TIMEOUT: '60'
+          CINEMACENTER_DIRECT_TIMEOUT: '20'
+          PYTHONUNBUFFERED: '1'
+        run: |
+          python scripts/enrich-cinemacenter-metadata.py
+
+      - name: Estado de metadata de cine
+        if: steps.enrich_cine.outcome != 'success'
+        run: |
+          echo "ADVERTENCIA: no se pudo enriquecer la metadata."
+          echo "La cartelera actual se conserva igualmente."
+
+      # ============================================================
+      # INFORMACIÓN DETALLADA DE PELÍCULAS (TMDB, si está configurado)
       # ============================================================
 
       - name: Enriquecer películas con TMDB
@@ -220,7 +243,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add datos/
+          git add datos/ src/data/
 
           if git diff --cached --quiet; then
             echo "No hay cambios nuevos en los datos."
