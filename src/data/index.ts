@@ -134,6 +134,12 @@ export type CinemaData = {
     week_end: string | null;
     movies: CinemaMovie[];
   };
+  proximos_estrenos?: Array<{
+    id: string;
+    title: string;
+    release_date: string;
+    source_url?: string;
+  }>;
 };
 
 

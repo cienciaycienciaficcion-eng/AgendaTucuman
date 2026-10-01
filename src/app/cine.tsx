@@ -18,6 +18,13 @@ function formatReleaseDate(value?: string) {
   });
 }
 
+function formatReleaseMonth(value?: string) {
+  if (!value) return '';
+  const date = new Date(`${value}T12:00:00`);
+  if (Number.isNaN(date.getTime())) return '';
+  return date.toLocaleDateString('es-AR', { month: 'short' }).replace('.', '').toUpperCase();
+}
+
 function PosterImage({ uri, style, contentFit = 'cover' }: { uri: string; style: any; contentFit?: 'cover' | 'contain' }) {
   const [source, setSource] = useState(uri);
   const [failed, setFailed] = useState(false);
@@ -138,7 +145,8 @@ function MovieDetails({ movie, visible, onClose }: { movie: any | null; visible:
                 <ThemedText style={styles.infoLinkText}>Ver tráiler</ThemedText>
               </Pressable>
             ) : null}
-          </ScrollView>
+    
+      </ScrollView>
         </View>
       </View>
     </Modal>
@@ -177,6 +185,12 @@ export default function CineScreen() {
         else acc.push({ title: movie.title, variants: [movie], metadata: movie.metadata });
         return acc;
       }, []);
+  }, [cinemaData, today]);
+
+  const upcomingMovies = useMemo(() => {
+    return (cinemaData?.proximos_estrenos ?? [])
+      .filter((movie: any) => movie.release_date && movie.release_date >= today)
+      .sort((a: any, b: any) => a.release_date.localeCompare(b.release_date));
   }, [cinemaData, today]);
 
   return (
@@ -245,6 +259,45 @@ export default function CineScreen() {
             ))}
           </Pressable>
         ))}
+        {upcomingMovies.length > 0 ? (
+          <View style={styles.upcomingSection}>
+            <View style={styles.upcomingHeader}>
+              <View style={{ flex: 1 }}>
+                <ThemedText type="title" style={styles.upcomingTitle}>Próximos estrenos</ThemedText>
+                <ThemedText themeColor="textSecondary">
+                  Próximos estrenos publicados por Cinemacenter
+                </ThemedText>
+              </View>
+              <Pressable
+                onPress={() => Linking.openURL('https://www.cinemacenter.com.ar/estrenos#contenido')}
+                style={styles.upcomingLink}
+              >
+                <ThemedText style={styles.sourceText}>Ver sitio</ThemedText>
+              </Pressable>
+            </View>
+
+            {upcomingMovies.map((movie: any) => (
+              <Pressable
+                key={movie.id || `${movie.title}-${movie.release_date}`}
+                style={({ pressed }) => [styles.upcomingCard, pressed && { opacity: 0.78 }]}
+                onPress={() => Linking.openURL(movie.source_url || 'https://www.cinemacenter.com.ar/estrenos#contenido')}
+              >
+                <View style={styles.upcomingDate}>
+                  <ThemedText style={styles.upcomingDay}>{movie.release_date.slice(8, 10)}</ThemedText>
+                  <ThemedText style={styles.upcomingMonth}>
+                    {formatReleaseMonth(movie.release_date)}
+                  </ThemedText>
+                </View>
+                <View style={{ flex: 1 }}>
+                  <ThemedText type="subtitle" style={styles.upcomingMovieTitle}>{movie.title}</ThemedText>
+                  <ThemedText themeColor="textSecondary" style={styles.upcomingMovieDate}>
+                    Estreno: {formatReleaseDate(movie.release_date)}
+                  </ThemedText>
+                </View>
+              </Pressable>
+            ))}
+          </View>
+        ) : null}
       </ScrollView>
 
       <MovieDetails movie={selectedMovie} visible={Boolean(selectedMovie)} onClose={() => setSelectedMovie(null)} />
@@ -274,6 +327,18 @@ const styles = StyleSheet.create({
   timeDate:{fontSize:10,color:Colors.light.textSecondary},
   timeText:{fontSize:15,fontWeight:'800'},
   loadingBox:{backgroundColor:'#fff',borderRadius:18,borderWidth:1,borderColor:Colors.light.border,padding:24,alignItems:'center',marginBottom:12},
+
+  upcomingSection:{marginTop:18,marginBottom:10},
+  upcomingHeader:{flexDirection:'row',alignItems:'center',gap:10,marginBottom:10},
+  upcomingTitle:{fontSize:26,lineHeight:31},
+  upcomingLink:{backgroundColor:Colors.light.primary,borderRadius:12,paddingHorizontal:11,paddingVertical:8},
+  upcomingCard:{backgroundColor:'#fff',borderWidth:1,borderColor:Colors.light.border,borderRadius:16,padding:12,marginBottom:8,flexDirection:'row',alignItems:'center',gap:12},
+  upcomingDate:{width:58,height:58,borderRadius:12,backgroundColor:'#E8EEE9',alignItems:'center',justifyContent:'center'},
+  upcomingDay:{fontSize:22,fontWeight:'900',lineHeight:24},
+  upcomingMonth:{fontSize:10,fontWeight:'800',color:Colors.light.textSecondary},
+  upcomingMovieTitle:{fontSize:18,lineHeight:22},
+  upcomingMovieDate:{fontSize:12,marginTop:3},
+
   modalBackdrop:{flex:1,backgroundColor:'rgba(0,0,0,0.42)',justifyContent:'flex-end'},
   modalCard:{backgroundColor:Colors.light.background,borderTopLeftRadius:28,borderTopRightRadius:28,maxHeight:'94%',overflow:'hidden'},
   modalContent:{padding:18,paddingBottom:36},

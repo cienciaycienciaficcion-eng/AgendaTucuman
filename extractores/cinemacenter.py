@@ -462,106 +462,175 @@ def build_current_movies(raw_movies: list[dict], week_start: date | None, week_e
 
 def extract_upcoming_from_home(session: requests.Session) -> list[dict]:
     """
-    Extrae únicamente la sección oficial de próximos estrenos.
-    No usa Agenda Tucumán.
-    """
+    Extrae la sección oficial de próximos estrenos de Cinemacenter.
 
+    Se intenta primero HTML directo. Si Cinemacenter no responde desde GitHub,
+    se utiliza Jina Reader como transporte alternativo. En ambos casos la fuente
+    sigue siendo exclusivamente Cinemacenter.
+    """
     print(f"Consultando próximos estrenos en Cinemacenter: {ESTRENOS_URL}")
 
+    html_text = None
     response = request(session, ESTRENOS_URL)
-    if not response:
+    if response:
+        html_text = response.text
+        print("  OK: página de próximos estrenos obtenida directamente.")
+    else:
+        html_text = request_jina(session, ESTRENOS_URL)
+        if html_text:
+            print("  OK: próximos estrenos obtenidos mediante Reader.")
+
+    if not html_text:
+        print("  ADVERTENCIA: no se pudo consultar la página de próximos estrenos.")
         return []
 
-    soup = BeautifulSoup(response.text, "html.parser")
+    today = date.today()
+    candidates: list[tuple[str, str | None]] = []
 
-    # Buscamos cualquier encabezado o texto relacionado con PROXIMOS ESTRENOS.
-    marker = None
+    def add_candidate(text: str, href: str | None = None):
+        text = clean_text(text)
+        if not text or len(text) > 260:
+            return
+        release = parse_release_date(text)
+        if release:
+            candidates.append((text, href))
 
-    for element in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "a", "li", "div", "span"]):
-        txt = clean_text(element.get_text(" ", strip=True))
-        normalized = txt.upper().replace("Ó", "O")
+    # HTML de Cinemacenter.
+    if "<html" in html_text[:5000].lower() or "<body" in html_text[:5000].lower():
+        soup = BeautifulSoup(html_text, "html.parser")
 
-        if "PROXIMOS ESTRENOS" in normalized or "PRÓXIMOS ESTRENOS" in normalized:
-            marker = element
-            break
-
-    candidates = []
-
-    if marker:
-        # Primero intentamos el contenedor inmediato.
-        containers = []
-        parent = marker.parent
-        for _ in range(5):
-            if parent:
-                containers.append(parent)
-                parent = parent.parent
-
-        for container in containers:
-            for node in container.find_all(["a", "article", "li", "div"], limit=300):
-                txt = clean_text(node.get_text(" ", strip=True))
-                if not txt:
-                    continue
-
-                # Un candidato debe parecer una ficha de película.
-                if len(txt) < 3 or len(txt) > 300:
-                    continue
-
-                if "estreno" not in txt.lower():
-                    continue
-
-                href = None
-                if node.name == "a":
-                    href = node.get("href")
-                else:
-                    a = node.find("a", href=True)
-                    if a:
-                        href = a.get("href")
-
-                candidates.append((txt, href))
-
-            if candidates:
+        marker = None
+        for element in soup.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "a", "li", "div", "span"]):
+            label = clean_text(element.get_text(" ", strip=True))
+            normalized = label.upper().replace("Ó", "O")
+            if "PROXIMOS ESTRENOS" in normalized:
+                marker = element
                 break
 
-    # Fallback: recorrer todos los enlaces de la página buscando fechas.
-    if not candidates:
-        for a in soup.find_all("a", href=True):
-            txt = clean_text(a.get_text(" ", strip=True))
-            if "estreno" in txt.lower() or parse_release_date(txt):
-                candidates.append((txt, a.get("href")))
+        containers = []
+        if marker:
+            parent = marker.parent
+            for _ in range(6):
+                if parent:
+                    containers.append(parent)
+                    parent = parent.parent
+
+        nodes = []
+        for container in containers:
+            nodes.extend(container.find_all(["a", "article", "li"], limit=500))
+
+        if not nodes:
+            nodes = soup.find_all(["a", "article", "li"], limit=1000)
+
+        for node in nodes:
+            txt = clean_text(node.get_text(" ", strip=True))
+            if not parse_release_date(txt):
+                continue
+            href = node.get("href") if node.name == "a" else None
+            if not href:
+                anchor = node.find("a", href=True)
+                href = anchor.get("href") if anchor else None
+                if anchor:
+                    anchor_text = clean_text(anchor.get_text(" ", strip=True))
+                    if anchor_text and parse_release_date(txt):
+                        txt = f"{anchor_text} {txt}"
+            add_candidate(txt, href)
+
+        # Último fallback: enlaces que tengan una fecha en su propio texto.
+        if not candidates:
+            for a in soup.find_all("a", href=True):
+                txt = clean_text(a.get_text(" ", strip=True))
+                if parse_release_date(txt):
+                    add_candidate(txt, a.get("href"))
+
+    else:
+        # Jina Reader devuelve Markdown/texto. Buscamos:
+        #   Título ... 01/10/2026
+        # o un enlace cuyo texto/entorno contenga la fecha.
+        lines = [clean_text(x) for x in html_text.splitlines() if clean_text(x)]
+        for idx, line in enumerate(lines):
+            if not parse_release_date(line):
+                continue
+
+            title = line
+            href = None
+
+            link_match = re.search(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", line)
+            if link_match:
+                title = link_match.group(1)
+                href = link_match.group(2)
+
+            # Si la línea contiene solamente la fecha, usamos la línea anterior
+            # como título, que es el formato habitual de tarjetas Markdown.
+            stripped = re.sub(
+                r"(estreno\s*:?\s*)?\d{1,2}[/-]\d{1,2}[/-]\d{4}",
+                "",
+                title,
+                flags=re.I,
+            )
+            if len(clean_text(stripped)) < 2 and idx > 0:
+                previous = lines[idx - 1]
+                title = previous
+                if link_match:
+                    title = link_match.group(1)
+
+            add_candidate(title + " " + line, href)
+
+        # Enlaces con fecha en líneas adyacentes.
+        for idx, line in enumerate(lines):
+            for m in re.finditer(r"\[([^\]]+)\]\((https?://[^)\s]+)\)", line):
+                title, href = m.group(1), m.group(2)
+                context = " ".join(lines[max(0, idx - 1):min(len(lines), idx + 2)])
+                if parse_release_date(context):
+                    add_candidate(f"{title} {context}", href)
 
     results = []
     seen = set()
-    today = date.today()
 
     for txt, href in candidates:
         release = parse_release_date(txt)
-        if not release or release <= today:
+        if not release or release < today:
             continue
 
-        # Intentamos extraer un título razonable.
+        # Preferimos el texto del enlace si existe; de lo contrario quitamos
+        # etiquetas y la fecha del texto candidato.
         title = clean_text(txt)
-        title = re.sub(
-            r"estreno\s*:?\s*\d{1,2}(?:[/-]\d{1,2}[/-]\d{4}|"
-            r"\s+de\s+[a-záéíóú]+\s+de\s+\d{4})",
-            "",
-            title,
-            flags=re.I,
-        )
+        if href:
+            # En candidatos HTML puede venir "título fecha"; conservar la parte
+            # más limpia antes de la fecha.
+            title = re.split(
+                r"\s+(?:estreno\s*:?\s*)?\d{1,2}[/-]\d{1,2}[/-]\d{4}",
+                title,
+                maxsplit=1,
+                flags=re.I,
+            )[0]
+        else:
+            title = re.sub(
+                r"(?:estreno\s*:?\s*)?\d{1,2}[/-]\d{1,2}[/-]\d{4}",
+                "",
+                title,
+                flags=re.I,
+            )
+
+        title = re.sub(r"^(próximo estreno|proximo estreno)\s*:?\s*", "", title, flags=re.I)
+        title = re.sub(r"^[\-\*\u2022|:]+\s*", "", title)
         title = clean_text(title)
 
-        # Si quedó demasiado genérico, descartamos.
-        if not title or len(title) < 2:
-            continue
-
-        # Limpieza de textos comunes del sitio.
-        title = re.sub(r"^(próximo estreno|proximo estreno)\s*", "", title, flags=re.I)
-        title = clean_text(title)
-
-        # Si contiene demasiada información, intentamos quedarnos con la primera parte.
         if " | " in title:
             title = title.split(" | ", 1)[0].strip()
 
-        key = (title.lower(), release.isoformat())
+        if not title or len(title) < 2:
+            continue
+
+        # Evitar encabezados genéricos o fragmentos de navegación.
+        if normalize_title(title).lower() in {
+            "proximos estrenos",
+            "próximos estrenos",
+            "estrenos",
+        }:
+            continue
+
+        key = (normalize_title(title).lower(), release.isoformat())
         if key in seen:
             continue
         seen.add(key)
@@ -569,7 +638,7 @@ def extract_upcoming_from_home(session: requests.Session) -> list[dict]:
         results.append({
             "id": "cinemacenter-tucuman-upcoming-" + slugify(title),
             "source": "cinemacenter",
-            "source_url": urljoin(BASE_URL, href) if href else HOME_URL,
+            "source_url": urljoin(BASE_URL, href) if href else ESTRENOS_URL,
             "cinema": "Cinemacenter Tucumán",
             "city": "San Miguel de Tucumán",
             "title": title,
@@ -577,11 +646,8 @@ def extract_upcoming_from_home(session: requests.Session) -> list[dict]:
             "release_date": release.isoformat(),
         })
 
-    # Orden cronológico.
     results.sort(key=lambda x: x["release_date"])
-
     return results
-
 
 def make_output(
     pdf_bytes: bytes,
