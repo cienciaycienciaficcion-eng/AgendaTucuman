@@ -21,7 +21,7 @@ jobs:
 
       - name: Actualizar metadata exclusivamente desde Cinemacenter
         env:
-          CINEMACENTER_FETCH_MODE: jina
+          CINEMACENTER_FETCH_MODE: auto
           CINEMACENTER_READER_TIMEOUT: '60'
           PYTHONUNBUFFERED: '1'
         run: python scripts/enrich-cinemacenter-metadata.py
