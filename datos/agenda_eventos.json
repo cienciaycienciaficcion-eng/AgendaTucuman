@@ -41065,75 +41065,6 @@
     }
   },
   {
-    "id": "42093",
-    "source": "MEC",
-    "title": "Enero y Febrero 2026 en San Pedro de Colalao: cronograma de actividades",
-    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-2026-en-san-pedro-de-colalao-cronograma-de-actividades/",
-    "date_start": "2026-08-05",
-    "date_end": "2026-08-05",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-08-05T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Las autoridades de la Comuna de San Pedro de Colalao lanzaron una extensa agenda de actividades y eventos para los meses de Enero y Febrero de 2026",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/04/tour-religioso-a-San-Pedro-de-Colalao-y-Trancas.jpeg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "San Pedro de Colalao",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-08-05",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-08-05T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "card",
-        "score": 0.9
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.47
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-08-05",
-      "card_time": "",
-      "date": "card",
-      "time": "",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    }
-  },
-  {
     "id": "servicios-19899",
     "source": "SERVICIOS",
     "title": "Monotributo: dos vencimientos clave en agosto",
@@ -41432,6 +41363,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 19924,
       "date": "services_title_day"
+    }
+  },
+  {
+    "id": "42093",
+    "source": "MEC",
+    "title": "Enero y Febrero 2026 en San Pedro de Colalao: cronograma de actividades",
+    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-2026-en-san-pedro-de-colalao-cronograma-de-actividades/",
+    "date_start": "2026-08-06",
+    "date_end": "2026-08-06",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-08-06T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las autoridades de la Comuna de San Pedro de Colalao lanzaron una extensa agenda de actividades y eventos para los meses de Enero y Febrero de 2026",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/04/tour-religioso-a-San-Pedro-de-Colalao-y-Trancas.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Pedro de Colalao",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-08-06",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-08-06T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.47
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-08-06",
+      "card_time": "",
+      "date": "card",
+      "time": "",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -43673,75 +43673,6 @@
     }
   },
   {
-    "id": "42092",
-    "source": "MEC",
-    "title": "Enero y Febrero 2026 en El Mollar: cronograma de actividades",
-    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-en-el-mollar-cronograma-de-actividades/",
-    "date_start": "2026-08-17",
-    "date_end": "2026-08-17",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-08-17T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Las autoridades de la comuna veraniega de El Mollar dieron a conocer el cronograma de actividades programadas para los mes de Enero y Febrero del 2026:",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/01/el-mollar-tucuman.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "El Mollar",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-08-17",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-08-17T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "card",
-        "score": 0.9
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.47
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-08-17",
-      "card_time": "",
-      "date": "card",
-      "time": "",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    }
-  },
-  {
     "id": "servicios-40377",
     "source": "SERVICIOS",
     "title": "18 al 22 de agosto: Jornadas de Eco Canje",
@@ -44235,6 +44166,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 15657,
       "date": "services_title_day"
+    }
+  },
+  {
+    "id": "42092",
+    "source": "MEC",
+    "title": "Enero y Febrero 2026 en El Mollar: cronograma de actividades",
+    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-en-el-mollar-cronograma-de-actividades/",
+    "date_start": "2026-08-18",
+    "date_end": "2026-08-18",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-08-18T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las autoridades de la comuna veraniega de El Mollar dieron a conocer el cronograma de actividades programadas para los mes de Enero y Febrero del 2026:",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/01/el-mollar-tucuman.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "El Mollar",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-08-18",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-08-18T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.47
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-08-18",
+      "card_time": "",
+      "date": "card",
+      "time": "",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -54459,7 +54459,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-10-01",
+      "card_date": "2026-10-02",
       "card_time": "08:00",
       "date": "title_range",
       "time": "mec_card",
