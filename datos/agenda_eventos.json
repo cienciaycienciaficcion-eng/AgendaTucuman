@@ -71757,5 +71757,64 @@
       "post_id": 20143,
       "date": "services_title_day"
     }
+  },
+  {
+    "id": "cine-estrenos-semana-2026-10-01",
+    "source": "CINEMACENTER",
+    "title": "Estrenos de la semana",
+    "url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+    "date_start": "2026-10-01",
+    "date_end": "2026-10-07",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-10-01T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "<p><strong>Nuevas películas que llegan a la cartelera de Cinemacenter Tucumán esta semana:</strong></p>\n<ul>\n<li>COYOTE VS ACME — estreno 1 de octubre</li>\n<li>DIGGER — estreno 1 de octubre</li>\n<li>EL CORAZON DE LA BESTIA — estreno 1 de octubre</li>\n<li>ESCONDIDA EN MI CABEZA — estreno 1 de octubre</li>\n<li>PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA — estreno 1 de octubre</li>\n<li>RESIDENT EVIL: NOCHE CERO — estreno 1 de octubre</li>\n<li>VERITY LA SOMBRA DE UN ENGAÑO — estreno 1 de octubre</li>\n<li>GUARDIANES DEL MUSEO 2 — estreno 2 de octubre</li>\n<li>LA ISLA OLVIDADA — estreno 2 de octubre</li>\n<li>VERTIGO 2 — estreno 2 de octubre</li>\n<li>TOY STORY 5 — estreno 3 de octubre</li>\n</ul>\n<p><a href=\"https://www.cinemacenter.com.ar/cartelera#contenido\">Ver cartelera y horarios</a></p>",
+    "image": "https://www.cinemacenter.com.ar/img_movies/3548_img2.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Cinemacenter Tucumán",
+    "address": "Av. Néstor Kirchner (Ex Roca) 3450",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Cinemacenter",
+    "categories": [
+      "Cine"
+    ],
+    "tags": [
+      "Cine",
+      "Estrenos"
+    ],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cinemacenter+Tucumán",
+    "registration_urls": [
+      "https://www.miboleteria.com.ar"
+    ],
+    "external_urls": [
+      "https://www.cinemacenter.com.ar/cartelera#contenido",
+      "https://www.miboleteria.com.ar"
+    ],
+    "occurrences": [
+      {
+        "date": "2026-10-01",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-10-01T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "cinemacenter_release_titles": [
+      "COYOTE VS ACME",
+      "DIGGER",
+      "EL CORAZON DE LA BESTIA",
+      "ESCONDIDA EN MI CABEZA",
+      "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA",
+      "RESIDENT EVIL: NOCHE CERO",
+      "VERITY LA SOMBRA DE UN ENGAÑO",
+      "GUARDIANES DEL MUSEO 2",
+      "LA ISLA OLVIDADA",
+      "VERTIGO 2",
+      "TOY STORY 5"
+    ],
+    "cinemacenter_release_count": 11
   }
 ]
