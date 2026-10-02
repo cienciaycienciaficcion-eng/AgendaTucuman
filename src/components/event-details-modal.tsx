@@ -51,6 +51,7 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
 
   const title = cleanText(event.title).replace(/^\d{1,2} de [A-Za-zÁÉÍÓÚáéíóú]+\|\s*/i, '');
   const description = cleanText(event.description);
+  const summary = cleanText(event.summary);
   const calendar = googleCalendarUrl(event);
   const maps = mapsUrl(event);
   const hasImage = Boolean(event.image && !imageError);
@@ -81,7 +82,19 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
           {categories.length > 0 && <View style={styles.tags}>{categories.map((c: string) => <View key={c} style={styles.tag}><ThemedText style={styles.tagText}>{c}</ThemedText></View>)}</View>}
           {tags.length > 0 && <View style={styles.tags}>{tags.map((t: string) => <View key={t} style={styles.tagSecondary}><ThemedText style={styles.tagSecondaryText}>{t}</ThemedText></View>)}</View>}
 
-          {description ? <View style={styles.section}><ThemedText type="subtitle">Descripción</ThemedText><ThemedText style={styles.description}>{description}</ThemedText></View> : null}
+          {summary ? (
+            <View style={styles.summaryCard}>
+              <ThemedText type="subtitle">Resumen</ThemedText>
+              <ThemedText style={styles.summary}>{summary}</ThemedText>
+              {event.url ? (
+                <Pressable onPress={() => Linking.openURL(event.url)} style={styles.articleLink}>
+                  <ThemedText style={styles.articleLinkText}>Leer artículo completo ↗</ThemedText>
+                </Pressable>
+              ) : null}
+            </View>
+          ) : null}
+
+          {description ? <View style={styles.section}><ThemedText type="subtitle">Descripción completa</ThemedText><ThemedText style={styles.description}>{description}</ThemedText></View> : null}
 
           <View style={styles.actions}>
             <Pressable onPress={() => Linking.openURL(calendar)} style={styles.primary} disabled={!calendar}>
@@ -90,7 +103,7 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
             <Pressable onPress={() => Linking.openURL(maps)} style={styles.secondary} disabled={!maps}>
               <ThemedText style={styles.secondaryText}>📍 Cómo llegar con Google Maps</ThemedText>
             </Pressable>
-            {event.url ? <Pressable onPress={() => Linking.openURL(event.url)} style={styles.secondary}><ThemedText style={styles.secondaryText}>Ver evento original</ThemedText></Pressable> : null}
+            {!summary && event.url ? <Pressable onPress={() => Linking.openURL(event.url)} style={styles.secondary}><ThemedText style={styles.secondaryText}>Ver evento original</ThemedText></Pressable> : null}
             {Array.isArray(event.registration_urls) && event.registration_urls[0] ? <Pressable onPress={() => Linking.openURL(event.registration_urls[0])} style={styles.secondary}><ThemedText style={styles.secondaryText}>Inscripción / entradas</ThemedText></Pressable> : null}
           </View>
         </ScrollView>
@@ -117,6 +130,10 @@ const styles = StyleSheet.create({
   tagSecondary: { backgroundColor: Colors.light.backgroundSelected, borderRadius: 14, paddingHorizontal: 10, paddingVertical: 5 },
   tagSecondaryText: { color: Colors.light.primaryDark, fontSize: 12, fontWeight: '700' },
   section: { marginTop: 22, gap: 8 },
+  summaryCard: { marginTop: 22, backgroundColor: Colors.light.backgroundSelected, borderRadius: 18, padding: 16, gap: 8 },
+  summary: { lineHeight: 23 },
+  articleLink: { alignSelf: 'flex-start', marginTop: 2 },
+  articleLinkText: { color: Colors.light.primaryDark, fontWeight: '800' },
   description: { lineHeight: 22 },
   actions: { marginTop: 24, gap: 10 },
   primary: { backgroundColor: Colors.light.primary, borderRadius: 15, padding: 15, alignItems: 'center' },

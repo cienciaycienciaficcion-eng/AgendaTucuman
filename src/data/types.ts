@@ -9,6 +9,10 @@ export type AgendaEvent = {
   start_datetime: string;
   end_datetime: string;
   description: string;
+  summary?: string;
+  summary_generated?: boolean;
+  summary_version?: number;
+  summary_source_hash?: string;
   image: string;
   price: number | null;
   currency: string;

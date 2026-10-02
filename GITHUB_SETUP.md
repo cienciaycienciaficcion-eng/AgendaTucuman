@@ -80,3 +80,27 @@ Aviso requerido por TMDB:
 > This product uses the TMDB API but is not endorsed or certified by TMDB.
 
 Fuente oficial: https://developer.themoviedb.org/docs/faq
+
+## Resúmenes automáticos con Gemini
+
+El workflow `Actualizar datos Agenda Tucumán` puede generar un resumen breve de las descripciones largas usando Gemini antes de publicar `datos/agenda_eventos.json`.
+
+### Configurar la clave
+
+En GitHub:
+
+1. Abrir **Settings → Secrets and variables → Actions**.
+2. Crear un **Repository secret** llamado `GEMINI_API_KEY`.
+3. Pegar allí la clave creada en Google AI Studio.
+4. No guardar la clave en el repositorio, en archivos Python, en `app.json` ni dentro de la APK.
+
+El workflow utiliza por defecto el modelo `gemini-3.5-flash-lite`.
+
+### Funcionamiento
+
+- La descripción original se conserva completa.
+- Solo se envían a Gemini las descripciones suficientemente largas para justificar un resumen.
+- Si la descripción no cambió, se reutiliza el resumen anterior y no se vuelve a consultar Gemini.
+- Cada resumen guarda `summary_source_hash` para identificar la versión del texto que fue resumida.
+- Si Gemini falla, la actualización de la agenda no se pierde: se conserva el resumen anterior cuando existe y, para eventos nuevos, el resumen queda vacío.
+- El campo `summary` queda disponible para la aplicación móvil y la URL original continúa en `url`.
