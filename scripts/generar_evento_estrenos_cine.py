@@ -2,16 +2,14 @@
 # -*- coding: utf-8 -*-
 
 """
-Genera el evento semanal "Estrenos de la semana" para Agenda Tucumán.
+Genera el evento semanal "Estrenos de la semana".
 
-Funciones:
-- Compara la cartelera actual con la anterior.
-- Detecta únicamente películas nuevas.
+- Detecta películas nuevas comparando carteleras.
 - Genera un único evento semanal.
-- El evento dura desde week_start hasta week_end.
-- Incluye las películas nuevas.
-- Genera un resumen con Gemini utilizando los datos reales de Cinemacenter.
-- Si Gemini falla, el evento igualmente se genera sin resumen.
+- Usa los datos obtenidos por Cinemacenter.
+- Genera un resumen mediante Gemini.
+- Gemini tiene 2 intentos.
+- Si Gemini falla, el evento se genera igualmente.
 """
 
 from __future__ import annotations
@@ -20,6 +18,7 @@ import argparse
 import json
 import os
 import re
+import time
 import unicodedata
 from pathlib import Path
 
@@ -32,7 +31,11 @@ CARTELERA_URL = "https://www.cinemacenter.com.ar/cartelera#contenido"
 MIBOLETERIA_URL = "https://www.miboleteria.com.ar"
 
 DEFAULT_MODEL = "gemini-3.5-flash-lite"
+
 GEMINI_TIMEOUT = 45
+GEMINI_RETRIES = 2
+GEMINI_RETRY_DELAY = 10
+
 MAX_SUMMARY_CHARS = 900
 
 
@@ -45,7 +48,11 @@ def clean(value: object) -> str:
 
 
 def normalize(value: object) -> str:
-    text = unicodedata.normalize("NFD", clean(value))
+    text = unicodedata.normalize(
+        "NFD",
+        clean(value)
+    )
+
     text = "".join(
         c for c in text
         if unicodedata.category(c) != "Mn"
@@ -53,10 +60,23 @@ def normalize(value: object) -> str:
 
     text = text.lower()
 
-    text = re.sub(r"\b(?:2d|3d)\b", " ", text)
-    text = re.sub(r"\b(?:cast|sub)\b", " ", text)
+    text = re.sub(
+        r"\b(?:2d|3d)\b",
+        " ",
+        text
+    )
 
-    return re.sub(r"[^a-z0-9]+", " ", text).strip()
+    text = re.sub(
+        r"\b(?:cast|sub)\b",
+        " ",
+        text
+    )
+
+    return re.sub(
+        r"[^a-z0-9]+",
+        " ",
+        text
+    ).strip()
 
 
 def load_json(path: Path, default):
@@ -64,36 +84,57 @@ def load_json(path: Path, default):
         return default
 
     try:
-        with path.open(encoding="utf-8") as f:
+        with path.open(
+            encoding="utf-8"
+        ) as f:
             return json.load(f)
+
     except Exception as exc:
-        print(f"ADVERTENCIA: no se pudo leer {path}: {exc}")
+        print(
+            f"ADVERTENCIA: no se pudo leer "
+            f"{path}: {exc}"
+        )
+
         return default
 
 
 def current_movies(data: dict) -> list[dict]:
     return list(
-        ((data or {}).get("cartelera") or {}).get("movies") or []
+        (
+            data or {}
+        ).get("cartelera", {})
+        .get("movies", [])
+        or []
     )
 
 
 def movie_key(movie: dict) -> str:
-    return normalize(movie.get("title", ""))
+    return normalize(
+        movie.get("title", "")
+    )
 
 
 def occurrences_dates(movie: dict) -> list[str]:
     return sorted(
         {
             str(o.get("date"))
-            for o in movie.get("occurrences", [])
+            for o in (
+                movie.get("occurrences")
+                or []
+            )
             if o.get("date")
         }
     )
 
 
 def format_date(value: str) -> str:
+
     try:
-        y, m, d = map(int, value.split("-"))
+
+        y, m, d = map(
+            int,
+            value.split("-")
+        )
 
         months = [
             "enero",
@@ -110,7 +151,11 @@ def format_date(value: str) -> str:
             "diciembre",
         ]
 
-        return f"{d} de {months[m - 1]} de {y}"
+        return (
+            f"{d} de "
+            f"{months[m - 1]} de "
+            f"{y}"
+        )
 
     except Exception:
         return value
@@ -121,91 +166,161 @@ def format_date(value: str) -> str:
 # ============================================================
 
 def extract_gemini_text(data: dict) -> str:
-    """
-    Extrae el texto de la respuesta de Gemini.
-    """
 
-    candidates = data.get("candidates") or []
+    candidates = (
+        data.get("candidates")
+        or []
+    )
 
     if not candidates:
         return ""
 
-    content = candidates[0].get("content") or {}
-    parts = content.get("parts") or []
+    content = (
+        candidates[0]
+        .get("content")
+        or {}
+    )
+
+    parts = (
+        content.get("parts")
+        or []
+    )
 
     texts = []
 
     for part in parts:
-        if isinstance(part, dict) and part.get("text"):
-            texts.append(str(part["text"]))
+
+        if (
+            isinstance(part, dict)
+            and part.get("text")
+        ):
+            texts.append(
+                str(part["text"])
+            )
 
     return " ".join(texts).strip()
 
 
 def normalize_summary(text: str) -> str:
+
     text = clean(text)
 
     text = re.sub(
         r"^(resumen\s*:\s*)",
         "",
         text,
-        flags=re.IGNORECASE,
+        flags=re.IGNORECASE
     )
 
-    text = text.strip('"“”')
+    text = text.strip(
+        '"“”'
+    )
 
     if len(text) > MAX_SUMMARY_CHARS:
-        cut = text[:MAX_SUMMARY_CHARS]
 
-        # Intentar terminar en una oración completa.
+        cut = text[
+            :MAX_SUMMARY_CHARS
+        ]
+
         pos = max(
             cut.rfind(". "),
-            cut.rfind("."),
+            cut.rfind(".")
         )
 
         if pos >= 300:
-            text = cut[:pos + 1]
+            text = cut[
+                :pos + 1
+            ]
+
         else:
-            text = cut.rstrip() + "…"
+            text = (
+                cut.rstrip()
+                + "…"
+            )
 
     return text
 
 
-def build_gemini_prompt(new_movies: list[dict], week_start: str, week_end: str) -> str:
+def build_gemini_prompt(
+    new_movies: list[dict],
+    week_start: str,
+    week_end: str,
+) -> str:
 
     movies_text = []
 
     for movie in new_movies:
 
-        metadata = movie.get("metadata") or {}
+        metadata = (
+            movie.get("metadata")
+            or {}
+        )
 
-        title = clean(movie.get("title"))
-        original_title = clean(metadata.get("original_title"))
-        year = clean(metadata.get("year"))
-        duration = metadata.get("duration_minutes")
+        title = clean(
+            movie.get("title")
+        )
+
+        original_title = clean(
+            metadata.get(
+                "original_title"
+            )
+        )
+
+        year = clean(
+            metadata.get("year")
+        )
+
+        duration = metadata.get(
+            "duration_minutes"
+        )
+
         genres = clean(
-            ", ".join(metadata.get("genres") or [])
+            ", ".join(
+                metadata.get(
+                    "genres"
+                )
+                or []
+            )
         )
+
         director = clean(
-            ", ".join(metadata.get("director") or [])
+            ", ".join(
+                metadata.get(
+                    "director"
+                )
+                or []
+            )
         )
+
         cast = clean(
-            ", ".join(metadata.get("cast") or [])
+            ", ".join(
+                metadata.get(
+                    "cast"
+                )
+                or []
+            )
         )
+
         classification = clean(
-            metadata.get("classification")
+            metadata.get(
+                "classification"
+            )
         )
+
         synopsis = clean(
-            metadata.get("synopsis")
+            metadata.get(
+                "synopsis"
+            )
         )
 
         block = [
-            f"Título: {title}",
+            f"Título: {title}"
         ]
 
         if original_title:
             block.append(
-                f"Título original: {original_title}"
+                "Título original: "
+                f"{original_title}"
             )
 
         if year:
@@ -215,7 +330,8 @@ def build_gemini_prompt(new_movies: list[dict], week_start: str, week_end: str) 
 
         if duration:
             block.append(
-                f"Duración: {duration} minutos"
+                f"Duración: "
+                f"{duration} minutos"
             )
 
         if genres:
@@ -235,7 +351,8 @@ def build_gemini_prompt(new_movies: list[dict], week_start: str, week_end: str) 
 
         if classification:
             block.append(
-                f"Clasificación: {classification}"
+                f"Clasificación: "
+                f"{classification}"
             )
 
         if synopsis:
@@ -243,36 +360,52 @@ def build_gemini_prompt(new_movies: list[dict], week_start: str, week_end: str) 
                 f"Sinopsis: {synopsis}"
             )
 
-        movies_text.append("\n".join(block))
+        movies_text.append(
+            "\n".join(block)
+        )
 
-    movies_context = "\n\n---\n\n".join(movies_text)
+    movies_context = (
+        "\n\n---\n\n".join(
+            movies_text
+        )
+    )
 
     return f"""
 Eres el asistente editorial de Agenda Tucumán.
 
-Necesito escribir el resumen del evento "Estrenos de la semana".
+Necesito escribir el resumen del evento
+"Estrenos de la semana".
 
 La semana cinematográfica es:
 
-{format_date(week_start)} al {format_date(week_end)}
+{format_date(week_start)}
+al
+{format_date(week_end)}
 
-Estas son las películas que se incorporan como estrenos esta semana:
+Estas son las películas que se incorporan
+como estrenos esta semana:
 
 {movies_context}
 
-Escribe un único resumen breve en español argentino.
+Escribe un único resumen breve en español
+argentino.
 
 El resumen debe:
-- presentar que son los estrenos cinematográficos de esta semana;
+
+- presentar que son los estrenos
+  cinematográficos de esta semana;
 - mencionar las películas principales;
-- describir brevemente qué tipo de películas son;
-- utilizar únicamente la información proporcionada;
+- describir brevemente qué tipo de películas
+  son;
+- utilizar únicamente la información
+  proporcionada;
 - no inventar datos;
 - no mencionar que eres una IA;
 - no utilizar listas;
 - no utilizar Markdown;
 - no utilizar encabezados;
-- tener aproximadamente entre 3 y 6 oraciones.
+- tener aproximadamente entre 3 y 6
+  oraciones.
 
 Devuelve solamente el texto del resumen.
 """.strip()
@@ -284,18 +417,23 @@ def generate_gemini_summary(
     week_end: str,
 ) -> str:
 
-    api_key = os.getenv("GEMINI_API_KEY", "").strip()
+    api_key = os.getenv(
+        "GEMINI_API_KEY",
+        ""
+    ).strip()
 
     if not api_key:
+
         print(
-            "ADVERTENCIA: GEMINI_API_KEY no está configurada. "
-            "El evento se generará sin resumen."
+            "ADVERTENCIA: "
+            "GEMINI_API_KEY no está configurada."
         )
+
         return ""
 
     model = os.getenv(
         "GEMINI_MODEL",
-        DEFAULT_MODEL,
+        DEFAULT_MODEL
     ).strip()
 
     url = (
@@ -306,7 +444,7 @@ def generate_gemini_summary(
     prompt = build_gemini_prompt(
         new_movies,
         week_start,
-        week_end,
+        week_end
     )
 
     payload = {
@@ -321,60 +459,121 @@ def generate_gemini_summary(
         ],
         "generationConfig": {
             "temperature": 0.3,
-            "maxOutputTokens": 500,
-        },
+            "maxOutputTokens": 500
+        }
     }
 
-    try:
+    # ========================================================
+    # DOS INTENTOS
+    # ========================================================
 
-        response = requests.post(
-            url,
-            params={"key": api_key},
-            json=payload,
-            timeout=GEMINI_TIMEOUT,
-        )
-
-        if response.status_code != 200:
-
-            print(
-                "ADVERTENCIA: Gemini respondió "
-                f"{response.status_code}: "
-                f"{response.text[:500]}"
-            )
-
-            return ""
-
-        data = response.json()
-
-        text = extract_gemini_text(data)
-
-        if not text:
-            print(
-                "ADVERTENCIA: Gemini no devolvió texto."
-            )
-            return ""
-
-        summary = normalize_summary(text)
+    for attempt in range(
+        1,
+        GEMINI_RETRIES + 1
+    ):
 
         print(
-            "✓ Resumen Gemini generado "
-            f"({len(summary)} caracteres)."
+            f"→ Intento {attempt}/"
+            f"{GEMINI_RETRIES} "
+            "para generar resumen con Gemini..."
         )
 
-        return summary
+        try:
 
-    except Exception as exc:
+            response = requests.post(
+                url,
+                params={
+                    "key": api_key
+                },
+                json=payload,
+                timeout=GEMINI_TIMEOUT
+            )
 
-        print(
-            "ADVERTENCIA: error consultando Gemini: "
-            f"{exc}"
-        )
+            if response.status_code == 200:
 
-        return ""
+                data = response.json()
+
+                text = extract_gemini_text(
+                    data
+                )
+
+                if text:
+
+                    summary = normalize_summary(
+                        text
+                    )
+
+                    if summary:
+
+                        print(
+                            "✓ Gemini generó "
+                            "el resumen correctamente."
+                        )
+
+                        return summary
+
+                print(
+                    "ADVERTENCIA: Gemini "
+                    "respondió correctamente "
+                    "pero no devolvió texto."
+                )
+
+            else:
+
+                print(
+                    "ADVERTENCIA: Gemini "
+                    f"respondió HTTP "
+                    f"{response.status_code}."
+                )
+
+                print(
+                    response.text[:500]
+                )
+
+        except Exception as exc:
+
+            print(
+                "ADVERTENCIA: error "
+                f"consultando Gemini: {exc}"
+            )
+
+        # ----------------------------------------------------
+        # Si todavía queda un intento, esperar.
+        # ----------------------------------------------------
+
+        if attempt < GEMINI_RETRIES:
+
+            print(
+                f"→ Esperando "
+                f"{GEMINI_RETRY_DELAY} segundos "
+                "antes del segundo intento..."
+            )
+
+            time.sleep(
+                GEMINI_RETRY_DELAY
+            )
+
+    # ========================================================
+    # FALLAR GEMINI NO DEBE FALLAR EL EVENTO
+    # ========================================================
+
+    print(
+        "⚠ Gemini no pudo generar "
+        "el resumen después de "
+        f"{GEMINI_RETRIES} intentos."
+    )
+
+    print(
+        "⚠ El evento se generará "
+        "igualmente con los datos "
+        "obtenidos por Cinemacenter."
+    )
+
+    return ""
 
 
 # ============================================================
-# CONSTRUCCIÓN DEL EVENTO
+# CONSTRUIR EVENTO
 # ============================================================
 
 def build_event(
@@ -382,11 +581,15 @@ def build_event(
     previous: dict,
 ) -> dict | None:
 
-    current_list = current_movies(current)
+    current_list = current_movies(
+        current
+    )
 
     previous_keys = {
-        movie_key(m)
-        for m in current_movies(previous)
+        movie_key(movie)
+        for movie in current_movies(
+            previous
+        )
     }
 
     new_movies = []
@@ -394,7 +597,9 @@ def build_event(
 
     for movie in current_list:
 
-        key = movie_key(movie)
+        key = movie_key(
+            movie
+        )
 
         if not key:
             continue
@@ -407,47 +612,66 @@ def build_event(
 
         seen.add(key)
 
-        dates = occurrences_dates(movie)
+        dates = occurrences_dates(
+            movie
+        )
 
-        cartelera = current.get("cartelera") or {}
+        cartelera = (
+            current.get(
+                "cartelera"
+            )
+            or {}
+        )
 
         first_date = (
             dates[0]
             if dates
-            else cartelera.get("week_start")
+            else cartelera.get(
+                "week_start"
+            )
         )
 
-        metadata = movie.get("metadata") or {}
+        metadata = (
+            movie.get(
+                "metadata"
+            )
+            or {}
+        )
 
-        item = {
-            "title": clean(
-                movie.get("title")
-            ),
-
-            "release_date": first_date,
-
-            "format": clean(
-                movie.get("format")
-            ),
-
-            "language": clean(
-                movie.get("language")
-            ),
-
-            "poster": metadata.get(
-                "poster"
-            ),
-
-            # Mantener metadata para Gemini.
-            "metadata": metadata,
-        }
-
-        new_movies.append(item)
+        new_movies.append(
+            {
+                "title": clean(
+                    movie.get(
+                        "title"
+                    )
+                ),
+                "release_date": first_date,
+                "format": clean(
+                    movie.get(
+                        "format"
+                    )
+                ),
+                "language": clean(
+                    movie.get(
+                        "language"
+                    )
+                ),
+                "poster": metadata.get(
+                    "poster"
+                ),
+                "metadata": metadata
+            }
+        )
 
     if not new_movies:
         return None
 
-    cartelera = current.get("cartelera") or {}
+    cartelera = (
+        current.get(
+            "cartelera"
+        )
+        or {}
+    )
 
     week_start = cartelera.get(
         "week_start"
@@ -461,21 +685,25 @@ def build_event(
         return None
 
     new_movies.sort(
-        key=lambda x: (
-            x.get("release_date")
+        key=lambda movie: (
+            movie.get(
+                "release_date"
+            )
             or week_start,
-            normalize(x["title"]),
+            normalize(
+                movie["title"]
+            )
         )
     )
 
     # ========================================================
-    # GENERAR RESUMEN IA
+    # GEMINI
     # ========================================================
 
     summary = generate_gemini_summary(
         new_movies,
         week_start,
-        week_end,
+        week_end
     )
 
     # ========================================================
@@ -483,21 +711,32 @@ def build_event(
     # ========================================================
 
     lines = [
-        "<p><strong>Nuevas películas que llegan "
-        "a la cartelera de Cinemacenter Tucumán "
-        "esta semana:</strong></p>",
-        "<ul>",
+        "<p><strong>"
+        "Nuevas películas que llegan "
+        "a la cartelera de Cinemacenter "
+        "Tucumán esta semana:"
+        "</strong></p>",
+
+        "<ul>"
     ]
 
     for movie in new_movies:
 
-        label = movie["title"]
+        label = movie[
+            "title"
+        ]
 
-        if movie.get("release_date"):
+        if movie.get(
+            "release_date"
+        ):
 
             label += (
-                f" — estreno "
-                f"{format_date(movie['release_date'])}"
+                " — estreno "
+                + format_date(
+                    movie[
+                        "release_date"
+                    ]
+                )
             )
 
         lines.append(
@@ -507,24 +746,34 @@ def build_event(
     lines.extend(
         [
             "</ul>",
+
             (
                 f'<p><a href="{CARTELERA_URL}">'
                 "Ver cartelera y horarios"
                 "</a></p>"
-            ),
+            )
         ]
     )
 
-    description = "\n".join(lines)
+    description = "\n".join(
+        lines
+    )
 
-    # Imagen principal: primera película que tenga poster.
+    # ========================================================
+    # POSTER
+    # ========================================================
+
     poster = next(
         (
-            m.get("poster")
-            for m in new_movies
-            if m.get("poster")
+            movie.get(
+                "poster"
+            )
+            for movie in new_movies
+            if movie.get(
+                "poster"
+            )
         ),
-        "",
+        ""
     )
 
     # ========================================================
@@ -532,8 +781,9 @@ def build_event(
     # ========================================================
 
     event = {
+
         "id": (
-            f"cine-estrenos-semana-"
+            "cine-estrenos-semana-"
             f"{week_start}"
         ),
 
@@ -552,7 +802,8 @@ def build_event(
         "time_end": "",
 
         "start_datetime": (
-            f"{week_start}T00:00:00{TZ}"
+            f"{week_start}"
+            f"T00:00:00{TZ}"
         ),
 
         "end_datetime": "",
@@ -569,14 +820,18 @@ def build_event(
 
         "is_free": False,
 
-        "location": "Cinemacenter Tucumán",
+        "location": (
+            "Cinemacenter Tucumán"
+        ),
 
         "address": (
             "Av. Néstor Kirchner "
             "(Ex Roca) 3450"
         ),
 
-        "city": "San Miguel de Tucumán",
+        "city": (
+            "San Miguel de Tucumán"
+        ),
 
         "organizer": "Cinemacenter",
 
@@ -601,30 +856,36 @@ def build_event(
 
         "external_urls": [
             CARTELERA_URL,
-            MIBOLETERIA_URL,
+            MIBOLETERIA_URL
         ],
 
         "occurrences": [
             {
                 "date": week_start,
+
                 "time_start": "",
+
                 "time_end": "",
+
                 "start_datetime": (
                     f"{week_start}"
                     f"T00:00:00{TZ}"
                 ),
-                "end_datetime": "",
+
+                "end_datetime": ""
             }
         ],
 
         "cinemacenter_release_titles": [
-            m["title"]
-            for m in new_movies
+            movie[
+                "title"
+            ]
+            for movie in new_movies
         ],
 
-        "cinemacenter_release_count": len(
-            new_movies
-        ),
+        "cinemacenter_release_count": (
+            len(new_movies)
+        )
     }
 
     return event
@@ -640,17 +901,17 @@ def main() -> int:
 
     parser.add_argument(
         "--agenda",
-        required=True,
+        required=True
     )
 
     parser.add_argument(
         "--cinema-current",
-        required=True,
+        required=True
     )
 
     parser.add_argument(
         "--cinema-previous",
-        required=True,
+        required=True
     )
 
     args = parser.parse_args()
@@ -669,58 +930,71 @@ def main() -> int:
 
     agenda = load_json(
         agenda_path,
-        [],
+        []
     )
 
     current = load_json(
         current_path,
-        {},
+        {}
     )
 
     previous = load_json(
         previous_path,
-        {},
+        {}
     )
 
-    if not isinstance(agenda, list):
+    if not isinstance(
+        agenda,
+        list
+    ):
 
         raise RuntimeError(
             "agenda_eventos.json "
-            "no contiene una lista de eventos"
+            "no contiene una lista "
+            "de eventos."
         )
 
-    # --------------------------------------------------------
-    # Eliminar evento anterior de Estrenos de la semana.
-    # --------------------------------------------------------
+    # ========================================================
+    # ELIMINAR EVENTO ANTERIOR
+    # ========================================================
 
     agenda = [
-        e
-        for e in agenda
+        event
+        for event in agenda
         if not (
-            e.get("source") == "CINEMACENTER"
-            and e.get("title")
-            == "Estrenos de la semana"
+            event.get(
+                "source"
+            ) == "CINEMACENTER"
+
+            and event.get(
+                "title"
+            ) == "Estrenos de la semana"
         )
     ]
 
-    # --------------------------------------------------------
-    # Construir evento.
-    # --------------------------------------------------------
+    # ========================================================
+    # GENERAR NUEVO EVENTO
+    # ========================================================
 
     event = build_event(
         current,
-        previous,
+        previous
     )
 
     if event:
 
-        agenda.append(event)
+        agenda.append(
+            event
+        )
 
         print(
             "✓ Evento generado: "
-            "Estrenos de la semana "
-            f"({event['cinemacenter_release_count']} "
-            "películas)"
+            "Estrenos de la semana"
+        )
+
+        print(
+            "  Películas nuevas: "
+            f"{event['cinemacenter_release_count']}"
         )
 
         for title in event[
@@ -733,11 +1007,13 @@ def main() -> int:
 
         print(
             "  Vigencia: "
-            f"{event['date_start']} -> "
+            f"{event['date_start']} → "
             f"{event['date_end']}"
         )
 
-        if event.get("summary"):
+        if event.get(
+            "summary"
+        ):
 
             print(
                 "  ✓ Resumen IA: generado"
@@ -746,29 +1022,31 @@ def main() -> int:
         else:
 
             print(
-                "  ⚠ Resumen IA: no disponible"
+                "  ⚠ Resumen IA: "
+                "no disponible; "
+                "evento publicado "
+                "sin resumen."
             )
 
     else:
 
         print(
             "✓ No hay estrenos nuevos "
-            "esta semana; no se genera "
-            "el evento."
+            "esta semana."
         )
 
-    # --------------------------------------------------------
-    # Guardar agenda.
-    # --------------------------------------------------------
+    # ========================================================
+    # GUARDAR
+    # ========================================================
 
     agenda_path.write_text(
         json.dumps(
             agenda,
             ensure_ascii=False,
-            indent=2,
+            indent=2
         )
         + "\n",
-        encoding="utf-8",
+        encoding="utf-8"
     )
 
     return 0
