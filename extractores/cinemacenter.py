@@ -92,11 +92,43 @@ def clean_text(value: object) -> str:
 
 
 def normalize(value: object) -> str:
-    text = unicodedata.normalize("NFD", clean_text(value))
+    """Normaliza títulos para comparar fichas sin depender de acentos, ñ, símbolos o formato."""
+    text = clean_text(value)
+
+    # Corrige casos de mojibake frecuentes (UTF-8 interpretado como Latin-1/CP1252).
+    # Se aplica solo si el resultado mejora claramente la presencia de caracteres
+    # latinos mal decodificados.
+    mojibake_markers = ("Ã", "Â", "â", "ð", "�")
+    if any(marker in text for marker in mojibake_markers):
+        try:
+            repaired = text.encode("latin1").decode("utf-8")
+            # Si la secuencia es un caso real de mojibake, la versión reparada
+            # será válida en UTF-8 y eliminará las marcas Ã/Â/â/ð.
+            if repaired != text and not any(
+                marker in repaired for marker in ("Ã", "Â", "â", "ð")
+            ):
+                text = repaired
+        except (UnicodeEncodeError, UnicodeDecodeError):
+            pass
+
+    # Normaliza diacríticos: CORAZÓN -> CORAZON, NIÑO -> NINO.
+    text = unicodedata.normalize("NFD", text)
     text = "".join(ch for ch in text if unicodedata.category(ch) != "Mn")
+
     text = text.lower()
+
+    # Los dos puntos, guiones, apóstrofes, paréntesis, etc. se consideran
+    # separadores, no diferencias entre la película y la ficha.
     text = re.sub(r"[^a-z0-9]+", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def titles_match(expected: object, actual: object) -> bool:
+    """Compara títulos después de reparar mojibake, acentos, símbolos y
+    sufijos técnicos 2D/3D CAST/SUB."""
+    a = normalize_movie_title(expected)
+    b = normalize_movie_title(actual)
+    return bool(a and b and (a == b or a in b or b in a))
 
 
 def normalize_movie_title(value: object) -> str:
@@ -110,6 +142,7 @@ def normalize_movie_title(value: object) -> str:
 def slugify(value: str) -> str:
     value = normalize(value).replace(" ", "-")
     return value.strip("-")
+
 
 
 def parse_date(value: str) -> date | None:
@@ -394,6 +427,23 @@ def fetch_slider(session: requests.Session, movie_id: int) -> tuple[str, str | N
     return response.text, (urljoin(BASE_URL, link.get("href")) if link and link.get("href") else None)
 
 
+def is_real_youtube_url(url: str) -> bool:
+    """Devuelve True solo para URLs reales de videos de YouTube."""
+    if not url:
+        return False
+    low = url.lower().split("#", 1)[0].rstrip("/")
+    if low in {
+        "https://www.youtube.com/webcinemacenter",
+        "http://www.youtube.com/webcinemacenter",
+    }:
+        return False
+    return (
+        "youtube.com/watch?" in low
+        or "youtube.com/embed/" in low
+        or "youtu.be/" in low
+    )
+
+
 def parse_details_from_ficha(html_text: str, ficha_url: str, expected_title: str) -> dict:
     soup = BeautifulSoup(html_text, "html.parser")
     title_node = soup.select_one(".moviedetails .the-title")
@@ -441,20 +491,62 @@ def parse_details_from_ficha(html_text: str, ficha_url: str, expected_title: str
 
     # Cinemacenter puede publicar el tráiler como enlace, YouTube o iframe.
     # Solo aceptamos URLs que estén realmente presentes en la ficha oficial.
+    # Trailer: Cinemacenter puede cargar YouTube dinámicamente.
+    # En esos casos la ficha puede no exponer el iframe directamente, pero
+    # el thumbnail generado por YouTube contiene el ID en i.ytimg.com/vi/ID/.
     trailer_candidates = []
+    trailer_sources = []
+
     for a in soup.find_all("a", href=True):
         label = normalize(a.get_text(" ", strip=True))
         href = a.get("href") or ""
         href_low = href.lower()
         if href and ("trailer" in label or "youtube.com" in href_low or "youtu.be/" in href_low):
             trailer_candidates.append(urljoin(ficha_url, href))
+            trailer_sources.append((urljoin(ficha_url, href), "link"))
+
     for iframe in soup.find_all("iframe", src=True):
         src = iframe.get("src") or ""
         src_low = src.lower()
         if "youtube.com" in src_low or "youtu.be/" in src_low or "vimeo.com" in src_low:
-            trailer_candidates.append(urljoin(ficha_url, src))
+            value = urljoin(ficha_url, src)
+            trailer_candidates.append(value)
+            trailer_sources.append((value, "iframe"))
+
+    # YouTube móvil/web puede dejar únicamente la miniatura:
+    # https://i.ytimg.com/vi/s_qpMMkvHYE/sddefault.jpg
+    YT_THUMB_RE = re.compile(
+        r"https?://i\.ytimg\.com/vi/([A-Za-z0-9_-]{11})/[^\"' )]+",
+        re.IGNORECASE,
+    )
+    html_text = str(soup)
+    for match in YT_THUMB_RE.finditer(html_text):
+        video_id = match.group(1)
+        value = f"https://www.youtube.com/watch?v={video_id}"
+        if value not in trailer_candidates:
+            trailer_candidates.append(value)
+            trailer_sources.append((value, "ytimg_thumbnail"))
+
+    # Preferimos iframe/link reales. Si Cinemacenter solo dejó la miniatura,
+    # usamos el ID de YouTube que aparece en ella.
     if trailer_candidates:
-        metadata["trailer"] = next((x for x in trailer_candidates if "youtube" in x.lower() or "youtu.be" in x.lower()), trailer_candidates[0])
+        preferred = next(
+            ((url, source) for url, source in trailer_sources if source == "iframe"),
+            None,
+        )
+        if preferred is None:
+            preferred = next(
+                ((url, source) for url, source in trailer_sources if source == "link" and ("youtube.com" in url.lower() or "youtu.be/" in url.lower())),
+                None,
+            )
+        if preferred is None:
+            preferred = next(
+                ((url, source) for url, source in trailer_sources if source == "ytimg_thumbnail"),
+                None,
+            )
+        if preferred:
+            metadata["trailer"] = preferred[0]
+            metadata["trailer_source"] = preferred[1]
 
     source_expected = [
         "duration_minutes", "genres", "director", "cast", "synopsis",
@@ -479,6 +571,11 @@ def parse_details_from_ficha(html_text: str, ficha_url: str, expected_title: str
             raise RuntimeError(
                 f"Ficha incorrecta para '{expected_title}': Cinemacenter devolvió '{title}'"
             )
+
+    # Nunca devolver el enlace genérico de Cinemacenter como trailer.
+    if metadata.get("trailer") and not is_real_youtube_url(metadata["trailer"]):
+        metadata["trailer"] = None
+        metadata["trailer_source"] = None
 
     return metadata
 
