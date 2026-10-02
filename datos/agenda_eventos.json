@@ -582,8 +582,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Fábrica Beet 📌 Dirección: San Miguel 531, San Miguel de Tucumán 🍺",
-    "address": "San Miguel 531",
+    "location": "Fábrica Beet",
+    "address": "San Miguel 531, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -593,7 +593,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=F%C3%A1brica+Beet+%F0%9F%93%8C+Direcci%C3%B3n%3A+San+Miguel+531%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8D%BA",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=F%C3%A1brica+Beet%2C+San+Miguel+531%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -624,10 +624,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -636,7 +636,7 @@
       "card_time": "10:00",
       "date": "title_days",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -645,79 +645,6 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "8be38fa5e9148d8d403fd321a60342ceba44ef0a216a0964c0e7b8c10f1116bf"
-  },
-  {
-    "id": "46546",
-    "source": "MEC",
-    "title": "2 de Octubre | La Ruta de la Empanada Tucumana invita a recorrer sabores y cultura en pleno centro",
-    "url": "https://agendatucuman.com.ar/eventos/2-de-octubre-la-ruta-de-la-empanada-tucumana-invita-a-recorrer-sabores-y-cultura-en-pleno-centro/",
-    "date_start": "2026-10-02",
-    "date_end": "2026-10-02",
-    "time_start": "12:00",
-    "time_end": "",
-    "start_datetime": "2026-10-02T12:00:00-03:00",
-    "end_datetime": "",
-    "description": "La empanada será protagonista de una experiencia que combina gastronomía, turismo y cultura este jueves 2 de octubre en San Miguel de Tucumán. “La Ruta de la Empanada Tucumana” volverá a recorrer el centro de la ciudad con una propuesta gratuita organizada por la Municipalidad, en la que los participantes podrán visitar reconocidos espacios gastronómicos, degustar empanadas y disfrutar de distintas expresiones artísticas. La salida está prevista para las 12 desde Laprida primera cuadra, frente a Plaza Independencia. Un recorrido con sabor bien tucumano La propuesta consiste en un circuito turístico a pie por tres restaurantes tradicionales de San Miguel de Tucumán: El Portal, La Peña del Cardón y la Casa de Yamil. En cada una de las paradas, los participantes podrán degustar empanadas tucumanas y disfrutar de propuestas artísticas, en una experiencia que busca poner en valor uno de los platos más representativos de la identidad gastronómica de la provincia. El recorrido combina así sabores, música y cultura local en pleno centro de la ciudad. Una propuesta gratuita para disfrutar de la ciudad La participación es gratuita, aunque requiere inscripción previa mediante el formulario digital dispuesto para las actividades turísticas de la Municipalidad. Para quienes buscan qué hacer en Tucumán, la Ruta de la Empanada ofrece una alternativa diferente para recorrer la ciudad y, al mismo tiempo, acercarse a una de sus tradiciones culinarias más reconocidas. Además, el clima no será un impedimento para realizar la actividad. La organización informó que el paseo no se suspenderá por lluvia: en caso de precipitaciones, el circuito se desarrollará a bordo del Bus Turístico. Una invitación para disfrutar del mediodía tucumano entre empanadas, música, historia y cultura. Datos destacados 📅 Fecha: jueves 2 de octubre de 2026 🕛 Horario de salida: 12:00 📍 Punto de encuentro: Laprida primera cuadra, frente a Plaza Independencia 🥟 Propuesta: Ruta de la Empanada Tucumana 🍴 Paradas: El Portal, La Peña del Cardón y Casa de Yamil 🎶 Incluye degustaciones y propuestas artísticas 🎟️ Actividad gratuita con inscripción previa 🌧️ No se suspende por lluvia",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/empanada.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "la Municipalidad, en la que los participantes podrán visitar reconocidos espacios gastronómicos, degustar empanadas y disfrutar de distintas expresiones artísticas",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-02",
-        "time_start": "12:00",
-        "time_end": "",
-        "start_datetime": "2026-10-02T12:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.78
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-02",
-      "card_time": "12:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "La Ruta de la Empanada Tucumana ofrece un circuito a pie por tres restaurantes del centro para degustar este plato tradicional junto con espectáculos artísticos. La cita es el jueves 2 de octubre de 2026 a las 12:00, con salida desde Laprida primera cuadra, frente a Plaza Independencia. La actividad es gratuita, requiere inscripción previa y no se suspende por lluvia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "91156f8b90043ecc2e9c6d29a917c2ad5961e6aed0a0d64eb7642709abf33ddd"
   },
   {
     "id": "46532",
@@ -808,8 +735,8 @@
     "price": null,
     "currency": "",
     "is_free": true,
-    "location": "Plaza del Barrio San Martín 📌 Dirección: Horacio Poviña y Alsina 💃",
-    "address": "",
+    "location": "Plaza del Barrio San Martín",
+    "address": "Horacio Poviña y Alsina",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -819,7 +746,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Plaza+del+Barrio+San+Mart%C3%ADn+%F0%9F%93%8C+Direcci%C3%B3n%3A+Horacio+Povi%C3%B1a+y+Alsina+%F0%9F%92%83%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Plaza+del+Barrio+San+Mart%C3%ADn%2C+Horacio+Povi%C3%B1a+y+Alsina%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -843,10 +770,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -855,7 +782,7 @@
       "card_time": "18:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -881,8 +808,8 @@
     "price": 60000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "Palacio de los Deportes 📌 Ubicación: Parque 9 de Julio, San Miguel de Tucumán 🎤 Artista: Dillom 💿 Presentación: “La nueva violencia”",
-    "address": "Buenos Aires 39",
+    "location": "Palacio de los Deportes",
+    "address": "Parque 9 de Julio, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -892,7 +819,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Palacio+de+los+Deportes+%F0%9F%93%8C+Ubicaci%C3%B3n%3A+Parque+9+de+Julio%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A4+Artista%3A+Dillom+%F0%9F%92%BF+Presentaci%C3%B3n%3A+%E2%80%9CLa+nueva+violencia%E2%80%9D%2C+Buenos+Aires+39",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Palacio+de+los+Deportes%2C+Parque+9+de+Julio%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -916,10 +843,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -928,7 +855,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -954,8 +881,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "NOA dentro de esta etapa de celebración",
-    "address": "",
+    "location": "Teatro Puerto Libertad",
+    "address": "Las Piedras 1850, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -965,7 +892,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=NOA+dentro+de+esta+etapa+de+celebraci%C3%B3n%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Puerto+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -989,10 +916,10 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.91
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1001,7 +928,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1027,8 +954,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "boletería del Teatro Alberdi",
-    "address": "Emanuel Lobo 🎟️ Entradas: Mi Entrada Digital y boletería del teatro 🕙 Boletería: jueves y viernes de 10 a 13 y de 18 a 21",
+    "location": "Teatro Alberdi – Sala Tríbulo",
+    "address": "Jujuy y Crisóstomo Álvarez, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -1038,7 +965,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=boleter%C3%ADa+del+Teatro+Alberdi%2C+Emanuel+Lobo+%F0%9F%8E%9F%EF%B8%8F+Entradas%3A+Mi+Entrada+Digital+y+boleter%C3%ADa+del+teatro+%F0%9F%95%99+Boleter%C3%ADa%3A+jueves+y+viernes+de+10+a+13+y+de+18+a+21%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Tr%C3%ADbulo%2C+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1062,10 +989,10 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.91
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1074,7 +1001,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1100,8 +1027,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "La Gesta Cultural 📌 Dirección: Av. Alem 747",
-    "address": "Alem 747",
+    "location": "La Gesta Cultural",
+    "address": "Av. Alem 747",
     "city": "",
     "organizer": "",
     "contact_email": [],
@@ -1111,7 +1038,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Alem+747%2C+Tucum%C3%A1n%2C+Argentina",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural%2C+Av.+Alem+747%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1135,10 +1062,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1147,7 +1074,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1173,8 +1100,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Teatro Alberdi – Sala Mayor 📌 Ubicación: Jujuy y Crisóstomo Álvarez, San Miguel de Tucumán",
-    "address": "Maestro Roberto Buffo 🎟️ Entradas: Mi Entrada Digital y boletería del teatro 🕙 Boletería: jueves y viernes de 10 a 13 y de 18 a 21",
+    "location": "Teatro Alberdi – Sala Mayor",
+    "address": "Jujuy y Crisóstomo Álvarez, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -1184,7 +1111,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Mayor+%F0%9F%93%8C+Ubicaci%C3%B3n%3A+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+San+Miguel+de+Tucum%C3%A1n%2C+Maestro+Roberto+Buffo+%F0%9F%8E%9F%EF%B8%8F+Entradas%3A+Mi+Entrada+Digital+y+boleter%C3%ADa+del+teatro+%F0%9F%95%99+Boleter%C3%ADa%3A+jueves+y+viernes+de+10+a+13+y+de+18+a+21",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Mayor%2C+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1208,10 +1135,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1220,7 +1147,7 @@
       "card_time": "21:30",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1281,10 +1208,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1293,7 +1220,7 @@
       "card_time": "21:30",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1319,8 +1246,8 @@
     "price": 20000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "que la música dialogue con la poesía y con las historias que cada canción tiene para contar",
-    "address": "Lamadrid 1457, San Miguel de Tucumán 🎤 Voz: Mariana Rodríguez 🎸 Guitarra: José Pinto 🥁 Percusión: Negro Burgo 🌟 Artista invitada: Rossana Medina 🎶 Espectáculo: “Canciones con Sol y Luna” 🎟️ Entrada general: $20",
+    "location": "CiTá, Abasto de Cultura",
+    "address": "Lamadrid 1457, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -1330,7 +1257,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=que+la+m%C3%BAsica+dialogue+con+la+poes%C3%ADa+y+con+las+historias+que+cada+canci%C3%B3n+tiene+para+contar%2C+Lamadrid+1457%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A4+Voz%3A+Mariana+Rodr%C3%ADguez+%F0%9F%8E%B8+Guitarra%3A+Jos%C3%A9+Pinto+%F0%9F%A5%81+Percusi%C3%B3n%3A+Negro+Burgo+%F0%9F%8C%9F+Artista+invitada%3A+Rossana+Medina+%F0%9F%8E%B6+Espect%C3%A1culo%3A+%E2%80%9CCanciones+con+Sol+y+Luna%E2%80%9D+%F0%9F%8E%9F%EF%B8%8F+Entrada+general%3A+%2420",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=CiT%C3%A1%2C+Abasto+de+Cultura%2C+Lamadrid+1457%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1354,10 +1281,10 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.91
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1366,7 +1293,7 @@
       "card_time": "21:30",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1392,8 +1319,8 @@
     "price": 3000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "La Escondida 📌 Dirección: Miguel Lillo 234, San Miguel de Tucumán 🎉 Motivo: 4° aniversario 🎤 Habrá artistas en vivo 💃 Academias de baile 🎸 Show y guitarreada",
-    "address": "Miguel Lillo 234, San Miguel de Tucumán 🎉 Motivo: 4° aniversario 🎤 Habrá artistas en vivo 💃 Academias de baile 🎸 Show y guitarreada 🔥 Fogón 🥟 Comidas regionales 🍷 Promociones en bebidas 🎟️ Entrada: $3",
+    "location": "La Escondida",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -1403,7 +1330,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Escondida+%F0%9F%93%8C+Direcci%C3%B3n%3A+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%89+Motivo%3A+4%C2%B0+aniversario+%F0%9F%8E%A4+Habr%C3%A1+artistas+en+vivo+%F0%9F%92%83+Academias+de+baile+%F0%9F%8E%B8+Show+y+guitarreada%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%89+Motivo%3A+4%C2%B0+aniversario+%F0%9F%8E%A4+Habr%C3%A1+artistas+en+vivo+%F0%9F%92%83+Academias+de+baile+%F0%9F%8E%B8+Show+y+guitarreada+%F0%9F%94%A5+Fog%C3%B3n+%F0%9F%A5%9F+Comidas+regionales+%F0%9F%8D%B7+Promociones+en+bebidas+%F0%9F%8E%9F%EF%B8%8F+Entrada%3A+%243",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1427,10 +1354,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1439,7 +1366,7 @@
       "card_time": "22:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1465,8 +1392,8 @@
     "price": 5000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "La Gesta Cultural 📌 Dirección: Av. Alem 747 🎸 Espectáculo: tributo a Sumo 🎤 Banda: Don Luca ⏱️ Duración aproximada: 2 horas",
-    "address": "Alem 747",
+    "location": "La Gesta Cultural",
+    "address": "Av. Alem 747",
     "city": "",
     "organizer": "",
     "contact_email": [],
@@ -1476,7 +1403,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Alem+747+%F0%9F%8E%B8+Espect%C3%A1culo%3A+tributo+a+Sumo+%F0%9F%8E%A4+Banda%3A+Don+Luca+%E2%8F%B1%EF%B8%8F+Duraci%C3%B3n+aproximada%3A+2+horas%2C+Tucum%C3%A1n%2C+Argentina",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural%2C+Av.+Alem+747%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1500,10 +1427,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1512,7 +1439,7 @@
       "card_time": "23:55",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1573,10 +1500,10 @@
         "has_end": true
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1585,7 +1512,7 @@
       "card_time": "08:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1611,7 +1538,7 @@
     "price": null,
     "currency": "",
     "is_free": true,
-    "location": "Complejo Democracia 📌 Ubicación: Tafí del Valle",
+    "location": "Complejo Democracia",
     "address": "",
     "city": "Tafí del Valle",
     "organizer": "",
@@ -1622,7 +1549,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Complejo+Democracia+%F0%9F%93%8C+Ubicaci%C3%B3n%3A+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n%2C+Argentina",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Complejo+Democracia%2C+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1646,10 +1573,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1658,7 +1585,7 @@
       "card_time": "08:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1684,8 +1611,8 @@
     "price": null,
     "currency": "",
     "is_free": true,
-    "location": "Casa de la Cultura 📌 Dirección: Higueritas 1850, Yerba Buena 🇯🇵",
-    "address": "Higueritas 1850",
+    "location": "Casa de la Cultura",
+    "address": "Higueritas 1850, Yerba Buena",
     "city": "Yerba Buena",
     "organizer": "",
     "contact_email": [],
@@ -1695,7 +1622,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+%F0%9F%93%8C+Direcci%C3%B3n%3A+Higueritas+1850%2C+Yerba+Buena+%F0%9F%87%AF%F0%9F%87%B5%2C+Tucum%C3%A1n%2C+Argentina",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura%2C+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1719,10 +1646,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1731,7 +1658,7 @@
       "card_time": "12:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1830,8 +1757,8 @@
     "price": 10000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "Hipódromo de Tucumán 📌 Dirección: Irineo Leguisamo 800 🎤 Artistas principales: Karina y Rodrigo Tapari",
-    "address": "Irineo Leguisamo 800 🎤 Artistas principales: Karina y Rodrigo Tapari 🎶 También participan: Rock & Lobos, Tawa, La Wai Fai, Adriana Tula, Solana Ávila, Los Olmos y Ballet El Arriero 🎧 Habrá DJ locales 🍔 Food trucks y propuestas gastronómicas 🎟️ Entrada general: $10",
+    "location": "Hipódromo de Tucumán",
+    "address": "Irineo Leguisamo 800",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -1841,7 +1768,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Hip%C3%B3dromo+de+Tucum%C3%A1n+%F0%9F%93%8C+Direcci%C3%B3n%3A+Irineo+Leguisamo+800+%F0%9F%8E%A4+Artistas+principales%3A+Karina+y+Rodrigo+Tapari%2C+Irineo+Leguisamo+800+%F0%9F%8E%A4+Artistas+principales%3A+Karina+y+Rodrigo+Tapari+%F0%9F%8E%B6+Tambi%C3%A9n+participan%3A+Rock+%26+Lobos%2C+Tawa%2C+La+Wai+Fai%2C+Adriana+Tula%2C+Solana+%C3%81vila%2C+Los+Olmos+y+Ballet+El+Arriero+%F0%9F%8E%A7+Habr%C3%A1+DJ+locales+%F0%9F%8D%94+Food+trucks+y+propuestas+gastron%C3%B3micas+%F0%9F%8E%9F%EF%B8%8F+Entrada+general%3A+%2410%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Hip%C3%B3dromo+de+Tucum%C3%A1n%2C+Irineo+Leguisamo+800%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1865,10 +1792,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1877,7 +1804,7 @@
       "card_time": "16:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -1903,7 +1830,7 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Avenida Alem, Tafí Viejo 🛍️",
+    "location": "Avenida Alem, Tafí Viejo",
     "address": "Alem volverá a convertirse este sábado 3",
     "city": "Tafí Viejo",
     "organizer": "",
@@ -1914,7 +1841,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Avenida+Alem%2C+Taf%C3%AD+Viejo+%F0%9F%9B%8D%EF%B8%8F%2C+Alem+volver%C3%A1+a+convertirse+este+s%C3%A1bado+3%2C+Tucum%C3%A1n%2C+Argentina",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Avenida+Alem%2C+Taf%C3%AD+Viejo%2C+Alem+volver%C3%A1+a+convertirse+este+s%C3%A1bado+3%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1938,10 +1865,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -1950,7 +1877,7 @@
       "card_time": "17:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2122,7 +2049,7 @@
     "price": 33000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "Centro Cultural Virla 🎭 Espectáculo: “Oveja Negra” 😂 Género: unipersonal de humor 🎤 Artista: Juampi González",
+    "location": "Centro Cultural Virla",
     "address": "",
     "city": "San Miguel de Tucumán",
     "organizer": "",
@@ -2133,7 +2060,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla+%F0%9F%8E%AD+Espect%C3%A1culo%3A+%E2%80%9COveja+Negra%E2%80%9D+%F0%9F%98%82+G%C3%A9nero%3A+unipersonal+de+humor+%F0%9F%8E%A4+Artista%3A+Juampi+Gonz%C3%A1lez%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2157,10 +2084,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2169,7 +2096,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2230,10 +2157,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2242,7 +2169,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2268,8 +2195,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Teatro Municipal Rosita Ávila 📌 Dirección: Las Piedras 1550, San Miguel de Tucumán 🎤 Artista: Martín Rivas",
-    "address": "",
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1550, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -2279,7 +2206,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila+%F0%9F%93%8C+Direcci%C3%B3n%3A+Las+Piedras+1550%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A4+Artista%3A+Mart%C3%ADn+Rivas",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1550%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2303,10 +2230,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2315,7 +2242,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2341,8 +2268,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Teatro Alberdi – Sala Mayor 📌 Ubicación: Jujuy y Crisóstomo Álvarez, San Miguel de Tucumán",
-    "address": "",
+    "location": "Teatro Alberdi – Sala Mayor",
+    "address": "Jujuy y Crisóstomo Álvarez, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -2352,7 +2279,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Mayor+%F0%9F%93%8C+Ubicaci%C3%B3n%3A+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Mayor%2C+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2376,10 +2303,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2388,7 +2315,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2414,7 +2341,7 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Teatro Mercedes Sosa, en pleno centro de San Miguel de Tucumán",
+    "location": "Teatro Mercedes Sosa",
     "address": "",
     "city": "San Miguel de Tucumán",
     "organizer": "",
@@ -2425,7 +2352,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+en+pleno+centro+de+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2449,10 +2376,10 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.91
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2461,7 +2388,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2487,7 +2414,7 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Teatro Alberdi – Sala Tríbulo 🎭 Obra: “Mi Padre” 💬 Subtítulo: “Cuando el amor todo lo puede”",
+    "location": "Teatro Alberdi – Sala Tríbulo",
     "address": "",
     "city": "San Miguel de Tucumán",
     "organizer": "",
@@ -2498,7 +2425,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Tr%C3%ADbulo+%F0%9F%8E%AD+Obra%3A+%E2%80%9CMi+Padre%E2%80%9D+%F0%9F%92%AC+Subt%C3%ADtulo%3A+%E2%80%9CCuando+el+amor+todo+lo+puede%E2%80%9D%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi+%E2%80%93+Sala+Tr%C3%ADbulo%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2522,10 +2449,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2534,7 +2461,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2560,8 +2487,8 @@
     "price": 25000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "mundo mientras carga con una fuerte herencia deportiva familiar",
-    "address": "Mendoza 2955, San Miguel de Tucumán 🎭 Obra: “Nada” 🎤 Actuación y dramaturgia: Rami Grignola 🎬 Dirección: Colectiva 🏊 Historia: un nadador tucumano en busca de su propia identidad 🎟️ Entrada general en puerta: $25",
+    "location": "La Colorida",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -2573,7 +2500,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=mundo+mientras+carga+con+una+fuerte+herencia+deportiva+familiar%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%AD+Obra%3A+%E2%80%9CNada%E2%80%9D+%F0%9F%8E%A4+Actuaci%C3%B3n+y+dramaturgia%3A+Rami+Grignola+%F0%9F%8E%AC+Direcci%C3%B3n%3A+Colectiva+%F0%9F%8F%8A+Historia%3A+un+nadador+tucumano+en+busca+de+su+propia+identidad+%F0%9F%8E%9F%EF%B8%8F+Entrada+general+en+puerta%3A+%2425",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2597,10 +2524,10 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.91
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2609,7 +2536,7 @@
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2635,8 +2562,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Club Sportivo Floresta 📌 Dirección: Av. Colón 471, San Miguel de Tucumán",
-    "address": "Buenos Aires 39",
+    "location": "Club Sportivo Floresta",
+    "address": "Av. Colón 471, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -2646,7 +2573,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Club+Sportivo+Floresta+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Col%C3%B3n+471%2C+San+Miguel+de+Tucum%C3%A1n%2C+Buenos+Aires+39",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Club+Sportivo+Floresta%2C+Av.+Col%C3%B3n+471%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2670,10 +2597,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2682,7 +2609,7 @@
       "card_time": "22:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -2788,8 +2715,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "La Boite Club 📌 Dirección: San Martín 1161, San Miguel de Tucumán 🎧 Artista: Nicolás Taboada",
-    "address": "San Martín 1161, San Miguel de Tucumán 🎧 Artista: Nicolás Taboada 🎶 Género: música electrónica 🌙 Modalidad: noche indoor 🎟️ Entradas: disponibles online",
+    "location": "La Boite Club",
+    "address": "San Martín 1161, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -2799,7 +2726,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Boite+Club+%F0%9F%93%8C+Direcci%C3%B3n%3A+San+Mart%C3%ADn+1161%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A7+Artista%3A+Nicol%C3%A1s+Taboada%2C+San+Mart%C3%ADn+1161%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%A7+Artista%3A+Nicol%C3%A1s+Taboada+%F0%9F%8E%B6+G%C3%A9nero%3A+m%C3%BAsica+electr%C3%B3nica+%F0%9F%8C%99+Modalidad%3A+noche+indoor+%F0%9F%8E%9F%EF%B8%8F+Entradas%3A+disponibles+online",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Boite+Club%2C+San+Mart%C3%ADn+1161%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -2823,10 +2750,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -2835,7 +2762,7 @@
       "card_time": "23:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -3230,7 +3157,7 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "Teatro Mercedes Sosa 🎤 Artista: Axel",
+    "location": "Teatro Mercedes Sosa",
     "address": "",
     "city": "San Miguel de Tucumán",
     "organizer": "",
@@ -3241,7 +3168,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa+%F0%9F%8E%A4+Artista%3A+Axel%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -3265,10 +3192,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -3277,7 +3204,7 @@
       "card_time": "20:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -3303,8 +3230,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "El Atelier 📌 Dirección: Av. Mate de Luna 2930, San Miguel de Tucumán 🎭 Obra: “El Llamado” 😂 Género: comedia",
-    "address": "avenida Mate de Luna 2930",
+    "location": "El Atelier",
+    "address": "Av. Mate de Luna 2930, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -3314,7 +3241,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=El+Atelier+%F0%9F%93%8C+Direcci%C3%B3n%3A+Av.+Mate+de+Luna+2930%2C+San+Miguel+de+Tucum%C3%A1n+%F0%9F%8E%AD+Obra%3A+%E2%80%9CEl+Llamado%E2%80%9D+%F0%9F%98%82+G%C3%A9nero%3A+comedia%2C+avenida+Mate+de+Luna+2930",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=El+Atelier%2C+Av.+Mate+de+Luna+2930%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -3338,10 +3265,10 @@
         "has_end": false
       },
       "location": {
-        "source": "label",
-        "score": 0.95
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.97
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -3350,7 +3277,7 @@
       "card_time": "20:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "label",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -3376,7 +3303,7 @@
     "price": 20000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "texto de Defilippis Novoa",
+    "location": "Centro Cultural Virla",
     "address": "Jorge de Lassaletta ✍️ Versión: Fabián Bonilla 📸 Fotografía y técnica: Lucas Cuellar 🎟️ Entradas generales: $20",
     "city": "",
     "organizer": "",
@@ -3387,7 +3314,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=texto+de+Defilippis+Novoa%2C+Jorge+de+Lassaletta+%E2%9C%8D%EF%B8%8F+Versi%C3%B3n%3A+Fabi%C3%A1n+Bonilla+%F0%9F%93%B8+Fotograf%C3%ADa+y+t%C3%A9cnica%3A+Lucas+Cuellar+%F0%9F%8E%9F%EF%B8%8F+Entradas+generales%3A+%2420%2C+Tucum%C3%A1n%2C+Argentina",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+Jorge+de+Lassaletta+%E2%9C%8D%EF%B8%8F+Versi%C3%B3n%3A+Fabi%C3%A1n+Bonilla+%F0%9F%93%B8+Fotograf%C3%ADa+y+t%C3%A9cnica%3A+Lucas+Cuellar+%F0%9F%8E%9F%EF%B8%8F+Entradas+generales%3A+%2420%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -3411,10 +3338,10 @@
         "has_end": false
       },
       "location": {
-        "source": "narrative",
-        "score": 0.65
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.91
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -3423,7 +3350,7 @@
       "card_time": "20:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "narrative",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
@@ -3449,8 +3376,8 @@
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "",
-    "address": "",
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1550, San Miguel de Tucumán",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
@@ -3460,7 +3387,7 @@
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1550%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -3484,10 +3411,10 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "highlighted_lugar",
+        "score": 0.99
       },
-      "overall": 0.78
+      "overall": 0.98
     },
     "_sources": {
       "page_status": 200,
@@ -3496,7 +3423,7 @@
       "card_time": "20:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "",
+      "location": "highlighted_lugar",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
