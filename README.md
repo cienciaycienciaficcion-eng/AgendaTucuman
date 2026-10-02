@@ -11,9 +11,9 @@ La cartelera y la metadata de películas se obtienen en **una única ejecución*
 El extractor `extractores/cinemacenter.py`:
 
 1. descarga la cartelera oficial semanal de Tucumán;
-2. obtiene los `movieId` internos desde `seleccionarMovie(...)`;
-3. consulta `ajax_movieSlider.php` con ese `movieId`;
-4. sigue el enlace `/ficha/{movieId}-...` entregado por Cinemacenter;
+2. obtiene los `movieId` internos desde los enlaces oficiales `/ficha/{movieId}-...` publicados por Cinemacenter; si la estructura antigua está disponible, también acepta `seleccionarMovie(...)`;
+3. abre directamente la ficha oficial `/ficha/{movieId}-...`; como compatibilidad con la estructura antigua, puede obtener la ficha mediante `ajax_movieSlider.php`;
+4. verifica que la ficha corresponda exactamente a la película solicitada;
 5. extrae la metadata de esa ficha;
 6. usa como `release_date` la primera fecha de aparición de la película en la cartelera semanal de Tucumán;
 7. extrae el tráiler solamente si Cinemacenter lo publica en la ficha;

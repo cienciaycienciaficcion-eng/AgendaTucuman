@@ -245,40 +245,104 @@ def build_schedule(rows: list[list[str]], week_start: date | None) -> tuple[dict
 
 
 def select_tucuman_and_get_cartelera(session: requests.Session) -> str:
-    """Selecciona Tucumán en la sesión y obtiene el HTML de cartelera."""
+    """Selecciona Tucumán y obtiene las variantes de cartelera que publica Cinemacenter.
+
+    Cinemacenter no mantiene una única estructura HTML estable. En algunas respuestas
+    ya no aparecen las llamadas JavaScript seleccionarMovie(), pero sí existe el selector
+    de películas con enlaces directos /ficha/{id}-.... Por eso consultamos la cartelera
+    y, como respaldo, /tucuman, y dejamos que extract_movie_links() combine ambas fuentes.
+    """
     print("[2/5] Consultando cartelera HTML de Cinemacenter para Tucumán...")
+    errors = []
     try:
         request(session, SELECT_CITY_URL)
     except Exception as exc:
+        errors.append(f"select_city: {exc}")
         print(f"  Aviso: no fue necesario/posible seleccionar ciudad por endpoint: {exc}")
-    response = request(session, BASE_URL + "/tucuman")
-    return response.text
+
+    html_parts = []
+    for url in (BASE_URL + "/cartelera", BASE_URL + "/tucuman"):
+        try:
+            response = request(session, url)
+            html_parts.append(response.text)
+            print(f"  HTML obtenido: {response.url} ({len(response.text):,} bytes)")
+        except Exception as exc:
+            errors.append(f"{url}: {exc}")
+            print(f"  Aviso: no se pudo obtener {url}: {exc}")
+
+    if not html_parts:
+        raise RuntimeError("Cinemacenter no devolvió HTML de cartelera; " + " | ".join(errors))
+    return "\n".join(html_parts)
 
 
 def extract_movie_links(html_text: str) -> list[dict]:
-    """Extrae los IDs internos de Cinemacenter desde seleccionarMovie()."""
+    """Extrae fichas oficiales de Cinemacenter desde el HTML.
+
+    Prioridad:
+      1. enlaces directos /ficha/{movieId}-... (estructura actualmente visible),
+      2. llamadas seleccionarMovie(...) de versiones antiguas del sitio.
+
+    No se usa similitud difusa: el título se valida después contra la ficha oficial.
+    """
+    result = []
+    seen = set()
+
+    def add(item: dict):
+        movie_id = item.get("movie_id")
+        title = clean_text(item.get("title"))
+        if not movie_id or not title:
+            return
+        item["title"] = title
+        key = (int(movie_id), normalize_movie_title(title))
+        if key in seen:
+            return
+        seen.add(key)
+        result.append(item)
+
+    # Estructura actual: el selector de películas contiene enlaces directos
+    # /ficha/{movieId}-... (en <option value="..."> o <a href="...">).
+    soup = BeautifulSoup(html_text, "html.parser")
+    for node in soup.find_all(["option", "a"]):
+        href = node.get("value") if node.name == "option" else node.get("href")
+        href = clean_text(href)
+        if "/ficha/" not in href.lower():
+            continue
+        match = re.search(r"/ficha/(\d+)-", href, re.I)
+        if not match:
+            continue
+        title = clean_text(node.get_text(" ", strip=True))
+        if not title:
+            continue
+        add({
+            "cinema_title": "Cinemacenter Tucumán",
+            "city_title": "Tucuman",
+            "cinema_id": 0,
+            "movie_id": int(match.group(1)),
+            "city_id": CITY_ID,
+            "title": title,
+            "ficha_url": urljoin(BASE_URL, href.split("#", 1)[0]),
+            "source": "direct_ficha_link",
+        })
+
+    # Estructura anterior: seleccionarMovie(..., cinemaId, movieId, cityId) ... título.
     pattern = re.compile(
         r"seleccionarMovie\(\s*['\"]([^'\"]+)['\"]\s*,\s*['\"]([^'\"]+)['\"]\s*,\s*(\d+)\s*,\s*(\d+)\s*,\s*(\d+)\s*\)\s*[^>]*>\s*([^<]+)",
         re.I,
     )
-    result = []
-    seen = set()
     for m in pattern.finditer(html_text):
         cinema_title, city_title, cinema_id, show_id, city_id, title = m.groups()
-        item = {
+        add({
             "cinema_title": clean_text(cinema_title),
             "city_title": clean_text(city_title),
             "cinema_id": int(cinema_id),
             "movie_id": int(show_id),
             "city_id": int(city_id),
             "title": clean_text(title),
-        }
-        key = (item["movie_id"], normalize_movie_title(item["title"]))
-        if key not in seen:
-            seen.add(key)
-            result.append(item)
-    return result
+            "ficha_url": None,
+            "source": "seleccionarMovie",
+        })
 
+    return result
 
 def find_movie_id(movie_links: list[dict], title: str, fmt: str, language: str) -> dict | None:
     wanted = normalize_movie_title(title)
@@ -395,25 +459,23 @@ def parse_details_from_ficha(html_text: str, ficha_url: str, expected_title: str
 
 
 def fetch_metadata_for_movie(session: requests.Session, movie: dict, movie_link: dict) -> dict:
-    movie_id = movie_link["movie_id"]
-    slider_html, ficha_url = fetch_slider(session, movie_id)
+    """Obtiene la ficha oficial directamente desde Cinemacenter."""
+    ficha_url = movie_link.get("ficha_url")
     if not ficha_url:
-        raise RuntimeError(f"movieId={movie_id} no devolvió enlace /ficha/ desde ajax_movieSlider.php")
-
-    slider_soup = BeautifulSoup(slider_html, "html.parser")
-    slider_title = clean_text(slider_soup.select_one("img.poster").get("alt", "") if slider_soup.select_one("img.poster") else "")
-    if slider_title and normalize_movie_title(slider_title) != normalize_movie_title(movie["title"]):
+        # Compatibilidad con la estructura antigua: obtener /ficha/ mediante AJAX.
+        _, ficha_url = fetch_slider(session, movie_link["movie_id"])
+    if not ficha_url:
         raise RuntimeError(
-            f"movieId={movie_id} no coincide: slider='{slider_title}', cartelera='{movie['title']}'"
+            f"movieId={movie_link['movie_id']} no devolvió enlace /ficha/ desde Cinemacenter"
         )
 
     response = request(session, ficha_url)
     metadata = parse_details_from_ficha(response.text, ficha_url, movie["title"])
-    metadata["cinemacenter_movie_id"] = movie_id
-    metadata["cinemacenter_cinema_id"] = movie_link["cinema_id"]
-    metadata["cinemacenter_city_id"] = movie_link["city_id"]
+    metadata["cinemacenter_movie_id"] = movie_link["movie_id"]
+    metadata["cinemacenter_cinema_id"] = movie_link.get("cinema_id") or None
+    metadata["cinemacenter_city_id"] = movie_link.get("city_id") or CITY_ID
+    metadata["cinemacenter_ficha_source"] = movie_link.get("source", "unknown")
     return metadata
-
 
 
 def parse_spanish_date(value: str) -> str | None:
