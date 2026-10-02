@@ -473,6 +473,36 @@ def remove_highlighted_metadata_block(text, fields=None):
     # El bloque editorial está al final del contenido.
     cleaned = plain[:marker.start()].strip()
     cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
+
+    # Los campos estructurados ya se guardan por separado y la app no
+    # necesariamente renderiza todos los campos arbitrarios de
+    # `highlighted_metadata`. Para no perder esa información en
+    # "Información completa", reconstruimos sólo los campos adicionales
+    # como texto limpio, sin conservar el encabezado "Datos destacados"
+    # ni duplicar los campos básicos que la app ya muestra en la ficha.
+    if parsed:
+        hidden_in_card = {
+            "fecha", "fechas", "hora", "horario", "horarios",
+            "lugar", "sede", "ubicación", "ubicacion",
+            "dirección", "direccion", "dirección del lugar",
+            "direccion del lugar",
+        }
+        extra_lines = []
+        for key, value in parsed.items():
+            if key in hidden_in_card:
+                continue
+            values = value if isinstance(value, list) else [value]
+            label = key[:1].upper() + key[1:]
+            for item in values:
+                item = clean_location(item)
+                if item:
+                    extra_lines.append(f"{label}: {item}")
+
+        if extra_lines:
+            if cleaned:
+                cleaned += "\n\n"
+            cleaned += "\n".join(extra_lines)
+
     return cleaned
 
 
