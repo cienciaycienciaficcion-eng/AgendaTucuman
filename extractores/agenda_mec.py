@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-AGENDA TUCUMÁN - EXTRACCIÓN MEC V11
+AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.2
 
 Fuente principal:
     https://agendatucuman.com.ar/eventos/
@@ -384,6 +384,133 @@ def _trim_place(value):
     s = re.split(r"\s+el\s+\d{1,3}(?:°|º|ª)?\s+", s, maxsplit=1, flags=re.I)[0]
     s = re.split(r"\s+la\s+\d{1,3}(?:°|º|ª)?\s+", s, maxsplit=1, flags=re.I)[0]
     return clean_location(s)
+
+
+
+def _looks_like_address(value):
+    """Determina si un texto parece una dirección física y no un nombre."""
+    s = clean_location(value)
+    if not s:
+        return False
+    if re.search(r"\b\d{1,5}\b", s):
+        return True
+    if re.search(
+        r"\b(?:av\.?|avenida|calle|pasaje|pje\.?|ruta|camino|boulevard|bvd\.?|"
+        r"esquina|esq\.?)\b",
+        s,
+        re.I,
+    ):
+        return True
+    # Intersecciones como "Jujuy y Crisóstomo Álvarez".
+    if re.search(r"\s+y\s+", s, re.I) and len(s.split()) >= 3:
+        return True
+    return False
+
+
+def extract_highlighted_metadata(text):
+    """Extrae campos del bloque editorial 'Datos destacados'.
+
+    El sitio está incorporando al final de algunos artículos un bloque
+    semiestructurado con etiquetas como:
+        📍 Lugar: Centro Cultural Virla
+        📌 Dirección: San Martín 251, San Miguel de Tucumán
+
+    Se usa como fuente prioritaria cuando está presente, pero NO reemplaza
+    los extractores narrativos/laterales para artículos que no tienen este
+    bloque.
+    """
+    text = strip_html(text)
+    marker = re.search(r"\bDatos\s+destacados\b", text, re.I)
+    if not marker:
+        return {}
+
+    tail = text[marker.end():].strip(" :-–—")
+
+    # Un nuevo campo del bloque suele comenzar con un emoji y una etiqueta
+    # seguida de ':'. La expresión es deliberadamente amplia para aceptar
+    # etiquetas nuevas sin tener que actualizar el extractor cada vez.
+    emoji = r"[\U0001F000-\U0001FAFF\u2600-\u27BF](?:\uFE0F|\u200D[\U0001F000-\U0001FAFF\u2600-\u27BF])*"
+    label = r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ][^:]{0,70}?"
+    next_field = rf"(?=\s+(?:{emoji}\s*)+{label}\s*:|$)"
+    pattern = re.compile(
+        rf"(?:^|\s)(?:{emoji}\s*)?(?P<label>{label})\s*:\s*"
+        rf"(?P<value>.*?){next_field}",
+        re.I | re.S,
+    )
+
+    fields = {}
+    for match in pattern.finditer(tail):
+        key = re.sub(r"\s+", " ", match.group("label")).strip().lower()
+        value = clean_location(match.group("value"))
+        if value:
+            if key in fields:
+                if isinstance(fields[key], list):
+                    fields[key].append(value)
+                else:
+                    fields[key] = [fields[key], value]
+            else:
+                fields[key] = value
+
+    return fields
+
+
+def _field_values(fields, key):
+    value = fields.get(key)
+    if value is None:
+        return []
+    return value if isinstance(value, list) else [value]
+
+
+def extract_highlighted_location(text):
+    """Obtiene Lugar/Ubicación y Dirección del bloque 'Datos destacados'."""
+    fields = extract_highlighted_metadata(text)
+    if not fields:
+        return "", "", "", "", 0
+
+    location = ""
+    location_key = ""
+    for key in ("lugar", "sede", "punto de encuentro", "ubicación", "ubicacion"):
+        values = _field_values(fields, key)
+        if values:
+            location = values[0]
+            location_key = key
+            break
+
+    address = ""
+    address_key = ""
+
+    # "Dirección" puede aparecer dos veces: como nombre del director de la
+    # obra y como dirección física. Buscamos entre todas sus apariciones la
+    # que realmente tenga aspecto de dirección.
+    for key in ("dirección", "direccion", "dirección del lugar", "direccion del lugar"):
+        for candidate in _field_values(fields, key):
+            if candidate and _looks_like_address(candidate):
+                address = candidate
+                address_key = key
+                break
+        if address:
+            break
+
+    # Algunas notas usan "Ubicación:" en lugar de "Dirección:" para indicar
+    # la referencia física del lugar. Sólo la usamos como dirección si tiene
+    # evidencia de calle/número/intersección.
+    if not address:
+        for key in ("ubicación", "ubicacion"):
+            for candidate in _field_values(fields, key):
+                if candidate and _looks_like_address(candidate):
+                    address = candidate
+                    address_key = key
+                    break
+            if address:
+                break
+
+    return (
+        clean_location(location),
+        clean_location(address),
+        f"highlighted_{location_key}" if location_key else "",
+        f"highlighted_{address_key}" if address_key else "",
+        0.99 if location or address else 0,
+    )
 
 
 def extract_labeled_location(text):
@@ -1215,12 +1342,21 @@ def process_event(session, card, delay, query_year, query_month):
             location_source = "jsonld"
             location_score = 0.9
 
-    # Para esta web, las etiquetas/fichas del contenido suelen ser más
-    # precisas que un JSON-LD genérico o una frase narrativa.
-    labeled_location, labeled_source, labeled_score = extract_labeled_location(content_text)
-    if labeled_location and (not location or labeled_score > location_score):
-        location, location_source, location_score = labeled_location, labeled_source, labeled_score
+    # El bloque editorial "Datos destacados" es una fuente estructurada y,
+    # cuando existe, tiene prioridad sobre JSON-LD y sobre el texto narrativo.
+    highlighted_location, highlighted_address, highlighted_location_source, highlighted_address_source, highlighted_score = extract_highlighted_location(content_text)
+    if highlighted_location:
+        location = highlighted_location
+        location_source = highlighted_location_source
+        location_score = highlighted_score
 
+    # Fallback: fichas etiquetadas del contenido fuera de "Datos destacados".
+    if not location:
+        labeled_location, labeled_source, labeled_score = extract_labeled_location(content_text)
+        if labeled_location and (not location or labeled_score > location_score):
+            location, location_source, location_score = labeled_location, labeled_source, labeled_score
+
+    # Fallback final: construcciones narrativas ("se realizará en...").
     if not location:
         location, location_source, location_score = extract_narrative_location(content_text)
 
@@ -1242,6 +1378,13 @@ def process_event(session, card, delay, query_year, query_month):
                 address_source = "jsonld"
                 address_score = 0.9
 
+    # La dirección explícita del bloque "Datos destacados" tiene prioridad.
+    if highlighted_address:
+        address = highlighted_address
+        address_source = highlighted_address_source
+        address_score = highlighted_score
+
+    # Fallback para artículos sin bloque estructurado.
     if not address:
         address, address_source, address_score = extract_address(content_text)
 
@@ -1878,7 +2021,7 @@ def main():
     # 6. Informe
     # ---------------------------------------------------------
     lines = [
-        "AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.1",
+        "AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.2",
         "=" * 78,
         f"Generado: {datetime.now().astimezone().isoformat()}",
         f"Fuente: {EVENTOS_URL}",
@@ -1889,7 +2032,7 @@ def main():
         f"Servicios: {sum(1 for e in events if e.get('source') == 'SERVICIOS')}",
         f"Errores: {len(errors)}",
         "",
-        "CRITERIOS V11.1",
+        "CRITERIOS V11.2",
         "-" * 78,
         "• MEC es la fuente primaria de fecha/hora visibles.",
         "• La hora de la tarjeta MEC tiene prioridad sobre JSON-LD.",
@@ -1900,6 +2043,9 @@ def main():
         "• Datetimes se construyen directamente en hora local -03:00.",
         "• Google Calendar y redes sociales no se consideran inscripción.",
         "• Las publicaciones de /category/servicios/ se normalizan como eventos con categoría Servicios.",
+        "• El bloque editorial 'Datos destacados' tiene prioridad para Lugar/Dirección cuando está presente.",
+        "• 'Dirección' se valida para evitar confundir al director artístico con una dirección física.",
+        "• Sin 'Datos destacados', se conservan los extractores narrativos y de etiquetas anteriores.",
         "• Servicios sin fecha verificable no se publican como eventos.",
         "• El precio sólo se registra con evidencia textual explícita.",
         "• Gratis sólo con evidencia textual explícita.",
@@ -1931,7 +2077,7 @@ def main():
 
     print()
     print("=" * 78)
-    print("EXTRACCIÓN V8 FINALIZADA")
+    print("EXTRACCIÓN V11.2 FINALIZADA")
     print("=" * 78)
     print(f"Tarjetas MEC: {len(all_cards)}")
     print(f"Eventos únicos: {len(events)}")
