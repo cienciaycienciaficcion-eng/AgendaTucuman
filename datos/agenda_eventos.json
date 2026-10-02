@@ -90,8 +90,8 @@
       "post_id": 46464,
       "date": "services_range"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "Del 28 de septiembre al 2 de octubre se realizará el Operativo Integral Municipal en la intersección de San Miguel y Bolivia. Habrá trámites gratuitos de DNI, SUBE, licencias de conducir, salud y atención animal de 9 a 12 h.",
+    "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "71af1133eb504be86b70f06e19dab449f8d23af752e396341a1e0be86c34476f"
   },
@@ -634,8 +634,8 @@
       "v11_enrichment_error": "",
       "query_month": "2026-10"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "Este jueves 2 de octubre a las 10:00 se realizará una caminata turística guiada por el casco histórico de San Miguel de Tucumán. El punto de encuentro será en la Oficina de Información Turística, ubicada en Congreso y Crisóstomo Álvarez. La actividad es gratuita pero requiere inscripción previa en el sistema digital municipal.",
+    "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "165869db4707a41d0e25820c75083c57f1e62a2a8ca1bce15157ae945b81c6d2"
   },
@@ -860,8 +860,8 @@
       "v11_enrichment_error": "",
       "query_month": "2026-10"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El 2 de octubre de 2026, el Centro Cultural Juan B. Terán, ubicado en Marco Avellaneda 254, será sede de una nueva edición de Tucumán Freestyle desde las 19. La competencia de improvisación reunirá a 24 participantes con entrada libre y gratuita.",
+    "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "650d0480ae284b40c6ec2a697e271533e1e1ec764d3e941d9928489e1f3f0547"
   },
@@ -3136,8 +3136,8 @@
       "v11_enrichment_error": "",
       "query_month": "2026-10"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El 4 de octubre a las 16:00 horas se realizará la Barrileteada por la Dislexia en el Parque Guillermina. La propuesta, impulsada por EPOF 100% Tucumán bajo el lema Un cielo de oportunidades, invita a la comunidad a elevar cometas para visibilizar esta dificultad de aprendizaje.",
+    "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "5e31b25343f24b898b10faafd0d0ec72145e259d28e4c41c703ac73a59975780"
   },
