@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-02T06:38:03.123512+00:00",
+  "generated_at": "2026-10-02T14:58:34.636684+00:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -27,9 +27,10 @@
       "classification": "G - Audiencia General",
       "nationality": "Estados Unidos",
       "distributor": "Disney",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/s_qpMMkvHYE",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5608-TOY-STORY-5---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -68,9 +69,10 @@
       "classification": "G - Audiencia General",
       "nationality": "Estados Unidos",
       "distributor": "BF",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/r4HNeBH7Q4A",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5736-COYOTE-VS-ACME---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -106,9 +108,10 @@
       "classification": "R17 - Restringida para menores de 17 años",
       "nationality": "Estados Unidos",
       "distributor": "UIP",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/5QDq7evE2R8",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5773-RESIDENT-EVIL-NOCHE-CERO---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -142,9 +145,10 @@
       "classification": "G - Audiencia General",
       "nationality": "Estados Unidos",
       "distributor": "UIP",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/XvPEaYrsaXs",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5782-LA-ISLA-OLVIDADA---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [
         "cast"
       ],
@@ -184,9 +188,10 @@
       "classification": "SP - Supervisión Parental sugerida",
       "nationality": "Estados Unidos",
       "distributor": "UIP",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/Bypmyqib4rU",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5784-EL-CORAZON-DE-LA-BESTIA---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -225,9 +230,10 @@
       "classification": "Desconocido",
       "nationality": "Japón",
       "distributor": "Cinemark",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": null,
       "source_url": "https://www.cinemacenter.com.ar/ficha/5786-PUELLA-MAGI-MADOKA-MAGICA-THE-MOVIE-WALPURGISNACHT-RISING-LA-PELICULA---2D-SUB",
       "source": "Cinemacenter",
+      "trailer_source": null,
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -269,9 +275,10 @@
       "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Estados Unidos",
       "distributor": "Warner Bros.",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/gmdX4h1POCk",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5800-DIGGER---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -309,9 +316,10 @@
       "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Estados Unidos",
       "distributor": "UIP",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/UdiWMHwobtE",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5801-VERITY-LA-SOMBRA-DE-UN-ENGA-O---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -349,9 +357,10 @@
       "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Estados Unidos",
       "distributor": "UIP",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/UdiWMHwobtE",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5802-VERITY-LA-SOMBRA-DE-UN-ENGA-O---2D-SUB",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -392,9 +401,10 @@
       "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Estados Unidos",
       "distributor": "BF + PARIS FILM",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/y7FeJVcfMGo",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5808-VERTIGO-2---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -430,9 +440,10 @@
       "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Argentina",
       "distributor": "Disney",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/3kFtLMkRL04",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5811-ESCONDIDA-EN-MI-CABEZA---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
@@ -466,9 +477,10 @@
       "classification": "G - Audiencia General",
       "nationality": "Rusia",
       "distributor": "Imagen Films",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/WJaWzgZ7Rkg",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5812-GUARDIANES-DEL-MUSEO-2---2D-CAST",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [
         "cast"
       ],
@@ -511,9 +523,10 @@
       "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Estados Unidos",
       "distributor": "BF + PARIS FILM",
-      "trailer": "https://www.youtube.com/Webcinemacenter",
+      "trailer": "https://www.youtube.com/embed/y7FeJVcfMGo",
       "source_url": "https://www.cinemacenter.com.ar/ficha/5813-VERTIGO-2---2D-SUB",
       "source": "Cinemacenter",
+      "trailer_source": "iframe",
       "metadata_missing": [],
       "metadata_unavailable_on_source": [
         "original_title"
