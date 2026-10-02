@@ -454,6 +454,28 @@ def extract_highlighted_metadata(text):
     return fields
 
 
+def remove_highlighted_metadata_block(text, fields=None):
+    """Quita el bloque final `Datos destacados` de la descripción.
+
+    Sólo elimina el bloque cuando realmente fue reconocido como ficha
+    estructurada; si el texto menciona esas palabras sin campos válidos,
+    conserva la descripción original.
+    """
+    if not text:
+        return text
+    plain = strip_html(text)
+    parsed = fields if fields is not None else extract_highlighted_metadata(plain)
+    if len(parsed) < 2:
+        return text
+    marker = re.search(r"\bDatos\s+destacados\b", plain, re.I)
+    if not marker:
+        return text
+    # El bloque editorial está al final del contenido.
+    cleaned = plain[:marker.start()].strip()
+    cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
+    return cleaned
+
+
 def _field_values(fields, key):
     value = fields.get(key)
     if value is None:
@@ -1264,7 +1286,12 @@ def process_event(session, card, delay, query_year, query_month):
     content_text = strip_html(content_html)
 
     title = rest.get("title") or card["title"]
-    description = content_html or str(page_soup.select_one(".mec-single-event-description") or "")
+    description_source = content_html or str(page_soup.select_one(".mec-single-event-description") or "")
+    highlighted_metadata = extract_highlighted_metadata(content_text)
+    # Si existe la ficha estructurada, no la repetimos dentro de
+    # "Descripción completa". Los datos quedan disponibles en campos
+    # estructurados y en highlighted_metadata.
+    description = remove_highlighted_metadata_block(description_source, highlighted_metadata)
 
     # Fecha
     title_start, title_end, title_source, title_score = parse_title_dates(
@@ -1472,6 +1499,7 @@ def process_event(session, card, delay, query_year, query_month):
         "start_datetime": start_datetime,
         "end_datetime": end_datetime,
         "description": description,
+        "highlighted_metadata": highlighted_metadata,
         "image": image,
         "price": price,
         "currency": currency,

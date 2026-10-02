@@ -62,6 +62,7 @@ export type AgendaEvent = {
   start_datetime: string;
   end_datetime: string;
   description: string;
+  highlighted_metadata?: Record<string, string | string[]>;
   image: string;
   price: number | null;
   currency: string;

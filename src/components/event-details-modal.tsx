@@ -57,6 +57,14 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
   const hasImage = Boolean(event.image && !imageError);
   const categories = Array.isArray(event.categories) ? event.categories : [];
   const tags = Array.isArray(event.tags) ? event.tags : [];
+  const highlighted = event.highlighted_metadata && typeof event.highlighted_metadata === 'object'
+    ? event.highlighted_metadata as Record<string, string | string[]>
+    : {};
+  const highlightedEntries = Object.entries(highlighted).filter(([key]) => ![
+    'fecha', 'día', 'dia', 'horario', 'hora', 'inicio', 'fin',
+    'lugar', 'sede', 'punto de encuentro', 'ubicación', 'ubicacion',
+    'dirección', 'direccion', 'dirección del lugar', 'direccion del lugar'
+  ].includes(key.toLowerCase()));
 
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
@@ -77,6 +85,11 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
             {event.address ? <ThemedText themeColor="textSecondary">{event.address}{event.city ? `, ${event.city}` : ''}</ThemedText> : null}
             {event.is_free ? <ThemedText style={styles.free}>Entrada libre y gratuita</ThemedText> : event.price != null ? <ThemedText style={styles.price}>Entrada: {event.price} {event.currency ?? ''}</ThemedText> : null}
             {event.organizer ? <ThemedText themeColor="textSecondary">Organiza: {event.organizer}</ThemedText> : null}
+            {highlightedEntries.map(([key, value]) => {
+              const label = key.charAt(0).toUpperCase() + key.slice(1);
+              const text = Array.isArray(value) ? value.join(' · ') : value;
+              return <ThemedText key={key} themeColor="textSecondary">{label}: {text}</ThemedText>;
+            })}
           </View>
 
           {categories.length > 0 && <View style={styles.tags}>{categories.map((c: string) => <View key={c} style={styles.tag}><ThemedText style={styles.tagText}>{c}</ThemedText></View>)}</View>}
