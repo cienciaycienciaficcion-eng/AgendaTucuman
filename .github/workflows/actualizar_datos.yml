@@ -162,6 +162,16 @@ jobs:
                   f.write('1\n')
               sys.exit(0)
 
+          missing_metadata = [m.get('title') or '(sin título)' for m in movies if not isinstance(m.get('metadata'), dict)]
+          if missing_metadata:
+              print(f'ERROR: {len(missing_metadata)} películas no tienen metadata oficial de Cinemacenter:')
+              for title in missing_metadata:
+                  print(f'  - {title}')
+              print('No se publicará una cartelera parcialmente enriquecida.')
+              sys.exit(1)
+
+          print(f'Metadata oficial disponible para {len(movies)}/{len(movies)} películas.')
+
           for movie in movies:
               title = movie.get('title') or '(sin título)'
               print(f'  - {title}')
