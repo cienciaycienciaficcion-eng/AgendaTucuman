@@ -41065,75 +41065,6 @@
     }
   },
   {
-    "id": "42093",
-    "source": "MEC",
-    "title": "Enero y Febrero 2026 en San Pedro de Colalao: cronograma de actividades",
-    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-2026-en-san-pedro-de-colalao-cronograma-de-actividades/",
-    "date_start": "2026-08-05",
-    "date_end": "2026-08-05",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-08-05T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Las autoridades de la Comuna de San Pedro de Colalao lanzaron una extensa agenda de actividades y eventos para los meses de Enero y Febrero de 2026",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/04/tour-religioso-a-San-Pedro-de-Colalao-y-Trancas.jpeg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "San Pedro de Colalao",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-08-05",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-08-05T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "card",
-        "score": 0.9
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.47
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-08-05",
-      "card_time": "",
-      "date": "card",
-      "time": "",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    }
-  },
-  {
     "id": "servicios-19899",
     "source": "SERVICIOS",
     "title": "Monotributo: dos vencimientos clave en agosto",
@@ -41432,6 +41363,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 19924,
       "date": "services_title_day"
+    }
+  },
+  {
+    "id": "42093",
+    "source": "MEC",
+    "title": "Enero y Febrero 2026 en San Pedro de Colalao: cronograma de actividades",
+    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-2026-en-san-pedro-de-colalao-cronograma-de-actividades/",
+    "date_start": "2026-08-06",
+    "date_end": "2026-08-06",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-08-06T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las autoridades de la Comuna de San Pedro de Colalao lanzaron una extensa agenda de actividades y eventos para los meses de Enero y Febrero de 2026",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/04/tour-religioso-a-San-Pedro-de-Colalao-y-Trancas.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Pedro de Colalao",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-08-06",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-08-06T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.47
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-08-06",
+      "card_time": "",
+      "date": "card",
+      "time": "",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -43673,75 +43673,6 @@
     }
   },
   {
-    "id": "42092",
-    "source": "MEC",
-    "title": "Enero y Febrero 2026 en El Mollar: cronograma de actividades",
-    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-en-el-mollar-cronograma-de-actividades/",
-    "date_start": "2026-08-17",
-    "date_end": "2026-08-17",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-08-17T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Las autoridades de la comuna veraniega de El Mollar dieron a conocer el cronograma de actividades programadas para los mes de Enero y Febrero del 2026:",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/01/el-mollar-tucuman.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "El Mollar",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-08-17",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-08-17T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "card",
-        "score": 0.9
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.47
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-08-17",
-      "card_time": "",
-      "date": "card",
-      "time": "",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    }
-  },
-  {
     "id": "servicios-40377",
     "source": "SERVICIOS",
     "title": "18 al 22 de agosto: Jornadas de Eco Canje",
@@ -44235,6 +44166,75 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 15657,
       "date": "services_title_day"
+    }
+  },
+  {
+    "id": "42092",
+    "source": "MEC",
+    "title": "Enero y Febrero 2026 en El Mollar: cronograma de actividades",
+    "url": "https://agendatucuman.com.ar/eventos/enero-y-febrero-en-el-mollar-cronograma-de-actividades/",
+    "date_start": "2026-08-18",
+    "date_end": "2026-08-18",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-08-18T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las autoridades de la comuna veraniega de El Mollar dieron a conocer el cronograma de actividades programadas para los mes de Enero y Febrero del 2026:",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/01/el-mollar-tucuman.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "El Mollar",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-08-18",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-08-18T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "card",
+        "score": 0.9
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.47
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-08-18",
+      "card_time": "",
+      "date": "card",
+      "time": "",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
     }
   },
   {
@@ -54459,7 +54459,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-10-01",
+      "card_date": "2026-10-02",
       "card_time": "08:00",
       "date": "title_range",
       "time": "mec_card",
@@ -54648,158 +54648,6 @@
       "source_url": "https://agendatucuman.com.ar/category/servicios/",
       "post_id": 35558,
       "date": "services_range"
-    }
-  },
-  {
-    "id": "46528",
-    "source": "MEC",
-    "title": "01 de Octubre | Ciclo Cine Bar: RIMBAUD llevará las canciones de Estelares al escenario",
-    "url": "https://agendatucuman.com.ar/eventos/01-de-octubre-ciclo-cine-bar-rimbaud-llevara-las-canciones-de-estelares-al-escenario/",
-    "date_start": "2026-10-01",
-    "date_end": "2026-10-01",
-    "time_start": "20:00",
-    "time_end": "",
-    "start_datetime": "2026-10-01T20:00:00-03:00",
-    "end_datetime": "",
-    "description": "El cine y la música volverán a encontrarse este jueves 1 de octubre en Yerba Buena con una nueva edición del ciclo Cine Bar, una de las propuestas de la 66ª edición del Septiembre Musical. Desde las 20, Pura Vida Mae será escenario de la proyección de “Nuestros días en mi memoria: una película sobre Estelares”, documental que recorre la historia y el universo artístico de una de las bandas más representativas de la escena musical platense. La actividad será con entrada libre y gratuita. Un recorrido por la historia de Estelares Dirigida por Gonza López, la película se interna en los orígenes de Estelares y en la escena musical de La Plata durante los años 90. A lo largo de sus 90 minutos, el documental reconstruye el camino de una banda que construyó una identidad propia alrededor de las canciones, la poesía, la melancolía y las historias de amor. La propuesta permite conocer el contexto en el que nació Estelares y recorrer una trayectoria musical que se mantiene vigente décadas después de sus primeros pasos. RIMBAUD llevará las canciones de Estelares al escenario La experiencia no terminará con la proyección. La jornada continuará con la presentación en vivo de RIMBAUD, banda tributo a Estelares que interpretará parte del repertorio del grupo. De esta manera, Cine Bar propone pasar de la pantalla al escenario y transformar el documental en una experiencia musical en vivo. Una propuesta gratuita para disfrutar en Yerba Buena El encuentro forma parte del Septiembre Musical, organizado por el Gobierno de Tucumán a través del Ente Cultural, con el apoyo del Consejo Federal de Inversiones. Para quienes están buscando qué hacer en Tucumán y Yerba Buena, la combinación de documental y música en vivo aparece como una opción diferente para la noche del jueves, especialmente para seguidores de Estelares y del rock argentino. La entrada será libre y gratuita. Datos destacados Fecha: jueves 1 de octubre. Horario: 20 horas. Lugar: Pura Vida Mae, Pringles 1714, Yerba Buena. Proyección: “Nuestros días en mi memoria: una película sobre Estelares”. Dirección: Gonza López. Duración: 90 minutos. Música en vivo: RIMBAUD, banda tributo a Estelares. Entrada: libre y gratuita.",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/cine-bar.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "escena musical de La Plata durante los años 90",
-    "address": "",
-    "city": "Yerba Buena",
-    "organizer": "el Gobierno de Tucumán a través del Ente Cultural, con el apoyo del Consejo Federal de Inversiones",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=escena+musical+de+La+Plata+durante+los+a%C3%B1os+90%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-01",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-10-01T20:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "narrative",
-        "score": 0.65
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-01",
-      "card_time": "20:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "narrative",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    }
-  },
-  {
-    "id": "46526",
-    "source": "MEC",
-    "title": "01, 02 y 03 de Octubre | «Sin ley” en el Espacio Incaa",
-    "url": "https://agendatucuman.com.ar/eventos/01-02-y-03-de-octubre-sin-ley-en-el-espacio-incaa/",
-    "date_start": "2026-10-01",
-    "date_end": "2026-10-03",
-    "time_start": "20:00",
-    "time_end": "",
-    "start_datetime": "2026-10-01T20:00:00-03:00",
-    "end_datetime": "",
-    "description": "El Espacio INCAA Tucumán suma una nueva propuesta a la agenda cultural de la provincia con la proyección de “Sin ley”, película dirigida por Carlos Lasso que combina acción, drama y suspenso. El film podrá verse durante tres noches consecutivas: jueves 1, viernes 2 y sábado 3 de octubre, siempre a las 20, en la Sala Hynes O’Connor, ubicada en San Martín 251. Una historia atravesada por la violencia y una búsqueda desesperada “Sin ley” tiene como protagonista a Nico, un expolicía viudo que fue expulsado de la fuerza luego de la muerte de su esposa. Alejado de su antigua profesión, intenta sobrevivir trabajando como entrenador de boxeadores que participan en peleas clandestinas, mientras cuida a su hija adolescente, Sol. Su vida cambia de manera abrupta cuando una organización criminal secuestra a la joven. A partir de ese momento, Nico inicia una búsqueda contrarreloj que lo enfrentará a un ambiente dominado por la violencia, el poder y el delito. La película propone así una historia de acción en la que el vínculo entre un padre y su hija funciona como motor de una trama marcada por el peligro y la desesperación. Cine argentino en pleno centro tucumano Para quienes buscan qué hacer en Tucumán durante los primeros días de octubre, las funciones del Espacio INCAA representan una alternativa para acercarse a nuevas producciones del cine nacional. Las entradas podrán adquirirse en la boletería de la Sala Hynes O’Connor desde una hora antes de cada función. El valor de la entrada general será de $5.000, mientras que jubilados y estudiantes podrán acceder a una tarifa de $2.500. Una oportunidad para sumar cine argentino a los planes culturales de esta semana en Tucumán. Datos destacados Fecha: jueves 1, viernes 2 y sábado 3 de octubre. Horario: 20 horas. Lugar: Sala Hynes O’Connor, San Martín 251. Película: “Sin ley”. Dirección: Carlos Lasso. Entrada general: $5.000. Jubilados y estudiantes: $2.500. Venta de entradas: boletería, desde una hora antes de cada función.",
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/sin-ley.jpeg",
-    "price": 5000.0,
-    "currency": "ARS",
-    "is_free": false,
-    "location": "boletería de la Sala Hynes O’Connor desde una hora antes de cada función",
-    "address": "San Martín 251",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Cine"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=boleter%C3%ADa+de+la+Sala+Hynes+O%E2%80%99Connor+desde+una+hora+antes+de+cada+funci%C3%B3n%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-01",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-10-01T20:00:00-03:00",
-        "end_datetime": ""
-      },
-      {
-        "date": "2026-10-02",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-10-02T20:00:00-03:00",
-        "end_datetime": ""
-      },
-      {
-        "date": "2026-10-03",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-10-03T20:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_days",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "narrative",
-        "score": 0.65
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-01",
-      "card_time": "20:00",
-      "date": "title_days",
-      "time": "mec_card",
-      "location": "narrative",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
     }
   },
   {
