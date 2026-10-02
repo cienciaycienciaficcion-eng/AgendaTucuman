@@ -48,6 +48,24 @@ jobs:
             --delay 0.15 \
             --out .tmp/agenda
 
+      - name: Generar resúmenes con Gemini
+        id: gemini
+        if: steps.agenda.outcome == 'success'
+        continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
+        run: |
+          if [ -f ".tmp/agenda/agenda_eventos.json" ]; then
+            python scripts/generar_resumenes_gemini.py \
+              --input .tmp/agenda/agenda_eventos.json \
+              --previous datos/agenda_eventos.json \
+              --output .tmp/agenda/agenda_eventos.json
+          else
+            echo "ERROR: no existe el JSON de agenda para enriquecer."
+            exit 1
+          fi
+
       - name: Publicar agenda
         if: steps.agenda.outcome == 'success'
         run: |
@@ -57,6 +75,15 @@ jobs:
           else
             echo "ERROR: el extractor terminó correctamente pero no generó agenda_eventos.json."
             exit 1
+          fi
+
+      - name: Informar estado de Gemini
+        if: steps.agenda.outcome == 'success'
+        run: |
+          if [ "${{ steps.gemini.outcome }}" = "success" ]; then
+            echo "✓ Resúmenes Gemini: procesados."
+          else
+            echo "⚠ Resúmenes Gemini: hubo errores; se publican los datos de agenda igualmente."
           fi
 
       - name: Informar error de agenda
