@@ -48,9 +48,60 @@ jobs:
             --delay 0.15 \
             --out .tmp/agenda
 
+      - name: Validar agenda antes de publicar
+        id: validate_agenda
+        if: steps.agenda.outcome == 'success'
+        run: |
+          python - <<'PY2'
+          import json
+          import sys
+          from datetime import date
+          from pathlib import Path
+
+          path = Path('.tmp/agenda/agenda_eventos.json')
+          if not path.exists():
+              print('ERROR: el extractor no generó agenda_eventos.json.')
+              sys.exit(1)
+
+          try:
+              data = json.loads(path.read_text(encoding='utf-8'))
+          except Exception as exc:
+              print(f'ERROR: agenda_eventos.json no es JSON válido: {exc}')
+              sys.exit(1)
+
+          if not isinstance(data, list):
+              print('ERROR: agenda_eventos.json no contiene una lista.')
+              sys.exit(1)
+
+          today = date.today().isoformat()
+          valid = []
+          for event in data:
+              if not isinstance(event, dict):
+                  continue
+              end = event.get('date_end') or event.get('date_start')
+              if end and end >= today:
+                  valid.append(event)
+
+          print(f'Eventos extraídos: {len(data)}')
+          print(f'Eventos vigentes/futuros: {len(valid)}')
+          print(f'Fecha del runner: {today}')
+
+          if not data:
+              print('ERROR: el extractor devolvió una agenda vacía.')
+              print('No se reemplazarán los datos publicados anteriormente.')
+              sys.exit(1)
+
+          if not valid:
+              print('ERROR: no hay eventos vigentes o futuros en la extracción.')
+              print('No se reemplazarán los datos publicados anteriormente.')
+              sys.exit(1)
+
+          print('✓ Agenda aceptada para publicación.')
+          PY2
+
       - name: Generar resúmenes con Gemini
         id: gemini
-        if: steps.agenda.outcome == 'success'
+        if: steps.validate_agenda.outcome == 'success'
         continue-on-error: true
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -67,7 +118,7 @@ jobs:
           fi
 
       - name: Publicar agenda
-        if: steps.agenda.outcome == 'success'
+        if: steps.validate_agenda.outcome == 'success'
         run: |
           if [ -f ".tmp/agenda/agenda_eventos.json" ]; then
             cp .tmp/agenda/agenda_eventos.json datos/agenda_eventos.json
@@ -78,7 +129,7 @@ jobs:
           fi
 
       - name: Informar estado de Gemini
-        if: steps.agenda.outcome == 'success'
+        if: steps.validate_agenda.outcome == 'success'
         run: |
           if [ "${{ steps.gemini.outcome }}" = "success" ]; then
             echo "✓ Resúmenes Gemini: procesados."
@@ -87,9 +138,13 @@ jobs:
           fi
 
       - name: Informar error de agenda
-        if: steps.agenda.outcome != 'success'
+        if: steps.agenda.outcome != 'success' || steps.validate_agenda.outcome != 'success'
         run: |
-          echo "ERROR: no se pudo actualizar la agenda."
+          if [ "${{ steps.agenda.outcome }}" != "success" ]; then
+            echo "ERROR: no se pudo actualizar la agenda."
+          else
+            echo "ERROR: la agenda extraída no superó la validación."
+          fi
           echo "Se conservarán los datos anteriores."
 
 
@@ -208,7 +263,7 @@ jobs:
 
       - name: Generar evento semanal de estrenos de cine
         id: cine_estrenos_evento
-        if: steps.agenda.outcome == 'success' && steps.cinemacenter.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
+        if: steps.validate_agenda.outcome == 'success' && steps.cinemacenter.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
         run: |
           if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
             echo "No se genera evento de estrenos porque se conserva la cartelera anterior."
