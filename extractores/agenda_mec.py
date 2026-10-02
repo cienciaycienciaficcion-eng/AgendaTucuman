@@ -1538,8 +1538,18 @@ def extract_services(session, delay, year, max_pages=12):
                 content_text = strip_html(content_html)
                 url = post.get("link") or ""
 
+                # Para SERVICIOS, las fechas suelen aparecer sin año.
+                # Usamos el año de publicación del propio artículo como
+                # referencia, en lugar del año actual del workflow. Esto evita
+                # convertir automáticamente notas históricas en eventos futuros.
+                published_year = year
+                published_at = post.get("date") or post.get("modified") or ""
+                published_match = re.match(r"^(\d{4})-", str(published_at))
+                if published_match:
+                    published_year = int(published_match.group(1))
+
                 date_start, date_end, date_source, date_score = parse_wp_service_date(
-                    title, content_text, year
+                    title, content_text, published_year
                 )
                 if not date_start:
                     # Sin fecha verificable no se publica como evento: evita
@@ -1761,6 +1771,19 @@ def main():
     )
     events.extend(service_events)
     errors.extend(service_errors)
+
+    # La agenda publicada representa actualidad, no un archivo histórico.
+    # Eliminamos eventos cuyo período ya terminó. Se conserva un evento que
+    # termina hoy porque sigue siendo relevante durante el día.
+    today_iso = date.today().isoformat()
+    before_filter = len(events)
+    events = [
+        event for event in events
+        if (event.get("date_end") or event.get("date_start") or "") >= today_iso
+    ]
+    removed_past = before_filter - len(events)
+    if removed_past:
+        print(f"[Filtro vigencia] Eliminados {removed_past} eventos vencidos antes de publicar.")
 
     events.sort(
         key=lambda x: (
