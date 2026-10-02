@@ -237,13 +237,79 @@ def extract_week_range(text: str) -> tuple[date | None, date | None]:
 
 
 def download_pdf(session: requests.Session) -> tuple[bytes, str]:
+    """Descarga el PDF oficial con reintentos específicos para GitHub Actions."""
     print(f"[1/5] Cartelera oficial: {PDF_URL}")
-    response = request(session, PDF_URL)
-    if not response.content.startswith(b"%PDF"):
-        raise RuntimeError("Cinemacenter no devolvió un PDF válido para Tucumán")
-    reader = PdfReader(BytesIO(response.content))
-    text = "\n".join(page.extract_text() or "" for page in reader.pages)
-    return response.content, text
+
+    pdf_timeout = (15, 45)
+    pdf_retries = 3
+    pdf_backoff = (3, 8)
+
+    pdf_headers = {
+        **HEADERS,
+        "Accept": "application/pdf,application/octet-stream;q=0.9,*/*;q=0.8",
+        "Referer": BASE_URL + "/cartelera",
+        "Connection": "close",
+    }
+
+    last_error = None
+
+    for attempt in range(1, pdf_retries + 1):
+        started = time.monotonic()
+        try:
+            print(
+                f"  PDF intento {attempt}/{pdf_retries} "
+                f"(connect={pdf_timeout[0]}s, read={pdf_timeout[1]}s)..."
+            )
+            response = session.get(
+                PDF_URL,
+                timeout=pdf_timeout,
+                headers=pdf_headers,
+                allow_redirects=True,
+            )
+            response.raise_for_status()
+
+            content = response.content
+            elapsed = time.monotonic() - started
+            print(
+                f"  PDF recibido: HTTP {response.status_code}, "
+                f"{len(content):,} bytes en {elapsed:.1f}s"
+            )
+
+            if not content.startswith(b"%PDF"):
+                preview = content[:80].decode("utf-8", errors="replace")
+                raise RuntimeError(
+                    f"Cinemacenter respondió algo que no es PDF "
+                    f"(primeros bytes: {preview!r})"
+                )
+
+            reader = PdfReader(BytesIO(content))
+            text = "\n".join(page.extract_text() or "" for page in reader.pages)
+
+            if not clean_text(text):
+                raise RuntimeError("El PDF oficial no contiene texto extraíble")
+
+            print(
+                f"  PDF válido: {len(reader.pages)} páginas, "
+                f"{len(text):,} caracteres extraídos"
+            )
+            return content, text
+
+        except Exception as exc:
+            last_error = exc
+            elapsed = time.monotonic() - started
+            print(
+                f"  PDF intento {attempt}/{pdf_retries} falló "
+                f"después de {elapsed:.1f}s: {exc}"
+            )
+            if attempt < pdf_retries:
+                delay = pdf_backoff[attempt - 1]
+                print(f"  Esperando {delay}s antes del siguiente intento...")
+                time.sleep(delay)
+
+    raise RuntimeError(
+        f"No se pudo acceder a Cinemacenter: {PDF_URL} "
+        f"después de {pdf_retries} intentos. Último error: {last_error}"
+    )
 
 
 def extract_movie_blocks(text: str) -> list[dict]:
@@ -489,64 +555,72 @@ def parse_details_from_ficha(html_text: str, ficha_url: str, expected_title: str
         "source": "Cinemacenter",
     }
 
-    # Cinemacenter puede publicar el tráiler como enlace, YouTube o iframe.
-    # Solo aceptamos URLs que estén realmente presentes en la ficha oficial.
-    # Trailer: Cinemacenter puede cargar YouTube dinámicamente.
-    # En esos casos la ficha puede no exponer el iframe directamente, pero
-    # el thumbnail generado por YouTube contiene el ID en i.ytimg.com/vi/ID/.
-    trailer_candidates = []
-    trailer_sources = []
+    # Cinemacenter puede publicar el tráiler como enlace, iframe de YouTube
+    # o miniatura de i.ytimg.com. Solo aceptamos datos presentes en la ficha.
+    trailer_candidates: list[tuple[str, str]] = []
+
+    def add_trailer_candidate(value: str, source: str) -> None:
+        value = clean_text(value)
+        if not value:
+            return
+        url = urljoin(ficha_url, value)
+        low = url.lower()
+
+        # Enlace genérico al canal: no identifica un tráiler concreto.
+        if low.rstrip("/") in {
+            "https://www.youtube.com/webcinemacenter",
+            "http://www.youtube.com/webcinemacenter",
+        }:
+            return
+
+        if "youtube.com" in low or "youtu.be/" in low or "vimeo.com" in low:
+            trailer_candidates.append((url, source))
 
     for a in soup.find_all("a", href=True):
         label = normalize(a.get_text(" ", strip=True))
         href = a.get("href") or ""
         href_low = href.lower()
-        if href and ("trailer" in label or "youtube.com" in href_low or "youtu.be/" in href_low):
-            trailer_candidates.append(urljoin(ficha_url, href))
-            trailer_sources.append((urljoin(ficha_url, href), "link"))
+        if href and (
+            "trailer" in label
+            or "youtube.com" in href_low
+            or "youtu.be/" in href_low
+        ):
+            add_trailer_candidate(href, "link")
 
     for iframe in soup.find_all("iframe", src=True):
-        src = iframe.get("src") or ""
-        src_low = src.lower()
-        if "youtube.com" in src_low or "youtu.be/" in src_low or "vimeo.com" in src_low:
-            value = urljoin(ficha_url, src)
-            trailer_candidates.append(value)
-            trailer_sources.append((value, "iframe"))
+        add_trailer_candidate(iframe.get("src") or "", "iframe")
 
-    # YouTube móvil/web puede dejar únicamente la miniatura:
-    # https://i.ytimg.com/vi/s_qpMMkvHYE/sddefault.jpg
-    YT_THUMB_RE = re.compile(
-        r"https?://i\.ytimg\.com/vi/([A-Za-z0-9_-]{11})/[^\"' )]+",
-        re.IGNORECASE,
-    )
-    html_text = str(soup)
-    for match in YT_THUMB_RE.finditer(html_text):
-        video_id = match.group(1)
-        value = f"https://www.youtube.com/watch?v={video_id}"
-        if value not in trailer_candidates:
-            trailer_candidates.append(value)
-            trailer_sources.append((value, "ytimg_thumbnail"))
+    # Algunas fichas cargan el reproductor como una miniatura de YouTube:
+    # https://i.ytimg.com/vi/VIDEO_ID/sddefault.jpg
+    for tag in soup.find_all(True):
+        for attr in ("style", "src", "data-src", "data-video", "data-video-id"):
+            value = tag.get(attr)
+            if not value:
+                continue
+            match = re.search(
+                r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=)|"
+                r"youtu\.be/|i\.ytimg\.com/vi/)([A-Za-z0-9_-]{6,})",
+                str(value),
+                re.I,
+            )
+            if match:
+                add_trailer_candidate(
+                    f"https://www.youtube.com/embed/{match.group(1)}",
+                    "ytimg",
+                )
 
-    # Preferimos iframe/link reales. Si Cinemacenter solo dejó la miniatura,
-    # usamos el ID de YouTube que aparece en ella.
     if trailer_candidates:
-        preferred = next(
-            ((url, source) for url, source in trailer_sources if source == "iframe"),
-            None,
+        priority = {"iframe": 0, "link": 1, "ytimg": 2}
+        trailer, trailer_source = min(
+            trailer_candidates,
+            key=lambda item: priority.get(item[1], 9),
         )
-        if preferred is None:
-            preferred = next(
-                ((url, source) for url, source in trailer_sources if source == "link" and ("youtube.com" in url.lower() or "youtu.be/" in url.lower())),
-                None,
-            )
-        if preferred is None:
-            preferred = next(
-                ((url, source) for url, source in trailer_sources if source == "ytimg_thumbnail"),
-                None,
-            )
-        if preferred:
-            metadata["trailer"] = preferred[0]
-            metadata["trailer_source"] = preferred[1]
+        metadata["trailer"] = trailer
+        metadata["trailer_source"] = trailer_source
+    else:
+        metadata["trailer"] = None
+        metadata["trailer_source"] = None
+
 
     source_expected = [
         "duration_minutes", "genres", "director", "cast", "synopsis",
