@@ -33,6 +33,8 @@ from urllib.parse import urljoin
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 from pypdf import PdfReader
 
 try:
@@ -56,7 +58,9 @@ METADATA_OUTPUT = Path("cine_metadata.json")
 
 # El runner de GitHub puede tardar en conectar con Cinemacenter. No usamos
 # Jina: si Cinemacenter no responde, el workflow conserva la versión anterior.
-TIMEOUT = (10, 30)
+TIMEOUT = (45, 90)
+REQUEST_RETRIES = 3
+RETRY_BACKOFF = 2
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -162,13 +166,34 @@ def split_genres(value: str | None) -> list[str]:
     return list(dict.fromkeys(x.strip() for x in parts if x.strip()))
 
 
+def configure_session(session: requests.Session) -> None:
+    """Configura reintentos para fallos transitorios de red del runner de GitHub."""
+    retry = Retry(
+        total=REQUEST_RETRIES,
+        connect=REQUEST_RETRIES,
+        read=REQUEST_RETRIES,
+        status=REQUEST_RETRIES,
+        backoff_factor=RETRY_BACKOFF,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET", "POST"}),
+        raise_on_status=False,
+    )
+    adapter = HTTPAdapter(max_retries=retry, pool_connections=10, pool_maxsize=10)
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+
+
 def request(session: requests.Session, url: str, *, method: str = "GET", data: dict | None = None) -> requests.Response:
-    if method == "POST":
-        response = session.post(url, data=data or {}, timeout=TIMEOUT, headers=HEADERS)
-    else:
-        response = session.get(url, timeout=TIMEOUT, headers=HEADERS)
-    response.raise_for_status()
-    return response
+    """Petición HTTP con timeout amplio y reintentos ante fallos transitorios."""
+    try:
+        if method == "POST":
+            response = session.post(url, data=data or {}, timeout=TIMEOUT, headers=HEADERS)
+        else:
+            response = session.get(url, timeout=TIMEOUT, headers=HEADERS)
+        response.raise_for_status()
+        return response
+    except requests.RequestException as exc:
+        raise RuntimeError(f"No se pudo acceder a Cinemacenter: {url} ({exc})") from exc
 
 
 def extract_week_range(text: str) -> tuple[date | None, date | None]:
@@ -564,6 +589,7 @@ def run_test_ids(ids: list[int]) -> int:
     """Prueba local de IDs concretos sin depender del PDF/cartelera."""
     session = requests.Session()
     session.headers.update(HEADERS)
+    configure_session(session)
     print("=" * 72)
     print("PRUEBA DIRECTA DE MOVIE IDs DE CINEMACENTER")
     print("Fuente exclusiva: Cinemacenter")
@@ -634,7 +660,7 @@ def main() -> int:
         movie_links = extract_movie_links(html)
         print(f"  IDs internos encontrados en Cinemacenter: {len(movie_links)}")
         if not movie_links:
-            raise RuntimeError("No se encontraron llamadas seleccionarMovie() para obtener movieId")
+            raise RuntimeError("No se encontraron fichas /ficha/ ni llamadas seleccionarMovie() en la cartelera HTML de Cinemacenter")
 
         movies = []
         failures = []
