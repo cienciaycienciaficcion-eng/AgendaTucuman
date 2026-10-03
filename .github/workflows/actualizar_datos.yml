@@ -56,6 +56,8 @@ jobs:
         if: steps.agenda.outcome == 'success'
         run: |
           python - <<'PY2'
+          from datetime import datetime
+
           import json
           import sys
           from datetime import date
@@ -76,7 +78,6 @@ jobs:
               print('ERROR: agenda_eventos.json no contiene una lista.')
               sys.exit(1)
 
-          from zoneinfo import ZoneInfo
           today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
           valid = []
           for event in data:
@@ -209,6 +210,8 @@ jobs:
         if: steps.cinemacenter.outcome == 'success'
         run: |
           python - <<'PY2'
+          from datetime import datetime
+
           import json
           import sys
           from datetime import date
@@ -224,7 +227,6 @@ jobs:
           week_start = cartelera.get('week_start')
           week_end = cartelera.get('week_end')
           movies = cartelera.get('movies') or []
-          from zoneinfo import ZoneInfo
           today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
 
           print(f'Fecha del runner: {today}')
