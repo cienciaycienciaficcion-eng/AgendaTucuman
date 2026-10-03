@@ -1,10 +1,10 @@
-name: Actualizar datos Agenda Tucumán
+name: Actualizar Servicios Agenda Tucumán
 
 on:
   workflow_dispatch:
   schedule:
-    # Ejecutar todos los días a las 08:17 de Tucumán (UTC-3).
-    - cron: '17 11 * * *'
+    # Cada 2 horas. Gemini procesa como máximo 50 artículos por corrida.
+    - cron: '17 */2 * * *'
 
 permissions:
   contents: write
@@ -25,35 +25,53 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Extraer TODOS los Servicios
-        working-directory: app
-        run: python extractores/servicios.py
+        continue-on-error: true
+        run: python -u extractores/servicios.py
 
-      - name: Filtrar Servicios con Gemini (1 vez al día)
-        working-directory: app
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GEMINI_MODEL: gemini-2.5-flash
-        run: python scripts/filtrar-servicios-ia.py
-
-      - name: Validar JSON de Servicios
-        working-directory: app
+      - name: Verificar extracción
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          for name in ['datos/servicios_raw.json', 'datos/servicios_tucuman.json']:
-              p=Path(name)
-              data=json.loads(p.read_text(encoding='utf-8'))
+          p = Path('datos/servicios_raw.json')
+          if not p.exists():
+              raise SystemExit('No existe datos/servicios_raw.json')
+          data = json.loads(p.read_text(encoding='utf-8'))
+          articles = data.get('articles', []) if isinstance(data, dict) else data
+          print(f'Artículos extraídos: {len(articles)}')
+          if not isinstance(articles, list):
+              raise SystemExit('Formato inválido de servicios_raw.json')
+          PY
+
+      - name: Filtrar hasta 50 Servicios con Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-2.5-flash
+        run: python -u scripts/filtrar-servicios-ia.py
+
+      - name: Validar JSON de Servicios
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for name in ['datos/servicios_raw.json', 'datos/servicios_tucuman.json', 'datos/servicios_gemini_state.json']:
+              p = Path(name)
+              if not p.exists():
+                  raise SystemExit(f'Falta {name}')
+              data = json.loads(p.read_text(encoding='utf-8'))
               print(f'OK {name}: {p.stat().st_size} bytes')
               if name.endswith('servicios_tucuman.json'):
                   print('Servicios publicados:', data.get('count', 0))
+              if name.endswith('servicios_gemini_state.json'):
+                  print('IDs procesados:', len(data.get('processed', {})))
+                  print('IDs seleccionados:', len(data.get('selected_ids', [])))
           PY
 
-      - name: Publicar datos
+      - name: Publicar datos y estado
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/datos/servicios_raw.json app/datos/servicios_tucuman.json
+          git add datos/servicios_raw.json datos/servicios_tucuman.json datos/servicios_gemini_state.json
           if git diff --cached --quiet; then
             echo "Sin cambios en Servicios."
           else
