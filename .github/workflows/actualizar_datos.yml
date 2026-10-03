@@ -46,7 +46,7 @@ jobs:
           YEAR=$(TZ=America/Argentina/Tucuman date +%Y)
           MONTH=$(TZ=America/Argentina/Tucuman date +%m)
 
-          python extractores/agenda_mec_ia.py \
+          python extractores/agenda_mec.py \
             --start-year "$YEAR" \
             --start-month "$MONTH" \
             --months 12 \
