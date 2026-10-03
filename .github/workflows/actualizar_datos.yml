@@ -37,19 +37,51 @@ jobs:
       - name: Extraer agenda MEC
         id: agenda
         continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
         run: |
           mkdir -p .tmp/agenda
 
           YEAR=$(TZ=America/Argentina/Tucuman date +%Y)
           MONTH=$(TZ=America/Argentina/Tucuman date +%m)
+          HOUR=$(TZ=America/Argentina/Tucuman date +%H)
 
-          python extractores/agenda_mec_ia.py \
-            --start-year "$YEAR" \
-            --start-month "$MONTH" \
-            --months 12 \
-            --lookback-months 2 \
-            --delay 0.15 \
-            --out .tmp/agenda
+          echo "=== EXTRACTOR AGENDA MEC ==="
+          echo "Fecha/hora Tucumán: $(TZ=America/Argentina/Tucuman date '+%Y-%m-%d %H:%M:%S')"
+
+          # La IA de servicios se utiliza una sola vez al día, en la ejecución
+          # de las 08:00 hora de Tucumán. El resto de las ejecuciones usa
+          # exclusivamente el parser determinista.
+          if [ "$HOUR" = "08" ]; then
+            echo "✓ Ventana diaria de IA: se ejecutará agenda_mec_ia.py"
+            GEMINI_ENABLED=1 PYTHONUNBUFFERED=1 python -u extractores/agenda_mec_ia.py \
+              --start-year "$YEAR" \
+              --start-month "$MONTH" \
+              --months 12 \
+              --lookback-months 2 \
+              --delay 0.15 \
+              --out .tmp/agenda
+          else
+            echo "✓ IA fuera de su ventana diaria: se ejecutará agenda_mec.py"
+            GEMINI_ENABLED=0 PYTHONUNBUFFERED=1 python -u extractores/agenda_mec.py \
+              --start-year "$YEAR" \
+              --start-month "$MONTH" \
+              --months 12 \
+              --lookback-months 2 \
+              --delay 0.15 \
+              --out .tmp/agenda
+          fi
+
+          echo "=== ARCHIVOS GENERADOS POR AGENDA ==="
+          find .tmp/agenda -maxdepth 2 -type f -printf '%p %s bytes\n' | sort || true
+
+          if [ ! -s .tmp/agenda/agenda_eventos.json ]; then
+            echo "ERROR: el extractor terminó sin generar .tmp/agenda/agenda_eventos.json"
+            exit 1
+          fi
+
+          echo "✓ agenda_eventos.json generado correctamente."
 
       - name: Validar agenda antes de publicar
         id: validate_agenda
@@ -87,7 +119,8 @@ jobs:
               if not isinstance(event, dict):
                   continue
               end = event.get('date_end') or event.get('date_start')
-              if end and end >= today:
+              source_date = (event.get('_sources') or {}).get('date', '')
+              if (end and end >= today) or source_date == 'services_unverified':
                   valid.append(event)
 
           print(f'Eventos extraídos: {len(data)}')
@@ -399,11 +432,99 @@ jobs:
           PY
 
       # ============================================================
+      # INFORME DE CAMBIOS
+      # ============================================================
+
+      - name: Informar cambios detectados
+        id: changes_report
+        if: steps.json_validation.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          files = [
+              "datos/agenda_eventos.json",
+              "datos/cine_tucuman.json",
+              "datos/radio_tucuman.json",
+              "datos/cine_cinemacenter_tucuman.json",
+          ]
+
+          def load_current(path):
+              p = Path(path)
+              if not p.exists():
+                  return None
+              try:
+                  return json.loads(p.read_text(encoding="utf-8"))
+              except Exception:
+                  return None
+
+          def load_previous(path):
+              try:
+                  raw = subprocess.check_output(["git", "show", f"HEAD:{path}"], stderr=subprocess.DEVNULL)
+                  return json.loads(raw.decode("utf-8"))
+              except Exception:
+                  return None
+
+          def key(item, index):
+              if isinstance(item, dict):
+                  return str(item.get("id") or item.get("_id") or index)
+              return str(index)
+
+          total_changes = 0
+          print("")
+          print("=" * 70)
+          print("INFORME DE CAMBIOS — AGENDA TUCUMÁN")
+          print("=" * 70)
+
+          for filename in files:
+              current = load_current(filename)
+              previous = load_previous(filename)
+
+              if isinstance(current, list) and isinstance(previous, list):
+                  old = {key(x, i): x for i, x in enumerate(previous)}
+                  new = {key(x, i): x for i, x in enumerate(current)}
+                  added = [k for k in new if k not in old]
+                  removed = [k for k in old if k not in new]
+                  modified = [k for k in new if k in old and new[k] != old[k]]
+                  unchanged = len(new) - len(added) - len(modified)
+                  changes = len(added) + len(removed) + len(modified)
+                  total_changes += changes
+
+                  label = filename.replace("datos/", "").replace(".json", "").upper()
+                  print(f"\n{label}")
+                  print(f"  Registros anteriores: {len(previous)}")
+                  print(f"  Registros actuales:   {len(current)}")
+                  print(f"  Nuevos:               {len(added)}")
+                  print(f"  Eliminados:           {len(removed)}")
+                  print(f"  Modificados:          {len(modified)}")
+                  print(f"  Sin cambios:          {unchanged}")
+                  print(f"  CAMBIOS:              {changes}")
+              else:
+                  if current != previous:
+                      total_changes += 1
+                      print(f"\n{filename}")
+                      print("  CAMBIOS: 1 (contenido general modificado)")
+                  else:
+                      print(f"\n{filename}")
+                      print("  Sin cambios")
+
+          print("\n" + "-" * 70)
+          print(f"TOTAL DE CAMBIOS: {total_changes}")
+          if total_changes:
+              print("✓ Hay cambios: se preparará un commit.")
+          else:
+              print("✓ No hay cambios nuevos: no se realizará commit.")
+          print("=" * 70)
+          PY
+
+      # ============================================================
       # COMMIT
       # ============================================================
 
       - name: Guardar cambios
-        if: steps.json_validation.outcome == 'success'
+        if: steps.json_validation.outcome == 'success' && steps.changes_report.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -436,6 +557,15 @@ jobs:
             echo "✓ Agenda MEC: OK"
           else
             echo "✗ Agenda MEC: ERROR"
+          fi
+
+          if [ "${{ steps.agenda.outcome }}" = "success" ]; then
+            HOUR=$(TZ=America/Argentina/Tucuman date +%H)
+            if [ "$HOUR" = "08" ]; then
+              echo "✓ IA Servicios: ejecutada (ventana diaria)"
+            else
+              echo "○ IA Servicios: no ejecutada en esta corrida"
+            fi
           fi
 
           if [ "${{ steps.radio.outcome }}" = "success" ]; then
