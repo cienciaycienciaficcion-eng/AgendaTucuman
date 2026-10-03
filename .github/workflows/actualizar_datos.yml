@@ -9,6 +9,9 @@ on:
 permissions:
   contents: write
 
+env:
+  TZ: America/Argentina/Tucuman
+
 jobs:
   actualizar:
     runs-on: ubuntu-24.04
@@ -37,8 +40,8 @@ jobs:
         run: |
           mkdir -p .tmp/agenda
 
-          YEAR=$(date -u +%Y)
-          MONTH=$(date -u +%m)
+          YEAR=$(TZ=America/Argentina/Tucuman date +%Y)
+          MONTH=$(TZ=America/Argentina/Tucuman date +%m)
 
           python extractores/agenda_mec.py \
             --start-year "$YEAR" \
@@ -73,7 +76,8 @@ jobs:
               print('ERROR: agenda_eventos.json no contiene una lista.')
               sys.exit(1)
 
-          today = date.today().isoformat()
+          from zoneinfo import ZoneInfo
+          today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
           valid = []
           for event in data:
               if not isinstance(event, dict):
@@ -220,7 +224,8 @@ jobs:
           week_start = cartelera.get('week_start')
           week_end = cartelera.get('week_end')
           movies = cartelera.get('movies') or []
-          today = date.today().isoformat()
+          from zoneinfo import ZoneInfo
+          today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
 
           print(f'Fecha del runner: {today}')
           print(f'Semana detectada: {week_start} -> {week_end}')
