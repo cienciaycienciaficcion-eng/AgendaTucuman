@@ -257,9 +257,6 @@ jobs:
         if: steps.cinema_schedule.outputs.due == 'true'
         continue-on-error: true
         run: |
-        id: cinemacenter
-        continue-on-error: true
-        run: |
           mkdir -p .tmp/cinemacenter
           cd .tmp/cinemacenter
 
