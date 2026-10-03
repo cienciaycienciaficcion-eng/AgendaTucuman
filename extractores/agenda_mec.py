@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
 """
 AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.2
 
@@ -56,7 +57,6 @@ REST_TAGS = BASE + "/wp-json/wp/v2/tags"
 REST_MEDIA = BASE + "/wp-json/wp/v2/media"
 
 TZ = "-03:00"
-ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
 
 MONTHS_ES = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
@@ -827,7 +827,7 @@ def ajax_month(session, year, month, delay):
             AJAX_URL,
             data=data,
             headers=HEADERS,
-            timeout=45
+            timeout=20
         )
         time.sleep(delay)
 
@@ -1324,6 +1324,34 @@ def process_event(session, card, delay, query_year, query_month):
     # "Descripción completa". Los datos quedan disponibles en campos
     # estructurados y en highlighted_metadata.
     description = remove_highlighted_metadata_block(description_source, highlighted_metadata)
+
+    # Salvaguarda: algunas respuestas REST pueden traer el bloque como HTML
+    # que luego termina convertido nuevamente a texto. Si todavía queda el
+    # marcador, lo eliminamos aquí mismo antes de publicar el evento.
+    # No toca el resto de la descripción ni modifica otros campos.
+    if highlighted_metadata and re.search(r"\bDatos\s+destacados\b", strip_html(description), re.I):
+        desc_plain = strip_html(description)
+        marker = re.search(r"\bDatos\s+destacados\b", desc_plain, re.I)
+        if marker:
+            description = desc_plain[:marker.start()].strip()
+            hidden_in_card = {
+                "fecha", "día", "dia", "fechas", "hora", "horario", "horarios",
+                "inicio", "fin", "lugar", "sede", "punto de encuentro",
+                "ubicación", "ubicacion", "dirección", "direccion",
+                "dirección del lugar", "direccion del lugar",
+            }
+            extras = []
+            for key, value in highlighted_metadata.items():
+                if key in hidden_in_card:
+                    continue
+                values = value if isinstance(value, list) else [value]
+                label = key[:1].upper() + key[1:]
+                for item in values:
+                    item = clean_location(item)
+                    if item:
+                        extras.append(f"{label}: {item}")
+            if extras:
+                description += "\n\n" + "\n".join(extras)
 
     # Fecha
     title_start, title_end, title_source, title_score = parse_title_dates(
@@ -1839,6 +1867,9 @@ def extract_services(session, delay, year, max_pages=12):
     return list(dedup.values()), errors
 
 def main():
+    print("[MEC] Zona horaria: America/Argentina/Tucuman", flush=True)
+    print(f"[MEC] Fecha Argentina: {datetime.now(ARGENTINA_TZ).isoformat()}", flush=True)
+
     args = parse_args()
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -1867,9 +1898,11 @@ def main():
     # 1. MEC AJAX
     # ---------------------------------------------------------
     for year, month in months:
+        print(f"[MEC] Consultando {year}-{month:02d}...", flush=True)
         html_or_none, status, raw = ajax_month(
             session, year, month, args.delay
         )
+        print(f"[MEC] {year}-{month:02d} -> HTTP {status}", flush=True)
 
         raw_path = out / "ajax_raw" / f"{year:04d}-{month:02d}.json"
         if isinstance(raw, dict):
@@ -2083,7 +2116,7 @@ def main():
     lines = [
         "AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.2",
         "=" * 78,
-        f"Generado: {datetime.now(ARGENTINA_TZ).isoformat()}",
+        f"Generado: {datetime.now().astimezone().isoformat()}",
         f"Fuente: {EVENTOS_URL}",
         f"Meses consultados: {args.months}",
         f"Tarjetas MEC encontradas: {len(all_cards)}",
