@@ -21,11 +21,6 @@ export default function AppTabs() {
         <NativeTabs.Trigger.Label>Agenda</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
 
-      <NativeTabs.Trigger name="calendar">
-        <NativeTabs.Trigger.Icon md={{ default: 'calendar_month', selected: 'calendar_month' }} sf={{ default: 'calendar', selected: 'calendar' }} />
-        <NativeTabs.Trigger.Label>Calendario</NativeTabs.Trigger.Label>
-      </NativeTabs.Trigger>
-
       <NativeTabs.Trigger name="cine">
         <NativeTabs.Trigger.Icon md={{ default: 'movie', selected: 'movie' }} sf={{ default: 'film', selected: 'film.fill' }} />
         <NativeTabs.Trigger.Label>Cine</NativeTabs.Trigger.Label>
@@ -36,8 +31,13 @@ export default function AppTabs() {
         <NativeTabs.Trigger.Label>Radio</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
 
+      <NativeTabs.Trigger name="proximamente">
+        <NativeTabs.Trigger.Icon md={{ default: 'event', selected: 'event' }} sf={{ default: 'calendar.badge.clock', selected: 'calendar.badge.clock' }} />
+        <NativeTabs.Trigger.Label>Próximamente</NativeTabs.Trigger.Label>
+      </NativeTabs.Trigger>
+
       <NativeTabs.Trigger name="services">
-        <NativeTabs.Trigger.Icon md={{ default: 'miscellaneous_services', selected: 'miscellaneous_services' }} sf={{ default: 'wrench.and.screwdriver', selected: 'wrench.and.screwdriver.fill' }} />
+        <NativeTabs.Trigger.Icon md={{ default: 'build', selected: 'build' }} sf={{ default: 'wrench.and.screwdriver', selected: 'wrench.and.screwdriver.fill' }} />
         <NativeTabs.Trigger.Label>Servicios</NativeTabs.Trigger.Label>
       </NativeTabs.Trigger>
     </NativeTabs>

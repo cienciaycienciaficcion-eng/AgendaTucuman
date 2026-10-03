@@ -10,8 +10,6 @@ export type AgendaEvent = {
   end_datetime: string;
   description: string;
   summary?: string;
-  summary_generated?: boolean;
-  summary_version?: number;
   summary_source_hash?: string;
   image: string;
   price: number | null;
@@ -49,6 +47,11 @@ export type CinemaMovieMetadata = {
   imdb_id?: string;
   imdb_url?: string;
   classification?: string;
+  rating?: string;
+  nationality?: string;
+  distributor?: string;
+  trailer?: string;
+  source_url?: string;
 };
 
 export type CinemaMovie = {
@@ -81,4 +84,11 @@ export type CinemaData = {
     week_end: string | null;
     movies: CinemaMovie[];
   };
+  proximos_estrenos?: Array<{
+    id: string;
+    title: string;
+    release_date?: string;
+    source_url?: string;
+    status?: string;
+  }>;
 };

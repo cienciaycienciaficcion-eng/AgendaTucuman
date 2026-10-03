@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { EventCard } from '@/components/event-card';
+import { EventCalendar } from '@/components/event-calendar';
 import { EventDetailsModal } from '@/components/event-details-modal';
 import { ThemedText } from '@/components/themed-text';
 import { Colors, Spacing, MaxContentWidth } from '@/constants/theme';
@@ -91,6 +92,16 @@ export default function AgendaScreen() {
           ))}
         </ScrollView>
 
+        <View style={styles.calendarSection}>
+          <EventCalendar
+            events={events}
+            today={today}
+            title="Calendario de Agenda"
+            subtitle="Consultá por fecha y por tema."
+            topicLabel="Temas de la agenda"
+          />
+        </View>
+
         <ThemedText type="subtitle" style={styles.sectionTitle}>Próximos eventos</ThemedText>
 
         {events.length === 0 ? (
@@ -121,5 +132,6 @@ const styles = StyleSheet.create({
   filterActive: { backgroundColor: Colors.light.primary, borderColor: Colors.light.primary },
   filterTextActive: { color: '#fff', fontWeight: '700' },
   sectionTitle: { marginTop: 16, marginBottom: 12 },
+  calendarSection: { marginTop: 18, marginBottom: 8 },
   empty: { padding: 32, borderRadius: 18, backgroundColor: Colors.light.backgroundElement, alignItems: 'center', gap: 8 },
 });

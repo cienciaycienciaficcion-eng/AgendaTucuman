@@ -8,12 +8,24 @@ type RadioTrack = {
   raw?: string;
 };
 
+type RadioInfo = {
+  listeners?: number;
+  bitrate?: number;
+  genre?: string;
+  server?: string;
+  mount?: string;
+  streamTitle?: string;
+  status?: string;
+  updatedAt?: string;
+};
+
 type RadioContextValue = {
   playing: boolean;
   loading: boolean;
   online: boolean;
   stream: string;
   currentTrack: RadioTrack | null;
+  radioInfo: RadioInfo;
   play: () => void;
   pause: () => void;
   stop: () => void;
@@ -104,7 +116,10 @@ function parseTrack(value: any): RadioTrack | null {
   return null;
 }
 
-async function fetchRadioMetadata(): Promise<RadioTrack | null> {
+async function fetchRadioMetadata(): Promise<{ track: RadioTrack | null; info: RadioInfo }> {
+  let track: RadioTrack | null = null;
+  const info: RadioInfo = {};
+
   for (const url of METADATA_URLS) {
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), 5000);
@@ -115,26 +130,45 @@ async function fetchRadioMetadata(): Promise<RadioTrack | null> {
         cache: 'no-store',
       });
       if (!response.ok) continue;
-
       const text = await response.text();
       if (!text) continue;
 
-      try {
-        const json = JSON.parse(text);
-        const parsed = parseTrack(json);
-        if (parsed) return parsed;
-      } catch {
-        const parsed = parseTrack(text);
-        if (parsed) return parsed;
+      let payload: any = null;
+      try { payload = JSON.parse(text); } catch { payload = text; }
+      const parsed = parseTrack(payload);
+      if (parsed && !track) track = parsed;
+
+      const candidates = [payload, payload?.icestats, payload?.source, payload?.data, payload?.response];
+      for (const item of candidates) {
+        if (!item || typeof item !== 'object') continue;
+        const source = Array.isArray(item.source) ? item.source[0] : item.source;
+        const obj = source && typeof source === 'object' ? source : item;
+        const listeners = Number(obj.listeners ?? obj.listener_count ?? obj.currentlisteners ?? obj.current_listeners);
+        const bitrate = Number(obj.bitrate ?? obj.bitrate_kbps ?? obj.bit_rate);
+        if (Number.isFinite(listeners)) info.listeners = listeners;
+        if (Number.isFinite(bitrate) && bitrate > 0) info.bitrate = bitrate;
+        info.genre ||= cleanTrackText(obj.genre ?? obj.servergenre ?? obj.genre_name);
+        info.server ||= cleanTrackText(obj.server_name ?? obj.servertitle ?? obj.serverTitle);
+        info.mount ||= cleanTrackText(obj.mount ?? obj.mountpoint ?? obj.stream_mount);
+        info.streamTitle ||= cleanTrackText(obj.streamtitle ?? obj.streamTitle);
+        info.status ||= cleanTrackText(obj.serverstatus ?? obj.status);
+      }
+
+      if (typeof payload === 'string') {
+        const fields = payload.replace(/\r?\n/g, '').split(',').map(v => v.trim());
+        if (fields.length >= 3 && /^\d+$/.test(fields[0])) {
+          const n = Number(fields[0]);
+          if (Number.isFinite(n)) info.listeners ??= n;
+          info.streamTitle ||= fields.slice(2).join(', ');
+        }
       }
     } catch {
       // Try the next metadata endpoint.
-    } finally {
-      clearTimeout(timer);
-    }
+    } finally { clearTimeout(timer); }
   }
 
-  return null;
+  info.updatedAt = new Date().toISOString();
+  return { track, info };
 }
 
 export function RadioProvider({ children }: { children: React.ReactNode }) {
@@ -145,6 +179,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
   });
   const status = useAudioPlayerStatus(player);
   const [currentTrack, setCurrentTrack] = useState<RadioTrack | null>(() => parseTrack(radioData));
+  const [radioInfo, setRadioInfo] = useState<RadioInfo>({});
 
   useEffect(() => {
     void setAudioModeAsync({
@@ -158,12 +193,10 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     let cancelled = false;
 
     const poll = async () => {
-      const track = await fetchRadioMetadata();
-      if (!cancelled && track) {
-        setCurrentTrack(previous => {
-          if (previous?.raw === track.raw) return previous;
-          return track;
-        });
+      const result = await fetchRadioMetadata();
+      if (!cancelled) {
+        if (result.track) setCurrentTrack(previous => previous?.raw === result.track!.raw ? previous : result.track);
+        setRadioInfo(result.info);
       }
     };
 
@@ -219,6 +252,7 @@ export function RadioProvider({ children }: { children: React.ReactNode }) {
     online,
     stream,
     currentTrack,
+    radioInfo,
     play,
     pause,
     stop,

@@ -5,9 +5,6 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { ThemedText } from '@/components/themed-text';
 import { Colors, MaxContentWidth, Spacing } from '@/constants/theme';
 import { todayIso } from '@/data';
-
-const CINEMACENTER_ESTRENOS_URL = 'https://www.cinemacenter.com.ar/estrenos#contenido';
-const MIBOLETERIA_FALLBACK_URL = 'https://www.miboleteria.com.ar';
 import { useCinemaData } from '@/data/use-remote-data';
 
 function formatReleaseDate(value?: string) {
@@ -206,14 +203,9 @@ export default function CineScreen() {
               Cinemacenter Tucumán · {cinemaData?.cartelera?.week_start} al {cinemaData?.cartelera?.week_end}
             </ThemedText>
           </View>
-          <View style={styles.headerActions}>
-            <Pressable onPress={() => Linking.openURL(CINEMACENTER_ESTRENOS_URL)} style={styles.source}>
-              <ThemedText style={styles.sourceText}>Próximos estrenos</ThemedText>
-            </Pressable>
-            <Pressable onPress={() => Linking.openURL(cinemaData?.mi_boleteria_url || MIBOLETERIA_FALLBACK_URL)} style={styles.ticketButton}>
-              <ThemedText style={styles.sourceText}>🎟 Mi Boletería</ThemedText>
-            </Pressable>
-          </View>
+          <Pressable onPress={() => Linking.openURL('https://www.cinemacenter.com.ar/cartelera#contenido')} style={styles.source}>
+            <ThemedText style={styles.sourceText}>Sitio oficial</ThemedText>
+          </Pressable>
         </View>
 
         {loading && movies.length === 0 ? (
@@ -267,7 +259,7 @@ export default function CineScreen() {
             ))}
           </Pressable>
         ))}
-        {(upcomingMovies.length > 0 || true) ? (
+        {upcomingMovies.length > 0 ? (
           <View style={styles.upcomingSection}>
             <View style={styles.upcomingHeader}>
               <View style={{ flex: 1 }}>
@@ -277,19 +269,14 @@ export default function CineScreen() {
                 </ThemedText>
               </View>
               <Pressable
-                onPress={() => Linking.openURL(CINEMACENTER_ESTRENOS_URL)}
+                onPress={() => Linking.openURL('https://www.cinemacenter.com.ar/estrenos#contenido')}
                 style={styles.upcomingLink}
               >
-                <ThemedText style={styles.sourceText}>Ver todos</ThemedText>
+                <ThemedText style={styles.sourceText}>Ver sitio</ThemedText>
               </Pressable>
             </View>
 
-            {upcomingMovies.length === 0 ? (
-              <View style={styles.emptyUpcoming}>
-                <ThemedText themeColor="textSecondary">Consultá los próximos estrenos directamente en Cinemacenter.</ThemedText>
-              </View>
-            ) : null}
-            {upcomingMovies.filter((movie: any) => movie.release_date).map((movie: any) => (
+            {upcomingMovies.map((movie: any) => (
               <Pressable
                 key={movie.id || `${movie.title}-${movie.release_date}`}
                 style={({ pressed }) => [styles.upcomingCard, pressed && { opacity: 0.78 }]}
@@ -324,8 +311,6 @@ const styles = StyleSheet.create({
   header:{flexDirection:'row',alignItems:'center',gap:12,marginBottom:18},
   source:{backgroundColor:Colors.light.primary,borderRadius:14,paddingHorizontal:12,paddingVertical:9},
   sourceText:{color:'#fff',fontWeight:'700',fontSize:12},
-  headerActions:{alignItems:'flex-end',gap:7},
-  ticketButton:{backgroundColor:Colors.light.primaryDark,borderRadius:14,paddingHorizontal:12,paddingVertical:9},
   card:{backgroundColor:'#fff',borderWidth:1,borderColor:Colors.light.border,borderRadius:18,padding:16,marginBottom:12},
   movieHeader:{flexDirection:'row',gap:12,alignItems:'center'},
   thumb:{width:62,height:88,borderRadius:10,backgroundColor:'#E8E8E8'},
@@ -353,7 +338,6 @@ const styles = StyleSheet.create({
   upcomingMonth:{fontSize:10,fontWeight:'800',color:Colors.light.textSecondary},
   upcomingMovieTitle:{fontSize:18,lineHeight:22},
   upcomingMovieDate:{fontSize:12,marginTop:3},
-  emptyUpcoming:{backgroundColor:'#fff',borderWidth:1,borderColor:Colors.light.border,borderRadius:14,padding:14},
 
   modalBackdrop:{flex:1,backgroundColor:'rgba(0,0,0,0.42)',justifyContent:'flex-end'},
   modalCard:{backgroundColor:Colors.light.background,borderTopLeftRadius:28,borderTopRightRadius:28,maxHeight:'94%',overflow:'hidden'},

@@ -2,21 +2,22 @@ import { useMemo, useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { EventCard } from '@/components/event-card';
+import { EventCalendar } from '@/components/event-calendar';
 import { EventDetailsModal } from '@/components/event-details-modal';
 import { ThemedText } from '@/components/themed-text';
 import { eventCategories, eventIsActiveOrUpcoming, isServiceEvent, normalizeSearchText, todayIso } from '@/data';
 import { Colors, MaxContentWidth, Spacing } from '@/constants/theme';
-import { useAgendaData } from '@/data/use-remote-data';
+import { useServicesData } from '@/data/use-remote-data';
 
 export default function ServicesScreen() {
-  const { events: agendaEvents } = useAgendaData();
+  const { events: serviceEvents } = useServicesData();
   const [query, setQuery] = useState('');
   const [selectedEvent, setSelectedEvent] = useState<any | null>(null);
   const today = todayIso();
 
   const events = useMemo(() => {
     const q = normalizeSearchText(query);
-    return [...agendaEvents]
+    return [...serviceEvents]
       .filter(event => eventIsActiveOrUpcoming(event, today))
       .filter(event => isServiceEvent(event))
       .filter(event => !q || normalizeSearchText([
@@ -27,7 +28,7 @@ export default function ServicesScreen() {
         ...eventCategories(event),
       ].join(' ')).includes(q))
       .sort((a, b) => a.start_datetime.localeCompare(b.start_datetime));
-  }, [agendaEvents, query, today]);
+  }, [serviceEvents, query, today]);
 
   return (
     <SafeAreaView style={styles.safe}>
@@ -45,6 +46,16 @@ export default function ServicesScreen() {
           placeholderTextColor="#87948D"
           style={styles.search}
         />
+
+        <View style={styles.calendarSection}>
+          <EventCalendar
+            events={events}
+            today={today}
+            title="Calendario de Servicios"
+            subtitle="Consultá trámites, servicios y actividades por fecha."
+            topicLabel="Temas de servicios"
+          />
+        </View>
 
         <ThemedText type="subtitle" style={styles.sectionTitle}>
           {events.length} servicio{events.length === 1 ? '' : 's'}
@@ -74,6 +85,7 @@ const styles = StyleSheet.create({
   content:{width:'100%',maxWidth:MaxContentWidth,alignSelf:'center',paddingHorizontal:Spacing.three,paddingTop:12,paddingBottom:130},
   subtitle:{marginTop:5,marginBottom:18},
   search:{color:Colors.light.text,backgroundColor:Colors.light.backgroundElement,borderColor:Colors.light.border,borderWidth:1,borderRadius:14,paddingHorizontal:16,paddingVertical:12,fontSize:15,marginBottom:12},
+  calendarSection:{marginTop:8,marginBottom:18},
   sectionTitle:{marginTop:8,marginBottom:12},
   empty:{padding:32,borderRadius:18,backgroundColor:Colors.light.backgroundElement,alignItems:'center',gap:8},
 });

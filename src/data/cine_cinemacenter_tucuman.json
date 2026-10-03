@@ -1,14 +1,14 @@
 {
-  "schema_version": "3.0",
-  "generated_at": "2026-10-03T10:30:38.786926-03:00",
-  "reference_date": "2026-10-03",
+  "schema_version": "2.0",
+  "generated_at": "2026-09-29T11:27:14.815658-03:00",
+  "reference_date": "2026-09-29",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "113eb8c9b056f40860fe3a0b252a568b8ab4dcf6d8fb4388521bbf8be7a79f7f"
+    "pdf_sha256": "db8904a18bd61a1b30bf1937c9d1578019d8b2b04bdadc2e63f25ca8c75e4908"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -17,8 +17,8 @@
     "country": "Argentina"
   },
   "cartelera": {
-    "week_start": "2026-10-01",
-    "week_end": "2026-10-07",
+    "week_start": "2026-09-24",
+    "week_end": "2026-09-30",
     "movies": [
       {
         "id": "cinemacenter-tucuman-toy-story-5-2d-cast",
@@ -30,79 +30,89 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "15:20"
-          ],
-          "domingo": [
-            "15:20"
-          ],
+          "sábado": [],
+          "domingo": [],
           "lunes": [],
-          "martes": [],
-          "miércoles": []
+          "martes": [
+            "16:00",
+            "18:20"
+          ],
+          "miércoles": [
+            "16:00",
+            "18:20"
+          ]
         },
         "occurrences": [
           {
-            "date": "2026-10-03",
-            "time": "15:20",
-            "datetime": "2026-10-03T15:20:00",
-            "weekday": "sábado"
+            "date": "2026-09-29",
+            "time": "16:00",
+            "datetime": "2026-09-29T16:00:00",
+            "weekday": "martes"
           },
           {
-            "date": "2026-10-04",
-            "time": "15:20",
-            "datetime": "2026-10-04T15:20:00",
-            "weekday": "domingo"
+            "date": "2026-09-29",
+            "time": "18:20",
+            "datetime": "2026-09-29T18:20:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "16:00",
+            "datetime": "2026-09-30T16:00:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "18:20",
+            "datetime": "2026-09-30T18:20:00",
+            "weekday": "miércoles"
           }
-        ],
-        "cinemacenter_movie_id": 5608,
-        "metadata": {
-          "title": "TOY STORY 5 - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 102,
-          "genres": [
-            "Animación Aventuras"
+        ]
+      },
+      {
+        "id": "cinemacenter-tucuman-spider-man-un-nuevo-dia-2d-cast",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "SPIDER-MAN: UN NUEVO DIA",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "CAST",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
+        "schedule": {
+          "jueves": [],
+          "viernes": [],
+          "sábado": [],
+          "domingo": [],
+          "lunes": [],
+          "martes": [
+            "21:50"
           ],
-          "director": [
-            "Andrew Stanton"
-          ],
-          "cast": [
-            "Tom Hanks",
-            "Tim Allen",
-            "Joan Cusack",
-            "Conan O'Brien",
-            "Greta Lee."
-          ],
-          "synopsis": "Los juguetes están de vuelta en «Toy Story 5», de Disney y Pixar, y esta vez se enfrentan los juguetes y la tecnología. El trabajo de Buzz, Woody, Jessie y el resto de la pandilla se complica exponencialmente cuando se enfrentan a esta nueva amenaza para el tiempo de juego.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3398_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Estados Unidos",
-          "distributor": "Disney",
-          "trailer": "https://www.youtube.com/embed/s_qpMMkvHYE",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5608-TOY-STORY-5---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 18 de Junio de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5608,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
+          "miércoles": [
+            "21:50"
+          ]
+        },
+        "occurrences": [
+          {
+            "date": "2026-09-29",
+            "time": "21:50",
+            "datetime": "2026-09-29T21:50:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "21:50",
+            "datetime": "2026-09-30T21:50:00",
+            "weekday": "miércoles"
+          }
+        ]
       },
       {
         "id": "cinemacenter-tucuman-coyote-vs-acme-2d-cast",
@@ -114,165 +124,77 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "14:20",
-            "15:30",
-            "18:00",
-            "21:40"
-          ],
-          "domingo": [
-            "14:20",
-            "15:30",
-            "18:00",
-            "21:40"
-          ],
-          "lunes": [
-            "18:00",
-            "21:40"
-          ],
+          "sábado": [],
+          "domingo": [],
+          "lunes": [],
           "martes": [
+            "17:20",
             "18:00",
-            "21:40"
+            "20:30",
+            "21:30"
           ],
           "miércoles": [
+            "17:20",
             "18:00",
-            "21:40"
+            "20:30",
+            "21:30"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-10-03",
-            "time": "14:20",
-            "datetime": "2026-10-03T14:20:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "15:30",
-            "datetime": "2026-10-03T15:30:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "18:00",
-            "datetime": "2026-10-03T18:00:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "21:40",
-            "datetime": "2026-10-03T21:40:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "14:20",
-            "datetime": "2026-10-04T14:20:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "15:30",
-            "datetime": "2026-10-04T15:30:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "18:00",
-            "datetime": "2026-10-04T18:00:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "21:40",
-            "datetime": "2026-10-04T21:40:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "18:00",
-            "datetime": "2026-10-05T18:00:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "21:40",
-            "datetime": "2026-10-05T21:40:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "18:00",
-            "datetime": "2026-10-06T18:00:00",
+            "date": "2026-09-29",
+            "time": "17:20",
+            "datetime": "2026-09-29T17:20:00",
             "weekday": "martes"
           },
           {
-            "date": "2026-10-06",
-            "time": "21:40",
-            "datetime": "2026-10-06T21:40:00",
+            "date": "2026-09-29",
+            "time": "18:00",
+            "datetime": "2026-09-29T18:00:00",
             "weekday": "martes"
           },
           {
-            "date": "2026-10-07",
-            "time": "18:00",
-            "datetime": "2026-10-07T18:00:00",
+            "date": "2026-09-29",
+            "time": "20:30",
+            "datetime": "2026-09-29T20:30:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-29",
+            "time": "21:30",
+            "datetime": "2026-09-29T21:30:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "17:20",
+            "datetime": "2026-09-30T17:20:00",
             "weekday": "miércoles"
           },
           {
-            "date": "2026-10-07",
-            "time": "21:40",
-            "datetime": "2026-10-07T21:40:00",
+            "date": "2026-09-30",
+            "time": "18:00",
+            "datetime": "2026-09-30T18:00:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "20:30",
+            "datetime": "2026-09-30T20:30:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "21:30",
+            "datetime": "2026-09-30T21:30:00",
             "weekday": "miércoles"
           }
-        ],
-        "cinemacenter_movie_id": 5736,
-        "metadata": {
-          "title": "COYOTE VS ACME - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 110,
-          "genres": [
-            "Animación Familiar"
-          ],
-          "director": [
-            "Dave Green"
-          ],
-          "cast": [
-            "John Cena",
-            "Will Forte",
-            "Lana Condor",
-            "Tone Bell"
-          ],
-          "synopsis": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3548_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Estados Unidos",
-          "distributor": "BF",
-          "trailer": "https://www.youtube.com/embed/r4HNeBH7Q4A",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5736-COYOTE-VS-ACME---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 27 de Agosto de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5736,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
+        ]
       },
       {
         "id": "cinemacenter-tucuman-resident-evil-noche-cero-2d-cast",
@@ -284,134 +206,63 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "20:30",
-            "22:40"
-          ],
-          "domingo": [
-            "20:30",
-            "22:40"
-          ],
-          "lunes": [
-            "20:30",
-            "22:40"
-          ],
+          "sábado": [],
+          "domingo": [],
+          "lunes": [],
           "martes": [
-            "20:30",
-            "22:40"
+            "18:15",
+            "20:20",
+            "22:30"
           ],
           "miércoles": [
-            "20:30",
-            "22:40"
+            "18:15",
+            "20:20",
+            "22:30"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-10-03",
-            "time": "20:30",
-            "datetime": "2026-10-03T20:30:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "22:40",
-            "datetime": "2026-10-03T22:40:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "20:30",
-            "datetime": "2026-10-04T20:30:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "22:40",
-            "datetime": "2026-10-04T22:40:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "20:30",
-            "datetime": "2026-10-05T20:30:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:40",
-            "datetime": "2026-10-05T22:40:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "20:30",
-            "datetime": "2026-10-06T20:30:00",
+            "date": "2026-09-29",
+            "time": "18:15",
+            "datetime": "2026-09-29T18:15:00",
             "weekday": "martes"
           },
           {
-            "date": "2026-10-06",
-            "time": "22:40",
-            "datetime": "2026-10-06T22:40:00",
+            "date": "2026-09-29",
+            "time": "20:20",
+            "datetime": "2026-09-29T20:20:00",
             "weekday": "martes"
           },
           {
-            "date": "2026-10-07",
-            "time": "20:30",
-            "datetime": "2026-10-07T20:30:00",
+            "date": "2026-09-29",
+            "time": "22:30",
+            "datetime": "2026-09-29T22:30:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "18:15",
+            "datetime": "2026-09-30T18:15:00",
             "weekday": "miércoles"
           },
           {
-            "date": "2026-10-07",
-            "time": "22:40",
-            "datetime": "2026-10-07T22:40:00",
+            "date": "2026-09-30",
+            "time": "20:20",
+            "datetime": "2026-09-30T20:20:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "22:30",
+            "datetime": "2026-09-30T22:30:00",
             "weekday": "miércoles"
           }
-        ],
-        "cinemacenter_movie_id": 5773,
-        "metadata": {
-          "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 94,
-          "genres": [
-            "Terror Thriller"
-          ],
-          "director": [
-            "Zach Cregger"
-          ],
-          "cast": [
-            "Austin Abrams Paul Walter Hauser Kali Reis"
-          ],
-          "synopsis": "Sigue a un desafortunado mensajero encargado de entregar un paquete a un hospital remoto. Pronto se encuentra atrapado en medio de una epidemia y debe luchar contra hordas de criaturas mutantes para sobrevivir.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3564_img2.jpg",
-          "classification": "R17 - Restringida para menores de 17 años",
-          "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/5QDq7evE2R8",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5773-RESIDENT-EVIL-NOCHE-CERO---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 17 de Septiembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5773,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
+        ]
       },
       {
         "id": "cinemacenter-tucuman-la-isla-olvidada-2d-cast",
@@ -423,99 +274,35 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:20"
-          ],
-          "domingo": [
-            "17:20"
-          ],
-          "lunes": [
-            "17:20"
-          ],
+          "sábado": [],
+          "domingo": [],
+          "lunes": [],
           "martes": [
-            "17:20"
+            "19:30"
           ],
           "miércoles": [
-            "17:20"
+            "19:30"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-10-03",
-            "time": "17:20",
-            "datetime": "2026-10-03T17:20:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "17:20",
-            "datetime": "2026-10-04T17:20:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "17:20",
-            "datetime": "2026-10-05T17:20:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "17:20",
-            "datetime": "2026-10-06T17:20:00",
+            "date": "2026-09-29",
+            "time": "19:30",
+            "datetime": "2026-09-29T19:30:00",
             "weekday": "martes"
           },
           {
-            "date": "2026-10-07",
-            "time": "17:20",
-            "datetime": "2026-10-07T17:20:00",
+            "date": "2026-09-30",
+            "time": "19:30",
+            "datetime": "2026-09-30T19:30:00",
             "weekday": "miércoles"
           }
-        ],
-        "cinemacenter_movie_id": 5782,
-        "metadata": {
-          "title": "LA ISLA OLVIDADA - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 109,
-          "genres": [
-            "Animación Aventuras"
-          ],
-          "director": [
-            "Joel Crawford y Januel Mercado"
-          ],
-          "cast": [],
-          "synopsis": "La isla olvidada sigue a Jo y Raissa, dos recién graduadas de bachillerato que han sido mejores amigas desde la primaria, pero que ahora están a punto de emprender caminos separados. Mientras celebran su última noche juntas, Jo y Raissa se topan con un misterioso portal que las transporta a la fantástica isla de Nakali, repleta de criaturas mágicas y mitológicas de las que crecieron escuchando historias contadas por sus familias filipinas. Algunas de estas figuras se convertirán en amigas, otras en enemigas. Acompañadas por el bienintencionado pero desventurado hombre-perro Raww y una pequeña pero poderosa manada de amigos, Jo y Raissa deben enfrentarse a la temible Manananggal, la criatura más temida de la isla. Cuando descubren que los recuerdos de toda su amistad son el precio a pagar por volver a casa, Jo y Raissa se verán obligadas a encontrar una forma de abandonar la isla antes de olvidarse la una de la otra para siempre.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3530_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/XvPEaYrsaXs",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5782-LA-ISLA-OLVIDADA---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [
-            "cast"
-          ],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 24 de Septiembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "partial_source",
-          "cinemacenter_movie_id": 5782,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
+        ]
       },
       {
         "id": "cinemacenter-tucuman-el-corazon-de-la-bestia-2d-cast",
@@ -527,972 +314,223 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "22:20"
-          ],
-          "domingo": [
-            "22:20"
-          ],
-          "lunes": [
-            "22:20"
-          ],
-          "martes": [
-            "22:20"
-          ],
-          "miércoles": [
-            "22:20"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "22:20",
-            "datetime": "2026-10-03T22:20:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "22:20",
-            "datetime": "2026-10-04T22:20:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:20",
-            "datetime": "2026-10-05T22:20:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "22:20",
-            "datetime": "2026-10-06T22:20:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "22:20",
-            "datetime": "2026-10-07T22:20:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5784,
-        "metadata": {
-          "title": "EL CORAZON DE LA BESTIA - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 101,
-          "genres": [
-            "Thriller"
-          ],
-          "director": [
-            "David Ayer"
-          ],
-          "cast": [
-            "Brad Pitt",
-            "K. Simmons",
-            "Anna Lambe"
-          ],
-          "synopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont (Brad Pitt) y su perro de combate, Odin, quedan varados en lo profundo de la naturaleza salvaje de Alaska. Juntos, se ven obligados a librar una brutal lucha por la supervivencia contra los elementos. Del aclamado cineasta David Ayer, El corazón de la bestia es un intenso thriller de aventuras que explora el vínculo inquebrantable entre un hombre y su mejor amigo mientras se enfrentan a su mayor batalla hasta el momento.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3597_img2.jpg",
-          "classification": "SP - Supervisión Parental sugerida",
-          "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/Bypmyqib4rU",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5784-EL-CORAZON-DE-LA-BESTIA---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 24 de Septiembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5784,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-puella-magi-madoka-magica-the-movie-walpurgisnacht-rising-la-pelicula-2d-sub",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "SUB",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "17:40"
-          ],
-          "domingo": [
-            "17:40"
-          ],
-          "lunes": [
-            "17:40"
-          ],
-          "martes": [
-            "17:40"
-          ],
-          "miércoles": [
-            "17:40"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "17:40",
-            "datetime": "2026-10-03T17:40:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "17:40",
-            "datetime": "2026-10-04T17:40:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "17:40",
-            "datetime": "2026-10-05T17:40:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "17:40",
-            "datetime": "2026-10-06T17:40:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "17:40",
-            "datetime": "2026-10-07T17:40:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5786,
-        "metadata": {
-          "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 120,
-          "genres": [
-            "Animé"
-          ],
-          "director": [
-            "Yukihiro Miyamoto",
-            "Akiyuki Shinbō"
-          ],
-          "cast": [
-            "Kana Asumi",
-            "Emiri Kato",
-            "Eri Kitamura"
-          ],
-          "synopsis": "En un mundo aparentemente pacífico, Homura Akemi se enfrenta a un nuevo y peligroso enemigo vinculado a Walpurgisnacht, lo que la obliga a lidiar con las decisiones del pasado y con los esfuerzos que hará para mantener a Madoka a salvo.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3648_img2.jpg",
-          "classification": "Desconocido",
-          "nationality": "Japón",
-          "distributor": "Cinemark",
-          "trailer": null,
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5786-PUELLA-MAGI-MADOKA-MAGICA-THE-MOVIE-WALPURGISNACHT-RISING-LA-PELICULA---2D-SUB",
-          "source": "Cinemacenter",
-          "trailer_source": null,
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5786,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-digger-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "DIGGER",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "19:50",
-            "22:10"
-          ],
-          "domingo": [
-            "19:50",
-            "22:10"
-          ],
-          "lunes": [
-            "19:50",
-            "22:10"
-          ],
-          "martes": [
-            "19:50",
-            "22:10"
-          ],
-          "miércoles": [
-            "19:50",
-            "22:10"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "19:50",
-            "datetime": "2026-10-03T19:50:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "22:10",
-            "datetime": "2026-10-03T22:10:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "19:50",
-            "datetime": "2026-10-04T19:50:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "22:10",
-            "datetime": "2026-10-04T22:10:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "19:50",
-            "datetime": "2026-10-05T19:50:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:10",
-            "datetime": "2026-10-05T22:10:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "19:50",
-            "datetime": "2026-10-06T19:50:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "22:10",
-            "datetime": "2026-10-06T22:10:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "19:50",
-            "datetime": "2026-10-07T19:50:00",
-            "weekday": "miércoles"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "22:10",
-            "datetime": "2026-10-07T22:10:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5800,
-        "metadata": {
-          "title": "DIGGER - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 129,
-          "genres": [
-            "Comedia Drama"
-          ],
-          "director": [
-            "Alejandro González Iñárritu"
-          ],
-          "cast": [
-            "Tom Cruise",
-            "Sandra Hüller",
-            "John Goodman",
-            "Riz Ahmed",
-            "Michael Stuhlbarg",
-            "Jesse Plemons",
-            "Sophie Wilde"
-          ],
-          "synopsis": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desatado lo destruya todo.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3439_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "Warner Bros.",
-          "trailer": "https://www.youtube.com/embed/gmdX4h1POCk",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5800-DIGGER---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5800,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-verity-la-sombra-de-un-engano-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "VERITY LA SOMBRA DE UN ENGAÑO",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "19:40",
-            "22:30"
-          ],
-          "domingo": [
-            "19:40"
-          ],
-          "lunes": [
-            "19:40",
-            "22:30"
-          ],
-          "martes": [
-            "19:40",
-            "22:30"
-          ],
-          "miércoles": [
-            "19:40",
-            "22:30"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "19:40",
-            "datetime": "2026-10-03T19:40:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "22:30",
-            "datetime": "2026-10-03T22:30:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "19:40",
-            "datetime": "2026-10-04T19:40:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "19:40",
-            "datetime": "2026-10-05T19:40:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:30",
-            "datetime": "2026-10-05T22:30:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "19:40",
-            "datetime": "2026-10-06T19:40:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "22:30",
-            "datetime": "2026-10-06T22:30:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "19:40",
-            "datetime": "2026-10-07T19:40:00",
-            "weekday": "miércoles"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "22:30",
-            "datetime": "2026-10-07T22:30:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5801,
-        "metadata": {
-          "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 118,
-          "genres": [
-            "Thriller"
-          ],
-          "director": [
-            "Michael Showalter"
-          ],
-          "cast": [
-            "Dakota Johnson",
-            "Anne Hathaway",
-            "Josh Hartnett"
-          ],
-          "synopsis": "Adaptada de la novela bestseller de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford (Anne Hathaway) y a Lowen Ashleigh (Dakota Johnson), una escritora en dificultades que se muda a la remota finca de los Crawford para escribir en nombre de Verity. Después de que Lowen descubre lo que parecen ser las inquietantes notas autobiográficas de Verity, se enfrenta a perturbadoras y retorcidas confesiones sobre el esposo de Verity, Jeremy (Josh Hartnett), mientras lucha por distinguir entre la ficción y la realidad, la manipulación y la atracción, y la oportunidad y la obsesión.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3563_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/UdiWMHwobtE",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5801-VERITY-LA-SOMBRA-DE-UN-ENGA-O---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5801,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-verity-la-sombra-de-un-engano-2d-sub",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "VERITY LA SOMBRA DE UN ENGAÑO",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "SUB",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
         "schedule": {
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "22:30"
-          ],
-          "lunes": [],
-          "martes": [],
-          "miércoles": []
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-04",
-            "time": "22:30",
-            "datetime": "2026-10-04T22:30:00",
-            "weekday": "domingo"
-          }
-        ],
-        "cinemacenter_movie_id": 5802,
-        "metadata": {
-          "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D SUB",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-04",
-          "duration_minutes": 118,
-          "genres": [
-            "Thriller"
-          ],
-          "director": [
-            "Michael Showalter"
-          ],
-          "cast": [
-            "Dakota Johnson",
-            "Anne Hathaway",
-            "Josh Hartnett"
-          ],
-          "synopsis": "Adaptada de la novela bestseller de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford (Anne Hathaway) y a Lowen Ashleigh (Dakota Johnson), una escritora en dificultades que se muda a la remota finca de los Crawford para escribir en nombre de Verity. Después de que Lowen descubre lo que parecen ser las inquietantes notas autobiográficas de Verity, se enfrenta a perturbadoras y retorcidas confesiones sobre el esposo de Verity, Jeremy (Josh Hartnett), mientras lucha por distinguir entre la ficción y la realidad, la manipulación y la atracción, y la oportunidad y la obsesión.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3563_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/UdiWMHwobtE",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5802-VERITY-LA-SOMBRA-DE-UN-ENGA-O---2D-SUB",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5802,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-vertigo-2-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "VERTIGO 2",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "20:10"
-          ],
           "domingo": [],
-          "lunes": [
-            "20:10"
-          ],
+          "lunes": [],
           "martes": [
-            "20:10"
+            "19:40",
+            "22:00"
           ],
           "miércoles": [
-            "20:10"
+            "19:40",
+            "22:00"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-10-03",
-            "time": "20:10",
-            "datetime": "2026-10-03T20:10:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "20:10",
-            "datetime": "2026-10-05T20:10:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "20:10",
-            "datetime": "2026-10-06T20:10:00",
+            "date": "2026-09-29",
+            "time": "19:40",
+            "datetime": "2026-09-29T19:40:00",
             "weekday": "martes"
           },
           {
-            "date": "2026-10-07",
-            "time": "20:10",
-            "datetime": "2026-10-07T20:10:00",
+            "date": "2026-09-29",
+            "time": "22:00",
+            "datetime": "2026-09-29T22:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "19:40",
+            "datetime": "2026-09-30T19:40:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "22:00",
+            "datetime": "2026-09-30T22:00:00",
             "weekday": "miércoles"
           }
-        ],
-        "cinemacenter_movie_id": 5808,
-        "metadata": {
-          "title": "VERTIGO 2 - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 100,
-          "genres": [
-            "Thriller"
-          ],
-          "director": [
-            "Michael Spierig",
-            "Peter Spierig"
-          ],
-          "cast": [
-            "Grace Caroline Currey",
-            "Virginia Gardner",
-            "Harriet Slater",
-            "Arsema Thomas",
-            "Tom Brittney."
-          ],
-          "synopsis": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3578_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "BF + PARIS FILM",
-          "trailer": "https://www.youtube.com/embed/y7FeJVcfMGo",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5808-VERTIGO-2---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5808,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
+        ]
       },
       {
-        "id": "cinemacenter-tucuman-escondida-en-mi-cabeza-2d-cast",
+        "id": "cinemacenter-tucuman-la-isla-olvidada-3d-cast",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
         "cinema": "Cinemacenter Tucumán",
         "city": "San Miguel de Tucumán",
-        "title": "ESCONDIDA EN MI CABEZA",
+        "title": "LA ISLA OLVIDADA",
         "status": "cartelera_vigente",
-        "format": "2D",
+        "format": "3D",
         "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "17:50"
-          ],
-          "domingo": [
-            "17:50"
-          ],
-          "lunes": [
-            "17:50"
-          ],
-          "martes": [
-            "17:50"
-          ],
-          "miércoles": [
-            "17:50"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "17:50",
-            "datetime": "2026-10-03T17:50:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "17:50",
-            "datetime": "2026-10-04T17:50:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "17:50",
-            "datetime": "2026-10-05T17:50:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "17:50",
-            "datetime": "2026-10-06T17:50:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "17:50",
-            "datetime": "2026-10-07T17:50:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5811,
-        "metadata": {
-          "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 99,
-          "genres": [
-            "Comedia"
-          ],
-          "director": [
-            "Lucas Vivo García Lagos"
-          ],
-          "cast": [
-            "Nicolás Furtado Agustina Suasquita Iair Said"
-          ],
-          "synopsis": "Erni (Nicolás Furtado), un veinteañero encantador pero inmaduro, trabaja en un parque de atracciones, disfrutando de una vida centrada en el placer y la diversión. Su irresponsabilidad genera tensiones en el trabajo y en su vida personal, y en un mismo día, su jefe Tony (Maxi de la Cruz) lo despide y Coni (Papryka Suásquita), la chica que le gusta, decide tomar distancia. Hundido en la decepción, Erni termina en un bar donde conoce a Young Geezer (Louta), un excéntrico joven británico quien, tras tomarse unas copas juntos, lo convence de invertir su indemnización por despido en Bitcoins. La noche se vuelve desenfrenada e imprudente, y da un giro cuando Erni protagoniza un accidente que lo deja en coma. Catorce años después, Erni despierta y se encuentra con que el mundo cambió, y su mundo también: sus amores desaparecieron y su madre (Alejandra Flechner), al borde del colapso, está llena de deudas. Sin embargo, la inversión que hizo la noche del accidente, ahora vale millones. El único problema es que no recuerda la contraseña para acceder a su fortuna.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3626_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Argentina",
-          "distributor": "Disney",
-          "trailer": "https://www.youtube.com/embed/3kFtLMkRL04",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5811-ESCONDIDA-EN-MI-CABEZA---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5811,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-guardianes-del-museo-2-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "GUARDIANES DEL MUSEO 2",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [
-            "15:10",
-            "17:30"
-          ],
-          "domingo": [
-            "15:10",
-            "17:30"
-          ],
-          "lunes": [
-            "17:30"
-          ],
-          "martes": [
-            "17:30"
-          ],
-          "miércoles": [
-            "17:30"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "15:10",
-            "datetime": "2026-10-03T15:10:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "17:30",
-            "datetime": "2026-10-03T17:30:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "15:10",
-            "datetime": "2026-10-04T15:10:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-04",
-            "time": "17:30",
-            "datetime": "2026-10-04T17:30:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "17:30",
-            "datetime": "2026-10-05T17:30:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-06",
-            "time": "17:30",
-            "datetime": "2026-10-06T17:30:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-07",
-            "time": "17:30",
-            "datetime": "2026-10-07T17:30:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5812,
-        "metadata": {
-          "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-03",
-          "duration_minutes": 90,
-          "genres": [
-            "Animación Aventuras"
-          ],
-          "director": [
-            "Vasiliy Rovenskiy"
-          ],
-          "cast": [],
-          "synopsis": "Han pasado dos años desde que se salvó el Hermitage y la Mona Lisa fue robada. Maurice los sueños del ratón de nuevas hazañas, Vincent y Cleopatra han reclutado dos gatitos inquietos que también están anhelando aventuras.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3493_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Rusia",
-          "distributor": "Imagen Films",
-          "trailer": "https://www.youtube.com/embed/WJaWzgZ7Rkg",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5812-GUARDIANES-DEL-MUSEO-2---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [
-            "cast"
-          ],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "partial_source",
-          "cinemacenter_movie_id": 5812,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-vertigo-2-2d-sub",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "VERTIGO 2",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "SUB",
-        "week_start": "2026-10-01",
-        "week_end": "2026-10-07",
+        "week_start": "2026-09-24",
+        "week_end": "2026-09-30",
         "schedule": {
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "20:10"
-          ],
+          "domingo": [],
           "lunes": [],
-          "martes": [],
-          "miércoles": []
+          "martes": [
+            "17:00"
+          ],
+          "miércoles": [
+            "17:00"
+          ]
         },
         "occurrences": [
           {
-            "date": "2026-10-04",
-            "time": "20:10",
-            "datetime": "2026-10-04T20:10:00",
-            "weekday": "domingo"
+            "date": "2026-09-29",
+            "time": "17:00",
+            "datetime": "2026-09-29T17:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-09-30",
+            "time": "17:00",
+            "datetime": "2026-09-30T17:00:00",
+            "weekday": "miércoles"
           }
-        ],
-        "cinemacenter_movie_id": 5813,
-        "metadata": {
-          "title": "VERTIGO 2 - 2D SUB",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-10-04",
-          "duration_minutes": 100,
-          "genres": [
-            "Thriller"
-          ],
-          "director": [
-            "Michael Spierig",
-            "Peter Spierig"
-          ],
-          "cast": [
-            "Grace Caroline Currey",
-            "Virginia Gardner",
-            "Harriet Slater",
-            "Arsema Thomas",
-            "Tom Brittney."
-          ],
-          "synopsis": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3578_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "BF + PARIS FILM",
-          "trailer": "https://www.youtube.com/embed/y7FeJVcfMGo",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5813-VERTIGO-2---2D-SUB",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5813,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
+        ]
       }
     ]
   },
-  "proximos_estrenos": [],
-  "mi_boleteria_url": "https://www.miboleteria.com.ar",
+  "proximos_estrenos": [
+    {
+      "id": "cinemacenter-tucuman-upcoming-digger",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Digger",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-01"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-vértigo-2",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Vértigo 2",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-01"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-guardianes-del-museo-2",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Guardianes del Museo 2",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-01"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-verity-la-sombra-del-engaño",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Verity: La sombra del engaño",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-01"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-madre-siniestra",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Madre Siniestra",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-08"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-el-poder-de-la-red",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "El poder de la red",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-08"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-street-fighter",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Street Fighter",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-15"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-clayface",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Clayface",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-22"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-klara-y-el-sol",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Klara y el sol",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-22"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-sensatez-y-sentimiento",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Sensatez y sentimiento",
+      "status": "proximo_estreno",
+      "release_date": "2026-10-29"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-el-gato-con-sombrero",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "El Gato con Sombrero",
+      "status": "proximo_estreno",
+      "release_date": "2026-11-05"
+    },
+    {
+      "id": "cinemacenter-tucuman-upcoming-godzilla-minus-zero",
+      "source": "cinemacenter",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "cinema": "Cinemacenter Tucumán",
+      "city": "San Miguel de Tucumán",
+      "title": "Godzilla Minus Zero",
+      "status": "proximo_estreno",
+      "release_date": "2026-11-05"
+    }
+  ],
   "summary": {
-    "cartelera_total": 13,
-    "metadata_con_movie_id": 13,
-    "metadata_ok": 13,
-    "metadata_failures": 0,
-    "metadata_source": "Cinemacenter-only",
-    "failures": []
+    "cartelera_total": 7,
+    "proximos_estrenos_total": 0,
+    "formats": [
+      "2D",
+      "3D"
+    ],
+    "languages": [
+      "CAST"
+    ]
   }
 }

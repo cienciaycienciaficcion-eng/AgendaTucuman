@@ -2,6 +2,7 @@ import { AppState } from 'react-native';
 import { useCallback, useEffect, useState } from 'react';
 import {
   fallbackAgendaEvents,
+  isServiceEvent,
   fallbackCinemaData,
   RADIO_STREAM_URL,
   RADIO_PLAYER_URL,
@@ -10,12 +11,13 @@ import {
 } from '@/data';
 import {
   fetchRemoteAgenda,
+  fetchRemoteServices,
   fetchRemoteCinema,
+  fetchRemoteCinemaMetadata,
   fetchRemoteRadio,
 } from './remote';
 
 const AGENDA_CHECK_INTERVAL_MS = 8 * 60 * 60 * 1000;
-const CINEMA_CHECK_INTERVAL_MS = 15 * 60 * 1000;
 let agendaLastServerCheck = 0;
 let agendaRefreshPromise: Promise<any[]> | null = null;
 
@@ -29,6 +31,58 @@ async function refreshAgendaOnce() {
     })
     .finally(() => { agendaRefreshPromise = null; });
   return agendaRefreshPromise;
+}
+
+
+const SERVICES_CHECK_INTERVAL_MS = 24 * 60 * 60 * 1000;
+let servicesLastServerCheck = 0;
+let servicesRefreshPromise: Promise<any[]> | null = null;
+
+async function refreshServicesOnce() {
+  if (servicesRefreshPromise) return servicesRefreshPromise;
+  servicesRefreshPromise = fetchRemoteServices()
+    .then(data => {
+      if (!Array.isArray(data)) throw new Error('Servicios remotos inválidos');
+      servicesLastServerCheck = Date.now();
+      return data;
+    })
+    .finally(() => { servicesRefreshPromise = null; });
+  return servicesRefreshPromise;
+}
+
+export function useServicesData() {
+  const fallback = fallbackAgendaEvents.filter(isServiceEvent);
+  const [events, setEvents] = useState<any[]>(fallback);
+  const [loading, setLoading] = useState(true);
+  const [online, setOnline] = useState(false);
+
+  const refresh = useCallback(async () => {
+    setLoading(true);
+    try {
+      const data = await refreshServicesOnce();
+      setEvents(data.map((event: any) => isServiceEvent(event) ? event : { ...event, categories: [...(Array.isArray(event.categories) ? event.categories : []), 'Servicios'] }));
+      setOnline(true);
+    } catch {
+      // El extractor dedicado puede no existir todavía: en ese caso
+      // usamos los Servicios que ya vengan dentro de agenda_eventos.json.
+      setEvents(fallback);
+      setOnline(false);
+    } finally {
+      setLoading(false);
+    }
+  }, [fallback.length]);
+
+  useEffect(() => {
+    void refresh();
+    const subscription = AppState.addEventListener('change', nextState => {
+      if (nextState === 'active' && Date.now() - servicesLastServerCheck >= SERVICES_CHECK_INTERVAL_MS) {
+        void refresh();
+      }
+    });
+    return () => subscription.remove();
+  }, [refresh]);
+
+  return { events, loading, online, refresh };
 }
 
 export function useAgendaData() {
@@ -68,28 +122,42 @@ export function useAgendaData() {
 }
 
 
-function mergeCinemaMetadata(data: any) {
-  // Cinemacenter es la única fuente de metadata. No mezclamos con la copia
-  // histórica/bundled porque podría reintroducir posters o datos de terceros.
-  return data;
+function mergeCinemaMetadata(data: any, remoteMetadata: any[] = []) {
+  if (!data?.cartelera?.movies || !Array.isArray(data.cartelera.movies)) return data;
+
+  const findMetadata = (items: any[], title: string) =>
+    items.find((item: any) =>
+      Array.isArray(item?.match) && item.match.some((matchTitle: string) =>
+        normalizeSearchText(matchTitle) === normalizeSearchText(title)
+      )
+    );
+
+  return {
+    ...data,
+    cartelera: {
+      ...data.cartelera,
+      movies: data.cartelera.movies.map((movie: any) => {
+        const localMetadata = findMetadata(fallbackCinemaMetadata, movie.title);
+        const currentRemoteMetadata = findMetadata(remoteMetadata, movie.title);
+
+        return {
+          ...movie,
+          metadata: {
+            // Local metadata remains a fallback for fields that the remote
+            // enrichment could not obtain.
+            ...(localMetadata ?? {}),
+            // The repository metadata is newer and takes precedence.
+            ...(currentRemoteMetadata ?? {}),
+            ...(movie.metadata ?? {}),
+          },
+        };
+      }),
+    },
+  };
 }
 
+const CINEMA_CHECK_INTERVAL_MS = 60 * 60 * 1000;
 let cinemaLastServerCheck = 0;
-let cinemaRefreshPromise: Promise<any> | null = null;
-
-async function refreshCinemaOnce() {
-  if (cinemaRefreshPromise) return cinemaRefreshPromise;
-  cinemaRefreshPromise = fetchRemoteCinema()
-    .then(next => {
-      if (!next?.cartelera?.movies || !Array.isArray(next.cartelera.movies)) {
-        throw new Error('Cartelera remota inválida');
-      }
-      cinemaLastServerCheck = Date.now();
-      return next;
-    })
-    .finally(() => { cinemaRefreshPromise = null; });
-  return cinemaRefreshPromise;
-}
 
 export function useCinemaData() {
   const [data, setData] = useState<any>(mergeCinemaMetadata(fallbackCinemaData));
@@ -99,10 +167,23 @@ export function useCinemaData() {
   const refresh = useCallback(async () => {
     setLoading(true);
     try {
-      const next = await refreshCinemaOnce();
-      const merged = mergeCinemaMetadata(next);
+      const next = await fetchRemoteCinema();
+
+      let remoteMetadata: any[] = [];
+      try {
+        const metadataData = await fetchRemoteCinemaMetadata();
+        if (Array.isArray(metadataData?.movies)) {
+          remoteMetadata = metadataData.movies;
+        }
+      } catch {
+        // La cartelera sigue siendo utilizable aunque el archivo de
+        // metadata no esté disponible temporalmente.
+      }
+
+      const merged = mergeCinemaMetadata(next, remoteMetadata);
       setData(merged);
       setOnline(true);
+      cinemaLastServerCheck = Date.now();
     } catch {
       setOnline(false);
     } finally {
@@ -113,22 +194,16 @@ export function useCinemaData() {
   useEffect(() => {
     void refresh();
 
-    const interval = setInterval(() => {
-      if (Date.now() - cinemaLastServerCheck >= CINEMA_CHECK_INTERVAL_MS) {
-        void refresh();
-      }
-    }, 60 * 1000);
-
     const subscription = AppState.addEventListener('change', nextState => {
-      if (nextState === 'active' && Date.now() - cinemaLastServerCheck >= CINEMA_CHECK_INTERVAL_MS) {
+      if (
+        nextState === 'active' &&
+        Date.now() - cinemaLastServerCheck >= CINEMA_CHECK_INTERVAL_MS
+      ) {
         void refresh();
       }
     });
 
-    return () => {
-      clearInterval(interval);
-      subscription.remove();
-    };
+    return () => subscription.remove();
   }, [refresh]);
 
   return { data, loading, online, refresh };

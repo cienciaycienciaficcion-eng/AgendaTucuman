@@ -1,48 +1,51 @@
-# Agenda Tucumán
+# Agenda Tucumán — App
 
-## Actualización de datos
+Aplicación Expo/React Native para consultar:
 
-Los datos se actualizan mediante `.github/workflows/actualizar_datos.yml`.
+- Agenda de eventos de Tucumán.
+- Calendario mensual.
+- Cartelera vigente de Cinemacenter Tucumán.
+- Radio de Agenda Tucumán.
+- Enlaces y servicios.
 
-### Cinemacenter
+## Datos dinámicos
 
-La cartelera y la metadata de películas se obtienen en **una única ejecución** desde Cinemacenter.
+La app intenta descargar los JSON publicados por este repositorio:
 
-El extractor `extractores/cinemacenter.py`:
-
-1. descarga la cartelera oficial semanal de Tucumán;
-2. obtiene los `movieId` internos desde los enlaces oficiales `/ficha/{movieId}-...` publicados por Cinemacenter; si la estructura antigua está disponible, también acepta `seleccionarMovie(...)`;
-3. abre directamente la ficha oficial `/ficha/{movieId}-...`; como compatibilidad con la estructura antigua, puede obtener la ficha mediante `ajax_movieSlider.php`;
-4. verifica que la ficha corresponda exactamente a la película solicitada;
-5. extrae la metadata de esa ficha;
-6. usa como `release_date` la primera fecha de aparición de la película en la cartelera semanal de Tucumán;
-7. extrae el tráiler solamente si Cinemacenter lo publica en la ficha;
-8. obtiene también los próximos estrenos desde la página oficial `/estrenos` y guarda el enlace oficial de Mi Boletería (`https://www.miboleteria.com.ar`);
-9. genera `cine_cinemacenter_tucuman.json` y `cine_metadata.json`.
-
-No se utilizan TMDB, IMDb, Google, Jina ni coincidencias externas para la metadata de Cinemacenter.
-
-Si Cinemacenter no publica un dato, el campo queda vacío/null. Los valores obviamente inválidos publicados por el sitio (por ejemplo, 31/12/1969 como fecha) no se convierten en datos de película.
-
-### Archivos publicados
-
+- `datos/agenda_eventos.json`
 - `datos/cine_cinemacenter_tucuman.json`
-- `datos/cine_metadata.json`
-- `src/data/cine_cinemacenter_tucuman.json`
-- `src/data/cine_metadata.json`
+- `datos/radio_tucuman.json`
 
-## Prueba local del mecanismo de Cinemacenter
+Si GitHub no está disponible, utiliza los JSON incluidos dentro de `src/data/` como respaldo.
 
-Desde la raíz del repositorio:
+### Configuración
 
-```bat
-python extractores\cinemacenter.py --test-ids 5786,5808,5800,5801
+Editar:
+
+`src/config/remote.ts`
+
+y cambiar:
+
+```ts
+https://raw.githubusercontent.com/TU_USUARIO/agenda-tucuman/main/datos
 ```
 
-Esta prueba consulta directamente los `movieId` de Cinemacenter y no modifica los JSON. El `movieId=5786` fue comprobado durante el desarrollo; los demás IDs deben verificarse contra la cartelera vigente antes de tomarlos como referencia.
+por la URL real del repositorio.
 
-Para ejecutar la actualización completa:
+## Ejecutar
 
-```bat
-python extractores\cinemacenter.py
+```bash
+npm install
+npx expo start -c
 ```
+
+## Android
+
+```bash
+npx expo start --android
+```
+
+Para generar una build, usar EAS Build según la configuración de Expo del proyecto.
+
+## Clima
+La app incorpora una cabecera global con logo, sección activa y clima actual de San Miguel de Tucumán. El bloque de clima se actualiza automáticamente y abre la sección `/weather` con condiciones actuales y pronóstico de 5 días. Los datos meteorológicos provienen de Open-Meteo y no requieren una API key.

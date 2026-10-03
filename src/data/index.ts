@@ -62,7 +62,6 @@ export type AgendaEvent = {
   start_datetime: string;
   end_datetime: string;
   description: string;
-  highlighted_metadata?: Record<string, string | string[]>;
   image: string;
   price: number | null;
   currency: string;
@@ -98,13 +97,12 @@ export type CinemaMovieMetadata = {
   poster?: string;
   imdb_id?: string;
   imdb_url?: string;
-  source_url?: string;
-  trailer?: string;
-  nationality?: string;
   classification?: string;
-  /** @deprecated kept for backward compatibility with older metadata */
   rating?: string;
+  nationality?: string;
   distributor?: string;
+  trailer?: string;
+  source_url?: string;
 };
 
 export type CinemaMovie = {
@@ -140,11 +138,10 @@ export type CinemaData = {
   proximos_estrenos?: Array<{
     id: string;
     title: string;
-    release_date?: string | null;
+    release_date?: string;
     source_url?: string;
-    source?: string;
+    status?: string;
   }>;
-  mi_boleteria_url?: string;
 };
 
 

@@ -12,9 +12,9 @@ import { Colors, MaxContentWidth } from '@/constants/theme';
 
 const tabs = [
   { name: 'index', href: '/', label: 'Agenda', icon: '▣' },
-  { name: 'calendar', href: '/calendar', label: 'Calendario', icon: '□' },
   { name: 'cine', href: '/cine', label: 'Cine', icon: '▶' },
   { name: 'radio', href: '/radio', label: 'Radio', icon: '◉' },
+  { name: 'proximamente', href: '/proximamente', label: 'Próximamente', icon: '◷' },
   { name: 'services', href: '/services', label: 'Servicios', icon: '⚙' },
 ] as const;
 

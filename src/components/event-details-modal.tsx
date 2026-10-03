@@ -47,6 +47,7 @@ type Props = { event: any | null; visible: boolean; onClose: () => void };
 
 export function EventDetailsModal({ event, visible, onClose }: Props) {
   const [imageError, setImageError] = useState(false);
+  const [showDescription, setShowDescription] = useState(false);
   if (!event) return null;
 
   const title = cleanText(event.title).replace(/^\d{1,2} de [A-Za-zÁÉÍÓÚáéíóú]+\|\s*/i, '');
@@ -57,14 +58,6 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
   const hasImage = Boolean(event.image && !imageError);
   const categories = Array.isArray(event.categories) ? event.categories : [];
   const tags = Array.isArray(event.tags) ? event.tags : [];
-  const highlighted = event.highlighted_metadata && typeof event.highlighted_metadata === 'object'
-    ? event.highlighted_metadata as Record<string, string | string[]>
-    : {};
-  const highlightedEntries = Object.entries(highlighted).filter(([key]) => ![
-    'fecha', 'día', 'dia', 'horario', 'hora', 'inicio', 'fin',
-    'lugar', 'sede', 'punto de encuentro', 'ubicación', 'ubicacion',
-    'dirección', 'direccion', 'dirección del lugar', 'direccion del lugar'
-  ].includes(key.toLowerCase()));
 
   return (
     <Modal visible={visible} animationType="slide" onRequestClose={onClose}>
@@ -85,11 +78,6 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
             {event.address ? <ThemedText themeColor="textSecondary">{event.address}{event.city ? `, ${event.city}` : ''}</ThemedText> : null}
             {event.is_free ? <ThemedText style={styles.free}>Entrada libre y gratuita</ThemedText> : event.price != null ? <ThemedText style={styles.price}>Entrada: {event.price} {event.currency ?? ''}</ThemedText> : null}
             {event.organizer ? <ThemedText themeColor="textSecondary">Organiza: {event.organizer}</ThemedText> : null}
-            {highlightedEntries.map(([key, value]) => {
-              const label = key.charAt(0).toUpperCase() + key.slice(1);
-              const text = Array.isArray(value) ? value.join(' · ') : value;
-              return <ThemedText key={key} themeColor="textSecondary">{label}: {text}</ThemedText>;
-            })}
           </View>
 
           {categories.length > 0 && <View style={styles.tags}>{categories.map((c: string) => <View key={c} style={styles.tag}><ThemedText style={styles.tagText}>{c}</ThemedText></View>)}</View>}
@@ -97,17 +85,20 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
 
           {summary ? (
             <View style={styles.summaryCard}>
-              <ThemedText type="subtitle">Resumen</ThemedText>
-              <ThemedText style={styles.summary}>{summary}</ThemedText>
-              {event.url ? (
-                <Pressable onPress={() => Linking.openURL(event.url)} style={styles.articleLink}>
-                  <ThemedText style={styles.articleLinkText}>Leer artículo completo ↗</ThemedText>
-                </Pressable>
-              ) : null}
+              <ThemedText type="subtitle" style={styles.summaryTitle}>Resumen</ThemedText>
+              <ThemedText style={styles.summaryText}>{summary}</ThemedText>
+              <Pressable onPress={() => setShowDescription((current) => !current)} style={styles.articleLink}>
+                <ThemedText style={styles.articleLinkText}>{showDescription ? 'Ocultar artículo completo ↑' : 'Leer artículo completo ↓'}</ThemedText>
+              </Pressable>
             </View>
           ) : null}
 
-          {description ? <View style={styles.section}><ThemedText type="subtitle">Descripción completa</ThemedText><ThemedText style={styles.description}>{description}</ThemedText></View> : null}
+          {description && (!summary || showDescription) ? (
+            <View style={styles.section}>
+              <ThemedText type="subtitle">Descripción completa</ThemedText>
+              <ThemedText style={styles.description}>{description}</ThemedText>
+            </View>
+          ) : null}
 
           <View style={styles.actions}>
             <Pressable onPress={() => Linking.openURL(calendar)} style={styles.primary} disabled={!calendar}>
@@ -116,7 +107,7 @@ export function EventDetailsModal({ event, visible, onClose }: Props) {
             <Pressable onPress={() => Linking.openURL(maps)} style={styles.secondary} disabled={!maps}>
               <ThemedText style={styles.secondaryText}>📍 Cómo llegar con Google Maps</ThemedText>
             </Pressable>
-            {!summary && event.url ? <Pressable onPress={() => Linking.openURL(event.url)} style={styles.secondary}><ThemedText style={styles.secondaryText}>Ver evento original</ThemedText></Pressable> : null}
+            {event.url ? <Pressable onPress={() => Linking.openURL(event.url)} style={styles.secondary}><ThemedText style={styles.secondaryText}>Ver evento original</ThemedText></Pressable> : null}
             {Array.isArray(event.registration_urls) && event.registration_urls[0] ? <Pressable onPress={() => Linking.openURL(event.registration_urls[0])} style={styles.secondary}><ThemedText style={styles.secondaryText}>Inscripción / entradas</ThemedText></Pressable> : null}
           </View>
         </ScrollView>
@@ -143,10 +134,11 @@ const styles = StyleSheet.create({
   tagSecondary: { backgroundColor: Colors.light.backgroundSelected, borderRadius: 14, paddingHorizontal: 10, paddingVertical: 5 },
   tagSecondaryText: { color: Colors.light.primaryDark, fontSize: 12, fontWeight: '700' },
   section: { marginTop: 22, gap: 8 },
-  summaryCard: { marginTop: 22, backgroundColor: Colors.light.backgroundSelected, borderRadius: 18, padding: 16, gap: 8 },
-  summary: { lineHeight: 23 },
-  articleLink: { alignSelf: 'flex-start', marginTop: 2 },
-  articleLinkText: { color: Colors.light.primaryDark, fontWeight: '800' },
+  summaryCard: { marginTop: 22, backgroundColor: Colors.light.backgroundSelected, borderRadius: 18, borderWidth: 1, borderColor: Colors.light.border, padding: 16, gap: 10 },
+  summaryTitle: { color: Colors.light.primaryDark, fontWeight: '800' },
+  summaryText: { lineHeight: 23, fontSize: 16 },
+  articleLink: { alignSelf: 'flex-start', paddingVertical: 4 },
+  articleLinkText: { color: Colors.light.primaryDark, fontWeight: '800', textDecorationLine: 'underline' },
   description: { lineHeight: 22 },
   actions: { marginTop: 24, gap: 10 },
   primary: { backgroundColor: Colors.light.primary, borderRadius: 15, padding: 15, alignItems: 'center' },
