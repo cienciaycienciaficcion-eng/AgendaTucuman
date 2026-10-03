@@ -38,6 +38,7 @@ import re
 import time
 from collections import OrderedDict
 from datetime import date, datetime, timedelta
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import quote_plus
 from urllib.parse import urljoin
@@ -55,6 +56,7 @@ REST_TAGS = BASE + "/wp-json/wp/v2/tags"
 REST_MEDIA = BASE + "/wp-json/wp/v2/media"
 
 TZ = "-03:00"
+ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
 
 MONTHS_ES = {
     "enero": 1, "febrero": 2, "marzo": 3, "abril": 4,
@@ -1976,7 +1978,7 @@ def main():
     # La agenda publicada representa actualidad, no un archivo histórico.
     # Eliminamos eventos cuyo período ya terminó. Se conserva un evento que
     # termina hoy porque sigue siendo relevante durante el día.
-    today_iso = date.today().isoformat()
+    today_iso = datetime.now(ARGENTINA_TZ).date().isoformat()
     before_filter = len(events)
     events = [
         event for event in events
@@ -2081,7 +2083,7 @@ def main():
     lines = [
         "AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.2",
         "=" * 78,
-        f"Generado: {datetime.now().astimezone().isoformat()}",
+        f"Generado: {datetime.now(ARGENTINA_TZ).isoformat()}",
         f"Fuente: {EVENTOS_URL}",
         f"Meses consultados: {args.months}",
         f"Tarjetas MEC encontradas: {len(all_cards)}",

@@ -35,6 +35,7 @@ import re
 import sys
 import time
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import urljoin, urlparse, parse_qs, unquote
 
@@ -74,6 +75,8 @@ HEADERS = {
 TIMEOUT = 25
 SLEEP = 0.25
 
+
+ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
 
 class Extractor:
     def __init__(self):
@@ -548,7 +551,7 @@ class Extractor:
 
         No recorre el archivo histórico /estrenos-cine/ como catálogo.
         """
-        today = datetime.now().astimezone().date()
+        today = datetime.now(ARGENTINA_TZ).date()
         cutoff = today.fromordinal(today.toordinal() - 14)
 
         r = self.get(HOME)
@@ -876,7 +879,7 @@ class Extractor:
 
     @staticmethod
     def now():
-        return datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
+        return datetime.now(ARGENTINA_TZ).isoformat(timespec="seconds")
 
     def save_json(self, filename, data):
         path = OUT_DIR / filename
