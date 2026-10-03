@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-02T23:02:07.953626-03:00",
-  "reference_date": "2026-10-02",
+  "generated_at": "2026-10-03T03:45:55.827300-03:00",
+  "reference_date": "2026-10-03",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "df95f7d5d39a0379a8cf7199d3a30a8321b65cca8e247829eea6c5c9c3539bf2"
+    "pdf_sha256": "3a85663ad1b54c02efbf2d8066864da14f8877f04d05c19526c03dc906a7bfc3"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -118,9 +118,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "21:40"
-          ],
+          "viernes": [],
           "sábado": [
             "14:20",
             "15:30",
@@ -147,12 +145,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "21:40",
-            "datetime": "2026-10-02T21:40:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "14:20",
@@ -243,7 +235,7 @@
           "title": "COYOTE VS ACME - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 110,
           "genres": [
             "Animación Familiar"
@@ -296,10 +288,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:30",
-            "22:40"
-          ],
+          "viernes": [],
           "sábado": [
             "20:30",
             "22:40"
@@ -322,18 +311,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "20:30",
-            "datetime": "2026-10-02T20:30:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-10-02",
-            "time": "22:40",
-            "datetime": "2026-10-02T22:40:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "20:30",
@@ -400,7 +377,7 @@
           "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 94,
           "genres": [
             "Terror Thriller"
@@ -554,9 +531,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "22:20"
-          ],
+          "viernes": [],
           "sábado": [
             "22:20"
           ],
@@ -574,12 +549,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "22:20",
-            "datetime": "2026-10-02T22:20:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "22:20",
@@ -616,7 +585,7 @@
           "title": "EL CORAZON DE LA BESTIA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 101,
           "genres": [
             "Thriller"
@@ -775,10 +744,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "19:50",
-            "22:10"
-          ],
+          "viernes": [],
           "sábado": [
             "19:50",
             "22:10"
@@ -801,18 +767,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "19:50",
-            "datetime": "2026-10-02T19:50:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-10-02",
-            "time": "22:10",
-            "datetime": "2026-10-02T22:10:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "19:50",
@@ -879,7 +833,7 @@
           "title": "DIGGER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 129,
           "genres": [
             "Comedia Drama"
@@ -935,10 +889,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "19:40",
-            "22:30"
-          ],
+          "viernes": [],
           "sábado": [
             "19:40",
             "22:30"
@@ -960,18 +911,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "19:40",
-            "datetime": "2026-10-02T19:40:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-10-02",
-            "time": "22:30",
-            "datetime": "2026-10-02T22:30:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "19:40",
@@ -1032,7 +971,7 @@
           "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 118,
           "genres": [
             "Thriller"
@@ -1158,9 +1097,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:10"
-          ],
+          "viernes": [],
           "sábado": [
             "20:10"
           ],
@@ -1176,12 +1113,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "20:10",
-            "datetime": "2026-10-02T20:10:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "20:10",
@@ -1212,7 +1143,7 @@
           "title": "VERTIGO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 100,
           "genres": [
             "Thriller"
