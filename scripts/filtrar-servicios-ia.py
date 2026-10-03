@@ -10,6 +10,7 @@
 """
 import json
 import os
+import random
 import re
 import time
 from datetime import datetime, timedelta, timezone
@@ -27,8 +28,10 @@ MAX_GEMINI_CALLS = 50
 REQUEST_TIMEOUT = 60
 GEMINI_RETRIES = 3
 GEMINI_RETRY_BASE_SECONDS = 5
-GEMINI_BATCH_SIZE = 10
-GEMINI_BATCH_WAIT_SECONDS = 60
+GEMINI_MIN_INTERVAL_SECONDS = 7
+GEMINI_JITTER_SECONDS = 2
+GEMINI_429_BACKOFF = [30, 60, 120]
+GEMINI_5XX_BACKOFF = [15, 30, 60]
 
 
 def now_utc():
@@ -144,11 +147,15 @@ Contenido: {article.get('content','')[:2500]}
             # Retry only temporary/rate-limit/server errors.
             if response.status_code == 429 or 500 <= response.status_code < 600:
                 if attempt < GEMINI_RETRIES:
-                    wait = GEMINI_RETRY_BASE_SECONDS * (2 ** (attempt - 1))
+                    if response.status_code == 429:
+                        wait = GEMINI_429_BACKOFF[attempt - 1]
+                    else:
+                        wait = GEMINI_5XX_BACKOFF[attempt - 1]
+                    wait += random.uniform(0, 5)
                     print(
                         f"[Gemini Servicios] HTTP {response.status_code} "
                         f"para {article.get('id')}; reintento {attempt + 1}/"
-                        f"{GEMINI_RETRIES} en {wait}s."
+                        f"{GEMINI_RETRIES} en {wait:.1f}s."
                     )
                     time.sleep(wait)
                     continue
@@ -311,14 +318,17 @@ def main():
     selected_this_run = 0
 
     for index, article in enumerate(batch, start=1):
-        # Esperar 60 segundos entre bloques de 10 artículos.
-        # No esperamos después del último artículo de la corrida.
-        if index > 1 and (index - 1) % GEMINI_BATCH_SIZE == 0:
-            print(
-                f"[Gemini Servicios] Bloque de {GEMINI_BATCH_SIZE} enviado. "
-                f"Esperando {GEMINI_BATCH_WAIT_SECONDS} segundos antes del siguiente bloque..."
+        # Espaciado individual para evitar ráfagas de solicitudes.
+        # No esperamos antes del primer artículo.
+        if index > 1:
+            wait = GEMINI_MIN_INTERVAL_SECONDS + random.uniform(
+                0, GEMINI_JITTER_SECONDS
             )
-            time.sleep(GEMINI_BATCH_WAIT_SECONDS)
+            print(
+                f"[Gemini Servicios] Esperando {wait:.1f}s antes del artículo "
+                f"{index}/{len(batch)}..."
+            )
+            time.sleep(wait)
 
         sid = str(article.get("id"))
         calls += 1
