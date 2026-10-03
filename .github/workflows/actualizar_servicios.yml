@@ -3,7 +3,7 @@ name: Actualizar Servicios Agenda Tucumán
 on:
   workflow_dispatch:
   schedule:
-    # Cada 2 horas. Gemini procesa como máximo 50 artículos por corrida.
+    # Cada 2 horas. Solo se revisan las 3 páginas más recientes. Gemini procesa como máximo 50 artículos por corrida.
     - cron: '17 */2 * * *'
 
 permissions:
@@ -25,7 +25,6 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Extraer TODOS los Servicios
-        continue-on-error: true
         run: python -u extractores/servicios.py
 
       - name: Verificar extracción
@@ -41,6 +40,8 @@ jobs:
           print(f'Artículos extraídos: {len(articles)}')
           if not isinstance(articles, list):
               raise SystemExit('Formato inválido de servicios_raw.json')
+          if not articles:
+              raise SystemExit('servicios_raw.json está vacío; no se continúa con Gemini')
           PY
 
       - name: Filtrar hasta 50 Servicios con Gemini
