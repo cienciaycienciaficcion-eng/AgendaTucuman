@@ -27,6 +27,8 @@ MAX_GEMINI_CALLS = 50
 REQUEST_TIMEOUT = 60
 GEMINI_RETRIES = 3
 GEMINI_RETRY_BASE_SECONDS = 5
+GEMINI_BATCH_SIZE = 10
+GEMINI_BATCH_WAIT_SECONDS = 60
 
 
 def now_utc():
@@ -308,7 +310,16 @@ def main():
     calls = 0
     selected_this_run = 0
 
-    for article in batch:
+    for index, article in enumerate(batch, start=1):
+        # Esperar 60 segundos entre bloques de 10 artículos.
+        # No esperamos después del último artículo de la corrida.
+        if index > 1 and (index - 1) % GEMINI_BATCH_SIZE == 0:
+            print(
+                f"[Gemini Servicios] Bloque de {GEMINI_BATCH_SIZE} enviado. "
+                f"Esperando {GEMINI_BATCH_WAIT_SECONDS} segundos antes del siguiente bloque..."
+            )
+            time.sleep(GEMINI_BATCH_WAIT_SECONDS)
+
         sid = str(article.get("id"))
         calls += 1
         try:
