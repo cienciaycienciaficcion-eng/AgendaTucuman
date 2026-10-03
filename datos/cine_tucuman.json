@@ -1,8 +1,10 @@
 {
   "schema_version": "5.0",
-  "generated_at": "2026-10-03T10:33:56-03:00",
+  "generated_at": "2026-10-03T17:52:18-03:00",
   "reference_date": "2026-10-03",
   "current_window_start": "2026-09-19",
   "current_source": "https://agendatucuman.com.ar/",
-  "movies": []
+  "movies": [],
+  "current_count": 0,
+  "upcoming_count": 0
 }
