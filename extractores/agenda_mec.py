@@ -101,6 +101,19 @@ def uniq(values):
     return out
 
 
+def add_months(d, months):
+    """Suma meses calendario conservando el día cuando es posible."""
+    total = d.year * 12 + (d.month - 1) + months
+    year = total // 12
+    month = total % 12 + 1
+    if month == 12:
+        next_month = date(year + 1, 1, 1)
+    else:
+        next_month = date(year, month + 1, 1)
+    last_day = (next_month - timedelta(days=1)).day
+    return date(year, month, min(d.day, last_day))
+
+
 def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--start-year", type=int, default=2026)
@@ -2006,15 +2019,23 @@ def main():
     # La agenda publicada representa actualidad, no un archivo histórico.
     # Eliminamos eventos cuyo período ya terminó. Se conserva un evento que
     # termina hoy porque sigue siendo relevante durante el día.
-    today_iso = datetime.now(ARGENTINA_TZ).date().isoformat()
+    today = datetime.now(ARGENTINA_TZ).date()
+    today_iso = today.isoformat()
+    future_limit = add_months(today, 2)
+    future_limit_iso = future_limit.isoformat()
+
     before_filter = len(events)
     events = [
         event for event in events
         if (event.get("date_end") or event.get("date_start") or "") >= today_iso
+        and (event.get("date_start") or "") <= future_limit_iso
     ]
-    removed_past = before_filter - len(events)
-    if removed_past:
-        print(f"[Filtro vigencia] Eliminados {removed_past} eventos vencidos antes de publicar.")
+    removed_outside_window = before_filter - len(events)
+    if removed_outside_window:
+        print(
+            f"[Filtro vigencia] Eliminados {removed_outside_window} eventos "
+            f"fuera del período {today_iso} -> {future_limit_iso}."
+        )
 
     events.sort(
         key=lambda x: (
@@ -2116,6 +2137,7 @@ def main():
         f"Meses consultados: {args.months}",
         f"Tarjetas MEC encontradas: {len(all_cards)}",
         f"Eventos únicos: {len(events)}",
+        f"Ventana publicada: {today_iso} -> {future_limit_iso} (2 meses)",
         f"Eventos MEC: {sum(1 for e in events if e.get('source') == 'MEC')}",
         f"Servicios: {sum(1 for e in events if e.get('source') == 'SERVICIOS')}",
         f"Errores: {len(errors)}",
@@ -2135,6 +2157,7 @@ def main():
         "• 'Dirección' se valida para evitar confundir al director artístico con una dirección física.",
         "• Sin 'Datos destacados', se conservan los extractores narrativos y de etiquetas anteriores.",
         "• Servicios sin fecha verificable no se publican como eventos.",
+        "• Sólo se publican eventos desde hoy hasta 2 meses calendario hacia adelante.",
         "• El precio sólo se registra con evidencia textual explícita.",
         "• Gratis sólo con evidencia textual explícita.",
         "",
