@@ -85,167 +85,6 @@
     "summary_source_hash": "9934cb17ce6d393f4155244283501c335711ce051da67f4190ceafa9cab8c570"
   },
   {
-    "id": "46602",
-    "source": "MEC",
-    "title": "3 de Octubre | Tafí del Valle recibe el 3° Torneo Nacional e Internacional del Asado a la Estaca en Alturas",
-    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-tafi-del-valle-recibe-el-3-torneo-nacional-e-internacional-del-asado-a-la-estaca-en-alturas/",
-    "date_start": "2026-10-03",
-    "date_end": "2026-10-03",
-    "time_start": "08:00",
-    "time_end": "",
-    "start_datetime": "2026-10-03T08:00:00-03:00",
-    "end_datetime": "",
-    "description": "Tafí del Valle será escenario este sábado 3 de octubre de una nueva edición del Torneo Nacional e Internacional del Asado a la Estaca en Alturas, una propuesta que combina gastronomía, tradición y espectáculo en pleno paisaje de los Valles Calchaquíes. La actividad se desarrollará de 8 a 18 en el Complejo Democracia, con entrada libre y gratuita. Una competencia que pone en valor la tradición del asado El certamen llegará a su tercera edición con una propuesta centrada en una de las costumbres gastronómicas más arraigadas de la región: el asado a la estaca. La competencia reunirá participantes que buscarán destacarse en una jornada donde la técnica, el fuego y la cocción serán protagonistas. Para quienes buscan qué hacer en Tucumán este sábado, el torneo se presenta como una alternativa ideal para combinar gastronomía, cultura y paseo en Tafí del Valle. Paseo artesanal y espectáculos La jornada no estará limitada a la competencia. También habrá paseo artesanal, stands de auspiciantes y shows de artistas, lo que convertirá al Complejo Democracia en un punto de encuentro para disfrutar durante buena parte del día. La propuesta está pensada tanto para quienes siguen de cerca este tipo de competencias como para familias y visitantes que quieran acercarse a una actividad diferente. Copa Luna Tucumana Esta edición llevará el nombre de Copa Luna Tucumana y buscará consolidarse como uno de los encuentros gastronómicos destacados del calendario local. El evento también cuenta con el acompañamiento de organismos provinciales y municipales vinculados al turismo y a la producción regional. Entrada libre y gratuita El acceso será libre y gratuito, por lo que no será necesario adquirir entradas para participar de la jornada. Una buena oportunidad para acercarse a Tafí del Valle, disfrutar del paisaje y vivir una jornada a puro sabor y tradición.\n\nEvento: 3° Torneo Nacional e Internacional del Asado a la Estaca en Alturas\nCopa: Luna Tucumana 🧺 Habrá paseo artesanal 🎤 Shows de artistas 🏪 Stands de auspiciantes 🎟️ Entrada libre y gratuita",
-    "highlighted_metadata": {
-      "fecha": "sábado 3 de octubre de 2026",
-      "horario": "de 8:00 a 18:00",
-      "lugar": "Complejo Democracia",
-      "ubicación": "Tafí del Valle",
-      "evento": "3° Torneo Nacional e Internacional del Asado a la Estaca en Alturas",
-      "copa": "Luna Tucumana 🧺 Habrá paseo artesanal 🎤 Shows de artistas 🏪 Stands de auspiciantes 🎟️ Entrada libre y gratuita"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/asado.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Complejo Democracia",
-    "address": "",
-    "city": "Tafí del Valle",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Complejo+Democracia%2C+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n%2C+Argentina",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-03",
-        "time_start": "08:00",
-        "time_end": "",
-        "start_datetime": "2026-10-03T08:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "highlighted_lugar",
-        "score": 0.99
-      },
-      "overall": 0.98
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-03",
-      "card_time": "08:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "highlighted_lugar",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "El 3° Torneo Nacional e Internacional del Asado a la Estaca en Alturas, Copa Luna Tucumana, se realizará el sábado 3 de octubre de 2026, de 8 a 18, en el Complejo Democracia de Tafí del Valle. La competencia gastronómica incluye un paseo artesanal, shows artísticos y stands. La entrada es libre y gratuita.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "ee083e61c467d177e8014c97b5df9d32b3a9db1336926b92bd7b487012f20470"
-  },
-  {
-    "id": "46570",
-    "source": "MEC",
-    "title": "3 de Octubre | Yerba Buena celebra el 6° Encuentro con la Cultura Japonesa en Tucumán",
-    "url": "https://agendatucuman.com.ar/eventos/3-de-octubre-yerba-buena-celebra-el-6-encuentro-con-la-cultura-japonesa-en-tucuman/",
-    "date_start": "2026-10-03",
-    "date_end": "2026-10-03",
-    "time_start": "12:00",
-    "time_end": "",
-    "start_datetime": "2026-10-03T12:00:00-03:00",
-    "end_datetime": "",
-    "description": "La cultura japonesa volverá a tener un espacio especial en Tucumán este sábado 3 de octubre con la realización del 6° Encuentro con la Cultura Japonesa, una jornada que reunirá gastronomía, espectáculos, artesanías y distintas expresiones culturales en Yerba Buena. La actividad se desarrollará de 12 a 18 en la Casa de la Cultura, ubicada en Higueritas 1850, con entrada libre y gratuita. Una jornada para acercarse a la cultura japonesa El encuentro es organizado en el marco de los 140 años de la inmigración japonesa en Argentina y también forma parte de las celebraciones por un nuevo aniversario de la colectividad Nikkei tucumana. La propuesta busca acercar al público distintas tradiciones, costumbres y manifestaciones de la cultura japonesa a través de una experiencia abierta a toda la familia. Durante la jornada habrá gastronomía típica, espectáculos, artesanías y diferentes actividades pensadas para conocer más sobre una cultura con una fuerte identidad y una larga historia en nuestro país. Un encuentro para disfrutar en familia El evento se presenta como una oportunidad para recorrer stands, probar sabores tradicionales, descubrir expresiones artísticas y compartir una tarde diferente en la Casa de la Cultura de Yerba Buena. Para quienes buscan qué hacer en Tucumán durante el fin de semana, el 6° Encuentro con la Cultura Japonesa ofrece una alternativa cultural gratuita y apta para todas las edades. La jornada también busca poner en valor el aporte de la colectividad japonesa y fortalecer el intercambio cultural con la comunidad tucumana. Entrada libre y gratuita No será necesario abonar entrada para participar del encuentro. Una propuesta ideal para disfrutar de una tarde distinta, conocer más sobre Japón y celebrar el encuentro entre culturas en Yerba Buena.\n\nEvento: 6° Encuentro con la Cultura Japonesa en Tucumán 🍱 Habrá gastronomía 🎭 Espectáculos y actividades culturales 🎎 Artesanías y propuestas vinculadas a la cultura japonesa 🎟️ Entrada libre y gratuita 🌸 Actividad en el marco de los 140 años de la inmigración japonesa en Argentina",
-    "highlighted_metadata": {
-      "fecha": "sábado 3 de octubre de 2026",
-      "horario": "de 12:00 a 18:00",
-      "lugar": "Casa de la Cultura",
-      "dirección": "Higueritas 1850, Yerba Buena",
-      "evento": "6° Encuentro con la Cultura Japonesa en Tucumán 🍱 Habrá gastronomía 🎭 Espectáculos y actividades culturales 🎎 Artesanías y propuestas vinculadas a la cultura japonesa 🎟️ Entrada libre y gratuita 🌸 Actividad en el marco de los 140 años de la inmigración japonesa en Argentina"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/japonesa.png",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Casa de la Cultura",
-    "address": "Higueritas 1850, Yerba Buena",
-    "city": "Yerba Buena",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura%2C+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-03",
-        "time_start": "12:00",
-        "time_end": "",
-        "start_datetime": "2026-10-03T12:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "highlighted_lugar",
-        "score": 0.99
-      },
-      "overall": 0.98
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-03",
-      "card_time": "12:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "highlighted_lugar",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "Yerba Buena celebra el 6° Encuentro con la Cultura Japonesa con gastronomía, espectáculos y artesanías en el marco de los 140 años de la inmigración japonesa en Argentina. La cita es el sábado 3 de octubre, de 12 a 18, en la Casa de la Cultura, ubicada en Higueritas 1850. La entrada es libre y gratuita para toda la familia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "9e5f94b54ab003a1aa2b0bcdb10716cbc8a680cf495f2afea7f30d1687ee54e1"
-  },
-  {
     "id": "46479",
     "source": "MEC",
     "title": "3 de Octubre | Karina y Rodrigo Tapari encabezan la Gran Fiesta de la Ciudad en el Hipódromo",
@@ -2475,5 +2314,190 @@
     "summary_generated": false,
     "summary_version": 1,
     "summary_source_hash": "7544fbc0bc1015ca137cb19d10b231ea20c48700f5a70d9a48784180e7045313"
+  },
+  {
+    "id": "servicios-45789",
+    "source": "SERVICIOS",
+    "title": "Banda del Rio Sali: Cronograma del programa Garrafa Social",
+    "url": "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social-2/",
+    "date_start": "",
+    "date_end": "",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "",
+    "end_datetime": "",
+    "description": "<p><img decoding=\"async\" src=\"https://media.lv12.com.ar/p/724f3ab80840473bee290b9603970c82/adjuntos/261/imagenes/002/055/0002055870/1200x0/smart/image.png\" /></p>\n",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/06/4.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Servicios"
+    ],
+    "tags": [
+      "Garrafa Social"
+    ],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [
+      "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social-2/"
+    ],
+    "occurrences": [],
+    "confidence": {
+      "date": {
+        "source": "services_unverified",
+        "score": 0.2
+      },
+      "time": {
+        "source": "none",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.31
+    },
+    "_sources": {
+      "source_url": "https://agendatucuman.com.ar/category/servicios/",
+      "post_id": 45789,
+      "date": "services_unverified"
+    },
+    "summary": "",
+    "summary_generated": false,
+    "summary_version": 1,
+    "summary_source_hash": ""
+  },
+  {
+    "id": "servicios-45253",
+    "source": "SERVICIOS",
+    "title": "Habrá nuevas jornadas de Eco Canje esta semana",
+    "url": "https://agendatucuman.com.ar/nuevas-jornadas-de-eco-canje-esta-semana/",
+    "date_start": "",
+    "date_end": "",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "",
+    "end_datetime": "",
+    "description": "<p>En el marco del programa SE-PA-RÁ, la Secretaría de Ambiente y Desarrollo Sustentable de la Municipalidad de San Miguel de Tucumán realizará nuevas jornadas de Eco Canje en distintos espacios públicos de la capital.</p>\n<p><img decoding=\"async\" src=\"https://media.lv12.com.ar/p/c47095bfc905905cc466b3e364f96a8d/adjuntos/261/imagenes/002/053/0002053356/1200x0/smart/image.png\" /></p>\n",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2024/12/eco-canje-tucuman-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Servicios"
+    ],
+    "tags": [
+      "eco-canje",
+      "reciclaje"
+    ],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [
+      "https://agendatucuman.com.ar/nuevas-jornadas-de-eco-canje-esta-semana/"
+    ],
+    "occurrences": [],
+    "confidence": {
+      "date": {
+        "source": "services_unverified",
+        "score": 0.2
+      },
+      "time": {
+        "source": "none",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.31
+    },
+    "_sources": {
+      "source_url": "https://agendatucuman.com.ar/category/servicios/",
+      "post_id": 45253,
+      "date": "services_unverified"
+    },
+    "summary": "",
+    "summary_generated": false,
+    "summary_version": 1,
+    "summary_source_hash": "fb0da0d569c994efefdeab25c96931c542086fada36e1ac4284b9700d65020aa"
+  },
+  {
+    "id": "servicios-46467",
+    "source": "SERVICIOS",
+    "title": "Tafí Viejo: dónde estará el tráiler de Salud Animal",
+    "url": "https://agendatucuman.com.ar/tafi-viejo-donde-estara-el-trailer-de-salud-animal/",
+    "date_start": "",
+    "date_end": "",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "",
+    "end_datetime": "",
+    "description": "<p>El programa <strong>Móvil de Salud Animal en Movimiento</strong> continúa durante septiembre en <strong>La Folclórica</strong>, donde permanecerá instalado hasta fin de mes para acercar a los vecinos servicios gratuitos destinados al cuidado y la salud de sus mascotas.</p>\n<p>La propuesta contempla distintas acciones veterinarias, entre ellas <strong>castraciones, desparasitaciones y vacunación antirrábica</strong>, con el objetivo de prevenir enfermedades y promover una tenencia responsable de perros y gatos.</p>\n<p>La atención mantiene una modalidad organizada durante la semana. Los <strong>lunes se realiza la entrega de turnos</strong>, por orden de llegada y hasta completar el cupo disponible, mientras que las jornadas de <strong>martes, miércoles, jueves y viernes</strong> están destinadas a la atención veterinaria.</p>\n<p>En el caso de la <strong>desparasitación</strong>, el servicio está destinado a <strong>cachorros de hasta cuatro meses de edad y hasta 3 kilos de peso</strong>. La vacunación antirrábica constituye además una herramienta fundamental para la prevención de la rabia y el cuidado tanto de los animales como de la comunidad.</p>\n<p>La iniciativa es impulsada por la <strong>Dirección de Salud Pública de la Municipalidad de Tafí Viejo</strong>, en el marco de las políticas municipales de bienestar animal, con el propósito de facilitar el acceso de las familias a servicios veterinarios y fortalecer las acciones de prevención, cuidado y tenencia responsable.</p>\n<p>De esta manera, el tráiler continúa acercando atención a distintos sectores de la ciudad y promoviendo el compromiso de la comunidad con la salud y el bienestar de sus mascotas.</p>\n",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/Mascotas-Tafi-Viejo.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Servicios"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [
+      "https://agendatucuman.com.ar/tafi-viejo-donde-estara-el-trailer-de-salud-animal/"
+    ],
+    "occurrences": [],
+    "confidence": {
+      "date": {
+        "source": "services_unverified",
+        "score": 0.2
+      },
+      "time": {
+        "source": "none",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.31
+    },
+    "_sources": {
+      "source_url": "https://agendatucuman.com.ar/category/servicios/",
+      "post_id": 46467,
+      "date": "services_unverified"
+    },
+    "summary": "El tráiler de Salud Animal en Movimiento estará en La Folclórica durante todo septiembre para ofrecer servicios veterinarios gratuitos para perros y gatos. Se realizan castraciones, vacunación antirrábica y desparasitación para cachorros de hasta cuatro meses y 3 kilos. La entrega de turnos es por orden de llegada los lunes hasta completar cupos, mientras que la atención se brinda de martes a viernes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "587d4c392099ca0a3549575faf5c2df164f714843eff09a64300c5862531bc94"
   }
 ]
