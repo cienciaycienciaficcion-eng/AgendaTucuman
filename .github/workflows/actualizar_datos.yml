@@ -63,8 +63,8 @@ jobs:
               --delay 0.15 \
               --out .tmp/agenda
           else
-            echo "✓ IA fuera de su ventana diaria: se ejecutará agenda_mec.py"
-            GEMINI_ENABLED=0 PYTHONUNBUFFERED=1 python -u extractores/agenda_mec.py \
+            echo "✓ IA fuera de su ventana diaria: se ejecutará agenda_mec_ia.py con Gemini desactivado"
+            GEMINI_ENABLED=0 PYTHONUNBUFFERED=1 python -u extractores/agenda_mec_ia.py \
               --start-year "$YEAR" \
               --start-month "$MONTH" \
               --months 12 \
@@ -230,9 +230,33 @@ jobs:
 
       # ============================================================
       # CINEMACENTER
+      # Se actualiza una sola vez por semana: jueves a las 08:00
+      # hora de Tucumán. El resto de las corridas conserva la cartelera.
       # ============================================================
 
+      - name: Comprobar ventana semanal de Cinemacenter
+        id: cinema_schedule
+        run: |
+          DOW=$(TZ=America/Argentina/Tucuman date +%u)
+          HOUR=$(TZ=America/Argentina/Tucuman date +%H)
+          NOW=$(TZ=America/Argentina/Tucuman date '+%Y-%m-%d %H:%M:%S')
+
+          echo "Fecha/hora Tucumán: $NOW"
+          echo "Día de semana: $DOW | Hora: $HOUR"
+
+          if [ "$DOW" = "4" ] && [ "$HOUR" = "08" ]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+            echo "✓ Corresponde actualizar Cinemacenter esta semana."
+          else
+            echo "due=false" >> "$GITHUB_OUTPUT"
+            echo "○ Cinemacenter no corresponde en esta corrida."
+          fi
+
       - name: Extraer Cinemacenter Tucumán
+        id: cinemacenter
+        if: steps.cinema_schedule.outputs.due == 'true'
+        continue-on-error: true
+        run: |
         id: cinemacenter
         continue-on-error: true
         run: |
@@ -574,13 +598,17 @@ jobs:
             echo "⚠ Radio/Contenidos: no actualizado"
           fi
 
-          if [ "${{ steps.cinemacenter.outcome }}" = "success" ] && [ "${{ steps.validate_cinemacenter.outcome }}" = "success" ]; then
+          if [ "${{ steps.cinema_schedule.outputs.due }}" != "true" ]; then
+            echo "○ Cinemacenter: sin actualización (programado jueves 08:00)"
+          elif [ "${{ steps.cinemacenter.outcome }}" = "success" ] && [ "${{ steps.validate_cinemacenter.outcome }}" = "success" ]; then
             echo "✓ Cinemacenter: OK y cartelera vigente"
           else
             echo "⚠ Cinemacenter: no actualizado / cartelera anterior conservada"
           fi
 
-          if [ "${{ steps.cinemacenter.outcome }}" = "success" ]; then
+          if [ "${{ steps.cinema_schedule.outputs.due }}" != "true" ]; then
+            echo "○ Metadata Cinemacenter: sin actualización esta corrida"
+          elif [ "${{ steps.cinemacenter.outcome }}" = "success" ]; then
             echo "✓ Metadata Cinemacenter: generada por el mismo extractor"
           else
             echo "⚠ Metadata Cinemacenter: no generada porque Cinemacenter no se actualizó"
