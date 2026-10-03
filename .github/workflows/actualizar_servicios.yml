@@ -3,7 +3,7 @@ name: Actualizar Servicios Agenda Tucumán
 on:
   workflow_dispatch:
   schedule:
-    # Cada 2 horas. Solo se revisan las 3 páginas más recientes. Gemini procesa como máximo 50 artículos por corrida.
+    # Cada 2 horas. Solo se revisa la primera página de Servicios.
     - cron: '17 */2 * * *'
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       - name: Instalar dependencias
         run: pip install requests beautifulsoup4
 
-      - name: Extraer TODOS los Servicios
+      - name: Extraer Servicios - primera página
         run: python -u extractores/servicios.py
 
       - name: Verificar extracción
@@ -32,22 +32,56 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
+
           p = Path('datos/servicios_raw.json')
           if not p.exists():
               raise SystemExit('No existe datos/servicios_raw.json')
+
           data = json.loads(p.read_text(encoding='utf-8'))
           articles = data.get('articles', []) if isinstance(data, dict) else data
+
           print(f'Artículos extraídos: {len(articles)}')
+
           if not isinstance(articles, list):
               raise SystemExit('Formato inválido de servicios_raw.json')
+
           if not articles:
-              raise SystemExit('servicios_raw.json está vacío; no se continúa con Gemini')
+              raise SystemExit(
+                  'servicios_raw.json está vacío; no se continúa con IA'
+              )
           PY
 
-      - name: Filtrar hasta 50 Servicios con Gemini
+      - name: Comprobar APIs de IA
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash
+          GROQ_MODEL: openai/gpt-oss-20b
+        run: |
+          python - <<'PY'
+          import os
+
+          gemini = bool(os.getenv('GEMINI_API_KEY'))
+          groq = bool(os.getenv('GROQ_API_KEY'))
+
+          print(f'Gemini API key: {"configurada" if gemini else "NO configurada"}')
+          print(f'Gemini modelo: {os.getenv("GEMINI_MODEL")}')
+          print(f'Groq API key: {"configurada" if groq else "NO configurada"}')
+          print(f'Groq modelo: {os.getenv("GROQ_MODEL")}')
+
+          if not gemini and not groq:
+              raise SystemExit(
+                  'No hay ninguna API configurada. '
+                  'Configure GEMINI_API_KEY y/o GROQ_API_KEY.'
+              )
+          PY
+
+      - name: Filtrar Servicios con Gemini + Groq
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: openai/gpt-oss-20b
         run: python -u scripts/filtrar-servicios-ia.py
 
       - name: Validar JSON de Servicios
@@ -55,14 +89,22 @@ jobs:
           python - <<'PY'
           import json
           from pathlib import Path
-          for name in ['datos/servicios_raw.json', 'datos/servicios_tucuman.json', 'datos/servicios_gemini_state.json']:
+
+          for name in [
+              'datos/servicios_raw.json',
+              'datos/servicios_tucuman.json',
+              'datos/servicios_gemini_state.json',
+          ]:
               p = Path(name)
               if not p.exists():
                   raise SystemExit(f'Falta {name}')
+
               data = json.loads(p.read_text(encoding='utf-8'))
               print(f'OK {name}: {p.stat().st_size} bytes')
+
               if name.endswith('servicios_tucuman.json'):
                   print('Servicios publicados:', data.get('count', 0))
+
               if name.endswith('servicios_gemini_state.json'):
                   print('IDs procesados:', len(data.get('processed', {})))
                   print('IDs seleccionados:', len(data.get('selected_ids', [])))
@@ -72,7 +114,9 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add datos/servicios_raw.json datos/servicios_tucuman.json datos/servicios_gemini_state.json
+
+          git add             datos/servicios_raw.json             datos/servicios_tucuman.json             datos/servicios_gemini_state.json
+
           if git diff --cached --quiet; then
             echo "Sin cambios en Servicios."
           else
