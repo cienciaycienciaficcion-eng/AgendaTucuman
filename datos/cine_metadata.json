@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-03T10:30:38.786734-03:00",
+  "generated_at": "2026-10-03T18:33:58.044523-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "TOY STORY 5 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-03",
+      "release_date": "2026-10-04",
       "duration_minutes": 102,
       "genres": [
         "Animación Aventuras"

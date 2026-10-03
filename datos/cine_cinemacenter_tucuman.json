@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-03T10:30:38.786926-03:00",
+  "generated_at": "2026-10-03T18:33:58.044633-03:00",
   "reference_date": "2026-10-03",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "113eb8c9b056f40860fe3a0b252a568b8ab4dcf6d8fb4388521bbf8be7a79f7f"
+    "pdf_sha256": "5098fe5112b0a2cc5d0074fa90a82fafcaac5425a08032bfca79c724e56f1ae7"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -35,9 +35,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "15:20"
-          ],
+          "sábado": [],
           "domingo": [
             "15:20"
           ],
@@ -46,12 +44,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "15:20",
-            "datetime": "2026-10-03T15:20:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-04",
             "time": "15:20",
@@ -64,7 +56,7 @@
           "title": "TOY STORY 5 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-03",
+          "release_date": "2026-10-04",
           "duration_minutes": 102,
           "genres": [
             "Animación Aventuras"
@@ -120,8 +112,6 @@
           "jueves": [],
           "viernes": [],
           "sábado": [
-            "14:20",
-            "15:30",
             "18:00",
             "21:40"
           ],
@@ -145,18 +135,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "14:20",
-            "datetime": "2026-10-03T14:20:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-10-03",
-            "time": "15:30",
-            "datetime": "2026-10-03T15:30:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-03",
             "time": "18:00",
@@ -1304,7 +1282,6 @@
           "jueves": [],
           "viernes": [],
           "sábado": [
-            "15:10",
             "17:30"
           ],
           "domingo": [
@@ -1322,12 +1299,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "15:10",
-            "datetime": "2026-10-03T15:10:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-03",
             "time": "17:30",
