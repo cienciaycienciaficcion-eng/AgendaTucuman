@@ -37,7 +37,7 @@ HEADERS = {
 TIMEOUT = 30
 MAX_RETRIES = 6
 REST_PER_PAGE = 100
-MAX_PAGES = 3
+MAX_PAGES = 1
 REQUEST_DELAY = 0.8
 
 
@@ -229,7 +229,7 @@ def parse_rest_post(post):
 
 
 def extract_rest(session):
-    """Extrae únicamente las 3 páginas más recientes de Servicios."""
+    """Extrae únicamente la primera página más recientes de Servicios."""
     category_id = find_service_category_id(session)
     if not category_id:
         print("No se encontró la categoría REST 'servicios'.")
@@ -452,7 +452,7 @@ def parse_article(session, item):
 
 
 def extract_html_fallback(session):
-    """Respaldo HTML limitado a las 3 páginas más recientes."""
+    """Respaldo HTML limitado a la primera página más recientes."""
     all_items = {}
     page = 1
 
@@ -541,7 +541,7 @@ def main():
 
     print("=== Extractor Servicios Agenda Tucumán ===")
     print("Método preferido: WordPress REST API")
-    print("Objetivo: revisar solo las 3 páginas más recientes y evitar HTTP 429")
+    print("Objetivo: revisar solo la primera página más recientes y evitar HTTP 429")
 
     try:
         articles = extract_rest(session)
