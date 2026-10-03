@@ -37,13 +37,16 @@ jobs:
       - name: Extraer agenda MEC
         id: agenda
         continue-on-error: true
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: gemini-3.5-flash-lite
         run: |
           mkdir -p .tmp/agenda
 
           YEAR=$(TZ=America/Argentina/Tucuman date +%Y)
           MONTH=$(TZ=America/Argentina/Tucuman date +%m)
 
-          python extractores/agenda_mec.py \
+          python extractores/agenda_mec_ia.py \
             --start-year "$YEAR" \
             --start-month "$MONTH" \
             --months 12 \
@@ -155,7 +158,6 @@ jobs:
           fi
           echo "Se conservarán los datos anteriores."
 
-
       # ============================================================
       # RADIO / CONTENIDOS
       # ============================================================
@@ -248,8 +250,6 @@ jobs:
               print('No se reemplazarán los datos publicados anteriormente.')
               sys.exit(1)
 
-          # Una cartelera sin películas se considera una respuesta incompleta.
-          # No borramos una cartelera válida por un fallo puntual del extractor.
           if not movies:
               print('ADVERTENCIA: Cinemacenter devolvió una cartelera sin películas.')
               print('No se reemplazará la cartelera anterior.')
@@ -257,7 +257,12 @@ jobs:
                   f.write('1\n')
               sys.exit(0)
 
-          missing_metadata = [m.get('title') or '(sin título)' for m in movies if not isinstance(m.get('metadata'), dict)]
+          missing_metadata = [
+              m.get('title') or '(sin título)'
+              for m in movies
+              if not isinstance(m.get('metadata'), dict)
+          ]
+
           if missing_metadata:
               print(f'ERROR: {len(missing_metadata)} películas no tienen metadata oficial de Cinemacenter:')
               for title in missing_metadata:
@@ -312,8 +317,6 @@ jobs:
 
       # ============================================================
       # SINCRONIZAR DATOS DE CINE PARA LA APP
-      # El extractor de Cinemacenter ya genera cartelera + metadata
-      # en una única ejecución. No hay workflow de enrichment separado.
       # ============================================================
 
       - name: Publicar metadata Cinemacenter generada
@@ -323,6 +326,7 @@ jobs:
             echo "No se publica metadata porque la cartelera anterior se conserva."
             exit 0
           fi
+
           if [ -f ".tmp/cinemacenter/cine_metadata.json" ]; then
             cp .tmp/cinemacenter/cine_metadata.json datos/cine_metadata.json
             echo "Metadata Cinemacenter publicada."
@@ -334,14 +338,25 @@ jobs:
           if [ -f "datos/cine_cinemacenter_tucuman.json" ]; then
             cp datos/cine_cinemacenter_tucuman.json src/data/cine_cinemacenter_tucuman.json
           fi
+
           cp datos/cine_metadata.json src/data/cine_metadata.json
 
           python - <<'PY2'
           import json
           from pathlib import Path
-          data = json.loads(Path("datos/cine_metadata.json").read_text(encoding="utf-8"))
+
+          data = json.loads(
+              Path("datos/cine_metadata.json").read_text(encoding="utf-8")
+          )
+
           summary = data.get("summary", {})
-          print(f"Metadata Cinemacenter: {summary.get('complete_source', 0)} completas desde fuente; {summary.get('partial_source', 0)} parciales; {summary.get('without_metadata', 0)} sin metadata.")
+
+          print(
+              f"Metadata Cinemacenter: "
+              f"{summary.get('complete_source', 0)} completas desde fuente; "
+              f"{summary.get('partial_source', 0)} parciales; "
+              f"{summary.get('without_metadata', 0)} sin metadata."
+          )
           PY2
 
       # ============================================================
@@ -388,6 +403,7 @@ jobs:
 
                   if filename.endswith("agenda_eventos.json") and isinstance(data, list):
                       print(f"  Eventos publicados: {len(data)}")
+
               except Exception as e:
                   print(f"✗ {filename}: ERROR - {e}")
                   failed = True
@@ -420,8 +436,6 @@ jobs:
 
       # ============================================================
       # FALLAR EL WORKFLOW SI HUBO UN PROBLEMA CRÍTICO
-      # Esto hace que GitHub lo marque como FAILED y active las
-      # notificaciones normales de GitHub Actions.
       # ============================================================
 
       - name: Estado final
