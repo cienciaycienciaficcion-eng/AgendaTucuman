@@ -56,11 +56,10 @@ jobs:
         if: steps.agenda.outcome == 'success'
         run: |
           python - <<'PY2'
-          ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
-
+          from datetime import datetime
           from zoneinfo import ZoneInfo
 
-          from datetime import datetime
+          ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
 
           import json
           import sys
@@ -214,11 +213,10 @@ jobs:
         if: steps.cinemacenter.outcome == 'success'
         run: |
           python - <<'PY2'
-          ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
-
+          from datetime import datetime
           from zoneinfo import ZoneInfo
 
-          from datetime import datetime
+          ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
 
           import json
           import sys
