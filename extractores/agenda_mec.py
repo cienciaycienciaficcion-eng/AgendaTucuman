@@ -1784,10 +1784,9 @@ def extract_services(session, delay, year, max_pages=12):
                 date_start, date_end, date_source, date_score = parse_wp_service_date(
                     title, content_text, published_year
                 )
-                if not date_start:
-                    # Sin fecha verificable no se publica como evento: evita
-                    # llenar la agenda con notas de servicios sin vigencia.
-                    continue
+                # Los servicios pueden ser permanentes y no tener una fecha
+                # explícita. No los descartamos por ese motivo: la pestaña
+                # Servicios los mostrará aunque no tengan date_start/date_end.
 
                 soup = BeautifulSoup(content_html, "html.parser")
                 image = ""
@@ -1807,7 +1806,11 @@ def extract_services(session, delay, year, max_pages=12):
                 is_free = explicit_free(content_text)
                 map_search_url = build_map_search_url(location, address, city)
 
-                occurrences = build_occurrences(date_start, date_end, "", "")
+                occurrences = (
+                    build_occurrences(date_start, date_end, "", "")
+                    if date_start
+                    else []
+                )
                 tags = []
                 for tag in (embedded.get("wp:term") or []):
                     if isinstance(tag, list):
@@ -1823,8 +1826,16 @@ def extract_services(session, delay, year, max_pages=12):
                     "date_end": date_end,
                     "time_start": "",
                     "time_end": "",
-                    "start_datetime": occurrences[0]["start_datetime"] if occurrences else make_local_datetime(date_start, ""),
-                    "end_datetime": occurrences[-1]["end_datetime"] if occurrences and occurrences[-1].get("end_datetime") else "",
+                    "start_datetime": (
+                        occurrences[0]["start_datetime"]
+                        if occurrences
+                        else (make_local_datetime(date_start, "") if date_start else "")
+                    ),
+                    "end_datetime": (
+                        occurrences[-1]["end_datetime"]
+                        if occurrences and occurrences[-1].get("end_datetime")
+                        else ""
+                    ),
                     "description": content_html,
                     "image": image,
                     "price": price,
@@ -2012,7 +2023,14 @@ def main():
     before_filter = len(events)
     events = [
         event for event in events
-        if (event.get("date_end") or event.get("date_start") or "") >= today_iso
+        if (
+            event.get("source") == "SERVICIOS"
+            and not event.get("date_end")
+            and not event.get("date_start")
+        )
+        or (
+            (event.get("date_end") or event.get("date_start") or "") >= today_iso
+        )
     ]
     removed_past = before_filter - len(events)
     if removed_past:
