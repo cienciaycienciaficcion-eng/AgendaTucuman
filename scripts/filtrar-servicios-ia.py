@@ -21,10 +21,12 @@ RAW = Path("datos/servicios_raw.json")
 OUT = Path("datos/servicios_tucuman.json")
 STATE = Path("datos/servicios_gemini_state.json")
 API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash").strip()
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 MAX_GEMINI_CALLS = 50
 REQUEST_TIMEOUT = 60
+GEMINI_RETRIES = 3
+GEMINI_RETRY_BASE_SECONDS = 5
 
 
 def now_utc():
@@ -93,7 +95,7 @@ def deterministic_candidates(articles):
 
 
 def ask_gemini(article):
-    """Una llamada Gemini para un único artículo."""
+    """Consulta Gemini para un único artículo, con reintentos ante 429/5xx."""
     prompt = f"""Eres el filtro de Servicios de Agenda Tucumán.
 
 Selecciona si ESTA publicación representa información útil de servicios para ciudadanos de Tucumán.
@@ -119,23 +121,74 @@ Descripción: {article.get('description','')[:1200]}
 Contenido: {article.get('content','')[:2500]}
 """
 
-    response = requests.post(
-        URL,
-        params={"key": API_KEY},
-        headers={"Content-Type": "application/json"},
-        json={
-            "contents": [{"parts": [{"text": prompt}]}],
-            "generationConfig": {
-                "temperature": 0,
-                "responseMimeType": "application/json",
-            },
-        },
-        timeout=REQUEST_TIMEOUT,
-    )
-    response.raise_for_status()
-    body = response.json()
-    text = body["candidates"][0]["content"]["parts"][0]["text"]
-    return extract_json(text)
+    last_error = None
+
+    for attempt in range(1, GEMINI_RETRIES + 1):
+        try:
+            response = requests.post(
+                URL,
+                params={"key": API_KEY},
+                headers={"Content-Type": "application/json"},
+                json={
+                    "contents": [{"parts": [{"text": prompt}]}],
+                    "generationConfig": {
+                        "temperature": 0,
+                        "responseMimeType": "application/json",
+                    },
+                },
+                timeout=REQUEST_TIMEOUT,
+            )
+
+            # Retry only temporary/rate-limit/server errors.
+            if response.status_code == 429 or 500 <= response.status_code < 600:
+                if attempt < GEMINI_RETRIES:
+                    wait = GEMINI_RETRY_BASE_SECONDS * (2 ** (attempt - 1))
+                    print(
+                        f"[Gemini Servicios] HTTP {response.status_code} "
+                        f"para {article.get('id')}; reintento {attempt + 1}/"
+                        f"{GEMINI_RETRIES} en {wait}s."
+                    )
+                    time.sleep(wait)
+                    continue
+
+            response.raise_for_status()
+
+            body = response.json()
+            candidates = body.get("candidates") or []
+            if not candidates:
+                raise RuntimeError("Gemini no devolvió candidates")
+
+            parts = candidates[0].get("content", {}).get("parts", [])
+            if not parts or "text" not in parts[0]:
+                raise RuntimeError("Gemini no devolvió texto JSON")
+
+            return extract_json(parts[0]["text"])
+
+        except requests.HTTPError as exc:
+            last_error = exc
+
+            # 4xx other than 429 are configuration/request errors and should
+            # not be retried repeatedly.
+            status = exc.response.status_code if exc.response is not None else None
+            if status is not None and status != 429 and not (500 <= status < 600):
+                raise
+
+            if attempt >= GEMINI_RETRIES:
+                raise
+
+        except (requests.RequestException, RuntimeError, ValueError, KeyError) as exc:
+            last_error = exc
+            if attempt >= GEMINI_RETRIES:
+                raise
+
+            wait = GEMINI_RETRY_BASE_SECONDS * (2 ** (attempt - 1))
+            print(
+                f"[Gemini Servicios] Error temporal para {article.get('id')}: "
+                f"{exc}; reintento {attempt + 1}/{GEMINI_RETRIES} en {wait}s."
+            )
+            time.sleep(wait)
+
+    raise last_error or RuntimeError("Fallo desconocido consultando Gemini")
 
 
 def make_event(article):
@@ -241,6 +294,11 @@ def main():
     if not API_KEY:
         raise SystemExit("GEMINI_API_KEY no está configurada")
 
+    print(
+        f"[Gemini Servicios] Modelo: {MODEL} | "
+        f"API key: configurada | límite de artículos: {MAX_GEMINI_CALLS}"
+    )
+
     batch = pending[:MAX_GEMINI_CALLS]
     print(
         f"[Gemini Servicios] Pendientes: {len(pending)}. "
@@ -271,11 +329,11 @@ def main():
         except requests.HTTPError as exc:
             # No marcar como procesado: se reintentará en la siguiente corrida.
             print(f"[Gemini Servicios] HTTP error para {sid}: {exc}")
-            break
+            continue
         except Exception as exc:
             # Tampoco se marca como procesado si la llamada no pudo completarse.
             print(f"[Gemini Servicios] Error para {sid}: {exc}")
-            break
+            continue
 
     state["selected_ids"] = write_output(
         articles,
