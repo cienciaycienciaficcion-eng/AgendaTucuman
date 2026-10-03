@@ -21,6 +21,7 @@ from urllib.request import Request, urlopen
 
 BASE = "https://www.cinemacenter.com.ar"
 CARTELERA_URL = f"{BASE}/cartelera#contenido"
+ESTRENOS_URL = f"{BASE}/estrenos#contenido"
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0 Safari/537.36 AgendaTucuman/1.0"
 DIRECT_TIMEOUT = float(os.getenv("CINEMACENTER_DIRECT_TIMEOUT", "12"))
 READER_TIMEOUT = int(os.getenv("CINEMACENTER_READER_TIMEOUT", "45"))
@@ -553,108 +554,160 @@ def write_json(path: Path, value) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def _section_movies(cinema: dict) -> list[tuple[str, dict]]:
+    """Return current cartelera + upcoming releases with explicit section labels."""
+    result: list[tuple[str, dict]] = []
+    cartelera = cinema.get("cartelera") or {}
+    for movie in cartelera.get("movies") or []:
+        if isinstance(movie, dict):
+            result.append(("cartelera", movie))
+
+    upcoming = cinema.get("proximos_estrenos")
+    # Support both a direct list and a common nested {"movies": [...]} shape.
+    if isinstance(upcoming, dict):
+        upcoming = upcoming.get("movies") or upcoming.get("estrenos") or []
+    if isinstance(upcoming, list):
+        for movie in upcoming:
+            if isinstance(movie, dict):
+                result.append(("proximos_estrenos", movie))
+    return result
+
+
+def _load_page_parser(source: str):
+    if "<html" in source[:2000].lower() or "<meta" in source[:5000].lower():
+        parser = PageParser()
+        parser.feed(source)
+        return parser
+    return MarkdownParser(source)
+
+
+def _fetch_section_parser(url: str, label: str):
+    source = fetch(url)
+    parser = _load_page_parser(source)
+    print(f"{label} Cinemacenter consultada para localizar fichas exactas.")
+    return parser
+
+
+def _build_result(movie: dict, section: str, fresh: dict, url: str | None) -> dict:
+    title = str(movie.get("title") or "").strip()
+    result = {
+        "title": title,
+        "match": [title],
+        "source": "Cinemacenter",
+        "section": section,
+    }
+
+    # Preserve fields explicitly supplied by the current extractor first.
+    embedded = movie.get("metadata")
+    if isinstance(embedded, dict):
+        for key, value in embedded.items():
+            if key not in {"title", "match"} and value not in (None, "", [], {}):
+                result[key] = value
+
+    # Fresh Cinemacenter ficha data wins over embedded metadata.
+    result.update({
+        k: v for k, v in fresh.items()
+        if k not in {"title", "source_url"} and v not in (None, "", [], {})
+    })
+    if url:
+        result["source_url"] = url
+
+    # Keep classification/rating supplied by the official current JSON if present.
+    for field in ("classification", "rating"):
+        if movie.get(field) not in (None, "", [], {}):
+            result[field] = movie[field]
+
+    required = [
+        "title", "original_title", "year", "release_date", "duration_minutes",
+        "genres", "director", "cast", "synopsis", "poster",
+    ]
+    missing = [field for field in required if result.get(field) in (None, "", [], {})]
+    if not result.get("classification"):
+        missing.append("classification")
+    result["metadata_status"] = "complete" if not missing else "partial"
+    result["metadata_missing"] = missing
+    return result
+
+
 def main() -> int:
     cinema = load_json(LOCAL_CINEMA, None)
     if not cinema or not isinstance(cinema.get("cartelera", {}).get("movies"), list):
         print("No se encontró una cartelera local válida", file=sys.stderr)
         return 1
 
-    movies = cinema["cartelera"]["movies"]
-    if not movies:
-        print("La cartelera actual no contiene películas; se genera metadata vacía.")
-        metadata = {
-            "generated_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
-            "source_policy": "Cinemacenter only. No historical or external metadata is reused.",
-            "source": CARTELERA_URL,
-            "movies": [],
-            "summary": {"total": 0, "complete": 0, "partial": 0, "resolved_this_run": 0, "still_missing": 0},
-        }
-        write_json(LOCAL_METADATA, metadata)
-        if REPO_DATA_DIR.exists():
-            write_json(REPO_METADATA, metadata)
-        return 0
-
-    # IMPORTANT: every run starts from the current Cinemacenter cartelera.
-    # No previous metadata is loaded or merged. This prevents stale/wrong data
-    # from surviving after a title changes or returns to the cartelera.
-    try:
-        cartelera_source = fetch(CARTELERA_URL)
-        if "<html" in cartelera_source[:2000].lower() or "<meta" in cartelera_source[:5000].lower():
-            cartelera_parser = PageParser()
-            cartelera_parser.feed(cartelera_source)
-        else:
-            cartelera_parser = MarkdownParser(cartelera_source)
-        print("Cartelera Cinemacenter consultada para localizar fichas exactas.")
-    except Exception as exc:
-        print(f"ERROR: no se pudo consultar la cartelera de Cinemacenter: {exc}", file=sys.stderr)
+    section_movies = _section_movies(cinema)
+    if not section_movies:
+        print("No se encontraron películas de cartelera ni próximos estrenos.")
         return 1
 
-    enriched = []
-    seen = set()
-    failures = []
+    # Query both Cinemacenter sections. A temporary failure in one section must
+    # not erase data already obtained from the other section.
+    parsers: dict[str, object] = {}
+    for section, url, label in (
+        ("cartelera", CARTELERA_URL, "Cartelera"),
+        ("proximos_estrenos", ESTRENOS_URL, "Estrenos"),
+    ):
+        try:
+            parsers[section] = _fetch_section_parser(url, label)
+        except Exception as exc:
+            print(f"ADVERTENCIA: no se pudo consultar {label} de Cinemacenter: {exc}", file=sys.stderr)
+
+    if not parsers:
+        print("ERROR: no se pudo consultar ninguna sección de Cinemacenter.", file=sys.stderr)
+        return 1
+
+    enriched: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    failures: list[str] = []
     complete = 0
     partial = 0
 
-    for movie in movies:
+    for section, movie in section_movies:
         title = str(movie.get("title") or "").strip()
         key = normalize(title)
-        if not key or key in seen:
+        identity = (section, key)
+        if not key or identity in seen:
             continue
-        seen.add(key)
+        seen.add(identity)
 
-        url = find_movie_url(cartelera_parser, title)
-        fresh = {}
+        parser = parsers.get(section)
+        url = find_movie_url(parser, title) if parser else None
+        fresh: dict = {}
+
         if url:
-            print(f"  > {title}: ficha candidata exacta -> {url}")
+            print(f"  > [{section}] {title}: ficha candidata exacta -> {url}")
             try:
                 fresh = parse_movie_page(url, title)
             except Exception as exc:
-                failures.append(f"{title}: {exc}")
-                print(f"  ! {title}: {exc}")
+                failures.append(f"[{section}] {title}: {exc}")
+                print(f"  ! [{section}] {title}: {exc}")
         else:
-            failures.append(f"{title}: no se encontró una ficha exacta en Cinemacenter")
-            print(f"  ! {title}: no se encontró una ficha exacta en Cinemacenter")
+            failures.append(f"[{section}] {title}: no se encontró una ficha exacta en Cinemacenter")
+            print(f"  ! [{section}] {title}: no se encontró una ficha exacta en Cinemacenter")
 
-        # The cartelera itself is authoritative for the title currently shown.
-        # Metadata from the movie page is added only after strict title validation.
-        result = {
-            "title": title,
-            "match": [title],
-            "source": "Cinemacenter",
-        }
-        result.update({k: v for k, v in fresh.items() if k not in {"title", "source_url"} and v not in (None, "", [], {})})
-        if url:
-            result["source_url"] = url
-
-        # Preserve only the classification already supplied by the official
-        # cartelera JSON, if present. Do not obtain it from external sources.
-        for field in ("classification", "rating"):
-            if movie.get(field) not in (None, "", [], {}):
-                result[field] = movie[field]
-
-        required = [
-            "title", "original_title", "year", "release_date", "duration_minutes",
-            "genres", "director", "cast", "synopsis", "poster",
-        ]
-        missing = [field for field in required if result.get(field) in (None, "", [], {})]
-        if not result.get("classification"):
-            missing.append("classification")
-        result["metadata_status"] = "complete" if not missing else "partial"
-        result["metadata_missing"] = missing
+        result = _build_result(movie, section, fresh, url)
+        enriched.append(result)
 
         if result["metadata_status"] == "complete":
             complete += 1
         else:
             partial += 1
-        enriched.append(result)
 
     metadata = {
         "generated_at": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
-        "source_policy": "Cinemacenter only. No historical or external metadata is reused.",
-        "source": CARTELERA_URL,
+        "source_policy": (
+            "Cinemacenter is the primary source. Current cartelera and upcoming "
+            "releases are processed separately; no external metadata is added here."
+        ),
+        "source": {
+            "cartelera": CARTELERA_URL,
+            "proximos_estrenos": ESTRENOS_URL,
+        },
         "movies": enriched,
         "summary": {
             "total": len(enriched),
+            "cartelera": sum(1 for x in enriched if x.get("section") == "cartelera"),
+            "proximos_estrenos": sum(1 for x in enriched if x.get("section") == "proximos_estrenos"),
             "complete": complete,
             "partial": partial,
             "resolved_this_run": sum(1 for item in enriched if item.get("source_url")),
@@ -662,10 +715,14 @@ def main() -> int:
         },
     }
 
-    # Inject only the fresh Cinemacenter metadata into the current cinema JSON.
-    for movie in movies:
-        key = normalize(movie.get("title"))
-        match = next((x for x in enriched if normalize(x.get("title")) == key), None)
+    # Inject metadata back into both current JSON sections.
+    matches = {
+        (item.get("section"), normalize(item.get("title"))): item
+        for item in enriched
+    }
+    for section, movie in section_movies:
+        key = (section, normalize(movie.get("title")))
+        match = matches.get(key)
         if match:
             movie["metadata"] = {k: v for k, v in match.items() if k != "match"}
 
@@ -679,14 +736,20 @@ def main() -> int:
     print("==============================================")
     print("RESUMEN DE METADATA CINEMACENTER")
     print("==============================================")
-    print(f"Películas: {len(enriched)}")
+    print(f"Películas procesadas: {len(enriched)}")
+    print(f"  Cartelera: {metadata['summary']['cartelera']}")
+    print(f"  Próximos estrenos: {metadata['summary']['proximos_estrenos']}")
     print(f"Completas: {complete}")
     print(f"Parciales: {partial}")
-    print(f"Fichas exactas encontradas: {sum(1 for item in enriched if item.get('source_url'))}")
+    print(f"Fichas exactas encontradas: {metadata['summary']['resolved_this_run']}")
     print("")
+
     for item in enriched:
         missing = ", ".join(item.get("metadata_missing") or []) or "ninguno"
-        print(f"- {item.get('title')}: {item.get('metadata_status')}; faltan: {missing}")
+        print(
+            f"- [{item.get('section')}] {item.get('title')}: "
+            f"{item.get('metadata_status')}; faltan: {missing}"
+        )
 
     if failures:
         print("")
