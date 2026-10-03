@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+from zoneinfo import ZoneInfo
+
 ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
+
 """
 AGENDA TUCUMÁN - EXTRACCIÓN MEC V11.2
 
@@ -39,7 +42,6 @@ import re
 import time
 from collections import OrderedDict
 from datetime import date, datetime, timedelta
-from zoneinfo import ZoneInfo
 from pathlib import Path
 from urllib.parse import quote_plus
 from urllib.parse import urljoin
@@ -827,7 +829,7 @@ def ajax_month(session, year, month, delay):
             AJAX_URL,
             data=data,
             headers=HEADERS,
-            timeout=20
+            timeout=45
         )
         time.sleep(delay)
 
@@ -1867,9 +1869,6 @@ def extract_services(session, delay, year, max_pages=12):
     return list(dedup.values()), errors
 
 def main():
-    print("[MEC] Zona horaria: America/Argentina/Tucuman", flush=True)
-    print(f"[MEC] Fecha Argentina: {datetime.now(ARGENTINA_TZ).isoformat()}", flush=True)
-
     args = parse_args()
     out = Path(args.out)
     out.mkdir(parents=True, exist_ok=True)
@@ -1898,11 +1897,9 @@ def main():
     # 1. MEC AJAX
     # ---------------------------------------------------------
     for year, month in months:
-        print(f"[MEC] Consultando {year}-{month:02d}...", flush=True)
         html_or_none, status, raw = ajax_month(
             session, year, month, args.delay
         )
-        print(f"[MEC] {year}-{month:02d} -> HTTP {status}", flush=True)
 
         raw_path = out / "ajax_raw" / f"{year:04d}-{month:02d}.json"
         if isinstance(raw, dict):
