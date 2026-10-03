@@ -2027,8 +2027,13 @@ def main():
     before_filter = len(events)
     events = [
         event for event in events
-        if (event.get("date_end") or event.get("date_start") or "") >= today_iso
-        and (event.get("date_start") or "") <= future_limit_iso
+        if (
+            (event.get("_sources", {}).get("date") == "services_unverified")
+            or (
+                (event.get("date_end") or event.get("date_start") or "") >= today_iso
+                and (event.get("date_start") or "") <= future_limit_iso
+            )
+        )
     ]
     removed_outside_window = before_filter - len(events)
     if removed_outside_window:
