@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-02T18:35:58.057453+00:00",
+  "generated_at": "2026-10-02T23:02:07.953626-03:00",
   "reference_date": "2026-10-02",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "7ee4a6ce69919761f922b213642b2b5e331da0ce24d1fa25be976fa81af176ed"
+    "pdf_sha256": "df95f7d5d39a0379a8cf7199d3a30a8321b65cca8e247829eea6c5c9c3539bf2"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -119,7 +119,6 @@
         "schedule": {
           "jueves": [],
           "viernes": [
-            "18:00",
             "21:40"
           ],
           "sábado": [
@@ -148,12 +147,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "18:00",
-            "datetime": "2026-10-02T18:00:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-02",
             "time": "21:40",
@@ -457,9 +450,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "17:20"
-          ],
+          "viernes": [],
           "sábado": [
             "17:20"
           ],
@@ -477,12 +468,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "17:20",
-            "datetime": "2026-10-02T17:20:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "17:20",
@@ -519,7 +504,7 @@
           "title": "LA ISLA OLVIDADA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 109,
           "genres": [
             "Animación Aventuras"
@@ -683,9 +668,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "17:40"
-          ],
+          "viernes": [],
           "sábado": [
             "17:40"
           ],
@@ -703,12 +686,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "17:40",
-            "datetime": "2026-10-02T17:40:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "17:40",
@@ -745,7 +722,7 @@
           "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 120,
           "genres": [
             "Animé"
@@ -1290,9 +1267,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "17:50"
-          ],
+          "viernes": [],
           "sábado": [
             "17:50"
           ],
@@ -1310,12 +1285,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "17:50",
-            "datetime": "2026-10-02T17:50:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "17:50",
@@ -1352,7 +1321,7 @@
           "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 99,
           "genres": [
             "Comedia"
@@ -1402,9 +1371,7 @@
         "week_end": "2026-10-07",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "17:30"
-          ],
+          "viernes": [],
           "sábado": [
             "15:10",
             "17:30"
@@ -1424,12 +1391,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-02",
-            "time": "17:30",
-            "datetime": "2026-10-02T17:30:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-03",
             "time": "15:10",
@@ -1478,7 +1439,7 @@
           "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-02",
+          "release_date": "2026-10-03",
           "duration_minutes": 90,
           "genres": [
             "Animación Aventuras"

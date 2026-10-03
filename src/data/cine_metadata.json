@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-02T18:35:58.057271+00:00",
+  "generated_at": "2026-10-02T23:02:07.953433-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -131,7 +131,7 @@
       "title": "LA ISLA OLVIDADA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-02",
+      "release_date": "2026-10-03",
       "duration_minutes": 109,
       "genres": [
         "Animación Aventuras"
@@ -211,7 +211,7 @@
       "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-02",
+      "release_date": "2026-10-03",
       "duration_minutes": 120,
       "genres": [
         "Animé"
@@ -424,7 +424,7 @@
       "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-02",
+      "release_date": "2026-10-03",
       "duration_minutes": 99,
       "genres": [
         "Comedia"
@@ -463,7 +463,7 @@
       "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-02",
+      "release_date": "2026-10-03",
       "duration_minutes": 90,
       "genres": [
         "Animación Aventuras"
