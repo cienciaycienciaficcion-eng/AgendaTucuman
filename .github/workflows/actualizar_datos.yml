@@ -33,7 +33,6 @@ jobs:
       # ============================================================
       # AGENDA
       # ============================================================
-
       - name: Extraer agenda MEC
         id: agenda
         continue-on-error: true
@@ -47,15 +46,8 @@ jobs:
           MONTH=$(TZ=America/Argentina/Tucuman date +%m)
           HOUR=$(TZ=America/Argentina/Tucuman date +%H)
 
-          echo "=== EXTRACTOR AGENDA MEC ==="
-          echo "Fecha/hora Tucumán: $(TZ=America/Argentina/Tucuman date '+%Y-%m-%d %H:%M:%S')"
-
-          # La IA de servicios se utiliza una sola vez al día, en la ejecución
-          # de las 08:00 hora de Tucumán. El resto de las ejecuciones usa
-          # exclusivamente el parser determinista.
           if [ "$HOUR" = "08" ]; then
-            echo "✓ Ventana diaria de IA: se ejecutará agenda_mec_ia.py"
-            GEMINI_ENABLED=1 PYTHONUNBUFFERED=1 python -u extractores/agenda_mec_ia.py \
+            GEMINI_ENABLED=1 python -u extractores/agenda_mec_ia.py \
               --start-year "$YEAR" \
               --start-month "$MONTH" \
               --months 12 \
@@ -63,8 +55,7 @@ jobs:
               --delay 0.15 \
               --out .tmp/agenda
           else
-            echo "✓ IA fuera de su ventana diaria: se ejecutará agenda_mec_ia.py con Gemini desactivado"
-            GEMINI_ENABLED=0 PYTHONUNBUFFERED=1 python -u extractores/agenda_mec_ia.py \
+            GEMINI_ENABLED=0 python -u extractores/agenda_mec_ia.py \
               --start-year "$YEAR" \
               --start-month "$MONTH" \
               --months 12 \
@@ -73,72 +64,42 @@ jobs:
               --out .tmp/agenda
           fi
 
-          echo "=== ARCHIVOS GENERADOS POR AGENDA ==="
-          find .tmp/agenda -maxdepth 2 -type f -printf '%p %s bytes\n' | sort || true
+          test -s .tmp/agenda/agenda_eventos.json
 
-          if [ ! -s .tmp/agenda/agenda_eventos.json ]; then
-            echo "ERROR: el extractor terminó sin generar .tmp/agenda/agenda_eventos.json"
-            exit 1
-          fi
-
-          echo "✓ agenda_eventos.json generado correctamente."
-
-      - name: Validar agenda antes de publicar
+      - name: Validar agenda
         id: validate_agenda
         if: steps.agenda.outcome == 'success'
         run: |
-          python - <<'PY2'
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
           from datetime import datetime
           from zoneinfo import ZoneInfo
 
-          ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
+          p = Path(".tmp/agenda/agenda_eventos.json")
+          if not p.exists():
+              sys.exit("ERROR: no existe agenda_eventos.json")
 
-          import json
-          import sys
-          from datetime import date
-          from pathlib import Path
-
-          path = Path('.tmp/agenda/agenda_eventos.json')
-          if not path.exists():
-              print('ERROR: el extractor no generó agenda_eventos.json.')
-              sys.exit(1)
-
-          try:
-              data = json.loads(path.read_text(encoding='utf-8'))
-          except Exception as exc:
-              print(f'ERROR: agenda_eventos.json no es JSON válido: {exc}')
-              sys.exit(1)
-
-          if not isinstance(data, list):
-              print('ERROR: agenda_eventos.json no contiene una lista.')
-              sys.exit(1)
+          data = json.loads(p.read_text(encoding="utf-8"))
+          if not isinstance(data, list) or not data:
+              sys.exit("ERROR: agenda vacía o inválida")
 
           today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
           valid = []
-          for event in data:
-              if not isinstance(event, dict):
+          for e in data:
+              if not isinstance(e, dict):
                   continue
-              end = event.get('date_end') or event.get('date_start')
-              source_date = (event.get('_sources') or {}).get('date', '')
-              if (end and end >= today) or source_date == 'services_unverified':
-                  valid.append(event)
+              end = e.get("date_end") or e.get("date_start")
+              source_date = (e.get("_sources") or {}).get("date", "")
+              if (end and end >= today) or source_date == "services_unverified":
+                  valid.append(e)
 
-          print(f'Eventos extraídos: {len(data)}')
-          print(f'Eventos vigentes/futuros: {len(valid)}')
-          print(f'Fecha del runner: {today}')
-
-          if not data:
-              print('ERROR: el extractor devolvió una agenda vacía.')
-              print('No se reemplazarán los datos publicados anteriormente.')
-              sys.exit(1)
+          print(f"Eventos extraídos: {len(data)}")
+          print(f"Eventos vigentes/futuros: {len(valid)}")
 
           if not valid:
-              print('ERROR: no hay eventos vigentes o futuros en la extracción.')
-              print('No se reemplazarán los datos publicados anteriormente.')
-              sys.exit(1)
-
-          print('✓ Agenda aceptada para publicación.')
-          PY2
+              sys.exit("ERROR: no hay eventos vigentes/futuros")
+          PY
 
       - name: Generar resúmenes con Gemini
         id: gemini
@@ -148,68 +109,31 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_MODEL: gemini-3.5-flash-lite
         run: |
-          if [ -f ".tmp/agenda/agenda_eventos.json" ]; then
-            python scripts/generar_resumenes_gemini.py \
-              --input .tmp/agenda/agenda_eventos.json \
-              --previous datos/agenda_eventos.json \
-              --output .tmp/agenda/agenda_eventos.json
-          else
-            echo "ERROR: no existe el JSON de agenda para enriquecer."
-            exit 1
-          fi
+          python scripts/generar_resumenes_gemini.py \
+            --input .tmp/agenda/agenda_eventos.json \
+            --previous datos/agenda_eventos.json \
+            --output .tmp/agenda/agenda_eventos.json
 
       - name: Publicar agenda
         if: steps.validate_agenda.outcome == 'success'
-        run: |
-          if [ -f ".tmp/agenda/agenda_eventos.json" ]; then
-            cp .tmp/agenda/agenda_eventos.json datos/agenda_eventos.json
-            echo "✓ Agenda actualizada correctamente."
-          else
-            echo "ERROR: el extractor terminó correctamente pero no generó agenda_eventos.json."
-            exit 1
-          fi
-
-      - name: Informar estado de Gemini
-        if: steps.validate_agenda.outcome == 'success'
-        run: |
-          if [ "${{ steps.gemini.outcome }}" = "success" ]; then
-            echo "✓ Resúmenes Gemini: procesados."
-          else
-            echo "⚠ Resúmenes Gemini: hubo errores; se publican los datos de agenda igualmente."
-          fi
-
-      - name: Informar error de agenda
-        if: steps.agenda.outcome != 'success' || steps.validate_agenda.outcome != 'success'
-        run: |
-          if [ "${{ steps.agenda.outcome }}" != "success" ]; then
-            echo "ERROR: no se pudo actualizar la agenda."
-          else
-            echo "ERROR: la agenda extraída no superó la validación."
-          fi
-          echo "Se conservarán los datos anteriores."
-
+        run: cp .tmp/agenda/agenda_eventos.json datos/agenda_eventos.json
 
       # ============================================================
       # RADIO / CONTENIDOS
       # ============================================================
-
       - name: Extraer contenidos y radio
         id: radio
         continue-on-error: true
         run: |
           mkdir -p .tmp/contenidos
           cd .tmp/contenidos
-
           python ../../extractores/contenidos.py
 
-      - name: Validar y publicar radio/contenidos
+      - name: Publicar radio
         if: steps.radio.outcome == 'success'
         run: |
           if [ -f ".tmp/contenidos/radio_tucuman.json" ]; then
             cp .tmp/contenidos/radio_tucuman.json datos/radio_tucuman.json
-            echo "Radio actualizada correctamente."
-          else
-            echo "ADVERTENCIA: no se generó radio_tucuman.json."
           fi
 
       - name: Publicar cine de Agenda
@@ -217,123 +141,99 @@ jobs:
         run: |
           if [ -f ".tmp/contenidos/cine_tucuman.json" ]; then
             cp .tmp/contenidos/cine_tucuman.json datos/cine_tucuman.json
-            echo "Cine de Agenda actualizado correctamente."
-          else
-            echo "ADVERTENCIA: no se generó cine_tucuman.json."
           fi
-
-      - name: Informar error de radio
-        if: steps.radio.outcome != 'success'
-        run: |
-          echo "ADVERTENCIA: no se pudo actualizar Radio/Contenidos."
-          echo "Se conservarán los datos anteriores."
 
       # ============================================================
       # CINEMACENTER
-      # Se actualiza una sola vez por semana: jueves a las 08:00
-      # hora de Tucumán. El resto de las corridas conserva la cartelera.
+      #
+      # CAMBIO IMPORTANTE:
+      # Ya NO depende del jueves.
+      #
+      # Se intenta actualizar en TODAS las corridas (cada 6 horas).
+      # Si falla, si devuelve una cartelera vencida, vacía o
+      # incompleta, NO se reemplaza la cartelera anterior.
+      #
+      # De esta forma:
+      #   - normalmente se actualiza varias veces por día;
+      #   - si Cinemacenter publica estrenos antes del jueves,
+      #     podemos capturarlos;
+      #   - si el jueves falla, se vuelve a intentar en la próxima
+      #     corrida;
+      #   - nunca se borra una cartelera válida por un fallo puntual.
       # ============================================================
-
-      - name: Comprobar ventana semanal de Cinemacenter
-        id: cinema_schedule
-        run: |
-          DOW=$(TZ=America/Argentina/Tucuman date +%u)
-          HOUR=$(TZ=America/Argentina/Tucuman date +%H)
-          NOW=$(TZ=America/Argentina/Tucuman date '+%Y-%m-%d %H:%M:%S')
-
-          echo "Fecha/hora Tucumán: $NOW"
-          echo "Día de semana: $DOW | Hora: $HOUR"
-
-          if [ "$DOW" = "4" ] && [ "$HOUR" = "08" ]; then
-            echo "due=true" >> "$GITHUB_OUTPUT"
-            echo "✓ Corresponde actualizar Cinemacenter esta semana."
-          else
-            echo "due=false" >> "$GITHUB_OUTPUT"
-            echo "○ Cinemacenter no corresponde en esta corrida."
-          fi
-
       - name: Extraer Cinemacenter Tucumán
         id: cinemacenter
-        if: steps.cinema_schedule.outputs.due == 'true'
         continue-on-error: true
         run: |
           mkdir -p .tmp/cinemacenter
           cd .tmp/cinemacenter
-
           PYTHONUNBUFFERED=1 python -u ../../extractores/cinemacenter.py
 
       - name: Validar cartelera Cinemacenter
         id: validate_cinemacenter
         if: steps.cinemacenter.outcome == 'success'
+        continue-on-error: true
         run: |
-          python - <<'PY2'
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
           from datetime import datetime
           from zoneinfo import ZoneInfo
 
-          ARGENTINA_TZ = ZoneInfo("America/Argentina/Tucuman")
+          p = Path(".tmp/cinemacenter/cine_cinemacenter_tucuman.json")
+          if not p.exists():
+              sys.exit("ERROR: no se generó cine_cinemacenter_tucuman.json")
 
-          import json
-          import sys
-          from datetime import date
-          from pathlib import Path
+          try:
+              data = json.loads(p.read_text(encoding="utf-8"))
+          except Exception as exc:
+              sys.exit(f"ERROR: JSON inválido: {exc}")
 
-          path = Path('.tmp/cinemacenter/cine_cinemacenter_tucuman.json')
-          if not path.exists():
-              print('ERROR: no se generó cine_cinemacenter_tucuman.json.')
-              sys.exit(1)
+          cartelera = data.get("cartelera") or {}
+          week_start = cartelera.get("week_start")
+          week_end = cartelera.get("week_end")
+          movies = cartelera.get("movies") or []
+          today = datetime.now(
+              ZoneInfo("America/Argentina/Tucuman")
+          ).date().isoformat()
 
-          data = json.loads(path.read_text(encoding='utf-8'))
-          cartelera = data.get('cartelera') or {}
-          week_start = cartelera.get('week_start')
-          week_end = cartelera.get('week_end')
-          movies = cartelera.get('movies') or []
-          today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
-
-          print(f'Fecha del runner: {today}')
-          print(f'Semana detectada: {week_start} -> {week_end}')
-          print(f'Películas detectadas: {len(movies)}')
+          print(f"Fecha Tucumán: {today}")
+          print(f"Semana: {week_start} -> {week_end}")
+          print(f"Películas: {len(movies)}")
 
           if not week_start or not week_end:
-              print('ERROR: la cartelera no contiene week_start/week_end.')
-              sys.exit(1)
+              sys.exit("ERROR: falta week_start/week_end")
 
           if week_end < today:
-              print('ERROR: Cinemacenter devolvió una cartelera vencida.')
-              print('No se reemplazarán los datos publicados anteriormente.')
-              sys.exit(1)
+              sys.exit("ERROR: cartelera vencida")
 
-          # Una cartelera sin películas se considera una respuesta incompleta.
-          # No borramos una cartelera válida por un fallo puntual del extractor.
           if not movies:
-              print('ADVERTENCIA: Cinemacenter devolvió una cartelera sin películas.')
-              print('No se reemplazará la cartelera anterior.')
-              with open('.tmp/cinemacenter/KEEP_PREVIOUS', 'w', encoding='utf-8') as f:
-                  f.write('1\n')
+              Path(".tmp/cinemacenter/KEEP_PREVIOUS").write_text(
+                  "cartelera vacía\n", encoding="utf-8"
+              )
               sys.exit(0)
 
-          missing_metadata = [m.get('title') or '(sin título)' for m in movies if not isinstance(m.get('metadata'), dict)]
-          if missing_metadata:
-              print(f'ERROR: {len(missing_metadata)} películas no tienen metadata oficial de Cinemacenter:')
-              for title in missing_metadata:
-                  print(f'  - {title}')
-              print('No se publicará una cartelera parcialmente enriquecida.')
-              sys.exit(1)
+          missing = [
+              m.get("title") or "(sin título)"
+              for m in movies
+              if not isinstance(m.get("metadata"), dict)
+          ]
+          if missing:
+              print("ADVERTENCIA: metadata incompleta:")
+              for title in missing:
+                  print(f" - {title}")
+              sys.exit("No se publica una cartelera parcialmente enriquecida")
 
-          print(f'Metadata oficial disponible para {len(movies)}/{len(movies)} películas.')
+          print("✓ Cartelera aceptada")
+          PY
 
-          for movie in movies:
-              title = movie.get('title') or '(sin título)'
-              print(f'  - {title}')
-
-          print(f'✓ Cartelera aceptada: {len(movies)} películas.')
-          PY2
-
-      - name: Generar evento semanal de estrenos de cine
+      - name: Generar evento semanal de estrenos
         id: cine_estrenos_evento
-        if: steps.validate_agenda.outcome == 'success' && steps.cinemacenter.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
+        if: steps.validate_agenda.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
+        continue-on-error: true
         run: |
           if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
-            echo "No se genera evento de estrenos porque se conserva la cartelera anterior."
+            echo "Se conserva la cartelera anterior."
             exit 0
           fi
 
@@ -343,71 +243,43 @@ jobs:
             --cinema-previous datos/cine_cinemacenter_tucuman.json
 
       - name: Publicar Cinemacenter
-        if: steps.cinemacenter.outcome == 'success' && steps.validate_cinemacenter.outcome == 'success'
-        run: |
-          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
-            echo "No se publica una cartelera vacía; se conserva la cartelera anterior."
-          elif [ -f ".tmp/cinemacenter/cine_cinemacenter_tucuman.json" ]; then
-            cp .tmp/cinemacenter/cine_cinemacenter_tucuman.json datos/cine_cinemacenter_tucuman.json
-            echo "Cinemacenter actualizado correctamente."
-          else
-            echo "ADVERTENCIA: no se generó cine_cinemacenter_tucuman.json."
-          fi
-
-      - name: Informar estado de Cinemacenter
-        if: steps.cinemacenter.outcome != 'success' || steps.validate_cinemacenter.outcome != 'success'
-        run: |
-          if [ "${{ steps.cinemacenter.outcome }}" != "success" ]; then
-            echo "ADVERTENCIA: Cinemacenter no respondió."
-          else
-            echo "ADVERTENCIA: la cartelera obtenida no fue aceptada."
-          fi
-          echo "Se conservará la cartelera anterior."
-
-      # ============================================================
-      # SINCRONIZAR DATOS DE CINE PARA LA APP
-      # El extractor de Cinemacenter ya genera cartelera + metadata
-      # en una única ejecución. No hay workflow de enrichment separado.
-      # ============================================================
-
-      - name: Publicar metadata Cinemacenter generada
         if: steps.validate_cinemacenter.outcome == 'success'
         run: |
           if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
-            echo "No se publica metadata porque la cartelera anterior se conserva."
+            echo "Cartelera vacía: se conserva la anterior."
+          elif [ -f ".tmp/cinemacenter/cine_cinemacenter_tucuman.json" ]; then
+            cp .tmp/cinemacenter/cine_cinemacenter_tucuman.json \
+               datos/cine_cinemacenter_tucuman.json
+            echo "✓ Cinemacenter actualizado."
+          fi
+
+      - name: Publicar metadata Cinemacenter
+        if: steps.validate_cinemacenter.outcome == 'success'
+        run: |
+          if [ -f ".tmp/cinemacenter/KEEP_PREVIOUS" ]; then
             exit 0
           fi
+
           if [ -f ".tmp/cinemacenter/cine_metadata.json" ]; then
             cp .tmp/cinemacenter/cine_metadata.json datos/cine_metadata.json
-            echo "Metadata Cinemacenter publicada."
-          else
-            echo "ERROR: no se generó cine_metadata.json."
-            exit 1
+            mkdir -p src/data
+
+            if [ -f "datos/cine_cinemacenter_tucuman.json" ]; then
+              cp datos/cine_cinemacenter_tucuman.json \
+                 src/data/cine_cinemacenter_tucuman.json
+            fi
+
+            cp datos/cine_metadata.json src/data/cine_metadata.json
           fi
 
-          if [ -f "datos/cine_cinemacenter_tucuman.json" ]; then
-            cp datos/cine_cinemacenter_tucuman.json src/data/cine_cinemacenter_tucuman.json
-          fi
-          cp datos/cine_metadata.json src/data/cine_metadata.json
-
-          python - <<'PY2'
-          import json
-          from pathlib import Path
-          data = json.loads(Path("datos/cine_metadata.json").read_text(encoding="utf-8"))
-          summary = data.get("summary", {})
-          print(f"Metadata Cinemacenter: {summary.get('complete_source', 0)} completas desde fuente; {summary.get('partial_source', 0)} parciales; {summary.get('without_metadata', 0)} sin metadata.")
-          PY2
-
       # ============================================================
-      # VALIDACIÓN GENERAL DE JSON PUBLICADOS
+      # VALIDACIÓN GENERAL
       # ============================================================
-
       - name: Validar JSON publicados
         id: json_validation
         run: |
           python - <<'PY'
-          import json
-          import sys
+          import json, sys
           from pathlib import Path
 
           files = [
@@ -421,131 +293,27 @@ jobs:
           ]
 
           failed = False
-
-          print("")
-          print("=" * 70)
-          print("VALIDACIÓN DE JSON PUBLICADOS")
-          print("=" * 70)
-
           for filename in files:
-              path = Path(filename)
-
-              if not path.exists():
-                  print(f"⚠ {filename}: no existe; se conserva la versión anterior.")
+              p = Path(filename)
+              if not p.exists():
+                  print(f"⚠ {filename}: no existe; se conserva lo anterior.")
                   continue
-
               try:
-                  with path.open(encoding="utf-8") as f:
-                      data = json.load(f)
-
+                  json.loads(p.read_text(encoding="utf-8"))
                   print(f"✓ {filename}: JSON válido")
-
-                  if filename.endswith("agenda_eventos.json") and isinstance(data, list):
-                      print(f"  Eventos publicados: {len(data)}")
-              except Exception as e:
-                  print(f"✗ {filename}: ERROR - {e}")
+              except Exception as exc:
+                  print(f"✗ {filename}: {exc}")
                   failed = True
 
           if failed:
               sys.exit(1)
-
-          print("=" * 70)
-          PY
-
-      # ============================================================
-      # INFORME DE CAMBIOS
-      # ============================================================
-
-      - name: Informar cambios detectados
-        id: changes_report
-        if: steps.json_validation.outcome == 'success'
-        run: |
-          python - <<'PY'
-          import json
-          import subprocess
-          from pathlib import Path
-
-          files = [
-              "datos/agenda_eventos.json",
-              "datos/cine_tucuman.json",
-              "datos/radio_tucuman.json",
-              "datos/cine_cinemacenter_tucuman.json",
-          ]
-
-          def load_current(path):
-              p = Path(path)
-              if not p.exists():
-                  return None
-              try:
-                  return json.loads(p.read_text(encoding="utf-8"))
-              except Exception:
-                  return None
-
-          def load_previous(path):
-              try:
-                  raw = subprocess.check_output(["git", "show", f"HEAD:{path}"], stderr=subprocess.DEVNULL)
-                  return json.loads(raw.decode("utf-8"))
-              except Exception:
-                  return None
-
-          def key(item, index):
-              if isinstance(item, dict):
-                  return str(item.get("id") or item.get("_id") or index)
-              return str(index)
-
-          total_changes = 0
-          print("")
-          print("=" * 70)
-          print("INFORME DE CAMBIOS — AGENDA TUCUMÁN")
-          print("=" * 70)
-
-          for filename in files:
-              current = load_current(filename)
-              previous = load_previous(filename)
-
-              if isinstance(current, list) and isinstance(previous, list):
-                  old = {key(x, i): x for i, x in enumerate(previous)}
-                  new = {key(x, i): x for i, x in enumerate(current)}
-                  added = [k for k in new if k not in old]
-                  removed = [k for k in old if k not in new]
-                  modified = [k for k in new if k in old and new[k] != old[k]]
-                  unchanged = len(new) - len(added) - len(modified)
-                  changes = len(added) + len(removed) + len(modified)
-                  total_changes += changes
-
-                  label = filename.replace("datos/", "").replace(".json", "").upper()
-                  print(f"\n{label}")
-                  print(f"  Registros anteriores: {len(previous)}")
-                  print(f"  Registros actuales:   {len(current)}")
-                  print(f"  Nuevos:               {len(added)}")
-                  print(f"  Eliminados:           {len(removed)}")
-                  print(f"  Modificados:          {len(modified)}")
-                  print(f"  Sin cambios:          {unchanged}")
-                  print(f"  CAMBIOS:              {changes}")
-              else:
-                  if current != previous:
-                      total_changes += 1
-                      print(f"\n{filename}")
-                      print("  CAMBIOS: 1 (contenido general modificado)")
-                  else:
-                      print(f"\n{filename}")
-                      print("  Sin cambios")
-
-          print("\n" + "-" * 70)
-          print(f"TOTAL DE CAMBIOS: {total_changes}")
-          if total_changes:
-              print("✓ Hay cambios: se preparará un commit.")
-          else:
-              print("✓ No hay cambios nuevos: no se realizará commit.")
-          print("=" * 70)
           PY
 
       # ============================================================
       # COMMIT
       # ============================================================
-
       - name: Guardar cambios
-        if: steps.json_validation.outcome == 'success' && steps.changes_report.outcome == 'success'
+        if: steps.json_validation.outcome == 'success'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -553,40 +321,27 @@ jobs:
           git add datos/ src/data/cine_cinemacenter_tucuman.json src/data/cine_metadata.json
 
           if git diff --cached --quiet; then
-            echo "No hay cambios nuevos en los datos."
+            echo "No hay cambios nuevos."
           else
             git commit -m "Actualizar datos de Agenda Tucumán"
             git push
-            echo "Datos publicados correctamente."
+            echo "✓ Datos publicados."
           fi
 
       # ============================================================
-      # FALLAR EL WORKFLOW SI HUBO UN PROBLEMA CRÍTICO
-      # Esto hace que GitHub lo marque como FAILED y active las
-      # notificaciones normales de GitHub Actions.
+      # ESTADO FINAL
       # ============================================================
-
       - name: Estado final
         if: always()
         run: |
-          echo ""
           echo "============================================================"
           echo "ESTADO FINAL"
           echo "============================================================"
 
           if [ "${{ steps.agenda.outcome }}" = "success" ]; then
-            echo "✓ Agenda MEC: OK"
+            echo "✓ Agenda: OK"
           else
-            echo "✗ Agenda MEC: ERROR"
-          fi
-
-          if [ "${{ steps.agenda.outcome }}" = "success" ]; then
-            HOUR=$(TZ=America/Argentina/Tucuman date +%H)
-            if [ "$HOUR" = "08" ]; then
-              echo "✓ IA Servicios: ejecutada (ventana diaria)"
-            else
-              echo "○ IA Servicios: no ejecutada en esta corrida"
-            fi
+            echo "⚠ Agenda: no actualizada; se conserva la anterior"
           fi
 
           if [ "${{ steps.radio.outcome }}" = "success" ]; then
@@ -595,27 +350,19 @@ jobs:
             echo "⚠ Radio/Contenidos: no actualizado"
           fi
 
-          if [ "${{ steps.cinema_schedule.outputs.due }}" != "true" ]; then
-            echo "○ Cinemacenter: sin actualización (programado jueves 08:00)"
-          elif [ "${{ steps.cinemacenter.outcome }}" = "success" ] && [ "${{ steps.validate_cinemacenter.outcome }}" = "success" ]; then
-            echo "✓ Cinemacenter: OK y cartelera vigente"
+          if [ "${{ steps.cinemacenter.outcome }}" = "success" ] && \
+             [ "${{ steps.validate_cinemacenter.outcome }}" = "success" ]; then
+            echo "✓ Cinemacenter: OK"
           else
-            echo "⚠ Cinemacenter: no actualizado / cartelera anterior conservada"
+            echo "⚠ Cinemacenter: fallo o respuesta inválida"
+            echo "  Se conserva la cartelera anterior."
           fi
 
-          if [ "${{ steps.cinema_schedule.outputs.due }}" != "true" ]; then
-            echo "○ Metadata Cinemacenter: sin actualización esta corrida"
-          elif [ "${{ steps.cinemacenter.outcome }}" = "success" ]; then
-            echo "✓ Metadata Cinemacenter: generada por el mismo extractor"
-          else
-            echo "⚠ Metadata Cinemacenter: no generada porque Cinemacenter no se actualizó"
-          fi
-
-          echo ""
-          echo "Si un extractor falla, se conservan sus datos anteriores."
-          echo "La Agenda se publica exactamente con el resultado generado por el extractor."
           echo "============================================================"
 
+          # Solo Agenda o la validación general son errores críticos.
+          # Cinemacenter, Radio y Gemini tienen fallback y no deben
+          # impedir que los demás datos se publiquen.
           if [ "${{ steps.agenda.outcome }}" != "success" ] || \
              [ "${{ steps.json_validation.outcome }}" != "success" ]; then
             exit 1
