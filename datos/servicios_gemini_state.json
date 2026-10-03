@@ -1,5 +1,23 @@
 {
-  "processed": {},
-  "selected_ids": [],
-  "updated_at": "2026-10-03T22:02:56.311514+00:00"
+  "processed": {
+    "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre": {
+      "selected": true,
+      "processed_at": "2026-10-03T23:40:43.980017+00:00",
+      "reason": "Ofrece información sobre el servicio gratuito de castración de mascotas de la clínica veterinaria móvil en San Miguel de Tucumán."
+    },
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9": {
+      "selected": true,
+      "processed_at": "2026-10-03T23:41:00.142089+00:00",
+      "reason": "Informa sobre el cronograma y ubicación del Programa Hospital Móvil, un servicio de salud pública y operativo municipal de utilidad para los ciudadanos."
+    }
+  },
+  "selected_ids": [
+    "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9"
+  ],
+  "updated_at": "2026-10-03T23:46:24.131515+00:00",
+  "gemini_usage": {
+    "date": "2026-10-03",
+    "calls": 11
+  }
 }
