@@ -2,7 +2,8 @@
 # -*- coding: utf-8 -*-
 """Filtrado incremental de Servicios con Gemini.
 
-- Máximo 50 llamadas HTTP a Gemini por ejecución.
+- Máximo 5 llamadas HTTP a Gemini por ejecución.
+- Máximo 20 llamadas HTTP a Gemini por día, contando reintentos.
 - Cada llamada procesa un artículo.
 - Los artículos procesados quedan registrados en un estado persistente.
 - Si quedan artículos pendientes, la siguiente ejecución continúa desde donde quedó.
@@ -24,11 +25,17 @@ STATE = Path("datos/servicios_gemini_state.json")
 API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
-MAX_GEMINI_CALLS = 50
+MAX_GEMINI_CALLS_PER_RUN = 5
+MAX_GEMINI_CALLS_PER_DAY = 20
+
+# Fallback automático: si Gemini falla, se intenta Groq.
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_REQUEST_TIMEOUT = 60
 REQUEST_TIMEOUT = 60
 GEMINI_RETRIES = 3
 GEMINI_RETRY_BASE_SECONDS = 5
-GEMINI_MIN_INTERVAL_SECONDS = 7
+GEMINI_MIN_INTERVAL_SECONDS = 13
 GEMINI_JITTER_SECONDS = 2
 GEMINI_429_BACKOFF = [30, 60, 120]
 GEMINI_5XX_BACKOFF = [15, 30, 60]
@@ -51,23 +58,46 @@ def extract_json(text):
 
 def load_state():
     if not STATE.exists():
-        return {"processed": {}, "selected_ids": [], "updated_at": ""}
+        return {"processed": {}, "selected_ids": [], "updated_at": "", "gemini_usage": {"date": now_utc().date().isoformat(), "calls": 0}}
     try:
         data = json.loads(STATE.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             raise ValueError("estado inválido")
         data.setdefault("processed", {})
         data.setdefault("selected_ids", [])
+        data.setdefault("gemini_usage", {"date": now_utc().date().isoformat(), "calls": 0})
         return data
     except Exception as exc:
         print(f"[Estado] No se pudo leer {STATE}: {exc}. Se crea uno nuevo.")
-        return {"processed": {}, "selected_ids": [], "updated_at": ""}
+        return {"processed": {}, "selected_ids": [], "updated_at": "", "gemini_usage": {"date": now_utc().date().isoformat(), "calls": 0}}
 
 
 def save_state(state):
     state["updated_at"] = now_utc().isoformat()
     STATE.write_text(
         json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
+def usage_today(state):
+    today = now_utc().date().isoformat()
+    usage = state.setdefault("gemini_usage", {})
+    if usage.get("date") != today:
+        usage.clear()
+        usage.update({"date": today, "calls": 0})
+    usage.setdefault("calls", 0)
+    return usage
+
+
+def register_gemini_call(state):
+    usage = usage_today(state)
+    if usage["calls"] >= MAX_GEMINI_CALLS_PER_DAY:
+        raise RuntimeError("Se alcanzó el límite diario de Gemini (20 llamadas).")
+    usage["calls"] += 1
+    save_state(state)
+    print(
+        f"[Gemini Servicios] Llamada contabilizada: "
+        f"{usage['calls']}/{MAX_GEMINI_CALLS_PER_DAY} hoy."
     )
 
 
@@ -99,7 +129,97 @@ def deterministic_candidates(articles):
     return result or articles
 
 
-def ask_gemini(article):
+
+def ask_groq(article):
+    """Usa Groq como fallback para clasificar un servicio."""
+    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY no está configurada.")
+
+    title = str(article.get("title", "")).strip()
+    description = str(
+        article.get("content")
+        or article.get("description")
+        or article.get("excerpt")
+        or ""
+    ).strip()
+    url = str(article.get("url", "")).strip()
+
+    prompt = f"""
+Analiza este artículo de Servicios de Agenda Tucumán.
+
+Título:
+{title}
+
+Contenido:
+{description[:12000]}
+
+URL:
+{url}
+
+Devuelve SOLO JSON válido:
+{{
+  "include": true,
+  "summary": "resumen breve en español",
+  "category": "categoría",
+  "reason": "motivo breve"
+}}
+
+Reglas:
+- include=true solo si corresponde realmente a un servicio útil para ciudadanos.
+- summary debe ser breve, claro y factual.
+- No inventes datos.
+- Si no corresponde, usa include=false.
+""".strip()
+
+    response = requests.post(
+        GROQ_API_URL,
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+        },
+        json={
+            "model": GROQ_MODEL,
+            "messages": [
+                {
+                    "role": "system",
+                    "content": "Clasifica contenidos de Agenda Tucumán. Responde únicamente JSON válido."
+                },
+                {"role": "user", "content": prompt},
+            ],
+            "temperature": 0.1,
+            "max_tokens": 300,
+        },
+        timeout=GROQ_REQUEST_TIMEOUT,
+    )
+
+    if response.status_code >= 400:
+        raise requests.HTTPError(
+            f"Groq HTTP {response.status_code}: {response.text[:500]}",
+            response=response,
+        )
+
+    data = response.json()
+    choices = data.get("choices") or []
+    if not choices:
+        raise RuntimeError("Groq no devolvió choices.")
+
+    content = choices[0].get("message", {}).get("content", "")
+    if not content:
+        raise RuntimeError("Groq devolvió una respuesta vacía.")
+
+    content = content.strip()
+    if content.startswith("```"):
+        content = re.sub(r"^```(?:json)?\s*", "", content, flags=re.I)
+        content = re.sub(r"\s*```$", "", content)
+
+    result = json.loads(content)
+    if not isinstance(result, dict):
+        raise RuntimeError("La respuesta de Groq no es un objeto JSON.")
+    return result
+
+
+def ask_gemini(article, state):
     """Consulta Gemini para un único artículo, con reintentos ante 429/5xx."""
     prompt = f"""Eres el filtro de Servicios de Agenda Tucumán.
 
@@ -130,6 +250,7 @@ Contenido: {article.get('content','')[:2500]}
 
     for attempt in range(1, GEMINI_RETRIES + 1):
         try:
+            register_gemini_call(state)
             response = requests.post(
                 URL,
                 params={"key": API_KEY},
@@ -305,13 +426,32 @@ def main():
 
     print(
         f"[Gemini Servicios] Modelo: {MODEL} | "
-        f"API key: configurada | límite de artículos: {MAX_GEMINI_CALLS}"
+        f"API key: configurada | máximo {MAX_GEMINI_CALLS_PER_RUN} llamadas por corrida | "
+        f"máximo {MAX_GEMINI_CALLS_PER_DAY} llamadas por día"
     )
 
-    batch = pending[:MAX_GEMINI_CALLS]
+    usage = usage_today(state)
+    remaining_today = max(0, MAX_GEMINI_CALLS_PER_DAY - usage["calls"])
+    run_budget = min(MAX_GEMINI_CALLS_PER_RUN, remaining_today)
+
+    if run_budget <= 0:
+        print(
+            f"[Gemini Servicios] Límite diario alcanzado: "
+            f"{usage['calls']}/{MAX_GEMINI_CALLS_PER_DAY}. "
+            "Los pendientes quedan para la próxima ejecución."
+        )
+        state["selected_ids"] = write_output(
+            articles, state["selected_ids"], len(candidate_ids), 0
+        )
+        save_state(state)
+        return
+
+    batch = pending[:run_budget]
     print(
         f"[Gemini Servicios] Pendientes: {len(pending)}. "
-        f"Esta corrida procesará como máximo {len(batch)} (límite {MAX_GEMINI_CALLS})."
+        f"Cuota restante hoy: {remaining_today}. "
+        f"Esta corrida procesará como máximo {len(batch)} llamadas HTTP, "
+        "incluidos los reintentos."
     )
 
     calls = 0
@@ -333,7 +473,24 @@ def main():
         sid = str(article.get("id"))
         calls += 1
         try:
-            result = ask_gemini(article)
+            try:
+                result = ask_gemini(article, state)
+                provider = "gemini"
+            except Exception as gemini_error:
+                print(f"[Gemini Servicios] Falló Gemini: {gemini_error}")
+                print("[Gemini Servicios] Probando Groq como fallback...")
+                try:
+                    result = ask_groq(article)
+                    provider = "groq"
+                    print(f"[Groq Servicios] OK: {article.get('title', '')}")
+                except Exception as groq_error:
+                    print(f"[Groq Servicios] También falló: {groq_error}")
+                    raise RuntimeError(
+                        f"Gemini y Groq fallaron para {article.get('title', '')}"
+                    ) from groq_error
+
+            if isinstance(result, dict):
+                result["provider"] = provider
             selected = bool(result.get("selected", False))
             state["processed"][sid] = {
                 "selected": selected,
