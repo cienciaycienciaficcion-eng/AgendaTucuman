@@ -18,6 +18,7 @@ import argparse
 import hashlib
 import json
 import os
+import random
 import re
 import sys
 import time
@@ -37,8 +38,12 @@ API_TIMEOUT = 45
 REQUESTS_PER_MINUTE = 10
 RATE_WINDOW_SECONDS = 60.0
 RATE_SAFETY_SECONDS = 0.5
+REQUEST_JITTER_MIN = 0.5
+REQUEST_JITTER_MAX = 1.5
 MAX_RETRIES = 3
 RETRY_429_SECONDS = 65.0
+RETRY_5XX_BASE_SECONDS = 10.0
+RETRY_MAX_SECONDS = 180.0
 
 
 def clean_text(value: Any) -> str:
@@ -171,7 +176,14 @@ def generate_summary(api_key: str, model: str, event: dict[str, Any], descriptio
     }
 
     for attempt in range(1, MAX_RETRIES + 1):
+        # El rate limiter se aplica a CADA intento, incluidos los reintentos.
         rate_limiter.wait_for_slot()
+
+        # Pequeño jitter para evitar que varias ejecuciones de Actions
+        # hagan solicitudes exactamente en el mismo instante.
+        jitter = random.uniform(REQUEST_JITTER_MIN, REQUEST_JITTER_MAX)
+        time.sleep(jitter)
+
         response = requests.post(
             url,
             params={"key": api_key},
@@ -181,17 +193,45 @@ def generate_summary(api_key: str, model: str, event: dict[str, Any], descriptio
 
         if response.status_code == 429:
             if attempt < MAX_RETRIES:
-                print(f"⚠ Gemini respondió 429. Esperando {RETRY_429_SECONDS:.0f}s antes de reintentar ({attempt}/{MAX_RETRIES - 1})...")
-                time.sleep(RETRY_429_SECONDS)
-                continue
-            detail = response.text[:500].replace("\n", " ")
-            raise RuntimeError(f"HTTP 429 después de {MAX_RETRIES} intentos: {detail}")
+                retry_after = response.headers.get("Retry-After", "").strip()
+                try:
+                    retry_after_seconds = float(retry_after)
+                except (TypeError, ValueError):
+                    retry_after_seconds = 0.0
 
-        if response.status_code >= 500 and attempt < MAX_RETRIES:
-            wait_seconds = 10 * attempt
-            print(f"⚠ Gemini respondió HTTP {response.status_code}. Esperando {wait_seconds}s antes de reintentar...")
-            time.sleep(wait_seconds)
-            continue
+                wait_seconds = max(RETRY_429_SECONDS, retry_after_seconds)
+                wait_seconds += random.uniform(0, 5)
+                wait_seconds = min(wait_seconds, RETRY_MAX_SECONDS)
+
+                print(
+                    f"⚠ Gemini respondió 429. Esperando {wait_seconds:.1f}s "
+                    f"antes de reintentar ({attempt}/{MAX_RETRIES - 1})..."
+                )
+                time.sleep(wait_seconds)
+                continue
+
+            detail = response.text[:500].replace("\n", " ")
+            raise RuntimeError(
+                f"HTTP 429 después de {MAX_RETRIES} intentos: {detail}"
+            )
+
+        if response.status_code >= 500:
+            if attempt < MAX_RETRIES:
+                wait_seconds = RETRY_5XX_BASE_SECONDS * (2 ** (attempt - 1))
+                wait_seconds += random.uniform(0, 3)
+                wait_seconds = min(wait_seconds, RETRY_MAX_SECONDS)
+
+                print(
+                    f"⚠ Gemini respondió HTTP {response.status_code}. "
+                    f"Esperando {wait_seconds:.1f}s antes de reintentar..."
+                )
+                time.sleep(wait_seconds)
+                continue
+
+            detail = response.text[:500].replace("\n", " ")
+            raise RuntimeError(
+                f"HTTP {response.status_code} después de {MAX_RETRIES} intentos: {detail}"
+            )
 
         if response.status_code >= 400:
             detail = response.text[:500].replace("\n", " ")
@@ -247,7 +287,11 @@ def main() -> int:
     failed = 0
     rate_limiter = RateLimiter()
 
-    print(f"Límite Gemini: máximo {REQUESTS_PER_MINUTE} solicitudes cada {int(RATE_WINDOW_SECONDS)} segundos.")
+    print(
+    f"Límite Gemini: máximo {REQUESTS_PER_MINUTE} solicitudes en "
+    f"cualquier ventana de {int(RATE_WINDOW_SECONDS)} segundos "
+    f"(los reintentos también cuentan)."
+)
     print(f"Umbral de resumen: {args.min_chars} caracteres. Descripciones más cortas no generan summary.")
 
     for index, event in enumerate(events, 1):
