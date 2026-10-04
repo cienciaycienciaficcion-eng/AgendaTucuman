@@ -760,7 +760,10 @@ def _extract_upcoming_card(card) -> dict | None:
     for node in title_nodes:
         candidate = clean_text(node.get_text(" ", strip=True)).lstrip("*-")
         n = normalize(candidate)
-        if not candidate or n in {"mas info", "ver ficha", "info", "trailer"}:
+        if not candidate or n in {
+            "mas info", "ver ficha", "info", "trailer", "inicio",
+            "home", "cartelera", "estrenos", "proximos estrenos",
+        }:
             continue
         if len(candidate) <= 120 and not any(x in n for x in ("personal pay", "beneficio", "suscribite", "trabaja con nosotros")):
             title = candidate
@@ -770,7 +773,10 @@ def _extract_upcoming_card(card) -> dict | None:
         parts = [clean_text(x) for x in re.split(r"\s{2,}|\n", card.get_text("\n", strip=True)) if clean_text(x)]
         for candidate in parts:
             candidate = candidate.lstrip("*-")
-            if 2 <= len(candidate) <= 100 and normalize(candidate) not in {"proximos estrenos", "beneficios promociones"}:
+            if 2 <= len(candidate) <= 100 and normalize(candidate) not in {
+                "proximos estrenos", "beneficios promociones", "inicio", "home",
+                "cartelera", "estrenos",
+            }:
                 title = candidate
                 break
     if not title:
@@ -790,12 +796,22 @@ def _extract_upcoming_card(card) -> dict | None:
     cast_text = _field_from_context(text, ["Protagonistas", "Actores", "Reparto"])
     classification = _field_from_context(text, ["Calificación", "Clasificación"])
     source_url = None
+    has_ficha_link = False
     for a in card.find_all("a", href=True):
         href = urljoin(BASE_URL, a.get("href", ""))
         if "/ficha/" in href.lower():
             source_url = href
+            has_ficha_link = True
             break
     source_url = source_url or ESTRENOS_URL
+
+    # Evitamos falsos positivos de elementos de navegación/publicidad que
+    # contienen una fecha e imagen pero no describen una película. Una tarjeta
+    # válida debe tener al menos un dato cinematográfico además del título/fecha.
+    if not has_ficha_link and not any([
+        synopsis, genre_text, director_text, cast_text, classification
+    ]):
+        return None
 
     metadata = {
         "title": title,
