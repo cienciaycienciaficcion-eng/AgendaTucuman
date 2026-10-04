@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-03T18:33:58.044523-03:00",
+  "generated_at": "2026-10-03T21:31:42.666713-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -131,7 +131,7 @@
       "title": "LA ISLA OLVIDADA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-03",
+      "release_date": "2026-10-04",
       "duration_minutes": 109,
       "genres": [
         "Animación Aventuras"
@@ -463,7 +463,7 @@
       "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-03",
+      "release_date": "2026-10-04",
       "duration_minutes": 90,
       "genres": [
         "Animación Aventuras"
@@ -541,12 +541,45 @@
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
       "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "INICIO",
+      "original_title": null,
+      "release_date": "2026-10-03",
+      "duration_minutes": null,
+      "genres": [],
+      "director": [],
+      "cast": [],
+      "synopsis": null,
+      "poster": "https://www.cinemacenter.com.ar/images/icon-twitter.png",
+      "trailer": null,
+      "nationality": null,
+      "classification": null,
+      "distributor": null,
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "source": "Cinemacenter",
+      "sources_checked": [
+        "Cinemacenter"
+      ],
+      "metadata_unavailable_on_source": [
+        "original_title",
+        "duration_minutes",
+        "trailer",
+        "nationality",
+        "distributor"
+      ],
+      "metadata_status": "partial_source",
+      "metadata_warnings": [],
+      "match": [
+        "INICIO"
+      ]
     }
   ],
   "summary": {
-    "total": 13,
+    "total": 14,
     "complete_source": 11,
-    "partial_source": 2,
-    "without_metadata": 0
+    "partial_source": 3,
+    "without_metadata": 0,
+    "upcoming_with_metadata": 1
   }
 }

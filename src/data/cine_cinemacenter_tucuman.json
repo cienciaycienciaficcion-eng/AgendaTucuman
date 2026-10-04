@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-03T18:33:58.044633-03:00",
+  "generated_at": "2026-10-03T21:31:42.666894-03:00",
   "reference_date": "2026-10-03",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "5098fe5112b0a2cc5d0074fa90a82fafcaac5425a08032bfca79c724e56f1ae7"
+    "pdf_sha256": "bddd660383c92a97227c93a8a0409600f08f73f9fa61416be889d292677378e9"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -406,9 +406,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:20"
-          ],
+          "sábado": [],
           "domingo": [
             "17:20"
           ],
@@ -423,12 +421,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "17:20",
-            "datetime": "2026-10-03T17:20:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-04",
             "time": "17:20",
@@ -459,7 +451,7 @@
           "title": "LA ISLA OLVIDADA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-03",
+          "release_date": "2026-10-04",
           "duration_minutes": 109,
           "genres": [
             "Animación Aventuras"
@@ -1281,9 +1273,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:30"
-          ],
+          "sábado": [],
           "domingo": [
             "15:10",
             "17:30"
@@ -1299,12 +1289,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "17:30",
-            "datetime": "2026-10-03T17:30:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-04",
             "time": "15:10",
@@ -1341,7 +1325,7 @@
           "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-03",
+          "release_date": "2026-10-04",
           "duration_minutes": 90,
           "genres": [
             "Animación Aventuras"
@@ -1456,7 +1440,48 @@
       }
     ]
   },
-  "proximos_estrenos": [],
+  "proximos_estrenos": [
+    {
+      "id": "inicio",
+      "title": "INICIO",
+      "release_date": "2026-10-03",
+      "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+      "source": "Cinemacenter",
+      "poster": "https://www.cinemacenter.com.ar/images/icon-twitter.png",
+      "metadata": {
+        "title": "INICIO",
+        "original_title": null,
+        "release_date": "2026-10-03",
+        "duration_minutes": null,
+        "genres": [],
+        "director": [],
+        "cast": [],
+        "synopsis": null,
+        "poster": "https://www.cinemacenter.com.ar/images/icon-twitter.png",
+        "trailer": null,
+        "nationality": null,
+        "classification": null,
+        "distributor": null,
+        "source_url": "https://www.cinemacenter.com.ar/estrenos#contenido",
+        "source": "Cinemacenter",
+        "sources_checked": [
+          "Cinemacenter"
+        ],
+        "metadata_unavailable_on_source": [
+          "original_title",
+          "duration_minutes",
+          "trailer",
+          "nationality",
+          "distributor"
+        ],
+        "metadata_status": "partial_source",
+        "metadata_warnings": [],
+        "match": [
+          "INICIO"
+        ]
+      }
+    }
+  ],
   "mi_boleteria_url": "https://www.miboleteria.com.ar",
   "summary": {
     "cartelera_total": 13,
