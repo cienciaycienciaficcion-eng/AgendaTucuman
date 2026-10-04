@@ -26,6 +26,8 @@ MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 MAX_GEMINI_CALLS_PER_RUN = 5
 MAX_GEMINI_CALLS_PER_DAY = 20
+MAX_GROQ_CALLS_PER_RUN = 5
+MAX_GROQ_CALLS_PER_DAY = 30
 
 # Fallback automático: si Gemini falla, se intenta Groq.
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
@@ -55,19 +57,36 @@ def extract_json(text):
 
 
 def load_state():
+    default_usage = {
+        "date": now_utc().date().isoformat(),
+        "calls": 0,
+    }
     if not STATE.exists():
-        return {"processed": {}, "selected_ids": [], "updated_at": "", "gemini_usage": {"date": now_utc().date().isoformat(), "calls": 0}}
+        return {
+            "processed": {},
+            "selected_ids": [],
+            "updated_at": "",
+            "gemini_usage": dict(default_usage),
+            "groq_usage": dict(default_usage),
+        }
     try:
         data = json.loads(STATE.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             raise ValueError("estado inválido")
         data.setdefault("processed", {})
         data.setdefault("selected_ids", [])
-        data.setdefault("gemini_usage", {"date": now_utc().date().isoformat(), "calls": 0})
+        data.setdefault("gemini_usage", dict(default_usage))
+        data.setdefault("groq_usage", dict(default_usage))
         return data
     except Exception as exc:
         print(f"[Estado] No se pudo leer {STATE}: {exc}. Se crea uno nuevo.")
-        return {"processed": {}, "selected_ids": [], "updated_at": "", "gemini_usage": {"date": now_utc().date().isoformat(), "calls": 0}}
+        return {
+            "processed": {},
+            "selected_ids": [],
+            "updated_at": "",
+            "gemini_usage": dict(default_usage),
+            "groq_usage": dict(default_usage),
+        }
 
 
 def save_state(state):
@@ -77,9 +96,10 @@ def save_state(state):
     )
 
 
-def usage_today(state):
+def provider_usage_today(state, provider):
     today = now_utc().date().isoformat()
-    usage = state.setdefault("gemini_usage", {})
+    key = f"{provider}_usage"
+    usage = state.setdefault(key, {})
     if usage.get("date") != today:
         usage.clear()
         usage.update({"date": today, "calls": 0})
@@ -87,8 +107,12 @@ def usage_today(state):
     return usage
 
 
+def usage_today(state):
+    return provider_usage_today(state, "gemini")
+
+
 def register_gemini_call(state):
-    usage = usage_today(state)
+    usage = provider_usage_today(state, "gemini")
     if usage["calls"] >= MAX_GEMINI_CALLS_PER_DAY:
         raise RuntimeError("Se alcanzó el límite diario de Gemini (20 llamadas).")
     usage["calls"] += 1
@@ -96,6 +120,18 @@ def register_gemini_call(state):
     print(
         f"[Gemini Servicios] Llamada contabilizada: "
         f"{usage['calls']}/{MAX_GEMINI_CALLS_PER_DAY} hoy."
+    )
+
+
+def register_groq_call(state):
+    usage = provider_usage_today(state, "groq")
+    if usage["calls"] >= MAX_GROQ_CALLS_PER_DAY:
+        raise RuntimeError("Se alcanzó el límite diario de Groq (30 llamadas).")
+    usage["calls"] += 1
+    save_state(state)
+    print(
+        f"[Groq Servicios] Llamada contabilizada: "
+        f"{usage['calls']}/{MAX_GROQ_CALLS_PER_DAY} hoy."
     )
 
 
@@ -128,11 +164,13 @@ def deterministic_candidates(articles):
 
 
 
-def ask_groq(article):
+def ask_groq(article, state):
     """Usa Groq como fallback para clasificar un servicio."""
     api_key = os.getenv("GROQ_API_KEY", "").strip()
     if not api_key:
         raise RuntimeError("GROQ_API_KEY no está configurada.")
+
+    register_groq_call(state)
 
     title = str(article.get("title", "")).strip()
     description = str(
@@ -187,6 +225,7 @@ Reglas:
             ],
             "temperature": 0.1,
             "max_tokens": 300,
+            "response_format": {"type": "json_object"},
         },
         timeout=GROQ_REQUEST_TIMEOUT,
     )
@@ -211,9 +250,9 @@ Reglas:
         content = re.sub(r"^```(?:json)?\s*", "", content, flags=re.I)
         content = re.sub(r"\s*```$", "", content)
 
-    result = json.loads(content)
-    if not isinstance(result, dict):
-        raise RuntimeError("La respuesta de Groq no es un objeto JSON.")
+    result = extract_json(content)
+    if not isinstance(result, dict) or not result:
+        raise RuntimeError("La respuesta de Groq no contiene un objeto JSON válido.")
     return result
 
 
@@ -516,7 +555,7 @@ def main():
                             )
                     print("[Gemini Servicios] Probando Groq como fallback...")
                     try:
-                        result = ask_groq(article)
+                        result = ask_groq(article, state)
                         provider = "groq"
                         print(f"[Groq Servicios] OK: {article.get('title', '')}")
                     except Exception as groq_error:
@@ -530,7 +569,7 @@ def main():
                     "usando Groq."
                 )
                 try:
-                    result = ask_groq(article)
+                    result = ask_groq(article, state)
                     provider = "groq"
                     print(f"[Groq Servicios] OK: {article.get('title', '')}")
                 except Exception as groq_error:
