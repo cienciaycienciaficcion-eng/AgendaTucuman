@@ -59,21 +59,45 @@
       "selected": false,
       "processed_at": "2026-10-04T06:05:38.685988+00:00",
       "reason": "Servicio gratuito de esterilización de mascotas"
+    },
+    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-7-al-12-de-septiembre": {
+      "selected": true,
+      "processed_at": "2026-10-04T20:07:48.539342+00:00",
+      "reason": "Informa sobre el cronograma y ofertas del programa municipal 'El Mercado en tu Barrio' en San Miguel de Tucumán, lo cual califica como mercado y operativo municipal de utilidad pública."
+    },
+    "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre": {
+      "selected": true,
+      "processed_at": "2026-10-04T20:08:15.228681+00:00",
+      "reason": "Informa sobre las ofertas semanales y los horarios de atención del Mercado Municipal Dorrego, lo cual es de utilidad pública para la economía familiar de los ciudadanos."
+    },
+    "31-de-agosto-al-4-de-septiembre-operativo-integral-municipal": {
+      "selected": true,
+      "processed_at": "2026-10-04T20:08:42.810983+00:00",
+      "reason": "Informa sobre un operativo integral municipal que ofrece trámites y servicios a los vecinos de Villa Alem en San Miguel de Tucumán."
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre": {
+      "selected": true,
+      "processed_at": "2026-10-04T20:10:45.632881+00:00",
+      "reason": "Ofrece información sobre el servicio gratuito de castración de mascotas y jornadas de Eco Canje en San Miguel de Tucumán."
     }
   },
   "selected_ids": [
     "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9",
     "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre",
-    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal"
+    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
+    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-7-al-12-de-septiembre",
+    "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre",
+    "31-de-agosto-al-4-de-septiembre-operativo-integral-municipal",
+    "smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre"
   ],
-  "updated_at": "2026-10-04T06:05:54.056859+00:00",
+  "updated_at": "2026-10-04T20:10:45.633575+00:00",
   "gemini_usage": {
     "date": "2026-10-04",
-    "calls": 5
+    "calls": 11
   },
   "groq_usage": {
     "date": "2026-10-04",
-    "calls": 8
+    "calls": 9
   }
 }

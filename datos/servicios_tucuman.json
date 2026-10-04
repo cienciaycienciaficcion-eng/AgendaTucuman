@@ -1,12 +1,166 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T06:05:54.056409+00:00",
+  "generated_at": "2026-10-04T20:10:45.633078+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
   "processed_this_run": 5,
-  "count": 4,
+  "count": 8,
   "events": [
+    {
+      "id": "smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre/",
+      "title": "SMT: Dónde castrar gratis a tu mascota del 31 de agosto al 4 de septiembre",
+      "published": "2026-08-31",
+      "modified": "2026-08-31T11:01:10",
+      "description": "Desde este lunes 31 de agosto hasta el viernes 4 de septiembre, la clínica veterinaria móvil ofrecerá sus servicios gratuitos con turnos que deben solicitarse en persona a partir de las 8 de la mañana. Los tráiler veterinario se instalarán en Barrio Paruqe Sur y Villa Alem Dónde habrá jornadas de Eco Canje esta semana: 31 de…",
+      "content": "Desde este lunes 31 de agosto hasta el viernes 4 de septiembre , la clínica veterinaria móvil ofrecerá sus servicios gratuitos con turnos que deben solicitarse en persona a partir de las 8 de la mañana. Los tráiler veterinario se instalarán en Barrio Paruqe Sur y Villa Alem Dónde habrá jornadas de Eco Canje esta semana: 31 de agosto al 4 de septiembre",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2023/04/mascotas.jpeg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "animales",
+        "castraciones",
+        "mascotas",
+        "san miguel de tucuman",
+        "SMT"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/45935-2/"
+      ],
+      "date_start": "2026-08-31",
+      "date_end": "2026-08-31",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-31T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/45935-2/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "31-de-agosto-al-4-de-septiembre-operativo-integral-municipal",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/31-de-agosto-al-4-de-septiembre-operativo-integral-municipal/",
+      "title": "31 de agosto al 4 de septiembre: Operativo Integral Municipal",
+      "published": "2026-09-01",
+      "modified": "2026-09-01T09:27:49",
+      "description": "La Municipalidad de San Miguel de Tucumán continúa los operativos destinados a acercar trámites, servicios y prestaciones a los vecinos de distintos sectores de la capital, con el objetivo de descentralizar la atención municipal. En esta oportunidad, el Operativo Integral Municipal se instalará en Villa Alem. Las actividades se desarrollarán hasta el próximo viernes 4…",
+      "content": "La Municipalidad de San Miguel de Tucumán continúa los operativos destinados a acercar trámites, servicios y prestaciones a los vecinos de distintos sectores de la capital, con el objetivo de descentralizar la atención municipal. En esta oportunidad, el Operativo Integral Municipal se instalará en Villa Alem . Las actividades se desarrollarán hasta el próximo viernes 4 de septiembre con distintas propuestas en cada jornada.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/operativo-e1788265654207.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-09-01",
+      "date_end": "2026-09-01",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-09-01T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-7-al-12-de-septiembre",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-7-al-12-de-septiembre/",
+      "title": "Aquí se instalará el Mercado en tu Barrio: semana del 7 al 12 de septiembre",
+      "published": "2026-09-08",
+      "modified": "2026-09-08T11:35:08",
+      "description": "El Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, continúa ofreciendo alimentos y productos para el hogar a precios accesibles, para favorecer la economía familiar. Algunas de las ofertas que están disponibles esta semana son las siguientes: Verdulería En el puesto se consiguen dos…",
+      "content": "El Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, continúa ofreciendo alimentos y productos para el hogar a precios accesibles, para favorecer la economía familiar. Algunas de las ofertas que están disponibles esta semana son las siguientes: Verdulería En el puesto se consiguen dos kilos de papa por $ 3.000, tres kilos cebolla por $ 5.000, dos kilos de tomate por $ 2.000; un kilo y medio de zanahoria por $ 2.000, el kilo de zapallo brasilero a $ 1.500, el kilo de coreano a $ 2.700, dos kilos de zapallito a $ 5.000, dos kilos de berenjena a $ 5.000, palta Hass a $ 7.000 el kilo y el kilo de jengibre a $ 8.000. En frutas, están en promoción los dos kilos de manzana a $ 5.000, dos kilos de pera a $ 5.000, dos kilos de banana por $ 5.000, kiwi el kilo a $ 7.000, 20 naranjas por $ 2.000, 20 mandarinas por $ 2.000, 12 limones por $ 1.000 y dos kilos de frutilla a $ 7.000. Panadería El stand mantiene los precios de agosto: pan a $ 1.800 el kilo, seis tortillas por $ 1.000, facturas a $ 400 cada una, budines a $ 2.000, galletas pepitos por 100g a $ 1.200, dos alfajores de maicena por $ 1.000, prepizzas a $ 2.000, pan de Viena o de hamburguesas a $ 900, tres mantecados por $ 1.000, la porción de pastafrola a $ 1.000, galletas de avena a $ 1.200 los 100 gramos, alfajor de chocolate a $ 1.000 y milhojas a $ 1.500 la unidad. Cítricos Las 20 unidades de naranjas tangerinas, naranjas criollas o mandarinas murcott se pueden comprar a $ 2.000 pesos. Estas son las principales ofertas del Mercado Municipal Dorrego: semana del 7 al 12 de septiembre Productos de limpieza El rubro ofrece dos litros de jabón líquido por $ 3.000, dos litros de suavizante por $ 3.000, dos litros de lavandina a $ 1.800 y dos litros de desodorante para pisos a $ 2.300. Además, vende un combo de limpieza que tiene dos litros de jabón líquido, dos litros de suavizante más dos litros de lavandina, todo por $ 7.200. También está disponible una promoción de un textil, más un aerosol y un difusor, de fragancias a elección, todo por $ 18.000. Almacén En este gacebo se consigue la bandeja de huevos frescos a partir de los $ 4.500, dos bandejas por $ 9.500 y tres por $ 14.000; los 15 huevos por $ 3.000 y la media docena a $ 1.500. También vende aceite cañuelas a $ 4.200 los 900 ml y el litro y medio a $ 6.800; azúcar Independencia a $ 1.100 el kilo y el fardo a $ 10.500. Huevos Mr. Huevo ofrece bandejas de 30 unidades de huevos frescos de granja desde los $ 4.999 y 15 huevos por $ 2.999. Alimentos saludables sin TACC El puesto ofrece tamales de cerdo orgánico, libres de gluten a $ 4.000; hamburguesas de legumbres libres de gluten dos por $ 2.000 y seis por $ 5.500; y milanesas de soja libres de gluten, tres por $ 2.000. Miel El bidón de tres kilos de miel se consigue a $ 33.000. Productos libres de gluten, lácteos y soja El emprendimiento Grito Verde tiene en oferta el pan vegano de garbanzo a $ 12.000 el kilo; pan de lino y trigo sarraceno a $ 12.000 el kilo; y pan keto de maní y lino, sin harinas blancas ni almidones, apto para diabéticos, a $10.000. Vivero El gacebo mantiene en oferta las plantas aromáticas a $ 3.000 cada una, ají en maceta a $ 4.000, dimorfoteca a $ 4.000 la unidad, malvón a $ 4.000 cada uno, marimonia a $ 5.000, clavel a $ 5.000 cada uno, singonio a $ 5.000, lazo de amor a $ 5.000, kalanchoe M12 a $ 4.000, kalanchoe M15 a $ 8.000 cada uno, malvón alemán a $ 10.000, peperomias a $ 12.000, helechos a $ 12.000 y palo de agua por $ 17.000. Productos para mascotas Mascotinas Boutique tiene en promoción un combo de medio kilo de alimento para perro, un saca pelusas y un juguete seleccionado, a $ 7.999; y medio kilo de piedritas sanitarias, más medio kilo de alimento para gato y una varilla de juguete para gato, todo por $ 6.999. Dónde estará el Mercado en tu Barrio esta semana Esta semana, de 9 a 14 h, los puestos estarán en los siguientes lugares: Lunes 7 de septiembre: Plaza Urquiza Martes 8 de septiembre: Américo Vespucio y avenida Colón, Barrio SEOC II Miércoles 9 de septiembre: Plaza San Martín Jueves 10 de septiembre: Rufino Cossio y Boulogne Sur Mer, barrio Batalla de Tucumán. Viernes 11 de septiembre: 24 de Septiembre al 300. Las actividades se suspenden por lluvia.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/03/mercado-en-tu-barrio.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "el mercado en tu barrio",
+        "mercado",
+        "ofertas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre/"
+      ],
+      "date_start": "2026-09-08",
+      "date_end": "2026-09-08",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-09-08T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre/",
+      "title": "Estas son las principales ofertas del Mercado Municipal Dorrego: semana del 7 al 12 de septiembre",
+      "published": "2026-09-08",
+      "modified": "2026-09-08T11:29:46",
+      "description": "Los puestos del Mercado Municipal Dorrego abren sus puertas todos los días de la semana para ofrecer a los vecinos productos de la canasta familiar a precios muy convenientes. Además, en el centro comercial ubicado en avenida Roca y Marina Alfaro se puede acceder a una gran propuesta gastronómica para disfrutar en un amplio patio…",
+      "content": "Los puestos del Mercado Municipal Dorrego abren sus puertas todos los días de la semana para ofrecer a los vecinos productos de la canasta familiar a precios muy convenientes. Además, en el centro comercial ubicado en avenida Roca y Marina Alfaro se puede acceder a una gran propuesta gastronómica para disfrutar en un amplio patio de comidas. Los locales trabajan de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h; y los domingos, de 9 a 15.40 h. Entre las promociones disponibles esta semana, hasta el sábado 12 de septiembre, se destacan las siguientes: Carnicería En los puestos de carnicería se podrán conseguir promociones como el combo de un kilo de vacío más un kilo de paleta chata por $ 27.000; un kilo de blando más un kilo de duro por $ 30.000; y un kilo de blando más un kilo de primo por $ 29.000. También habrá ofertas de dos kilos de pierna de cerdo desde $ 15.000 y dos kilos de costeletas de cerdo desde $ 16.000. En otros puestos, se podrán comprar dos kilos de costeletas de cerdo por $ 20.000; dos kilos de pierna de cerdo por $ 18.000; un kilo de matambre de cerdo por $ 19.000; un kilo de bondiola por $ 11.000 y un kilo de hígado por $ 6.000. Panadería Esta semana se podrán conseguir promociones de un kilo de pan a $ 1.400; ocho tortillas surtidas por $ 1.000 y cuatro facturas por $ 1.000. Pollería En el sector de pollería se ofrecen tres kilos de pata muslo por $ 12.900; un kilo de supremas por $ 9.500; tres kilos de alitas por $ 9.000 y un kilo de filet de pollo por $ 12.000. Fiambrería, almacén y regionales Entre las ofertas disponibles se podrán conseguir yogur por $ 600 la unidad; y un queso criollo más un salamín por $ 8.500. En otros puestos se ofrecen un kilo de nueces por $ 20.000; medio kilo de miel por $ 7.000; un paquete de alfeñiques o tabletas por $ 3.500; leche entera o descremada por $ 1.800 y seis huevos por $ 1.300. También se puede conseguir la bandeja de huevos por $ 4.500. Comidas Para compartir en el patio de comidas, los puestos gastronómicos del Mercado Municipal Dorrego ofrecerán una variada oferta para todos los gustos. Se podrán conseguir ñoquis por $ 5.000 la porción; pollo al horno con guarnición por $ 8.500; milanesa napolitana con guarnición por $ 12.000; y bombas de queso o de carne por $ 2.500 la unidad. También habrá promociones de seis empanadas más dos bombas o kipes por $ 9.500; dos bombas o kipes con guarnición por $ 7.500; una docena de empanadas más una pizza común por $ 21.000; y dos porciones de pata muslo con guarnición más gaseosa por $ 19.000. Otras opciones incluyen hamburguesa común por $ 6.500; hamburguesa especial por $ 7.500; tarta más gaseosa por $ 7.500; calzone más gaseosa por $ 8.000; seis empanadas más media pizza especial y gaseosa por $ 16.000; y una docena de empanadas más pizza especial y gaseosa por $ 28.000. Además, se ofrecen pizzas desde $ 9.000; pizza especial y pizza napolitana por $ 13.000; napolitana con guarnición por $ 12.000; lampreado con guarnición por $ 10.000; tartas por $ 6.000 y tortilla de papa por $ 6.500.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/03/Mercado-Dorrego-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "mercado",
+        "Mercado Dorrego",
+        "ofertas"
+      ],
+      "links": [],
+      "date_start": "2026-09-08",
+      "date_end": "2026-09-08",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-09-08T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
     {
       "id": "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
       "source": "Agenda Tucumán - Servicios",
