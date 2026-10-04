@@ -169,6 +169,60 @@ jobs:
           cd .tmp/cinemacenter
           PYTHONUNBUFFERED=1 python -u ../../extractores/cinemacenter.py
 
+      - name: Conservar próximos estrenos si Cinemacenter responde vacío
+        if: steps.cinemacenter.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          current_path = Path(".tmp/cinemacenter/cine_cinemacenter_tucuman.json")
+          previous_path = Path("datos/cine_cinemacenter_tucuman.json")
+          current_meta_path = Path(".tmp/cinemacenter/cine_metadata.json")
+          previous_meta_path = Path("datos/cine_metadata.json")
+
+          if not current_path.exists() or not previous_path.exists():
+              raise SystemExit(0)
+
+          current = json.loads(current_path.read_text(encoding="utf-8"))
+          previous = json.loads(previous_path.read_text(encoding="utf-8"))
+          current_upcoming = current.get("proximos_estrenos") or []
+          previous_upcoming = previous.get("proximos_estrenos") or []
+
+          if current_upcoming or not previous_upcoming:
+              print(f"Próximos estrenos actuales: {len(current_upcoming)}")
+              raise SystemExit(0)
+
+          print(f"Cinemacenter devolvió 0 próximos estrenos; se conservan {len(previous_upcoming)} anteriores.")
+          current["proximos_estrenos"] = previous_upcoming
+          current_path.write_text(json.dumps(current, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+          # También conservamos la metadata anterior correspondiente a esos títulos.
+          if current_meta_path.exists() and previous_meta_path.exists():
+              current_meta = json.loads(current_meta_path.read_text(encoding="utf-8"))
+              previous_meta = json.loads(previous_meta_path.read_text(encoding="utf-8"))
+              existing = current_meta.get("movies") or []
+              previous_by_title = {}
+              for item in previous_meta.get("movies") or []:
+                  for value in [item.get("title"), *(item.get("match") or [])]:
+                      if value:
+                          previous_by_title[str(value).strip().lower()] = item
+
+              for upcoming in previous_upcoming:
+                  title = str(upcoming.get("title") or "").strip().lower()
+                  item = previous_by_title.get(title)
+                  if item and not any(
+                      str(x.get("title") or "").strip().lower() == title
+                      for x in existing
+                  ):
+                      existing.append(item)
+
+              current_meta["movies"] = existing
+              current_meta.setdefault("summary", {})["proximos_estrenos_conservados"] = len(previous_upcoming)
+              current_meta_path.write_text(json.dumps(current_meta, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+
       - name: Validar cartelera Cinemacenter
         id: validate_cinemacenter
         if: steps.cinemacenter.outcome == 'success'
