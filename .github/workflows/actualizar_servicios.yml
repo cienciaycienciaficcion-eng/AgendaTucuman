@@ -3,8 +3,12 @@ name: Actualizar Servicios Agenda Tucumán
 on:
   workflow_dispatch:
   schedule:
-    # Cada 2 horas. Solo se revisa la primera página de Servicios.
     - cron: '17 */2 * * *'
+
+# Evita ejecuciones simultáneas que puedan pisar el estado de IA.
+concurrency:
+  group: agenda-servicios
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -12,6 +16,7 @@ permissions:
 jobs:
   actualizar:
     runs-on: ubuntu-24.04
+
     steps:
       - name: Checkout
         uses: actions/checkout@v6
@@ -46,9 +51,7 @@ jobs:
               raise SystemExit('Formato inválido de servicios_raw.json')
 
           if not articles:
-              raise SystemExit(
-                  'servicios_raw.json está vacío; no se continúa con IA'
-              )
+              raise SystemExit('servicios_raw.json está vacío; no se continúa con IA')
           PY
 
       - name: Comprobar APIs de IA
@@ -70,10 +73,7 @@ jobs:
           print(f'Groq modelo: {os.getenv("GROQ_MODEL")}')
 
           if not gemini and not groq:
-              raise SystemExit(
-                  'No hay ninguna API configurada. '
-                  'Configure GEMINI_API_KEY y/o GROQ_API_KEY.'
-              )
+              raise SystemExit('No hay ninguna API configurada.')
           PY
 
       - name: Filtrar Servicios con Gemini + Groq
@@ -106,8 +106,8 @@ jobs:
                   print('Servicios publicados:', data.get('count', 0))
 
               if name.endswith('servicios_gemini_state.json'):
-                  print('IDs procesados:', len(data.get('processed', {})))
-                  print('IDs seleccionados:', len(data.get('selected_ids', [])))
+                  usage = data.get('gemini_usage', {})
+                  print('Uso Gemini hoy:', usage.get('calls', 0), '/ 20')
           PY
 
       - name: Publicar datos y estado
