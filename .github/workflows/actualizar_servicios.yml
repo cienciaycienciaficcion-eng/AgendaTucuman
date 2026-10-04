@@ -108,6 +108,8 @@ jobs:
               if name.endswith('servicios_gemini_state.json'):
                   usage = data.get('gemini_usage', {})
                   print('Uso Gemini hoy:', usage.get('calls', 0), '/ 20')
+                  groq_usage = data.get('groq_usage', {})
+                  print('Uso Groq hoy:', groq_usage.get('calls', 0), '/ 30')
           PY
 
       - name: Publicar datos y estado
