@@ -23,7 +23,10 @@ export default function AgendaScreen() {
   })();
 
   const filters = useMemo(() => {
-    const discovered = agendaEvents.flatMap(eventCategories)
+    // Servicios tienen su propia sección y no deben aparecer como filtro
+    // dentro de la Agenda general.
+    const agendaOnlyEvents = agendaEvents.filter(event => !isServiceEvent(event));
+    const discovered = agendaOnlyEvents.flatMap(eventCategories)
       .map(value => String(value).trim())
       .filter(Boolean);
 

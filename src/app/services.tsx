@@ -5,7 +5,7 @@ import { EventCard } from '@/components/event-card';
 import { EventCalendar } from '@/components/event-calendar';
 import { EventDetailsModal } from '@/components/event-details-modal';
 import { ThemedText } from '@/components/themed-text';
-import { eventCategories, eventIsActiveOrUpcoming, isServiceEvent, normalizeSearchText, todayIso } from '@/data';
+import { eventCategories, isServiceEvent, normalizeSearchText, todayIso } from '@/data';
 import { Colors, MaxContentWidth, Spacing } from '@/constants/theme';
 import { useServicesData } from '@/data/use-remote-data';
 
@@ -18,7 +18,9 @@ export default function ServicesScreen() {
   const events = useMemo(() => {
     const q = normalizeSearchText(query);
     return [...serviceEvents]
-      .filter(event => eventIsActiveOrUpcoming(event, today))
+      // Servicios son publicaciones informativas, no eventos con una
+      // vigencia fiable en date_start/date_end. La sección dedicada los
+      // muestra aunque esas fechas estén vacías o ya hayan vencido.
       .filter(event => isServiceEvent(event))
       .filter(event => !q || normalizeSearchText([
         event.title,
@@ -27,7 +29,11 @@ export default function ServicesScreen() {
         event.description,
         ...eventCategories(event),
       ].join(' ')).includes(q))
-      .sort((a, b) => a.start_datetime.localeCompare(b.start_datetime));
+      .sort((a, b) => {
+        const da = a.date_start || a.published || a.modified || '';
+        const db = b.date_start || b.published || b.modified || '';
+        return String(db).localeCompare(String(da));
+      });
   }, [serviceEvents, query, today]);
 
   return (

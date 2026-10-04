@@ -60,7 +60,31 @@ export function useServicesData() {
     setLoading(true);
     try {
       const data = await refreshServicesOnce();
-      setEvents(data.map((event: any) => isServiceEvent(event) ? event : { ...event, categories: [...(Array.isArray(event.categories) ? event.categories : []), 'Servicios'] }));
+      const remoteServices = data.map((event: any) =>
+        isServiceEvent(event)
+          ? event
+          : {
+              ...event,
+              categories: [
+                ...(Array.isArray(event.categories) ? event.categories : []),
+                'Servicios',
+              ],
+            }
+      );
+
+      // La fuente dedicada de Servicios y la agenda histórica pueden contener
+      // publicaciones distintas. Las combinamos para no perder servicios si
+      // una de las dos fuentes todavía no fue actualizada.
+      const merged = [...remoteServices, ...fallback];
+      const seen = new Set<string>();
+      const unique = merged.filter((event: any) => {
+        const key = String(event.id || event.url || event.title || '').trim().toLowerCase();
+        if (!key || seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+
+      setEvents(unique);
       setOnline(true);
     } catch {
       // El extractor dedicado puede no existir todavía: en ese caso
