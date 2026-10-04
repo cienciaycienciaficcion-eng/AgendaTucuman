@@ -19,15 +19,40 @@
       "selected": false,
       "processed_at": "2026-10-04T00:06:04.399261+00:00",
       "reason": "Información útil sobre cierres escolares y ajustes en servicios públicos para la ciudadanía."
+    },
+    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre": {
+      "selected": true,
+      "processed_at": "2026-10-04T02:55:27.428984+00:00",
+      "reason": "Informa sobre el cronograma y ubicación del programa municipal 'Mercado en tu Barrio', que ofrece productos a precios convenientes en espacios públicos."
+    },
+    "tafi-viejo-donde-estara-el-trailer-de-salud-animal": {
+      "selected": false,
+      "processed_at": "2026-10-04T02:55:42.335463+00:00",
+      "reason": "Servicio gratuito de atención veterinaria móvil para mascotas"
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-del-21-al-27-de-septiembre": {
+      "selected": false,
+      "processed_at": "2026-10-04T02:56:11.352470+00:00",
+      "reason": "Servicio gratuito de esterilización de mascotas"
+    },
+    "donde-habra-jornadas-de-eco-canje-esta-semana-7": {
+      "selected": false,
+      "processed_at": "2026-10-04T02:56:26.403123+00:00",
+      "reason": "Servicio de reciclaje municipal"
     }
   },
   "selected_ids": [
     "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
-    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9"
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9",
+    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre"
   ],
-  "updated_at": "2026-10-04T00:06:04.399954+00:00",
+  "updated_at": "2026-10-04T02:56:26.403919+00:00",
   "gemini_usage": {
     "date": "2026-10-04",
-    "calls": 1
+    "calls": 3
+  },
+  "groq_usage": {
+    "date": "2026-10-04",
+    "calls": 4
   }
 }
