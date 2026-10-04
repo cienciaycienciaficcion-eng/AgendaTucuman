@@ -1,12 +1,129 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T20:10:45.633078+00:00",
+  "generated_at": "2026-10-04T21:29:55.871733+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
   "processed_this_run": 5,
-  "count": 8,
+  "count": 13,
   "events": [
+    {
+      "id": "banda-del-rio-sali-cronograma-del-programa-garrafa-social-2",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social-2/",
+      "title": "Banda del Rio Sali: Cronograma del programa Garrafa Social",
+      "published": "2026-08-25",
+      "modified": "2026-08-25T12:25:07",
+      "description": "",
+      "content": "",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/06/4.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "Garrafa Social"
+      ],
+      "links": [],
+      "date_start": "2026-08-25",
+      "date_end": "2026-08-25",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-25T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "45935-2",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/45935-2/",
+      "title": "Dónde habrá jornadas de Eco Canje esta semana: 31 de agosto al 4 de septiembre",
+      "published": "2026-08-31",
+      "modified": "2026-08-31T10:53:38",
+      "description": "En el marco del programa SE-PA-RÁ, la Secretaría de Ambiente y Desarrollo Sustentable de la Municipalidad de San Miguel de Tucumán realizará nuevas jornadas de Eco Canje en distintos espacios públicos de la capital. Tafí Viejo: dónde se instalará el Móvil de Salud Animal",
+      "content": "En el marco del programa SE-PA-RÁ, la Secretaría de Ambiente y Desarrollo Sustentable de la Municipalidad de San Miguel de Tucumán realizará nuevas jornadas de Eco Canje en distintos espacios públicos de la capital. Tafí Viejo: dónde se instalará el Móvil de Salud Animal",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/05/ecocanje-1-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "eco-canje",
+        "ecología",
+        "reciclaje",
+        "reciclar"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/tafi-viejo-donde-se-instalara-el-movil-de-salud-animal/"
+      ],
+      "date_start": "2026-08-31",
+      "date_end": "2026-08-31",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-31T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/tafi-viejo-donde-se-instalara-el-movil-de-salud-animal/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-8",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-8/",
+      "title": "Programa Hospital Móvil: en qué localidades se ubicará esta semana",
+      "published": "2026-08-31",
+      "modified": "2026-08-31T10:56:48",
+      "description": "Desde este lunes 31 de agosto hasta el viernes 4 de septiembre se llevará a cabo el Programa Hospital Móvil realizando distintas prestaciones esta semana se ubicará en B° Los Platanos Tafí Viejo: dónde se instalará el Móvil de Salud Animal",
+      "content": "Desde este lunes 31 de agosto hasta el viernes 4 de septiembre se llevará a cabo el Programa Hospital Móvil realizando distintas prestaciones esta semana se ubicará en B° Los Platanos Tafí Viejo: dónde se instalará el Móvil de Salud Animal",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2023/05/trailer.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "Hospital Móvil",
+        "salud"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/tafi-viejo-donde-se-instalara-el-movil-de-salud-animal/"
+      ],
+      "date_start": "2026-08-31",
+      "date_end": "2026-08-31",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-31T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/tafi-viejo-donde-se-instalara-el-movil-de-salud-animal/"
+      ],
+      "occurrences": []
+    },
     {
       "id": "smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre",
       "source": "Agenda Tucumán - Servicios",
@@ -51,6 +168,43 @@
       "occurrences": []
     },
     {
+      "id": "tafi-viejo-donde-se-instalara-el-movil-de-salud-animal",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/tafi-viejo-donde-se-instalara-el-movil-de-salud-animal/",
+      "title": "Tafí Viejo: dónde se instalará el Móvil de Salud Animal",
+      "published": "2026-08-31",
+      "modified": "2026-08-31T10:25:37",
+      "description": "El programa Móvil de Salud Animal en Movimiento se instalará durante todo el mes de septiembre en el CIC San Alberto, ubicado en Avenida Oeste y Santa Fe, para acercar servicios gratuitos de salud y cuidado responsable de mascotas a los vecinos. La entrega de turnos será el lunes 31 de agosto, a partir de las 14 horas, y se…",
+      "content": "El programa Móvil de Salud Animal en Movimiento se instalará durante todo el mes de septiembre en el CIC San Alberto , ubicado en Avenida Oeste y Santa Fe , para acercar servicios gratuitos de salud y cuidado responsable de mascotas a los vecinos. La entrega de turnos será el lunes 31 de agosto, a partir de las 14 horas , y se realizará por orden de llegada y hasta completar el cupo disponible . Cómo hacer arroz cremoso con pollo y vegetales La atención mantendrá la misma modalidad durante septiembre: los lunes se entregarán los turnos , mientras que las jornadas de martes, miércoles, jueves y viernes estarán destinadas a las castraciones, desparasitaciones y vacunación antirrábica . En cuanto a la desparasitación, el servicio estará destinado a cachorros de hasta cuatro meses de edad y hasta 3 kilos de peso .",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/12/perro-con-miedo.jpeg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/como-hacer-arroz-cremoso-con-pollo-y-vegetales/"
+      ],
+      "date_start": "2026-08-31",
+      "date_end": "2026-08-31",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-31T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/como-hacer-arroz-cremoso-con-pollo-y-vegetales/"
+      ],
+      "occurrences": []
+    },
+    {
       "id": "31-de-agosto-al-4-de-septiembre-operativo-integral-municipal",
       "source": "Agenda Tucumán - Servicios",
       "url": "https://agendatucuman.com.ar/31-de-agosto-al-4-de-septiembre-operativo-integral-municipal/",
@@ -65,6 +219,43 @@
         "Servicios"
       ],
       "tags": [],
+      "links": [],
+      "date_start": "2026-09-01",
+      "date_end": "2026-09-01",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-09-01T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-3",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-3/",
+      "title": "Aquí se instalará el Mercado en tu Barrio esta semana",
+      "published": "2026-09-01",
+      "modified": "2026-09-01T09:19:23",
+      "description": "El programa municipal Mercado en tu Barrio, volverá esta semana a instalarse en diferentes espacios públicos de la ciudad para acercar opciones a precios convenientes. Las ofertas estarán disponibles hasta el viernes 4 de septiembre.",
+      "content": "El programa municipal Mercado en tu Barrio, volverá esta semana a instalarse en diferentes espacios públicos de la ciudad para acercar opciones a precios convenientes. Las ofertas estarán disponibles hasta el viernes 4 de septiembre .",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/05/mercado-en-tu-barrio-1.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "mercado en tu barrio",
+        "ofertas",
+        "SMT"
+      ],
       "links": [],
       "date_start": "2026-09-01",
       "date_end": "2026-09-01",

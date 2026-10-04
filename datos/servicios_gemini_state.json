@@ -79,6 +79,31 @@
       "selected": true,
       "processed_at": "2026-10-04T20:10:45.632881+00:00",
       "reason": "Ofrece información sobre el servicio gratuito de castración de mascotas y jornadas de Eco Canje en San Miguel de Tucumán."
+    },
+    "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-3": {
+      "selected": true,
+      "processed_at": "2026-10-04T21:28:48.580230+00:00",
+      "reason": "Informa sobre la ubicación y cronograma del programa municipal Mercado en tu Barrio, el cual es un servicio de utilidad pública para los ciudadanos."
+    },
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-8": {
+      "selected": true,
+      "processed_at": "2026-10-04T21:29:04.286128+00:00",
+      "reason": "Informa sobre la ubicación del Programa Hospital Móvil y Móvil de Salud Animal en Tafí Viejo, Tucumán, ofreciendo servicios de salud pública y animal."
+    },
+    "45935-2": {
+      "selected": true,
+      "processed_at": "2026-10-04T21:29:20.977712+00:00",
+      "reason": "Informa sobre el cronograma de las jornadas de Eco Canje y la ubicación del Móvil de Salud Animal en municipios de Tucumán, siendo servicios públicos de utilidad para el ciudadano."
+    },
+    "tafi-viejo-donde-se-instalara-el-movil-de-salud-animal": {
+      "selected": true,
+      "processed_at": "2026-10-04T21:29:38.928967+00:00",
+      "reason": "Informa sobre el cronograma, turnos y servicios gratuitos de castración y vacunación del Móvil de Salud Animal en Tafí Viejo."
+    },
+    "banda-del-rio-sali-cronograma-del-programa-garrafa-social-2": {
+      "selected": true,
+      "processed_at": "2026-10-04T21:29:55.871458+00:00",
+      "reason": "Informa sobre el cronograma de un programa social (Garrafa Social) en el municipio de Banda del Río Salí, Tucumán."
     }
   },
   "selected_ids": [
@@ -89,12 +114,17 @@
     "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-7-al-12-de-septiembre",
     "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-semana-del-7-al-12-de-septiembre",
     "31-de-agosto-al-4-de-septiembre-operativo-integral-municipal",
-    "smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre"
+    "smt-donde-castrar-gratis-a-tu-mascota-del-31-de-agosto-al-4-de-septiembre",
+    "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-3",
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-8",
+    "45935-2",
+    "tafi-viejo-donde-se-instalara-el-movil-de-salud-animal",
+    "banda-del-rio-sali-cronograma-del-programa-garrafa-social-2"
   ],
-  "updated_at": "2026-10-04T20:10:45.633575+00:00",
+  "updated_at": "2026-10-04T21:29:55.872305+00:00",
   "gemini_usage": {
     "date": "2026-10-04",
-    "calls": 11
+    "calls": 16
   },
   "groq_usage": {
     "date": "2026-10-04",
