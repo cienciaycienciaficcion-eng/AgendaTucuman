@@ -9,15 +9,25 @@
       "selected": true,
       "processed_at": "2026-10-03T23:41:00.142089+00:00",
       "reason": "Informa sobre el cronograma y ubicación del Programa Hospital Móvil, un servicio de salud pública y operativo municipal de utilidad para los ciudadanos."
+    },
+    "donde-habra-jornadas-de-eco-canje-esta-semana-28-de-septiembre-al-2-de-octubre": {
+      "selected": false,
+      "processed_at": "2026-10-04T00:05:06.928189+00:00",
+      "reason": "Información sobre jornadas de reciclaje disponibles para la comunidad."
+    },
+    "29-de-septiembre-asueto-administrativo-y-sin-clases-en-las-escuelas-municipales-de-la-capital": {
+      "selected": false,
+      "processed_at": "2026-10-04T00:06:04.399261+00:00",
+      "reason": "Información útil sobre cierres escolares y ajustes en servicios públicos para la ciudadanía."
     }
   },
   "selected_ids": [
     "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9"
   ],
-  "updated_at": "2026-10-03T23:46:24.131515+00:00",
+  "updated_at": "2026-10-04T00:06:04.399954+00:00",
   "gemini_usage": {
-    "date": "2026-10-03",
-    "calls": 11
+    "date": "2026-10-04",
+    "calls": 1
   }
 }
