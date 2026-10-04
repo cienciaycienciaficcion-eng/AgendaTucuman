@@ -123,38 +123,52 @@ export function useAgendaData() {
 
 
 function mergeCinemaMetadata(data: any, remoteMetadata: any[] = []) {
-  if (!data?.cartelera?.movies || !Array.isArray(data.cartelera.movies)) return data;
+  if (!data || typeof data !== 'object') return data;
 
   const findMetadata = (items: any[], title: string) =>
-    items.find((item: any) =>
-      Array.isArray(item?.match) && item.match.some((matchTitle: string) =>
+    items.find((item: any) => {
+      const candidates = [
+        ...(Array.isArray(item?.match) ? item.match : []),
+        item?.title,
+        item?.original_title,
+      ].filter(Boolean);
+      return candidates.some((matchTitle: string) =>
         normalizeSearchText(matchTitle) === normalizeSearchText(title)
-      )
-    );
+      );
+    });
+
+  const mergeMovie = (movie: any) => {
+    const localMetadata = findMetadata(fallbackCinemaMetadata, movie.title);
+    const currentRemoteMetadata = findMetadata(remoteMetadata, movie.title);
+
+    return {
+      ...movie,
+      metadata: {
+        ...(localMetadata ?? {}),
+        ...(currentRemoteMetadata ?? {}),
+        ...(movie.metadata ?? {}),
+      },
+    };
+  };
 
   return {
     ...data,
-    cartelera: {
-      ...data.cartelera,
-      movies: data.cartelera.movies.map((movie: any) => {
-        const localMetadata = findMetadata(fallbackCinemaMetadata, movie.title);
-        const currentRemoteMetadata = findMetadata(remoteMetadata, movie.title);
-
-        return {
-          ...movie,
-          metadata: {
-            // Local metadata remains a fallback for fields that the remote
-            // enrichment could not obtain.
-            ...(localMetadata ?? {}),
-            // The repository metadata is newer and takes precedence.
-            ...(currentRemoteMetadata ?? {}),
-            ...(movie.metadata ?? {}),
+    ...(data.cartelera && Array.isArray(data.cartelera.movies)
+      ? {
+          cartelera: {
+            ...data.cartelera,
+            movies: data.cartelera.movies.map(mergeMovie),
           },
-        };
-      }),
-    },
+        }
+      : {}),
+    ...(Array.isArray(data.proximos_estrenos)
+      ? {
+          proximos_estrenos: data.proximos_estrenos.map(mergeMovie),
+        }
+      : {}),
   };
 }
+
 
 const CINEMA_CHECK_INTERVAL_MS = 60 * 60 * 1000;
 let cinemaLastServerCheck = 0;
@@ -180,7 +194,25 @@ export function useCinemaData() {
         // metadata no esté disponible temporalmente.
       }
 
-      const merged = mergeCinemaMetadata(next, remoteMetadata);
+      // Cinemacenter puede responder temporalmente con una lista vacía de
+      // próximos estrenos aunque la cartelera semanal sea válida. En ese caso
+      // nunca reemplazamos una lista local válida por [].
+      const remoteUpcoming = Array.isArray(next?.proximos_estrenos)
+        ? next.proximos_estrenos
+        : [];
+      const bundledUpcoming = Array.isArray(fallbackCinemaData?.proximos_estrenos)
+        ? fallbackCinemaData.proximos_estrenos
+        : [];
+
+      let cinemaToMerge = next;
+      if (remoteUpcoming.length === 0 && bundledUpcoming.length > 0) {
+        cinemaToMerge = {
+          ...next,
+          proximos_estrenos: bundledUpcoming,
+        };
+      }
+
+      const merged = mergeCinemaMetadata(cinemaToMerge, remoteMetadata);
       setData(merged);
       setOnline(true);
       cinemaLastServerCheck = Date.now();
