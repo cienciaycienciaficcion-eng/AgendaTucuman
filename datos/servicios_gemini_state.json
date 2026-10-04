@@ -39,20 +39,41 @@
       "selected": false,
       "processed_at": "2026-10-04T02:56:26.403123+00:00",
       "reason": "Servicio de reciclaje municipal"
+    },
+    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal": {
+      "selected": true,
+      "processed_at": "2026-10-04T06:04:54.707345+00:00",
+      "reason": "Informa sobre un operativo integral municipal en San Miguel de Tucumán que ofrece trámites de DNI, SUBE, licencias de conducir, salud y castración de mascotas."
+    },
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-7": {
+      "selected": false,
+      "processed_at": "2026-10-04T06:05:09.148518+00:00",
+      "reason": "Servicio de mercado con ofertas para la comunidad"
+    },
+    "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-2": {
+      "selected": false,
+      "processed_at": "2026-10-04T06:05:23.865963+00:00",
+      "reason": "El contenido describe ofertas de productos y comidas en un mercado privado, no un servicio público."
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-del-7-al-11-de-septiembre": {
+      "selected": false,
+      "processed_at": "2026-10-04T06:05:38.685988+00:00",
+      "reason": "Servicio gratuito de esterilización de mascotas"
     }
   },
   "selected_ids": [
     "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9",
-    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre"
+    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre",
+    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal"
   ],
-  "updated_at": "2026-10-04T02:56:26.403919+00:00",
+  "updated_at": "2026-10-04T06:05:54.056859+00:00",
   "gemini_usage": {
     "date": "2026-10-04",
-    "calls": 3
+    "calls": 5
   },
   "groq_usage": {
     "date": "2026-10-04",
-    "calls": 4
+    "calls": 8
   }
 }
