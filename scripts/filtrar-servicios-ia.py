@@ -22,7 +22,6 @@ import requests
 RAW = Path("datos/servicios_raw.json")
 OUT = Path("datos/servicios_tucuman.json")
 STATE = Path("datos/servicios_gemini_state.json")
-API_KEY = os.getenv("GEMINI_API_KEY", "").strip()
 MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
 URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
 MAX_GEMINI_CALLS_PER_RUN = 5
@@ -33,11 +32,10 @@ GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_REQUEST_TIMEOUT = 60
 REQUEST_TIMEOUT = 60
-GEMINI_RETRIES = 3
+GEMINI_RETRIES = 2
 GEMINI_RETRY_BASE_SECONDS = 5
 GEMINI_MIN_INTERVAL_SECONDS = 13
 GEMINI_JITTER_SECONDS = 2
-GEMINI_429_BACKOFF = [30, 60, 120]
 GEMINI_5XX_BACKOFF = [15, 30, 60]
 
 
@@ -220,7 +218,7 @@ Reglas:
 
 
 def ask_gemini(article, state):
-    """Consulta Gemini para un único artículo, con reintentos ante 429/5xx."""
+    """Consulta Gemini para un único artículo; 429 pasa inmediatamente a Groq y 5xx puede reintentarse."""
     prompt = f"""Eres el filtro de Servicios de Agenda Tucumán.
 
 Selecciona si ESTA publicación representa información útil de servicios para ciudadanos de Tucumán.
@@ -246,6 +244,10 @@ Descripción: {article.get('description','')[:1200]}
 Contenido: {article.get('content','')[:2500]}
 """
 
+    api_key = os.getenv("GEMINI_API_KEY", "").strip()
+    if not api_key:
+        raise RuntimeError("GEMINI_API_KEY no está configurada.")
+
     last_error = None
 
     for attempt in range(1, GEMINI_RETRIES + 1):
@@ -253,7 +255,7 @@ Contenido: {article.get('content','')[:2500]}
             register_gemini_call(state)
             response = requests.post(
                 URL,
-                params={"key": API_KEY},
+                params={"key": api_key},
                 headers={"Content-Type": "application/json"},
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
@@ -265,13 +267,19 @@ Contenido: {article.get('content','')[:2500]}
                 timeout=REQUEST_TIMEOUT,
             )
 
-            # Retry only temporary/rate-limit/server errors.
-            if response.status_code == 429 or 500 <= response.status_code < 600:
+            # 429 significa cuota/rate limit: abandonar Gemini inmediatamente
+            # y dejar que el caller pruebe Groq. No desperdiciamos reintentos.
+            if response.status_code == 429:
+                print(
+                    f"[Gemini Servicios] HTTP 429 para {article.get('id')}; "
+                    "se activa Groq sin reintentar Gemini."
+                )
+                response.raise_for_status()
+
+            # 5xx sí puede ser transitorio: permitir un reintento.
+            if 500 <= response.status_code < 600:
                 if attempt < GEMINI_RETRIES:
-                    if response.status_code == 429:
-                        wait = GEMINI_429_BACKOFF[attempt - 1]
-                    else:
-                        wait = GEMINI_5XX_BACKOFF[attempt - 1]
+                    wait = GEMINI_5XX_BACKOFF[attempt - 1]
                     wait += random.uniform(0, 5)
                     print(
                         f"[Gemini Servicios] HTTP {response.status_code} "
@@ -300,7 +308,14 @@ Contenido: {article.get('content','')[:2500]}
             # 4xx other than 429 are configuration/request errors and should
             # not be retried repeatedly.
             status = exc.response.status_code if exc.response is not None else None
-            if status is not None and status != 429 and not (500 <= status < 600):
+
+            # 429 = cuota/rate limit. No se reintenta Gemini: el caller
+            # desactiva Gemini para esta ejecución y pasa inmediatamente a Groq.
+            if status == 429:
+                raise
+
+            # Otros 4xx no son transitorios.
+            if status is not None and not (500 <= status < 600):
                 raise
 
             if attempt >= GEMINI_RETRIES:
@@ -421,13 +436,19 @@ def main():
         save_state(state)
         return
 
-    if not API_KEY:
-        raise SystemExit("GEMINI_API_KEY no está configurada")
+    gemini_api_key = os.getenv("GEMINI_API_KEY", "").strip()
+    groq_api_key = os.getenv("GROQ_API_KEY", "").strip()
+
+    if not gemini_api_key and not groq_api_key:
+        raise SystemExit(
+            "No está configurada ninguna API: se necesita GEMINI_API_KEY o GROQ_API_KEY."
+        )
 
     print(
-        f"[Gemini Servicios] Modelo: {MODEL} | "
-        f"API key: configurada | máximo {MAX_GEMINI_CALLS_PER_RUN} llamadas por corrida | "
-        f"máximo {MAX_GEMINI_CALLS_PER_DAY} llamadas por día"
+        f"[IA Servicios] Gemini: {'configurada' if gemini_api_key else 'NO configurada'} "
+        f"(modelo {MODEL}); "
+        f"Groq: {'configurada' if groq_api_key else 'NO configurada'} "
+        f"(modelo {GROQ_MODEL})."
     )
 
     usage = usage_today(state)
@@ -456,6 +477,7 @@ def main():
 
     calls = 0
     selected_this_run = 0
+    gemini_available = bool(gemini_api_key)
 
     for index, article in enumerate(batch, start=1):
         # Espaciado individual para evitar ráfagas de solicitudes.
@@ -473,21 +495,47 @@ def main():
         sid = str(article.get("id"))
         calls += 1
         try:
-            try:
-                result = ask_gemini(article, state)
-                provider = "gemini"
-            except Exception as gemini_error:
-                print(f"[Gemini Servicios] Falló Gemini: {gemini_error}")
-                print("[Gemini Servicios] Probando Groq como fallback...")
+            if gemini_available:
+                try:
+                    result = ask_gemini(article, state)
+                    provider = "gemini"
+                except Exception as gemini_error:
+                    print(f"[Gemini Servicios] Falló Gemini: {gemini_error}")
+                    # Un 429 desactiva Gemini para el resto de esta corrida.
+                    if isinstance(gemini_error, requests.HTTPError):
+                        status = (
+                            gemini_error.response.status_code
+                            if gemini_error.response is not None
+                            else None
+                        )
+                        if status == 429:
+                            gemini_available = False
+                            print(
+                                "[Gemini Servicios] 429 detectado: "
+                                "Gemini queda desactivado para esta corrida."
+                            )
+                    print("[Gemini Servicios] Probando Groq como fallback...")
+                    try:
+                        result = ask_groq(article)
+                        provider = "groq"
+                        print(f"[Groq Servicios] OK: {article.get('title', '')}")
+                    except Exception as groq_error:
+                        print(f"[Groq Servicios] También falló: {groq_error}")
+                        raise RuntimeError(
+                            f"Gemini y Groq fallaron para {article.get('title', '')}"
+                        ) from groq_error
+            else:
+                print(
+                    "[Gemini Servicios] No disponible en esta corrida; "
+                    "usando Groq."
+                )
                 try:
                     result = ask_groq(article)
                     provider = "groq"
                     print(f"[Groq Servicios] OK: {article.get('title', '')}")
                 except Exception as groq_error:
-                    print(f"[Groq Servicios] También falló: {groq_error}")
-                    raise RuntimeError(
-                        f"Gemini y Groq fallaron para {article.get('title', '')}"
-                    ) from groq_error
+                    print(f"[Groq Servicios] Falló: {groq_error}")
+                    raise
 
             if isinstance(result, dict):
                 result["provider"] = provider
