@@ -693,181 +693,254 @@ def parse_spanish_date(value: str) -> str | None:
         return None
 
 
-def _ficha_links_from_estrenos(soup: BeautifulSoup) -> list[tuple[str, str]]:
-    """Encuentra fichas aunque Cinemacenter cambie la etiqueta HTML.
+def _first_image_url(node) -> str | None:
+    """Obtiene la primera imagen que parece ser el póster del bloque."""
+    if not node:
+        return None
+    candidates = []
+    for img in node.find_all("img"):
+        for attr in ("src", "data-src", "data-original", "data-lazy-src"):
+            value = clean_text(img.get(attr))
+            if not value:
+                continue
+            low = value.lower()
+            if "logo" in low or "facebook" in low or "banner" in low or "publicidad" in low:
+                continue
+            candidates.append(urljoin(BASE_URL, value))
+            break
+    return candidates[0] if candidates else None
 
-    La página de estrenos ha usado <a>, <option>, atributos data-* y enlaces
-    embebidos en JavaScript. No dependemos de una sola estructura.
+
+def _field_from_context(context: str, labels: list[str]) -> str | None:
+    """Lee un campo de una tarjeta HTML de estrenos sin depender del marcado exacto."""
+    if not context:
+        return None
+    joined = "|".join(re.escape(x) for x in labels)
+    # El contenido de la página puede venir todo en una sola línea después de
+    # BeautifulSoup; usamos como delimitadores los siguientes rótulos.
+    stop_labels = [
+        "Género", "Genero", "Director", "Dirección", "Protagonistas", "Actores",
+        "Reparto", "Calificación", "Clasificación", "Nacionalidad", "Origen",
+        "Distribuidora", "Distribuidor", "Estreno", "Fecha de estreno", "Desde",
+    ]
+    stop = "|".join(re.escape(x) for x in stop_labels if x not in labels)
+    pattern = rf"(?:{joined})\s*[:\-]?\s*(.+?)(?=\s+(?:{stop})\s*[:\-]?\s|$)"
+    m = re.search(pattern, context, re.I)
+    if m:
+        value = clean_text(m.group(1)).strip(" -:")
+        return value or None
+    return None
+
+
+def _extract_upcoming_card(card) -> dict | None:
+    """Extrae un estreno desde su tarjeta visual de /estrenos.
+
+    Cinemacenter publica en esta página el póster, título, sinopsis, género,
+    director, protagonistas y calificación. No dependemos de /ficha/ para
+    obtener esos datos.
     """
-    found: list[tuple[str, str]] = []
-    seen: set[str] = set()
+    text = clean_text(card.get_text(" ", strip=True))
+    if len(text) < 10:
+        return None
 
-    def add(href: object, title: object = "") -> None:
-        raw = clean_text(href)
-        if not raw:
-            return
-        match = re.search(r"(?:https?:\/\/[^\s\"']+)?/ficha/(\d+)(?:-[^\s\"'<>#]*)?", raw, re.I)
-        if not match:
-            return
-        ficha = urljoin(BASE_URL, match.group(0)).split("#", 1)[0]
-        key = ficha.lower()
-        if key in seen:
-            return
-        seen.add(key)
-        found.append((clean_text(title), ficha))
+    release_date = parse_release_date(text) or parse_spanish_date(text)
+    if not release_date:
+        # Algunos bloques tienen la fecha en un nodo hermano/encabezado.
+        parent = card.parent
+        if parent:
+            parent_text = clean_text(parent.get_text(" ", strip=True))
+            release_date = parse_release_date(parent_text) or parse_spanish_date(parent_text)
+    if not release_date:
+        return None
 
-    for node in soup.find_all(True):
-        # Texto visible de enlaces/opciones/tarjetas.
-        title = clean_text(node.get_text(" ", strip=True)) if node.name in {"a", "option", "div", "li", "article"} else ""
-        for attr in ("href", "value", "data-href", "data-url", "data-link", "data-ficha", "onclick"):
-            value = node.get(attr)
-            if value:
-                add(value, title)
-
-    # Último respaldo: una ficha puede aparecer solamente dentro de un script.
-    for match in re.finditer(r"(?:https?:\/\/[^\s\"']+)?/ficha/(\d+)(?:-[^\s\"'<>#]*)?", str(soup), re.I):
-        add(match.group(0), "")
-
-    return found
-
-
-def _best_upcoming_title(title: str, href: str, context: str) -> str:
-    """Elimina textos de navegación y conserva el título cinematográfico."""
-    candidates = [clean_text(title), clean_text(context)]
-    for value in candidates:
-        if not value:
+    # El título suele ser el primer enlace/heading con texto corto. Evitamos
+    # botones y rótulos de navegación.
+    title = None
+    title_nodes = card.find_all(["h1", "h2", "h3", "h4", "strong", "b", "a"])
+    for node in title_nodes:
+        candidate = clean_text(node.get_text(" ", strip=True)).lstrip("*-")
+        n = normalize(candidate)
+        if not candidate or n in {"mas info", "ver ficha", "info", "trailer"}:
             continue
-        value = re.sub(r"\b(?:más info|ver ficha|info|trailer)\b", " ", value, flags=re.I)
-        value = re.sub(r"\b(?:estreno|próximamente|proximamente)\b", " ", value, flags=re.I)
-        value = clean_text(value)
-        if value and len(value) <= 180 and len(value.split()) <= 25:
-            return value
+        if len(candidate) <= 120 and not any(x in n for x in ("personal pay", "beneficio", "suscribite", "trabaja con nosotros")):
+            title = candidate
+            break
+    if not title:
+        # Fallback: buscar una línea corta antes del primer campo conocido.
+        parts = [clean_text(x) for x in re.split(r"\s{2,}|\n", card.get_text("\n", strip=True)) if clean_text(x)]
+        for candidate in parts:
+            candidate = candidate.lstrip("*-")
+            if 2 <= len(candidate) <= 100 and normalize(candidate) not in {"proximos estrenos", "beneficios promociones"}:
+                title = candidate
+                break
+    if not title:
+        return None
 
-    slug = re.search(r"/ficha/\d+-([^/#]+)", href, re.I)
-    if slug:
-        return clean_text(re.sub(r"[-_]+", " ", slug.group(1)))
-    return ""
+    poster = _first_image_url(card)
+    synopsis = _field_from_context(text, ["Sinopsis", "Descripción", "Descripcion"])
+    if not synopsis:
+        # En la página actual la sinopsis aparece como texto libre entre el
+        # título y "Género:". Conservamos solamente ese tramo.
+        m = re.search(r"(?:^|\s)\*?" + re.escape(title) + r"\s+(.+?)\s+G[ée]nero\s*:", text, re.I)
+        if m:
+            synopsis = clean_text(m.group(1))
+
+    genre_text = _field_from_context(text, ["Género", "Genero"])
+    director_text = _field_from_context(text, ["Director", "Dirección"])
+    cast_text = _field_from_context(text, ["Protagonistas", "Actores", "Reparto"])
+    classification = _field_from_context(text, ["Calificación", "Clasificación"])
+    source_url = None
+    for a in card.find_all("a", href=True):
+        href = urljoin(BASE_URL, a.get("href", ""))
+        if "/ficha/" in href.lower():
+            source_url = href
+            break
+    source_url = source_url or ESTRENOS_URL
+
+    metadata = {
+        "title": title,
+        "original_title": None,
+        "release_date": release_date,
+        "duration_minutes": None,
+        "genres": split_genres(genre_text),
+        "director": split_people(director_text),
+        "cast": split_people(cast_text),
+        "synopsis": synopsis,
+        "poster": poster,
+        "trailer": None,
+        "nationality": None,
+        "classification": classification,
+        "distributor": None,
+        "source_url": source_url,
+        "source": "Cinemacenter",
+        "sources_checked": ["Cinemacenter"],
+        "metadata_unavailable_on_source": [
+            field for field, value in {
+                "original_title": None,
+                "duration_minutes": None,
+                "trailer": None,
+                "nationality": None,
+                "distributor": None,
+            }.items() if not value
+        ],
+    }
+    metadata["metadata_status"] = "complete_source" if metadata["poster"] and metadata["synopsis"] and metadata["genres"] else "partial_source"
+    metadata["metadata_warnings"] = []
+    metadata["match"] = list(dict.fromkeys([title]))
+
+    return {
+        "id": slugify(title) or slugify(source_url),
+        "title": title,
+        "release_date": release_date,
+        "source_url": source_url,
+        "source": "Cinemacenter",
+        "poster": poster,
+        "metadata": metadata,
+    }
 
 
 def extract_upcoming_releases(session: requests.Session) -> list[dict]:
-    """Extrae próximos estrenos exclusivamente desde la página oficial de Cinemacenter."""
+    """Extrae próximos estrenos y su metadata directamente desde /estrenos."""
     print("[3/5] Consultando próximos estrenos de Cinemacenter...")
     response = request(session, ESTRENOS_URL)
     soup = BeautifulSoup(response.text, "html.parser")
     items: list[dict] = []
     seen: set[str] = set()
 
-    for anchor_title, href in _ficha_links_from_estrenos(soup):
-        # Buscar un contenedor cercano para recuperar fecha y título cuando el
-        # enlace solo contiene un icono o texto genérico.
-        context = ""
-        node = soup.find(href=lambda value: value and "/ficha/" in str(value))
-        if node is not None:
-            parent = node
-            for _ in range(8):
-                parent = parent.parent
-                if not parent:
-                    break
-                txt = clean_text(parent.get_text(" ", strip=True))
-                if txt and len(txt) <= 1600:
-                    context = txt
-                    if "estreno" in normalize(txt) or parse_release_date(txt) or parse_spanish_date(txt):
-                        break
-
-        title = _best_upcoming_title(anchor_title, href, context)
-        if not title or normalize(title) in {"mas info", "ver ficha", "info"}:
+    # Primera estrategia: tarjetas/bloques que contienen una fecha y una imagen.
+    # Probamos desde elementos relativamente pequeños para evitar tomar toda la
+    # página como una sola tarjeta.
+    candidates = []
+    for tag in soup.find_all(["div", "li", "article", "td"]):
+        text = clean_text(tag.get_text(" ", strip=True))
+        if not text or len(text) < 30 or len(text) > 1800:
             continue
+        if not (parse_release_date(text) or parse_spanish_date(text)):
+            continue
+        if not tag.find("img"):
+            continue
+        # Debe parecer una ficha de película y no una publicidad.
+        norm = normalize(text)
+        if any(x in norm for x in ("personal pay", "suscribite", "trabaja con nosotros")) and "genero" not in norm:
+            continue
+        candidates.append(tag)
 
-        release_date = parse_release_date(context) or parse_spanish_date(context)
-        key = href.lower()
-        if key in seen:
+    # Preferimos los candidatos mínimos: si un bloque contiene otro bloque
+    # candidato, usamos el hijo para no duplicar toda la sección.
+    minimal = []
+    for tag in candidates:
+        if not any(other is not tag and other in tag.parents for other in candidates):
+            minimal.append(tag)
+
+    for card in minimal:
+        item = _extract_upcoming_card(card)
+        if not item:
+            continue
+        key = normalize(item["title"])
+        if not key or key in seen:
             continue
         seen.add(key)
-        items.append({
-            "id": slugify(title) or key.rsplit("/", 1)[-1],
-            "title": title,
-            "release_date": release_date,
-            "source_url": href,
-            "source": "Cinemacenter",
-        })
+        items.append(item)
+
+    # Fallback conservador: si el HTML cambia y las tarjetas no se detectan,
+    # usamos enlaces /ficha/ y recuperamos al menos título + fecha como antes.
+    if not items:
+        for a in soup.find_all("a", href=True):
+            href = urljoin(BASE_URL, a.get("href", ""))
+            if "/ficha/" not in href.lower():
+                continue
+            title = clean_text(a.get_text(" ", strip=True)).lstrip("*-")
+            if not title or normalize(title) in {"mas info", "ver ficha", "info"}:
+                continue
+            node = a
+            context = ""
+            for _ in range(8):
+                node = node.parent
+                if not node:
+                    break
+                txt = clean_text(node.get_text(" ", strip=True))
+                if txt and len(txt) <= 1500:
+                    context = txt
+                    if "estreno" in normalize(txt):
+                        break
+            release_date = parse_release_date(context) or parse_spanish_date(context)
+            if not release_date:
+                continue
+            key = normalize(title)
+            if key in seen:
+                continue
+            seen.add(key)
+            items.append({
+                "id": slugify(title),
+                "title": title,
+                "release_date": release_date,
+                "source_url": href,
+                "source": "Cinemacenter",
+            })
 
     items.sort(key=lambda x: (x.get("release_date") or "9999-99-99", normalize(x.get("title"))))
+    with_metadata = sum(1 for x in items if x.get("metadata"))
     print(f"  Próximos estrenos detectados: {len(items)}")
-    if not items:
-        print("  ADVERTENCIA: Cinemacenter no expuso fichas reconocibles en /estrenos")
+    print(f"  Próximos estrenos con metadata: {with_metadata}")
+    for item in items:
+        print(f"    - {item['title']} | {item.get('release_date')} | poster={'OK' if item.get('poster') else 'NO'}")
     return items
-
-
-def metadata_aliases(title: str, metadata: dict | None = None) -> list[str]:
-    values = [title]
-    if metadata:
-        values.extend([metadata.get("title"), metadata.get("original_title")])
-    result = []
-    for value in values:
-        value = clean_text(value)
-        if value and value not in result:
-            result.append(value)
-    return result
-
-
-def enrich_upcoming_metadata(session: requests.Session, upcoming: list[dict]) -> list[dict]:
-    """Obtiene metadata de cada próximo estreno desde su ficha oficial."""
-    enriched = []
-    for item in upcoming:
-        title = clean_text(item.get("title"))
-        href = clean_text(item.get("source_url"))
-        if not title or not href:
-            enriched.append(item)
-            continue
-
-        movie_id_match = re.search(r"/ficha/(\d+)", href, re.I)
-        if not movie_id_match:
-            print(f"  Metadata estreno sin movieId: {title}")
-            enriched.append(item)
-            continue
-
-        movie_id = int(movie_id_match.group(1))
-        movie = {"title": title}
-        link = {
-            "movie_id": movie_id,
-            "ficha_url": href,
-            "city_id": CITY_ID,
-            "cinema_id": 0,
-            "source": "estrenos_direct_ficha",
-        }
-        try:
-            print(f"  Metadata estreno: {title} -> movieId={movie_id}")
-            metadata = fetch_metadata_for_movie(session, movie, link)
-            # La fecha del listado /estrenos es la autoridad para próximos estrenos.
-            if item.get("release_date"):
-                metadata["release_date"] = item["release_date"]
-                metadata["year"] = int(item["release_date"][:4])
-                metadata["release_date_source"] = "Cinemacenter estrenos"
-            metadata["match"] = metadata_aliases(title, metadata)
-            item = {**item, "metadata": metadata}
-        except Exception as exc:
-            print(f"    ADVERTENCIA metadata estreno: {title}: {exc}")
-        enriched.append(item)
-        time.sleep(0.2)
-    return enriched
 
 
 def make_metadata_file(movies: list[dict], upcoming: list[dict] | None = None) -> dict:
     upcoming = upcoming or []
-    entries = [m["metadata"] for m in movies if m.get("metadata")]
-    entries.extend(u["metadata"] for u in upcoming if u.get("metadata"))
+    all_metadata = [m["metadata"] for m in movies if m.get("metadata")] + [u["metadata"] for u in upcoming if u.get("metadata")]
     return {
         "schema_version": "3.0",
         "generated_at": datetime.now().astimezone().isoformat(),
         "source_policy": "Cinemacenter-only",
-        "movies": entries,
+        "movies": all_metadata,
         "summary": {
-            "total": len(entries),
-            "cartelera": len([m for m in movies if m.get("metadata")]),
-            "proximos_estrenos": len([u for u in upcoming if u.get("metadata")]),
-            "complete_source": sum(1 for m in entries if m.get("metadata_status") == "complete_source"),
-            "partial_source": sum(1 for m in entries if m.get("metadata_status") == "partial_source"),
-            "without_metadata": len(movies) + len(upcoming) - len(entries),
+            "total": len(all_metadata),
+            "complete_source": sum(1 for m in all_metadata if m.get("metadata_status") == "complete_source"),
+            "partial_source": sum(1 for m in all_metadata if m.get("metadata_status") == "partial_source"),
+            "without_metadata": len(movies) + len(upcoming) - len(all_metadata),
+            "upcoming_with_metadata": sum(1 for u in upcoming if u.get("metadata")),
         },
     }
 
@@ -943,7 +1016,6 @@ def main() -> int:
             raise RuntimeError("No se detectaron películas en el PDF oficial")
 
         upcoming = extract_upcoming_releases(session)
-        upcoming = enrich_upcoming_metadata(session, upcoming)
         html = select_tucuman_and_get_cartelera(session)
         movie_links = extract_movie_links(html)
         print(f"  IDs internos encontrados en Cinemacenter: {len(movie_links)}")
