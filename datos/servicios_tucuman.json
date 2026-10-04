@@ -1,12 +1,90 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T21:29:55.871733+00:00",
+  "generated_at": "2026-10-04T22:29:44.844795+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
-  "processed_this_run": 5,
-  "count": 13,
+  "processed_this_run": 4,
+  "count": 16,
   "events": [
+    {
+      "id": "24-al-28-de-agosto-la-salud-en-tu-barrio-en-banda-del-rio-sali",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/24-al-28-de-agosto-la-salud-en-tu-barrio-en-banda-del-rio-sali/",
+      "title": "24 al 28 de agosto: «La salud en tu barrio» en Banda del Rio Salí",
+      "published": "2026-08-25",
+      "modified": "2026-08-25T12:22:23",
+      "description": "El municipio continúa acercando servicios esenciales a cada barrio de nuestra ciudad. Plaza de los Cañones Américo Vespucio y L. Quinteros hasta el viernes 28 de agosto, de 8:30 a 12. Programa Hospital Móvil: en qué localidades se ubicará esta semana",
+      "content": "El municipio continúa acercando servicios esenciales a cada barrio de nuestra ciudad. Plaza de los Cañones Américo Vespucio y L. Quinteros hasta el viernes 28 de agosto , de 8:30 a 12. Programa Hospital Móvil: en qué localidades se ubicará esta semana",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/06/salud.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "banda del rio sali",
+        "salud",
+        "servicios"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-7/"
+      ],
+      "date_start": "2026-08-25",
+      "date_end": "2026-08-25",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-25T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-7/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "26-y-27-de-agosto-operativo-integral-municipal",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/26-y-27-de-agosto-operativo-integral-municipal/",
+      "title": "26 y 27 de agosto: Operativo Integral Municipal",
+      "published": "2026-08-25",
+      "modified": "2026-08-25T11:18:47",
+      "description": "La Municipalidad de San Miguel de Tucumán continúa los operativos destinados a acercar trámites, servicios y prestaciones a los vecinos de distintos sectores de la capital, con el objetivo de descentralizar la atención municipal. En esta oportunidad, el Operativo Integral Municipal se instalará en calle Libertad 1900, en el barrio Terán. 28 de agosto |…",
+      "content": "La Municipalidad de San Miguel de Tucumán continúa los operativos destinados a acercar trámites, servicios y prestaciones a los vecinos de distintos sectores de la capital, con el objetivo de descentralizar la atención municipal. En esta oportunidad, el Operativo Integral Municipal se instalará en calle Libertad 1900, en el barrio Terán. 28 de agosto | A.N.I.M.A.L. Las actividades se desarrollarán este miércoles 26 y el jueves 27 de agosto , con distintas propuestas en cada jornada.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/06/dni-tucuman.jpeg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/eventos/28-de-agosto-a-n-i-m-a-l/"
+      ],
+      "date_start": "2026-08-25",
+      "date_end": "2026-08-25",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-25T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/eventos/28-de-agosto-a-n-i-m-a-l/"
+      ],
+      "occurrences": []
+    },
     {
       "id": "banda-del-rio-sali-cronograma-del-programa-garrafa-social-2",
       "source": "Agenda Tucumán - Servicios",
@@ -40,6 +118,43 @@
       "map_search_url": "",
       "registration_urls": [],
       "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "se-realizara-una-nueva-entrega-del-boleto-gratuito-para-jubilados-cronograma",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/se-realizara-una-nueva-entrega-del-boleto-gratuito-para-jubilados-cronograma/",
+      "title": "Se realizará una nueva entrega del boleto gratuito para jubilados: cronograma",
+      "published": "2026-08-25",
+      "modified": "2026-08-31T10:51:30",
+      "description": "El Gobierno de Tucumán, a través de la Secretaría de Transporte, anunció una nueva entrega del boleto gratuito para jubilados correspondientes a los meses de septiembre, octubre y noviembre. El operativo se realizará desde el lunes 31 de agosto hasta el viernes 4 de septiembre, en el Complejo Belgrano para los jubilados registrados en San Miguel…",
+      "content": "El Gobierno de Tucumán, a través de la Secretaría de Transporte, anunció una nueva entrega del boleto gratuito para jubilados correspondientes a los meses de septiembre, octubre y noviembre. El operativo se realizará desde el lunes 31 de agosto hasta el viernes 4 de septiembre , en el Complejo Belgrano para los jubilados registrados en San Miguel de Tucumán, mientras que en el interior la distribución estará a cargo de municipios y comunas. 26 y 27 de agosto: Operativo Integral Municipal",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/12/colectivos.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/26-y-27-de-agosto-operativo-integral-municipal/"
+      ],
+      "date_start": "2026-08-25",
+      "date_end": "2026-08-25",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-25T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/26-y-27-de-agosto-operativo-integral-municipal/"
+      ],
       "occurrences": []
     },
     {
