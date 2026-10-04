@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-03T21:31:42.666894-03:00",
-  "reference_date": "2026-10-03",
+  "generated_at": "2026-10-04T00:54:38.739493-03:00",
+  "reference_date": "2026-10-04",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "bddd660383c92a97227c93a8a0409600f08f73f9fa61416be889d292677378e9"
+    "pdf_sha256": "3e139cda89d5cc1c9c89561fe4d741b9c00566b617a954afc4af5465a1a4e963"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -112,7 +112,6 @@
           "jueves": [],
           "viernes": [],
           "sábado": [
-            "18:00",
             "21:40"
           ],
           "domingo": [
@@ -135,12 +134,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "18:00",
-            "datetime": "2026-10-03T18:00:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-03",
             "time": "21:40",
@@ -268,7 +261,6 @@
           "jueves": [],
           "viernes": [],
           "sábado": [
-            "20:30",
             "22:40"
           ],
           "domingo": [
@@ -289,12 +281,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "20:30",
-            "datetime": "2026-10-03T20:30:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-03",
             "time": "22:40",
@@ -608,9 +594,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:40"
-          ],
+          "sábado": [],
           "domingo": [
             "17:40"
           ],
@@ -625,12 +609,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "17:40",
-            "datetime": "2026-10-03T17:40:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-04",
             "time": "17:40",
@@ -661,7 +639,7 @@
           "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-03",
+          "release_date": "2026-10-04",
           "duration_minutes": 120,
           "genres": [
             "Animé"
@@ -716,7 +694,6 @@
           "jueves": [],
           "viernes": [],
           "sábado": [
-            "19:50",
             "22:10"
           ],
           "domingo": [
@@ -737,12 +714,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "19:50",
-            "datetime": "2026-10-03T19:50:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-03",
             "time": "22:10",
@@ -861,7 +832,6 @@
           "jueves": [],
           "viernes": [],
           "sábado": [
-            "19:40",
             "22:30"
           ],
           "domingo": [
@@ -881,12 +851,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "19:40",
-            "datetime": "2026-10-03T19:40:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-03",
             "time": "22:30",
@@ -1068,9 +1032,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "20:10"
-          ],
+          "sábado": [],
           "domingo": [],
           "lunes": [
             "20:10"
@@ -1083,12 +1045,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "20:10",
-            "datetime": "2026-10-03T20:10:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-05",
             "time": "20:10",
@@ -1113,7 +1069,7 @@
           "title": "VERTIGO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-03",
+          "release_date": "2026-10-05",
           "duration_minutes": 100,
           "genres": [
             "Thriller"
@@ -1169,9 +1125,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:50"
-          ],
+          "sábado": [],
           "domingo": [
             "17:50"
           ],
@@ -1186,12 +1140,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-03",
-            "time": "17:50",
-            "datetime": "2026-10-03T17:50:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-10-04",
             "time": "17:50",
@@ -1222,7 +1170,7 @@
           "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-03",
+          "release_date": "2026-10-04",
           "duration_minutes": 99,
           "genres": [
             "Comedia"

@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-03T21:31:42.666713-03:00",
+  "generated_at": "2026-10-04T00:54:38.739321-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -211,7 +211,7 @@
       "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-03",
+      "release_date": "2026-10-04",
       "duration_minutes": 120,
       "genres": [
         "Animé"
@@ -380,7 +380,7 @@
       "title": "VERTIGO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-03",
+      "release_date": "2026-10-05",
       "duration_minutes": 100,
       "genres": [
         "Thriller"
@@ -424,7 +424,7 @@
       "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-03",
+      "release_date": "2026-10-04",
       "duration_minutes": 99,
       "genres": [
         "Comedia"
@@ -576,10 +576,11 @@
     }
   ],
   "summary": {
-    "total": 14,
+    "total": 13,
     "complete_source": 11,
-    "partial_source": 3,
+    "partial_source": 2,
     "without_metadata": 0,
-    "upcoming_with_metadata": 1
+    "upcoming_with_metadata": 0,
+    "proximos_estrenos_conservados": 1
   }
 }
