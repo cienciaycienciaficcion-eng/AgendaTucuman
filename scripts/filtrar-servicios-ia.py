@@ -28,6 +28,7 @@ MAX_GEMINI_CALLS_PER_RUN = 5
 MAX_GEMINI_CALLS_PER_DAY = 20
 MAX_GROQ_CALLS_PER_RUN = 5
 MAX_GROQ_CALLS_PER_DAY = 30
+SERVICES_LOOKBACK_DAYS = 15
 
 # Fallback automático: si Gemini falla, se intenta Groq.
 GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
@@ -135,33 +136,24 @@ def register_groq_call(state):
     )
 
 
-def deterministic_candidates(articles):
-    """Reduce candidatos sin usar IA."""
+def service_is_recent(article):
+    """Solo acepta publicaciones de Servicios de los últimos 15 días."""
+    published = str(article.get("published", ""))[:10]
+    if not published:
+        return False
+    try:
+        date = datetime.fromisoformat(published).date()
+    except ValueError:
+        return False
     today = datetime.now().date()
-    cutoff = today - timedelta(days=90)
-    result = []
-    for a in articles:
-        published = str(a.get("published", ""))[:10]
-        recent = False
-        try:
-            recent = datetime.fromisoformat(published).date() >= cutoff
-        except Exception:
-            pass
-        text = (
-            f"{a.get('title','')} {a.get('description','')} "
-            f"{a.get('content','')[:700]}"
-        ).lower()
-        temporal = bool(re.search(
-            r"\b(?:hoy|mañana|esta semana|este lunes|este martes|"
-            r"este miércoles|este jueves|este viernes|este sábado|"
-            r"este domingo|septiembre|octubre|noviembre|diciembre|"
-            r"enero|febrero|marzo|abril|mayo|junio|julio|agosto)\b",
-            text,
-        ))
-        if recent or temporal:
-            result.append(a)
-    return result or articles
+    cutoff = today - timedelta(days=SERVICES_LOOKBACK_DAYS)
+    return cutoff <= date <= today
 
+
+def deterministic_candidates(articles):
+    """Reduce candidatos a publicaciones recientes sin usar IA."""
+    # IMPORTANTE: no hay fallback a artículos antiguos.
+    return [a for a in articles if service_is_recent(a)]
 
 
 def ask_groq(article, state):
@@ -409,7 +401,8 @@ def write_output(articles, selected_ids, candidates_count, processed_this_run):
     valid_selected = []
     for sid in selected_ids:
         article = by_id.get(str(sid))
-        if article:
+        # Nunca publicar un seleccionado que ya quedó fuera de la ventana temporal.
+        if article and service_is_recent(article):
             events.append(make_event(article))
             valid_selected.append(str(sid))
 
@@ -451,7 +444,9 @@ def main():
         str(k): v for k, v in state.get("processed", {}).items() if str(k) in by_id
     }
     state["selected_ids"] = [
-        str(x) for x in state.get("selected_ids", []) if str(x) in by_id
+        str(x)
+        for x in state.get("selected_ids", [])
+        if str(x) in by_id and service_is_recent(by_id[str(x)])
     ]
 
     candidates = deterministic_candidates(articles)
