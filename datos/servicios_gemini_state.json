@@ -124,6 +124,31 @@
       "selected": false,
       "processed_at": "2026-10-04T22:29:44.844283+00:00",
       "reason": "Servicio público de salud móvil que brinda atención y castración gratuita de mascotas"
+    },
+    "donde-castrar-gratis-a-tu-mascota-del-24-al-28-de-agosto": {
+      "selected": true,
+      "processed_at": "2026-10-05T00:38:56.484343+00:00",
+      "reason": "Ofrece información sobre el servicio gratuito de castración de mascotas de la Municipalidad de San Miguel de Tucumán, detallando fechas, ubicaciones y requisitos."
+    },
+    "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-para-esta-semana": {
+      "selected": true,
+      "processed_at": "2026-10-05T00:39:20.888835+00:00",
+      "reason": "Informa sobre los horarios, promociones y ofertas del Mercado Municipal Dorrego, lo cual es de utilidad pública para los ciudadanos."
+    },
+    "donde-habra-jornadas-de-eco-canje-esta-semana-6": {
+      "selected": true,
+      "processed_at": "2026-10-05T00:39:46.024581+00:00",
+      "reason": "Informa sobre el cronograma y ubicaciones de las jornadas de Eco Canje organizadas por la Municipalidad de San Miguel de Tucumán, lo cual constituye un servicio y campaña de utilidad pública."
+    },
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6": {
+      "selected": true,
+      "processed_at": "2026-10-05T00:40:11.152349+00:00",
+      "reason": "Informa sobre las ofertas y productos del programa municipal 'Mercado en tu Barrio' en San Miguel de Tucumán, lo cual constituye un servicio de utilidad pública para los ciudadanos."
+    },
+    "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2": {
+      "selected": true,
+      "processed_at": "2026-10-05T00:40:37.906652+00:00",
+      "reason": "Informa sobre la ubicación y cronograma del programa municipal 'Mercado en tu Barrio', el cual es un servicio de mercado y operativo municipal de utilidad pública."
     }
   },
   "selected_ids": [
@@ -142,12 +167,17 @@
     "banda-del-rio-sali-cronograma-del-programa-garrafa-social-2",
     "24-al-28-de-agosto-la-salud-en-tu-barrio-en-banda-del-rio-sali",
     "se-realizara-una-nueva-entrega-del-boleto-gratuito-para-jubilados-cronograma",
-    "26-y-27-de-agosto-operativo-integral-municipal"
+    "26-y-27-de-agosto-operativo-integral-municipal",
+    "donde-castrar-gratis-a-tu-mascota-del-24-al-28-de-agosto",
+    "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-para-esta-semana",
+    "donde-habra-jornadas-de-eco-canje-esta-semana-6",
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6",
+    "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2"
   ],
-  "updated_at": "2026-10-04T22:29:44.845507+00:00",
+  "updated_at": "2026-10-05T00:40:37.907794+00:00",
   "gemini_usage": {
-    "date": "2026-10-04",
-    "calls": 20
+    "date": "2026-10-05",
+    "calls": 5
   },
   "groq_usage": {
     "date": "2026-10-04",

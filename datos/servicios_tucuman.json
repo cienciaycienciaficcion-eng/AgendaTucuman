@@ -1,12 +1,211 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T22:29:44.844795+00:00",
+  "generated_at": "2026-10-05T00:40:37.907040+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
-  "processed_this_run": 4,
-  "count": 16,
+  "processed_this_run": 5,
+  "count": 21,
   "events": [
+    {
+      "id": "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2/",
+      "title": "Aquí se instalará el Mercado en tu Barrio esta semana",
+      "published": "2026-08-11",
+      "modified": "2026-08-11T13:28:14",
+      "description": "El programa municipalMercado en tu Barrio, volverá esta semana a instalarse en diferentes espacios públicos de la ciudad para acercar opciones a precios convenientes. Las ofertas estarán disponibles hasta hoy viernes 14 de agosto.",
+      "content": "El programa municipalMercado en tu Barrio, volverá esta semana a instalarse en diferentes espacios públicos de la ciudad para acercar opciones a precios convenientes. Las ofertas estarán disponibles hasta hoy viernes 14 de agosto.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/05/mercado-en-tu-barrio-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "el mercado en tu barrio",
+        "mercado",
+        "ofertas"
+      ],
+      "links": [],
+      "date_start": "2026-08-11",
+      "date_end": "2026-08-11",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-11T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "donde-castrar-gratis-a-tu-mascota-del-24-al-28-de-agosto",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/donde-castrar-gratis-a-tu-mascota-del-24-al-28-de-agosto/",
+      "title": "Dónde castrar gratis a tu mascota del 24 al 28 de agosto",
+      "published": "2026-08-24",
+      "modified": "2026-08-24T11:06:06",
+      "description": "Los quirófanos itinerantes de esterilización de la Dirección de Población Animal de la Municipalidad de San Miguel de Tucumán ofrecerán el servicio gratuito de castración de animales de compañía en dos puntos de la ciudad la próxima semana, desde el lunes 24 al viernes 28 de agosto, a partir de las 8 h. Un móvil…",
+      "content": "Los quirófanos itinerantes de esterilización de la Dirección de Población Animal de la Municipalidad de San Miguel de Tucumán ofrecerán el servicio gratuito de castración de animales de compañía en dos puntos de la ciudad la próxima semana, desde el lunes 24 al viernes 28 de agosto, a partir de las 8 h. Un móvil se ubicará en la Dirección de Adulto Mayor, en Av. Adolfo de la Vega 505. El otro tráiler veterinario se instalará en Plaza Sorteix – Bº Terán, en calle Libertad 1950. En ambos casos los turnos se otorgarán de forma presencial en las direcciones mencionadas el lunes 24 de agosto, de 8 a 13 h, por orden de llegada. Los operativos se suspenden en caso de lluvia. Requisitos para el día de la esterilización Los animales deben tener un ayuno (sin alimentos sólidos ni líquidos) de al menos 12 horas antes de la cirugía. Llevar una manta para abrigar a la mascota luego de la cirugía. Aquí se instalará el Mercado en tu Barrio esta semana La castración está destinada a perros y gatos hembras a partir de los seis meses de edad y a machos mayores de ocho meses. No se realizarán cirugías a hembras que estén en celo o en estado de preñez. Utilizar correa y collar en el caso de los perros, y para trasladar gatos utilizar jaula transportadora, caja con respiradero, bolso con cierre o canasto cerrado, para prevenir que se estresen o se asusten y escapen.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2023/03/mascotas-1.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2/"
+      ],
+      "date_start": "2026-08-24",
+      "date_end": "2026-08-24",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-24T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "donde-habra-jornadas-de-eco-canje-esta-semana-6",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-6/",
+      "title": "Dónde habrá jornadas de Eco Canje esta semana",
+      "published": "2026-08-24",
+      "modified": "2026-08-24T10:53:48",
+      "description": "Esta semana, la Municipalidad de San Miguel de Tucumán llevará a cabo nuevas jornadas de Eco Canje en distintos puntos de la ciudad. En el puesto de la Dirección de Ambiente, los vecinos pueden entregar un mínimo de 10 unidades de residuos reciclables (papel, cartón, plástico, metal o vidrio, limpios y secos) para recibir a…",
+      "content": "Esta semana, la Municipalidad de San Miguel de Tucumán llevará a cabo nuevas jornadas de Eco Canje en distintos puntos de la ciudad. En el puesto de la Dirección de Ambiente, los vecinos pueden entregar un mínimo de 10 unidades de residuos reciclables (papel, cartón, plástico, metal o vidrio, limpios y secos) para recibir a cambio un presente, o 20 unidades para acceder a plantines. Entre las opciones, también podrán recibir un frasco de mermelada artesanal de naranja agria “La Migue”, elaborada en los Centros Integradores Comunitarios (CIC) del Municipio, y tierra abonada, entre otros. La programación es la siguiente: Lunes 24 9 a 12 h – Plaza Yrigoyen, Pje. Vélez Sarsfield y 9 de Julio. 17.30 a 19 h – Plaza Sutiaga, Bº Sutiaga. Martes 25 9 a 12 h – Plaza San Martín, Lavalle y Chacabuco. 10 a 12 h – CIC Chañaritos, Bº Chañaritos. 10 a 12 h – Parque Centenario, Av. C. Suárez y C. Gardel. 17.30 a 19 h – Plaza Echeverría, Manuel Estrada 2601. Estas son las principales ofertas del Mercado en tu Barrio para esta semana Miércoles 26 10 a 12 h – Palacio Municipal, 9 de Julio y Lavalle. 10 a 12 h – Barrio San Cayetano, Flemin y Anselmo Rojo. 17.30 a 19 h – Barrio Centenario, Juramento 1100. Jueves 27 9 a 12 h – Plaza Evita, Juan B. Justo y España. 17.30 a 19 h – Villa 9 de Julio, Muñecas y Delfín Gallo. Viernes 28 10 a 12 h – Plaza Urquiza, Sarmiento y 25 de Mayo. 10 a 12 h – CIC Creadores de Esperanza, Perú 1800. Las actividades al aire libre se suspenden en caso de lluvia.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/08/eco-canje-tucuman-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "ecocanje",
+        "ecología",
+        "reciclaje",
+        "reciclar"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6/"
+      ],
+      "date_start": "2026-08-24",
+      "date_end": "2026-08-24",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-24T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-para-esta-semana",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-para-esta-semana/",
+      "title": "Estas son las principales ofertas del Mercado Municipal Dorrego para esta semana",
+      "published": "2026-08-24",
+      "modified": "2026-08-24T10:58:51",
+      "description": "El Mercado Municipal Dorrego abre sus puertas de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h. Cabe destacar que este domingo 23 de agosto el paseo de compras permanecerá cerrado por tareas de fumigación. Entre las promociones disponibles esta semana, desde el lunes 24 hasta el sábado 29 de…",
+      "content": "El Mercado Municipal Dorrego abre sus puertas de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h. Cabe destacar que este domingo 23 de agosto el paseo de compras permanecerá cerrado por tareas de fumigación. Entre las promociones disponibles esta semana, desde el lunes 24 hasta el sábado 29 de agosto, se destacan las siguientes: Carnicería En los puestos de carnicería se podrán conseguir promociones como el combo de un kilo de vacío más un kilo de paleta chata por $27.000; un kilo de blando más un kilo de duro por $30.000; un kilo de milanesa de carne vacuna más un kilo de kipe por $25.000; dos kilos de pierna de cerdo por $15.000; dos kilos de costeletas de cerdo por $20.000; un kilo de hígado por $6.000 y un kilo de bondiola por $11.000. Panadería Esta semana se podrán conseguir promociones de un kilo de pan por $2.200; ocho tortillas por $2.000 y cinco facturas por $2.000. Pollería En el sector de pollería se ofrecen tres kilos de pata muslo por $12.900, un kilo de supremas por $9.500 o 2 kg por $18.000; un kilo de filet de pollo por $12.000; un kilo de hamburguesas de pollo por $5.500 y un kilo de menudos de pollo por $2.500. Dónde habrá jornadas de Eco Canje esta semana Fiambrería, almacén y regionales Entre las ofertas disponibles se podrá conseguir queso criollo más masa lamino por $ 8.500; tamales o humitas por $2.500 la unidad; yogurt por $600 la unidad. En otros puestos se ofrecen dos kilos de dulce de leche repostero por $7.000, seis huevos por $1.300, un kilo de nueces por $20.000; medio kilo de miel por $7.000 y un paquete de alfeñiques más tabletas por $3.500. Comidas El patio de comidas y locales con preparaciones listas contará con numerosas promociones. Se podrán conseguir ñoquis por $5.000 la porción; tortillas fritas por $8.000; bombitas de queso y carne por $2.500 la unidad; pollo al horno con guarnición por $8.500 y milanesa a la napolitana con guarnición por $12.000. También habrá promociones de seis empanadas más dos bombas o kipes por $ 9.500; pizza común más seis empanadas por $ 15.000; pizza común más seis empanadas y gaseosa por $18.000; y dos pata muslo con guarnición más gaseosa por $ 19.000. Otras opciones incluyen hamburguesa común por $6.500; hamburguesa especial por $7.500; una docena de empanadas por $13.500; tarta más gaseosa por $7.500; una docena de empanadas más gaseosa por $16.000; y calzón más gaseosa por $8.000. Además, se ofrecen napolitana con guarnición por $12.000; lampreado con guarnición por $10.000; tartas por $6.000; tortilla de papa por $6.500; kipe con guarnición por $7.500; pizza común por $9500 y pizza napolitana especial por $12.000.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/03/Mercado-Dorrego-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "mercado",
+        "Mercado Dorrego",
+        "ofertas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-6/"
+      ],
+      "date_start": "2026-08-24",
+      "date_end": "2026-08-24",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-24T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-6/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6/",
+      "title": "Estas son las principales ofertas del Mercado en tu Barrio para esta semana",
+      "published": "2026-08-24",
+      "modified": "2026-08-24T10:50:39",
+      "description": "Los puestos del programa Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, siguen recorriendo distintos puntos de la capital para ofrecer a los vecinos alimentos y productos para el hogar a precios accesibles. Algunas de las ofertas que están disponibles esta semana son las…",
+      "content": "Los puestos del programa Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, siguen recorriendo distintos puntos de la capital para ofrecer a los vecinos alimentos y productos para el hogar a precios accesibles. Algunas de las ofertas que están disponibles esta semana son las siguientes: Panadería El puesto de panadería mantiene los precios de las últimas semanas y vende el kilo de pan a $ 1.800, seis tortillas por $ 1.000, facturas a $ 400 la unidad, budines a $ 2.000, galletas pepitos a $ 1.200 los 100 gramos, dos alfajores de maicena $ 1.000, prepizzas a $ 2.000, pan de Viena o de hamburguesas a $ 900, tres mantecados por $ 1.000, galletas con chips a $ 1.200 por 100 gramos, la porción de pastafrola a $ 1.000, 100 gramos de galletas de avena a $ 1.200, alfajor de chocolate a $ 1000 y milhojas a $ 1500. Verdulería En el puesto se consiguen tres kilos de papa por $ 5.000, tres kilos cebolla por $ 5.000, un kilo y medio de zanahoria por $ 2.000; un kilo y medio de tomate a $ 2.000, un kilo de batata a $ 2.000, el kilo de zapallo brasilero a $ 1.500, el kilo de coreano a $ 2.500, dos kilos de zapallito verde a $ 5.000, dos atados de espinaca a $ 4.000, el kilo de pimiento verde a $ 4.000, dos unidades de brócoli por $ 4.000, y dos atados de acelga por $ 4.000. En frutas, están en promoción los dos kilos de manzana a $ 5.000, dos kilos de pera a $ 5.000, dos kilos de banana por $ 5.000, kiwi el kilo a $ 7.000, 20 naranjas por $ 2.000, 12 mandarinas criollas por $ 3.000, cuatro pomelos por $ 1.000 y 12 limones por $ 1.000. Productos de limpieza Este puesto ofrece dos litros de jabón líquido Ariel a $ 3.000, dos litros de suavizante por $ 3.000, dos litros de lavandina a $ 1.900, lavavajillas concentrado a $ 4.500 el litro, desengrasante a $ 3.000, quitamanchas líquido por dos litros a $ 2.500, limpiavidrios por medio litro a $ 2.000, y dos litros de desodorante para pisos a $ 2.300. Además, vende fragancias textiles Saphirus a $ 4.500, aerosoles a $ 6.700 y difusores a $ 6.700. También hay una oferta especial de un textil, un aerosol y un difusor, con fragancias a elección, por $ 17.000. Cítricos El emprendimiento tiene en promoción 20 mandarinas murcott 20 por $ 2.000 y 20 naranjas tangerinas por $ 2.000. Además, se puede consultar por ofertas en naranjas criollas, sanguíneas y limones y jugos en presentaciones de un litro y también bidones de cinco litros. Nutrición y neurociencia: 5 frutas avaladas por la ciencia que potencian la salud cerebral Huevos Uno de los puestos vende la bandeja de 30 huevos a partir de los $ 4.500, dos bandejas por $ 9.500 y tres por $ 14.000. En tanto, Mr. Huevo ofrece bandejas de 30 unidades desde los $ 5.000 y 15 huevos por $ 3.000. Alimentos saludables sin TACC El puesto ofrece una cajita saludable sin TACC a $ 11.000 que contiene dos hamburguesas de quinoa, dos milanesas de garbanzos rellenas, dos hamburguesas rellenas y una tarta vegetariana. También ofrece tamales veganos libres de gluten, de lentejas o de quinoa a $ 3.500 cada uno y tres por $ 9.000; y hamburguesas de legumbres y verduras, gluten free, dos por $ 2.000 y seis por $ 5.500. Librería El stand tiene en promoción el cuaderno tapa dura de 100 hojas anillado a $ 4.700; el block de 480 hojas Laprida rayadas o cuadriculadas a $ 19.500, y por 96 hojas a $ 4.500; cuaderno tapa blanda a $ 3.100, y a $ 3.000 cada uno llevando dos o más unidades; cartuchera de personajes infantiles a $ 4.300; y el set de arte por $ 18.000. Miel El puesto vende el bidón de tres kilos de miel a $ 32.000. Vivero El gacebo vende plantas aromáticas a $ 3.000 cada una, ají en maceta a $ 4.000, dimorfoteca a $ 4.000 la unidad, malvón a $ 4.000 cada uno, matrimonial a $ 5.000, clavel a $ 5.000 cada uno, singonio a $ 5.000, lazo de amor a $ 5.000, kalanchoe M12 a $ 4.000, kalanchoe M15 a $ 8.000 cada uno, malvón alemán a $ 10.000, peperonias a $ 12.000, helechos a $ 12.000 y palo de agua por $ 17.000. Productos regionales El tráiler tiene en promoción combos de un aceite de oliva más aceituna verde a $ 15.000, un vino patero más un vino mistela a $ 14.000, un salamín más un queso criollo a $ 18.000, un salamín grande y un queso por $ 27.000, y un dulce de cayote más dos quesillos a $ 17.000. Dónde estará el Mercado en tu Barrio esta semana Esta semana, de 9 a 14 h, los puestos estarán en los siguientes lugares: Lunes 24 de agosto: Plaza Urquiza. Martes 25 de agosto: Plaza Belgrano. Miércoles 26 de agosto: Plaza San Martín. Jueves 27 de agosto: Plaza del barrio Terán, en calle Libertad al 1900. Viernes 28 de agosto: 24 de Septiembre al 300. Las actividades se suspenden por lluvia.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/05/mercado-en-tu-barrio-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "el mercado en tu barrio",
+        "mercado",
+        "ofertas",
+        "SMT"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/nutricion-y-neurociencia-5-frutas-avaladas-por-la-ciencia-que-potencian-la-salud-cerebral/"
+      ],
+      "date_start": "2026-08-24",
+      "date_end": "2026-08-24",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-24T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/nutricion-y-neurociencia-5-frutas-avaladas-por-la-ciencia-que-potencian-la-salud-cerebral/"
+      ],
+      "occurrences": []
+    },
     {
       "id": "24-al-28-de-agosto-la-salud-en-tu-barrio-en-banda-del-rio-sali",
       "source": "Agenda Tucumán - Servicios",
