@@ -66,14 +66,87 @@ jobs:
 
           test -s .tmp/agenda/agenda_eventos.json
 
+      - name: Filtrar ventana de Agenda y excluir Servicios
+        id: filter_agenda
+        if: steps.agenda.outcome == 'success'
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime, timedelta
+          from zoneinfo import ZoneInfo
+
+          path = Path(".tmp/agenda/agenda_eventos.json")
+          data = json.loads(path.read_text(encoding="utf-8"))
+
+          if not isinstance(data, list):
+              raise SystemExit("ERROR: agenda_eventos.json no contiene una lista")
+
+          today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date()
+          cutoff = today - timedelta(days=15)
+
+          kept = []
+          removed_old = 0
+          removed_services = 0
+          removed_invalid = 0
+
+          for event in data:
+              if not isinstance(event, dict):
+                  removed_invalid += 1
+                  continue
+
+              categories = event.get("categories") or []
+              categories_text = " ".join(
+                  str(c).strip().lower() for c in categories
+              )
+              source = str(event.get("source") or "").strip().lower()
+
+              if "servicios" in categories_text or "servicios" in source:
+                  removed_services += 1
+                  continue
+
+              start_raw = str(event.get("date_start") or "").strip()[:10]
+              if not start_raw:
+                  removed_invalid += 1
+                  continue
+
+              try:
+                  start_date = datetime.fromisoformat(start_raw).date()
+              except ValueError:
+                  removed_invalid += 1
+                  continue
+
+              if start_date < cutoff:
+                  removed_old += 1
+                  continue
+
+              kept.append(event)
+
+          path.write_text(
+              json.dumps(kept, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+
+          print(f"Fecha Tucumán: {today.isoformat()}")
+          print(f"Ventana mínima: {cutoff.isoformat()}")
+          print(f"Eventos originales: {len(data)}")
+          print(f"Eventos publicados: {len(kept)}")
+          print(f"Eliminados por fecha: {removed_old}")
+          print(f"Eliminados por Servicios: {removed_services}")
+          print(f"Eliminados por fecha inválida/sin fecha: {removed_invalid}")
+
+          if not kept:
+              raise SystemExit("ERROR: el filtro dejó la Agenda sin eventos")
+          PY
+
       - name: Validar agenda
         id: validate_agenda
-        if: steps.agenda.outcome == 'success'
+        if: steps.filter_agenda.outcome == 'success'
         run: |
           python - <<'PY'
           import json, sys
           from pathlib import Path
-          from datetime import datetime
+          from datetime import datetime, timedelta
           from zoneinfo import ZoneInfo
 
           p = Path(".tmp/agenda/agenda_eventos.json")
@@ -84,21 +157,40 @@ jobs:
           if not isinstance(data, list) or not data:
               sys.exit("ERROR: agenda vacía o inválida")
 
-          today = datetime.now(ZoneInfo("America/Argentina/Tucuman")).date().isoformat()
-          valid = []
+          today = datetime.now(
+              ZoneInfo("America/Argentina/Tucuman")
+          ).date()
+          cutoff = today - timedelta(days=15)
+
+          invalid = []
           for e in data:
-              if not isinstance(e, dict):
+              start_raw = str(e.get("date_start") or "").strip()[:10]
+              try:
+                  start = datetime.fromisoformat(start_raw).date()
+              except Exception:
+                  invalid.append(e.get("id"))
                   continue
-              end = e.get("date_end") or e.get("date_start")
-              source_date = (e.get("_sources") or {}).get("date", "")
-              if (end and end >= today) or source_date == "services_unverified":
-                  valid.append(e)
 
-          print(f"Eventos extraídos: {len(data)}")
-          print(f"Eventos vigentes/futuros: {len(valid)}")
+              categories = " ".join(
+                  str(c).lower() for c in (e.get("categories") or [])
+              )
+              source = str(e.get("source") or "").lower()
 
-          if not valid:
-              sys.exit("ERROR: no hay eventos vigentes/futuros")
+              if start < cutoff:
+                  invalid.append(e.get("id"))
+              elif "servicios" in categories or "servicios" in source:
+                  invalid.append(e.get("id"))
+
+          print(f"Fecha Tucumán: {today.isoformat()}")
+          print(f"Ventana mínima: {cutoff.isoformat()}")
+          print(f"Eventos publicados: {len(data)}")
+          print(f"Eventos fuera de regla: {len(invalid)}")
+
+          if invalid:
+              sys.exit(
+                  "ERROR: el JSON publicado todavía contiene eventos "
+                  "anteriores a today-15 o de Servicios"
+              )
           PY
 
       - name: Generar resúmenes con Gemini
