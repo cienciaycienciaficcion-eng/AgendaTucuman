@@ -15,7 +15,6 @@ import random
 import re
 import time
 from datetime import datetime, timedelta, timezone
-from datetime import date
 from pathlib import Path
 
 import requests
@@ -40,7 +39,6 @@ GEMINI_RETRY_BASE_SECONDS = 5
 GEMINI_MIN_INTERVAL_SECONDS = 13
 GEMINI_JITTER_SECONDS = 2
 GEMINI_5XX_BACKOFF = [15, 30, 60]
-SERVICES_LOOKBACK_DAYS = int(os.getenv("SERVICES_LOOKBACK_DAYS", "15"))
 
 
 def now_utc():
@@ -227,7 +225,6 @@ Reglas:
             ],
             "temperature": 0.1,
             "max_tokens": 300,
-            "response_format": {"type": "json_object"},
         },
         timeout=GROQ_REQUEST_TIMEOUT,
     )
@@ -410,22 +407,11 @@ def write_output(articles, selected_ids, candidates_count, processed_this_run):
     by_id = {str(a.get("id")): a for a in articles}
     events = []
     valid_selected = []
-    cutoff = (now_utc().date() - timedelta(days=SERVICES_LOOKBACK_DAYS)).isoformat()
-
     for sid in selected_ids:
         article = by_id.get(str(sid))
-        if not article:
-            continue
-
-        # No publicar Servicios demasiado antiguos. Los IDs seleccionados
-        # pueden permanecer en el estado histórico, pero dejan de aparecer
-        # en el JSON publicado cuando superan la ventana de antigüedad.
-        published = str(article.get("published") or "")[:10]
-        if published and published < cutoff:
-            continue
-
-        events.append(make_event(article))
-        valid_selected.append(str(sid))
+        if article:
+            events.append(make_event(article))
+            valid_selected.append(str(sid))
 
     events.sort(key=lambda x: (
         x.get("date_start") or "9999-99-99", x.get("title") or ""
@@ -503,14 +489,26 @@ def main():
         f"(modelo {GROQ_MODEL})."
     )
 
-    usage = usage_today(state)
-    remaining_today = max(0, MAX_GEMINI_CALLS_PER_DAY - usage["calls"])
-    run_budget = min(MAX_GEMINI_CALLS_PER_RUN, remaining_today)
+    gemini_usage = provider_usage_today(state, "gemini")
+    groq_usage = provider_usage_today(state, "groq")
+    gemini_remaining = max(0, MAX_GEMINI_CALLS_PER_DAY - gemini_usage["calls"])
+    groq_remaining = max(0, MAX_GROQ_CALLS_PER_DAY - groq_usage["calls"])
+
+    # Si Gemini agotó su cuota diaria, NO detenemos la corrida:
+    # continuamos automáticamente con Groq.
+    gemini_available = bool(gemini_api_key and gemini_remaining > 0)
+    if gemini_available:
+        run_budget = min(MAX_GEMINI_CALLS_PER_RUN, gemini_remaining)
+        provider_plan = f"Gemini ({gemini_remaining} restantes) + Groq como fallback"
+    else:
+        run_budget = min(MAX_GROQ_CALLS_PER_RUN, groq_remaining)
+        provider_plan = f"Groq ({groq_remaining} restantes); Gemini agotado/no disponible"
 
     if run_budget <= 0:
         print(
-            f"[Gemini Servicios] Límite diario alcanzado: "
-            f"{usage['calls']}/{MAX_GEMINI_CALLS_PER_DAY}. "
+            "[IA Servicios] No quedan llamadas disponibles para esta corrida: "
+            f"Gemini={gemini_usage['calls']}/{MAX_GEMINI_CALLS_PER_DAY}, "
+            f"Groq={groq_usage['calls']}/{MAX_GROQ_CALLS_PER_DAY}. "
             "Los pendientes quedan para la próxima ejecución."
         )
         state["selected_ids"] = write_output(
@@ -521,20 +519,18 @@ def main():
 
     batch = pending[:run_budget]
     print(
-        f"[Gemini Servicios] Pendientes: {len(pending)}. "
-        f"Cuota restante hoy: {remaining_today}. "
-        f"Esta corrida procesará como máximo {len(batch)} llamadas HTTP, "
-        "incluidos los reintentos."
+        f"[IA Servicios] Pendientes: {len(pending)}. "
+        f"Esta corrida procesará como máximo {len(batch)} artículos. "
+        f"Plan: {provider_plan}."
     )
 
     calls = 0
     selected_this_run = 0
-    gemini_available = bool(gemini_api_key)
 
     for index, article in enumerate(batch, start=1):
-        # Espaciado individual para evitar ráfagas de solicitudes.
-        # No esperamos antes del primer artículo.
-        if index > 1:
+        # Espaciado solo cuando seguimos usando Gemini. Groq no necesita
+        # este intervalo de 13-15 segundos.
+        if index > 1 and gemini_available:
             wait = GEMINI_MIN_INTERVAL_SECONDS + random.uniform(
                 0, GEMINI_JITTER_SECONDS
             )
@@ -591,9 +587,12 @@ def main():
 
             if isinstance(result, dict):
                 result["provider"] = provider
-            selected = bool(result.get("selected", False))
+            # Gemini devuelve "selected"; Groq devuelve "include".
+            # Unificamos ambos formatos para que Groq realmente pueda seleccionar.
+            selected = bool(result.get("selected", result.get("include", False)))
             state["processed"][sid] = {
                 "selected": selected,
+                "provider": provider,
                 "processed_at": now_utc().isoformat(),
                 "reason": str(result.get("reason", ""))[:300],
             }
@@ -601,8 +600,8 @@ def main():
                 state["selected_ids"].append(sid)
                 selected_this_run += 1
             print(
-                f"[Gemini Servicios] {calls}/{len(batch)} "
-                f"ID={sid} selected={selected}"
+                f"[IA Servicios] {calls}/{len(batch)} "
+                f"proveedor={provider} ID={sid} selected={selected}"
             )
         except requests.HTTPError as exc:
             # No marcar como procesado: se reintentará en la siguiente corrida.
