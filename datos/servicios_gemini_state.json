@@ -169,6 +169,16 @@
       "selected": false,
       "processed_at": "2026-10-05T02:30:22.893136+00:00",
       "reason": "Facilita la participación ciudadana en la recolección y reciclaje de residuos"
+    },
+    "donde-estara-la-clinica-veterinaria-movil-esta-semana": {
+      "selected": true,
+      "processed_at": "2026-10-05T04:32:28.101188+00:00",
+      "reason": "Informa sobre el cronograma y turnos de la clínica veterinaria móvil gratuita en Tucumán, lo cual es un servicio público de castración y salud animal."
+    },
+    "tucuman-se-suma-a-la-semana-mundial-de-la-lactancia-materna-con-actividades-en-hospitales-y-caps": {
+      "selected": false,
+      "processed_at": "2026-10-05T04:33:13.021141+00:00",
+      "reason": "Evento de salud pública que promueve la lactancia materna."
     }
   },
   "selected_ids": [
@@ -194,15 +204,16 @@
     "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6",
     "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2",
     "donde-estara-la-clinica-veterinaria-movil-esta-semana-2",
-    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-6"
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-6",
+    "donde-estara-la-clinica-veterinaria-movil-esta-semana"
   ],
-  "updated_at": "2026-10-05T02:30:22.894534+00:00",
+  "updated_at": "2026-10-05T04:33:27.935258+00:00",
   "gemini_usage": {
     "date": "2026-10-05",
-    "calls": 8
+    "calls": 10
   },
   "groq_usage": {
     "date": "2026-10-05",
-    "calls": 3
+    "calls": 7
   }
 }

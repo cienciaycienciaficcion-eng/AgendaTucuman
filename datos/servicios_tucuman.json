@@ -1,12 +1,48 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T02:30:22.893586+00:00",
+  "generated_at": "2026-10-05T04:33:27.934244+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
   "processed_this_run": 5,
-  "count": 23,
+  "count": 24,
   "events": [
+    {
+      "id": "donde-estara-la-clinica-veterinaria-movil-esta-semana",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/donde-estara-la-clinica-veterinaria-movil-esta-semana/",
+      "title": "Dónde estará la clínica veterinaria móvil esta semana",
+      "published": "2026-08-05",
+      "modified": "2026-08-05T12:01:34",
+      "description": "Hasta este viernes 7 de agosto, la clínica veterinaria móvil ofrecerá sus servicios gratuitos en Parque Avellaneda y B° El Molino. En ambos lugares, los turnos deben solicitarse en persona a partir de las 8 de la mañana.",
+      "content": "Hasta este viernes 7 de agosto , la clínica veterinaria móvil ofrecerá sus servicios gratuitos en Parque Avellaneda y B° El Molino. En ambos lugares, los turnos deben solicitarse en persona a partir de las 8 de la mañana.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/11/mascotas.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "castración de mascotas",
+        "mascotas"
+      ],
+      "links": [],
+      "date_start": "2026-08-05",
+      "date_end": "2026-08-05",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-05T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
     {
       "id": "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2",
       "source": "Agenda Tucumán - Servicios",
