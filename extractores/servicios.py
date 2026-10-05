@@ -240,7 +240,7 @@ def extract_rest(session):
     posts = []
     page = 1
 
-    while page <= 3:
+    while page <= MAX_PAGES:
         print(f"REST página {page}...")
 
         batch = request_with_retry(
@@ -482,7 +482,7 @@ def extract_html_fallback(session):
 
         page += 1
 
-        if page > 3:
+        if page > MAX_PAGES:
             break
 
         # Mucho más conservador que el extractor anterior.
