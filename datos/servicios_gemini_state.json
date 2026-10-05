@@ -179,6 +179,11 @@
       "selected": false,
       "processed_at": "2026-10-05T04:33:13.021141+00:00",
       "reason": "Evento de salud pública que promueve la lactancia materna."
+    },
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-5": {
+      "selected": false,
+      "processed_at": "2026-10-05T06:41:43.139190+00:00",
+      "reason": "Servicio sanitario móvil accesible para la comunidad."
     }
   },
   "selected_ids": [
@@ -207,13 +212,13 @@
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-6",
     "donde-estara-la-clinica-veterinaria-movil-esta-semana"
   ],
-  "updated_at": "2026-10-05T04:33:27.935258+00:00",
+  "updated_at": "2026-10-05T06:42:11.570432+00:00",
   "gemini_usage": {
     "date": "2026-10-05",
-    "calls": 10
+    "calls": 13
   },
   "groq_usage": {
     "date": "2026-10-05",
-    "calls": 7
+    "calls": 12
   }
 }
