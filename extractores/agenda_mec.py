@@ -118,8 +118,8 @@ def parse_args():
     p = argparse.ArgumentParser()
     p.add_argument("--start-year", type=int, default=2026)
     p.add_argument("--start-month", type=int, default=9)
-    p.add_argument("--months", type=int, default=12)
-    p.add_argument("--lookback-months", type=int, default=2, help="Meses anteriores adicionales para capturar eventos en curso")
+    p.add_argument("--months", type=int, default=2)
+    p.add_argument("--lookback-months", type=int, default=1, help="Meses anteriores adicionales para capturar eventos en curso")
     p.add_argument("--delay", type=float, default=0.15)
     p.add_argument("--out", default="agenda_extraccion_mec_v7")
     return p.parse_args()
@@ -1890,15 +1890,23 @@ def main():
     session = requests.Session()
     session.headers.update(HEADERS)
 
-    months = month_sequence(args.start_year, args.start_month, args.months)
-    if args.lookback_months:
+    # La agenda publicada sólo necesita actualidad y hasta 2 meses hacia adelante.
+    # Limitamos también los argumentos para evitar que un workflow antiguo con
+    # --months 12 vuelva a disparar una extracción de un año completo.
+    requested_months = max(1, int(args.months))
+    requested_lookback = max(0, int(args.lookback_months))
+    scan_months = min(requested_months, 2)
+    scan_lookback = min(requested_lookback, 1)
+
+    months = month_sequence(args.start_year, args.start_month, scan_months)
+    if scan_lookback:
         # Incluye meses anteriores para no perder eventos que ya comenzaron
         # pero todavía siguen vigentes.
         first = date(args.start_year, args.start_month, 1)
         lookback_start = first
-        for _ in range(args.lookback_months):
+        for _ in range(scan_lookback):
             lookback_start = (lookback_start.replace(day=1) - timedelta(days=1)).replace(day=1)
-        lookback = month_sequence(lookback_start.year, lookback_start.month, args.lookback_months)
+        lookback = month_sequence(lookback_start.year, lookback_start.month, scan_lookback)
         months = lookback + months
 
     all_cards = []
@@ -1908,7 +1916,17 @@ def main():
     # ---------------------------------------------------------
     # 1. MEC AJAX
     # ---------------------------------------------------------
-    for year, month in months:
+    print(
+        f"[MEC] Consultando {len(months)} meses: "
+        + ", ".join(f"{y:04d}-{m:02d}" for y, m in months),
+        flush=True,
+    )
+
+    for month_idx, (year, month) in enumerate(months, 1):
+        print(
+            f"[MEC] Mes {month_idx}/{len(months)} -> {year:04d}-{month:02d}",
+            flush=True,
+        )
         html_or_none, status, raw = ajax_month(
             session, year, month, args.delay
         )
@@ -2009,18 +2027,17 @@ def main():
             })
 
     # ---------------------------------------------------------
-    # 3b. SERVICIOS (WordPress category)# ---------------------------------------------------------
-    service_events, service_errors = extract_services(
-        session, args.delay, args.start_year
-    )
-    events.extend(service_events)
-    errors.extend(service_errors)
-
+    # 3b. SERVICIOS
+    # ---------------------------------------------------------
+    # Servicios se extrae y publica mediante su workflow independiente.
+    # Agenda NO incorpora publicaciones de /category/servicios/.
     # La agenda publicada representa actualidad, no un archivo histórico.
-    # Eliminamos eventos cuyo período ya terminó. Se conserva un evento que
-    # termina hoy porque sigue siendo relevante durante el día.
+    # Conservamos eventos desde hoy - 15 días hasta hoy + 2 meses.
+    # Se conserva un evento si su período todavía intersecta esa ventana.
     today = datetime.now(ARGENTINA_TZ).date()
+    cutoff_date = today - timedelta(days=15)
     today_iso = today.isoformat()
+    cutoff_iso = cutoff_date.isoformat()
     future_limit = add_months(today, 2)
     future_limit_iso = future_limit.isoformat()
 
@@ -2028,11 +2045,8 @@ def main():
     events = [
         event for event in events
         if (
-            (event.get("_sources", {}).get("date") == "services_unverified")
-            or (
-                (event.get("date_end") or event.get("date_start") or "") >= today_iso
-                and (event.get("date_start") or "") <= future_limit_iso
-            )
+            (event.get("date_end") or event.get("date_start") or "") >= cutoff_iso
+            and (event.get("date_start") or "") <= future_limit_iso
         )
     ]
     removed_outside_window = before_filter - len(events)
@@ -2142,7 +2156,7 @@ def main():
         f"Meses consultados: {args.months}",
         f"Tarjetas MEC encontradas: {len(all_cards)}",
         f"Eventos únicos: {len(events)}",
-        f"Ventana publicada: {today_iso} -> {future_limit_iso} (2 meses)",
+        f"Ventana publicada: {cutoff_iso} -> {future_limit_iso} (hoy={today_iso}; -15 días / +2 meses)",
         f"Eventos MEC: {sum(1 for e in events if e.get('source') == 'MEC')}",
         f"Servicios: {sum(1 for e in events if e.get('source') == 'SERVICIOS')}",
         f"Errores: {len(errors)}",
@@ -2157,12 +2171,12 @@ def main():
         "• Las tarjetas repetidas entre meses se deduplican por MEC ID.",
         "• Datetimes se construyen directamente en hora local -03:00.",
         "• Google Calendar y redes sociales no se consideran inscripción.",
-        "• Las publicaciones de /category/servicios/ se normalizan como eventos con categoría Servicios.",
+        "• Servicios se publica mediante su workflow independiente y no se incorpora a Agenda.",
         "• El bloque editorial 'Datos destacados' tiene prioridad para Lugar/Dirección cuando está presente.",
         "• 'Dirección' se valida para evitar confundir al director artístico con una dirección física.",
         "• Sin 'Datos destacados', se conservan los extractores narrativos y de etiquetas anteriores.",
         "• Servicios sin fecha verificable no se publican como eventos.",
-        "• Sólo se publican eventos desde hoy hasta 2 meses calendario hacia adelante.",
+        "• Sólo se publican eventos desde hoy - 15 días hasta 2 meses calendario hacia adelante.",
         "• El precio sólo se registra con evidencia textual explícita.",
         "• Gratis sólo con evidencia textual explícita.",
         "",
