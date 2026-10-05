@@ -1,12 +1,160 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T12:37:17.015044+00:00",
+  "generated_at": "2026-10-05T13:12:18.606698+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
-  "processed_this_run": 0,
-  "count": 30,
+  "processed_this_run": 4,
+  "count": 34,
   "events": [
+    {
+      "id": "como-trabajara-el-comercio-por-los-festejos-del-dia-de-la-independencia",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/como-trabajara-el-comercio-por-los-festejos-del-dia-de-la-independencia/",
+      "title": "Cómo trabajará el comercio por los festejos del Día de la Independencia",
+      "published": "2026-07-07",
+      "modified": "2026-07-07T11:42:37",
+      "description": "Por los festejos de un nuevo aniversario de la Declaración de la Independencia, la Cámara de comercio confirmó que los horarios de la atención para esta semana serán de la siguiente manera: El Jueves 9 de julio será feriado nacional, por lo que los comercios permanecerán cerrados. En tanto que el viernes 10 de julio, fue establecido como…",
+      "content": "Por los festejos de un nuevo aniversario de la Declaración de la Independencia, la Cámara de comercio confirmó que los horarios de la atención para esta semana serán de la siguiente manera: El Jueves 9 de julio será feriado nacional, por lo que los comercios permanecerán cerrados. En tanto que el viernes 10 de julio , fue establecido como día no laborable y la actividad se desarrollará con normalidad.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2020/12/feriados-2021.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-07-07",
+      "date_end": "2026-07-07",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-07T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "refugio-municipal-para-personas-en-situacion-de-calle-por-la-ola-de-frio-polar",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/refugio-municipal-para-personas-en-situacion-de-calle-por-la-ola-de-frio-polar/",
+      "title": "Refugio Municipal para personas en situación de calle por el frío",
+      "published": "2026-07-07",
+      "modified": "2026-07-07T12:19:34",
+      "description": "El Refugio Municipal “Papa Francisco” está ubicado en el Parque 9 de Julio, allí se brinda albergue y contención a personas en situación de calle. En ese espacio, que funciona sobre avenida Coronel Suárez 550, en la zona del ex autódromo, se ofrece a quienes lo necesitan abrigo, un plato de comida caliente y asistencia…",
+      "content": "El Refugio Municipal “Papa Francisco” está ubicado en el Parque 9 de Julio, allí se brinda albergue y contención a personas en situación de calle. En ese espacio, que funciona sobre avenida Coronel Suárez 550, en la zona del ex autódromo, se ofrece a quienes lo necesitan abrigo, un plato de comida caliente y asistencia médica, todos los días de la semana. Para informar sobre la presencia de personas en situación de calle a los fines de que el Municipio pueda asistirlas se puede contactar al número de WhatsApp 381-2232140 o llamar al teléfono 381-2156434. “Nosotros tenemos un régimen de ingreso y egreso, pero con estas bajas temperaturas, el que se quiere quedar se queda acá en el Refugio puede hacerlo durante el tiempo que sea necesario para protegerse del frío”, aclaró la secretaria de Atención al Ciudadano. Además de alimentos, abrigo y la posibilidad de tomar un baño caliente, en el Refugio Municipal se ofrecen controles médicos a las personas en situación de vulnerabilidad. “Teniendo en cuenta que muchas personas que están en situación de calle provienen de un contexto bastante complejo, con problemas de adicciones, de salud mental y otras situaciones de vulnerabilidad, acá se les brindan controles médicos, vacunas contra la gripe, testeos sobre ETS y contención, con el acompañamiento que sea necesario, porque no se les puede dar la espalda”, dijo Prado Budeguer. Y agregó que, como parte del servicio que acerca el municipio a estos vecinos “se les facilita los trámites para que obtengan el DNI y reciben capacitaciones, ya que el objetivo es darles una segunda oportunidad y que puedan salir de la situación de calle”.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/07/1.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "Refugio Municipal"
+      ],
+      "links": [],
+      "date_start": "2026-07-07",
+      "date_end": "2026-07-07",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-07T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "13-al-17-de-julio-donde-se-brindara-el-servicio-gratuito-de-castracion-para-animales-de-compania",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/13-al-17-de-julio-donde-se-brindara-el-servicio-gratuito-de-castracion-para-animales-de-compania/",
+      "title": "13 al 17 de julio: Dónde se brindará el servicio gratuito de castración para animales de compañía",
+      "published": "2026-07-13",
+      "modified": "2026-07-13T10:29:25",
+      "description": "Los quirófanos itinerantes de esterilización de la Dirección de Población Animal de la Municipalidad de San Miguel de Tucumán ofrecerán el servicio gratuito de castración de animales de compañía en dos barrios de la ciudad la próxima semana, desde el lunes 13 al viernes 17 de julio, a partir de las 8 h. Un móvil…",
+      "content": "Los quirófanos itinerantes de esterilización de la Dirección de Población Animal de la Municipalidad de San Miguel de Tucumán ofrecerán el servicio gratuito de castración de animales de compañía en dos barrios de la ciudad la próxima semana, desde el lunes 13 al viernes 17 de julio, a partir de las 8 h. Un móvil se ubicará en Perú 1741, en el Barrio El Bosque. El otro tráiler veterinario se instalará en México 3900, en la plaza del Barrio AGET. En ambos casos los turnos se otorgarán de forma presencial en las direcciones mencionadas el lunes 13 de julio, de 8 a 13 h, por orden de llegada. Las actividades se suspenden en caso de lluvia. Estas son las ofertas semanales del Mercado Municipal Dorrego Requisitos para el día de la esterilización Los animales deben tener un ayuno (sin alimentos sólidos ni líquidos) de al menos 12 horas antes de la cirugía. Llevar una manta para abrigar a la mascota luego de la cirugía. La castración está destinada a perros y gatos hembras a partir de los seis meses de edad y a machos mayores de ocho meses. No se realizarán cirugías a hembras que estén en celo o en estado de preñez. Utilizar correa y collar en el caso de los perros, y para trasladar gatos utilizar jaula transportadora, caja con respiradero, bolso con cierre o canasto cerrado, para prevenir que se estresen o se asusten y escapen.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/03/mascotas-1.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "castración de mascotas",
+        "mascotas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-5/"
+      ],
+      "date_start": "2026-07-13",
+      "date_end": "2026-07-13",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-13T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-5/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-5",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-5/",
+      "title": "Estas son las ofertas semanales del Mercado Municipal Dorrego",
+      "published": "2026-07-13",
+      "modified": "2026-07-13T10:06:09",
+      "description": "En los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, los vecinos podrán disfrutar de una rica oferta gastronómica en el patio de comidas y conseguir promociones en carnes, pan, productos de almacén, lácteos y otros artículos de consumo diario. Los locales trabajan de lunes a sábados, de 9 a 15.30…",
+      "content": "En los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, los vecinos podrán disfrutar de una rica oferta gastronómica en el patio de comidas y conseguir promociones en carnes, pan, productos de almacén, lácteos y otros artículos de consumo diario. Los locales trabajan de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h; y los domingos, de 9 a 15.30 h. Se aceptan diferentes medios de pago (efectivo, transferencia y débito). Algunas de las promociones que estarán disponibles desde este lunes 13 hasta el sábado 18 de julio, son las siguientes: Carnicería En los puestos de carnicería se podrán conseguir promociones de dos kilos de costeleta de cerdo por $ 20.000, dos kilos de paleta de cerdo por $ 18.000 y dos kilos de puchero por $ 21.000. Además, habrá ofertas de hígado a $ 6.000 el kilo, mondongo a $ 12.000 el kilo, matambre de cerdo a $ 19.000 el kilo, costeleta vacuna a $ 14.000 el kilo, dos kilos de chorizo por $ 10.000 y dos kilos de hamburguesas a $ 10.000. También se ofrecen combos de un kilo de primo, un kilo de milanesas preparadas y un kilo de costeletas a $ 40.000; un kilo de duro, un kilo de puchero y un kilo de primo a $ 32.000; y un kilo de vacío, un kilo de chorizo y un kilo de paleta por $ 40.000. Panadería Esta semana continúan las promociones de 10 tortillas por $ 1.800 y seis facturas por $ 2.000. Además, el kilo de pan francés se vende a $ 2.000. Pollería Los puestos de pollería ofrecen promociones de tres kilos de pata muslo por $ 3.900; un kilo de suprema por $ 9.500; dos kilos de suprema por $ 18.000; filet de pollo a $ 12.000 el kilo; molida de pollo y hamburguesas de pollo a $ 5.500 el kilo; alitas a $ 3.500 el kilo; y menudos desde $ 2.500 el kilo o tres kilos por $ 6.000. Productos regionales En el sector de productos regionales se podrán conseguir miel por $ 7.000 el frasco de medio kilo y nuez a $ 20.000 el kilo. Cinemacenter Tucumán renueva su cartelera con Moana y Evil Dead: En llamas Comidas Entre las propuestas gastronómicas del patio de comidas se destacan promociones de seis empanadas más dos bombitas o quipes por $ 9.500; pizza común más seis empanadas por $ 15.000; dos patacones con guarnición y gaseosa por $ 18.000; y dos escalopes con guarnición y gaseosa por $ 20.000. También se podrán adquirir dos napolitanas con guarnición y gaseosa de un litro y medio por $ 22.000; una docena de empanadas por $ 13.000; y una docena de empanadas con gaseosa de 1,5 litros por $ 16.000. Entre las opciones individuales se podrán conseguir torta con gaseosa por $ 6.000; calzón con gaseosa por $ 7.500; corte de pollo con guarnición por $ 7.500; pollo al horno con guarnición por $ 8.000; napolitana con guarnición por $ 10.000; lampreado con guarnición por $ 8.000; bombitas con guarnición por $ 7.000; hamburguesa común por $ 7.500 y hamburguesa especial por $ 7.500. También continúan las opciones económicas, como ñoquis por $ 5.000 la porción, locro por $ 7.000, tamales y humitas a $ 2.000 la unidad, bombitas a $ 1.500, empanadas de pollo a $ 1.300 y bombas de carne o de queso a $ 2.300 la unidad. Pescadería En el sector de pescadería se vende merluza a $ 12.000 el kilo y filet de atún a $16.000 el kilo.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2024/12/mercado-dorrego-tucuman-1-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "Mercado Dorrego",
+        "ofertas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/cinemacenter-tucuman-renueva-su-cartelera-con-moana-y-evil-dead-en-llamas-las-vacaciones-de-invierno-suman-dos-nuevas-opciones-para-disfrutar-del-cine-en-tucuman-desde-este-jueves-9-de-julio/"
+      ],
+      "date_start": "2026-07-13",
+      "date_end": "2026-07-13",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-13T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/cinemacenter-tucuman-renueva-su-cartelera-con-moana-y-evil-dead-en-llamas-las-vacaciones-de-invierno-suman-dos-nuevas-opciones-para-disfrutar-del-cine-en-tucuman-desde-este-jueves-9-de-julio/"
+      ],
+      "occurrences": []
+    },
     {
       "id": "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-4",
       "source": "Agenda Tucumán - Servicios",
