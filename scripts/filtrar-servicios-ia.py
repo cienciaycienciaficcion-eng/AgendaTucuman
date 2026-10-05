@@ -1,127 +1,96 @@
-            articles, state["selected_ids"], len(candidate_ids), 0
-        )
-        save_state(state)
-        return
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""Filtrado incremental de Servicios con Gemini/Groq.
 
-    run_budget = max(gemini_budget, groq_budget)
-    batch = pending[:run_budget]
+- Los artículos descargados desde la web se filtran primero sin IA.
+- Cada artículo guarda un hash de contenido en el estado persistente.
+- Un artículo sin cambios NO vuelve a consumir Gemini/Groq.
+- Si cambia título, fecha, descripción, contenido, URL o enlaces, se vuelve a analizar.
+- Gemini se usa primero mientras tenga cuota; Groq es fallback automático.
+- Los resultados seleccionados se conservan entre ejecuciones.
+"""
+import hashlib
+import json
+import os
+import random
+import re
+import time
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
-    print(
-        f"[IA Servicios] Pendientes: {len(pending)}. "
-        f"Cuota Gemini: {remaining_gemini}, cuota Groq: {remaining_groq}. "
-        f"Esta corrida procesará como máximo {len(batch)} artículos."
-    )
+import requests
+
+RAW = Path("datos/servicios_raw.json")
+OUT = Path("datos/servicios_tucuman.json")
+STATE = Path("datos/servicios_gemini_state.json")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.5-flash").strip()
+URL = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL}:generateContent"
+MAX_GEMINI_CALLS_PER_RUN = 5
+MAX_GEMINI_CALLS_PER_DAY = 20
+MAX_GROQ_CALLS_PER_RUN = 5
+MAX_GROQ_CALLS_PER_DAY = 30
+
+# Fallback automático: si Gemini falla, se intenta Groq.
+GROQ_MODEL = os.getenv("GROQ_MODEL", "openai/gpt-oss-20b")
+GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_REQUEST_TIMEOUT = 60
+REQUEST_TIMEOUT = 60
+GEMINI_RETRIES = 2
+GEMINI_RETRY_BASE_SECONDS = 5
+GEMINI_MIN_INTERVAL_SECONDS = 13
+GEMINI_JITTER_SECONDS = 2
+GEMINI_5XX_BACKOFF = [15, 30, 60]
 
 
-    calls = 0
-    selected_this_run = 0
-    gemini_available = bool(gemini_api_key) and gemini_budget > 0
+def now_utc():
+    return datetime.now(timezone.utc)
 
-    for index, article in enumerate(batch, start=1):
-        # Espaciado individual para evitar ráfagas de solicitudes.
-        # No esperamos antes del primer artículo.
-        if index > 1:
-            wait = GEMINI_MIN_INTERVAL_SECONDS + random.uniform(
-                0, GEMINI_JITTER_SECONDS
-            )
-            print(
-                f"[IA Servicios] Esperando {wait:.1f}s antes del artículo "
-                f"{index}/{len(batch)}..."
-            )
-            time.sleep(wait)
 
-        sid = str(article.get("id"))
-        calls += 1
-        try:
-            if gemini_available:
-                try:
-                    result = ask_gemini(article, state)
-                    provider = "gemini"
-                except Exception as gemini_error:
-                    print(f"[Gemini Servicios] Falló Gemini: {gemini_error}")
-                    # Ante cualquier fallo de Gemini, se pasa a Groq para este
-                    # artículo y se desactiva Gemini para el resto de la corrida.
-                    # Así evitamos consumir reintentos inútiles cuando la API
-                    # está sin cuota, caída o mal configurada.
-                    gemini_available = False
-                    if isinstance(gemini_error, requests.HTTPError):
-                        status = (
-                            gemini_error.response.status_code
-                            if gemini_error.response is not None
-                            else None
-                        )
-                        if status == 429:
-                            print(
-                                "[Gemini Servicios] 429/cuota detectado: "
-                                "Gemini queda desactivado para esta corrida."
-                            )
-                    print("[Gemini Servicios] Probando Groq como fallback...")
-                    try:
-                        result = ask_groq(article, state)
-                        provider = "groq"
-                        print(f"[Groq Servicios] OK: {article.get('title', '')}")
-                    except Exception as groq_error:
-                        print(f"[Groq Servicios] También falló: {groq_error}")
-                        raise RuntimeError(
-                            f"Gemini y Groq fallaron para {article.get('title', '')}"
-                        ) from groq_error
-            else:
-                print(
-                    "[Gemini Servicios] No disponible en esta corrida; "
-                    "usando Groq."
-                )
-                try:
-                    result = ask_groq(article, state)
-                    provider = "groq"
-                    print(f"[Groq Servicios] OK: {article.get('title', '')}")
-                except Exception as groq_error:
-                    print(f"[Groq Servicios] Falló: {groq_error}")
-                    raise
+def extract_json(text):
+    text = (text or "").strip()
+    text = re.sub(r"^```(?:json)?\s*", "", text, flags=re.I)
+    text = re.sub(r"\s*```$", "", text)
+    try:
+        return json.loads(text)
+    except Exception:
+        m = re.search(r"\{.*\}", text, re.S)
+        return json.loads(m.group(0)) if m else {}
 
-            if isinstance(result, dict):
-                result["provider"] = provider
-            selected = bool(result.get("selected", False))
-            state["processed"][sid] = {
-                "selected": selected,
-                "processed_at": now_utc().isoformat(),
-                "content_hash": article_content_hash(article),
-                "provider": provider,
-                "reason": str(result.get("reason", ""))[:300],
-            }
 
-            # Si el artículo fue reevaluado y ya no corresponde, retirarlo.
-            if not selected and sid in state["selected_ids"]:
-                state["selected_ids"].remove(sid)
-            if selected and sid not in state["selected_ids"]:
-                state["selected_ids"].append(sid)
-                selected_this_run += 1
-            print(
-                f"[IA Servicios] {calls}/{len(batch)} "
-                f"ID={sid} selected={selected}"
-            )
-        except requests.HTTPError as exc:
-            # No marcar como procesado: se reintentará en la siguiente corrida.
-            print(f"[Gemini Servicios] HTTP error para {sid}: {exc}")
-            continue
-        except Exception as exc:
-            # Tampoco se marca como procesado si la llamada no pudo completarse.
-            print(f"[Gemini Servicios] Error para {sid}: {exc}")
-            continue
+def load_state():
+    default_usage = {
+        "date": now_utc().date().isoformat(),
+        "calls": 0,
+    }
+    if not STATE.exists():
+        return {
+            "processed": {},
+            "selected_ids": [],
+            "updated_at": "",
+            "gemini_usage": dict(default_usage),
+            "groq_usage": dict(default_usage),
+        }
+    try:
+        data = json.loads(STATE.read_text(encoding="utf-8"))
+        if not isinstance(data, dict):
+            raise ValueError("estado inválido")
+        data.setdefault("processed", {})
+        data.setdefault("selected_ids", [])
+        data.setdefault("gemini_usage", dict(default_usage))
+        data.setdefault("groq_usage", dict(default_usage))
+        return data
+    except Exception as exc:
+        print(f"[Estado] No se pudo leer {STATE}: {exc}. Se crea uno nuevo.")
+        return {
+            "processed": {},
+            "selected_ids": [],
+            "updated_at": "",
+            "gemini_usage": dict(default_usage),
+            "groq_usage": dict(default_usage),
+        }
 
-    state["selected_ids"] = write_output(
-        articles,
-        state["selected_ids"],
-        len(candidate_ids),
-        calls,
-    )
-    save_state(state)
 
-    remaining = sum(
-        1 for a in candidates
-        if str(a.get("id")) not in state["processed"]
-    )
-    print(
-        f"[IA Servicios] Fin de corrida: llamadas={calls}, "
-        f"nuevos seleccionados={selected_this_run}, pendientes={remaining}, "
-        f"publicados={len(state['selected_ids'])}."
-    )
+def save_state(state):
+    state["updated_at"] = now_utc().isoformat()
+    STATE.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2), encoding="utf-8"
