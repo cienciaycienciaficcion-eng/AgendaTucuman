@@ -215,27 +215,6 @@
       "processed_at": "2026-10-05T10:32:14.334065+00:00",
       "reason": "Informa sobre las ofertas y productos del programa municipal 'Mercado en tu Barrio' en San Miguel de Tucumán, lo cual constituye un servicio de utilidad pública para los ciudadanos."
     },
-    "tafi-viejo-servicios-y-el-nuevo-numero-del-movil-de-salud-animal": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.307857+00:00",
-      "content_hash": "0591c9e50eb32a807eb7b2845d5c75b672e505d416652c538b1c6b4082a62127",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "estas-son-las-ofertas-de-la-semana-en-el-mercado-en-tu-barrio": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.307901+00:00",
-      "content_hash": "cc083d2e094de021504f5c4e999b6ca8eeb9ee9b6f7b955eae17ac1c0d030db5",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "se-realiza-la-entrega-gratuita-de-semillas-de-estacion": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.307959+00:00",
-      "content_hash": "11effd4af203dcddba9355e0d3d3e2e73b773de506190a28b0ec62dfe9b31774",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
     "se-realizaran-nuevas-jornadas-de-eco-canje": {
       "selected": false,
       "processed_at": "2026-10-05T13:11:20.307987+00:00",
@@ -243,101 +222,10 @@
       "provider": "deterministic-filter",
       "reason": "Descartado por filtro previo sin IA."
     },
-    "el-movil-de-atencion-para-la-mujer-asistira-en-comuna-de-arcadia": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308004+00:00",
-      "content_hash": "c5706916dd1addf8be10f0781131e32fa98e8958fbaf027873f12e75e020183b",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "tafi-viejo-castracion-vacunacion-y-desparasitacion-gratuita-de-mascotas": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308024+00:00",
-      "content_hash": "7d549127853ceb39904d41e0dcc73be4544b62a3226b14323c2d0d6a8d2f1b29",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "el-cepsa-realiza-castraciones-gratuitas-en-lomas-de-tafi": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308048+00:00",
-      "content_hash": "e41d66796897587300b11ad40118c5dbaba0c4863a2b684b8f9cce4d6ae2ef01",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
     "tafi-viejo-sumo-nina-bot-una-nueva-herramienta-digital-para-la-atencion-vecinal": {
       "selected": false,
       "processed_at": "2026-10-05T13:11:20.308068+00:00",
       "content_hash": "63fc122c579b03bd9bb7d59cad5aa68579e9e4b88e9f0630f64c91751aec1c84",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "brs-apoyo-escolar-primario-y-secundario-gratuito-durante-todo-el-ano": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308096+00:00",
-      "content_hash": "72307a816c3ea6b0ce9ec0e2601b7ee82a587f7406574c47d034dadef5d5af91",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "lanzan-una-campana-de-abrigo-por-las-bajas-temperaturas": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308112+00:00",
-      "content_hash": "2ffd37bdf81c2563cce6479828d3cd2e9d49933aa3e0aa63d11590eb85987cb2",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "sumate-y-participa-al-lomas-en-movimiento": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308134+00:00",
-      "content_hash": "02541ba4238714fd5cf8ea3879e53aef377ec154994f409e89e76d42b7dcfbb9",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "lules-entrenamiento-funcional-para-adultos-mayores": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308155+00:00",
-      "content_hash": "711589a8c8ca421af005de3a9777574dd079882181e7ca2c26ea79ba22bb46a9",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "tafi-viejo-conoce-donde-brindan-atencion-a-victimas-de-violencia-de-genero-2": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308173+00:00",
-      "content_hash": "a255476b8084f98bedd45bbd9055e63228feb77320a2edcfbb56d8a8580c4f74",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "invitan-a-participar-de-los-talleres-de-arte-y-oficios-en-el-mercado-municipal": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308197+00:00",
-      "content_hash": "34e89137bc25f377ac5888e5013f888c6353aa9b77914dcd41f9f3da9ac4e745",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "tafi-viejo-conoce-donde-brindan-atencion-a-victimas-de-violencia-de-genero": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308220+00:00",
-      "content_hash": "ec6681b174a22d988faefd5645720f879f55554b8fbfedabea09852662695008",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "yerba-buena-se-pone-en-accion-con-el-programa-muni-deportes": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308243+00:00",
-      "content_hash": "e4722313f03015316e95d634b176e9ed99ba4bdaaa7968cc266ce18ca30726c6",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "yerba-buena-te-propone-el-espacio-de-actividad-fisica-muni-deportes": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308256+00:00",
-      "content_hash": "ea443be203c35e15e639c2db23819e68b8e3ec51518391ec192f8a68194570ed",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
-    "tafi-viejo-donde-solicitar-el-retiro-de-residuos-verdes-secos-y-especiales": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308268+00:00",
-      "content_hash": "fd11ee698df81c99e9d17b5d2db610d52e95692638c6564fa6bc07fa88749ca9",
       "provider": "deterministic-filter",
       "reason": "Descartado por filtro previo sin IA."
     },
@@ -368,21 +256,49 @@
       "content_hash": "c4da9257edaaf8c095dbc0321ab1ac0d273abda785efdeeb38c972a9e4617420",
       "provider": "groq",
       "reason": "Servicio de albergue y asistencia integral para personas en situación de calle"
+    },
+    "13-al-17-de-julio-el-registro-civil-realizara-un-operativo-especial-de-documentacion": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-05T17:53:11.692725+00:00",
+      "reason": "Servicio público de documentación de identidad y pasaporte"
+    },
+    "convocan-a-participar-en-campanas-de-donacion-de-sangre-voluntaria": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-05T17:53:12.373198+00:00",
+      "reason": "Servicio público de salud que invita a la comunidad a participar en donaciones de sangre."
+    },
+    "banda-del-rio-sali-cronograma-del-programa-garrafa-social": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-05T17:53:12.705823+00:00",
+      "reason": "Programa de ayuda social que entrega garrafas a la comunidad."
+    },
+    "6-al-8-de-julio-donde-se-ofrecera-el-servicio-de-esterilizacion-para-animales-de-compania": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-05T17:53:13.737640+00:00",
+      "reason": "Ofrece un servicio útil y gratuito para la comunidad."
     }
   },
   "selected_ids": [
     "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9",
     "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre",
-    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal"
+    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
+    "13-al-17-de-julio-el-registro-civil-realizara-un-operativo-especial-de-documentacion",
+    "convocan-a-participar-en-campanas-de-donacion-de-sangre-voluntaria",
+    "banda-del-rio-sali-cronograma-del-programa-garrafa-social",
+    "6-al-8-de-julio-donde-se-ofrecera-el-servicio-de-esterilizacion-para-animales-de-compania"
   ],
-  "updated_at": "2026-10-05T16:31:30.356006+00:00",
+  "updated_at": "2026-10-05T17:53:13.738548+00:00",
   "gemini_usage": {
     "date": "2026-10-05",
     "calls": 20
   },
   "groq_usage": {
     "date": "2026-10-05",
-    "calls": 17
+    "calls": 22
   }
 }

@@ -1,12 +1,158 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T16:31:30.355551+00:00",
+  "generated_at": "2026-10-05T17:53:13.737972+00:00",
   "source": "Gemini incremental filter",
-  "raw_count": 300,
-  "candidate_count": 282,
-  "processed_this_run": 0,
-  "count": 4,
+  "raw_count": 100,
+  "candidate_count": 98,
+  "processed_this_run": 5,
+  "count": 8,
   "events": [
+    {
+      "id": "6-al-8-de-julio-donde-se-ofrecera-el-servicio-de-esterilizacion-para-animales-de-compania",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/6-al-8-de-julio-donde-se-ofrecera-el-servicio-de-esterilizacion-para-animales-de-compania/",
+      "title": "6 al 8 de julio: Dónde se ofrecerá el servicio de esterilización para animales de compañía",
+      "published": "2026-07-06",
+      "modified": "2026-07-06T21:22:22",
+      "description": "Los quirófanos itinerantes de esterilización de la Dirección de Población Animal de la Municipalidad de San Miguel de Tucumán ofrecerán el servicio gratuito de castración de animales de compañía en dos barrios de la ciudad la próxima semana, desde el lunes 6 al miércoles 8 de julio, a partir de las 8 h. Un móvil…",
+      "content": "Los quirófanos itinerantes de esterilización de la Dirección de Población Animal de la Municipalidad de San Miguel de Tucumán ofrecerán el servicio gratuito de castración de animales de compañía en dos barrios de la ciudad la próxima semana, desde el lunes 6 al miércoles 8 de julio, a partir de las 8 h. Un móvil se ubicará en Diego de Villarroel 750, en el Barrio Obispo Piedrabuena. El otro tráiler veterinario se instalará en la esquina de Pueyrredón y Alsina, en el Barrio 24 de Septiembre. En ambos casos. los turnos se otorgarán de forma presencial en las direcciones mencionadas el lunes 6 de julio, de 8 a 13 h, por orden de llegada. Las actividades se suspenden en caso de lluvia. 6 al 12 de julio: Ofertas semanales y horarios del Mercado Dorrego Requisitos para el día de la esterilización Los animales deben tener un ayuno (sin alimentos sólidos ni líquidos) de al menos 12 horas antes de la cirugía. Llevar una manta para abrigar a la mascota luego de la cirugía. La castración está destinada a perros y gatos hembras a partir de los seis meses de edad y a machos mayores de ocho meses. No se realizarán cirugías a hembras que estén en celo o en estado de preñez. Utilizar correa y collar en el caso de los perros, y para trasladar gatos utilizar jaula transportadora, caja con respiradero, bolso con cierre o canasto cerrado, para prevenir que se estresen o se asusten y escapen.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2023/07/mascotas.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/6-al-12-de-julio-ofertas-semanales-y-horarios-del-mercado-dorrego/"
+      ],
+      "date_start": "2026-07-06",
+      "date_end": "2026-07-06",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-06T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/6-al-12-de-julio-ofertas-semanales-y-horarios-del-mercado-dorrego/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "13-al-17-de-julio-el-registro-civil-realizara-un-operativo-especial-de-documentacion",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/13-al-17-de-julio-el-registro-civil-realizara-un-operativo-especial-de-documentacion/",
+      "title": "13 al 17 de julio: El Registro Civil realizará un operativo especial de documentación",
+      "published": "2026-07-07",
+      "modified": "2026-07-07T11:07:41",
+      "description": "La iniciativa se desarrollará del 13 al 17 de julio, de 9 a 13, en el Complejo Belgrano (avenida Saénz Peña y Lamadrid), con el objetivo de ampliar la atención al público y facilitar la realización de trámites de DNI y pasaporte. La directora del Registro del Estado Civil y Capacidad de las Personas, Carolina Bidegorry,…",
+      "content": "La iniciativa se desarrollará del 13 al 17 de julio, de 9 a 13, en el Complejo Belgrano (avenida Saénz Peña y Lamadrid), con el objetivo de ampliar la atención al público y facilitar la realización de trámites de DNI y pasaporte. La directora del Registro del Estado Civil y Capacidad de las Personas, Carolina Bidegorry , informó que durante el operativo se podrán gestionar documentos nacionales de identidad y pasaportes, tanto en su modalidad común como exprés. Al respecto, precisó: “Desde el lunes 13 de julio hasta el viernes 17 de julio, de 9 a 13, en el Complejo Belgrano, vamos a estar con este operativo especial de documentación de vacaciones de invierno. Se van a poder hacer documentos y pasaportes, tanto en su versión común como en su versión exprés” . La titular del organismo también destacó que el trámite resultará más ágil para las familias, ya que no será necesario presentar documentación adicional para menores ni para adultos, debido a que la información registral se encuentra digitalizada. En ese marco, explicó: “Las personas menores de edad no deben llevar ninguna documentación adicional. Tampoco los adultos requieren información adicional. Si es necesario un acta, nosotros la vamos a subir. Recuerden que tenemos todo digitalizado, así que simplemente deben sacar el turno. Es con turno online, para evitar demoras y también porque hace frío”. Banda del Rio Sali: Cronograma del programa Garrafa Social En relación con la modalidad de atención, Bidegorry informó que los turnos estarán disponibles desde las 14 de este lunes a través del sitio oficial del Registro Civil, donde se habilitará una sección especial para el operativo, además del sistema habitual de turnos. La funcionaria indicó: “Los turnos van a estar disponibles en nuestra página www.regciviltucuman.gob.ar van a estar habilitados los turnos online”. Por último, recordó que en ninguna dependencia del Registro Civil ni en este operativo se aceptará dinero en efectivo para el pago de los trámites. Sobre este punto, remarcó:“Tanto en el Registro Civil como en este operativo externo no se acepta efectivo. El pago debe realizarse con tarjeta de crédito, débito, billeteras virtuales o código QR. Las personas que no tengan ninguna de estas opciones recibirán un código para pagar el trámite en Pago Fácil o Rapipago , pero no se recibe dinero en efectivo, ni en este operativo ni en ninguna delegación del Registro Civil”, concluyó.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/10/dni.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social/",
+        "https://www.regciviltucuman.gob.ar/2025/"
+      ],
+      "date_start": "2026-07-07",
+      "date_end": "2026-07-07",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-07T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social/",
+        "https://www.regciviltucuman.gob.ar/2025/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "banda-del-rio-sali-cronograma-del-programa-garrafa-social",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social/",
+      "title": "Banda del Rio Sali: Cronograma del programa Garrafa Social",
+      "published": "2026-07-07",
+      "modified": "2026-07-07T10:34:35",
+      "description": "Durante todo el mes de julio continuará la entrega del programa de garrafa social en distintos barrios de la ciudad de Banda del Rio Sali.",
+      "content": "Durante todo el mes de julio continuará la entrega del programa de garrafa social en distintos barrios de la ciudad de Banda del Rio Sali.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/06/4.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-07-07",
+      "date_end": "2026-07-07",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-07T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "convocan-a-participar-en-campanas-de-donacion-de-sangre-voluntaria",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/convocan-a-participar-en-campanas-de-donacion-de-sangre-voluntaria/",
+      "title": "Convocan a participar en campañas de Donación de sangre Voluntaria",
+      "published": "2026-07-07",
+      "modified": "2026-07-07T10:49:26",
+      "description": "Cada lunes, el Hospital Centro de Salud recibe a decenas de personas que, de manera voluntaria y altruista, se acercan para donar sangre y contribuir a salvar vidas. La coordinadora de la Unidad de Hemoterapia del Hospital Centro de Salud, bioquímica especialista en Hematología Cecilia Laura Jiménez, destacó que todos los lunes hábiles el servicio funciona…",
+      "content": "Cada lunes, el Hospital Centro de Salud recibe a decenas de personas que, de manera voluntaria y altruista, se acercan para donar sangre y contribuir a salvar vidas. La coordinadora de la Unidad de Hemoterapia del Hospital Centro de Salud, bioquímica especialista en Hematología Cecilia Laura Jiménez , destacó que todos los lunes hábiles el servicio funciona de 8 a 12 horas, recibiendo a donantes que deseen colaborar de forma voluntaria. “Tenemos un espacio habilitado para recibir a quienes quieran donar sangre de manera altruista. Les solicitamos que concurran con su Documento Nacional de Identidad, que hayan desayunado liviano, evitando alimentos con grasas, ya que posteriormente también les ofrecemos un refrigerio para su recuperación”, explicó. La profesional indicó que pueden donar personas de entre 18 y 65 años, con un peso superior a los 55 kilogramos y buen estado de salud. Además, antes de la extracción se realiza una evaluación integral que incluye una entrevista médica, control de presión arterial y medición de hemoglobina para garantizar la seguridad tanto del donante como del receptor. Jiménez también recordó que quienes hayan sido sometidos a una cirugía o se hayan realizado tatuajes o piercings deben esperar al menos seis meses antes de donar. Asimismo, recomendó descansar un mínimo de seis horas previamente y, en el caso de los fumadores, evitar el consumo de cigarrillos durante las tres horas anteriores y posteriores a la donación. Respecto a los trabajadores que concurren a donar, señaló que el servicio entrega la certificación correspondiente. “Otorgamos un certificado de donación y, además, un comprobante que justifica la asistencia laboral para quienes necesiten presentarlo en su lugar de trabajo”, afirmó. Banda del Rio Sali: Cronograma del programa Garrafa Social Durante la entrevista, la especialista aprovechó para desmentir algunos de los mitos más frecuentes relacionados con la donación de sangre. Explicó que el procedimiento consiste en la extracción de aproximadamente 450 mililitros, un volumen que el organismo repone naturalmente con el paso de los días. “Muchas personas creen que donar sangre engorda o que produce un gran dolor, pero eso no es cierto. Se realiza un único pinchazo mientras el donante permanece cómodamente recostado en sillones reclinables. Generalmente la experiencia es muy bien tolerada”, sostuvo. También aclaró que las personas con hipertensión arterial controlada pueden donar, ya que durante todo el procedimiento permanecen bajo supervisión del equipo de salud y reciben asistencia hasta comprobar que se encuentran en condiciones de retirarse. Uno de los aspectos más destacados de estas jornadas es la importante convocatoria que logran cada semana. Según detalló Jiménez, habitualmente concurren entre 20 y 35 donantes, una respuesta que refleja una creciente conciencia solidaria de la comunidad. “Nos pone muy contentos que tantas personas se acerquen. La sangre no puede fabricarse ni comprarse; solamente puede obtenerse gracias a la solidaridad de otra persona. Hoy tenemos pacientes internados, personas con enfermedades oncológicas y hematológicas, además de quienes requieren transfusiones durante cirugías, por lo que cada donación representa una oportunidad para salvar vidas”, remarcó. Finalmente, la coordinadora invitó a toda la comunidad a sumarse a las jornadas de donación que se realizan todos los lunes de 8 a 12 en el Hospital Centro de Salud. Asimismo, recordó que el Banco Central de Sangre recibe donantes de lunes a viernes, de 7 a 12 horas , en avenida Mitre 236, además de otros puntos habilitados en el Hospital Padilla, la Maternidad y la ciudad de Monteros.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/06/4-4.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social/"
+      ],
+      "date_start": "2026-07-07",
+      "date_end": "2026-07-07",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-07T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/banda-del-rio-sali-cronograma-del-programa-garrafa-social/"
+      ],
+      "occurrences": []
+    },
     {
       "id": "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
       "source": "Agenda Tucumán - Servicios",
