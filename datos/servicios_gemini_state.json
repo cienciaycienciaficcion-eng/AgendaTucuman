@@ -209,6 +209,11 @@
       "selected": true,
       "processed_at": "2026-10-05T08:36:17.684251+00:00",
       "reason": "Informa sobre el cronograma y ubicaciones de las jornadas de Eco Canje, un operativo municipal de reciclaje y medio ambiente de utilidad pública para los vecinos de San Miguel de Tucumán."
+    },
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-4": {
+      "selected": true,
+      "processed_at": "2026-10-05T10:32:14.334065+00:00",
+      "reason": "Informa sobre las ofertas y productos del programa municipal 'Mercado en tu Barrio' en San Miguel de Tucumán, lo cual constituye un servicio de utilidad pública para los ciudadanos."
     }
   },
   "selected_ids": [
@@ -240,12 +245,13 @@
     "llevan-tramites-asistencia-tecnica-y-servicios-gratuitos-a-los-barrios-floresta-y-el-molino",
     "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-5",
     "estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-6",
-    "donde-habra-jornadas-de-eco-canje-esta-semana-5"
+    "donde-habra-jornadas-de-eco-canje-esta-semana-5",
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-4"
   ],
-  "updated_at": "2026-10-05T08:36:17.685927+00:00",
+  "updated_at": "2026-10-05T10:32:14.335237+00:00",
   "gemini_usage": {
     "date": "2026-10-05",
-    "calls": 19
+    "calls": 20
   },
   "groq_usage": {
     "date": "2026-10-05",

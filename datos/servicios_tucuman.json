@@ -1,12 +1,52 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T08:36:17.684720+00:00",
+  "generated_at": "2026-10-05T10:32:14.334360+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
-  "processed_this_run": 5,
-  "count": 29,
+  "processed_this_run": 1,
+  "count": 30,
   "events": [
+    {
+      "id": "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-4",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-4/",
+      "title": "Estas son las principales ofertas del Mercado en tu Barrio para esta semana",
+      "published": "2026-07-13",
+      "modified": "2026-07-13T10:37:40",
+      "description": "El Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, continúa ofreciendo alimentos y productos para el hogar a precios accesibles, para favorecer la economía familiar. Algunas de las ofertas que están disponibles esta semana son las siguientes: Panadería El stand vende el kilo de…",
+      "content": "El Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, continúa ofreciendo alimentos y productos para el hogar a precios accesibles, para favorecer la economía familiar. Algunas de las ofertas que están disponibles esta semana son las siguientes: Panadería El stand vende el kilo de pan a $ 1.800, seis tortillas por $ 1.000, facturas a $ 400 la unidad, budines a $ 2.000, galletas pepitos a $ 1.200 los 100 gramos, dos alfajores de maicena $ 1.000, prepizzas a $ 2.000 cada una, pan de Viena o de hamburguesas a $ 900, tres mantecados por $ 1.000, galletas con chips a $ 1.200 por 100 gramos, la porción de pastafrola a $ 1.000, 100 gramos de galletas de avena a $ 1.200, alfajor de chocolate a $ 1000 y milhojas a $ 1500. Verdulería En el puesto se consiguen tres kilos de papa por $ 4.000, un kilo de cebolla por $ 1.500, un kilo y medio de zanahoria por $ 2.000; el kilo de tomate a $ 2.000, dos kilos de batata por $ 3.500, el kilo de zapallo brasilero a $ 1.200, el kilo de coreano a $ 1.500, el kilo de zapallito verde a $ 2.000, dos atados de espinaca a $ 4.000, el kilo de pimiento verde a $ 3.000, dos unidades de brócoli por $ 5.000, dos atados de acelga por $ 4.000 y dos atados de rúcula a $ 2.500. En frutas, están en promoción los dos kilos de manzana a $ 5.000, dos kilos de pera a $ 5.000, dos kilos de banana por $ 4.000, 18 naranjas por $ 2.000, 20 mandarinas criollas por $ 2.000 y cuatro pomelos por $ 1.000. Forrajería El local de forrajería mantiene las ofertas de cinco bolsas de condimentos surtidos a $ 2.000, cuatro bolsas de condimentos más dos bolsas de cereales o maní a $ 2.500, tres bolsas de cereales a $ 1.500, y una bandeja de mix de cereales más una bandeja de granola a $ 2.500. Productos de limpieza El rubro sigue ofreciendo dos litros de jabón líquido por $ 2.500, dos litros de suavizante por $ 2.500, dos litros de desodorante para pisos a $ 1.800, dos litros de lavandina a $ 1.600, el litro de detergente lavavajillas premium por $ 4.000 y un litro de desengrasante a $ 2.700. Cítricos El emprendimiento mantiene en promoción las 18 naranjas (tangerinas y criollas) a $ 2.000, 12 limones por $ 1.000, y 10 pomelos rojos a $ 2.000. Tafí Viejo: Lanzan una campaña solidaria para recolectar abrigos Productos para mascotas En el puesto de artículos para el cuidado de las mascotas se consiguen las cinco pipetas por $ 15.000, tres por $ 9.500, y dos por $ 7.000; una pipeta y un champú pulguicida a $ 9.000; un talco pulguicida y una pipeta a $ 8.500; y una pipeta y un Ecthol de 70 ml a $ 9.000. También ofrece cinco kilos de alimento para perros adultos a $ 8.500 y cinco kilos de alimento para gatos por $ 12.000. Huevos El stand de Don Lucio vende huevos de producción tucumana certificados por el SENASA, las 90 unidades a $ 12.500. En tanto, Mr. Huevo ofrece las tres bandejas a huevos de granja frescos a $12.000. Alimentos saludables sin TACC El puesto ofrece una cajita saludable sin TACC a $ 10.000 que contiene dos hamburguesas de quinoa, tres milanesas de soja, dos hamburguesas rellenas y dos bombas de papas. También ofrece tamales freezados libres de gluten a $ 3.500 cada uno y tres por $ 9.000. Librería El rubro sigue con la edición especial por el Mundial y ofrece pelotas a $ 12.000, pelotas chicas de Messi a $ 6.500, camisetas de la Selección azules y albicelestes a $ 14.000 para niños o adultos y talles XL a $ 16.000, y el Álbum de Figuritas Panini a $ 18.000. Productos regionales El tráiler ofrece promociones de un salamín más un queso criollo por $ 19.000; un vino patero más un vino mistela a $ 12.000; y un aceite de oliva más aceituna verde por $ 15.000. Miel El puesto vende el bidón de tres kilos de miel a $ 30.000. Vivero El gacebo vende suculentas y cactus a $ 3.000 la unidad y cuatro por $ 10.000, singonio a $ 5.000; lazo de amor a $ 4.000, crotón chico a $ 10.000, peperomias a $ 12.000, estrella federal a $ 15.000, vincapervinca a $ 13.000, ficus disciplinado por $ 20.000, helechos a $ 12.000 y palo de agua a $ 17.000. Dónde estará el Mercado en tu Barrio esta semana Esta semana, de 9 a 14 h, los puestos estarán en los siguientes lugares: Lunes 13 de julio: Plaza Urquiza Martes 14 de julio: Palacio Municipal, 9 de Julio y Lavalle Miércoles 15 de julio: Plaza San Martín Jueves 16 de julio: pasaje Wurschmidt 1086, altura Coronel Suárez 1550, Barrio Alto La Pólvora Viernes 17 de julio; 24 de Septiembre al 300. Las actividades se suspenden por lluvia.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2023/07/mercado-1.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "mercado",
+        "ofertas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/tafi-viejo-lanzan-una-campana-solidaria-para-recolectar-abrigos/"
+      ],
+      "date_start": "2026-07-13",
+      "date_end": "2026-07-13",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-13T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/tafi-viejo-lanzan-una-campana-solidaria-para-recolectar-abrigos/"
+      ],
+      "occurrences": []
+    },
     {
       "id": "donde-habra-jornadas-de-eco-canje-esta-semana-5",
       "source": "Agenda Tucumán - Servicios",
