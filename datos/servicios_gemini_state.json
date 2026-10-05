@@ -149,6 +149,26 @@
       "selected": true,
       "processed_at": "2026-10-05T00:40:37.906652+00:00",
       "reason": "Informa sobre la ubicación y cronograma del programa municipal 'Mercado en tu Barrio', el cual es un servicio de mercado y operativo municipal de utilidad pública."
+    },
+    "donde-estara-la-clinica-veterinaria-movil-esta-semana-2": {
+      "selected": true,
+      "processed_at": "2026-10-05T02:29:24.202806+00:00",
+      "reason": "Informa sobre la ubicación y obtención de turnos para la clínica veterinaria móvil gratuita en barrios de Tucumán, lo cual constituye un servicio público de salud animal."
+    },
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-6": {
+      "selected": true,
+      "processed_at": "2026-10-05T02:29:40.087741+00:00",
+      "reason": "Informa sobre la ubicación y fechas del Programa Hospital Móvil, un servicio de salud pública y operativo sanitario de utilidad para los ciudadanos."
+    },
+    "por-el-dia-del-nino-el-comercio-tucumano-abrira-viernes-y-sabado-en-horario-corrido": {
+      "selected": false,
+      "processed_at": "2026-10-05T02:29:54.232540+00:00",
+      "reason": "Ayuda a los ciudadanos a planificar sus compras y actividades comerciales."
+    },
+    "nuevas-jornadas-de-eco-canje-esta-semana": {
+      "selected": false,
+      "processed_at": "2026-10-05T02:30:22.893136+00:00",
+      "reason": "Facilita la participación ciudadana en la recolección y reciclaje de residuos"
     }
   },
   "selected_ids": [
@@ -172,15 +192,17 @@
     "estas-son-las-principales-ofertas-del-mercado-municipal-dorrego-para-esta-semana",
     "donde-habra-jornadas-de-eco-canje-esta-semana-6",
     "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-6",
-    "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2"
+    "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana-2",
+    "donde-estara-la-clinica-veterinaria-movil-esta-semana-2",
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-6"
   ],
-  "updated_at": "2026-10-05T00:40:37.907794+00:00",
+  "updated_at": "2026-10-05T02:30:22.894534+00:00",
   "gemini_usage": {
     "date": "2026-10-05",
-    "calls": 5
+    "calls": 8
   },
   "groq_usage": {
-    "date": "2026-10-04",
-    "calls": 10
+    "date": "2026-10-05",
+    "calls": 3
   }
 }
