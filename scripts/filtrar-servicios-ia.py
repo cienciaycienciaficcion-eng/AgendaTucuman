@@ -4,8 +4,8 @@
 
 - Los artículos descargados desde la web se filtran primero sin IA.
 - Cada artículo guarda un hash de contenido en el estado persistente.
-- Un artículo sin cambios NO vuelve a consumir Gemini/Groq.
-- Si cambia título, fecha, descripción, contenido, URL o enlaces, se vuelve a analizar.
+- Un artículo sin cambios no vuelve a consumir Gemini/Groq.
+- Si cambia contenido relevante, se vuelve a analizar.
 - Gemini se usa primero mientras tenga cuota; Groq es fallback automático.
 - Los resultados seleccionados se conservan entre ejecuciones.
 """
