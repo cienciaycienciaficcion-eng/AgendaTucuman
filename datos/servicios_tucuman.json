@@ -1,12 +1,198 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T06:42:11.569522+00:00",
+  "generated_at": "2026-10-05T08:36:17.684720+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 300,
   "candidate_count": 282,
   "processed_this_run": 5,
-  "count": 24,
+  "count": 29,
   "events": [
+    {
+      "id": "donde-habra-jornadas-de-eco-canje-esta-semana-5",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-5/",
+      "title": "Dónde habrá jornadas de Eco Canje esta semana",
+      "published": "2026-07-21",
+      "modified": "2026-07-21T12:55:28",
+      "description": "Esta semana, la Municipalidad de San Miguel de Tucumán llevará a cabo nuevas jornadas de Eco Canje en distintos puntos de la ciudad. En el puesto de la Dirección de Ambiente, los vecinos podrán entregar un mínimo de 10 unidades de residuos reciclables (papel, cartón, plástico, metal o vidrio, limpios y secos) y recibir a…",
+      "content": "Esta semana, la Municipalidad de San Miguel de Tucumán llevará a cabo nuevas jornadas de Eco Canje en distintos puntos de la ciudad. En el puesto de la Dirección de Ambiente, los vecinos podrán entregar un mínimo de 10 unidades de residuos reciclables (papel, cartón, plástico, metal o vidrio, limpios y secos) y recibir a cambio plantines, tierra abonada, chip de poda, café seco y porta sahumerios artesanales, entre otros presentes. La programación es la siguiente: Lunes 20 9 a 12 h – Parque Avellaneda, Mate de Luna y Asunción. 17.30 a 19 h – Capilla San Expedito, Rawson y B. López. Martes 21 9 a 12 h – Plaza Yrigoyen, Pje. Vélez Sarsfield y 9 de Julio. 10 a 12 h – Barrio La Pólvora, Luis F. Nougués y Roque Aragón. 10 a 12 h – Barrio Belgrano, General Paz y Gorriti. Miércoles 22 9 a 12 h – Plaza San Martín, Lavalle y Chacabuco. 10 a 12 h – Palacio Municipal, 9 de Julio y Lavalle. 10 a 12 h – Barrio San Cayetano, Fleming y Anselmo Rojo. 17.30 a 19 h – Plaza Sutiaga, General de San Martín y avenida Colón. Jueves 23 9 a 12 h – Plaza Evita, Juan B. Justo y España. 10 a 12 h – Plazoleta Mitre, Av. Sarmiento y Av. Mitre. 10 a 12 h – Barrio 17 de Agosto, Coronel Zelaya y Olleros. 16 a 17.30 h – Dirección de Niñez y Juventud, Venezuela 3200. Viernes 24 9 a 12 h – Plaza Urquiza, 25 de Mayo y Sarmiento. 17.30 a 19 h – Plaza Parque Sur, Bernabé Aráoz y Pisarello. Las actividades al aire libre se suspenden en caso de lluvias.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/07/1-2.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "eco-canje",
+        "servicios",
+        "SMT"
+      ],
+      "links": [],
+      "date_start": "2026-07-21",
+      "date_end": "2026-07-21",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-21T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-6",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-ofertas-semanales-del-mercado-municipal-dorrego-6/",
+      "title": "Estas son las ofertas semanales del Mercado Municipal Dorrego",
+      "published": "2026-07-22",
+      "modified": "2026-07-22T09:55:55",
+      "description": "En los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, los vecinos podrán conseguir ofertas de productos de la canasta familiar y disfrutar de una rica oferta gastronómica en el patio de comidas. Los locales trabajan de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h;…",
+      "content": "En los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, los vecinos podrán conseguir ofertas de productos de la canasta familiar y disfrutar de una rica oferta gastronómica en el patio de comidas. Los locales trabajan de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h; y los domingos, de 9 a 15.30 h. Se aceptan diferentes medios de pago (efectivo, transferencia y débito). Algunas de las promociones que estarán disponibles desde este lunes 20 hasta el sábado 25 de julio, son las siguientes: Carnicería En los puestos de carnicería se podrán conseguir promociones de dos kilos de puchero por $ 22.000, dos kilos de costeleta de cerdo por $ 20.000, un kilo de matambre de cerdo por $ 19.000, un kilo de costilla de cerdo por $ 11.900 y un kilo de hígado por $ 6.000. Además, habrá combos de un kilo de primo, un kilo de milanesas y un kilo de costeleta por $ 40.000; un kilo de vacío, un kilo de chorizo y un kilo de paleta por $ 40.000; y un kilo de chorizo, un kilo de alita y un kilo de hamburguesas por $ 39.000. Panadería Esta semana se podrán conseguir promociones de un kilo de pan por $ 2.200, cinco facturas por $ 2.000 y 10 tortillas por $ 2.300. Dónde habrá jornadas de Eco Canje esta semana Pollería Los puestos de pollería ofrecen promociones de tres kilos de pata muslo por $ 12.900; un kilo de suprema por $ 9.500; un kilo de molida de pollo por $ 5.500; y filet de pollo a $ 12.000 el kilo. Además, en otro de los locales del rubro se ofrecen un kilo de milanesas de suprema por $ 9.000, un kilo de carne molida de pollo por $ 5.000 Fiambrería En el sector de fiambrería se podrán conseguir leche Cosalta entera por litro a $ 1.600 y dulce de leche repostero de tres kilos por $ 10.500. Comidas Entre las propuestas gastronómicas del patio de comidas se destacan promociones de seis empanadas más dos bombas o quipes por $ 9.500; dos bombitas o quipes con guarnición por $ 7.000; dos patas muslo con guarnición y gaseosa por $ 18.000; y una docena de empanadas más una gaseosa de litro y medio por $ 16.000. También se podrán adquirir la tradicional kafta por $ 4.500 la unidad; hamburguesa especial por $ 7.500; hamburguesa común por $ 6.500; tarta con gaseosa por $ 9.500; y calzone con gaseosa por $ 8.000. Entre las opciones también se ofrecen dos platos de guiso de lentejas con gaseosa de un litro y medio por $ 15.500; napolitana con guarnición por $ 11.000; milanesa con guarnición por $ 9.000; dos empanadas, dos porciones de pizza y gaseosa por $ 7.000; pizza común por $ 9.000; pizza especial por $ 12.000; pizza con huevo por $ 12.000; pollo al horno con guarnición por $ 8.000; merluza a la romana con guarnición por $ 9.000; marinera con guarnición por $ 9.000; bombas de queso o de carne por $ 2.300 la unidad; empanadas de pollo por $ 2.300; empanadas de matambre por $ 2.500; y tamales por $ 2.000 la unidad. Pescadería En el sector de pescadería se vende sábalo a $ 7.000 el kilo y merluza a $ 11.000 el kilo.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/03/Mercado-Dorrego-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "Mercado Dorrego",
+        "ofertas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-5/"
+      ],
+      "date_start": "2026-07-22",
+      "date_end": "2026-07-22",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-22T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-5/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-5",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-5/",
+      "title": "Estas son las principales ofertas del Mercado en tu Barrio para esta semana",
+      "published": "2026-07-22",
+      "modified": "2026-07-22T10:07:42",
+      "description": "Los puestos del programa El Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, continúan recorriendo espacios públicos de la ciudad con promociones en productos de la canasta básica, para favorecer la economía familiar. Algunas de las ofertas que están disponibles esta semana son las…",
+      "content": "Los puestos del programa El Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, continúan recorriendo espacios públicos de la ciudad con promociones en productos de la canasta básica, para favorecer la economía familiar. Algunas de las ofertas que están disponibles esta semana son las siguientes: Verdulería En el stand de verdulería se destacan las promociones de tres kilos de papa por $ 4.000, un kilo de cebolla a $ 1.500, un kilo y medio de zanahoria por $ 2.000, el kilo de tomate pera grande a $ 3.000, dos kilos de batata por $ 3.500, el kilo de zapallo brasilero a $ 1.500, el kilo de zapallo coreano a $ 1.500 y dos kilos de zapallito verde por $ 3.000. En frutas, continúan las ofertas de dos kilos de manzana, pera o banana por $ 5.000; 18 naranjas por $ 2.000, 12 mandarinas criollas por $ 2.000 y cuatro pomelos por $ 1.000. Además, se ofrecen dos atados de espinaca por $ 5.000, el kilo de pimiento verde a $ 3.000, dos brócolis por $ 5.000, dos atados de acelga por $ 4.000 y dos atados de rúcula por $ 2.500. Forrajería En el puesto de forrajería se consiguen cinco bolsas de condimentos surtidos por $ 2.000, cuatro bolsas de condimentos más dos bolsas de cereales o maní por $ 2.500, tres bolsas de cereales por $ 1.500 y una bandeja de mix de cereales más una bandeja de granola por $ 2.500. Productos para mascotas En el stand de artículos para el cuidado de las mascotas continúan las promociones de cinco pipetas por $ 15.000, tres por $ 9.500 y dos por $ 7.000; una pipeta y un champú pulguicida por $ 9.000; una pipeta y un talco pulguicida por $ 8.500; y una pipeta más un Ecthol de 70 ml por $ 9.000. También ofrece cinco kilos de alimento balanceado Belcan para perros adultos por $ 8.500 y cinco kilos de alimento Esencial para gatos por $ 12.000. Huevos Los vecinos podrán conseguir huevos frescos de granja con promociones de 15 unidades por $ 3.000, una bandeja de 30 huevos por $ 4.500 y tres bandejas (90 unidades) por $ 12.500. Talleres en Tafí Viejo: Formación y creatividad para los vecinos Productos regionales En este rubro se ofrecen distintas promociones que incluyen un vino patero, un salame y un queso criollo por $ 24.500; un cuarto de queso y un salamín por $ 19.500; un queso criollo y un salamín por $ 20.000; y un aceite de oliva junto con aceitunas verdes por $ 15.000. Alimentos sin TACC El puesto de productos aptos para celíacos ofrece dos promociones especiales a $ 10.000 cada una. La primera incluye dos bombas de papa, dos hamburguesas de legumbres, tres milanesas de soja y un tamal vegetariano. La segunda contiene dos hamburguesas rellenas, dos hamburguesas de quinoa, tres milanesas de garbanzo y una tarta vegetariana. Librería y útiles escolares El stand de venta de libros y útiles escolares mantiene las promociones del block Laprida de 480 hojas, rayado o cuadriculado, por $ 19.500 y el de 96 hojas por $ 4.500. Además, ofrece cuadernos anillados de tapa dura de 100 hojas por $ 4.700; cuadernos de tapa blanda por $ 3.100 (o $ 3.000 cada uno llevando dos o más); cartucheras con personajes infantiles por $ 4.300 y sets de arte por $ 18.000. Miel El puesto comercializa bidones de tres kilos de miel por $ 32.000. Productos de limpieza El rubro ofrece dos litros de jabón líquido Ariel por $ 2.500, dos litros de suavizante por $ 2.500, dos litros de lavandina por $ 1.600, dos litros de desodorante para pisos por $ 1.800, un litro de detergente lavavajillas premium tipo Magistral por $ 4.000 y un litro de desengrasante por $ 2.700. Panadería En el stand de panadería se puede conseguir el kilo de pan a $ 1.800, seis tortillas por $ 1.000 y facturas a $ 400 cada una. También se ofrecen budines por $ 2.000, pepitos y galletas con chips de chocolate a $ 1.200 los 100 gramos, dos alfajores de maicena por $ 1.000, prepizzas por $ 2.000, panes para viena o hamburguesa por $ 900, tres mantecados por $ 1.000, porciones de pasta frola por $ 1.000, galletas de avena a $ 1.200 los 100 gramos, alfajores de chocolate por $ 1.000 la unidad y milhojas a $ 1.500 cada uno. Dónde estará el Mercado en tu Barrio esta semana Esta semana, de 9 a 14 h, los puestos estarán en los siguientes lugares: Martes 21 de julio: 24 de Septiembre al 300 Miércoles 22 de julio: Plaza San Martín Jueves 23 de julio: Club All Boys (Lucas Córdoba al 1100). Viernes 24 de julio: 24 de Septiembre al 300. Las actividades se suspenden por lluvia.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/02/mercado-en-tu-barrio-tucuman-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "el mercado en tu barrio",
+        "ofertas"
+      ],
+      "links": [
+        "https://agendatucuman.com.ar/talleres-en-tafi-viejo-formacion-y-creatividad-para-los-vecinos/"
+      ],
+      "date_start": "2026-07-22",
+      "date_end": "2026-07-22",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-07-22T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://agendatucuman.com.ar/talleres-en-tafi-viejo-formacion-y-creatividad-para-los-vecinos/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "llevan-tramites-asistencia-tecnica-y-servicios-gratuitos-a-los-barrios-floresta-y-el-molino",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/llevan-tramites-asistencia-tecnica-y-servicios-gratuitos-a-los-barrios-floresta-y-el-molino/",
+      "title": "El Operativo Integral de la Capital acerca trámites y servicios gratuitos a los barrios Floresta y El Molino",
+      "published": "2026-08-03",
+      "modified": "2026-08-03T12:02:54",
+      "description": "La Municipalidad de San Miguel de Tucumán continúa descentralizando la atención para llegar directamente a cada rincón de la capital. Esta semana, el Operativo Integral Municipal ofrecerá una amplia gama de trámites, servicios asistenciales, propuestas culturales y tareas de mantenimiento ambiental para vecinos de los barrios Floresta y El Molino. Las actividades se desarrollarán en…",
+      "content": "La Municipalidad de San Miguel de Tucumán continúa descentralizando la atención para llegar directamente a cada rincón de la capital. Esta semana, el Operativo Integral Municipal ofrecerá una amplia gama de trámites, servicios asistenciales, propuestas culturales y tareas de mantenimiento ambiental para vecinos de los barrios Floresta y El Molino. Las actividades se desarrollarán en el horario habitual de 9 a 12 h, con acceso libre y gratuito. Se suspenden en caso de lluvia. Cronograma y prestaciones por día Martes 4 de agosto: Barrio Floresta, Pasaje Serrano 600 (entre Bolívar y Lavalle). Trámite de DNI: Atención y asesoramiento para la renovación o actualización del documento nacional de identidad. Tarjeta SUBE: Gestión de la tarjeta de transporte público Licencia de Conducir: Asesoramiento y gestión a través del tráiler móvil. El Mercado en tu Barrio: Puestos con productos de primera necesidad, alimentos frescos y de calidad a precios accesibles para la economía familiar. Miércoles 5 de agosto: Barrio El Molino, Juan Posse 2090. Trámites de DNI y Tarjeta SUBE: Puestos de gestión rápida para documentación personal y transporte. Licencia de Conducir: Renovación y trámites de emisión del carnet de manejo. Turismo: Stand informativo para dar a conocer los circuitos turísticos e históricos más destacados de la ciudad. CIC Municipal: Exposición y degustación de producciones locales como mermeladas artesanales, además de difusión de los talleres y actividades que se dictan en los Centros Integradores Comunitarios. Mantenimiento y Medio Ambiente (BIR): Tareas complementarias de limpieza, desmalezamiento y cuidado de espacios públicos en el sector a cargo de la Brigada de Intervención Rápida. Actividades recreativas para los más chicos. Jueves 6 de agosto: Barrio El Molino, Juan Posse 2090. Tráiler de Licencia de Conducir y Gestión de DNI. El Mercado en tu Barrio. Corte de pelo gratuito para niños: Servicio de peluquería infantil sin costo. Eco Canje: Espacio para que las familias lleven sus residuos reciclables (plástico, cartón, vidrio) a cambio de plantas u otros presentes. Bromatología: Asesoramiento sobre manipulación segura de alimentos y controles higiénico-sanitarios. Programa PIA (Descacharreo): Colocación de contenedores comunitarios para el depósito de cacharros, chatarra y elementos en desuso, en el marco de las acciones preventivas del dengue. Mantenimiento (BIR): Continuación de las tareas de limpieza e intervención en los espacios verdes del barrio.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/08/ciel.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-08-03",
+      "date_end": "2026-08-03",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-03T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/aqui-se-instalara-el-mercado-en-tu-barrio-esta-semana/",
+      "title": "Aquí se instalará el Mercado en tu Barrio esta semana",
+      "published": "2026-08-05",
+      "modified": "2026-08-05T11:14:58",
+      "description": "El programa municipalMercado en tu Barrio, volverá esta semana a instalarse en diferentes espacios públicos de la ciudad para acercar opciones a precios convenientes. Las ofertas estarán disponibles hasta el próximo viernes 7 de agosto.",
+      "content": "El programa municipalMercado en tu Barrio, volverá esta semana a instalarse en diferentes espacios públicos de la ciudad para acercar opciones a precios convenientes. Las ofertas estarán disponibles hasta el próximo viernes 7 de agosto.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/03/mercado-en-tu-barrio.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "el mercado en tu barrio",
+        "ofertas"
+      ],
+      "links": [],
+      "date_start": "2026-08-05",
+      "date_end": "2026-08-05",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-08-05T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
     {
       "id": "donde-estara-la-clinica-veterinaria-movil-esta-semana",
       "source": "Agenda Tucumán - Servicios",
