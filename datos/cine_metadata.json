@@ -1,98 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-04T10:48:49.536040-03:00",
+  "generated_at": "2026-10-05T09:43:47.003525-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
-    {
-      "title": "TOY STORY 5 - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-04",
-      "duration_minutes": 102,
-      "genres": [
-        "Animación Aventuras"
-      ],
-      "director": [
-        "Andrew Stanton"
-      ],
-      "cast": [
-        "Tom Hanks",
-        "Tim Allen",
-        "Joan Cusack",
-        "Conan O'Brien",
-        "Greta Lee."
-      ],
-      "synopsis": "Los juguetes están de vuelta en «Toy Story 5», de Disney y Pixar, y esta vez se enfrentan los juguetes y la tecnología. El trabajo de Buzz, Woody, Jessie y el resto de la pandilla se complica exponencialmente cuando se enfrentan a esta nueva amenaza para el tiempo de juego.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3398_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Estados Unidos",
-      "distributor": "Disney",
-      "trailer": "https://www.youtube.com/embed/s_qpMMkvHYE",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5608-TOY-STORY-5---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 18 de Junio de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5608,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "COYOTE VS ACME - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-04",
-      "duration_minutes": 110,
-      "genres": [
-        "Animación Familiar"
-      ],
-      "director": [
-        "Dave Green"
-      ],
-      "cast": [
-        "John Cena",
-        "Will Forte",
-        "Lana Condor",
-        "Tone Bell"
-      ],
-      "synopsis": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3548_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Estados Unidos",
-      "distributor": "BF",
-      "trailer": "https://www.youtube.com/embed/r4HNeBH7Q4A",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5736-COYOTE-VS-ACME---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 27 de Agosto de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5736,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
     {
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -131,7 +46,7 @@
       "title": "LA ISLA OLVIDADA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 109,
       "genres": [
         "Animación Aventuras"
@@ -170,7 +85,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -211,7 +126,7 @@
       "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 120,
       "genres": [
         "Animé"
@@ -253,7 +168,7 @@
       "title": "DIGGER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 129,
       "genres": [
         "Comedia Drama"
@@ -298,7 +213,7 @@
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -330,47 +245,6 @@
       ],
       "metadata_status": "complete_source",
       "cinemacenter_movie_id": 5801,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D SUB",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-04",
-      "duration_minutes": 118,
-      "genres": [
-        "Thriller"
-      ],
-      "director": [
-        "Michael Showalter"
-      ],
-      "cast": [
-        "Dakota Johnson",
-        "Anne Hathaway",
-        "Josh Hartnett"
-      ],
-      "synopsis": "Adaptada de la novela bestseller de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford (Anne Hathaway) y a Lowen Ashleigh (Dakota Johnson), una escritora en dificultades que se muda a la remota finca de los Crawford para escribir en nombre de Verity. Después de que Lowen descubre lo que parecen ser las inquietantes notas autobiográficas de Verity, se enfrenta a perturbadoras y retorcidas confesiones sobre el esposo de Verity, Jeremy (Josh Hartnett), mientras lucha por distinguir entre la ficción y la realidad, la manipulación y la atracción, y la oportunidad y la obsesión.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3563_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "UIP",
-      "trailer": "https://www.youtube.com/embed/UdiWMHwobtE",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5802-VERITY-LA-SOMBRA-DE-UN-ENGA-O---2D-SUB",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5802,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -424,7 +298,7 @@
       "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 99,
       "genres": [
         "Comedia"
@@ -463,7 +337,7 @@
       "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-04",
+      "release_date": "2026-10-05",
       "duration_minutes": 90,
       "genres": [
         "Animación Aventuras"
@@ -493,50 +367,6 @@
       ],
       "metadata_status": "partial_source",
       "cinemacenter_movie_id": 5812,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "VERTIGO 2 - 2D SUB",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-04",
-      "duration_minutes": 100,
-      "genres": [
-        "Thriller"
-      ],
-      "director": [
-        "Michael Spierig",
-        "Peter Spierig"
-      ],
-      "cast": [
-        "Grace Caroline Currey",
-        "Virginia Gardner",
-        "Harriet Slater",
-        "Arsema Thomas",
-        "Tom Brittney."
-      ],
-      "synopsis": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3578_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "BF + PARIS FILM",
-      "trailer": "https://www.youtube.com/embed/y7FeJVcfMGo",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5813-VERTIGO-2---2D-SUB",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5813,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -576,8 +406,8 @@
     }
   ],
   "summary": {
-    "total": 13,
-    "complete_source": 11,
+    "total": 9,
+    "complete_source": 7,
     "partial_source": 2,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
