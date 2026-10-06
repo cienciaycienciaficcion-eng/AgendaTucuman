@@ -95,6 +95,80 @@
     "summary_source_hash": "75b874e19f33560eec538ec97121c033dc814bc2e52f8d961afa7a9b908d279e"
   },
   {
+    "id": "46645",
+    "source": "MEC",
+    "title": "8 de octubre| Jornada de literatura, música y expresiones de la cultura japonesa",
+    "url": "https://agendatucuman.com.ar/eventos/8-de-octubre-jornada-de-literatura-musica-y-expresiones-de-la-cultura-japonesa/",
+    "date_start": "2026-10-08",
+    "date_end": "2026-10-08",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-10-08T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "La Casa de la Cultura Catalina Albarracín de Suárez será el punto de encuentro para una jornada dedicada a la literatura, la música y distintas expresiones de la cultura japonesa. La propuesta tendrá como eje la presentación del libro Instantes de Antonio Montes y busca acercar a la comunidad nuevas experiencias y miradas a través del arte. Durante la actividad, que tendrá lugar el jueves 8 a las 20.30, participarán Hashimoto Kazumasa y Daniel Agüero , representantes de la Asociación Japonesa de Tucumán, junto a Guadalupe Albornoz y Cristian Sandoval , quienes tendrán a su cargo los comentarios sobre la obra. El encuentro también permitirá conocer una expresión tradicional de Japón con una demostración de caligrafía japonesa, Arte Shodō , a cargo de Lilia Albornoz . La propuesta se completará con música en vivo de Pablo Laura y Nahuel Arroyo . La iniciativa forma parte de las propuestas culturales que buscan generar espacios de encuentro y promover el intercambio con distintas expresiones artísticas. Cuenta con el acompañamiento de la gestión de la intendenta Alejandra Rodríguez .",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/2-3.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-08",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-10-08T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-08",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Jornada dedicada a la cultura japonesa con la presentación del libro Instantes de Antonio Montes, música en vivo y demostración de caligrafía Shodō. El evento se realizará el jueves 8 de octubre a las 20:30 en la Casa de la Cultura Catalina Albarracín de Suárez. Participarán representantes de la Asociación Japonesa de Tucumán y artistas invitados.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0fad13d42d6f3d50e467a401d169836a4153f73367d1d96f23bd15f446860a63"
+  },
+  {
     "id": "44233",
     "source": "MEC",
     "title": "9, 10 y 11 de octubre| Olimpíadas Kinésicas Nacionales 2026",
@@ -271,49 +345,49 @@
     "summary_source_hash": "e785397c3e3d2c78cf773d82793b5fa23a481b5b5b3d94d81449805f96480a10"
   },
   {
-    "id": "45792",
+    "id": "46647",
     "source": "MEC",
-    "title": "Octubre| Tafí Viejo celebra el «Festival del Limón 2026»",
-    "url": "https://agendatucuman.com.ar/eventos/18-y-19-de-septiembre-tafi-viejo-celebra-el-festival-del-limon-2026/",
-    "date_start": "2026-10-31",
-    "date_end": "2026-10-31",
-    "time_start": "08:00",
+    "title": "11 de octubre| “Primavera y Danza” en la Casa de la Cultura de Tafí Viejo",
+    "url": "https://agendatucuman.com.ar/eventos/11-de-octubre-primavera-y-danza-en-la-casa-de-la-cultura-de-tafi-viejo/",
+    "date_start": "2026-10-11",
+    "date_end": "2026-10-11",
+    "time_start": "19:30",
     "time_end": "",
-    "start_datetime": "2026-10-31T08:00:00-03:00",
+    "start_datetime": "2026-10-11T19:30:00-03:00",
     "end_datetime": "",
-    "description": "El Municipio junto a la Comisión del Club Villa Mitre confirmaron que la próxima edición del Festival del Limón 2026 . Ampliaremos.",
+    "description": "La danza será protagonista de una nueva propuesta cultural en Tafí Viejo. La Casa de la Cultura Catalina Albarracín de Suárez recibirá el 2.º Encuentro de Danzas “Primavera y Danza” , organizado por el Estudio de Danzas La Malagueña. Bajo la dirección de la profesora María José Sánchez , el encuentro que será el domingo 11 , reunirá a bailarines y artistas para compartir una noche dedicada al movimiento, la expresión y el trabajo que se desarrolla en torno a la danza. La propuesta invita a disfrutar de diferentes formas de expresión sobre el escenario y a acompañar a quienes encuentran en esta disciplina un espacio para crear, aprender y compartir con la comunidad. El encuentro se realizará a las 19:30 , en la Casa de la Cultura, ubicada en Av. Alem 753 . La entrada tendrá un valor de $7.000 . La actividad cuenta con el acompañamiento de la gestión de la intendenta Alejandra Rodríguez y forma parte de la agenda impulsada por la Secretaría de Gestión Cultural y Gestión Educativa de la Municipalidad de Tafí Viejo .",
     "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/11/limon-rock.jpg",
-    "price": null,
-    "currency": "",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/2-4.jpg",
+    "price": 7000.0,
+    "currency": "ARS",
     "is_free": false,
     "location": "",
-    "address": "",
-    "city": "",
-    "organizer": "",
+    "address": "Alem 753",
+    "city": "Tafí Viejo",
+    "organizer": "el Estudio de Danzas",
     "contact_email": [],
     "contact_phone": [],
     "categories": [
-      "Musica"
+      "Teatro"
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Alem+753%2C+Taf%C3%AD+Viejo%2C+Tucum%C3%A1n%2C+Argentina",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
       {
-        "date": "2026-10-31",
-        "time_start": "08:00",
+        "date": "2026-10-11",
+        "time_start": "19:30",
         "time_end": "",
-        "start_datetime": "2026-10-31T08:00:00-03:00",
+        "start_datetime": "2026-10-11T19:30:00-03:00",
         "end_datetime": ""
       }
     ],
     "confidence": {
       "date": {
-        "source": "card",
-        "score": 0.9
+        "source": "title_day",
+        "score": 0.95
       },
       "time": {
         "source": "mec_card",
@@ -325,23 +399,180 @@
         "source": "",
         "score": 0
       },
-      "overall": 0.77
+      "overall": 0.78
     },
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-10-31",
-      "card_time": "08:00",
-      "date": "card",
+      "card_date": "2026-10-11",
+      "card_time": "19:30",
+      "date": "title_day",
       "time": "mec_card",
       "location": "",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-10"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El 11 de octubre se realizará el 2.° Encuentro de Danzas Primavera y Danza en la Casa de la Cultura de Tafí Viejo, ubicada en Alem 753. Organizado por el Estudio de Danzas La Malagueña y dirigido por la profesora María José Sánchez, el evento comenzará a las 19:30. La entrada general tendrá un valor de $7.000.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": "7544fbc0bc1015ca137cb19d10b231ea20c48700f5a70d9a48784180e7045313"
+    "summary_source_hash": "d4026698d1bc58c6e047376c4caf2dbdeebe5ad7f181eb240566a25c779b1b7b"
+  },
+  {
+    "id": "46643",
+    "source": "MEC",
+    "title": "12 de octubre| Gran bingo del Día de la Madre en Tafí Viejo",
+    "url": "https://agendatucuman.com.ar/eventos/12-de-octubre-gran-bingo-del-dia-de-la-madre-en-tafi-viejo/",
+    "date_start": "2026-10-12",
+    "date_end": "2026-10-12",
+    "time_start": "15:00",
+    "time_end": "",
+    "start_datetime": "2026-10-12T15:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Municipalidad de Tafí Viejo invita a la comunidad a participar del Gran Bingo por el Día de la Madre , una jornada recreativa pensada para compartir y celebrar en familia. El encuentro tendrá lugar el 12 de octubre, a partir de las 15 , en el Club Villa Mitre, ubicado en Chacabuco y Cochabamba . Durante la tarde habrá música en vivo, DJ, sorteos y distintas propuestas de entretenimiento para quienes se acerquen a disfrutar de la celebración. Se recomienda a los asistentes llevar reposera para mayor comodidad. Para facilitar la participación de vecinos de distintos sectores, se dispondrán colectivos gratuitos desde Los Pocitos y Lomas de Tafí . La actividad no se suspenderá por lluvia y forma parte de las propuestas destinadas a generar espacios de encuentro y celebración para las familias taficeñas.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/2-2.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-12",
+        "time_start": "15:00",
+        "time_end": "",
+        "start_datetime": "2026-10-12T15:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-12",
+      "card_time": "15:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El 12 de octubre desde las 15 se realizará el Gran Bingo del Día de la Madre en el Club Villa Mitre de Tafí Viejo, ubicado en Chacabuco y Cochabamba. Habrá música en vivo, DJ y sorteos. La entrada es libre, se recomienda llevar reposera y habrá colectivos gratuitos desde Los Pocitos y Lomas de Tafí.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "9c446d7eaeb94ddf890d61a0fd551193ae28e857fa46a774f3ec7b0092fc7d1d"
+  },
+  {
+    "id": "45792",
+    "source": "MEC",
+    "title": "16 y 17 de Octubre| Tafí Viejo celebra el «Festival del Limón 2026»",
+    "url": "https://agendatucuman.com.ar/eventos/18-y-19-de-septiembre-tafi-viejo-celebra-el-festival-del-limon-2026/",
+    "date_start": "2026-10-16",
+    "date_end": "2026-10-17",
+    "time_start": "08:00",
+    "time_end": "",
+    "start_datetime": "2026-10-16T08:00:00-03:00",
+    "end_datetime": "",
+    "description": "La 54° edición del Festival Nacional del Limón ya tiene sus entradas a la venta para disfrutar de dos noches a puro folclore y música popular en el Club Villa Mitre. El evento se llevará a cabo los días viernes 16 y sábado 17 de octubre , con una cartelera que reunirá artistas nacionales, regionales y locales. Una de las novedades destacadas es que se mantuvo el precio de las entradas , con un valor de $20.000 para la entrada general y $40.000 para platea . Las entradas pueden adquirirse en distintos puntos de venta. De manera presencial, se encuentran disponibles en la boletería del Club Atlético Villa Mitre , ubicada en Chacabuco 539, Tafí Viejo, y en la Casa Central de Tarjeta Sucrédito , en San Martín 836, San Miguel de Tucumán. También se pueden comprar de manera online a través de la plataforma oficial del festival: https://linktr.ee/festivalnacionaldellimon Los medios de pago habilitados incluyen efectivo, QR, tarjetas de crédito y débito , facilitando el acceso a las entradas para el público. «Festival del Limón 2026» La programación comenzará el viernes 16 de octubre , con las presentaciones de Lázaro Caballero, Christian Herrera y Campedrinos , además de la participación del Ballet del Limón, Embrujo de mi Tierra, los ganadores del Pre-Festival y otros artistas locales y regionales. El sábado 17 de octubre será el turno de Sergio Galleguillo, Las Voces de Orán y Canto 4 , junto con los espectáculos que forman parte de la propuesta artística de ambas jornadas. La organización anticipó además la presencia de más artistas que se sumarán a la cartelera , ampliando una programación pensada para celebrar una nueva edición de uno de los festivales tradicionales de Tafí Viejo. Quienes realicen la compra online recibirán, una vez procesado el pago, un correo electrónico con los tickets en formato PDF, que incluirán un código QR . Es importante verificar que la dirección de correo electrónico ingresada sea correcta. Para ingresar al predio, el público deberá presentar en los controles de acceso directamente el código QR desde el celular o llevarlo impreso en papel. No será necesario realizar ningún trámite de canje previo. De esta manera, Tafí Viejo se prepara para vivir una nueva edición del Festival Nacional del Limón, con dos noches de música, danza y tradición y una cartelera que continuará sumando nombres para celebrar sus 54 ediciones.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2022/11/limon-rock.jpg",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Club Villa Mitre",
+    "address": "Chacabuco 539",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Club+Villa+Mitre%2C+Chacabuco+539%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [
+      "https://linktr.ee/festivalnacionaldellimon"
+    ],
+    "occurrences": [
+      {
+        "date": "2026-10-16",
+        "time_start": "08:00",
+        "time_end": "",
+        "start_datetime": "2026-10-16T08:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-17",
+        "time_start": "08:00",
+        "time_end": "",
+        "start_datetime": "2026-10-17T08:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "08:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "La 54° edición del Festival Nacional del Limón se realizará los días 16 y 17 de octubre en el Club Villa Mitre, ubicado en Chacabuco 539, Tafí Viejo. Durante dos noches, el público disfrutará de folclore y música popular con artistas como Lázaro Caballero, Christian Herrera, Sergio Galleguillo y Las Voces de Orán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "bdc93af0a64b9efc401c7be4e070a83598be467a5a75d37eaf77f84fcc9181e9"
   }
 ]
