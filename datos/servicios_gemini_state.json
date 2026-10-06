@@ -280,21 +280,49 @@
       "provider": "groq",
       "processed_at": "2026-10-05T17:53:13.737640+00:00",
       "reason": "Ofrece un servicio útil y gratuito para la comunidad."
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-del-del-5-al-9-de-octubre": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-06T16:32:21.917347+00:00",
+      "reason": "Servicio público gratuito para la esterilización de mascotas."
+    },
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-8": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-06T16:32:55.518332+00:00",
+      "reason": "Ofrece información práctica sobre precios y disponibilidad de productos locales, útil para la comunidad."
+    },
+    "donde-habra-jornadas-de-eco-canje-esta-semana-8": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-06T16:33:34.182590+00:00",
+      "reason": "Servicio público de reciclaje comunitario"
+    },
+    "octubre-rosa-mes-con-actividades-para-prevenir-el-cancer-de-mama-en-la-asistencia-publica": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-06T16:34:37.684818+00:00",
+      "reason": "Servicio público de prevención y detección temprana del cáncer de mama."
     }
   },
   "selected_ids": [
     "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9",
     "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre",
-    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal"
+    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
+    "smt-donde-castrar-gratis-a-tu-mascota-del-del-5-al-9-de-octubre",
+    "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-8",
+    "donde-habra-jornadas-de-eco-canje-esta-semana-8",
+    "octubre-rosa-mes-con-actividades-para-prevenir-el-cancer-de-mama-en-la-asistencia-publica"
   ],
-  "updated_at": "2026-10-06T14:31:22.484204+00:00",
+  "updated_at": "2026-10-06T16:34:37.685710+00:00",
   "gemini_usage": {
-    "date": "2026-10-05",
-    "calls": 20
+    "date": "2026-10-06",
+    "calls": 10
   },
   "groq_usage": {
-    "date": "2026-10-05",
-    "calls": 22
+    "date": "2026-10-06",
+    "calls": 5
   }
 }
