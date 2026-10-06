@@ -310,6 +310,12 @@
       "provider": "groq",
       "processed_at": "2026-10-06T20:32:51.572215+00:00",
       "reason": "Proporciona información sobre servicios públicos y trámites disponibles para los ciudadanos."
+    },
+    "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-06T22:29:20.060480+00:00",
+      "reason": "Informa sobre las ofertas, promociones y horarios de atención del Mercado Municipal Dorrego, lo cual es un servicio de utilidad pública para los ciudadanos."
     }
   },
   "selected_ids": [
@@ -321,12 +327,13 @@
     "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-8",
     "donde-habra-jornadas-de-eco-canje-esta-semana-8",
     "octubre-rosa-mes-con-actividades-para-prevenir-el-cancer-de-mama-en-la-asistencia-publica",
-    "5-al-9-de-octubre-operativo-integral-municipal"
+    "5-al-9-de-octubre-operativo-integral-municipal",
+    "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3"
   ],
-  "updated_at": "2026-10-06T20:32:51.573087+00:00",
+  "updated_at": "2026-10-06T22:29:20.062323+00:00",
   "gemini_usage": {
     "date": "2026-10-06",
-    "calls": 14
+    "calls": 16
   },
   "groq_usage": {
     "date": "2026-10-06",

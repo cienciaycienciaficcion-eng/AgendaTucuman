@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T20:32:51.572498+00:00",
+  "generated_at": "2026-10-06T22:29:20.060818+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 100,
   "candidate_count": 17,
-  "processed_this_run": 2,
-  "count": 9,
+  "processed_this_run": 1,
+  "count": 10,
   "events": [
     {
       "id": "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
@@ -206,6 +206,39 @@
       "occurrences": []
     },
     {
+      "id": "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3/",
+      "title": "Estas son las ofertas del Mercado Municipal Dorrego para esta semana",
+      "published": "2026-10-06",
+      "modified": "2026-10-06T12:03:27",
+      "description": "Los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, abren sus puertas todos los días de la semana para ofrecer a los vecinos productos de la mesa familiar a precios muy accesibles. Además, las familias pueden disfrutar de una rica oferta gastronómica en el amplio patio de comidas que posee el…",
+      "content": "Los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, abren sus puertas todos los días de la semana para ofrecer a los vecinos productos de la mesa familiar a precios muy accesibles. Además, las familias pueden disfrutar de una rica oferta gastronómica en el amplio patio de comidas que posee el centro comercial de la zona sur de la ciudad. Los locales trabajan de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h; y los domingos, de 9 a 15.40 h. Entre las promociones disponibles esta semana, hasta el sábado 10 de octubre, se destacan las siguientes: Carnes y pollo Puesto 4 3 kg de pata muslo: $13.000 . 2 kg de suprema: $18.000 . Puesto 8 1 kg de milanesa de hígado: $4.999 . 2 kg de hamburguesa o chorizo: $9.999 . 1 kg de milanesa de pollo: $4.999 . Quipe o albóndigas: $4.900 . Puesto 24 2 kg de puchero especial: $21.999 . Puesto 25 2 kg de costeleta de cerdo: $16.000 . Puesto 28 1 kg de hígado: $6.000 . Puesto 29 1 kg de hígado: $6.000 . Puesto 31 2 kg de paleta: $16.000 . 2 kg de pierna de cerdo: $18.000 . 2 kg de costeleta de cerdo: $21.000 . Pescados Puesto 9 1 kg de merluza: $3.000 . Panificados Puesto 3 1 kg de pan: $2.200 . 6 facturas: $2.000 . 10 tortillas: $2.500 . Puesto 30 1 kg de pan: $1.400 . Fiambres, huevos y productos regionales Puesto 6 Bandeja de huevos: $5.000 . Puesto 7 1/4 kg de fiambre surtido: $2.000 . Puesto 15 1/2 kg de miel: $7.000 . Puesto 18 Pieza de jamón cocido: $7.500 . Comidas preparadas Puesto 5 Tamal: $2.500 la unidad. Puesto 17 Bombas: $2.000 la unidad. Puesto 19 6 empanadas + 2 bombas o quipes: $10.500 . Puesto 20 Hamburguesa grande común: $6.700 . Puesto 21 Tarta + gaseosa: $7.500 . Puesto 22 Napolitana con guarnición: $13.000 . Puesto 23 Pollo al horno: $8.500 . Indumentaria Puesto 26 Conjunto deportivo: $6.000 . Conjunto deportivo: $8.000 .",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/Mercado-Dorrego-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-10-06",
+      "date_end": "2026-10-06",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-06T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
       "id": "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-8",
       "source": "Agenda Tucumán - Servicios",
       "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-8/",
@@ -244,7 +277,7 @@
       "url": "https://agendatucuman.com.ar/octubre-rosa-mes-con-actividades-para-prevenir-el-cancer-de-mama-en-la-asistencia-publica/",
       "title": "Octubre Rosa: mes con actividades para prevenir el cáncer de mama en la Asistencia Pública",
       "published": "2026-10-06",
-      "modified": "2026-10-06T11:58:50",
+      "modified": "2026-10-06T17:57:58",
       "description": "En el marco del Día Internacional de la Lucha contra el Cáncer de Mama que se conmemora el 19 de octubre, la Asistencia Pública de la Municipalidad de San Miguel de Tucumán organizó para octubre una serie de actividades orientadas a crear conciencia, sensibilizar y prevenir la enfermedad. Entre las acciones del Octubre Rosa se destaca…",
       "content": "En el marco del Día Internacional de la Lucha contra el Cáncer de Mama que se conmemora el 19 de octubre, la Asistencia Pública de la Municipalidad de San Miguel de Tucumán organizó para octubre una serie de actividades orientadas a crear conciencia, sensibilizar y prevenir la enfermedad. Entre las acciones del Octubre Rosa se destaca la realización de nuevas ediciones del Circuito Integral de la Mujer en el Centro “Profesor Antonio Lorusso” , más conocido como Piso Rosa (tercer piso) de la Asistencia Pública, ubicada en Chacabuco 239. Se trata de una estrategia de atención lanzada en marzo de 2025 por la intendente Rossana Chahla que permite a las vecinas realizarse diferentes estudios y controles preventivos, en aproximadamente tres horas. El Circuito de la Mujer incluye un análisis de sangre, control ginecológico, mamografía, ecografía, estudio de densitometría y consultorio clínico, todo en el mismo día. El programa incluye el traslado gratuito de las mujeres desde sus barrios hasta la Asistencia Pública. La programación del Octubre Rosa se complementa con campañas de difusión en la vía pública y talleres informativos que se ofrecerán en horario matutino y vespertino en el edificio de la Asistencia Pública (Chacabuco 239) destinados a los pacientes que concurran a sus consultas. Cronograma de actividades Lunes 5/10: Taller «Octubre Rosa: conocer para prevenir». Prevención del cáncer de mama: factores de riesgo, signos de alarma, controles preventivos y consulta oportuna. Martes 6/10, 13 h: Circuito Integral de la Mujer (turno tarde). Jornada de aproximadamente 3 horas con estudios y controles preventivos integrales. Miércoles 7/10, 7.30 h: Circuito Integral de la Mujer. Circuito de aproximadamente 3 horas, especialmente destinado a facilitar el acceso de mujeres provenientes de los barrios. Miércoles 7/10: Taller «Mujer después de los 40: una nueva etapa para cuidarse». Perimenopausia y menopausia, salud cardiovascular y ósea, sexualidad, sueño y controles preventivos. Miércoles 14/10, desde las 7.30 h: Circuito Integral de la Mujer. Estudios y controles preventivos integrales. Duración aproximada: 3 horas. Miércoles 14/10: Taller «Corazón de mujer». Prevención cardiovascular, hipertensión, diabetes, alimentación saludable, actividad física, tabaquismo y factores de riesgo. Lunes 19/10: Taller «Día Mundial de la Lucha contra el Cáncer de Mama». Detección temprana, importancia de los controles, mamografía según indicación, signos de alarma y acceso oportuno al sistema de salud. Martes 20/10, 13 h: Circuito Integral de la Mujer (turno tarde). Jornada de aproximadamente 3 horas con estudios y controles preventivos integrales. Miércoles 21/10, desde las 7.30 h: Circuito Integral de la Mujer. Estudios y controles preventivos integrales. Duración aproximada: 3 horas. Miércoles 21/10: Taller «Piel, hormonas y mujer». Fotoprotección, prevención del cáncer de piel, regla ABCDE de los lunares, melasma, acné adulto, caída del cabello y cambios dermatológicos en la mujer. Lunes 26/10: Taller «Cuidar el cuerpo y las emociones». Salud mental de la mujer, autoestima, ansiedad, acompañamiento, vínculos saludables y redes de apoyo. Miércoles 28/10, desde las 7.30 h: Circuito Integral de la Mujer. Último circuito programado del mes, con estudios y controles preventivos integrales. Duración aproximada: 3 horas.",
       "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/asistencia-publica-scaled.webp",
