@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-05T15:06:26.536628-03:00",
-  "reference_date": "2026-10-05",
+  "generated_at": "2026-10-06T03:41:44.862894-03:00",
+  "reference_date": "2026-10-06",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "cb8e4d466b56c65ede2111789e641925e777b2976ecd83dd9e1b4d2d8d736cbc"
+    "pdf_sha256": "b86047045723d382610a769967da1ab1aa8c91cfe3a9203251ee9fb155b13999"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -37,10 +37,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "20:30",
-            "22:40"
-          ],
+          "lunes": [],
           "martes": [
             "20:30",
             "22:40"
@@ -51,18 +48,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "20:30",
-            "datetime": "2026-10-05T20:30:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:40",
-            "datetime": "2026-10-05T22:40:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "20:30",
@@ -93,7 +78,7 @@
           "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 94,
           "genres": [
             "Terror Thriller"
@@ -146,9 +131,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "17:20"
-          ],
+          "lunes": [],
           "martes": [
             "17:20"
           ],
@@ -157,12 +140,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "17:20",
-            "datetime": "2026-10-05T17:20:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "17:20",
@@ -181,7 +158,7 @@
           "title": "LA ISLA OLVIDADA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 109,
           "genres": [
             "Animación Aventuras"
@@ -234,9 +211,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "22:20"
-          ],
+          "lunes": [],
           "martes": [
             "22:20"
           ],
@@ -245,12 +220,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "22:20",
-            "datetime": "2026-10-05T22:20:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "22:20",
@@ -269,7 +238,7 @@
           "title": "EL CORAZON DE LA BESTIA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 101,
           "genres": [
             "Thriller"
@@ -324,9 +293,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "17:40"
-          ],
+          "lunes": [],
           "martes": [
             "17:40"
           ],
@@ -335,12 +302,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "17:40",
-            "datetime": "2026-10-05T17:40:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "17:40",
@@ -359,7 +320,7 @@
           "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 120,
           "genres": [
             "Animé"
@@ -415,10 +376,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "19:50",
-            "22:10"
-          ],
+          "lunes": [],
           "martes": [
             "19:50",
             "22:10"
@@ -429,18 +387,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "19:50",
-            "datetime": "2026-10-05T19:50:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:10",
-            "datetime": "2026-10-05T22:10:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "19:50",
@@ -471,7 +417,7 @@
           "title": "DIGGER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 129,
           "genres": [
             "Comedia Drama"
@@ -530,10 +476,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "19:40",
-            "22:30"
-          ],
+          "lunes": [],
           "martes": [
             "19:40",
             "22:30"
@@ -544,18 +487,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "19:40",
-            "datetime": "2026-10-05T19:40:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-05",
-            "time": "22:30",
-            "datetime": "2026-10-05T22:30:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "19:40",
@@ -586,7 +517,7 @@
           "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 118,
           "genres": [
             "Thriller"
@@ -641,9 +572,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "20:10"
-          ],
+          "lunes": [],
           "martes": [
             "20:10"
           ],
@@ -652,12 +581,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "20:10",
-            "datetime": "2026-10-05T20:10:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "20:10",
@@ -676,7 +599,7 @@
           "title": "VERTIGO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 100,
           "genres": [
             "Thriller"
@@ -734,9 +657,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "17:50"
-          ],
+          "lunes": [],
           "martes": [
             "17:50"
           ],
@@ -745,12 +666,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "17:50",
-            "datetime": "2026-10-05T17:50:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "17:50",
@@ -769,7 +684,7 @@
           "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 99,
           "genres": [
             "Comedia"
@@ -822,9 +737,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "17:30"
-          ],
+          "lunes": [],
           "martes": [
             "17:30"
           ],
@@ -833,12 +746,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-05",
-            "time": "17:30",
-            "datetime": "2026-10-05T17:30:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-06",
             "time": "17:30",
@@ -857,7 +764,7 @@
           "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-05",
+          "release_date": "2026-10-06",
           "duration_minutes": 90,
           "genres": [
             "Animación Aventuras"

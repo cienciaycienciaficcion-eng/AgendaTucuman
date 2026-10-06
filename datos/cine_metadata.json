@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-05T15:06:26.536477-03:00",
+  "generated_at": "2026-10-06T03:41:44.862736-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -46,7 +46,7 @@
       "title": "LA ISLA OLVIDADA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 109,
       "genres": [
         "Animación Aventuras"
@@ -85,7 +85,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -126,7 +126,7 @@
       "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 120,
       "genres": [
         "Animé"
@@ -168,7 +168,7 @@
       "title": "DIGGER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 129,
       "genres": [
         "Comedia Drama"
@@ -213,7 +213,7 @@
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -254,7 +254,7 @@
       "title": "VERTIGO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 100,
       "genres": [
         "Thriller"
@@ -298,7 +298,7 @@
       "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 99,
       "genres": [
         "Comedia"
@@ -337,7 +337,7 @@
       "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-05",
+      "release_date": "2026-10-06",
       "duration_minutes": 90,
       "genres": [
         "Animación Aventuras"
