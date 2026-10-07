@@ -322,6 +322,12 @@
       "provider": "groq",
       "processed_at": "2026-10-07T16:34:28.130371+00:00",
       "reason": "Información útil sobre horarios de comercio durante feriado"
+    },
+    "pronostico-del-tiempo-se-anticipa-una-extensa-seguidilla-de-dias-inestables-y-frescos-en-la-provincia": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-07T18:35:12.368062+00:00",
+      "reason": "Servicio informativo sobre condiciones climáticas que afecta la vida diaria."
     }
   },
   "selected_ids": [
@@ -335,15 +341,16 @@
     "octubre-rosa-mes-con-actividades-para-prevenir-el-cancer-de-mama-en-la-asistencia-publica",
     "5-al-9-de-octubre-operativo-integral-municipal",
     "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3",
-    "como-trabajara-el-comercio-en-tucuman-durante-el-feriado-del-12-de-octubre"
+    "como-trabajara-el-comercio-en-tucuman-durante-el-feriado-del-12-de-octubre",
+    "pronostico-del-tiempo-se-anticipa-una-extensa-seguidilla-de-dias-inestables-y-frescos-en-la-provincia"
   ],
-  "updated_at": "2026-10-07T16:34:28.131438+00:00",
+  "updated_at": "2026-10-07T18:35:12.369022+00:00",
   "gemini_usage": {
     "date": "2026-10-07",
-    "calls": 4
+    "calls": 6
   },
   "groq_usage": {
     "date": "2026-10-07",
-    "calls": 2
+    "calls": 3
   }
 }

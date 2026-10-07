@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-07T16:34:28.130764+00:00",
+  "generated_at": "2026-10-07T18:35:12.368381+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 100,
   "candidate_count": 19,
-  "processed_this_run": 2,
-  "count": 11,
+  "processed_this_run": 1,
+  "count": 12,
   "events": [
     {
       "id": "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
@@ -350,6 +350,40 @@
       "author": "",
       "categories": [
         "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-10-07",
+      "date_end": "2026-10-07",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-07T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "pronostico-del-tiempo-se-anticipa-una-extensa-seguidilla-de-dias-inestables-y-frescos-en-la-provincia",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/pronostico-del-tiempo-se-anticipa-una-extensa-seguidilla-de-dias-inestables-y-frescos-en-la-provincia/",
+      "title": "Pronóstico del tiempo: se anticipa una extensa seguidilla de días inestables y frescos en la provincia",
+      "published": "2026-10-07",
+      "modified": "2026-10-07T12:27:09",
+      "description": "Las condiciones meteorológicas en San Miguel de Tucumán y alrededores experimentarán un marcado cambio hacia un período prolongado de inestabilidad, precipitaciones intermitentes y un descenso en las temperaturas. De acuerdo con las proyecciones y los reportes meteorológicos oficiales, el paraguas y el abrigo liviano pasarán a ser aliados indispensables durante más de una semana en…",
+      "content": "Las condiciones meteorológicas en San Miguel de Tucumán y alrededores experimentarán un marcado cambio hacia un período prolongado de inestabilidad, precipitaciones intermitentes y un descenso en las temperaturas. De acuerdo con las proyecciones y los reportes meteorológicos oficiales, el paraguas y el abrigo liviano pasarán a ser aliados indispensables durante más de una semana en la capital tucumana . Muestra detallada del pronóstico extendido El registro diario prevé valores máximos moderados —que no superarán los 19 °C— e importantes probabilidades de precipitación : Viernes 09: Se esperan chubascos continuos con una máxima de 16 °C y mínima de 13 °C . La probabilidad de humedad y precipitaciones alcanzará el 75 % . Sábado 10: Registro de chubascos matinales . Temperatura en leve ascenso con 18 °C de máxima y 14 °C de mínima, con 50 % de probabilidad de lluvia . Domingo 11: Regresan las condiciones inestables con chubascos . La máxima será de 19 °C y la mínima de 14 °C ( 52 % de probabilidad de precipitaciones) . Lunes 12: Inicio de semana nublado y con presencia de chubascos . Mínima de 14 °C y máxima de 19 °C ( 71 % de probabilidad de lluvia) . Martes 13: Se pronostican lluvias de variada intensidad con 72 % de probabilidades . Las marcas térmicas oscillating entre 14 °C de mínima y 19 °C de máxima . Miércoles 14: Jornada fresca y húmeda con lluvias persistentes ( 66 % de probabilidad) . Mínima de 14 °C y máxima de 17 °C . Jueves 15: Continúan las condiciones de lluvia con 17 °C de máxima y 13 °C de mínima ( 60 % de probabilidad) . Viernes 16: Se aguardan chubascos aislados con valores entre 13 °C y 18 °C ( 60 % de probabilidad de precipitaciones) . Sábado 17: Cierre del periodo con lluvias débiles y cielo cubierto . Mínima de 13 °C y máxima de 19 °C ( 60 % de probabilidad) . Recomendaciones: Ante la persistencia de piso mojado, alta humedad e inestabilidad continua : Precaución al transitar: Se aconseja extremar los cuidados al circular por calles y avenidas debido a la visibilidad reducida y la calzada resbaladiza. Vestimenta adecuada: El termómetro se mantendrá en un rango fresco, oscillando entre los 13 °C y 19 °C , por lo que se sugiere llevar abrigo liviano e impermeable a mano. Monitoreo constante: Mantenerse informado ante posibles alertas de corto plazo emitidas por el Servicio Meteorológico Nacional (SMN).",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2020/08/tiempo-tucuman.jpg",
+      "author": "",
+      "categories": [
+        "Servicios",
+        "Variedades"
       ],
       "tags": [],
       "links": [],
