@@ -316,6 +316,12 @@
       "provider": "gemini",
       "processed_at": "2026-10-06T22:29:20.060480+00:00",
       "reason": "Informa sobre las ofertas, promociones y horarios de atención del Mercado Municipal Dorrego, lo cual es un servicio de utilidad pública para los ciudadanos."
+    },
+    "como-trabajara-el-comercio-en-tucuman-durante-el-feriado-del-12-de-octubre": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-07T16:34:28.130371+00:00",
+      "reason": "Información útil sobre horarios de comercio durante feriado"
     }
   },
   "selected_ids": [
@@ -328,15 +334,16 @@
     "donde-habra-jornadas-de-eco-canje-esta-semana-8",
     "octubre-rosa-mes-con-actividades-para-prevenir-el-cancer-de-mama-en-la-asistencia-publica",
     "5-al-9-de-octubre-operativo-integral-municipal",
-    "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3"
+    "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3",
+    "como-trabajara-el-comercio-en-tucuman-durante-el-feriado-del-12-de-octubre"
   ],
-  "updated_at": "2026-10-07T14:31:19.494220+00:00",
+  "updated_at": "2026-10-07T16:34:28.131438+00:00",
   "gemini_usage": {
-    "date": "2026-10-06",
-    "calls": 16
+    "date": "2026-10-07",
+    "calls": 4
   },
   "groq_usage": {
-    "date": "2026-10-06",
-    "calls": 7
+    "date": "2026-10-07",
+    "calls": 2
   }
 }
