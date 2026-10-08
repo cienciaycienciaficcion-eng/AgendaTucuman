@@ -1,13 +1,56 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-07T21:46:05.803616-03:00",
+  "generated_at": "2026-10-08T03:43:18.519101-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
+    {
+      "title": "TOY STORY 5 - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-08",
+      "duration_minutes": 102,
+      "genres": [
+        "Animación Aventuras"
+      ],
+      "director": [
+        "Andrew Stanton"
+      ],
+      "cast": [
+        "Tom Hanks",
+        "Tim Allen",
+        "Joan Cusack",
+        "Conan O'Brien",
+        "Greta Lee."
+      ],
+      "synopsis": "Los juguetes están de vuelta en «Toy Story 5», de Disney y Pixar, y esta vez se enfrentan los juguetes y la tecnología. El trabajo de Buzz, Woody, Jessie y el resto de la pandilla se complica exponencialmente cuando se enfrentan a esta nueva amenaza para el tiempo de juego.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3398_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Estados Unidos",
+      "distributor": "Disney",
+      "trailer": "https://www.youtube.com/embed/s_qpMMkvHYE",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5608-TOY-STORY-5---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 18 de Junio de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5608,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
     {
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-07",
+      "release_date": "2026-10-08",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -46,7 +89,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-07",
+      "release_date": "2026-10-08",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -84,97 +127,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "PUELLA MAGI MADOKA MAGICA THE MOVIE: WALPURGISNACHT RISING LA PELICULA - 2D SUB",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-07",
-      "duration_minutes": 120,
-      "genres": [
-        "Animé"
-      ],
-      "director": [
-        "Yukihiro Miyamoto",
-        "Akiyuki Shinbō"
-      ],
-      "cast": [
-        "Kana Asumi",
-        "Emiri Kato",
-        "Eri Kitamura"
-      ],
-      "synopsis": "En un mundo aparentemente pacífico, Homura Akemi se enfrenta a un nuevo y peligroso enemigo vinculado a Walpurgisnacht, lo que la obliga a lidiar con las decisiones del pasado y con los esfuerzos que hará para mantener a Madoka a salvo.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3648_img2.jpg",
-      "classification": "Desconocido",
-      "nationality": "Japón",
-      "distributor": "Cinemark",
-      "trailer": null,
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5786-PUELLA-MAGI-MADOKA-MAGICA-THE-MOVIE-WALPURGISNACHT-RISING-LA-PELICULA---2D-SUB",
-      "source": "Cinemacenter",
-      "trailer_source": null,
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5786,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "DIGGER - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-07",
-      "duration_minutes": 129,
-      "genres": [
-        "Comedia Drama"
-      ],
-      "director": [
-        "Alejandro González Iñárritu"
-      ],
-      "cast": [
-        "Tom Cruise",
-        "Sandra Hüller",
-        "John Goodman",
-        "Riz Ahmed",
-        "Michael Stuhlbarg",
-        "Jesse Plemons",
-        "Sophie Wilde"
-      ],
-      "synopsis": "El hombre más poderoso del mundo se embarca en una misión frenética para demostrar que es el salvador de la humanidad antes de que el desastre que ha desatado lo destruya todo.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3439_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "Warner Bros.",
-      "trailer": "https://www.youtube.com/embed/gmdX4h1POCk",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5800-DIGGER---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5800,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-07",
+      "release_date": "2026-10-08",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -212,35 +168,30 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "VERTIGO 2 - 2D CAST",
+      "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-07",
-      "duration_minutes": 100,
+      "release_date": "2026-10-08",
+      "duration_minutes": 90,
       "genres": [
-        "Thriller"
+        "Animación Aventuras"
       ],
       "director": [
-        "Michael Spierig",
-        "Peter Spierig"
+        "Vasiliy Rovenskiy"
       ],
-      "cast": [
-        "Grace Caroline Currey",
-        "Virginia Gardner",
-        "Harriet Slater",
-        "Arsema Thomas",
-        "Tom Brittney."
-      ],
-      "synopsis": "Tras sobrevivir a una experiencia extrema, un nuevo grupo de jóvenes se enfrenta a un desafío aún más peligroso en un entorno remoto en Tailandia. A cientos de metros de altura, sin escapatoria y con condiciones impredecibles, deberán luchar contra el miedo, el tiempo y sus propios límites para sobrevivir.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3578_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "BF + PARIS FILM",
-      "trailer": "https://www.youtube.com/embed/y7FeJVcfMGo",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5808-VERTIGO-2---2D-CAST",
+      "cast": [],
+      "synopsis": "Han pasado dos años desde que se salvó el Hermitage y la Mona Lisa fue robada. Maurice los sueños del ratón de nuevas hazañas, Vincent y Cleopatra han reclutado dos gatitos inquietos que también están anhelando aventuras.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3493_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Rusia",
+      "distributor": "Imagen Films",
+      "trailer": "https://www.youtube.com/embed/WJaWzgZ7Rkg",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5812-GUARDIANES-DEL-MUSEO-2---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
-      "metadata_missing": [],
+      "metadata_missing": [
+        "cast"
+      ],
       "metadata_unavailable_on_source": [
         "original_title"
       ],
@@ -248,35 +199,40 @@
         "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5808,
+      "metadata_status": "partial_source",
+      "cinemacenter_movie_id": 5812,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "ESCONDIDA EN MI CABEZA - 2D CAST",
+      "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-07",
-      "duration_minutes": 99,
+      "release_date": "2026-10-08",
+      "duration_minutes": 93,
       "genres": [
-        "Comedia"
+        "Terror"
       ],
       "director": [
-        "Lucas Vivo García Lagos"
+        "Rob Savage"
       ],
       "cast": [
-        "Nicolás Furtado Agustina Suasquita Iair Said"
+        "Jessica Chastain",
+        "Jay Duplass",
+        "Arabella Olivia Clark",
+        "Dichen Lachman",
+        "con Arian Moayed",
+        "Karen Allen"
       ],
-      "synopsis": "Erni (Nicolás Furtado), un veinteañero encantador pero inmaduro, trabaja en un parque de atracciones, disfrutando de una vida centrada en el placer y la diversión. Su irresponsabilidad genera tensiones en el trabajo y en su vida personal, y en un mismo día, su jefe Tony (Maxi de la Cruz) lo despide y Coni (Papryka Suásquita), la chica que le gusta, decide tomar distancia. Hundido en la decepción, Erni termina en un bar donde conoce a Young Geezer (Louta), un excéntrico joven británico quien, tras tomarse unas copas juntos, lo convence de invertir su indemnización por despido en Bitcoins. La noche se vuelve desenfrenada e imprudente, y da un giro cuando Erni protagoniza un accidente que lo deja en coma. Catorce años después, Erni despierta y se encuentra con que el mundo cambió, y su mundo también: sus amores desaparecieron y su madre (Alejandra Flechner), al borde del colapso, está llena de deudas. Sin embargo, la inversión que hizo la noche del accidente, ahora vale millones. El único problema es que no recuerda la contraseña para acceder a su fortuna.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3626_img2.jpg",
+      "synopsis": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su clóset. La presencia, a quien llama Otra Mamá, se vuelve cada vez más amenazante para ella y su familia.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3602_img2.jpg",
       "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Argentina",
-      "distributor": "Disney",
-      "trailer": "https://www.youtube.com/embed/3kFtLMkRL04",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5811-ESCONDIDA-EN-MI-CABEZA---2D-CAST",
+      "nationality": "Estados Unidos",
+      "distributor": "UIP",
+      "trailer": "https://www.youtube.com/embed/gUrcl1APfVY",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5825-MADRE-SINIESTRA---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -284,11 +240,190 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5811,
+      "cinemacenter_movie_id": 5825,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "MADRE SINIESTRA - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-08",
+      "duration_minutes": 93,
+      "genres": [
+        "Terror"
+      ],
+      "director": [
+        "Rob Savage"
+      ],
+      "cast": [
+        "Jessica Chastain",
+        "Jay Duplass",
+        "Arabella Olivia Clark",
+        "Dichen Lachman",
+        "con Arian Moayed",
+        "Karen Allen"
+      ],
+      "synopsis": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su clóset. La presencia, a quien llama Otra Mamá, se vuelve cada vez más amenazante para ella y su familia.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3602_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Estados Unidos",
+      "distributor": "UIP",
+      "trailer": "https://www.youtube.com/embed/gUrcl1APfVY",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5826-MADRE-SINIESTRA---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5826,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "LA CASA - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-08",
+      "duration_minutes": 112,
+      "genres": [
+        "Drama Thriller"
+      ],
+      "director": [
+        "Gustavo Triviño"
+      ],
+      "cast": [
+        "Diego Peretti | Cesar Troncoso | Fabian Arenillas | Mariano Argento | Guillermo Arengo"
+      ],
+      "synopsis": "Tras quedar fuera del mercado laboral, acorralado por la realidad, Hugo Vaca (Peretti) acepta una propuesta tan inesperada como extraña para no perder lo único que le queda su casa: firmar un contrato que le permite venderla y seguir viviendo allí hasta el final de sus días. Pero a medida que trata con los compradores, sospecha que detrás de la operación se esconde algo mucho más oscuro, y sin saberlo queda atrapado en un mundo completamente ajeno que lo arrastra cada vez más profundo",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3639_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Argentina",
+      "distributor": "Moving Pics",
+      "trailer": "https://www.youtube.com/embed/20B0K5FX4kE",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5827-LA-CASA---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5827,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "HOPE: EL PRIMER IMPACTO - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-08",
+      "duration_minutes": 160,
+      "genres": [
+        "Thriller"
+      ],
+      "director": [
+        "Na Hong-jin"
+      ],
+      "cast": [
+        "Hwang Jung-min",
+        "Zo In-sung",
+        "Hoyeon",
+        "Alicia Vikander",
+        "Michael Fassbender",
+        "Taylor Russell",
+        "Cameron Britton",
+        "Lee Sang-hee",
+        "Um Mun-suk",
+        "Im Hyun-sik"
+      ],
+      "synopsis": "Tras un extraño hallazgo cerca de una aislada ciudad portuaria, los habitantes se ven envueltos en una desesperada lucha por la supervivencia.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3638_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Corea del Sur",
+      "distributor": "MACO",
+      "trailer": "https://www.youtube.com/embed/6FnVHmzMuHA",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5828-HOPE-EL-PRIMER-IMPACTO---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5828,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "HOPE: EL PRIMER IMPACTO - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-09",
+      "duration_minutes": 160,
+      "genres": [
+        "Thriller"
+      ],
+      "director": [
+        "Na Hong-jin"
+      ],
+      "cast": [
+        "Hwang Jung-min",
+        "Zo In-sung",
+        "Hoyeon",
+        "Alicia Vikander",
+        "Michael Fassbender",
+        "Taylor Russell",
+        "Cameron Britton",
+        "Lee Sang-hee",
+        "Um Mun-suk",
+        "Im Hyun-sik"
+      ],
+      "synopsis": "Tras un extraño hallazgo cerca de una aislada ciudad portuaria, los habitantes se ven envueltos en una desesperada lucha por la supervivencia.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3638_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Corea del Sur",
+      "distributor": "MACO",
+      "trailer": "https://www.youtube.com/embed/6FnVHmzMuHA",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5829-HOPE-EL-PRIMER-IMPACTO---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5829,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -328,9 +463,9 @@
     }
   ],
   "summary": {
-    "total": 7,
-    "complete_source": 7,
-    "partial_source": 0,
+    "total": 10,
+    "complete_source": 9,
+    "partial_source": 1,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
     "proximos_estrenos_conservados": 1
