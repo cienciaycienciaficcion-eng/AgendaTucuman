@@ -574,59 +574,5 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "bdc93af0a64b9efc401c7be4e070a83598be467a5a75d37eaf77f84fcc9181e9"
-  },
-  {
-    "id": "cine-estrenos-semana-2026-10-08",
-    "source": "CINEMACENTER",
-    "title": "Estrenos de la semana",
-    "url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-    "date_start": "2026-10-08",
-    "date_end": "2026-10-14",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-10-08T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "<p><strong>Nuevas películas que llegan a la cartelera de Cinemacenter Tucumán esta semana:</strong></p>\n<ul>\n<li>GUARDIANES DEL MUSEO 2 — estreno 8 de octubre de 2026</li>\n<li>HOPE: EL PRIMER IMPACTO — estreno 8 de octubre de 2026</li>\n<li>LA CASA — estreno 8 de octubre de 2026</li>\n<li>MADRE SINIESTRA — estreno 8 de octubre de 2026</li>\n<li>TOY STORY 5 — estreno 8 de octubre de 2026</li>\n</ul>\n<p><a href=\"https://www.cinemacenter.com.ar/cartelera#contenido\">Ver cartelera y horarios</a></p>",
-    "summary": "",
-    "image": "https://www.cinemacenter.com.ar/img_movies/3493_img2.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Cinemacenter Tucumán",
-    "address": "Av. Néstor Kirchner (Ex Roca) 3450",
-    "city": "San Miguel de Tucumán",
-    "organizer": "Cinemacenter",
-    "categories": [
-      "Cine"
-    ],
-    "tags": [
-      "Cine",
-      "Estrenos"
-    ],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cinemacenter+Tucumán",
-    "registration_urls": [
-      "https://www.miboleteria.com.ar"
-    ],
-    "external_urls": [
-      "https://www.cinemacenter.com.ar/cartelera#contenido",
-      "https://www.miboleteria.com.ar"
-    ],
-    "occurrences": [
-      {
-        "date": "2026-10-08",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-10-08T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "cinemacenter_release_titles": [
-      "GUARDIANES DEL MUSEO 2",
-      "HOPE: EL PRIMER IMPACTO",
-      "LA CASA",
-      "MADRE SINIESTRA",
-      "TOY STORY 5"
-    ],
-    "cinemacenter_release_count": 5
   }
 ]
