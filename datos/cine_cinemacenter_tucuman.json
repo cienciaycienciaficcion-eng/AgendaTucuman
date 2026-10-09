@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-08T21:51:20.506784-03:00",
-  "reference_date": "2026-10-08",
+  "generated_at": "2026-10-09T09:41:37.702745-03:00",
+  "reference_date": "2026-10-09",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "90955f8cf2f7fc559a6b94e1ae2c990c1576d57585c06b7c6179b649b04b8d5e"
+    "pdf_sha256": "be875f7ad8bc917c08b68ae072dc1bcf96e5583c51f6d330f6d89dfe793a8f32"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -33,10 +33,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "18:10",
-            "18:20"
-          ],
+          "jueves": [],
           "viernes": [
             "18:10",
             "18:20"
@@ -63,18 +60,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "18:10",
-            "datetime": "2026-10-08T18:10:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-08",
-            "time": "18:20",
-            "datetime": "2026-10-08T18:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "18:10",
@@ -153,7 +138,7 @@
           "title": "TOY STORY 5 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 102,
           "genres": [
             "Animación Aventuras"
@@ -206,10 +191,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "20:30",
-            "22:40"
-          ],
+          "jueves": [],
           "viernes": [
             "20:30",
             "22:40"
@@ -236,18 +218,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "20:30",
-            "datetime": "2026-10-08T20:30:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-08",
-            "time": "22:40",
-            "datetime": "2026-10-08T22:40:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "20:30",
@@ -326,7 +296,7 @@
           "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 94,
           "genres": [
             "Terror Thriller"
@@ -375,9 +345,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "22:10"
-          ],
+          "jueves": [],
           "viernes": [
             "22:10"
           ],
@@ -398,12 +366,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "22:10",
-            "datetime": "2026-10-08T22:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "22:10",
@@ -446,7 +408,7 @@
           "title": "EL CORAZON DE LA BESTIA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 101,
           "genres": [
             "Thriller"
@@ -497,9 +459,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "22:30"
-          ],
+          "jueves": [],
           "viernes": [
             "22:30"
           ],
@@ -520,12 +480,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "22:30",
-            "datetime": "2026-10-08T22:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "22:30",
@@ -568,7 +522,7 @@
           "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 118,
           "genres": [
             "Thriller"
@@ -619,9 +573,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "20:00"
-          ],
+          "jueves": [],
           "viernes": [
             "17:10",
             "17:20",
@@ -654,12 +606,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "20:00",
-            "datetime": "2026-10-08T20:00:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "17:10",
@@ -774,7 +720,7 @@
           "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 90,
           "genres": [
             "Animación Aventuras"
@@ -823,10 +769,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "18:00",
-            "20:10"
-          ],
+          "jueves": [],
           "viernes": [
             "18:00",
             "20:10",
@@ -858,18 +801,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "18:00",
-            "datetime": "2026-10-08T18:00:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-08",
-            "time": "20:10",
-            "datetime": "2026-10-08T20:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "18:00",
@@ -978,7 +909,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -1032,9 +963,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "22:20"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1045,12 +974,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "22:20",
-            "datetime": "2026-10-08T22:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-11",
             "time": "22:20",
@@ -1063,7 +986,7 @@
           "title": "MADRE SINIESTRA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-11",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -1117,9 +1040,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "19:40"
-          ],
+          "jueves": [],
           "viernes": [
             "19:40"
           ],
@@ -1140,12 +1061,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "19:40",
-            "datetime": "2026-10-08T19:40:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-09",
             "time": "19:40",
@@ -1188,7 +1103,7 @@
           "title": "LA CASA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-09",
           "duration_minutes": 112,
           "genres": [
             "Drama Thriller"
@@ -1237,9 +1152,7 @@
         "week_start": "2026-10-08",
         "week_end": "2026-10-14",
         "schedule": {
-          "jueves": [
-            "22:00"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1250,12 +1163,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-08",
-            "time": "22:00",
-            "datetime": "2026-10-08T22:00:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-11",
             "time": "22:00",
@@ -1268,7 +1175,7 @@
           "title": "HOPE: EL PRIMER IMPACTO - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-08",
+          "release_date": "2026-10-11",
           "duration_minutes": 160,
           "genres": [
             "Thriller"

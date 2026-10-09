@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-08T21:51:20.506636-03:00",
+  "generated_at": "2026-10-09T09:41:37.702596-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "TOY STORY 5 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 102,
       "genres": [
         "Animación Aventuras"
@@ -50,7 +50,7 @@
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -89,7 +89,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -130,7 +130,7 @@
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -171,7 +171,7 @@
       "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 90,
       "genres": [
         "Animación Aventuras"
@@ -210,7 +210,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -254,7 +254,7 @@
       "title": "MADRE SINIESTRA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-11",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -298,7 +298,7 @@
       "title": "LA CASA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-09",
       "duration_minutes": 112,
       "genres": [
         "Drama Thriller"
@@ -337,7 +337,7 @@
       "title": "HOPE: EL PRIMER IMPACTO - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-08",
+      "release_date": "2026-10-11",
       "duration_minutes": 160,
       "genres": [
         "Thriller"
