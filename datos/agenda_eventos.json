@@ -80,7 +80,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-10-08",
+      "card_date": "2026-10-09",
       "card_time": "08:00",
       "date": "title_days",
       "time": "mec_card",
@@ -93,80 +93,6 @@
     "summary_generated": false,
     "summary_version": 1,
     "summary_source_hash": "75b874e19f33560eec538ec97121c033dc814bc2e52f8d961afa7a9b908d279e"
-  },
-  {
-    "id": "46645",
-    "source": "MEC",
-    "title": "8 de octubre| Jornada de literatura, música y expresiones de la cultura japonesa",
-    "url": "https://agendatucuman.com.ar/eventos/8-de-octubre-jornada-de-literatura-musica-y-expresiones-de-la-cultura-japonesa/",
-    "date_start": "2026-10-08",
-    "date_end": "2026-10-08",
-    "time_start": "20:30",
-    "time_end": "",
-    "start_datetime": "2026-10-08T20:30:00-03:00",
-    "end_datetime": "",
-    "description": "La Casa de la Cultura Catalina Albarracín de Suárez será el punto de encuentro para una jornada dedicada a la literatura, la música y distintas expresiones de la cultura japonesa. La propuesta tendrá como eje la presentación del libro Instantes de Antonio Montes y busca acercar a la comunidad nuevas experiencias y miradas a través del arte. Durante la actividad, que tendrá lugar el jueves 8 a las 20.30, participarán Hashimoto Kazumasa y Daniel Agüero , representantes de la Asociación Japonesa de Tucumán, junto a Guadalupe Albornoz y Cristian Sandoval , quienes tendrán a su cargo los comentarios sobre la obra. El encuentro también permitirá conocer una expresión tradicional de Japón con una demostración de caligrafía japonesa, Arte Shodō , a cargo de Lilia Albornoz . La propuesta se completará con música en vivo de Pablo Laura y Nahuel Arroyo . La iniciativa forma parte de las propuestas culturales que buscan generar espacios de encuentro y promover el intercambio con distintas expresiones artísticas. Cuenta con el acompañamiento de la gestión de la intendenta Alejandra Rodríguez .",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/2-3.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-08",
-        "time_start": "20:30",
-        "time_end": "",
-        "start_datetime": "2026-10-08T20:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.78
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-08",
-      "card_time": "20:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "Jornada dedicada a la cultura japonesa con la presentación del libro Instantes de Antonio Montes, música en vivo y demostración de caligrafía Shodō. El evento se realizará el jueves 8 de octubre a las 20:30 en la Casa de la Cultura Catalina Albarracín de Suárez. Participarán representantes de la Asociación Japonesa de Tucumán y artistas invitados.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "0fad13d42d6f3d50e467a401d169836a4153f73367d1d96f23bd15f446860a63"
   },
   {
     "id": "44233",
