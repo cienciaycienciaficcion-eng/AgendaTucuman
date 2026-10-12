@@ -1,6 +1,6 @@
 {
   "schema_version": "4.0",
-  "generated_at": "2026-10-11T21:48:58-03:00",
+  "generated_at": "2026-10-12T03:49:26-03:00",
   "page": {
     "url": "https://agendatucuman.com.ar/radio/",
     "title": "Agenda Radio",
@@ -16,10 +16,10 @@
     "external_urls": [],
     "raw_candidates": [
       "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/jquery-3.5.1.min.js",
-      "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/widgets.css?r=zizi4zdi",
-      "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/skin/flatie.jplayer.skin.css?r=mieea0z0",
+      "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/widgets.css?r=qgt4k2tf",
+      "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/skin/flatie.jplayer.skin.css?r=bqk8mqtj",
       "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/skin/jquery.jplayer.min.js",
-      "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/skin/flatie.jplayer.skin.js?r=drmh4b5h",
+      "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/skin/flatie.jplayer.skin.js?r=qy66a8xz",
       "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/jquery.marquee.min.js",
       "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/animate.css",
       "https://streaming01.shockmedia.com.ar/cp/widgets/player/single/music.ico"
