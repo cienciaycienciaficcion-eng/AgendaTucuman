@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-11T21:49:05.803899-03:00",
+  "generated_at": "2026-10-12T10:02:21.583027-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "TOY STORY 5 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 102,
       "genres": [
         "Animación Aventuras"
@@ -50,7 +50,7 @@
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -89,7 +89,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -130,7 +130,7 @@
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -171,7 +171,7 @@
       "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 90,
       "genres": [
         "Animación Aventuras"
@@ -210,7 +210,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -251,54 +251,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "MADRE SINIESTRA - 2D SUB",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-11",
-      "duration_minutes": 93,
-      "genres": [
-        "Terror"
-      ],
-      "director": [
-        "Rob Savage"
-      ],
-      "cast": [
-        "Jessica Chastain",
-        "Jay Duplass",
-        "Arabella Olivia Clark",
-        "Dichen Lachman",
-        "con Arian Moayed",
-        "Karen Allen"
-      ],
-      "synopsis": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su clóset. La presencia, a quien llama Otra Mamá, se vuelve cada vez más amenazante para ella y su familia.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3602_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "UIP",
-      "trailer": "https://www.youtube.com/embed/gUrcl1APfVY",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5826-MADRE-SINIESTRA---2D-SUB",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5826,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "LA CASA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-11",
+      "release_date": "2026-10-12",
       "duration_minutes": 112,
       "genres": [
         "Drama Thriller"
@@ -328,54 +284,6 @@
       ],
       "metadata_status": "complete_source",
       "cinemacenter_movie_id": 5827,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "HOPE: EL PRIMER IMPACTO - 2D SUB",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-11",
-      "duration_minutes": 160,
-      "genres": [
-        "Thriller"
-      ],
-      "director": [
-        "Na Hong-jin"
-      ],
-      "cast": [
-        "Hwang Jung-min",
-        "Zo In-sung",
-        "Hoyeon",
-        "Alicia Vikander",
-        "Michael Fassbender",
-        "Taylor Russell",
-        "Cameron Britton",
-        "Lee Sang-hee",
-        "Um Mun-suk",
-        "Im Hyun-sik"
-      ],
-      "synopsis": "Tras un extraño hallazgo cerca de una aislada ciudad portuaria, los habitantes se ven envueltos en una desesperada lucha por la supervivencia.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3638_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Corea del Sur",
-      "distributor": "MACO",
-      "trailer": "https://www.youtube.com/embed/6FnVHmzMuHA",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5828-HOPE-EL-PRIMER-IMPACTO---2D-SUB",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5828,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -463,8 +371,8 @@
     }
   ],
   "summary": {
-    "total": 10,
-    "complete_source": 9,
+    "total": 8,
+    "complete_source": 7,
     "partial_source": 1,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
