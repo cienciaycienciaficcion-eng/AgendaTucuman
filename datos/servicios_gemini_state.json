@@ -386,13 +386,13 @@
     "14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao",
     "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre"
   ],
-  "updated_at": "2026-10-13T18:38:59.397866+00:00",
+  "updated_at": "2026-10-13T20:45:47.082317+00:00",
   "gemini_usage": {
     "date": "2026-10-13",
-    "calls": 13
+    "calls": 15
   },
   "groq_usage": {
     "date": "2026-10-13",
-    "calls": 4
+    "calls": 5
   }
 }
