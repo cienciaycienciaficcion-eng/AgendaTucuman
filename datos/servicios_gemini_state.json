@@ -222,13 +222,6 @@
       "provider": "deterministic-filter",
       "reason": "Descartado por filtro previo sin IA."
     },
-    "tafi-viejo-sumo-nina-bot-una-nueva-herramienta-digital-para-la-atencion-vecinal": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.308068+00:00",
-      "content_hash": "63fc122c579b03bd9bb7d59cad5aa68579e9e4b88e9f0630f64c91751aec1c84",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
     "13-al-17-de-julio-donde-se-brindara-el-servicio-gratuito-de-castracion-para-animales-de-compania": {
       "selected": true,
       "processed_at": "2026-10-05T13:11:20.750893+00:00",
@@ -328,6 +321,36 @@
       "provider": "groq",
       "processed_at": "2026-10-07T18:35:12.368062+00:00",
       "reason": "Servicio informativo sobre condiciones climáticas que afecta la vida diaria."
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-del-13-al-16-de-octubre": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-13T14:36:17.320023+00:00",
+      "reason": "Ofrece un servicio gratuito y útil para la comunidad."
+    },
+    "13-al-16-de-octubre-donde-se-ubicara-el-mercado-en-tu-barrio": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-13T14:36:49.635689+00:00",
+      "reason": "Evento comunitario que brinda productos básicos y de limpieza a precios accesibles para los ciudadanos."
+    },
+    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-17-de-octubre": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-13T14:37:06.335391+00:00",
+      "reason": "Información sobre ofertas, precios y horarios de atención del Mercado Municipal Dorrego para la comunidad."
+    },
+    "donde-habra-jornadas-de-eco-canje-esta-semana-9": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-13T14:37:21.542563+00:00",
+      "reason": "Cronograma y ubicaciones de las jornadas de Eco Canje organizadas por la Municipalidad de San Miguel de Tucumán."
+    },
+    "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-13T14:37:38.227871+00:00",
+      "reason": "Campaña de salud pública municipal con chequeos gratuitos de lunares y atención médica en San Miguel de Tucumán."
     }
   },
   "selected_ids": [
@@ -342,15 +365,20 @@
     "5-al-9-de-octubre-operativo-integral-municipal",
     "estas-son-las-ofertas-del-mercado-municipal-dorrego-para-esta-semana-3",
     "como-trabajara-el-comercio-en-tucuman-durante-el-feriado-del-12-de-octubre",
-    "pronostico-del-tiempo-se-anticipa-una-extensa-seguidilla-de-dias-inestables-y-frescos-en-la-provincia"
+    "pronostico-del-tiempo-se-anticipa-una-extensa-seguidilla-de-dias-inestables-y-frescos-en-la-provincia",
+    "smt-donde-castrar-gratis-a-tu-mascota-del-13-al-16-de-octubre",
+    "13-al-16-de-octubre-donde-se-ubicara-el-mercado-en-tu-barrio",
+    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-17-de-octubre",
+    "donde-habra-jornadas-de-eco-canje-esta-semana-9",
+    "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares"
   ],
-  "updated_at": "2026-10-13T12:40:53.438600+00:00",
+  "updated_at": "2026-10-13T14:37:38.228937+00:00",
   "gemini_usage": {
-    "date": "2026-10-07",
-    "calls": 6
+    "date": "2026-10-13",
+    "calls": 7
   },
   "groq_usage": {
-    "date": "2026-10-07",
-    "calls": 3
+    "date": "2026-10-13",
+    "calls": 2
   }
 }
