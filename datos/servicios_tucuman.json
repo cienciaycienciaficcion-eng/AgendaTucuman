@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T14:37:38.228192+00:00",
+  "generated_at": "2026-10-13T16:34:29.824688+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 100,
-  "candidate_count": 20,
-  "processed_this_run": 5,
-  "count": 17,
+  "candidate_count": 23,
+  "processed_this_run": 3,
+  "count": 19,
   "events": [
     {
       "id": "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
@@ -438,6 +438,40 @@
       "occurrences": []
     },
     {
+      "id": "14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao/",
+      "title": "14 de octubre: 1° Taller para Pacientes con Diabetes en San Pedro de Colalao",
+      "published": "2026-10-13",
+      "modified": "2026-10-13T12:32:34",
+      "description": "📣 1° Taller para Pacientes con Diabetes Un espacio de aprendizaje, promoción, prevención y participación con el fin de brindar y fortalecer las herramientas que permitan favorecer el autocuidado y reflexionar en torno al consumo de alcohol, tabaco o fármacos que pueden obstaculizar la salud de las personas con diabetes y prevenir complicaciones. 🏥CAPS San…",
+      "content": "📣 1° Taller para Pacientes con Diabetes Un espacio de aprendizaje, promoción, prevención y participación con el fin de brindar y fortalecer las herramientas que permitan favorecer el autocuidado y reflexionar en torno al consumo de alcohol, tabaco o fármacos que pueden obstaculizar la salud de las personas con diabetes y prevenir complicaciones. 🏥CAPS San Pedro de Colalao 🗓️Miércoles 14 de Octubre 📌Centro Cívico Cultural 🕜 09:00hs",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/2-5.jpg",
+      "author": "",
+      "categories": [
+        "Servicios",
+        "Talleres y Cursos"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-10-13",
+      "date_end": "2026-10-13",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-13T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
       "id": "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares",
       "source": "Agenda Tucumán - Servicios",
       "url": "https://agendatucuman.com.ar/14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares/",
@@ -567,6 +601,43 @@
       "map_search_url": "",
       "registration_urls": [],
       "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre/",
+      "title": "Yerba Buena: Tráiler Veterinario del 13 al 29 de octubre",
+      "published": "2026-10-13",
+      "modified": "2026-10-13T12:04:42",
+      "description": "El Tráiler Veterinario estará del 13 al 29 de octubre en Plaza Vieja, ubicada en Solano Vera 700, para acercar servicios gratuitos de atención a las mascotas de los vecinos de Yerba Buena. Durante esas jornadas, se brindará vacunación antirrábica y desparasitación, por orden de llegada, de 8:30 a 17 horas. Además, el martes 14…",
+      "content": "El Tráiler Veterinario estará del 13 al 29 de octubre en Plaza Vieja, ubicada en Solano Vera 700 , para acercar servicios gratuitos de atención a las mascotas de los vecinos de Yerba Buena. Durante esas jornadas, se brindará vacunación antirrábica y desparasitación , por orden de llegada, de 8:30 a 17 horas . Además, el martes 14 de octubre se realizará la activación de turnos para castración, una iniciativa que promueve la tenencia responsable, la prevención de enfermedades y el control de la población animal. Invitamos a los vecinos del barrio y de zonas cercanas a aprovechar este servicio y acercarse con sus mascotas de manera responsable. Se recomienda llevar a los perros con correa y, si es necesario, bozal. Los gatos deben ser trasladados en transportadora o bolso seguro para garantizar su cuidado y evitar inconvenientes. 🗓️ Del 13 al 29 de octubre. ⏰ De 8:30 a 17 horas. 📍 Plaza Vieja (Solano Vera 700). 💉 Vacunación antirrábica y desparasitación por orden de llegada. 🐶 Activación de turnos para castración: 14 de octubre, a través de yerbabuena.gob.ar .",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2021/02/3-1.jpg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [
+        "https://yerbabuena.gob.ar/"
+      ],
+      "date_start": "2026-10-13",
+      "date_end": "2026-10-13",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-13T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://yerbabuena.gob.ar/"
+      ],
       "occurrences": []
     }
   ]

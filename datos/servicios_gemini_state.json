@@ -351,6 +351,18 @@
       "provider": "gemini",
       "processed_at": "2026-10-13T14:37:38.227871+00:00",
       "reason": "Campaña de salud pública municipal con chequeos gratuitos de lunares y atención médica en San Miguel de Tucumán."
+    },
+    "14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-13T16:33:37.982805+00:00",
+      "reason": "Ofrece un taller de salud pública y prevención sobre diabetes organizado por el CAPS San Pedro de Colalao."
+    },
+    "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-13T16:34:29.824209+00:00",
+      "reason": "Ofrece información sobre un operativo municipal de servicios veterinarios gratuitos (vacunación, desparasitación y castración) en Yerba Buena."
     }
   },
   "selected_ids": [
@@ -370,15 +382,17 @@
     "13-al-16-de-octubre-donde-se-ubicara-el-mercado-en-tu-barrio",
     "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-17-de-octubre",
     "donde-habra-jornadas-de-eco-canje-esta-semana-9",
-    "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares"
+    "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares",
+    "14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao",
+    "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre"
   ],
-  "updated_at": "2026-10-13T14:37:38.228937+00:00",
+  "updated_at": "2026-10-13T16:34:29.825714+00:00",
   "gemini_usage": {
     "date": "2026-10-13",
-    "calls": 7
+    "calls": 11
   },
   "groq_usage": {
     "date": "2026-10-13",
-    "calls": 2
+    "calls": 3
   }
 }
