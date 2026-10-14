@@ -363,13 +363,15 @@
       "provider": "gemini",
       "processed_at": "2026-10-13T16:34:29.824209+00:00",
       "reason": "Ofrece información sobre un operativo municipal de servicios veterinarios gratuitos (vacunación, desparasitación y castración) en Yerba Buena."
+    },
+    "octubre-mes-rosa-en-concepcion": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-14T00:53:24.904557+00:00",
+      "reason": "Campaña de salud pública sobre prevención del cáncer de mama con actividades, charlas y servicios en el Hospital de Concepción."
     }
   },
   "selected_ids": [
-    "smt-donde-castrar-gratis-a-tu-mascota-del-28-de-septiembre-al-2-de-octubre",
-    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-9",
-    "aqui-se-instalara-el-mercado-en-tu-barrio-semana-del-28-de-septiembre-al-2-de-octubre",
-    "28-de-septiembre-al-viernes-2-de-octubre-operativo-integral-municipal",
     "smt-donde-castrar-gratis-a-tu-mascota-del-del-5-al-9-de-octubre",
     "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-para-esta-semana-8",
     "donde-habra-jornadas-de-eco-canje-esta-semana-8",
@@ -384,15 +386,16 @@
     "donde-habra-jornadas-de-eco-canje-esta-semana-9",
     "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares",
     "14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao",
-    "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre"
+    "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre",
+    "octubre-mes-rosa-en-concepcion"
   ],
-  "updated_at": "2026-10-13T22:41:36.266195+00:00",
+  "updated_at": "2026-10-14T00:53:24.905408+00:00",
   "gemini_usage": {
-    "date": "2026-10-13",
-    "calls": 17
+    "date": "2026-10-14",
+    "calls": 1
   },
   "groq_usage": {
-    "date": "2026-10-13",
-    "calls": 6
+    "date": "2026-10-14",
+    "calls": 0
   }
 }
