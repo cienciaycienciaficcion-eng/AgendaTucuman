@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-13T22:01:58.875117-03:00",
-  "reference_date": "2026-10-13",
+  "generated_at": "2026-10-14T04:04:41.690691-03:00",
+  "reference_date": "2026-10-14",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "44abd8c14eeb28862ad9dbcb9794657051fe929f7b59da9833e4f99403c4aa82"
+    "pdf_sha256": "9643073fb2007c176b013955354f16099ce34ce177648536e99e6086250c5dfb"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -38,28 +38,13 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "18:10",
-            "18:20"
-          ],
+          "martes": [],
           "miércoles": [
             "18:10",
             "18:20"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "18:10",
-            "datetime": "2026-10-13T18:10:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-13",
-            "time": "18:20",
-            "datetime": "2026-10-13T18:20:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "18:10",
@@ -78,7 +63,7 @@
           "title": "TOY STORY 5 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 102,
           "genres": [
             "Animación Aventuras"
@@ -136,28 +121,13 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "20:30",
-            "22:40"
-          ],
+          "martes": [],
           "miércoles": [
             "20:30",
             "22:40"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "20:30",
-            "datetime": "2026-10-13T20:30:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-13",
-            "time": "22:40",
-            "datetime": "2026-10-13T22:40:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "20:30",
@@ -176,7 +146,7 @@
           "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 94,
           "genres": [
             "Terror Thriller"
@@ -230,20 +200,12 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "22:10"
-          ],
+          "martes": [],
           "miércoles": [
             "22:10"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "22:10",
-            "datetime": "2026-10-13T22:10:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "22:10",
@@ -256,7 +218,7 @@
           "title": "EL CORAZON DE LA BESTIA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 101,
           "genres": [
             "Thriller"
@@ -312,20 +274,12 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "22:30"
-          ],
+          "martes": [],
           "miércoles": [
             "22:30"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "22:30",
-            "datetime": "2026-10-13T22:30:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "22:30",
@@ -338,7 +292,7 @@
           "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 118,
           "genres": [
             "Thriller"
@@ -394,9 +348,7 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "20:00"
-          ],
+          "martes": [],
           "miércoles": [
             "17:10",
             "17:20",
@@ -404,12 +356,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "20:00",
-            "datetime": "2026-10-13T20:00:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "17:10",
@@ -434,7 +380,7 @@
           "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 90,
           "genres": [
             "Animación Aventuras"
@@ -488,11 +434,7 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "18:00",
-            "20:10",
-            "22:20"
-          ],
+          "martes": [],
           "miércoles": [
             "18:00",
             "20:10",
@@ -500,24 +442,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "18:00",
-            "datetime": "2026-10-13T18:00:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-13",
-            "time": "20:10",
-            "datetime": "2026-10-13T20:10:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-13",
-            "time": "22:20",
-            "datetime": "2026-10-13T22:20:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "18:00",
@@ -542,7 +466,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -601,20 +525,12 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "19:40"
-          ],
+          "martes": [],
           "miércoles": [
             "19:40"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "19:40",
-            "datetime": "2026-10-13T19:40:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "19:40",
@@ -627,7 +543,7 @@
           "title": "LA CASA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 112,
           "genres": [
             "Drama Thriller"
@@ -681,20 +597,12 @@
           "sábado": [],
           "domingo": [],
           "lunes": [],
-          "martes": [
-            "22:00"
-          ],
+          "martes": [],
           "miércoles": [
             "22:00"
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "22:00",
-            "datetime": "2026-10-13T22:00:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-14",
             "time": "22:00",
@@ -707,7 +615,7 @@
           "title": "HOPE: EL PRIMER IMPACTO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-13",
+          "release_date": "2026-10-14",
           "duration_minutes": 160,
           "genres": [
             "Thriller"
