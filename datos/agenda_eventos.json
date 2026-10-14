@@ -1050,6 +1050,80 @@
     "summary_source_hash": "324ba417f73920066f05469a4361c2d39ea19ca1a724c3b3130aeb938ae9af94"
   },
   {
+    "id": "46884",
+    "source": "MEC",
+    "title": "16 de octubre | Noche Escondida: folclore, peña y guitarreada para disfrutar en Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/16-de-octubre-noche-escondida-folclore-pena-y-guitarreada-para-disfrutar-en-tucuman/",
+    "date_start": "2026-10-16",
+    "date_end": "2026-10-16",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-16T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Escondida prepara una noche a puro folclore, música en vivo y encuentro entre amigos. Este viernes 16 de octubre, desde las 22 horas, cinco propuestas musicales se reunirán en el escenario de la tradicional peña tucumana para compartir una velada llena de ritmo, canciones y buena compañía. Una noche para disfrutar del folclore tucumano Si estás buscando qué hacer en Tucumán este viernes , Noche Escondida se presenta como una atractiva alternativa para quienes disfrutan de la música popular argentina, las guitarreadas y las reuniones entre amigos. La cita será en Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán , un espacio que propone mantener viva la tradición de compartir música, historias y momentos alrededor del folclore. Bajo el lema “Encuentro, tradición y amistad” , la propuesta invita a disfrutar de una noche distendida, con artistas en vivo y ese ambiente característico de las peñas, donde el público también forma parte de la celebración. Cinco propuestas musicales para una noche especial La programación de Noche Escondida reunirá a cinco artistas y agrupaciones que aportarán sus estilos y repertorios a una velada dedicada a la música popular. Los protagonistas serán: 🎻 Tyrrra Folk 🎸 Cómplices 🥁 La Changada 🎤 Martu Bongiovanni 🎶 Nacho Cuellar Una cartelera que promete canciones, guitarras y mucho folclore para disfrutar durante la noche. La Escondida, un punto de encuentro para compartir música y amistad Las peñas forman parte de la identidad cultural de Tucumán. Son espacios donde la música trasciende el escenario y se convierte en una experiencia compartida. Con ese espíritu, Noche Escondida invita a reunir amigos, disfrutar de las presentaciones y dejarse llevar por el clima festivo de una auténtica guitarreada. La propuesta es sencilla: La Escondida pone el lugar y la música; el público, las ganas de pasarla bien. Una excelente oportunidad para cortar con la rutina, reencontrarse con amigos y comenzar el fin de semana disfrutando de las tradiciones musicales de nuestra provincia. Todo lo que tenés que saber sobre Noche Escondida 📅 Fecha: Viernes 16 de octubre de 2026. 🕙 Horario: 22:00 horas. 📍 Lugar: Peña La Escondida. 🏠 Dirección: Miguel Lillo 234, San Miguel de Tucumán. 🎵 Artistas: Tyrrra Folk, Cómplices, La Changada, Martu Bongiovanni y Nacho Cuellar. 🎻 Propuesta: Bar, peña, folclore en vivo y guitarreada. 🎟️ Entradas: Precio y modalidad de ingreso no informados. ¿Buscás planes para este viernes en Tucumán? Sumá Noche Escondida a tu agenda, organizá una salida con amigos y preparate para vivir una noche de música, tradición y amistad.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/16.png",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-16",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-16T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-16",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El viernes 16 de octubre de 2026, desde las 22:00 horas, se realizará la Noche Escondida en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. Será una peña con folclore en vivo y guitarreada a cargo de Tyrrra Folk, Cómplices, La Changada, Martu Bongiovanni y Nacho Cuellar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3edc19a09de9e2f631fcca5052d99e9d786b4f20b49f1d4f19560d28534de057"
+  },
+  {
     "id": "46872",
     "source": "MEC",
     "title": "17 de Octubre | El Bus Turístico de San Miguel de Tucumán estrena un paseo gratuito para descubrir los “Tesoros Secretos de SMT”",
@@ -1494,6 +1568,80 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "72edd054f50524a63943ce6f243b7bc9674232c68f0e7b9645ee4f2f5abe4c72"
+  },
+  {
+    "id": "46886",
+    "source": "MEC",
+    "title": "17 de octubre | Noche Explosiva en La Escondida: una gran peña con cuatro propuestas musicales en vivo",
+    "url": "https://agendatucuman.com.ar/eventos/17-de-octubre-noche-explosiva-en-la-escondida-una-gran-pena-con-cuatro-propuestas-musicales-en-vivo/",
+    "date_start": "2026-10-17",
+    "date_end": "2026-10-17",
+    "time_start": "22:00",
+    "time_end": "05:00",
+    "start_datetime": "2026-10-17T22:00:00-03:00",
+    "end_datetime": "2026-10-17T05:00:00-03:00",
+    "description": "Este sábado 17 de octubre, Peña La Escondida vuelve a encender la noche tucumana con una nueva edición de su clásica Noche Explosiva. Desde las 22 horas, cuatro propuestas musicales subirán al escenario para ofrecer una velada a puro folclore, baile, guitarreada y encuentro entre amigos. La fiesta promete extenderse hasta las 5 de la mañana. Una noche explosiva para los amantes del folclore en Tucumán Para quienes buscan qué hacer en Tucumán este sábado , Peña La Escondida prepara una de esas noches en las que la música, la tradición y la alegría se convierten en protagonistas. El encuentro tendrá lugar el sábado 17 de octubre, desde las 22 horas, en Miguel Lillo 234, San Miguel de Tucumán , con una propuesta que combina espectáculos en vivo, bar y el ambiente festivo de una auténtica peña. Bajo el nombre de Noche Explosiva , la celebración invita a disfrutar del folclore y del sentimiento peñero, con una programación pensada para quienes quieren cantar, bailar y compartir hasta la madrugada. Cuatro propuestas musicales para una noche a puro ritmo La cartelera de esta edición reunirá a cuatro artistas y agrupaciones que serán los encargados de ponerle música y energía al encuentro. Los protagonistas de Noche Explosiva serán: ❤️ Raíces de Amor 🎤 Manu Ruiz 🎸 La Huella 🔥 La R’Junta Cuatro propuestas musicales que compartirán escenario en una noche donde el folclore, las canciones y la conexión con el público serán los grandes protagonistas. La expectativa está puesta en una celebración llena de ritmo, con música en vivo y ese clima especial que caracteriza a las peñas tucumanas. Bar, peña y guitarreada hasta las 5 de la mañana Una de las particularidades de esta Noche Explosiva será su duración. La propuesta comenzará a las 22 horas y está prevista hasta las 5 de la mañana , ofreciendo una extensa jornada nocturna para quienes disfrutan de las guitarreadas y las reuniones entre amigos. La Escondida propone mucho más que una sucesión de espectáculos musicales: busca generar un espacio de encuentro en el que las canciones, los brindis y las tradiciones formen parte de una misma celebración. Con su lema “Encuentro, tradición y amistad” , el espacio invita a vivir una noche donde el folclore se disfruta con todos los sentidos. Una alternativa para disfrutar del sábado en San Miguel de Tucumán Las peñas siguen ocupando un lugar destacado dentro de la agenda cultural y nocturna de Tucumán. Son espacios que permiten mantener vigentes las expresiones de nuestra música popular y, al mismo tiempo, reunir a distintas generaciones alrededor de una pasión compartida. En ese contexto, Noche Explosiva se presenta como una excelente alternativa para organizar una salida con amigos, disfrutar de artistas en vivo y vivir una experiencia marcada por la identidad musical de nuestra provincia. Si te gusta el folclore y estás buscando dónde salir este sábado en Tucumán, La Escondida tiene una propuesta para vos. Armá tu grupo, preparate para bailar y sumate a una noche que promete extender la fiesta hasta el amanecer. Todo lo que tenés que saber sobre Noche Explosiva 📅 Fecha: Sábado 17 de octubre de 2026. 🕙 Horario: Desde las 22:00 hasta las 5:00 horas del domingo. 📍 Lugar: Peña La Escondida. 🏠 Dirección: Miguel Lillo 234, San Miguel de Tucumán. 🎶 Artistas: Raíces de Amor, Manu Ruiz, La Huella y La R’Junta. 🎻 Propuesta: Folclore en vivo, bar, peña y guitarreada. 🎟️ Entradas: Precio y modalidad de ingreso no informados. 🔥 ¡No te quedes afuera de la clásica Noche Explosiva! Este sábado, la música y la tradición tienen una cita en Peña La Escondida.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/17.png",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida. 🏠 Dirección: Miguel Lillo 234, San Miguel de Tucumán",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida.+%F0%9F%8F%A0+Direcci%C3%B3n%3A+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-17",
+        "time_start": "22:00",
+        "time_end": "05:00",
+        "start_datetime": "2026-10-17T22:00:00-03:00",
+        "end_datetime": "2026-10-17T05:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-17",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Este sábado 17 de octubre se realiza la Noche Explosiva en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. Desde las 22:00 hasta las 05:00 horas, el evento ofrece una peña folclórica con bar, guitarreada y las actuaciones en vivo de Raíces de Amor, Manu Ruiz, La Huella y La R’Junta.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6950bfa2c00d0f639002a7798c1a5a40fce49fc9360a917a53183a81cd7230cb"
   },
   {
     "id": "46821",
