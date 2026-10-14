@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-13T16:00:26.346536-03:00",
+  "generated_at": "2026-10-13T22:01:58.875117-03:00",
   "reference_date": "2026-10-13",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "941800bac6475cef2047353cd73c9395c533fe0dd63abd875704f3e668e98518"
+    "pdf_sha256": "44abd8c14eeb28862ad9dbcb9794657051fe929f7b59da9833e4f99403c4aa82"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -395,8 +395,6 @@
           "domingo": [],
           "lunes": [],
           "martes": [
-            "17:10",
-            "17:20",
             "20:00"
           ],
           "miércoles": [
@@ -406,18 +404,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-13",
-            "time": "17:10",
-            "datetime": "2026-10-13T17:10:00",
-            "weekday": "martes"
-          },
-          {
-            "date": "2026-10-13",
-            "time": "17:20",
-            "datetime": "2026-10-13T17:20:00",
-            "weekday": "martes"
-          },
           {
             "date": "2026-10-13",
             "time": "20:00",
