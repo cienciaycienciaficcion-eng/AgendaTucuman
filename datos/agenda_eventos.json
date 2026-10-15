@@ -1,227 +1,5 @@
 [
   {
-    "id": "46810",
-    "source": "MEC",
-    "title": "14 de Octubre | La Muni en las Plazas llega a Barrio Los Plátanos con un taller gratuito de folclore",
-    "url": "https://agendatucuman.com.ar/eventos/14-de-octubre-la-muni-en-las-plazas-llega-a-barrio-los-platanos-con-un-taller-gratuito-de-folclore/",
-    "date_start": "2026-10-14",
-    "date_end": "2026-10-14",
-    "time_start": "17:30",
-    "time_end": "",
-    "start_datetime": "2026-10-14T17:30:00-03:00",
-    "end_datetime": "",
-    "description": "La música, la danza y nuestras tradiciones serán protagonistas de una nueva jornada cultural en San Miguel de Tucumán. Este miércoles 14 de octubre, desde las 17.30 h, los vecinos podrán disfrutar de un taller gratuito de folclore en la Plaza del Barrio Los Plátanos. La propuesta forma parte del ciclo “La Muni en las Plazas” , una iniciativa de la Municipalidad de San Miguel de Tucumán que lleva actividades recreativas y culturales a los espacios públicos de la ciudad. Una tarde para disfrutar de nuestras tradiciones El encuentro tendrá lugar en la plaza ubicada en pasaje Acevedo esquina Lugones , donde el folclore será el centro de una actividad pensada para acercar nuestras expresiones culturales a los vecinos. La jornada representa una oportunidad para conectarse con la música y las danzas tradicionales argentinas, disfrutar del espacio público y compartir una tarde diferente en el barrio. Una propuesta cultural gratuita en San Miguel de Tucumán Para quienes buscan qué hacer en Tucumán , las actividades culturales al aire libre son una alternativa para disfrutar de la ciudad sin gastar dinero. El ciclo “La Muni en las Plazas” propone aprovechar los espacios verdes como lugares de encuentro, recreación y participación comunitaria. La participación en el taller es completamente gratuita. Desde la organización informaron que la actividad se suspenderá en caso de lluvia. ¡Animate a disfrutar de una tarde a puro folclore y compartí esta propuesta con familiares y amigos para que nadie se pierda la oportunidad! 📍 Todo lo que tenés que saber Actividad: Taller gratuito de folclore. Fecha: Miércoles 14 de octubre de 2026. Horario: 17.30 h. Lugar: Plaza del Barrio Los Plátanos. Dirección: Pasaje Acevedo esquina Lugones, San Miguel de Tucumán. Entrada: Gratuita. Organiza: Municipalidad de San Miguel de Tucumán. Ciclo: La Muni en las Plazas. Importante: Se suspende por lluvia.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/09/folclore-scaled.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Plaza del Barrio Los Plátanos. Dirección: Pasaje Acevedo esquina Lugones, San Miguel de Tucumán",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "Municipalidad de San Miguel de Tucumán",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Talleres y Cursos"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Plaza+del+Barrio+Los+Pl%C3%A1tanos.+Direcci%C3%B3n%3A+Pasaje+Acevedo+esquina+Lugones%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-14",
-        "time_start": "17:30",
-        "time_end": "",
-        "start_datetime": "2026-10-14T17:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-14",
-      "card_time": "17:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "El ciclo La Muni en las Plazas presenta un taller gratuito de folclore para disfrutar de la música y la danza en San Miguel de Tucumán. La cita es el miércoles 14 de octubre de 2026, desde las 17.30 h, en la plaza del Barrio Los Plátanos, ubicada en pasaje Acevedo esquina Lugones. La entrada es libre y la actividad se suspende por lluvia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "d90dd83d16f493becaed4ec5bf6cb554977ff281ae01bdf99ceb4dd9bef7cc57"
-  },
-  {
-    "id": "46811",
-    "source": "MEC",
-    "title": "14 de Octubre | Clases gratuitas de Gimnasia Relax en Barrio San Martín para disfrutar de una tarde de bienestar",
-    "url": "https://agendatucuman.com.ar/eventos/14-de-octubre-clases-gratuitas-de-gimnasia-relax-en-barrio-san-martin-para-disfrutar-de-una-tarde-de-bienestar/",
-    "date_start": "2026-10-14",
-    "date_end": "2026-10-14",
-    "time_start": "18:30",
-    "time_end": "",
-    "start_datetime": "2026-10-14T18:30:00-03:00",
-    "end_datetime": "",
-    "description": "Este miércoles 14 de octubre, los vecinos de San Miguel de Tucumán podrán participar de una clase gratuita de Gimnasia Relax en Barrio San Martín. La propuesta invita a dedicar un momento al movimiento corporal, la relajación y el bienestar integral, en un espacio pensado para compartir y disfrutar de una actividad saludable. El encuentro se desarrollará de 18.30 a 19.30 h en la Escuela Capitán de los Andes, ubicada en Alsina 4771 , con entrada libre y gratuita. Una propuesta para cuidar el cuerpo y la mente La Gimnasia Relax es una alternativa para quienes buscan incorporar el movimiento a su rutina cotidiana y dedicar un tiempo al bienestar físico y emocional. Este tipo de actividad combina ejercicios suaves, movilidad corporal y técnicas orientadas a favorecer la relajación, ayudando a disminuir las tensiones de la vida diaria. El taller organizado por la Municipalidad de San Miguel de Tucumán busca ofrecer a los vecinos un espacio accesible donde la actividad física y el bienestar sean protagonistas. Actividades gratuitas para disfrutar en Tucumán Si estás buscando qué hacer en Tucumán , esta propuesta representa una oportunidad para aprovechar la tarde realizando una actividad saludable, sin necesidad de gastar dinero. La clase tendrá lugar en las instalaciones de la Escuela Capitán de los Andes, en Barrio San Martín, y está destinada a las vecinas y vecinos interesados en sumarse a una experiencia de movimiento y bienestar. Además, la actividad no se suspende por lluvia , por lo que podrá desarrollarse independientemente de las condiciones meteorológicas. ¡Regalate una hora para vos! Sumate a esta propuesta gratuita, disfrutá de una tarde diferente y compartí la información con familiares, amigos y vecinos que quieran incorporar hábitos saludables a su vida cotidiana. 📍 Todo lo que tenés que saber Actividad: Taller gratuito de Gimnasia Relax. Fecha: Miércoles 14 de octubre de 2026. Horario: De 18.30 a 19.30 h. Lugar: Escuela Capitán de los Andes. Dirección: Alsina 4771, Barrio San Martín, San Miguel de Tucumán. Entrada: Libre y gratuita. Organiza: Municipalidad de San Miguel de Tucumán. Importante: La actividad no se suspende por lluvia.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2020/05/unnamed-file-22.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Escuela Capitán de los Andes. Dirección: Alsina 4771, Barrio San Martín, San Miguel de Tucumán",
-    "address": "Alsina 4771, Barrio San Martín, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "Municipalidad de San Miguel de Tucumán",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Talleres y Cursos"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Escuela+Capit%C3%A1n+de+los+Andes.+Direcci%C3%B3n%3A+Alsina+4771%2C+Barrio+San+Mart%C3%ADn%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-14",
-        "time_start": "18:30",
-        "time_end": "",
-        "start_datetime": "2026-10-14T18:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-14",
-      "card_time": "18:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "Participá de una clase gratuita de Gimnasia Relax para disfrutar de una tarde de bienestar físico y emocional. El encuentro será el miércoles 14 de octubre de 2026, de 18.30 a 19.30 h, en la Escuela Capitán de los Andes, ubicada en Alsina 4771, Barrio San Martín, San Miguel de Tucumán. La entrada es libre y gratuita, y la actividad no se suspende por lluvia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "e9c525e4542494f9ebe31d4ecbc36b3903cac4e84ab6b5a9317a72954e37356e"
-  },
-  {
-    "id": "46812",
-    "source": "MEC",
-    "title": "14 de Octubre | Clases gratuitas de Gimnasia Funcional en Barrio San Martín para ponerse en movimiento",
-    "url": "https://agendatucuman.com.ar/eventos/14-de-octubre-clases-gratuitas-de-gimnasia-funcional-en-barrio-san-martin-para-ponerse-en-movimiento/",
-    "date_start": "2026-10-14",
-    "date_end": "2026-10-14",
-    "time_start": "19:30",
-    "time_end": "",
-    "start_datetime": "2026-10-14T19:30:00-03:00",
-    "end_datetime": "",
-    "description": "Este miércoles 14 de octubre, los vecinos de San Miguel de Tucumán tendrán una nueva oportunidad para realizar actividad física de manera gratuita. La Municipalidad invita a participar de una clase de Gimnasia Funcional en Barrio San Martín, una propuesta destinada a promover hábitos saludables, el movimiento corporal y el bienestar integral. La actividad se desarrollará de 19.30 a 20.30 h en la Escuela Capitán de los Andes, ubicada en Alsina 4771 , con entrada libre y gratuita. Una hora para entrenar y cuidar la salud La Gimnasia Funcional es una modalidad de entrenamiento que busca mejorar la fuerza, la resistencia, la coordinación y la movilidad mediante ejercicios que involucran diferentes grupos musculares. Este tipo de actividad física permite trabajar movimientos que se utilizan en la vida cotidiana, favoreciendo la condición física general y promoviendo un estilo de vida activo. La propuesta impulsada por la Municipalidad de San Miguel de Tucumán busca acercar oportunidades de actividad física y recreación a los barrios, generando espacios de encuentro y participación para la comunidad. Una actividad gratuita para disfrutar en Barrio San Martín Para quienes buscan qué hacer en Tucumán y desean incorporar el ejercicio físico a su rutina, este taller representa una alternativa accesible para dedicar una hora al entrenamiento y al cuidado personal. El encuentro tendrá lugar en las instalaciones de la Escuela Capitán de los Andes, en Barrio San Martín, y forma parte de las actividades gratuitas que el Municipio ofrece a los vecinos de la capital tucumana. Además, la clase se realizará con normalidad incluso en caso de lluvia , por lo que las condiciones climáticas no impedirán el desarrollo de la jornada. Movimiento, bienestar y comunidad Realizar actividad física de manera regular aporta múltiples beneficios para la salud, desde el fortalecimiento muscular hasta la mejora de la capacidad cardiovascular y el bienestar emocional. Las propuestas comunitarias de entrenamiento también permiten compartir experiencias con otros vecinos y encontrar motivación para sostener hábitos saludables. ¡Ponete en movimiento! Aprovechá esta oportunidad para dedicarle tiempo a tu salud, sumate a la clase gratuita y compartí la información con tus amigos, familiares y vecinos para que más personas puedan participar. 📍 Todo lo que tenés que saber Actividad: Clase gratuita de Gimnasia Funcional. Fecha: Miércoles 14 de octubre de 2026. Horario: De 19.30 a 20.30 h. Lugar: Escuela Capitán de los Andes. Dirección: Alsina 4771, Barrio San Martín, San Miguel de Tucumán. Entrada: Libre y gratuita. Organiza: Municipalidad de San Miguel de Tucumán. Importante: La actividad no se suspende por lluvia.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/plaza-scaled.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Escuela Capitán de los Andes. Dirección: Alsina 4771, Barrio San Martín, San Miguel de Tucumán",
-    "address": "Alsina 4771, Barrio San Martín, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "Municipalidad de San Miguel de Tucumán",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Talleres y Cursos"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Escuela+Capit%C3%A1n+de+los+Andes.+Direcci%C3%B3n%3A+Alsina+4771%2C+Barrio+San+Mart%C3%ADn%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-10-14",
-        "time_start": "19:30",
-        "time_end": "",
-        "start_datetime": "2026-10-14T19:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-10-14",
-      "card_time": "19:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-10"
-    },
-    "summary": "La Municipalidad de San Miguel de Tucumán invita a una clase gratuita de Gimnasia Funcional para fomentar hábitos saludables. Se realizará el miércoles 14 de octubre de 2026, de 19.30 a 20.30 h, en la Escuela Capitán de los Andes, ubicada en Alsina 4771, Barrio San Martín. La entrada es libre y la actividad no se suspende por lluvia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "2bb9cb136f65025ec1d24155ab9002711da68570ff9766b1c874bf596907553e"
-  },
-  {
     "id": "46860",
     "source": "MEC",
     "title": "15 y 16 de Octubre | El Festivalito de Artes Visuales llega a Tucumán con talleres, títeres, circo y actividades gratuitas para niños y jóvenes",
@@ -301,6 +79,94 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "ff77ce805e4d431cbc583fdc52d387f23ba3a3aa7d1937e56965af4a6ac07b55"
+  },
+  {
+    "id": "46889",
+    "source": "MEC",
+    "title": "15, 16 y 17 de Octubre | “Los ojos de Helen” llega al Espacio INCAA Tucumán con una historia de memoria y resistencia",
+    "url": "https://agendatucuman.com.ar/eventos/15-16-y-17-de-octubre-los-ojos-de-helen-llega-al-espacio-incaa-tucuman-con-una-historia-de-memoria-y-resistencia/",
+    "date_start": "2026-10-15",
+    "date_end": "2026-10-17",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-15T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Espacio INCAA Tucumán presenta “Los ojos de Helen”, un documental dirigido por Fer Casals y Valeria Massimino que recorre la vida de Helen Zout, fotógrafa argentina perseguida durante la última dictadura. La película podrá verse los días jueves 15, viernes 16 y sábado 17 de octubre, a las 20 horas, en la Sala Hynes O’Connor, ubicada en San Martín 251. Una propuesta cinematográfica que invita a reflexionar sobre la memoria, los derechos humanos y el poder de la fotografía para contar aquello que no debe olvidarse. Los ojos de Helen: la fotografía como testimonio de una época Hay imágenes que trascienden el tiempo y se convierten en testimonios de la historia. Ese es el universo que explora “Los ojos de Helen”, una película que se acerca a la vida y la obra de Helen Zout. Perseguida durante la dictadura argentina, Zout encontró en la fotografía una poderosa herramienta para registrar el horror, la fragilidad humana y las huellas de una de las etapas más oscuras del país. A través de su mirada, el documental propone un recorrido donde el dolor se transforma en memoria y la fotografía se convierte en una forma de resistencia frente al olvido. Una propuesta de cine documental en Tucumán Dirigida por Fer Casals y Valeria Massimino, la producción invita al espectador a descubrir cómo las imágenes pueden conservar historias, interpelar al presente y mantener vivos los testimonios del pasado. La llegada de este documental al Espacio INCAA representa una oportunidad para quienes buscan qué hacer en Tucumán y desean disfrutar de propuestas culturales que, además de ofrecer una experiencia cinematográfica, abren espacios de reflexión. Tres funciones en la Sala Hynes O’Connor La película tendrá tres exhibiciones consecutivas, del jueves 15 al sábado 17 de octubre de 2026, siempre a las 20 horas. Las entradas podrán adquirirse directamente en la boletería del teatro, una hora antes de cada función. El valor de la entrada general será de $5.000, mientras que jubilados y estudiantes podrán acceder a una tarifa especial de $2.500. Una invitación a mirar para no olvidar El cine documental tiene la capacidad de recuperar voces, historias y experiencias que forman parte de nuestra memoria colectiva. “Los ojos de Helen” propone precisamente ese encuentro entre la imagen, la historia y la sensibilidad humana. Si te interesan el cine argentino, la fotografía y las historias que dejan huella, esta es una propuesta para sumar a tu agenda cultural. ¡Agendá la fecha, compartí esta propuesta y disfrutá del cine nacional en Tucumán! Información del evento Película: Los ojos de Helen Dirección: Fer Casals y Valeria Massimino Fechas: Jueves 15, viernes 16 y sábado 17 de octubre de 2026 Horario: 20:00 Lugar: Espacio INCAA – Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán Entradas: General $5.000 | Jubilados y estudiantes $2.500 Venta: En boletería, una hora antes de cada función",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/ojos-de-helen.jpeg",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "",
+    "address": "Fer Casals y Valeria Massimino Fechas: Jueves 15, viernes 16 y sábado 17 de octubre de 2026 Horario: 20:00 Lugar: Espacio INCAA – Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán Entradas: General $5",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Fer+Casals+y+Valeria+Massimino+Fechas%3A+Jueves+15%2C+viernes+16+y+s%C3%A1bado+17+de+octubre+de+2026+Horario%3A+20%3A00+Lugar%3A+Espacio+INCAA+%E2%80%93+Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n+Entradas%3A+General+%245",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-15",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-15T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-16",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-16T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-17",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-17T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-15",
+      "card_time": "20:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El documental Los ojos de Helen, dirigido por Fer Casals y Valeria Massimino, recorre la vida de la fotógrafa argentina Helen Zout. Las funciones serán del 15 al 17 de octubre de 2026 a las 20:00 en la Sala Hynes O’Connor del Espacio INCAA, ubicada en San Martín 251. Las entradas generales cuestan $5.000 y para jubilados y estudiantes $2.500, disponibles en boletería desde una hora antes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "60591c45f23b02438bfe1e01758e135d1a854c8b0f2de524f67d7c031e76439b"
   },
   {
     "id": "46835",
@@ -449,6 +315,80 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "0c68f95f412797a8b86ca71afb0e7381adb8f8b10d5d03754bf1add3b4261b52"
+  },
+  {
+    "id": "46897",
+    "source": "MEC",
+    "title": "16 de Octubre | Charla musical de folklore en Tafí del Valle con artistas de México y Argentina",
+    "url": "https://agendatucuman.com.ar/eventos/16-de-octubre-charla-musical-de-folklore-en-tafi-del-valle-con-artistas-de-mexico-y-argentina/",
+    "date_start": "2026-10-16",
+    "date_end": "2026-10-16",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-16T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El folklore será protagonista de una noche especial en Tafí del Valle. El viernes 16 de octubre de 2026, a las 20 horas, el Museo Jesuita de La Banda recibirá una charla musical que reunirá a artistas de México y Argentina, en una propuesta que invita a disfrutar de la música, compartir experiencias y descubrir los vínculos culturales que unen a ambos países. La actividad contará con la participación de Anastasia Sonaranda, de México, y Héctor “El Chato” Singh, de Argentina, y tendrá entrada libre y gratuita. Un encuentro musical que une culturas y tradiciones La música folklórica constituye una de las expresiones más representativas de la identidad cultural de los pueblos. A través de sus melodías, instrumentos e historias, permite conservar tradiciones y establecer conexiones entre distintas comunidades. Con ese espíritu, Tafí del Valle será escenario de una charla musical de folklore que reunirá a dos artistas de diferentes países latinoamericanos. La participación de Anastasia Sonaranda y Héctor “El Chato” Singh propone un encuentro alrededor de la música y las raíces culturales, en un espacio que invita al intercambio y al acercamiento entre artistas y público. La actividad está dirigida especialmente a vecinos de Tafí del Valle, El Mollar y localidades cercanas, así como a los visitantes que se encuentren recorriendo los Valles Calchaquíes. Anastasia Sonaranda y Héctor “El Chato” Singh La charla contará con la presencia de dos músicos que representan distintas procedencias culturales. Anastasia Sonaranda – México La artista mexicana participará de este encuentro musical que busca generar un espacio de intercambio en torno al folklore y las tradiciones. Héctor “El Chato” Singh – Argentina El músico argentino compartirá la jornada junto a Sonaranda, en una propuesta que reunirá perspectivas musicales de ambos países. El formato de charla musical ofrece la posibilidad de acercarse al folklore desde una experiencia que combina conversación y música. El Museo Jesuita de La Banda, escenario del encuentro La actividad tendrá lugar en el Museo Jesuita de La Banda, uno de los espacios patrimoniales de Tafí del Valle. Este sitio, vinculado con la historia y la cultura de los Valles Calchaquíes, será el escenario de una propuesta artística que suma una alternativa a la agenda cultural de la localidad. Para quienes buscan qué hacer en Tafí del Valle durante octubre, la charla musical representa una oportunidad de disfrutar de una actividad gratuita relacionada con las tradiciones latinoamericanas. Una invitación para vecinos y visitantes La propuesta se realizará el viernes 16 de octubre, a partir de las 20 horas, con acceso libre y gratuito. Una alternativa para compartir una noche diferente en Tafí del Valle, acercarse al folklore y disfrutar de un encuentro entre artistas de México y Argentina. ¡Invitá a tus amigos, compartí esta propuesta con vecinos de Tafí del Valle y El Mollar, y sumate a una noche dedicada a nuestras raíces musicales! Información del evento Actividad: Charla musical de folklore Artistas: Anastasia Sonaranda (México) y Héctor “El Chato” Singh (Argentina) Fecha: Viernes 16 de octubre de 2026 Horario: 20:00 h Lugar: Museo Jesuita de La Banda, Tafí del Valle, Tucumán Entrada: Libre y gratuita",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/charla-tafi.png",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Museo Jesuita de La Banda, Tafí del Valle, Tucumán",
+    "address": "",
+    "city": "Tafí del Valle",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+Jesuita+de+La+Banda%2C+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-16",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-16T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-16",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Disfrutá de una charla musical de folklore que unirá las tradiciones de México y Argentina con la participación de Anastasia Sonaranda y Héctor “El Chato” Singh. La cita será el viernes 16 de octubre de 2026, a las 20:00 h, en el Museo Jesuita de La Banda, en Tafí del Valle. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "4742e26a3ed29deedcccee0b25a5407c87994e68d58a832f2e7d87773dc8284e"
   },
   {
     "id": "46816",
@@ -1050,6 +990,82 @@
     "summary_source_hash": "324ba417f73920066f05469a4361c2d39ea19ca1a724c3b3130aeb938ae9af94"
   },
   {
+    "id": "46891",
+    "source": "MEC",
+    "title": "16 de Octubre | “Dražen”, la película sobre una leyenda del básquet europeo, llega al Espacio INCAA Tucumán con entrada gratuita",
+    "url": "https://agendatucuman.com.ar/eventos/16-de-octubre-drazen-la-pelicula-sobre-una-leyenda-del-basquet-europeo-llega-al-espacio-incaa-tucuman-con-entrada-gratuita/",
+    "date_start": "2026-10-16",
+    "date_end": "2026-10-16",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-16T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Encuentro de Cine Europeo llega a Tucumán con una propuesta que combina deporte, historia y emociones. El viernes 16 de octubre, a las 22 horas, se proyectará “Dražen”, una película croata que reconstruye la vida de Dražen Petrović, una de las grandes figuras del básquet internacional. La función tendrá lugar en el Espacio INCAA – Sala Hynes O’Connor, ubicado en San Martín 251, San Miguel de Tucumán, con entrada libre y gratuita. Dražen Petrović: la historia de una leyenda del básquet El cine europeo trae a la pantalla grande la vida de un deportista cuya trayectoria trascendió las canchas. “Dražen”, dirigida por Danilo Šerbedžija y Ljubo Zdjelarević, es un drama biográfico que explora la vida personal y deportiva de Dražen Petrović, considerado una de las figuras más destacadas del baloncesto croata y europeo. La película se adentra en el carácter singular del jugador, sus vínculos personales y su profunda relación con el básquet, un deporte que representó tanto su mayor pasión como una fuente de exigencias y conflictos. Lejos de limitarse a sus logros deportivos, el relato presenta una mirada íntima sobre el hombre detrás de la leyenda. Entre la pasión por el deporte y la guerra de los Balcanes Uno de los aspectos centrales de la película es el contexto histórico que rodeó la vida de Petrović. La guerra de los Balcanes y las tensiones que atravesaron la región forman parte del escenario en el que se desarrolla su historia. La producción aborda cómo las circunstancias personales, políticas y sociales influyeron en su trayectoria, mostrando que detrás de cada gran deportista existe una historia humana atravesada por decisiones, relaciones y desafíos. Con una combinación de drama y biografía, “Dražen” invita a descubrir una figura que dejó una huella profunda en el básquet europeo. El Encuentro de Cine Europeo suma propuestas culturales en Tucumán Bajo la consigna “Historias para conversar el presente y pensar el futuro”, el Encuentro de Cine Europeo propone un espacio de intercambio entre culturas, historias y públicos. La proyección de esta producción croata forma parte de una programación que busca acercar al público tucumano distintas miradas del cine internacional. Para quienes buscan qué hacer en Tucumán, esta función representa una excelente oportunidad de disfrutar de cine europeo, conocer una historia deportiva y participar de una actividad cultural gratuita. Una función gratuita para disfrutar del cine internacional La película se proyectará el viernes 16 de octubre de 2026, a las 22 horas, en la Sala Hynes O’Connor del Espacio INCAA. La entrada será libre y gratuita, una oportunidad para acercarse al cine europeo sin costo y descubrir una historia en la que el deporte, la pasión y los acontecimientos históricos se entrelazan. ¡Agendá la fecha, invitá a tus amigos y disfrutá de una noche de cine europeo en Tucumán! Información del evento Película: Dražen Dirección: Danilo Šerbedžija y Ljubo Zdjelarević País: Croacia | Género: Drama biográfico Fecha: Viernes 16 de octubre de 2026 Horario: 22:00 Lugar: Espacio INCAA – Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán Entrada: Libre y gratuita Ciclo: Encuentro de Cine Europeo",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/drazen.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Espacio INCAA – Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán",
+    "address": "Danilo Šerbedžija y Ljubo Zdjelarević País: Croacia | Género: Drama biográfico Fecha: Viernes 16 de octubre de 2026 Horario: 22:00 Lugar: Espacio INCAA – Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán Entrada: Libre y gratuita Ciclo: Encuentro de Cine Europeo",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Espacio+INCAA+%E2%80%93+Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n%2C+Danilo+%C5%A0erbed%C5%BEija+y+Ljubo+Zdjelarevi%C4%87+Pa%C3%ADs%3A+Croacia+%7C+G%C3%A9nero%3A+Drama+biogr%C3%A1fico+Fecha%3A+Viernes+16+de+octubre+de+2026+Horario%3A+22%3A00+Lugar%3A+Espacio+INCAA+%E2%80%93+Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n+Entrada%3A+Libre+y+gratuita+Ciclo%3A+Encuentro+de+Cine+Europeo",
+    "registration_urls": [
+      "mailto:?subject=16%20de%20Octubre%20%7C%20%E2%80%9CDra%C5%BEen%E2%80%9D%2C%20la%20pel%C3%ADcula%20sobre%20una%20leyenda%20del%20b%C3%A1squet%20europeo%2C%20llega%20al%20Espacio%20INCAA%20Tucum%C3%A1n%20con%20entrada%20gratuita&body=https%3A%2F%2Fagendatucuman.com.ar%2Feventos%2F16-de-octubre-drazen-la-pelicula-sobre-una-leyenda-del-basquet-europeo-llega-al-espacio-incaa-tucuman-con-entrada-gratuita%2F"
+    ],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-16",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-16T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-16",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El viernes 16 de octubre de 2026 a las 22:00 se proyectará el drama biográfico Dražen en el Espacio INCAA – Sala Hynes O’Connor, ubicado en San Martín 251, San Miguel de Tucumán. Esta función del Encuentro de Cine Europeo relata la vida del legendario basquetbolista croata Dražen Petrović. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "47f51ddb67aa3f306c4b6913ed48a3bc91ce52bc21a5bc1f748a4ac7668009a4"
+  },
+  {
     "id": "46884",
     "source": "MEC",
     "title": "16 de octubre | Noche Escondida: folclore, peña y guitarreada para disfrutar en Tucumán",
@@ -1122,6 +1138,80 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "3edc19a09de9e2f631fcca5052d99e9d786b4f20b49f1d4f19560d28534de057"
+  },
+  {
+    "id": "46895",
+    "source": "MEC",
+    "title": "15 al 17 de Octubre | Tucumán Arte 2026 comienza con talleres, intervenciones artísticas y actividades gratuitas",
+    "url": "https://agendatucuman.com.ar/eventos/15-al-17-de-octubre-tucuman-arte-2026-comienza-con-talleres-intervenciones-artisticas-y-actividades-gratuitas/",
+    "date_start": "2026-10-17",
+    "date_end": "2026-10-17",
+    "time_start": "10:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-10-17T10:00:00-03:00",
+    "end_datetime": "2026-10-17T18:00:00-03:00",
+    "description": "Tucumán Arte 2026, el Festival de Artes Visuales organizado por el Ente Cultural de Tucumán, inicia su programación con tres jornadas dedicadas a la creatividad, la formación y el intercambio cultural. Del jueves 15 al sábado 17 de octubre, habrá talleres, recorridos artísticos, actividades para estudiantes y encuentros que proponen reflexionar sobre el papel del arte en la sociedad. Las propuestas se desarrollarán principalmente en el Ente Cultural de Tucumán y el Museo Provincial Escultor Juan Carlos Iramain, con entrada libre y gratuita, aunque algunas actividades estarán destinadas exclusivamente a públicos específicos. Tucumán Arte 2026: un festival para descubrir, crear y compartir El Festival de Artes Visuales abre una nueva edición con una programación que busca acercar el arte a diferentes públicos, especialmente a niños, adolescentes y jóvenes. Durante los primeros días, las actividades combinarán experiencias presenciales, intervenciones artísticas, talleres y espacios de conversación sobre la cultura y sus posibilidades de transformación. Uno de los principales atractivos será el Festivalito de Artes Visuales, una iniciativa que propone acercar las expresiones artísticas a las escuelas mediante experiencias participativas. La agenda también contempla una conversación virtual con un referente internacional y un encuentro de formación dentro del programa Futura 6. Jueves 15 de octubre: inauguración, talleres y conversación internacional La jornada inaugural comenzará a las 10 horas con el acto de apertura del Festivalito de Artes Visuales, que contará con la participación del Coro de Niños y Jóvenes del Ente Cultural de Tucumán, bajo la dirección de la maestra Andrea Cardozo. La ceremonia tendrá lugar en San Martín 251. Ese mismo día se desarrollará el Festivalito de Artes Visuales: Arte, Cultura, Infancias y Juventudes, con talleres, recorridos e intervenciones artísticas destinados a las escuelas. Las actividades se realizarán de 8:30 a 12:30 y de 14:30 a 18 horas, en dos espacios culturales: el Ente Cultural, ubicado en San Martín 251, y el Museo Provincial Escultor Juan Carlos Iramain, en Entre Ríos 27. Un encuentro virtual para pensar el futuro del arte A las 16 horas tendrá lugar el streaming de lanzamiento titulado “¿Y qué esperamos del arte?”, una conversación virtual con Luis Camnitzer desde Nueva York. El encuentro propone abrir interrogantes sobre el lugar del arte en la actualidad y sus posibilidades como herramienta de reflexión y transformación. La transmisión se realizará a través del canal de YouTube del Ente Cultural de Tucumán, @enteculturaldetucuman. Viernes 16 de octubre: el Festivalito continúa con actividades para las escuelas La segunda jornada estará dedicada nuevamente al Festivalito de Artes Visuales, bajo la consigna “Arte, Cultura, Infancias y Juventudes”. Los estudiantes podrán participar de talleres, recorridos e intervenciones artísticas que buscan estimular la creatividad y acercarlos al universo de las artes visuales. Las propuestas se desarrollarán en el Ente Cultural de Tucumán y el Museo Provincial Escultor Juan Carlos Iramain, en los horarios de 8:30 a 12:30 y de 14:30 a 18 horas. Se trata de una oportunidad para vincular el aprendizaje escolar con experiencias culturales y promover el contacto directo de niños y jóvenes con distintas manifestaciones artísticas. Sábado 17 de octubre: segundo encuentro de Red en Obras El sábado, de 9 a 12 horas, se realizará el segundo encuentro de Red en Obras, a cargo de TAVIT, en el marco del programa Futura 6: Herramientas para una Cultura en Movimiento. La actividad se desarrollará junto con CCBEA y Fundación Williams en el Museo Provincial Escultor Juan Carlos Iramain, ubicado en Entre Ríos 27. A diferencia de las demás propuestas, este encuentro está destinado exclusivamente a los participantes del programa. Tres días para acercarse al arte en Tucumán Con esta primera agenda, Tucumán Arte 2026 pone en marcha un espacio de encuentro entre artistas, instituciones educativas y públicos interesados en las artes visuales. Para quienes buscan qué hacer en Tucumán durante octubre, el festival ofrece actividades culturales gratuitas, propuestas educativas y espacios de reflexión que permiten descubrir nuevas formas de experimentar el arte. ¡Compartí la programación, descubrí las propuestas del festival y sumate a las actividades de Tucumán Arte 2026! Agenda completa | 15 al 17 de octubre Jueves 15 Octubre 2026 10:00 h — Acto inaugural del Festivalito de Artes Visuales Coro de Niños y Jóvenes del Ente Cultural de Tucumán, dirigido por Andrea Cardozo. San Martín 251 8:30 a 12:30 y 14:30 a 18 h — Festivalito de Artes Visuales Talleres, recorridos e intervenciones artísticas para las escuelas. Ente Cultural, San Martín 251, y Museo Iramain, Entre Ríos 27 16:00 h — Streaming “¿Y qué esperamos del arte?” Conversación virtual con Luis Camnitzer desde Nueva York. YouTube: @enteculturaldetucuman Viernes 16 8:30 a 12:30 y 14:30 a 18 h — Festivalito de Artes Visuales Talleres, recorridos e intervenciones artísticas para las escuelas. Ente Cultural, San Martín 251, y Museo Iramain, Entre Ríos 27 Sábado 17 9:00 a 12:00 h — Segundo encuentro de Red en Obras Actividad del programa Futura 6, a cargo de TAVIT, con CCBEA y Fundación Williams. Museo Iramain, Entre Ríos 27 Exclusivo para destinatarios del programa Entrada libre y gratuita. Algunas actividades tienen destinatarios específicos.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/tucuman-arte.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "sociedad",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "el Ente Cultural de Tucumán, inicia su programación con tres jornadas dedicadas a la creatividad, la formación y el intercambio cultural",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=sociedad%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-17",
+        "time_start": "10:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-10-17T10:00:00-03:00",
+        "end_datetime": "2026-10-17T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-15",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Del 15 al 17 de octubre se realiza el festival Tucumán Arte 2026 con talleres, intervenciones artísticas y charlas en el Ente Cultural de Tucumán y el Museo Provincial Escultor Juan Carlos Iramain. La entrada es libre y gratuita, con algunas actividades destinadas a públicos específicos.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "dfa9e95ace3c7b94a1cf8099b90dbcc20ff784a6e578436f19cc8ff5d568b1a4"
   },
   {
     "id": "46872",
@@ -1642,6 +1732,87 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "6950bfa2c00d0f639002a7798c1a5a40fce49fc9360a917a53183a81cd7230cb"
+  },
+  {
+    "id": "46893",
+    "source": "MEC",
+    "title": "19 y 20 de Octubre | “Yo, Narciso”, la comedia de Adrián Suar, llega al Espacio INCAA Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/19-y-20-de-octubre-yo-narciso-la-comedia-de-adrian-suar-llega-al-espacio-incaa-tucuman/",
+    "date_start": "2026-10-19",
+    "date_end": "2026-10-20",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-19T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El cine argentino suma una nueva propuesta a la cartelera cultural de Tucumán. Los días lunes 19 y martes 20 de octubre de 2026, el Espacio INCAA presentará “Yo, Narciso”, una comedia protagonizada por Adrián Suar que combina humor, romance y situaciones inesperadas. La película se proyectará en la Sala Orestes Caviglia, ubicada en San Martín 251, con funciones a las 20 y 18 horas, respectivamente. Yo, Narciso: una comedia donde el ego y el amor se cruzan ¿Qué sucede cuando alguien que se cree irresistible se convierte en objeto de una investigación académica? Esa es la premisa de “Yo, Narciso”, una comedia que presenta a un exitoso y egocéntrico cirujano plástico cuya personalidad despierta el interés de una profesora de sociología. La investigadora se encuentra trabajando en un nuevo libro y decide estudiar de cerca el comportamiento del profesional. Para lograrlo, se hace pasar por una paciente y comienza a observar sus actitudes, su manera de relacionarse y la particular visión que tiene de sí mismo. Sin embargo, lo que inicialmente parecía un experimento académico controlado comienza a tomar un rumbo inesperado. Cuando una investigación se transforma en algo más A medida que avanza la historia, la relación entre la profesora y el cirujano se vuelve cada vez más compleja. La protagonista descubre que mantener la distancia emocional no resulta tan sencillo como imaginaba. Mientras intenta comprender los mecanismos del narcisismo y el egocentrismo, sus propios sentimientos comienzan a interferir con el trabajo. La película propone situaciones humorísticas y enredos románticos alrededor de una pregunta: ¿es posible estudiar objetivamente a alguien cuando empieza a surgir una atracción personal? Entre malentendidos, emociones y personalidades contrapuestas, “Yo, Narciso” invita a reírse de las contradicciones humanas y de las complicaciones que aparecen cuando el ego se interpone en las relaciones. Dos funciones en el Espacio INCAA Tucumán La película tendrá dos proyecciones en la Sala Orestes Caviglia, una de las salas culturales ubicadas en el centro de San Miguel de Tucumán. Las funciones están programadas para el lunes 19 de octubre, a las 20 horas, y el martes 20 de octubre, a las 18 horas. Las entradas podrán adquirirse en la boletería del teatro desde una hora antes de cada función. El precio de la entrada general será de $5.000, mientras que jubilados y estudiantes podrán acceder a una tarifa reducida de $2.500. Es importante tener en cuenta que las entradas se abonan únicamente en efectivo. Una propuesta para disfrutar del cine argentino Para quienes buscan qué hacer en Tucumán durante octubre, esta comedia se presenta como una alternativa para disfrutar de una salida al cine y acompañar las producciones nacionales. Con Adrián Suar como figura central, “Yo, Narciso” propone una historia donde el humor, la atracción y los conflictos de personalidad se combinan para ofrecer una experiencia cinematográfica entretenida. ¡Agendá las funciones, elegí tu horario y compartí esta propuesta con quienes disfrutan de las comedias argentinas! Información del evento Película: Yo, Narciso Protagonista: Adrián Suar Fechas y horarios: Lunes 19 de octubre de 2026 – 20:00 h Martes 20 de octubre de 2026 – 18:00 h Lugar: Espacio INCAA – Sala Orestes Caviglia, San Martín 251, San Miguel de Tucumán Entradas: General: $5.000 Jubilados y estudiantes: $2.500 Medio de pago: Únicamente efectivo Venta: Boletería del teatro, desde una hora antes de cada función",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/narciso.jpg",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "centro de San Miguel de Tucumán",
+    "address": "San Martín 251",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=centro+de+San+Miguel+de+Tucum%C3%A1n%2C+San+Mart%C3%ADn+251",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-19",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-19T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-20",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-20T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-19",
+      "card_time": "20:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El Espacio INCAA Tucumán, ubicado en San Martín 251, proyectará la comedia argentina Yo, Narciso, protagonizada por Adrián Suar. Las funciones serán el lunes 19 de octubre de 2026 a las 20:00 h y el martes 20 de octubre a las 18:00 h en la Sala Orestes Caviglia. Las entradas generales cuestan $5.000 y $2.500 para jubilados y estudiantes, con venta en efectivo en la boletería una hora antes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "cc7e44cd61ddbf58a353c1b03f664266dbb3d2d08d2f4ed9f8935625aaf6cd9c"
   },
   {
     "id": "46821",
