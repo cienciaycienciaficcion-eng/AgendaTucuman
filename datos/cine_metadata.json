@@ -1,34 +1,33 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-14T10:01:47.386908-03:00",
+  "generated_at": "2026-10-15T10:05:06.225278-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
-      "title": "TOY STORY 5 - 2D CAST",
+      "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
-      "duration_minutes": 102,
+      "release_date": "2026-10-15",
+      "duration_minutes": 110,
       "genres": [
-        "Animación Aventuras"
+        "Animación Familiar"
       ],
       "director": [
-        "Andrew Stanton"
+        "Dave Green"
       ],
       "cast": [
-        "Tom Hanks",
-        "Tim Allen",
-        "Joan Cusack",
-        "Conan O'Brien",
-        "Greta Lee."
+        "John Cena",
+        "Will Forte",
+        "Lana Condor",
+        "Tone Bell"
       ],
-      "synopsis": "Los juguetes están de vuelta en «Toy Story 5», de Disney y Pixar, y esta vez se enfrentan los juguetes y la tecnología. El trabajo de Buzz, Woody, Jessie y el resto de la pandilla se complica exponencialmente cuando se enfrentan a esta nueva amenaza para el tiempo de juego.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3398_img2.jpg",
+      "synopsis": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3548_img2.jpg",
       "classification": "G - Audiencia General",
       "nationality": "Estados Unidos",
-      "distributor": "Disney",
-      "trailer": "https://www.youtube.com/embed/s_qpMMkvHYE",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5608-TOY-STORY-5---2D-CAST",
+      "distributor": "BF",
+      "trailer": "https://www.youtube.com/embed/r4HNeBH7Q4A",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5736-COYOTE-VS-ACME---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -36,11 +35,11 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 18 de Junio de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 27 de Agosto de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5608,
+      "cinemacenter_movie_id": 5736,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -50,7 +49,7 @@
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
+      "release_date": "2026-10-15",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -89,7 +88,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
+      "release_date": "2026-10-15",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -130,7 +129,7 @@
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
+      "release_date": "2026-10-15",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -168,49 +167,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "GUARDIANES DEL MUSEO 2 - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-14",
-      "duration_minutes": 90,
-      "genres": [
-        "Animación Aventuras"
-      ],
-      "director": [
-        "Vasiliy Rovenskiy"
-      ],
-      "cast": [],
-      "synopsis": "Han pasado dos años desde que se salvó el Hermitage y la Mona Lisa fue robada. Maurice los sueños del ratón de nuevas hazañas, Vincent y Cleopatra han reclutado dos gatitos inquietos que también están anhelando aventuras.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3493_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Rusia",
-      "distributor": "Imagen Films",
-      "trailer": "https://www.youtube.com/embed/WJaWzgZ7Rkg",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5812-GUARDIANES-DEL-MUSEO-2---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [
-        "cast"
-      ],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "partial_source",
-      "cinemacenter_movie_id": 5812,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
+      "release_date": "2026-10-15",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -251,75 +211,141 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "LA CASA - 2D CAST",
+      "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
-      "duration_minutes": 112,
+      "release_date": "2026-10-15",
+      "duration_minutes": 119,
       "genres": [
-        "Drama Thriller"
+        "Acción"
       ],
       "director": [
-        "Gustavo Triviño"
+        "Kitao Sakurai"
       ],
       "cast": [
-        "Diego Peretti | Cesar Troncoso | Fabian Arenillas | Mariano Argento | Guillermo Arengo"
+        "Noah Centineo",
+        "Andrew Koji",
+        "Callina Liang",
+        "Joe \"Roman Reigns\" Anoai",
+        "David Dastmalchian",
+        "Cody Rhodes",
+        "Andrew Schulz",
+        "Eric André",
+        "Vidyut Jammwal",
+        "Orville Peck",
+        "Olivier Richters",
+        "Hirooki Goto",
+        "Rayna Vallandingham",
+        "Alexander Volkanovski",
+        "Curtis 50 Cent Jackson y Jason Momoa."
       ],
-      "synopsis": "Tras quedar fuera del mercado laboral, acorralado por la realidad, Hugo Vaca (Peretti) acepta una propuesta tan inesperada como extraña para no perder lo único que le queda su casa: firmar un contrato que le permite venderla y seguir viviendo allí hasta el final de sus días. Pero a medida que trata con los compradores, sospecha que detrás de la operación se esconde algo mucho más oscuro, y sin saberlo queda atrapado en un mundo completamente ajeno que lo arrastra cada vez más profundo",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3639_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Argentina",
-      "distributor": "Moving Pics",
-      "trailer": "https://www.youtube.com/embed/20B0K5FX4kE",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5827-LA-CASA---2D-CAST",
+      "synopsis": "Ambientada en 1993, la historia sigue a los distanciados luchadores de Street Fighter, Ryu (Andrew Koji) y Ken Masters (Noah Centineo), quienes se ven obligados a volver a la acción cuando la misteriosa Chun-Li (Callina Liang) los recluta para el próximo Torneo Mundial de Guerreros: un brutal choque de puños, destino y furia. Pero tras esta batalla campal se esconde una conspiración mortal que los obliga a enfrentarse entre sí y a los demonios de su pasado. ¡Y si no lo hacen, se acabó el juego!",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3562_img2.jpg",
+      "classification": "Desconocido",
+      "nationality": "Estados Unidos",
+      "distributor": null,
+      "trailer": "https://www.youtube.com/embed/CqzFnPkaFzI",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5848-STREET-FIGHTER---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
-      "metadata_missing": [],
+      "metadata_missing": [
+        "distributor"
+      ],
       "metadata_unavailable_on_source": [
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5827,
+      "metadata_status": "partial_source",
+      "cinemacenter_movie_id": 5848,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "HOPE: EL PRIMER IMPACTO - 2D CAST",
+      "title": "STREET FIGHTER - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-14",
-      "duration_minutes": 160,
+      "release_date": "2026-10-15",
+      "duration_minutes": 119,
       "genres": [
-        "Thriller"
+        "Acción"
       ],
       "director": [
-        "Na Hong-jin"
+        "Kitao Sakurai"
       ],
       "cast": [
-        "Hwang Jung-min",
-        "Zo In-sung",
-        "Hoyeon",
-        "Alicia Vikander",
-        "Michael Fassbender",
-        "Taylor Russell",
-        "Cameron Britton",
-        "Lee Sang-hee",
-        "Um Mun-suk",
-        "Im Hyun-sik"
+        "Noah Centineo",
+        "Andrew Koji",
+        "Callina Liang",
+        "Joe \"Roman Reigns\" Anoai",
+        "David Dastmalchian",
+        "Cody Rhodes",
+        "Andrew Schulz",
+        "Eric André",
+        "Vidyut Jammwal",
+        "Orville Peck",
+        "Olivier Richters",
+        "Hirooki Goto",
+        "Rayna Vallandingham",
+        "Alexander Volkanovski",
+        "Curtis 50 Cent Jackson y Jason Momoa."
       ],
-      "synopsis": "Tras un extraño hallazgo cerca de una aislada ciudad portuaria, los habitantes se ven envueltos en una desesperada lucha por la supervivencia.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3638_img2.jpg",
+      "synopsis": "Ambientada en 1993, la historia sigue a los distanciados luchadores de Street Fighter, Ryu (Andrew Koji) y Ken Masters (Noah Centineo), quienes se ven obligados a volver a la acción cuando la misteriosa Chun-Li (Callina Liang) los recluta para el próximo Torneo Mundial de Guerreros: un brutal choque de puños, destino y furia. Pero tras esta batalla campal se esconde una conspiración mortal que los obliga a enfrentarse entre sí y a los demonios de su pasado. ¡Y si no lo hacen, se acabó el juego!",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3562_img2.jpg",
+      "classification": "Desconocido",
+      "nationality": "Estados Unidos",
+      "distributor": null,
+      "trailer": "https://www.youtube.com/embed/CqzFnPkaFzI",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5849-STREET-FIGHTER---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [
+        "distributor"
+      ],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "partial_source",
+      "cinemacenter_movie_id": 5849,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "LA CAIDA DE LA BALLENA - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-15",
+      "duration_minutes": 106,
+      "genres": [
+        "Suspenso"
+      ],
+      "director": [
+        "Brian Duffield"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Josh Brolin",
+        "Elisabeth Shue",
+        "John Ortiz",
+        "Jane Levy y Emily Rudd"
+      ],
+      "synopsis": "Tras la muerte de su padre (Josh Brolin), Jay Gardiner (Austin Abrams) se sumerge en la costa central de California en busca de sus restos, pero es tragado por una enorme ballena. Mientras está atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó con tanto esfuerzo pueden ser la clave para escapar.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3574_img2.jpg",
       "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Corea del Sur",
-      "distributor": "MACO",
-      "trailer": "https://www.youtube.com/embed/6FnVHmzMuHA",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5829-HOPE-EL-PRIMER-IMPACTO---2D-CAST",
+      "nationality": "Estados Unidos",
+      "distributor": "Disney",
+      "trailer": "https://www.youtube.com/embed/mHGQuAAVAI4",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5852-LA-CAIDA-DE-LA-BALLENA---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -327,11 +353,100 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5829,
+      "cinemacenter_movie_id": 5852,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "LA CAIDA DE LA BALLENA - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-15",
+      "duration_minutes": 106,
+      "genres": [
+        "Suspenso"
+      ],
+      "director": [
+        "Brian Duffield"
+      ],
+      "cast": [
+        "Austin Abrams",
+        "Josh Brolin",
+        "Elisabeth Shue",
+        "John Ortiz",
+        "Jane Levy y Emily Rudd"
+      ],
+      "synopsis": "Tras la muerte de su padre (Josh Brolin), Jay Gardiner (Austin Abrams) se sumerge en la costa central de California en busca de sus restos, pero es tragado por una enorme ballena. Mientras está atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó con tanto esfuerzo pueden ser la clave para escapar.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3574_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Estados Unidos",
+      "distributor": "Disney",
+      "trailer": "https://www.youtube.com/embed/mHGQuAAVAI4",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5853-LA-CAIDA-DE-LA-BALLENA---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5853,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "ESCUELA DE MONSTRUOS - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-15",
+      "duration_minutes": 81,
+      "genres": [
+        "Animación"
+      ],
+      "director": [
+        "Verena Fels"
+      ],
+      "cast": [
+        "Lilian Jane Gartner",
+        "Verena Altenberger",
+        "Silvia Schneider",
+        "Susi Stach",
+        "Michael Ostrowski",
+        "Philipp Hansa",
+        "Armin Assinger",
+        "Alix Martin"
+      ],
+      "synopsis": "Tras ser expulsada del colegio, Mía y su mascota Quentin llegan a la Escuela Bosque Muerto, donde ella es la única humana entre sus compañeros monstruosos. Debido al odio del director Van Vlad hacia los humanos, Mia deberá aliarse con los monstruos para desbaratar sus planes.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3657_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Alemania",
+      "distributor": "Cinetopia",
+      "trailer": "https://www.youtube.com/embed/2iaKr78081o",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5854-ESCUELA-DE-MONSTRUOS---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5854,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -371,9 +486,9 @@
     }
   ],
   "summary": {
-    "total": 8,
-    "complete_source": 7,
-    "partial_source": 1,
+    "total": 10,
+    "complete_source": 8,
+    "partial_source": 2,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
     "proximos_estrenos_conservados": 1
