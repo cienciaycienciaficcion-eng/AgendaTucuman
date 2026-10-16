@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-15T16:01:41.709085-03:00",
-  "reference_date": "2026-10-15",
+  "generated_at": "2026-10-16T10:03:59.783700-03:00",
+  "reference_date": "2026-10-16",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "d5f15ed78aa91a0c2397e41c5a979e6e520c437e980099d70b0fb0913a7be159"
+    "pdf_sha256": "2404ee4e64834b7ffa75edeccd63dc29417b4a3f8cdf99807f4e5558b6d213a9"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -33,9 +33,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "16:50"
-          ],
+          "jueves": [],
           "viernes": [
             "16:50"
           ],
@@ -56,12 +54,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "16:50",
-            "datetime": "2026-10-15T16:50:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "16:50",
@@ -104,7 +96,7 @@
           "title": "COYOTE VS ACME - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 110,
           "genres": [
             "Animación Familiar"
@@ -156,9 +148,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "22:00"
-          ],
+          "jueves": [],
           "viernes": [
             "22:00"
           ],
@@ -179,12 +169,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "22:00",
-            "datetime": "2026-10-15T22:00:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "22:00",
@@ -227,7 +211,7 @@
           "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 94,
           "genres": [
             "Terror Thriller"
@@ -276,9 +260,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "19:40"
-          ],
+          "jueves": [],
           "viernes": [
             "19:40"
           ],
@@ -299,12 +281,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "19:40",
-            "datetime": "2026-10-15T19:40:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "19:40",
@@ -347,7 +323,7 @@
           "title": "EL CORAZON DE LA BESTIA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 101,
           "genres": [
             "Thriller"
@@ -398,11 +374,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "17:10",
-            "19:10",
-            "21:50"
-          ],
+          "jueves": [],
           "viernes": [
             "17:10",
             "19:10",
@@ -435,24 +407,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "17:10",
-            "datetime": "2026-10-15T17:10:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-15",
-            "time": "19:10",
-            "datetime": "2026-10-15T19:10:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-15",
-            "time": "21:50",
-            "datetime": "2026-10-15T21:50:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "17:10",
@@ -567,7 +521,7 @@
           "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 118,
           "genres": [
             "Thriller"
@@ -618,11 +572,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "18:00",
-            "20:10",
-            "22:20"
-          ],
+          "jueves": [],
           "viernes": [
             "18:00",
             "20:10",
@@ -655,24 +605,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "18:00",
-            "datetime": "2026-10-15T18:00:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-15",
-            "time": "20:10",
-            "datetime": "2026-10-15T20:10:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-15",
-            "time": "22:20",
-            "datetime": "2026-10-15T22:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "18:00",
@@ -787,7 +719,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -841,10 +773,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "17:20",
-            "20:00"
-          ],
+          "jueves": [],
           "viernes": [
             "17:20",
             "20:00",
@@ -876,18 +805,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "17:20",
-            "datetime": "2026-10-15T17:20:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-15",
-            "time": "20:00",
-            "datetime": "2026-10-15T20:00:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "17:20",
@@ -996,7 +913,7 @@
           "title": "STREET FIGHTER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 119,
           "genres": [
             "Acción"
@@ -1061,9 +978,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "22:30"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1074,12 +989,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "22:30",
-            "datetime": "2026-10-15T22:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-18",
             "time": "22:30",
@@ -1092,7 +1001,7 @@
           "title": "STREET FIGHTER - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-18",
           "duration_minutes": 119,
           "genres": [
             "Acción"
@@ -1157,9 +1066,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "19:50"
-          ],
+          "jueves": [],
           "viernes": [
             "19:50",
             "22:10"
@@ -1185,12 +1092,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "19:50",
-            "datetime": "2026-10-15T19:50:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "19:50",
@@ -1263,7 +1164,7 @@
           "title": "LA CAIDA DE LA BALLENA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 106,
           "genres": [
             "Suspenso"
@@ -1316,9 +1217,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "22:10"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1329,12 +1228,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "22:10",
-            "datetime": "2026-10-15T22:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-18",
             "time": "22:10",
@@ -1347,7 +1240,7 @@
           "title": "LA CAIDA DE LA BALLENA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-18",
           "duration_minutes": 106,
           "genres": [
             "Suspenso"
@@ -1400,9 +1293,7 @@
         "week_start": "2026-10-15",
         "week_end": "2026-10-21",
         "schedule": {
-          "jueves": [
-            "17:40"
-          ],
+          "jueves": [],
           "viernes": [
             "17:40"
           ],
@@ -1423,12 +1314,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-15",
-            "time": "17:40",
-            "datetime": "2026-10-15T17:40:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-16",
             "time": "17:40",
@@ -1471,7 +1356,7 @@
           "title": "ESCUELA DE MONSTRUOS - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-15",
+          "release_date": "2026-10-16",
           "duration_minutes": 81,
           "genres": [
             "Animación"
