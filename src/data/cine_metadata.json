@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-17T15:47:59.226967-03:00",
+  "generated_at": "2026-10-17T22:00:59.388147-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-17",
+      "release_date": "2026-10-18",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
