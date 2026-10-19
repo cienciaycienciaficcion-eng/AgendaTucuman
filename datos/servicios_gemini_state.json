@@ -369,6 +369,24 @@
       "provider": "gemini",
       "processed_at": "2026-10-14T00:53:24.904557+00:00",
       "reason": "Campaña de salud pública sobre prevención del cáncer de mama con actividades, charlas y servicios en el Hospital de Concepción."
+    },
+    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre": {
+      "selected": true,
+      "provider": "groq",
+      "processed_at": "2026-10-19T16:45:46.431544+00:00",
+      "reason": "Ofertas de productos y gastronomía útiles para la comunidad."
+    },
+    "yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-19T16:46:16.164026+00:00",
+      "reason": "Es un operativo municipal que ofrece trámites, vacunación, atención veterinaria (castraciones) y Eco Canje en Yerba Buena."
+    },
+    "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-19T16:46:31.140323+00:00",
+      "reason": "Oferta de cursos gratuitos de formación profesional organizados por la Municipalidad de Tafí Viejo con fechas y modos de inscripción."
     }
   },
   "selected_ids": [
@@ -387,15 +405,18 @@
     "14-y-15-de-octubre-salva-tu-piel-chequeo-gratuito-de-lunares",
     "14-de-octubre-1-taller-para-pacientes-con-diabetes-en-san-pedro-de-colalao",
     "tafi-viejo-trailer-veterinario-del-13-al-29-de-octubre",
-    "octubre-mes-rosa-en-concepcion"
+    "octubre-mes-rosa-en-concepcion",
+    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre",
+    "yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad",
+    "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional"
   ],
-  "updated_at": "2026-10-19T12:52:56.381549+00:00",
+  "updated_at": "2026-10-19T16:46:31.141289+00:00",
   "gemini_usage": {
-    "date": "2026-10-14",
-    "calls": 1
+    "date": "2026-10-19",
+    "calls": 4
   },
   "groq_usage": {
-    "date": "2026-10-14",
-    "calls": 0
+    "date": "2026-10-19",
+    "calls": 1
   }
 }

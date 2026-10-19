@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-19T12:52:56.380904+00:00",
+  "generated_at": "2026-10-19T16:46:31.140577+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 100,
-  "candidate_count": 16,
-  "processed_this_run": 0,
-  "count": 16,
+  "candidate_count": 19,
+  "processed_this_run": 3,
+  "count": 19,
   "events": [
     {
       "id": "5-al-9-de-octubre-operativo-integral-municipal",
@@ -539,6 +539,113 @@
       "external_urls": [
         "https://yerbabuena.gob.ar/"
       ],
+      "occurrences": []
+    },
+    {
+      "id": "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre/",
+      "title": "Ofertas del Mercado Municipal Dorrego para esta semana: hasta el 24 de octubre",
+      "published": "2026-10-19",
+      "modified": "2026-10-19T11:51:45",
+      "description": "En los puestos del Mercado Municipal Dorrego, ubicado en avenida Roca y Marina Alfaro, los vecinos pueden hacer sus compras diarias de alimentos y productos de la canasta básica, además de disfrutar de una rica oferta gastronómica a precios muy convenientes. El centro comercial de la zona sur de la ciudad abre sus puertas de…",
+      "content": "En los puestos del Mercado Municipal Dorrego , ubicado en avenida Roca y Marina Alfaro, los vecinos pueden hacer sus compras diarias de alimentos y productos de la canasta básica, además de disfrutar de una rica oferta gastronómica a precios muy convenientes. El centro comercial de la zona sur de la ciudad abre sus puertas de lunes a sábados, de 9 a 15.30 h y de 18 a 21.30 h; y los domingos, de 9 a 15.30 h. Los locales reciben distintos medios de pago (efectivo, tarjetas de crédito, débito y transferencias). Algunas de las ofertas que estarán disponibles esta semana son las siguientes: Panadería, fiambrería y almacén Pan: $2.200 el kilo Facturas (6 unidades): $2.000 Tortillas (10 unidades): $2.500 Tortillas (8 unidades): $1.000 Fiambre surtido 1/4 de kilo: $2.000 Queso criollo más salamín: $8.500 Aceite de girasol: $3.000 Bandeja de huevos: $5.000 Nueces: $20.000 el kilo Miel medio kilo: $7.000 Carnicería y pollería Tres kilos de pata muslo: entre $ 10.000 y $13.000 Dos kilos de suprema: $18.000 Suprema: $8.999 el kilo Un kilo de vacío más un kilogramo de paleta chata: $27.000 Pierna o paleta de cerdo, dos kilos: $15.000 Costeleta de cerdo, dos kilos: $16.000 Hígado: $6.000 el kilo Mondongo: $12.000 el kg Costeleta de cerdo, dos kilos: $20.000 Bondiola: $12.000 el kilo Paleta, dos kilos: $16.000 Verdulería Frutilla: $4.000 el kilo Chaucha: $5.000 el kilo Sandía: $1.800 el kilo Comidas preparadas y gastronomía Humita con queso (unidad): $2.500 Tamal (unidad): $2.500 Bombas (unidad): $2.000 Ñoquis (porción): $6.000 Seis empanadas más 2 bombas o quipes: $9.500 Pizza común más 6 empanadas: $15.000 Dos bombas o quipes con guarnición: $7.500 Dos napolitanas con gaseosa: $27.000 Pizza común más 6 empanadas y gaseosa: $38.000 Dos escalopes con guarnición y gaseosa: $22.000 Hamburguesa común: $7.500 Hamburguesa especial: $8.500 Kafta: $4.500 Tarta con gaseosa: $8.000 Napolitana con guarnición y gaseosa: $29.000 Calzón y gaseosa: $8.500 1/4 de pollo: $8.500 Docena de empanadas más pizza especial y gaseosa: $28.000 Lampreado con guarnición: $10.000 Milanesa a caballo: $10.000 Milanesa napolitana con guarnición: $13.000 Bomba de queso (unidad): $2.500 Bomba de carne (unidad): $2.500 Empanada de pollo (unidad): $1.500 Empanada de matambre (unidad): $1.500 Indumentaria Remera de niña: $8.500",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/03/Mercado-Dorrego-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [
+        "Mercado Dorrego",
+        "ofertas"
+      ],
+      "links": [],
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-19",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-19T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
+      "occurrences": []
+    },
+    {
+      "id": "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional/",
+      "title": "Tafí Viejo: nuevos cursos gratuitos de formación profesional",
+      "published": "2026-10-19",
+      "modified": "2026-10-19T11:07:37",
+      "description": "La Municipalidad de Tafí Viejo, a través de la Dirección de Empleo y Economía Social, pone a disposición de los vecinos una nueva oferta de cursos de formación profesional gratuitos, impulsados por la Gerencia de Empleo provincial. La iniciativa busca brindar herramientas y conocimientos que contribuyan a mejorar las oportunidades de inserción laboral y fortalecer…",
+      "content": "La Municipalidad de Tafí Viejo, a través de la Dirección de Empleo y Economía Social, pone a disposición de los vecinos una nueva oferta de cursos de formación profesional gratuitos , impulsados por la Gerencia de Empleo provincial. La iniciativa busca brindar herramientas y conocimientos que contribuyan a mejorar las oportunidades de inserción laboral y fortalecer proyectos de emprendimiento. La propuesta contempla capacitaciones en Habilidades Digitales para la Inclusión Laboral, Comunicación Digital, Marketing Digital, Introducción al Comercio Electrónico, Competencias en Estrategia y Comercialización Digital y Refacciones Domiciliarias . Los cursos se desarrollarán bajo una modalidad 100% virtual y autoasistida , lo que permitirá a los participantes avanzar en su formación de acuerdo con sus propios tiempos y acceder a nuevos conocimientos sin necesidad de asistir presencialmente a clases. Las personas interesadas podrán realizar la preinscripción hasta el 25 de octubre de 2026 , ingresando al sitio web oficial www.portalempleo.gob.ar . Quienes necesiten asistencia para completar el trámite podrán acercarse a la Oficina de Empleo, ubicada en calle Congreso 286, de lunes a viernes, de 8 a 13 horas.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2020/09/dia-de-la-secretaria.jpg",
+      "author": "",
+      "categories": [
+        "Servicios",
+        "Talleres y Cursos"
+      ],
+      "tags": [],
+      "links": [
+        "https://www.portalempleo.gob.ar/"
+      ],
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-19",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-19T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [
+        "https://www.portalempleo.gob.ar/"
+      ],
+      "occurrences": []
+    },
+    {
+      "id": "yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad",
+      "source": "Agenda Tucumán - Servicios",
+      "url": "https://agendatucuman.com.ar/yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad/",
+      "title": "Yerba Buena: La Muni Cerca llega para atender a los vecinos de esa ciudad",
+      "published": "2026-10-19",
+      "modified": "2026-10-19T11:12:54",
+      "description": "La Municipalidad de Yerba Buena llevará una nueva edición del programa La Muni Cerca al barrio Moreno y Perón este miércoles 21 de octubre, de 16 a 20. La propuesta busca acercar distintas áreas municipales a los vecinos, facilitar gestiones y brindar servicios gratuitos en el barrio. Con el objetivo de estar más cerca de…",
+      "content": "La Municipalidad de Yerba Buena llevará una nueva edición del programa La Muni Cerca al barrio Moreno y Perón este miércoles 21 de octubre, de 16 a 20. La propuesta busca acercar distintas áreas municipales a los vecinos, facilitar gestiones y brindar servicios gratuitos en el barrio. Con el objetivo de estar más cerca de los vecinos y simplificar el acceso a los servicios públicos, se realizará una nueva jornada de La Muni Cerca , el programa que recorre distintos sectores de la ciudad para acercar respuestas y soluciones a los vecinos. En esta oportunidad, el encuentro será este miércoles 21 de octubre, de 16 a 20 horas, en el barrio Moreno y Perón , donde los vecinos podrán acercarse para realizar trámites, efectuar consultas y acceder a diferentes servicios. Trámites, salud y atención veterinaria Durante la jornada habrá espacios de trámites y consultas , pensados para que los vecinos puedan resolver gestiones y recibir orientación sin necesidad de trasladarse a otras dependencias municipales. También se ofrecerán servicios de vacunación , como parte de las acciones destinadas a facilitar el acceso a la salud y promover la prevención. Además, estará presente el tráiler veterinario , con prestaciones gratuitas para las mascotas. La propuesta incluye servicios vinculados con la atención animal, como castraciones, desparasitación y tratamiento contra enfermedades parasitarias, según las prestaciones previstas para el operativo. Eco Canje: una propuesta para cuidar el ambiente La jornada también contará con el espacio de Eco Canje , una iniciativa que promueve la separación y recuperación de materiales reciclables y busca fomentar hábitos responsables con el ambiente. De esta manera, la actividad reunirá en un mismo lugar servicios municipales, acciones de prevención sanitaria, atención para mascotas y propuestas de concientización ambiental. Una Municipalidad más cerca de cada barrio A través de La Muni Cerca, el municipio busca fortalecer el vínculo con los vecinos y facilitar el acceso a servicios y gestiones en distintos puntos de Yerba Buena. La invitación es para este miércoles 21 de octubre, de 16 a 20 horas, en Moreno y Perón . Los vecinos podrán acercarse durante la tarde para conocer las propuestas disponibles y aprovechar los servicios de esta nueva jornada.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2024/12/trailer-veterinario-yerba-buena.jpeg",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": [],
+      "date_start": "2026-10-19",
+      "date_end": "2026-10-19",
+      "time_start": "",
+      "time_end": "",
+      "start_datetime": "2026-10-19T00:00:00-03:00",
+      "end_datetime": "",
+      "location": "",
+      "address": "",
+      "city": "Tucumán",
+      "is_free": false,
+      "price": null,
+      "currency": "",
+      "map_search_url": "",
+      "registration_urls": [],
+      "external_urls": [],
       "occurrences": []
     }
   ]
