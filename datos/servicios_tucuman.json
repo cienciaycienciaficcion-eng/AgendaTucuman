@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-19T16:46:31.140577+00:00",
+  "generated_at": "2026-10-19T18:51:04.979035+00:00",
   "source": "Gemini incremental filter",
   "raw_count": 100,
   "candidate_count": 19,
-  "processed_this_run": 3,
+  "processed_this_run": 0,
   "count": 19,
   "events": [
     {
