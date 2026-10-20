@@ -387,6 +387,18 @@
       "provider": "gemini",
       "processed_at": "2026-10-19T16:46:31.140323+00:00",
       "reason": "Oferta de cursos gratuitos de formación profesional organizados por la Municipalidad de Tafí Viejo con fechas y modos de inscripción."
+    },
+    "donde-habra-jornadas-de-eco-canje-esta-semana-10": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-20T22:40:42.067397+00:00",
+      "reason": "Informa sobre el cronograma y las ubicaciones de las jornadas de Eco Canje de la Municipalidad de San Miguel de Tucumán."
+    },
+    "donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-20T22:40:59.105743+00:00",
+      "reason": "Brinda información relevante sobre operativos de salud pública y cronograma de atención del Tráiler de Salud de la Mujer en San Miguel de Tucumán."
     }
   },
   "selected_ids": [
@@ -408,15 +420,17 @@
     "octubre-mes-rosa-en-concepcion",
     "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre",
     "yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad",
-    "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional"
+    "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional",
+    "donde-habra-jornadas-de-eco-canje-esta-semana-10",
+    "donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer"
   ],
-  "updated_at": "2026-10-20T18:48:16.806016+00:00",
+  "updated_at": "2026-10-20T22:40:59.107513+00:00",
   "gemini_usage": {
-    "date": "2026-10-19",
-    "calls": 4
+    "date": "2026-10-20",
+    "calls": 3
   },
   "groq_usage": {
-    "date": "2026-10-19",
-    "calls": 1
+    "date": "2026-10-20",
+    "calls": 0
   }
 }

@@ -1,9 +1,43 @@
 {
   "schema_version": "2.0",
-  "generated_at": "2026-10-20T18:48:16.546883+00:00",
+  "generated_at": "2026-10-20T22:40:21.880921+00:00",
   "source": "https://agendatucuman.com.ar/category/servicios/",
   "count": 100,
   "articles": [
+    {
+      "id": "donde-habra-jornadas-de-eco-canje-esta-semana-10",
+      "source": "Agenda Tucumán",
+      "url": "https://agendatucuman.com.ar/donde-habra-jornadas-de-eco-canje-esta-semana-10/",
+      "title": "Dónde habrá jornadas de Eco Canje esta semana",
+      "published": "2026-10-20",
+      "modified": "2026-10-20T17:23:42",
+      "description": "Las jornadas de Eco Canje llegarán esta semana a 15 lugares de San Miguel de Tucumán, donde los vecinos podrán entregar residuos reciclables y contribuir con la separación y recuperación de materiales. Las actividades se desarrollarán desde el lunes 19 hasta el viernes 23 de octubre, en diferentes barrios, plazas y espacios de la ciudad. La…",
+      "content": "Las jornadas de Eco Canje llegarán esta semana a 15 lugares de San Miguel de Tucumán, donde los vecinos podrán entregar residuos reciclables y contribuir con la separación y recuperación de materiales. Las actividades se desarrollarán desde el lunes 19 hasta el viernes 23 de octubre, en diferentes barrios, plazas y espacios de la ciudad. La propuesta es organizada por la Dirección de Ambiente de la Municipalidad de San Miguel de Tucumán, en el marco del programa SE-PA-RÁ , que promueve la separación domiciliaria de residuos y hábitos responsables para el cuidado del ambiente. Qué residuos se pueden llevar al Eco Canje Para participar, los vecinos deben acercar residuos secos, limpios y separados, de papel, cartón, plástico, metal o vidrio. Quienes entreguen 10 unidades de materiales reciclables podrán recibir un presente a cambio, mientras que con 20 unidades podrán acceder al canje por plantines. Dónde habrá Eco Canje esta semana El cronograma de jornadas previsto del lunes 19 al viernes 23 de octubre es el siguiente: Lunes 19 9 a 12 h: Plaza Yrigoyen, Pje. Vélez Sarsfield y 9 de Julio. 10 a 12 h: Escuela Crucero Belgrano, Mercedes de San Martín 800 10 a 12 h: Bº Victoria, Pellegrini y Lavaisse 17:30 a 19 h: Capilla San Expedito, Rawson y B. López Martes 20 10 a 12 h: CIC Vial III, Benigno Vallejo 3800 10 a 12 h: Barrio Victoria, Pellegrini y Lavaisse 17:30 a 19 h: Plaza 1 de Mayo, Villa Luján Miércoles 21 9 a 12 h: Plaza San Martín, Lavalle y Chacabuco 10 a 12 h: Palacio Municipal, 9 de Julio y Lavalle 10 a 12 h: Villa Amalia, Lavaisse y Congreso Jueves 22 9 a 12 h: Plaza Evita, Juan B. Justo y España 10 a 12 h: Barrio Alto la Pólvora, Roque Aragón y Juan B. Justo 17:30 a 19 h: Plaza Sutiaga, Colón 2200 Viernes 23 10 a 12 h: Plaza Urquiza, Sarmiento y 25 de Mayo 17:30 a 19 h: Villa 9 de Julio, Laprida y Ecuador Las actividades de Eco Canje se suspenden en caso de lluvia.",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/08/eco-canje-tucuman-scaled.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": []
+    },
+    {
+      "id": "donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer",
+      "source": "Agenda Tucumán",
+      "url": "https://agendatucuman.com.ar/donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer/",
+      "title": "Dónde brindará sus servicios el Tráiler de Cuidado Integral de Salud de la Mujer",
+      "published": "2026-10-20",
+      "modified": "2026-10-20T17:21:54",
+      "description": "En el marco del Mes de Prevención del Cáncer de Mama, el Tráiler de Cuidado Integral de Salud de la Mujer de la Municipalidad de San Miguel de Tucumán sigue recorriendo instituciones y espacios públicos de la capital, para acercar a las vecinas controles ginecológicos, consultas con profesionales de obstetricia y estudios de ecografía mamaria,…",
+      "content": "En el marco del Mes de Prevención del Cáncer de Mama , el Tráiler de Cuidado Integral de Salud de la Mujer de la Municipalidad de San Miguel de Tucumán sigue recorriendo instituciones y espacios públicos de la capital, para acercar a las vecinas controles ginecológicos, consultas con profesionales de obstetricia y estudios de ecografía mamaria, de manera gratuita. La Dirección de Salud municipal informó el cronograma de atención previsto: Lunes 19, de 9 a 12 h: Plaza Independencia, durante la jornada de conmemoración del Día Mundial de la Lucha contra el Cáncer de Mama Martes 20, de 9 a 12 h: Facultad de Educación Física de la Universidad Nacional de Tucumán, Benjamín Aráoz 751 Viernes 23, de 8.30 a 12 h: Rectorado de la UNT, Ayacucho 475 Lunes 26, de 9 a 12 h: Rectorado de la UNT, Ayacucho 475",
+      "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/Trailer-mujer.webp",
+      "author": "",
+      "categories": [
+        "Servicios"
+      ],
+      "tags": [],
+      "links": []
+    },
     {
       "id": "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre",
       "source": "Agenda Tucumán",
@@ -1901,55 +1935,6 @@
       ],
       "links": [
         "https://agendatucuman.com.ar/cinemacenter-tucuman-renueva-su-cartelera-con-star-wars-the-mandalorian-grogu-terror-en-la-ruta-y-la-gloria-eterna-del-86/"
-      ]
-    },
-    {
-      "id": "eco-canje-de-esta-semana-hasta-el-16-de-mayo",
-      "source": "Agenda Tucumán",
-      "url": "https://agendatucuman.com.ar/eco-canje-de-esta-semana-hasta-el-16-de-mayo/",
-      "title": "Eco Canje de esta semana, hasta el 16 de mayo",
-      "published": "2026-05-12",
-      "modified": "2026-05-12T09:17:42",
-      "description": "En el marco del programa SE-PA-RÁ, la Secretaría de Ambiente y Desarrollo Sustentable de la Municipalidad de San Miguel de Tucumán realizará nuevas jornadas de Eco Canje en distintos espacios públicos de la capital. En el puesto de la Dirección de Ambiente los vecinos pueden intercambiar residuos reciclables de papel, cartón, plástico, metal o vidrio,…",
-      "content": "En el marco del programa SE-PA-RÁ, la Secretaría de Ambiente y Desarrollo Sustentable de la Municipalidad de San Miguel de Tucumán realizará nuevas jornadas de Eco Canje en distintos espacios públicos de la capital. En el puesto de la Dirección de Ambiente los vecinos pueden intercambiar residuos reciclables de papel, cartón, plástico, metal o vidrio, limpios y secos, por plantines y tierra abonada, entre otros presentes. La programación es la siguiente: Lunes 11 de mayo 9 a 12 h – Plaza Yrigoyen, Pasaje Vélez Sarsfield y 9 de Julio. 10 a 12 h – Virgen de la Merced al 400, Barrio Norte. 10 a 12 h – Villa Luján, Azcuénaga y San Martín. 17.30 a 19 h – Plaza San Expedito, Ayacucho 4100. Martes 12 de mayo 10 a 12 h – Villa Luján, Necochea y San Martín. 20 a 23 h – Estadio Ciudadela, Bolívar 1960. Miércoles 13 de mayo 9 a 12 h – Plaza San Martín, Lavalle y Chacabuco. 10 a 12 h – Palacio Municipal, 9 de Julio y Lavalle. 10 a 12 h – Barrio Santa Teresita, Gutenberg y Garmendia. 17.30 a 19 h – Plaza Las Américas, Federico Helguera 1900. Estas son las principales ofertas del Mercado en tu Barrio Jueves 14 de mayo 9 a 12 h – Plaza Evita, Juan B. Justo y España. Viernes 15 de mayo 9 a 12 h – Plaza Urquiza, 25 de Mayo y Sarmiento 17.30 a 19 h – Plaza 1º de Mayo de Villa Luján, Necochea y Mendoza. Sábado 16 de mayo 9 a 12 h – Dirección de Adulto Mayor, avenida Adolfo de la Vega 505. El puesto de la Dirección de Ambiente acompañará las actividades de la 2ª Maratón de Adultos Mayores “Para ejercitarse no hay edad”. Los presentes se entregan a cambio de 10 unidades de residuos reciclables, como mínimo. En tanto, para recibir plantines, se deben aportar mínimamente 20 unidades de desechos reciclables. Las actividades al aire libre se suspenden en caso de lluvia.",
-      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/01/eco-canje-1.webp",
-      "author": "",
-      "categories": [
-        "Servicios"
-      ],
-      "tags": [
-        "eco",
-        "eco-canje",
-        "reciclaje",
-        "reciclar"
-      ],
-      "links": [
-        "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-2/"
-      ]
-    },
-    {
-      "id": "estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-2",
-      "source": "Agenda Tucumán",
-      "url": "https://agendatucuman.com.ar/estas-son-las-principales-ofertas-del-mercado-en-tu-barrio-2/",
-      "title": "Estas son las principales ofertas del Mercado en tu Barrio",
-      "published": "2026-05-12",
-      "modified": "2026-05-12T09:13:16",
-      "description": "En el Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, los vecinos pueden conseguir una variedad de alimentos y productos de la canasta básica a precios accesibles. Algunas de las ofertas que están disponibles esta semana son las siguientes: Verdulería En este puesto siguen…",
-      "content": "En el Mercado en tu Barrio, impulsado por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán, los vecinos pueden conseguir una variedad de alimentos y productos de la canasta básica a precios accesibles. Algunas de las ofertas que están disponibles esta semana son las siguientes: Verdulería En este puesto siguen en oferta los dos kilos de papa a $ 2.000, el kilo y medio de cebolla por $ 2.000, el kilo y medio de zanahoria a $ 2.000, el kilo de tomate a $ 1.500, dos kilos de batata por $ 3.000, el kilo de zapallo brasilero a $ 1.000, el kilo de coreano a $ 1.300, el kilo de zapallito verde por $ 2.500, zapallito zucchini un kilo y medio por $ 2.000, dos atados de acelga a $ 5.000, el atado de espinaca a $ 3.500, y tres choclos híbridos a $ 2.000. En frutas, están en promoción la manzana, la pera y la banana a $ 5.000 los dos kilos; el kilo de uva a $ 3.000, 15 naranjas por $ 3.000, 12 mandarinas grandes por $ 3.000 y tres pomelos por $ 1.000. Lácteos Al igual que durante las últimas semanas, el tráiler frigorífico ofrece el litro de yogur a $ 1.500, el litro de leche a $ 1.200 y queso cremoso a $ $ 7.990 el kilo llevando por media pieza. Panadería El emprendimiento mantiene los precios de abril y sigue vendiendo el kilo de pan a $ 1.600, siete tortillas por $ 1.000, tres facturas por $ 1.000; budines por $ 2.000, galletas pepitos a $ 1.000 los 100 gramos, dos alfajores de maicena por $ 1.000, prepizza a $ 2.000 y pan de Viena y de hamburguesas a $ 900. Forrajería En el stand de forrajería se consiguen cinco bolsas de condimentos surtidos a $ 2.000, cuatro bolsas de condimentos más dos bolsas de cereales o maní a $ 2.500, tres bolsas de cereales a $ 1.500, y una bandeja de mix de cereales más una bandeja de granola a $ 2.500. Productos para mascotas En el local de artículos para el cuidado de las mascotas continúan en promoción las cinco pipetas por $ 15.000, tres por $ 9.500, y dos por $ 7.000; una pipeta y un champú pulguicida a $ 8.500; un talco pulguicida y una pipeta a $ 8.000; y una pipeta y un Ecthol de 70 ml a $ 8.500. También ofrece cinco kilos de alimento para perros adultos “Belcan” a $ 8.500 y cinco kilos de alimento para gatos “Esencial” a $ 12.000. Estas son las ofertas de la semana del Mercado Municipal Dorrego Productos de limpieza En este stand se consiguen dos litros de jabón líquido por $ 2.500, dos litros de suavizante por $ 2.500, el litro de detergente lavavajillas por $ 3.000, dos litros de lavandina a $ 1.600 y dos litros de desodorante para pisos a $ 1.800. Alimentos saludables y sin TACC Este emprendimiento tiene en promoción una cajita saludable sin TACC, que contiene dos hamburguesas de legumbres, dos hamburguesas rellenas, tres milanesas de garbanzos y una tarta vegetariana, todo por $ 9.000. También vende tamales vegetarianos sin TACC a $ 3.000; y hamburguesas de legumbres sin TACC, dos por $ 2.000 y seis por $ 5.500. Alimentos sin gluten, libres de lactosa y soja El gacebo ofrece un budín integral más un pan de molde a $ 10.000; bollitos de 50 gramos por 12 unidades a $ 5.500 y pan de molde a $ 5.500. Productos regionales El tráiler mantiene en promoción combos de un aceite de oliva de un litro más medio kilo de aceituna por $ 26.000; un vino patero más un vino mistela por $ 12.000; un salame y un queso criollo a $ 19.000; un dulce de cayote y un quesillo a $ 11.000; y mortadela más ¼ de queso a $ 16.000. Miel Se puede comprar el bidón de tres kilos de miel por $ 30.000. Vivero En el puesto se consiguen plantines de rayito de sol de flor chica y margaritas de flor chica a $ 2.000 cada uno y tres por $ 5.000; flor de azúcar M12 a $ 3.000 la unidad y dos por $ 5.000; plantas aromáticas $ 3.000; tradescantia M3 litros por $ 12.000; lazos de amor a $ 4.000 cada uno; crotón en maceta chica a $ 10.000 cada uno; helechos a $ 12.000; potus por $ 12.000; rosa china a $ 13.000 cada una; crotón en maceta de 3 litros a $ 15.000; enredadera allamanda a $ 13.000 y violetas de los Alpes a $ 10.000 cada una. Dónde estará el Mercado en tu Barrio esta semana Esta semana, de 9 a 14 h, los puestos estarán en los siguientes lugares: Lunes 11 de mayo: Plaza Urquiza. Martes 12 de mayo: 24 de Septiembre al 300. Miércoles 13 de mayo: Plaza San Martín. Jueves 14 de mayo: Plaza Belgrano. Viernes 15 de mayo: Plaza Bernardo de Irigoyen, Manuel Alberti y Santiago. Las actividades se suspenden por lluvia.",
-      "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/01/mercado-en-tu-barrio.webp",
-      "author": "",
-      "categories": [
-        "Servicios"
-      ],
-      "tags": [
-        "el mercado en tu barrio",
-        "mercado",
-        "ofertas",
-        "san miguel de tucuman",
-        "SMT"
-      ],
-      "links": [
-        "https://agendatucuman.com.ar/estas-son-las-ofertas-de-la-semana-del-mercado-municipal-dorrego-3/"
       ]
     }
   ]
