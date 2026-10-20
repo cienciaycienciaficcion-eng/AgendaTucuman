@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-19T22:03:33.617260-03:00",
+  "generated_at": "2026-10-20T04:04:40.515261-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -49,7 +49,7 @@
       "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-19",
+      "release_date": "2026-10-20",
       "duration_minutes": 94,
       "genres": [
         "Terror Thriller"
@@ -88,7 +88,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-19",
+      "release_date": "2026-10-20",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -129,7 +129,7 @@
       "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-19",
+      "release_date": "2026-10-20",
       "duration_minutes": 118,
       "genres": [
         "Thriller"
@@ -170,7 +170,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-19",
+      "release_date": "2026-10-20",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -214,7 +214,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-19",
+      "release_date": "2026-10-20",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -269,7 +269,7 @@
       "title": "LA CAIDA DE LA BALLENA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-19",
+      "release_date": "2026-10-20",
       "duration_minutes": 106,
       "genres": [
         "Suspenso"

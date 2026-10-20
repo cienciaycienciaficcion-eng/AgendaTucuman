@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-19T22:03:33.617417-03:00",
-  "reference_date": "2026-10-19",
+  "generated_at": "2026-10-20T04:04:40.515443-03:00",
+  "reference_date": "2026-10-20",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "2677af9bfc640b124321d7f8592cf03a037497f0c4bfbe6782437a276427ec6e"
+    "pdf_sha256": "7d4d4d83fe8c400a834e2b7ae97e9733fb6a958ba56604028e566d04a0f4c802"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -120,9 +120,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "22:00"
-          ],
+          "lunes": [],
           "martes": [
             "22:00"
           ],
@@ -131,12 +129,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-19",
-            "time": "22:00",
-            "datetime": "2026-10-19T22:00:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-20",
             "time": "22:00",
@@ -155,7 +147,7 @@
           "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-19",
+          "release_date": "2026-10-20",
           "duration_minutes": 94,
           "genres": [
             "Terror Thriller"
@@ -208,9 +200,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "19:40"
-          ],
+          "lunes": [],
           "martes": [
             "19:40"
           ],
@@ -219,12 +209,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-19",
-            "time": "19:40",
-            "datetime": "2026-10-19T19:40:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-20",
             "time": "19:40",
@@ -243,7 +227,7 @@
           "title": "EL CORAZON DE LA BESTIA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-19",
+          "release_date": "2026-10-20",
           "duration_minutes": 101,
           "genres": [
             "Thriller"
@@ -298,9 +282,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "21:50"
-          ],
+          "lunes": [],
           "martes": [
             "17:10",
             "19:10",
@@ -313,12 +295,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-19",
-            "time": "21:50",
-            "datetime": "2026-10-19T21:50:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-20",
             "time": "17:10",
@@ -361,7 +337,7 @@
           "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-19",
+          "release_date": "2026-10-20",
           "duration_minutes": 118,
           "genres": [
             "Thriller"
@@ -416,10 +392,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "20:10",
-            "22:20"
-          ],
+          "lunes": [],
           "martes": [
             "18:00",
             "20:10",
@@ -432,18 +405,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-19",
-            "time": "20:10",
-            "datetime": "2026-10-19T20:10:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-19",
-            "time": "22:20",
-            "datetime": "2026-10-19T22:20:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-20",
             "time": "18:00",
@@ -486,7 +447,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-19",
+          "release_date": "2026-10-20",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -544,10 +505,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "20:00",
-            "22:30"
-          ],
+          "lunes": [],
           "martes": [
             "17:20",
             "20:00",
@@ -560,18 +518,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-19",
-            "time": "20:00",
-            "datetime": "2026-10-19T20:00:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-19",
-            "time": "22:30",
-            "datetime": "2026-10-19T22:30:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-20",
             "time": "17:20",
@@ -614,7 +560,7 @@
           "title": "STREET FIGHTER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-19",
+          "release_date": "2026-10-20",
           "duration_minutes": 119,
           "genres": [
             "Acción"
@@ -683,10 +629,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "19:50",
-            "22:10"
-          ],
+          "lunes": [],
           "martes": [
             "19:50",
             "22:10"
@@ -697,18 +640,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-19",
-            "time": "19:50",
-            "datetime": "2026-10-19T19:50:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-10-19",
-            "time": "22:10",
-            "datetime": "2026-10-19T22:10:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-10-20",
             "time": "19:50",
@@ -739,7 +670,7 @@
           "title": "LA CAIDA DE LA BALLENA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-19",
+          "release_date": "2026-10-20",
           "duration_minutes": 106,
           "genres": [
             "Suspenso"
