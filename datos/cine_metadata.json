@@ -1,30 +1,33 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-21T22:02:08.678599-03:00",
+  "generated_at": "2026-10-22T04:07:48.455066-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
-      "title": "RESIDENT EVIL: NOCHE CERO - 2D CAST",
+      "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-21",
-      "duration_minutes": 94,
+      "release_date": "2026-10-22",
+      "duration_minutes": 110,
       "genres": [
-        "Terror Thriller"
+        "Animación Familiar"
       ],
       "director": [
-        "Zach Cregger"
+        "Dave Green"
       ],
       "cast": [
-        "Austin Abrams Paul Walter Hauser Kali Reis"
+        "John Cena",
+        "Will Forte",
+        "Lana Condor",
+        "Tone Bell"
       ],
-      "synopsis": "Sigue a un desafortunado mensajero encargado de entregar un paquete a un hospital remoto. Pronto se encuentra atrapado en medio de una epidemia y debe luchar contra hordas de criaturas mutantes para sobrevivir.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3564_img2.jpg",
-      "classification": "R17 - Restringida para menores de 17 años",
+      "synopsis": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3548_img2.jpg",
+      "classification": "G - Audiencia General",
       "nationality": "Estados Unidos",
-      "distributor": "UIP",
-      "trailer": "https://www.youtube.com/embed/5QDq7evE2R8",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5773-RESIDENT-EVIL-NOCHE-CERO---2D-CAST",
+      "distributor": "BF",
+      "trailer": "https://www.youtube.com/embed/r4HNeBH7Q4A",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5736-COYOTE-VS-ACME---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -32,11 +35,11 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 17 de Septiembre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 27 de Agosto de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5773,
+      "cinemacenter_movie_id": 5736,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -46,7 +49,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-21",
+      "release_date": "2026-10-22",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -84,51 +87,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "VERITY LA SOMBRA DE UN ENGAÑO - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-21",
-      "duration_minutes": 118,
-      "genres": [
-        "Thriller"
-      ],
-      "director": [
-        "Michael Showalter"
-      ],
-      "cast": [
-        "Dakota Johnson",
-        "Anne Hathaway",
-        "Josh Hartnett"
-      ],
-      "synopsis": "Adaptada de la novela bestseller de Colleen Hoover, este seductor thriller psicológico sigue a la reconocida autora Verity Crawford (Anne Hathaway) y a Lowen Ashleigh (Dakota Johnson), una escritora en dificultades que se muda a la remota finca de los Crawford para escribir en nombre de Verity. Después de que Lowen descubre lo que parecen ser las inquietantes notas autobiográficas de Verity, se enfrenta a perturbadoras y retorcidas confesiones sobre el esposo de Verity, Jeremy (Josh Hartnett), mientras lucha por distinguir entre la ficción y la realidad, la manipulación y la atracción, y la oportunidad y la obsesión.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3563_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "UIP",
-      "trailer": "https://www.youtube.com/embed/UdiWMHwobtE",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5801-VERITY-LA-SOMBRA-DE-UN-ENGA-O---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 1 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5801,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-21",
+      "release_date": "2026-10-22",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -172,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-21",
+      "release_date": "2026-10-22",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -227,7 +189,7 @@
       "title": "LA CAIDA DE LA BALLENA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-21",
+      "release_date": "2026-10-22",
       "duration_minutes": 106,
       "genres": [
         "Suspenso"
@@ -267,6 +229,269 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
+      "title": "ESCUELA DE MONSTRUOS - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-22",
+      "duration_minutes": 81,
+      "genres": [
+        "Animación"
+      ],
+      "director": [
+        "Verena Fels"
+      ],
+      "cast": [
+        "Lilian Jane Gartner",
+        "Verena Altenberger",
+        "Silvia Schneider",
+        "Susi Stach",
+        "Michael Ostrowski",
+        "Philipp Hansa",
+        "Armin Assinger",
+        "Alix Martin"
+      ],
+      "synopsis": "Tras ser expulsada del colegio, Mía y su mascota Quentin llegan a la Escuela Bosque Muerto, donde ella es la única humana entre sus compañeros monstruosos. Debido al odio del director Van Vlad hacia los humanos, Mia deberá aliarse con los monstruos para desbaratar sus planes.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3657_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Alemania",
+      "distributor": "Cinetopia",
+      "trailer": "https://www.youtube.com/embed/2iaKr78081o",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5854-ESCUELA-DE-MONSTRUOS---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5854,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "CLAYFACE - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-22",
+      "duration_minutes": 108,
+      "genres": [
+        "Terror Drama"
+      ],
+      "director": [
+        "James Watkins"
+      ],
+      "cast": [
+        "Eddie Marsan Max Minghella Naomi Ackie"
+      ],
+      "synopsis": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3550_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Reino Unido",
+      "distributor": "Warner Bros.",
+      "trailer": "https://www.youtube.com/embed/MnaFt0OrDTM",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5860-CLAYFACE---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5860,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "CLAYFACE - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-22",
+      "duration_minutes": 108,
+      "genres": [
+        "Terror Drama"
+      ],
+      "director": [
+        "James Watkins"
+      ],
+      "cast": [
+        "Eddie Marsan Max Minghella Naomi Ackie"
+      ],
+      "synopsis": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3550_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Reino Unido",
+      "distributor": "Warner Bros.",
+      "trailer": "https://www.youtube.com/embed/MnaFt0OrDTM",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5861-CLAYFACE---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5861,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-22",
+      "duration_minutes": 95,
+      "genres": [
+        "Comedia Romántica"
+      ],
+      "director": [
+        "Hernán Guerschuny"
+      ],
+      "cast": [
+        "Wanda Nara",
+        "Agustin Bernasconi",
+        "Jean Pierre Noher",
+        "Charo López"
+      ],
+      "synopsis": "Una mujer conformista de 42 años descubre que su novio, con quien lleva 15 años de relación, le es infiel. Estancada, con el corazón roto y sin trabajo, Lucía decide regresar a su departamento de soltera para comenzar de cero, únicamente para descubrir que su nuevo vecino, Javier, es un joven mujeriego de 22 años que siempre tiene fiestas y no la deja descansar. Para conseguir el trabajo que siempre ha querido, Lucía decide mentir en su entrevista laboral: asegura ser una mujer de familia y tener un hijo de 22 años. Como si eso no fuera suficiente, en la última prueba para ser contratada debe participar en un family day junto a los directivos de la empresa y sus familias. Desesperada, Lucía le propone un trato a Javier: él se hará pasar por su hijo y, a cambio, ella le permitirá organizar todas las fiestas que quiera. Lo que ninguno imagina es que, en medio de tantas mentiras y durante ese family day, surgirá un inesperado romance entre ellos, a pesar de los 20 años que los separan. Ambos deberán cuestionarse qué es lo que realmente quieren para sus vidas. Lucía tendrá que dejar de conformarse con lo que tenía y animarse a perseguir sus propios sueños, mientras que Javier deberá enfrentar sus sentimientos por primera vez y luchar por la mujer que ama.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3651_img2.jpg",
+      "classification": "SP - Supervisión Parental sugerida",
+      "nationality": "Argentina",
+      "distributor": "Digicine",
+      "trailer": "https://www.youtube.com/embed/AQdSYSSypFQ",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6045-QUER-S-SER-MI-HIJO---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6045,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "HEIDI EL RESCATE DEL LINCE - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-22",
+      "duration_minutes": 19,
+      "genres": [
+        "Comedia Animación"
+      ],
+      "director": [
+        "Toby Schwarz",
+        "Aizea Rocca Berridi"
+      ],
+      "cast": [
+        "Lilly Graffam",
+        "Tom Zahner",
+        "Leonardo Lucero",
+        "Andrea Dewell",
+        "Michael McCown",
+        "Lily Held",
+        "Mike McAlpine",
+        "Phil Lewis",
+        "Tony Clark",
+        "Leanne Maksin"
+      ],
+      "synopsis": "En lo más alto de los Alpes suizos, Heidi vive feliz con su abuelo, disfrutando de la naturaleza y la libertad de la montaña. Cuando recibe una invitación para pasar el verano en la costa, la emoción de la aventura la ilusiona, pero todo cambia al encontrar un lince herido. Decidida a ayudarlo, cuenta con el apoyo de su mejor amigo Pedro para cuidarlo y devolverlo con su familia en la montaña. Sin embargo, un empresario ambicioso amenaza el bosque con un aserradero y trampas para los linces, poniendo en peligro todo lo que aman.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3659_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Alemania",
+      "distributor": "Zennit",
+      "trailer": "https://www.youtube.com/embed/DZ9WlXl50Ek",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6046-HEIDI-EL-RESCATE-DEL-LINCE---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6046,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "TERROR EN EL AMAZONAS (BOIÚNA) - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-22",
+      "duration_minutes": 44,
+      "genres": [
+        "Terror Thriller"
+      ],
+      "director": [
+        "Mike P. Nelson"
+      ],
+      "cast": [
+        "Logan Marshall-Green",
+        "Kiana Madeira",
+        "Jessica Rothe",
+        "Jackson Bews",
+        "Juan Pablo Shuk",
+        "Will Close",
+        "Vicente Peña",
+        "Jaime Newball",
+        "Mateo Moreno",
+        "Nelson Camayo"
+      ],
+      "synopsis": "Un grupo de médicos se interna en la selva amazónica para realizar una misión humanitaria, pero su llegada altera el equilibrio de un territorio donde la naturaleza aún guarda secretos imposibles de controlar. Pronto descubrirán que no están solos: una criatura ancestral, conocida como la Boiúna, emerge para reclamar su dominio. Atrapados entre la selva, el río y un depredador que domina ambos mundos, deberán luchar por sobrevivir en un lugar donde la línea entre cazador y presa desaparece.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3627_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Estados Unidos",
+      "distributor": "BF + PARIS FILM",
+      "trailer": "https://www.youtube.com/embed/GDN6JIgum0A",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6047-TERROR-EN-EL-AMAZONAS-BOI-NA---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6047,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
       "title": "INICIO",
       "original_title": null,
       "release_date": "2026-10-03",
@@ -300,8 +525,8 @@
     }
   ],
   "summary": {
-    "total": 6,
-    "complete_source": 5,
+    "total": 11,
+    "complete_source": 10,
     "partial_source": 1,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
