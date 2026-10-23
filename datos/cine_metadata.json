@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-22T16:00:06.835817-03:00",
+  "generated_at": "2026-10-23T04:05:38.950759-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -49,7 +49,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -90,7 +90,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -134,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -189,7 +189,7 @@
       "title": "LA CAIDA DE LA BALLENA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 106,
       "genres": [
         "Suspenso"
@@ -232,7 +232,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -278,7 +278,7 @@
       "title": "CLAYFACE - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-25",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -317,7 +317,7 @@
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -356,7 +356,7 @@
       "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 95,
       "genres": [
         "Comedia Romántica"
@@ -398,7 +398,7 @@
       "title": "HEIDI EL RESCATE DEL LINCE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 19,
       "genres": [
         "Comedia Animación"
@@ -447,7 +447,7 @@
       "title": "TERROR EN EL AMAZONAS (BOIÚNA) - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-22",
+      "release_date": "2026-10-23",
       "duration_minutes": 44,
       "genres": [
         "Terror Thriller"
