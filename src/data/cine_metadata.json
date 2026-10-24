@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-23T04:05:38.950759-03:00",
+  "generated_at": "2026-10-23T22:08:44.592871-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -49,7 +49,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-23",
+      "release_date": "2026-10-24",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -232,7 +232,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-23",
+      "release_date": "2026-10-24",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -398,7 +398,7 @@
       "title": "HEIDI EL RESCATE DEL LINCE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-23",
+      "release_date": "2026-10-24",
       "duration_minutes": 19,
       "genres": [
         "Comedia Animación"
