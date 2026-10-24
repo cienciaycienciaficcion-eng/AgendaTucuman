@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-23T22:08:44.593006-03:00",
-  "reference_date": "2026-10-23",
+  "generated_at": "2026-10-24T04:01:37.115838-03:00",
+  "reference_date": "2026-10-24",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "e81976c180fb0a40e2a542d853810eb8852bcef5da96962fa65f9743e7048c59"
+    "pdf_sha256": "f24bcd34505353d47fb7d5688ad3168fe5f1a85b004aafeffedbc9acf00f5614"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -34,9 +34,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:30"
-          ],
+          "viernes": [],
           "sábado": [
             "20:30"
           ],
@@ -54,12 +52,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "20:30",
-            "datetime": "2026-10-23T20:30:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "20:30",
@@ -96,7 +88,7 @@
           "title": "COYOTE VS ACME - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 110,
           "genres": [
             "Animación Familiar"
@@ -290,9 +282,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "22:40"
-          ],
+          "viernes": [],
           "sábado": [
             "22:40"
           ],
@@ -310,12 +300,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "22:40",
-            "datetime": "2026-10-23T22:40:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "22:40",
@@ -352,7 +336,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -407,9 +391,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:10"
-          ],
+          "viernes": [],
           "sábado": [
             "20:10"
           ],
@@ -427,12 +409,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "20:10",
-            "datetime": "2026-10-23T20:10:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "20:10",
@@ -469,7 +445,7 @@
           "title": "STREET FIGHTER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 119,
           "genres": [
             "Acción"
@@ -535,9 +511,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "21:40"
-          ],
+          "viernes": [],
           "sábado": [
             "21:40"
           ],
@@ -555,12 +529,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "21:40",
-            "datetime": "2026-10-23T21:40:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "21:40",
@@ -597,7 +565,7 @@
           "title": "LA CAIDA DE LA BALLENA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 106,
           "genres": [
             "Suspenso"
@@ -834,10 +802,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:00",
-            "22:20"
-          ],
+          "viernes": [],
           "sábado": [
             "17:40",
             "20:00",
@@ -864,18 +829,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "20:00",
-            "datetime": "2026-10-23T20:00:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-10-23",
-            "time": "22:20",
-            "datetime": "2026-10-23T22:20:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "17:40",
@@ -966,7 +919,7 @@
           "title": "CLAYFACE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 108,
           "genres": [
             "Terror Drama"
@@ -1016,10 +969,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:20",
-            "22:30"
-          ],
+          "viernes": [],
           "sábado": [
             "18:10",
             "20:20",
@@ -1047,18 +997,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "20:20",
-            "datetime": "2026-10-23T20:20:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-10-23",
-            "time": "22:30",
-            "datetime": "2026-10-23T22:30:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "18:10",
@@ -1155,7 +1093,7 @@
           "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 95,
           "genres": [
             "Comedia Romántica"
@@ -1322,9 +1260,7 @@
         "week_end": "2026-10-28",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "22:50"
-          ],
+          "viernes": [],
           "sábado": [
             "22:50"
           ],
@@ -1342,12 +1278,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-23",
-            "time": "22:50",
-            "datetime": "2026-10-23T22:50:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-10-24",
             "time": "22:50",
@@ -1384,7 +1314,7 @@
           "title": "TERROR EN EL AMAZONAS (BOIÚNA) - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-23",
+          "release_date": "2026-10-24",
           "duration_minutes": 44,
           "genres": [
             "Terror Thriller"
