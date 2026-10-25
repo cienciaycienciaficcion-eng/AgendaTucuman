@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-24T15:51:26.786730-03:00",
+  "generated_at": "2026-10-24T21:59:02.999196-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -232,7 +232,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-24",
+      "release_date": "2026-10-25",
       "duration_minutes": 81,
       "genres": [
         "Animación"
