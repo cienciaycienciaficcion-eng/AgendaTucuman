@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-25T04:03:07.088239-03:00",
+  "generated_at": "2026-10-26T04:12:06.237992-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -49,7 +49,7 @@
       "title": "EL CORAZON DE LA BESTIA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 101,
       "genres": [
         "Thriller"
@@ -90,7 +90,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -134,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -189,7 +189,7 @@
       "title": "LA CAIDA DE LA BALLENA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 106,
       "genres": [
         "Suspenso"
@@ -232,7 +232,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -275,49 +275,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "CLAYFACE - 2D SUB",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-25",
-      "duration_minutes": 108,
-      "genres": [
-        "Terror Drama"
-      ],
-      "director": [
-        "James Watkins"
-      ],
-      "cast": [
-        "Eddie Marsan Max Minghella Naomi Ackie"
-      ],
-      "synopsis": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3550_img2.jpg",
-      "classification": "R17 - Restringida para menores de 17 años",
-      "nationality": "Reino Unido",
-      "distributor": "Warner Bros.",
-      "trailer": "https://www.youtube.com/embed/MnaFt0OrDTM",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5860-CLAYFACE---2D-SUB",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5860,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -356,7 +317,7 @@
       "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 95,
       "genres": [
         "Comedia Romántica"
@@ -398,7 +359,7 @@
       "title": "HEIDI EL RESCATE DEL LINCE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 19,
       "genres": [
         "Comedia Animación"
@@ -447,7 +408,7 @@
       "title": "TERROR EN EL AMAZONAS (BOIÚNA) - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-25",
+      "release_date": "2026-10-26",
       "duration_minutes": 44,
       "genres": [
         "Terror Thriller"
@@ -525,8 +486,8 @@
     }
   ],
   "summary": {
-    "total": 11,
-    "complete_source": 10,
+    "total": 10,
+    "complete_source": 9,
     "partial_source": 1,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
