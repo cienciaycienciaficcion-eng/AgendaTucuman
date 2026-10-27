@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-26T22:07:58.968887-03:00",
+  "generated_at": "2026-10-27T10:07:45.172881-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -90,7 +90,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -134,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -189,7 +189,7 @@
       "title": "LA CAIDA DE LA BALLENA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 106,
       "genres": [
         "Suspenso"
@@ -278,7 +278,7 @@
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -317,7 +317,7 @@
       "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 95,
       "genres": [
         "Comedia Romántica"
@@ -408,7 +408,7 @@
       "title": "TERROR EN EL AMAZONAS (BOIÚNA) - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-26",
+      "release_date": "2026-10-27",
       "duration_minutes": 44,
       "genres": [
         "Terror Thriller"
