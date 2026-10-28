@@ -429,6 +429,24 @@
       "provider": "gemini",
       "processed_at": "2026-10-28T01:08:29.950670+00:00",
       "reason": "Informa el cronograma y lugares del operativo municipal de Eco Canje en San Miguel de Tucumán."
+    },
+    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-31-de-octubre": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T02:54:00.316850+00:00",
+      "reason": "Informa sobre las ofertas, precios y horarios de atención del Mercado Municipal Dorrego."
+    },
+    "tafi-viejo-curso-gratuito-de-molderia": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T02:54:16.139666+00:00",
+      "reason": "Curso gratuito de capacitación en oficio organizado por la Municipalidad de Tafí Viejo."
+    },
+    "tafi-viejo-encuentro-comunitario-para-promover-la-salud-mental": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T02:54:36.482437+00:00",
+      "reason": "Es una actividad de salud pública y prevención organizada por la Municipalidad de Tafí Viejo abierta a la comunidad."
     }
   },
   "selected_ids": [
@@ -449,12 +467,15 @@
     "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-10",
     "clases-de-yoga-gratuitas-en-los-jardines-botanicos-de-yerba-buena",
     "26-al-30-de-octubre-donde-se-ubicara-el-mercado-en-tu-barrio",
-    "smt-donde-habra-jornadas-de-eco-canje-esta-semana"
+    "smt-donde-habra-jornadas-de-eco-canje-esta-semana",
+    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-31-de-octubre",
+    "tafi-viejo-curso-gratuito-de-molderia",
+    "tafi-viejo-encuentro-comunitario-para-promover-la-salud-mental"
   ],
-  "updated_at": "2026-10-28T01:08:29.951647+00:00",
+  "updated_at": "2026-10-28T02:54:36.483598+00:00",
   "gemini_usage": {
     "date": "2026-10-28",
-    "calls": 6
+    "calls": 9
   },
   "groq_usage": {
     "date": "2026-10-28",
