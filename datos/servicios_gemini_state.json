@@ -399,6 +399,36 @@
       "provider": "gemini",
       "processed_at": "2026-10-20T22:40:59.105743+00:00",
       "reason": "Brinda información relevante sobre operativos de salud pública y cronograma de atención del Tráiler de Salud de la Mujer en San Miguel de Tucumán."
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-hasta-el-viernes-30-de-octubre": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T01:07:07.647795+00:00",
+      "reason": "Información sobre operativo municipal gratuito de castración y atención veterinaria con turnos y ubicaciones en Tucumán."
+    },
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-10": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T01:07:23.493250+00:00",
+      "reason": "Informa sobre el cronograma de servicios de salud pública del Hospital Móvil y colectas de sangre en Tucumán."
+    },
+    "clases-de-yoga-gratuitas-en-los-jardines-botanicos-de-yerba-buena": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T01:07:57.183552+00:00",
+      "reason": "Ofrece información sobre un programa municipal gratuito de salud y bienestar con días y horarios para los vecinos."
+    },
+    "26-al-30-de-octubre-donde-se-ubicara-el-mercado-en-tu-barrio": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T01:08:13.034994+00:00",
+      "reason": "Informa sobre el cronograma y ofertas del programa municipal Mercado en tu Barrio en San Miguel de Tucumán."
+    },
+    "smt-donde-habra-jornadas-de-eco-canje-esta-semana": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-10-28T01:08:29.950670+00:00",
+      "reason": "Informa el cronograma y lugares del operativo municipal de Eco Canje en San Miguel de Tucumán."
     }
   },
   "selected_ids": [
@@ -414,15 +444,20 @@
     "yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad",
     "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional",
     "donde-habra-jornadas-de-eco-canje-esta-semana-10",
-    "donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer"
+    "donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer",
+    "smt-donde-castrar-gratis-a-tu-mascota-hasta-el-viernes-30-de-octubre",
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-10",
+    "clases-de-yoga-gratuitas-en-los-jardines-botanicos-de-yerba-buena",
+    "26-al-30-de-octubre-donde-se-ubicara-el-mercado-en-tu-barrio",
+    "smt-donde-habra-jornadas-de-eco-canje-esta-semana"
   ],
-  "updated_at": "2026-10-27T22:44:19.941566+00:00",
+  "updated_at": "2026-10-28T01:08:29.951647+00:00",
   "gemini_usage": {
-    "date": "2026-10-20",
-    "calls": 3
+    "date": "2026-10-28",
+    "calls": 6
   },
   "groq_usage": {
-    "date": "2026-10-20",
+    "date": "2026-10-28",
     "calls": 0
   }
 }
