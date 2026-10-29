@@ -1,13 +1,54 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-28T16:07:57.018112-03:00",
+  "generated_at": "2026-10-29T10:18:57.544132-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
+    {
+      "title": "BACKROOMS: VERSION EXTENDIDA - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-29",
+      "duration_minutes": 111,
+      "genres": [
+        "Terror"
+      ],
+      "director": [
+        "Kane Parsons"
+      ],
+      "cast": [
+        "Chiwetel Ejiofor",
+        "Mark Duplass",
+        "Renate Reinsve"
+      ],
+      "synopsis": "Surgieron como una leyenda urbana en foros de internet: un espacio infinito de oficinas vacías al que podrías caer si, por accidente, te sales de la realidad. Un lugar sin reglas claras, sin salida evidente, donde el tiempo y la lógica dejan de funcionar. Lo que empezó como creepypasta evolucionó en un fenómeno global impulsado por videos virales, narrativas de analog horror y comunidades enteras obsesionadas con sus niveles, criaturas y ocultas teorías.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3513_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Estados Unidos",
+      "distributor": "Imagen Films",
+      "trailer": "https://www.youtube.com/embed/lIT9g0yr9RU",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/5702-BACKROOMS-VERSION-EXTENDIDA---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 5702,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
     {
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
+      "release_date": "2026-10-29",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -46,51 +87,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "EL CORAZON DE LA BESTIA - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-28",
-      "duration_minutes": 101,
-      "genres": [
-        "Thriller"
-      ],
-      "director": [
-        "David Ayer"
-      ],
-      "cast": [
-        "Brad Pitt",
-        "K. Simmons",
-        "Anna Lambe"
-      ],
-      "synopsis": "Tras un terrible accidente aéreo, el oficial de las Fuerzas Especiales James Belmont (Brad Pitt) y su perro de combate, Odin, quedan varados en lo profundo de la naturaleza salvaje de Alaska. Juntos, se ven obligados a librar una brutal lucha por la supervivencia contra los elementos. Del aclamado cineasta David Ayer, El corazón de la bestia es un intenso thriller de aventuras que explora el vínculo inquebrantable entre un hombre y su mejor amigo mientras se enfrentan a su mayor batalla hasta el momento.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3597_img2.jpg",
-      "classification": "SP - Supervisión Parental sugerida",
-      "nationality": "Estados Unidos",
-      "distributor": "UIP",
-      "trailer": "https://www.youtube.com/embed/Bypmyqib4rU",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5784-EL-CORAZON-DE-LA-BESTIA---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 24 de Septiembre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5784,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
+      "release_date": "2026-10-29",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -134,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
+      "release_date": "2026-10-29",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -186,53 +186,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "LA CAIDA DE LA BALLENA - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-10-28",
-      "duration_minutes": 106,
-      "genres": [
-        "Suspenso"
-      ],
-      "director": [
-        "Brian Duffield"
-      ],
-      "cast": [
-        "Austin Abrams",
-        "Josh Brolin",
-        "Elisabeth Shue",
-        "John Ortiz",
-        "Jane Levy y Emily Rudd"
-      ],
-      "synopsis": "Tras la muerte de su padre (Josh Brolin), Jay Gardiner (Austin Abrams) se sumerge en la costa central de California en busca de sus restos, pero es tragado por una enorme ballena. Mientras está atrapado en su interior con solo una hora de oxígeno restante, Jay se da cuenta de que las lecciones que su padre le enseñó con tanto esfuerzo pueden ser la clave para escapar.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3574_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Estados Unidos",
-      "distributor": "Disney",
-      "trailer": "https://www.youtube.com/embed/mHGQuAAVAI4",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/5852-LA-CAIDA-DE-LA-BALLENA---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 5852,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
+      "release_date": "2026-10-29",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -278,7 +235,7 @@
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
+      "release_date": "2026-10-29",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -317,7 +274,7 @@
       "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
+      "release_date": "2026-10-29",
       "duration_minutes": 95,
       "genres": [
         "Comedia Romántica"
@@ -356,37 +313,28 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "HEIDI EL RESCATE DEL LINCE - 2D CAST",
+      "title": "GODZILLA MINUS ZERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
-      "duration_minutes": 19,
+      "release_date": "2026-11-03",
+      "duration_minutes": 135,
       "genres": [
-        "Comedia Animación"
+        "Ciencia Ficción"
       ],
       "director": [
-        "Toby Schwarz",
-        "Aizea Rocca Berridi"
+        "Takashi Yamazaki"
       ],
       "cast": [
-        "Lilly Graffam",
-        "Tom Zahner",
-        "Leonardo Lucero",
-        "Andrea Dewell",
-        "Michael McCown",
-        "Lily Held",
-        "Mike McAlpine",
-        "Phil Lewis",
-        "Tony Clark",
-        "Leanne Maksin"
+        "Ryunosuke Kamiki",
+        "Minami Hamabe y Miou Tanaka."
       ],
-      "synopsis": "En lo más alto de los Alpes suizos, Heidi vive feliz con su abuelo, disfrutando de la naturaleza y la libertad de la montaña. Cuando recibe una invitación para pasar el verano en la costa, la emoción de la aventura la ilusiona, pero todo cambia al encontrar un lince herido. Decidida a ayudarlo, cuenta con el apoyo de su mejor amigo Pedro para cuidarlo y devolverlo con su familia en la montaña. Sin embargo, un empresario ambicioso amenaza el bosque con un aserradero y trampas para los linces, poniendo en peligro todo lo que aman.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3659_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Alemania",
-      "distributor": "Zennit",
-      "trailer": "https://www.youtube.com/embed/DZ9WlXl50Ek",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6046-HEIDI-EL-RESCATE-DEL-LINCE---2D-CAST",
+      "synopsis": "En el Japón de la posguerra, un país devastado intenta reconstruirse desde las cenizas. Sin embargo, una nueva amenaza emerge desde el océano: Godzilla. Mientras la nación lucha por sobrevivir, la aparición de esta fuerza destructiva lleva a la humanidad al límite absoluto, enfrentándola no solo a la destrucción, sino también a su propia fragilidad.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3595_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
+      "nationality": "Japón",
+      "distributor": "BF Films",
+      "trailer": "https://www.youtube.com/embed/QUhzeuAYES0",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6059-GODZILLA-MINUS-ZERO---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -394,47 +342,38 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Martes 3 de Noviembre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6046,
+      "cinemacenter_movie_id": 6059,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "TERROR EN EL AMAZONAS (BOIÚNA) - 2D CAST",
+      "title": "LA CAJA DEL DEMONIO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-28",
-      "duration_minutes": 44,
+      "release_date": "2026-10-30",
+      "duration_minutes": 45,
       "genres": [
-        "Terror Thriller"
+        "Terror"
       ],
       "director": [
-        "Mike P. Nelson"
+        "Daniel Stamm"
       ],
       "cast": [
-        "Logan Marshall-Green",
-        "Kiana Madeira",
-        "Jessica Rothe",
-        "Jackson Bews",
-        "Juan Pablo Shuk",
-        "Will Close",
-        "Vicente Peña",
-        "Jaime Newball",
-        "Mateo Moreno",
-        "Nelson Camayo"
+        "Carla Gugino Lou Taylor Pucci Katharine Isabelle"
       ],
-      "synopsis": "Un grupo de médicos se interna en la selva amazónica para realizar una misión humanitaria, pero su llegada altera el equilibrio de un territorio donde la naturaleza aún guarda secretos imposibles de controlar. Pronto descubrirán que no están solos: una criatura ancestral, conocida como la Boiúna, emerge para reclamar su dominio. Atrapados entre la selva, el río y un depredador que domina ambos mundos, deberán luchar por sobrevivir en un lugar donde la línea entre cazador y presa desaparece.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3627_img2.jpg",
+      "synopsis": "Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3631_img2.jpg",
       "classification": "R17 - Restringida para menores de 17 años",
       "nationality": "Estados Unidos",
-      "distributor": "BF + PARIS FILM",
-      "trailer": "https://www.youtube.com/embed/GDN6JIgum0A",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6047-TERROR-EN-EL-AMAZONAS-BOI-NA---2D-CAST",
+      "distributor": "Diamond Films",
+      "trailer": "https://www.youtube.com/embed/WVoQhS00nZU",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6061-LA-CAJA-DEL-DEMONIO---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -442,11 +381,298 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6047,
+      "cinemacenter_movie_id": 6061,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "PINOCHO SIN CUERDAS - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-30",
+      "duration_minutes": 82,
+      "genres": [
+        "Terror"
+      ],
+      "director": [
+        "Rhys Frake-Waterfield",
+        "Scott Chambers"
+      ],
+      "cast": [
+        "Richard Brake",
+        "Robert Englund",
+        "Cameron Bell"
+      ],
+      "synopsis": "Pinocho quiere ser un niño de verdad. Y está dispuesto a arrancar de otros todo lo que le falta. Creado por Geppetto para acompañar a su nieto James, el muñeco desarrolla una obsesión por su nuevo amigo y por el cuerpo humano. Bajo la influencia de un siniestro grillo, ese deseo se convierte en una búsqueda brutal: piel, ojos y carne para dejar de ser de madera. El clásico cobra vida en su versión más sangrienta y oscura. Y cada pieza que Pinocho necesita tiene un dueño.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3675_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Reino Unido",
+      "distributor": "Terrorifico Films",
+      "trailer": "https://www.youtube.com/embed/35vVeEmx3m8",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6062-PINOCHO-SIN-CUERDAS---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6062,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "PINOCHO SIN CUERDAS - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-29",
+      "duration_minutes": 82,
+      "genres": [
+        "Terror"
+      ],
+      "director": [
+        "Rhys Frake-Waterfield",
+        "Scott Chambers"
+      ],
+      "cast": [
+        "Richard Brake",
+        "Robert Englund",
+        "Cameron Bell"
+      ],
+      "synopsis": "Pinocho quiere ser un niño de verdad. Y está dispuesto a arrancar de otros todo lo que le falta. Creado por Geppetto para acompañar a su nieto James, el muñeco desarrolla una obsesión por su nuevo amigo y por el cuerpo humano. Bajo la influencia de un siniestro grillo, ese deseo se convierte en una búsqueda brutal: piel, ojos y carne para dejar de ser de madera. El clásico cobra vida en su versión más sangrienta y oscura. Y cada pieza que Pinocho necesita tiene un dueño.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3675_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Reino Unido",
+      "distributor": "Terrorifico Films",
+      "trailer": "https://www.youtube.com/embed/35vVeEmx3m8",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6063-PINOCHO-SIN-CUERDAS---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6063,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "ESTACIÓN ZOMBIE: 10 ANIVERSARIO - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-30",
+      "duration_minutes": null,
+      "genres": [
+        "Terror Thriller"
+      ],
+      "director": [
+        "Yeon Sang-ho"
+      ],
+      "cast": [
+        "Gong YooJung Yu-miMa Dong-seok"
+      ],
+      "synopsis": "Cuando un virus zombi brota en Corea del Sur, los pasajeros de un tren que va de Seúl a Busan luchan por sobrevivir.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3599_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Corea del Sur",
+      "distributor": "BF Films",
+      "trailer": "https://www.youtube.com/embed/giqnNegphcw",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6064-ESTACI-N-ZOMBIE-10-ANIVERSARIO---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [
+        "duration_minutes"
+      ],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "partial_source",
+      "cinemacenter_movie_id": 6064,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "ESTACIÓN ZOMBIE: 10 ANIVERSARIO - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-29",
+      "duration_minutes": null,
+      "genres": [
+        "Terror Thriller"
+      ],
+      "director": [
+        "Yeon Sang-ho"
+      ],
+      "cast": [
+        "Gong YooJung Yu-miMa Dong-seok"
+      ],
+      "synopsis": "Cuando un virus zombi brota en Corea del Sur, los pasajeros de un tren que va de Seúl a Busan luchan por sobrevivir.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3599_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Corea del Sur",
+      "distributor": "BF Films",
+      "trailer": "https://www.youtube.com/embed/giqnNegphcw",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6065-ESTACI-N-ZOMBIE-10-ANIVERSARIO---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [
+        "duration_minutes"
+      ],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "partial_source",
+      "cinemacenter_movie_id": 6065,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "LA CAJA DEL DEMONIO - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-29",
+      "duration_minutes": 45,
+      "genres": [
+        "Terror"
+      ],
+      "director": [
+        "Daniel Stamm"
+      ],
+      "cast": [
+        "Carla Gugino Lou Taylor Pucci Katharine Isabelle"
+      ],
+      "synopsis": "Una mujer lo arriesga todo para proteger a su misterioso primo de una fuerza sobrenatural mortal que lo persigue.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3631_img2.jpg",
+      "classification": "R17 - Restringida para menores de 17 años",
+      "nationality": "Estados Unidos",
+      "distributor": "Diamond Films",
+      "trailer": "https://www.youtube.com/embed/WVoQhS00nZU",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6070-LA-CAJA-DEL-DEMONIO---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6070,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-29",
+      "duration_minutes": 130,
+      "genres": [
+        "Animación Aventuras"
+      ],
+      "director": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulliga"
+      ],
+      "synopsis": "La trama sigue a Prue McKeel y a su compañero de clase Curtis Mehlberg cuando se ven arrastrados a un bosque mágico oculto en un intento de salvar a Mac, el hermano pequeño de Prue que ha sido secuestrado, de los cuervos liderados por una misteriosa mujer llamada Alexandra.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3614_img2.jpg",
+      "classification": "SP - Supervisión Parental sugerida",
+      "nationality": "Estados Unidos",
+      "distributor": "Imagen Films",
+      "trailer": "https://www.youtube.com/embed/d-pcACsvl10",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6073-WILDWOOD-EL-BOSQUE-SALVAJE---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6073,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-10-29",
+      "duration_minutes": 130,
+      "genres": [
+        "Animación Aventuras"
+      ],
+      "director": [
+        "Travis Knight"
+      ],
+      "cast": [
+        "Peyton Elizabeth Lee",
+        "Jacob Tremblay",
+        "Carey Mulliga"
+      ],
+      "synopsis": "La trama sigue a Prue McKeel y a su compañero de clase Curtis Mehlberg cuando se ven arrastrados a un bosque mágico oculto en un intento de salvar a Mac, el hermano pequeño de Prue que ha sido secuestrado, de los cuervos liderados por una misteriosa mujer llamada Alexandra.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3614_img2.jpg",
+      "classification": "SP - Supervisión Parental sugerida",
+      "nationality": "Estados Unidos",
+      "distributor": "Imagen Films",
+      "trailer": "https://www.youtube.com/embed/d-pcACsvl10",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6074-WILDWOOD-EL-BOSQUE-SALVAJE---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6074,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -486,9 +712,9 @@
     }
   ],
   "summary": {
-    "total": 10,
-    "complete_source": 9,
-    "partial_source": 1,
+    "total": 16,
+    "complete_source": 13,
+    "partial_source": 3,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
     "proximos_estrenos_conservados": 1
