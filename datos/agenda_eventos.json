@@ -227,6 +227,188 @@
     "summary_source_hash": "6588ff9df78708bd026ac916a4506cc3a1912fa7be3134dc2aeb4e7f1482fdf5"
   },
   {
+    "id": "47164",
+    "source": "MEC",
+    "title": "30 de Octubre al 1 de Noviembre | El Centro Cultural Virla presenta su cartelera de música, teatro y artes visuales",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-al-1-de-noviembre-el-centro-cultural-virla-presenta-su-cartelera-de-musica-teatro-y-artes-visuales/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-11-01",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este fin de semana? El Centro Cultural Virla, de la Universidad Nacional de Tucumán, llega con una cartelera cargada de música, teatro para toda la familia y una nueva muestra de artes visuales. Acá te contamos todo lo que pasa entre el viernes 30 de octubre y el domingo 1 de noviembre. Viernes 30: música a la carta y muestra anual A las 18 se inaugura la Muestra anual EPAM, “Un tiempo para mí, un lugar para nosotros: habitemos la libertad”, que reúne tejidos, bordados, técnicas plásticas, arte contemporáneo y otras expresiones artísticas. Se podrá visitar del 30 de octubre al 9 de noviembre en la Sala Pequeña, la Sala Subsuelo y las Vitrinas. A las 21, en el Auditorio, llega Rocky Racoon a la carta, con canciones de todos los tiempos para disfrutar de una noche de música en la que el público elige el repertorio. Sábado 31: una comedia musical para emocionarse A las 21, en el Auditorio, se presenta Donde habita la magia, una comedia musical para reír, cantar y emocionarse. La obra habla del respeto por los cuerpos, de las palabras que lastiman y de la fuerza de saberse querido. Entradas anticipadas: $20.000 (desde los 3 años); en puerta: $22.000. Domingo 1 de noviembre: plan en familia A las 18 llega Wonka, una mágica aventura teatral y musical inspirada en Charlie y la fábrica de chocolate, con fantasía, dulces, humor y personajes sorprendentes. Entradas: $13.000. A las 20 es el turno de Huntrix: Guerreras K-pop. Entradas: $13.000, con promoción 3×2. ¡Elegí tu función, conseguí tu entrada y viví el fin de semana en el Virla! Resumen:\n\nDónde: Centro Cultural Virla (UNT). Viernes 30: inauguración de la Muestra anual EPAM a las 18; Rocky Racoon a la carta a las 21. Sábado 31: Donde habita la magia a las 21 ($20.000 anticipadas, $22.000 en puerta). Domingo 1: Wonka a las 18 ($13.000); Huntrix: Guerreras K-pop a las 20 ($13.000, promo 3×2). Muestra EPAM: del 30 de octubre al 9 de noviembre. Fuente: Centro Cultural Virla (Instagram)",
+    "highlighted_metadata": {
+      "dónde": "Centro Cultural Virla (UNT). Viernes 30: inauguración de la Muestra anual EPAM a las 18; Rocky Racoon a la carta a las 21. Sábado 31: Donde habita la magia a las 21 ($20.000 anticipadas, $22.000 en puerta). Domingo 1: Wonka a las 18 ($13.000); Huntrix: Guerreras K-pop a las 20 ($13.000, promo 3×2). Muestra EPAM: del 30 de octubre al 9 de noviembre. Fuente: Centro Cultural Virla (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/cartelera-centro-cultural-virla.webp",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "que el público elige el repertorio",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica",
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=que+el+p%C3%BAblico+elige+el+repertorio%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T18:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-31",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T18:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-11-01",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-01T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_range",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "18:00",
+      "date": "title_range",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Del 30 de octubre al 1 de noviembre, el Centro Cultural Virla ofrece una cartelera de música, teatro y artes visuales. Incluye la muestra anual EPAM, el show musical de Rocky Racoon y las obras Don de habita la magia ($20.000 anticipadas y $22.000 en puerta), Wonka ($13.000) y Huntrix: Guerreras K-pop ($13.000, con promo 3x2).",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "42ce5d6def66793433e18b90ba95517430780267d1ad440fcaf51034e4f479a6"
+  },
+  {
+    "id": "47168",
+    "source": "MEC",
+    "title": "30 de Octubre al 1 de Noviembre | Grandinetti, coros y teatro: la agenda del fin de semana en el Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-al-1-de-noviembre-grandinetti-coros-y-teatro-la-agenda-del-fin-de-semana-en-el-teatro-alberdi/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-11-01",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este fin de semana? El Teatro Alberdi llega con una agenda variada que combina teatro, música coral, homenajes y artes visuales, con propuestas para todos los gustos entre el viernes 30 de octubre y el domingo 1 de noviembre. Viernes 30: teatro con sello estudiantil A las 20, en la Sala Mayor, se presenta Las medias de los flamencos, una versión a partir del cuento de Horacio Quiroga a cargo de alumnos de Juegos Teatrales I y Teatro I del Colegio Gymnasium UNT. Las entradas se consiguen en la boletería del teatro. Sábado 31: voces, boleros y un freak show A las 20.30, en la Sala Mayor, llega De postales y canciones, con el Pre-Coro de Niños Cantores UNT, el Coro de Niños y Jóvenes Cantores UNT y la Coral Juvenil UNT. A las 21, en la Sala Tríbulo, Martín Gerez y Facundo Toscano presentan Amor de campeón, un homenaje a Chico Novarro y Armando Manzanero. También el 31 de octubre, a las 21, la Sala Tríbulo recibe Freak Show, con texto y dirección de Martín Giner. Domingo 1 de noviembre: Darío Grandinetti en la Sala Mayor A las 20, en la Sala Mayor, Darío Grandinetti protagoniza El escritor de todas las cosas, obra escrita y dirigida por Javier Daulte. A la misma hora, en la Sala Tríbulo, vuelve El ministerio de la posibilidad: La gestión del deseo. Muestra en el foyer Durante toda la semana continúa la exposición Arte Fauna 2026, de Lourdes Luna Hernández, con ilustraciones sobre lienzo de nuestra fauna en riesgo. Está en el Foyer Boletería y la entrada es libre y gratuita. Cómo conseguir entradas Las entradas se venden a través de la plataforma Mi Entrada Digital o en la boletería del teatro, que atiende de jueves a domingo de 10 a 13 y de 18 a 21. ¡Elegí tu función y viví el fin de semana en el Alberdi! Resumen:\n\nViernes 30: Las medias de los flamencos, 20 h, Sala Mayor. Sábado 31: De postales y canciones, 20.30 h, Sala Mayor; Amor de campeón, 21 h, Sala Tríbulo; Freak Show, 21 h, Sala Tríbulo. Domingo 1: El escritor de todas las cosas, con Darío Grandinetti, 20 h, Sala Mayor; El ministerio de la posibilidad, 20 h, Sala Tríbulo. Muestra: Arte Fauna 2026, Foyer Boletería, entrada libre y gratuita. Entradas: Mi Entrada Digital o boletería (jueves a domingo, de 10 a 13 y de 18 a 21). Fuente: Teatro Alberdi (Instagram)",
+    "highlighted_metadata": {
+      "viernes 30": "Las medias de los flamencos, 20 h, Sala Mayor. Sábado 31: De postales y canciones, 20.30 h, Sala Mayor; Amor de campeón, 21 h, Sala Tríbulo; Freak Show, 21 h, Sala Tríbulo. Domingo 1: El escritor de todas las cosas, con Darío Grandinetti, 20 h, Sala Mayor; El ministerio de la posibilidad, 20 h, Sala Tríbulo. Muestra: Arte Fauna 2026, Foyer Boletería, entrada libre y gratuita. Entradas: Mi Entrada Digital o boletería (jueves a domingo, de 10 a 13 y de 18 a 21). Fuente: Teatro Alberdi (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/agenda-teatro-alberdi.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "boletería del teatro",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica",
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=boleter%C3%ADa+del+teatro%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-10-31",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-11-01",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-01T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_range",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "20:00",
+      "date": "title_range",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Del 30 de octubre al 1 de noviembre, el Teatro Alberdi ofrece una variada agenda que incluye teatro, coros, homenajes y la actuación de Darío Grandinetti en la obra El escritor de todas las cosas. Las entradas se adquieren en la plataforma Mi Entrada Digital o en la boletería del teatro, abierta de jueves a domingo de 10 a 13 y de 18 a 21.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "5f3dd199f7949698553bf9390976a11299ed9255acc7f345e2767129e9183d1d"
+  },
+  {
     "id": "47136",
     "source": "MEC",
     "title": "30 de Octubre | Visita guiada nocturna al Cementerio del Oeste para recorrer su historia y su arte",
@@ -380,6 +562,390 @@
     "summary_source_hash": "f4f7a319ee78739dc8d1b32dbf181a6c2233f87f5a7c3f4e18afeb8631cec09b"
   },
   {
+    "id": "47173",
+    "source": "MEC",
+    "title": "30 de Octubre | Aguilares vive una velada boxística con 15 combates y entrada gratuita",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-aguilares-vive-una-velada-boxistica-con-15-combates-y-entrada-gratuita/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás buscando qué hacer en Tucumán este viernes 30 de octubre y te gusta el boxeo, Aguilares tiene una cita imperdible: una gran velada boxística al aire libre, con 15 combates y entrada libre y gratuita. Quince combates en el centro de la ciudad La velada promete una noche de deporte y emoción, con 15 combates sobre el ring. Una propuesta para disfrutar en familia y alentar a los boxeadores de la región. Dónde y cuándo La cita es el viernes 30 de octubre, a las 21, sobre avenida Mitre, entre las calles Laprida y Alsina, en la ciudad de Aguilares. Quién organiza La actividad es impulsada por la Municipalidad de Aguilares, a través de su área de Deportes y Juventud, con el acompañamiento del Gobierno de Tucumán. ¡Acercate, alentá y viví el boxeo bien de cerca! Resumen:\n\nQué: velada boxística con 15 combates. Cuándo: viernes 30 de octubre, a las 21. Dónde: avenida Mitre, entre Laprida y Alsina, Aguilares. Entrada: libre y gratuita. Organiza: Municipalidad de Aguilares. Fuente: Ente Tucumán Turismo",
+    "highlighted_metadata": {
+      "qué": "velada boxística con 15 combates. Cuándo: viernes 30 de octubre, a las 21. Dónde: avenida Mitre, entre Laprida y Alsina, Aguilares. Entrada: libre y gratuita. Organiza: Municipalidad de Aguilares. Fuente: Ente Tucumán Turismo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/velada-boxistica-aguilares.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "ciudad de Aguilares",
+    "address": "",
+    "city": "Aguilares",
+    "organizer": "Municipalidad de Aguilares",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Deportes",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=ciudad+de+Aguilares%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [
+      "mailto:?subject=30%20de%20Octubre%20%7C%20Aguilares%20vive%20una%20velada%20box%C3%ADstica%20con%2015%20combates%20y%20entrada%20gratuita&body=https%3A%2F%2Fagendatucuman.com.ar%2Feventos%2F30-de-octubre-aguilares-vive-una-velada-boxistica-con-15-combates-y-entrada-gratuita%2F"
+    ],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El viernes 30 de octubre a las 21 horas se realizará una gran velada boxística al aire libre en la ciudad de Aguilares, con un total de 15 combates en el centro. El evento tendrá lugar sobre la avenida Mitre, entre las calles Laprida y Alsina. La entrada es libre y gratuita para todo el público.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "1edd83e01671b6d4eeda7ac259ff7c165126cedc0e94417db676dabba44f6d3a"
+  },
+  {
+    "id": "47166",
+    "source": "MEC",
+    "title": "30 de Octubre | Colorao Herrera trae una noche de folklore a la Casa de la Cultura de Yerba Buena",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-colorao-herrera-trae-una-noche-de-folklore-a-la-casa-de-la-cultura-de-yerba-buena/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Buscás qué hacer en Tucumán este viernes 30 de octubre? Si te gusta el folklore, anotá este plan: Colorao Herrera se presenta en la Casa de la Cultura de Yerba Buena con un nuevo recital de SADAIC, con entrada libre y sin costo. Una noche al ritmo del folklore La propuesta invita a disfrutar de nuestra música popular y a compartir una velada al ritmo del folklore junto a Colorao Herrera. Un encuentro ideal para escuchar música en vivo, cantar zambas y chacareras y pasar una linda noche en familia o con amigos. Dónde y cuándo El recital es el viernes 30 de octubre, a las 21, en la Casa de la Cultura de Yerba Buena, ubicada en Higueritas 1850. Entrada libre La entrada es libre y sin costo. ¡Acercate con tiempo, sumá a tus amigos y disfrutá de la música en vivo! Resumen:\n\nQué: recital de folklore de Colorao Herrera (ciclo SADAIC). Cuándo: viernes 30 de octubre, a las 21. Dónde: Casa de la Cultura de Yerba Buena, Higueritas 1850. Entrada: libre y sin costo. Fuente: Cultura Yerba Buena (Instagram)",
+    "highlighted_metadata": {
+      "qué": "recital de folklore de Colorao Herrera (ciclo SADAIC). Cuándo: viernes 30 de octubre, a las 21. Dónde: Casa de la Cultura de Yerba Buena, Higueritas 1850. Entrada: libre y sin costo. Fuente: Cultura Yerba Buena (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/colorao-herrera-casa-de-la-cultura-yerba-buena.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "Higueritas 1850",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El artista Colorao Herrera se presentará este viernes 30 de octubre a las 21 en la Casa de la Cultura de Yerba Buena, ubicada en Higueritas 1850. El recital de folklore, organizado en el marco del ciclo SADAIC, ofrecerá música en vivo con entrada libre y sin costo.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "7424c36907d2b737975e806bc29400ee993cad59d6de7cca5919f713ad7c6174"
+  },
+  {
+    "id": "47170",
+    "source": "MEC",
+    "title": "30 de Octubre | Gustavo Cordera y la Caravana Mágica llevan su rock a Diva Rock Club",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-gustavo-cordera-y-la-caravana-magica-llevan-su-rock-a-diva-rock-club/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este viernes 30 de octubre? Si sos de los que viven el rock, la respuesta está en Diva Rock Club: Gustavo Cordera llega a Tucumán junto a la Caravana Mágica para una noche a puro rock. Una de las voces más reconocidas del rock argentino La cuenta regresiva llegó a su fin. Cordera y la Caravana Mágica prometen una noche imperdible, con la energía de una de las voces más reconocidas del rock nacional. La banda invitada será La Belisario. Dónde y cuándo El show es el viernes 30 de octubre, a las 21, en Diva Rock Club, ubicado en Rivadavia 1320, San Miguel de Tucumán. La propuesta es organizada por Salamanca. Dónde conseguir entradas Quedan las últimas anticipadas. Se consiguen en La Rockería Tucumán (Buenos Aires 39, local 6, y Congreso 64, local 7), en TSU Crédito (San Martín 836) y online a través de Norte Ticket. ¡No te quedes sin la tuya y prepará la garganta para cantar todos los temas! Resumen:\n\nQué: Gustavo Cordera y la Caravana Mágica en Tucumán. Banda invitada: La Belisario. Cuándo: viernes 30 de octubre, a las 21. Dónde: Diva Rock Club, Rivadavia 1320. Entradas: La Rockería Tucumán, TSU Crédito y Norte Ticket. Fuente: Salamanca (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Gustavo Cordera y la Caravana Mágica en Tucumán. Banda invitada: La Belisario. Cuándo: viernes 30 de octubre, a las 21. Dónde: Diva Rock Club, Rivadavia 1320. Entradas: La Rockería Tucumán, TSU Crédito y Norte Ticket. Fuente: Salamanca (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/gustavo-cordera-caravana-magica-tucuman.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "Rivadavia 1320",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Salamanca",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Rivadavia+1320%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Gustavo Cordera y la Caravana Mágica se presentarán junto a la banda invitada La Belisario. El show será el viernes 30 de octubre a las 21 en Diva Rock Club, ubicado en Rivadavia 1320. Las últimas entradas anticipadas se consiguen en La Rockería Tucumán, TSU Crédito y Norte Ticket.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c213c533e6ffd353999c0864cc715daee713af1f9bd36a2124216e41216b0853"
+  },
+  {
+    "id": "47165",
+    "source": "MEC",
+    "title": "30 de Octubre | Rocky Racoon a la carta: el show del Virla donde el público elige las canciones",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-rocky-racoon-a-la-carta-el-show-del-virla-donde-el-publico-elige-las-canciones/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si te preguntás qué hacer en Tucumán este viernes 30 de octubre, acá va una propuesta original para los amantes de la música: Rocky Racoon a la carta llega al Centro Cultural Virla con un show en el que, por primera vez, el público arma el repertorio desde su butaca. Un show donde vos elegís las canciones La dinámica es simple y divertida: le pedís a la banda un artista y ellos tocan una canción suya para que se la dediques a quien quieras. Una noche de canciones de todos los tiempos, pensada para cantar, recordar y sorprender a alguien especial. Dónde y cuándo La función es el viernes 30 de octubre, a las 21, en el Auditorio del Centro Cultural Virla, de la Universidad Nacional de Tucumán. Entradas La entrada general cuesta $20.000 y hay una promoción de dos entradas por $30.000. ¡Armá tu lista de pedidos, invitá a esa persona a la que le querés dedicar un tema y no te pierdas esta noche distinta! Resumen:\n\nQué: Rocky Racoon a la carta, show con repertorio elegido por el público. Cuándo: viernes 30 de octubre, a las 21. Dónde: Centro Cultural Virla (UNT). Entradas: $20.000; promo 2 entradas por $30.000. Fuente: Centro Cultural Virla (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Rocky Racoon a la carta, show con repertorio elegido por el público. Cuándo: viernes 30 de octubre, a las 21. Dónde: Centro Cultural Virla (UNT). Entradas: $20.000; promo 2 entradas por $30.000. Fuente: Centro Cultural Virla (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/rocky-racoon-a-la-carta-virla.webp",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El viernes 30 de octubre a las 21 se presenta Rocky Racoon a la carta en el Centro Cultural Virla, un show donde el público arma el repertorio pidiendo canciones para dedicar. Las entradas generales cuestan $20.000 y hay una promoción de dos por $30.000.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "29bd3d9721008b1608ade67442d409d3c285b0c91dad6d1c6131b62a13c67f60"
+  },
+  {
+    "id": "47171",
+    "source": "MEC",
+    "title": "30 de Octubre | Peña y guitarreada hasta el amanecer en La Escondida",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-pena-y-guitarreada-hasta-el-amanecer-en-la-escondida/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si todavía no sabés qué hacer en Tucumán este viernes 30 de octubre, acá va un plan bien criollo para los noctámbulos: La Escondida abre sus puertas para una noche de música, tradición y amistad, con bar, peña y guitarreada hasta las 5 de la mañana. Música, tradición y amistad La propuesta invita a juntarse a hacer lo que más le gusta a la familia peñera: compartir música folklórica, guitarras y buena compañía en un ambiente de encuentro y celebración. Dónde y cuándo La peña es el viernes 30 de octubre, a partir de las 22, en Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. La noche se extiende hasta las 5. Entrada La entrada cuesta $3.000. ¡Llevá la guitarra, juntá a tus amigos y sumate a la guitarreada! Resumen:\n\nQué: bar, peña y guitarreada en La Escondida. Cuándo: viernes 30 de octubre, desde las 22 y hasta las 5. Dónde: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán. Entrada: $3.000. Fuente: La Escondida (Instagram)",
+    "highlighted_metadata": {
+      "qué": "bar, peña y guitarreada en La Escondida. Cuándo: viernes 30 de octubre, desde las 22 y hasta las 5. Dónde: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán. Entrada: $3.000. Fuente: La Escondida (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/pena-la-escondida-viernes.jpeg",
+    "price": 3000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Escondida",
+    "address": "Miguel Lillo 234",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Disfrutá de una peña y guitarreada con música folklórica hasta el amanecer en La Escondida. El evento se realiza el viernes 30 de octubre, de 22:00 a 05:00, en Miguel Lillo 234, San Miguel de Tucumán. La entrada tiene un valor de $3.000.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "ed94df8b330c1a3c9d104482eb49c88d7ae811e78b533a417cf13e96d0ae6aeb"
+  },
+  {
     "id": "47119",
     "source": "MEC",
     "title": "30 de octubre | Cuatro madres se proyecta gratis en la Sala Hynes O’Connor",
@@ -531,6 +1097,160 @@
     "summary_source_hash": "53f649a05f6211a6d230b4a93e7915606b24a0f415d19b64668c26610e3d4e7c"
   },
   {
+    "id": "47162",
+    "source": "MEC",
+    "title": "31 de Octubre y 1 de Noviembre | Tafí Viejo vive un fin de semana de feria con artesanos y emprendedores",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-y-1-de-noviembre-tafi-viejo-vive-un-fin-de-semana-de-feria-con-artesanos-y-emprendedores/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "17:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T17:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás buscando qué hacer en Tucumán este fin de semana, Tafí Viejo tiene un plan ideal para recorrer con calma: la Feria de Artesanos y Emprendedores vuelve a las calles de la ciudad el sábado 31 de octubre y el domingo 1 de noviembre, con productos locales, propuestas culturales y mucho talento taficeño. Sábado en avenida Alem El sábado 31 de octubre, de 17 a 23, la feria se instala sobre avenida Alem. Es una buena oportunidad para pasear al atardecer, descubrir emprendimientos de la ciudad y llevarte algo original. Domingo con dos puntos de encuentro El domingo 1 de noviembre, a partir de las 18, la propuesta se duplica: habrá feria en calle San Martín al 100 y en la intersección de avenida Jaldo y Alfonsín, en Lomas de Tafí. Qué vas a encontrar Quienes recorran estos espacios encontrarán artículos de artesanía, gastronomía, diseño, decoración, textiles y accesorios, entre otras alternativas. La propuesta combina la posibilidad de adquirir productos originales con actividades culturales y busca favorecer la comercialización de los emprendimientos taficeños. Para emprendedores que quieran sumarse Las personas interesadas en participar de las ferias deben integrar el padrón municipal de la Dirección de Empleo y Economía Social. Para inscribirse, tienen que presentarse de lunes a viernes, de 8 a 13, en Congreso 286, con una foto carnet, fotocopia del DNI y una tarjeta de presentación del emprendimiento. ¡Armá el paseo con tu familia o tus amigos y apoyá a los emprendedores de Tafí Viejo! Resumen:\n\nQué: Feria de Artesanos y Emprendedores de Tafí Viejo. Sábado 31 de octubre: de 17 a 23, sobre avenida Alem. Domingo 1 de noviembre: desde las 18, en San Martín al 100 y en avenida Jaldo y Alfonsín (Lomas de Tafí). Rubros: artesanía, gastronomía, diseño, decoración, textiles y accesorios. Inscripción de feriantes: Congreso 286, de lunes a viernes de 8 a 13. Fuente: Municipalidad de Tafí Viejo",
+    "highlighted_metadata": {
+      "qué": "Feria de Artesanos y Emprendedores de Tafí Viejo. Sábado 31 de octubre: de 17 a 23, sobre avenida Alem. Domingo 1 de noviembre: desde las 18, en San Martín al 100 y en avenida Jaldo y Alfonsín (Lomas de Tafí). Rubros: artesanía, gastronomía, diseño, decoración, textiles y accesorios. Inscripción de feriantes: Congreso 286, de lunes a viernes de 8 a 13. Fuente: Municipalidad de Tafí Viejo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/feria-artesanos-emprendedores-tafi-viejo.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "Alem El sábado 31",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Alem+El+s%C3%A1bado+31%2C+Taf%C3%AD+Viejo%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "17:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T17:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Llega la Feria de Artesanos y Emprendedores de Tafí Viejo con productos locales, diseño y gastronomía. El sábado 31 de octubre será de 17 a 23 en avenida Alem, y el domingo 1 de noviembre desde las 18 en San Martín al 100 y en avenida Jaldo y Alfonsín.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "7dec2f688ea9af374f72396f20e1ea457a691df3c298aa5d79e3890167215c55"
+  },
+  {
+    "id": "47177",
+    "source": "MEC",
+    "title": "31 de Octubre | Bella Vista celebra sus 150 años con LBC, Eugenia Quevedo y una gran grilla de artistas",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-bella-vista-celebra-sus-150-anos-con-lbc-eugenia-quevedo-y-una-gran-grilla-de-artistas/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás buscando qué hacer en Tucumán este sábado 31 de octubre, Bella Vista te invita a una fiesta enorme: la ciudad celebra sus 150 años (1876-2026) con un gran festival que reúne a figuras de la cumbia, el cuarteto y el folklore. LBC y Eugenia Quevedo, las grandes figuras El escenario tendrá como protagonistas a LBC y a Eugenia Quevedo, junto a La T y La M. Una noche pensada para cantar y bailar en el marco de un aniversario histórico. Una grilla con artistas tucumanos y del norte También se presentarán Canto K’ñero, Los Payé, Martín Juárez, Lina Guzmán, Luz Sandilli, Dúo Así Nomás, Rina Juárez, El Colorao Juárez, Ismael Acosta, El Puma Albornoz, Alma Tucumana, Dúo Warmis, Los Olmos, Esteban Carrizo, La Matienzo, Los Mellizos Díaz, Yuliana González, Dúo Amanecer, El Salteño Darío, Andrea Medina, Los Quebradeños y academias folklóricas invitadas. Dónde y cuándo El festejo es el sábado 31 de octubre, a partir de las 18, en el Club Sportivo Bella Vista. Lo organiza la Municipalidad de Bella Vista. ¡Sumá a la familia y celebrá un siglo y medio de historia a puro baile! Resumen:\n\nQué: festejo por los 150 años de Bella Vista. Cuándo: sábado 31 de octubre, desde las 18. Dónde: Club Sportivo Bella Vista. Figuras: LBC, Eugenia Quevedo y La T y La M, con más de veinte artistas invitados. Organiza: Municipalidad de Bella Vista. Fuente: Ente Tucumán Turismo",
+    "highlighted_metadata": {
+      "qué": "festejo por los 150 años de Bella Vista. Cuándo: sábado 31 de octubre, desde las 18. Dónde: Club Sportivo Bella Vista. Figuras: LBC, Eugenia Quevedo y La T y La M, con más de veinte artistas invitados. Organiza: Municipalidad de Bella Vista. Fuente: Ente Tucumán Turismo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/bella-vista-150-aniversario.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "marco de un aniversario histórico",
+    "address": "",
+    "city": "Bella Vista",
+    "organizer": "Municipalidad de Bella Vista",
+    "contact_email": [],
+    "contact_phone": [
+      "(1876-2026"
+    ],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=marco+de+un+aniversario+hist%C3%B3rico%2C+Bella+Vista%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Bella Vista celebra sus 150 años con un gran festival de cumbia, cuarteto y folklore que contará con las actuaciones de LBC, Eugenia Quevedo, La T y La M, y más de veinte artistas. El evento se realizará el sábado 31 de octubre, a partir de las 18, en el Club Sportivo Bella Vista.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "4f8d4798c2c4128c5019b236a2aff2f20d2c13b2bb892ae5379f189592c1878b"
+  },
+  {
     "id": "46823",
     "source": "MEC",
     "title": "31 de Octubre | El Cuco Fest llega a Tafí Viejo con una kermés de Halloween llena de misterio, juegos y criaturas fantásticas",
@@ -605,6 +1325,159 @@
     "summary_source_hash": "519e1fc8cf831c628aeebf5c3c51c2ec12fc2f8039cd60e138b65e60c7dfab05"
   },
   {
+    "id": "47163",
+    "source": "MEC",
+    "title": "31 de Octubre | El Cuco Fest llena de magia y disfraces el Mercado Municipal de Tafí Viejo",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-el-cuco-fest-llena-de-magia-y-disfraces-el-mercado-municipal-de-tafi-viejo/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si todavía no sabés qué hacer en Tucumán este sábado 31 de octubre, Tafí Viejo te propone una noche distinta para festejar Halloween: llega El Cuco Fest, una feria-kermés con juegos, gastronomía y experiencias temáticas en el Mercado Municipal. Una noche de magia, disfraces y diversión La magia, los disfraces y el espíritu de Halloween tendrán su lugar en la Ciudad Jardín. El Cuco Fest combinará entretenimiento, gastronomía y experiencias inspiradas en la fecha, en un ambiente pensado para compartir con familiares y amigos. La temática invita a grandes y chicos a vivir una experiencia diferente. Quiénes lo organizan La iniciativa es organizada por Magdalena Romero y Germán Rosa, con el acompañamiento de las secretarías de Turismo, Gestión Cultural y Gestión Educativa de la Municipalidad de Tafí Viejo. La propuesta busca generar un espacio de encuentro donde la creatividad, el entretenimiento y las actividades recreativas sean protagonistas, con la participación de emprendedores, organizadores y vecinos. Dónde y cuándo La cita es el sábado 31 de octubre, a partir de las 19, en el Mercado Municipal de Tafí Viejo, en San Martín esquina Uttinger. ¡Sacá tu mejor disfraz, sumá a la familia y viví un Halloween a pura diversión! Resumen:\n\nQué: El Cuco Fest, feria-kermés de Halloween. Cuándo: sábado 31 de octubre, desde las 19. Dónde: Mercado Municipal de Tafí Viejo, San Martín esquina Uttinger. Qué habrá: juegos, gastronomía y experiencias temáticas para toda la familia. Organizan: Magdalena Romero y Germán Rosa, con el acompañamiento de la Municipalidad de Tafí Viejo. Fuentes: Municipalidad de Tafí Viejo y Ente Tucumán Turismo",
+    "highlighted_metadata": {
+      "qué": "El Cuco Fest, feria-kermés de Halloween. Cuándo: sábado 31 de octubre, desde las 19. Dónde: Mercado Municipal de Tafí Viejo, San Martín esquina Uttinger. Qué habrá: juegos, gastronomía y experiencias temáticas para toda la familia. Organizan: Magdalena Romero y Germán Rosa, con el acompañamiento de la Municipalidad de Tafí Viejo. Fuentes: Municipalidad de Tafí Viejo y Ente Tucumán Turismo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/el-cuco-fest-tafi-viejo.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Mercado Municipal",
+    "address": "",
+    "city": "Tafí Viejo",
+    "organizer": "Magdalena Romero y Germán Rosa, con el acompañamiento de la Municipalidad de Tafí Viejo",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Mercado+Municipal%2C+Taf%C3%AD+Viejo%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El Cuco Fest es una feria-kermés de Halloween que ofrece juegos, gastronomía y experiencias temáticas para toda la familia. Se realiza el sábado 31 de octubre, a partir de las 19, en el Mercado Municipal de Tafí Viejo, ubicado en San Martín esquina Uttinger.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "f86e3f6091b2377c66cc82fb7c798d95c0a8cc07788b2c12f43a846636653b94"
+  },
+  {
+    "id": "47176",
+    "source": "MEC",
+    "title": "31 de Octubre | Noche de los Museos: cinco espacios municipales abren con teatro, música y colectivos gratis",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-noche-de-los-museos-cinco-espacios-municipales-abren-con-teatro-musica-y-colectivos-gratis/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "19:00",
+    "time_end": "22:00",
+    "start_datetime": "2026-10-31T19:00:00-03:00",
+    "end_datetime": "2026-10-31T22:00:00-03:00",
+    "description": "¿Qué hacer en Tucumán este sábado 31 de octubre? La respuesta es una de las noches culturales más esperadas del año: llega la 19.ª Noche de los Museos y cinco espacios municipales de San Miguel de Tucumán abren sus puertas con entrada libre y gratuita, espectáculos en vivo, obras de teatro, muestras interactivas y visitas guiadas. Horarios y colectivos gratis La actividad se desarrolla, en general, de 19 a 00, aunque cada museo tiene su propio horario de cierre. La Municipalidad dispone de colectivos gratuitos de 19 a 22, con salida desde Plaza Independencia, en la parada del Bus Turístico SMT de calle Laprida primera cuadra. Cada unidad tiene un recorrido directo hacia uno de los espacios; el acceso es por orden de llegada, sin inscripción, hasta completar la capacidad. Para consultas habrá un puesto municipal en 25 de Mayo y 24 de Septiembre. Casa Belgraniana y Casa Museo de la Ciudad En la Casa Belgraniana (Bernabé Aráoz 681), de 19 a 00, se podrá recorrer la muestra con un libro interactivo sobre la Batalla de Tucumán y un cuadro parlante de Manuel Belgrano. A las 19 se presenta la obra Manu, la Virgen y la Libertad, del grupo Modelo Rojo Teatro, y desde las 21 el Patio Criollo recibe a Manolo Herrera y al Ballet Folclórico Raíces del Alma. La Casa Museo de la Ciudad (Salta 532) abre de 19 a 00 con su exposición permanente y la muestra ¡Viva Luis Vivas!. A las 19.30 actúa el Coro Infanto Juvenil de la Municipalidad, dirigido por Mariana Stambole, y entre las 20.30 y las 23 se realiza la Serenata en el Balcón, con micrófono abierto. Museo Mercedes Sosa y Museo de la Industria Azucarera En el Museo Mercedes Sosa–Casa Natal (Pasaje Calixto del Corro 344), de 19 a 22.30, habrá muestra interactiva, proyección continua del documental Mercedes Sosa: Una historia que sigue cantando, arte en vivo con Narciso Villa de 19 a 21 y un recital de Adrián Sosa a las 19.30. El Museo de la Industria Azucarera, en el Parque 9 de Julio, abre de 19 a 23 con su muestra permanente y la exposición El Azúcar menos dulce, de Silvana Firpo. A las 20.30 habrá un recorrido inmersivo por estaciones inspiradas en cuentos de terror, mitos y leyendas en la Casa Quinta Obispo Colombres. Cementerio del Oeste En el Cementerio del Oeste (Asunción 150), entre las 19 y las 22.30, habrá visitas guiadas por su patrimonio histórico, artístico y arquitectónico. A las 21 se inaugura la muestra Memorias del futuro. Artistas en diálogo con el patrimonio, que reúne a 24 artistas tucumanos. Las obras serán subastadas próximamente a beneficio del Cottolengo Don Orione. ¡Armá tu recorrido con tiempo, sumá a la familia y disfrutá de la ciudad de noche! Resumen:\n\nQué: 19.ª Noche de los Museos en San Miguel de Tucumán. Cuándo: sábado 31 de octubre, de 19 a 00 (cada espacio tiene su horario de cierre). Espacios: Casa Belgraniana, Casa Museo de la Ciudad, Museo Mercedes Sosa–Casa Natal, Museo de la Industria Azucarera y Cementerio del Oeste. Entrada: libre y gratuita. Colectivos gratis: de 19 a 22, desde Laprida primera cuadra (Plaza Independencia). Informes: puesto municipal en 25 de Mayo y 24 de Septiembre. Fuente: Entérate Noticias",
+    "highlighted_metadata": {
+      "qué": "19.ª Noche de los Museos en San Miguel de Tucumán. Cuándo: sábado 31 de octubre, de 19 a 00 (cada espacio tiene su horario de cierre). Espacios: Casa Belgraniana, Casa Museo de la Ciudad, Museo Mercedes Sosa–Casa Natal, Museo de la Industria Azucarera y Cementerio del Oeste. Entrada: libre y gratuita. Colectivos gratis: de 19 a 22, desde Laprida primera cuadra (Plaza Independencia). Informes: puesto municipal en 25 de Mayo y 24 de Septiembre. Fuente: Entérate Noticias"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/noche-de-los-museos-tucuman.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "parada del Bus Turístico SMT de calle Laprida primera cuadra",
+    "address": "Calixto del Corro 344",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=parada+del+Bus+Tur%C3%ADstico+SMT+de+calle+Laprida+primera+cuadra%2C+Calixto+del+Corro+344%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "19:00",
+        "time_end": "22:00",
+        "start_datetime": "2026-10-31T19:00:00-03:00",
+        "end_datetime": "2026-10-31T22:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El sábado 31 de octubre se realiza la 19.ª Noche de los Museos en San Miguel de Tucumán, de 19 a 00, con entrada libre y gratuita en cinco espacios municipales. Habrá muestras, teatro, música y visitas guiadas. La Municipalidad dispondrá de colectivos gratuitos de 19 a 22, con salida desde la parada del Bus Turístico SMT en calle Laprida primera cuadra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c754550a45ab29373dd4f8ff8ed0e0f7112f0a0d0517be45a1c6629de81af879"
+  },
+  {
     "id": "47121",
     "source": "MEC",
     "title": "29 al 31 de octubre | Desobediente llega al Espacio INCAA Tucumán",
@@ -677,6 +1550,83 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "32f3d62a39e9e878492c66739917f16e36ce629a009dcc538c7c124ef6155267"
+  },
+  {
+    "id": "47175",
+    "source": "MEC",
+    "title": "31 de Octubre | La Noche de las Ánimas despierta historias en el Museo Jesuíta de La Banda",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-la-noche-de-las-animas-despierta-historias-en-el-museo-jesuita-de-la-banda/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás pensando qué hacer en Tucumán este sábado 31 de octubre y vas a estar en los Valles, anotá esta propuesta: en el marco de la Noche de los Museos, el Museo Jesuíta de La Banda, en Tafí del Valle, presenta La Noche de las Ánimas, “historias que siguen vivas”. Una noche para escuchar a los que ya no están La Noche de las Ánimas propone un recorrido por relatos y memorias del valle en un escenario cargado de historia, iluminado por la noche. Una experiencia distinta para vivir el patrimonio tafinista desde otro lugar. Dos actos, dos modalidades El Acto 1 comienza a las 20, dentro del museo, y requiere inscripción previa a través del Club de Anfitriones de Tafí del Valle en Instagram. El Acto 2 es a las 21, en el patio del museo, con ingreso por orden de llegada. Dónde y cuándo La actividad se realiza el sábado 31 de octubre, de 20 a 22, en el Museo Jesuíta de La Banda, en Tafí del Valle. Participan la Municipalidad de Tafí del Valle y el Ente Tucumán Turismo. ¡Reservá tu lugar para el primer acto y llegá con tiempo para el segundo! Resumen:\n\nQué: La Noche de las Ánimas, en el marco de la Noche de los Museos. Cuándo: sábado 31 de octubre, de 20 a 22. Dónde: Museo Jesuíta de La Banda, Tafí del Valle. Acto 1 (20 h): dentro del museo, con inscripción previa a través del Club de Anfitriones de Tafí del Valle. Acto 2 (21 h): en el patio del museo, por orden de llegada. Fuente: Ente Tucumán Turismo",
+    "highlighted_metadata": {
+      "qué": "La Noche de las Ánimas, en el marco de la Noche de los Museos. Cuándo: sábado 31 de octubre, de 20 a 22. Dónde: Museo Jesuíta de La Banda, Tafí del Valle. Acto 1 (20 h): dentro del museo, con inscripción previa a través del Club de Anfitriones de Tafí del Valle. Acto 2 (21 h): en el patio del museo, por orden de llegada. Fuente: Ente Tucumán Turismo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/la-noche-de-las-animas-tafi-del-valle.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "marco de la Noche de los Museos",
+    "address": "",
+    "city": "Tafí del Valle",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=marco+de+la+Noche+de+los+Museos%2C+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El Museo Jesuíta de La Banda, en Tafí del Valle, presenta La Noche de las Ánimas el sábado 31 de octubre de 20 a 22, en el marco de la Noche de los Museos. El evento incluye un recorrido de relatos y memorias en dos actos: el primero a las 20 h con inscripción previa en el Instagram del Club de Anfitriones y el segundo a las 21 h por orden de llegada en el patio.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "537de33c64e6be13379ac85481e9540db1a6bb7ec3e86a7e1fbedb9ce519a3d2"
   },
   {
     "id": "47139",
@@ -754,6 +1704,391 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "e900286ab36c72e6b9691768bc310580e0569086a7316dd7a6459948824b5d70"
+  },
+  {
+    "id": "47167",
+    "source": "MEC",
+    "title": "31 de Octubre | Yerba Buena Coral reúne a tres coros en la Casa de la Cultura",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-yerba-buena-coral-reune-a-tres-coros-en-la-casa-de-la-cultura/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás pensando qué hacer en Tucumán este sábado 31 de octubre, la música coral tiene una cita especial en Yerba Buena: llega una nueva presentación de “Yerba Buena Coral”, con varios coros en escena y entrada libre y sin costo. Tres coros en un mismo escenario El encuentro reúne al Coro Mixto, al Coro de Niñas y Niños de la Escuela de Canto Coral del Ministerio de Educación y al Coro Aballay de la Municipalidad de Salsipuedes. Una noche para disfrutar del trabajo de voces de distintas edades y lugares, unidas por el canto. Dónde y cuándo La presentación es el sábado 31 de octubre, a las 20, en la Casa de la Cultura de Yerba Buena, en Higueritas 1850. Entrada libre La entrada es libre y sin costo. ¡Invitá a tu familia y compartí una noche de música coral! Resumen:\n\nQué: Yerba Buena Coral, encuentro de coros. Participan: Coro Mixto, Coro de Niñas y Niños de la Escuela de Canto Coral del Ministerio de Educación y Coro Aballay de la Municipalidad de Salsipuedes. Cuándo: sábado 31 de octubre, a las 20. Dónde: Casa de la Cultura de Yerba Buena, Higueritas 1850. Entrada: libre y sin costo. Fuente: Cultura Yerba Buena (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Yerba Buena Coral, encuentro de coros. Participan: Coro Mixto, Coro de Niñas y Niños de la Escuela de Canto Coral del Ministerio de Educación y Coro Aballay de la Municipalidad de Salsipuedes. Cuándo: sábado 31 de octubre, a las 20. Dónde: Casa de la Cultura de Yerba Buena, Higueritas 1850. Entrada: libre y sin costo. Fuente: Cultura Yerba Buena (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/yerba-buena-coral-11-edicion.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El ciclo Yerba Buena Coral reúne a tres agrupaciones en un mismo escenario para una noche dedicada al canto. La cita es el sábado 31 de octubre a las 20 en la Casa de la Cultura de Yerba Buena, ubicada en Higueritas 1850. La entrada es libre y sin costo.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "feed771e00fb9a853a0fd0207a72b7acbe64dd0b337ba870c2f22ceecf01d4b2"
+  },
+  {
+    "id": "47174",
+    "source": "MEC",
+    "title": "31 de Octubre | Christian Herrera encabeza el IX Festival de la Caña de Azúcar en Leales",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-christian-herrera-encabeza-el-ix-festival-de-la-cana-de-azucar-en-leales/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-10-31T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este sábado 31 de octubre? Si te gusta la música popular y los festivales al aire libre, el departamento Leales te espera con la novena edición del Festival de la Caña de Azúcar, con una grilla cargada de artistas y entrada libre y gratuita. Una grilla para bailar toda la noche El escenario tendrá como figura central a Christian Herrera, acompañado por Los Nuevos Cantores del Alba, El Super de Huguito, Dúo Coronel, Dúo Así Nomá, Rubén Nuñez, Randeros y Mario Marcelo y su Grupo Rayo. Una noche para disfrutar de la cumbia, el folklore y la música tropical que se baila en todo el interior tucumano. Una fiesta con festejo para las madres Además de celebrar a la caña de azúcar, motor económico e identitario de la región, esta edición incluirá un festejo especial por el Día de la Madre. Dónde y cuándo El festival se realiza el sábado 31 de octubre, a partir de las 20.30, en el Complejo Palá Palá, en el departamento Leales. Lo organiza la Comuna de Quilmes y Los Sueldos, a través de su área de Cultura. ¡Armá la escapada con tu familia y viví una gran fiesta popular! Resumen:\n\nQué: IX Festival de la Caña de Azúcar. Cuándo: sábado 31 de octubre, desde las 20.30. Dónde: Complejo Palá Palá, departamento Leales. Artistas: Christian Herrera, Los Nuevos Cantores del Alba, El Super de Huguito, Dúo Coronel, Dúo Así Nomá, Rubén Nuñez, Randeros y Mario Marcelo y su Grupo Rayo. Entrada: libre y gratuita. Organiza: Comuna de Quilmes y Los Sueldos. Fuente: Ente Tucumán Turismo",
+    "highlighted_metadata": {
+      "qué": "IX Festival de la Caña de Azúcar. Cuándo: sábado 31 de octubre, desde las 20.30. Dónde: Complejo Palá Palá, departamento Leales. Artistas: Christian Herrera, Los Nuevos Cantores del Alba, El Super de Huguito, Dúo Coronel, Dúo Así Nomá, Rubén Nuñez, Randeros y Mario Marcelo y su Grupo Rayo. Entrada: libre y gratuita. Organiza: Comuna de Quilmes y Los Sueldos. Fuente: Ente Tucumán Turismo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/festival-de-la-cana-de-azucar-leales.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "departamento Leales",
+    "address": "",
+    "city": "",
+    "organizer": "Comuna de Quilmes y Los Sueldos",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=departamento+Leales%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-10-31T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El sábado 31 de octubre desde las 20.30 se realiza el IX Festival de la Caña de Azúcar en el Complejo Palá Palá del departamento Leales. El evento contará con shows de cumbia y folklore encabezados por Christian Herrera y entrada libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a3103f1e8c9249ff14a91081c50898e74f6305c2af47a3e67c74389cb1b2b249"
+  },
+  {
+    "id": "47178",
+    "source": "MEC",
+    "title": "31 de Octubre | Dyango llega al Teatro Mercedes Sosa con Su amigo Dyango Vol. II",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-dyango-llega-al-teatro-mercedes-sosa-con-su-amigo-dyango-vol-ii/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este sábado 31 de octubre? Si sos de los que se emocionan con las canciones de amor, anotá esta cita: Dyango llega al Teatro Mercedes Sosa con Su amigo Dyango Vol. II. Un referente de la canción romántica Referente indiscutido de la canción romántica en español, el artista vuelve con un espectáculo que recorre los grandes clásicos de su trayectoria. Clásicos y canciones nuevas Además de repasar sus temas más queridos, Dyango presentará las canciones de su nuevo álbum en un show íntimo, emotivo y cargado de sensibilidad, ideal para disfrutar en pareja o con quienes crecieron escuchando su voz. Dónde y cuándo El concierto es el sábado 31 de octubre, a las 21, en el Teatro Mercedes Sosa de San Miguel de Tucumán. ¡Conseguí tu entrada y viví una noche de románticos inolvidables! Resumen:\n\nQué: Dyango, Su amigo Dyango Vol. II. Cuándo: sábado 31 de octubre, a las 21. Dónde: Teatro Mercedes Sosa, San Miguel de Tucumán. Repertorio: grandes clásicos y canciones de su nuevo álbum. Fuente: Ente Tucumán Turismo",
+    "highlighted_metadata": {
+      "qué": "Dyango, Su amigo Dyango Vol. II. Cuándo: sábado 31 de octubre, a las 21. Dónde: Teatro Mercedes Sosa, San Miguel de Tucumán. Repertorio: grandes clásicos y canciones de su nuevo álbum. Fuente: Ente Tucumán Turismo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/dyango-teatro-mercedes-sosa.png",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Mercedes Sosa de San Miguel de Tucumán",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa+de+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El reconocido cantante romántico Dyango se presentará en vivo para interpretar sus grandes clásicos y las canciones de su nuevo álbum. El concierto se realizará el sábado 31 de octubre a las 21 en el Teatro Mercedes Sosa, ubicado en San Miguel de Tucumán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c1b0eef0a68692be078bfa56954c1a3c79e8bbe1b5f9c1d432dd25b592858510"
+  },
+  {
+    "id": "47169",
+    "source": "MEC",
+    "title": "31 de Octubre | Nexo Art & Music llega al Teatro Puerto Libertad con una noche de rock y arte ochentoso",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-nexo-art-music-llega-al-teatro-puerto-libertad-con-una-noche-de-rock-y-arte-ochentoso/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás buscando qué hacer en Tucumán este sábado 31 de octubre, prepará tu mejor look ochentoso: llega la primera edición de Nexo Art & Music al Teatro Puerto Libertad, una noche que mezcla rock, arte en vivo y cultura juvenil local. Una noche con temática 80s Nexo Art & Music es una propuesta integral que nace del recuerdo, sale de lo oculto y promete una noche diferente. Con temática de los años 80, arte, rock y una escena que se construye en vivo, la música será una de las grandes protagonistas. Se invita al público a ir con su mejor outfit de los 80. Arte y diseño en vivo La noche contará con el artista visual Alejandro Gómez Tolosa, flash tattoos en vivo a cargo de Cale Tattoo, el artista visual Titán y accesorios de Fuck el Estilo & Estás Liquidado. Bandas y música En el escenario se presentarán Black Furnus, Gallo Negro, con su propuesta de rock & blues, y DJ Mr. Rabbit, especialista en rock. Entradas y datos útiles Las entradas anticipadas cuestan $15.000 y se consiguen por WhatsApp al 381 5082157 o a través del perfil de Nexo en redes sociales. El teatro es un espacio libre de tabaco: no se permite fumar ni vapear en interiores, aunque hay patio y otros espacios habilitados. ¡Asegurá tu lugar y viajá a los 80 por una noche! Resumen:\n\nQué: Nexo Art & Music, primera edición, con temática 80s. Cuándo: sábado 31 de octubre, a las 21. Dónde: Teatro Puerto Libertad, Las Piedras 1850. Música: Black Furnus, Gallo Negro y DJ Mr. Rabbit. Arte: Alejandro Gómez Tolosa, Cale Tattoo, Titán y Fuck el Estilo & Estás Liquidado. Entradas: anticipadas a $15.000, por WhatsApp al 381 5082157. Fuente: Teatro Puerto Libertad (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Nexo Art & Music, primera edición, con temática 80s. Cuándo: sábado 31 de octubre, a las 21. Dónde: Teatro Puerto Libertad, Las Piedras 1850. Música: Black Furnus, Gallo Negro y DJ Mr. Rabbit. Arte: Alejandro Gómez Tolosa, Cale Tattoo, Titán y Fuck el Estilo & Estás Liquidado. Entradas: anticipadas a $15.000, por WhatsApp al 381 5082157. Fuente: Teatro Puerto Libertad (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/nexo-art-music-session-puerto-libertad.webp",
+    "price": 15000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "381 5082157"
+    ],
+    "categories": [
+      "Musica",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Llega la primera edición de Nexo Art & Music al Teatro Puerto Libertad el sábado 31 de octubre, una noche temática de los años 80 con rock en vivo, arte y diseño. El evento contará con la música de Black Furnus, Gallo Negro y DJ Mr. Rabbit, además de intervenciones artísticas y tatuajes en vivo. Las entradas anticipadas cuestan $15.000 y se consiguen por WhatsApp al 381 5082157.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "aae43d8b65cd845838c9f3e25f3f34f2367afb9d86e4ac56670e12c2b80e21ac"
+  },
+  {
+    "id": "47172",
+    "source": "MEC",
+    "title": "31 de Octubre | Se viene un Sábado Escondido con toda en la peña de calle Miguel Lillo",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-se-viene-un-sabado-escondido-con-toda-en-la-pena-de-calle-miguel-lillo/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este sábado 31 de octubre por la noche? En La Escondida se viene un Sábado Escondido “con toda”: una noche de peña bien arriba para ir cerrando el año y prepararse para todo lo que viene. Una peña para cerrar el año con todo La propuesta mantiene el espíritu de la casa: música folklórica, vino, buena compañía y ganas de compartir una noche distinta con amigos. Un plan ideal para los que disfrutan de la tradición y de las noches largas. Dónde y cuándo La cita es el sábado 31 de octubre, a partir de las 22, en Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán. Entrada La entrada cuesta $3.000. ¿Con quién vas a ir? ¡Armá el grupo y sumate a la peña! Resumen:\n\nQué: Sábado Escondido, noche de peña. Cuándo: sábado 31 de octubre, desde las 22. Dónde: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán. Entrada: $3.000. Fuente: La Escondida (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Sábado Escondido, noche de peña. Cuándo: sábado 31 de octubre, desde las 22. Dónde: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán. Entrada: $3.000. Fuente: La Escondida (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/sabado-escondido-pena-la-escondida.jpeg",
+    "price": 3000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El sábado 31 de octubre a partir de las 22 se realizará el Sábado Escondido, una noche de peña con música folklórica para disfrutar con amigos. La cita será en Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. La entrada tiene un valor de $3.000.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "8512ef1c6081ec8cb6a1df44a2d7dd3756630b9800c0713f7063d251da37aaf2"
   },
   {
     "id": "47118",
@@ -984,6 +2319,158 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "e428c6cbb10645243a935c35175be85bd09fdd18bf7824dad7947d7d91bbf1c5"
+  },
+  {
+    "id": "47180",
+    "source": "MEC",
+    "title": "1 de Noviembre | Escondida en mi cabeza llega al Espacio INCAA del Teatro Caviglia",
+    "url": "https://agendatucuman.com.ar/eventos/1-de-noviembre-escondida-en-mi-cabeza-llega-al-espacio-incaa-del-teatro-caviglia/",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-01",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-01T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este domingo 1 de noviembre? Si te gusta el cine, el Espacio INCAA Tucumán presenta Escondida en mi cabeza, la película de Lucas Vivo García Lagos, con funciones el domingo 1, el lunes 2 y el martes 3 de noviembre en el Teatro Orestes Caviglia. De qué se trata Erni pierde el mismo día su trabajo en un parque de atracciones y el amor de Coni. Esa noche, en un bar, un desconocido excéntrico lo convence de invertir toda su indemnización en bitcoins, poco antes de que un accidente lo deje en coma. Catorce años después despierta con su madre cubierta de deudas y una billetera virtual que vale millones, pero no recuerda la contraseña. Para recuperar esa fortuna y sostener a su familia, debe volver sobre su propio pasado. Horarios de las funciones La película se proyecta el domingo 1 y el lunes 2 de noviembre, a las 20, y el martes 3 de noviembre, a las 18, en el Teatro Orestes Caviglia, San Martín 251, en el marco del Espacio INCAA Tucumán. Entradas La entrada general cuesta $5.000, y jubilados y estudiantes pagan $2.500. ¡Elegí tu función y descubrí esta historia de cine argentino! Resumen:\n\nQué: proyección de Escondida en mi cabeza, de Lucas Vivo García Lagos. Cuándo: domingo 1 y lunes 2 de noviembre a las 20; martes 3 de noviembre a las 18. Dónde: Teatro Orestes Caviglia, San Martín 251 (Espacio INCAA Tucumán). Entradas: general $5.000; jubilados y estudiantes $2.500. Fuente: Ente Cultural de Tucumán",
+    "highlighted_metadata": {
+      "qué": "proyección de Escondida en mi cabeza, de Lucas Vivo García Lagos. Cuándo: domingo 1 y lunes 2 de noviembre a las 20; martes 3 de noviembre a las 18. Dónde: Teatro Orestes Caviglia, San Martín 251 (Espacio INCAA Tucumán). Entradas: general $5.000; jubilados y estudiantes $2.500. Fuente: Ente Cultural de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/escondida-en-mi-cabeza-espacio-incaa.webp",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Teatro Orestes Caviglia",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Orestes+Caviglia%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-01",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-01T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-01",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El Espacio INCAA Tucumán proyecta la película Escondida en mi cabeza, dirigida por Lucas Vivo García Lagos, en el Teatro Orestes Caviglia, ubicado en San Martín 251. Las funciones son el domingo 1 y el lunes 2 de noviembre a las 20, y el martes 3 a las 18. La entrada general cuesta $5.000, mientras que jubilados y estudiantes pagan $2.500.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "88195b967d54cfb987bc7650b8a32d4323d4db8929db1cceba8a02562ed49fe9"
+  },
+  {
+    "id": "47179",
+    "source": "MEC",
+    "title": "1 de Noviembre | Tawa Sinfónico une el folklore con la Banda Sinfónica en el Teatro San Martín",
+    "url": "https://agendatucuman.com.ar/eventos/1-de-noviembre-tawa-sinfonico-une-el-folklore-con-la-banda-sinfonica-en-el-teatro-san-martin/",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-01",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-01T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás pensando qué hacer en Tucumán este domingo 1 de noviembre, el Teatro San Martín tiene una propuesta única: Tawa Sinfónico, el encuentro de la Banda Sinfónica de la Provincia con la agrupación vocal Tawa, en un espectáculo que se presenta por primera vez en Tucumán. El folklore se viste de sinfónico La propuesta combina las voces y el estilo del conjunto folklórico con la riqueza instrumental de una formación sinfónica. La dirección general estará a cargo del maestro invitado Jorge Bulacia Soler, con la asistencia en dirección de Nahuel Guzmán. Tawa está integrado por el cuarteto vocal de Álvaro Carabajal, Emir Blac Sleiman, músico de la Banda Sinfónica de la Provincia, Javier Jiménez y Víctor Cheda, junto a los músicos que completan la agrupación. Un homenaje al cancionero argentino El repertorio recorrerá el cancionero popular y rendirá homenaje a grandes referentes como Mercedes Sosa, Atahualpa Yupanqui, Los Chalchaleros y Ariel Ramírez. Habrá nuevas versiones con arreglos sinfónicos de obras emblemáticas como Alfonsina y el mar, Zamba de mi esperanza, La arribeña y El cosechero. Entradas La entrada general cuesta $10.000, con promoción 2×1, y se consigue en las boleterías del teatro y en el sitio de venta online de Cultura de Tucumán en Entradanet. ¡Aprovechá la promo e invitá a alguien a disfrutar del folklore como nunca lo escuchaste! Resumen:\n\nQué: Tawa Sinfónico, con la Banda Sinfónica de la Provincia y la agrupación vocal Tawa. Cuándo: domingo 1 de noviembre, a las 20. Dónde: Teatro San Martín, avenida Sarmiento 601. Dirección: Jorge Bulacia Soler (asistencia de Nahuel Guzmán). Entradas: $10.000, promo 2×1, en boletería y Entradanet. Fuente: Ente Cultural de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Tawa Sinfónico, con la Banda Sinfónica de la Provincia y la agrupación vocal Tawa. Cuándo: domingo 1 de noviembre, a las 20. Dónde: Teatro San Martín, avenida Sarmiento 601. Dirección: Jorge Bulacia Soler (asistencia de Nahuel Guzmán). Entradas: $10.000, promo 2×1, en boletería y Entradanet. Fuente: Ente Cultural de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/tawa-sinfonico-teatro-san-martin.webp",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "sitio de venta online de Cultura de Tucumán en Entradanet",
+    "address": "Sarmiento 601",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=sitio+de+venta+online+de+Cultura+de+Tucum%C3%A1n+en+Entradanet%2C+Sarmiento+601",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-01",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-01T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-01",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El domingo 1 de noviembre a las 20, el Teatro San Martín (Sarmiento 601) recibirá a Tawa Sinfónico, un espectáculo que une a la Banda Sinfónica de la Provincia con la agrupación vocal Tawa para homenajear el cancionero popular argentino. Las entradas generales cuestan $10.000 con promoción 2x1 y se pueden adquirir en las boleterías del teatro y en el sitio online de Cultura de Tucumán en Entradanet.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3fea42f9f0e7d7310fb92e1321a985d30a99745c1004df9252f2c06e4d4f5749"
   },
   {
     "id": "47141",
