@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-29T10:18:57.544288-03:00",
-  "reference_date": "2026-10-29",
+  "generated_at": "2026-10-30T02:58:48.886901-03:00",
+  "reference_date": "2026-10-30",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "7b963b9816fa88f8c84776096cbaee47b2116bc5cb3fd41dd8319daf7982a144"
+    "pdf_sha256": "c51350969bd00665614a8c0b7c9f725579e1bca7b41df511a2345fca3d99e54b"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -33,9 +33,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "22:30"
-          ],
+          "jueves": [],
           "viernes": [
             "22:30"
           ],
@@ -56,12 +54,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "22:30",
-            "datetime": "2026-10-29T22:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "22:30",
@@ -104,7 +96,7 @@
           "title": "BACKROOMS: VERSION EXTENDIDA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 111,
           "genres": [
             "Terror"
@@ -155,10 +147,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "18:00",
-            "20:10"
-          ],
+          "jueves": [],
           "viernes": [
             "18:00",
             "20:10"
@@ -185,18 +174,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "18:00",
-            "datetime": "2026-10-29T18:00:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-29",
-            "time": "20:10",
-            "datetime": "2026-10-29T20:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "18:00",
@@ -275,7 +252,7 @@
           "title": "COYOTE VS ACME - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 110,
           "genres": [
             "Animación Familiar"
@@ -327,9 +304,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "22:40"
-          ],
+          "jueves": [],
           "viernes": [
             "22:40"
           ],
@@ -350,12 +325,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "22:40",
-            "datetime": "2026-10-29T22:40:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "22:40",
@@ -398,7 +367,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -452,9 +421,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "18:20"
-          ],
+          "jueves": [],
           "viernes": [
             "18:20"
           ],
@@ -475,12 +442,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "18:20",
-            "datetime": "2026-10-29T18:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "18:20",
@@ -523,7 +484,7 @@
           "title": "STREET FIGHTER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 119,
           "genres": [
             "Acción"
@@ -588,9 +549,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "18:10"
-          ],
+          "jueves": [],
           "viernes": [
             "18:10"
           ],
@@ -611,12 +570,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "18:10",
-            "datetime": "2026-10-29T18:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "18:10",
@@ -659,7 +612,7 @@
           "title": "ESCUELA DE MONSTRUOS - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 81,
           "genres": [
             "Animación"
@@ -715,9 +668,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "22:20"
-          ],
+          "jueves": [],
           "viernes": [
             "22:20"
           ],
@@ -738,12 +689,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "22:20",
-            "datetime": "2026-10-29T22:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "22:20",
@@ -786,7 +731,7 @@
           "title": "CLAYFACE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 108,
           "genres": [
             "Terror Drama"
@@ -835,9 +780,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "20:30"
-          ],
+          "jueves": [],
           "viernes": [
             "20:30"
           ],
@@ -856,12 +799,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "20:30",
-            "datetime": "2026-10-29T20:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "20:30",
@@ -898,7 +835,7 @@
           "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 95,
           "genres": [
             "Comedia Romántica"
@@ -1226,9 +1163,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "20:50"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1239,12 +1174,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "20:50",
-            "datetime": "2026-10-29T20:50:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-01",
             "time": "20:50",
@@ -1257,7 +1186,7 @@
           "title": "PINOCHO SIN CUERDAS - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-11-01",
           "duration_minutes": 82,
           "genres": [
             "Terror"
@@ -1415,9 +1344,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "19:50"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1428,12 +1355,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "19:50",
-            "datetime": "2026-10-29T19:50:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-01",
             "time": "19:50",
@@ -1446,7 +1367,7 @@
           "title": "ESTACIÓN ZOMBIE: 10 ANIVERSARIO - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-11-01",
           "duration_minutes": null,
           "genres": [
             "Terror Thriller"
@@ -1497,9 +1418,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "22:50"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1510,12 +1429,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "22:50",
-            "datetime": "2026-10-29T22:50:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-01",
             "time": "22:50",
@@ -1528,7 +1441,7 @@
           "title": "LA CAJA DEL DEMONIO - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-11-01",
           "duration_minutes": 45,
           "genres": [
             "Terror"
@@ -1577,10 +1490,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "17:00",
-            "18:30"
-          ],
+          "jueves": [],
           "viernes": [
             "17:00",
             "18:30",
@@ -1612,18 +1522,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "17:00",
-            "datetime": "2026-10-29T17:00:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-10-29",
-            "time": "18:30",
-            "datetime": "2026-10-29T18:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-10-30",
             "time": "17:00",
@@ -1732,7 +1630,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-10-30",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -1783,9 +1681,7 @@
         "week_start": "2026-10-29",
         "week_end": "2026-11-04",
         "schedule": {
-          "jueves": [
-            "21:20"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1796,12 +1692,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-10-29",
-            "time": "21:20",
-            "datetime": "2026-10-29T21:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-01",
             "time": "21:20",
@@ -1814,7 +1704,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-10-29",
+          "release_date": "2026-11-01",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"

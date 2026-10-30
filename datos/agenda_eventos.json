@@ -1,5 +1,309 @@
 [
   {
+    "id": "47134",
+    "source": "MEC",
+    "title": "30 de Octubre | Caminata turística guiada recorre a pie el casco histórico de San Miguel de Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-caminata-turistica-guiada-recorre-a-pie-el-casco-historico-de-san-miguel-de-tucuman/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "10:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T10:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Buscás qué hacer en Tucumán este viernes 30 de octubre? Una excelente opción es calzarte las zapatillas y descubrir el corazón histórico de la capital a pie. La Dirección de Turismo de la Municipalidad de San Miguel de Tucumán ofrece una nueva caminata turística guiada por el casco histórico, ideal para turistas y también para tucumanos que quieran volver a mirar su ciudad con otros ojos. Dónde y cuándo es la caminata La cita es el viernes 30 de octubre a las 10 h en la Oficina de Información Turística, ubicada en Congreso y Crisóstomo Álvarez, a la par de la Casa Histórica. Desde ese punto de encuentro, el grupo parte junto a un guía para recorrer el circuito histórico peatonal. El itinerario, paso a paso El recorrido comienza en el Museo Casa Histórica de la Independencia y sigue por calle Congreso, donde se encuentran el Museo Provincial Nicolás Avellaneda y el Museo de Arte Sacro. Luego continúa con una visita a la Iglesia Catedral. El paseo avanza por la Plaza Independencia, donde se encuentra la Estatua de la Libertad de Lola Mora, y por los distintos edificios que la rodean: el Ex Banco Provincia, la Federación Económica, el Jockey Club, la Caja Popular de Ahorros, el Ex Cine Plaza, la Iglesia San Francisco, la Casa de Gobierno, el Museo Casa Padilla, la Casa Nougués y el Centro Cultural Alberto Rougés. Cómo inscribirte Los interesados en participar tienen que inscribirse a través de la web oficial del Bus Turístico SMT. ¡No te quedes afuera! Reservá tu lugar, sumá a tu familia o a tus amigos y animate a redescubrir la historia tucumana caminando. Resumen:\n\nQué: caminata turística guiada, circuito histórico a pie. Cuándo: viernes 30 de octubre, a las 10 h. Dónde: Oficina de Información Turística, Congreso y Crisóstomo Álvarez, a la par de la Casa Histórica. Organiza: Dirección de Turismo de la Municipalidad de San Miguel de Tucumán. Inscripción: online, a través de la web del Bus Turístico SMT. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "caminata turística guiada, circuito histórico a pie. Cuándo: viernes 30 de octubre, a las 10 h. Dónde: Oficina de Información Turística, Congreso y Crisóstomo Álvarez, a la par de la Casa Histórica. Organiza: Dirección de Turismo de la Municipalidad de San Miguel de Tucumán. Inscripción: online, a través de la web del Bus Turístico SMT. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/caminata-turistica-circuito-historico-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Dirección de Turismo de la Municipalidad de San Miguel de Tucumán",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "10:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T10:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Participá de una caminata turística guiada a pie por el casco histórico de San Miguel de Tucumán para descubrir los principales puntos de interés de la ciudad. La cita es el viernes 30 de octubre a las 10 h en la Oficina de Información Turística, ubicada en Congreso y Crisóstomo Álvarez. Se requiere inscripción previa a través de la web oficial del Bus Turístico SMT.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a90c02fb51135095c017b940b097e02216c0d55837845baa9b31b1464b60ad45"
+  },
+  {
+    "id": "47135",
+    "source": "MEC",
+    "title": "30 de Octubre | El Bus Turístico SMT te lleva de city tour por los lugares más notables de la capital",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-el-bus-turistico-smt-te-lleva-de-city-tour-por-los-lugares-mas-notables-de-la-capital/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si te preguntás qué hacer en Tucumán este viernes 30 de octubre, subite al Bus Turístico SMT y descubrí la capital desde otra perspectiva. El City Tour por lugares notables es un recorrido guiado que pasa por los puntos más emblemáticos de San Miguel de Tucumán y es una invitación para turistas y vecinos a redescubrir la ciudad sin gastar un peso. Un paseo de dos horas por el corazón de la ciudad El City Tour tiene una duración de dos horas. El itinerario inicia y finaliza en la Plaza Independencia, y abarca su entorno histórico, institucional y religioso: un repaso por la historia, la arquitectura y las tradiciones que hicieron de Tucumán la Cuna de la Independencia. Una parada especial en el Cementerio del Oeste El paseo incluye una visita al Cementerio del Oeste, una de las necrópolis más antiguas de la ciudad, donde se pueden apreciar mausoleos, esculturas y detalles arquitectónicos que cuentan la historia de muchas familias y personajes tucumanos. Cómo participar La salida es el viernes 30 de octubre a las 16 h desde la parada del Bus Turístico SMT, en la primera cuadra de calle Laprida. El servicio es gratuito, pero hay que inscribirse previamente a través de la web oficial del Bus Turístico SMT. ¡Reservá tu lugar y armá el plan con tu familia o tus amigos! Resumen:\n\nQué: City Tour del Bus Turístico SMT por lugares notables. Cuándo: viernes 30 de octubre, a las 16 h. Duración: dos horas. Salida: parada del Bus Turístico SMT, Laprida, primera cuadra. Incluye: visita al Cementerio del Oeste. Costo: gratuito, con inscripción previa en la web del Bus Turístico SMT. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "City Tour del Bus Turístico SMT por lugares notables. Cuándo: viernes 30 de octubre, a las 16 h. Duración: dos horas. Salida: parada del Bus Turístico SMT, Laprida, primera cuadra. Incluye: visita al Cementerio del Oeste. Costo: gratuito, con inscripción previa en la web del Bus Turístico SMT. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/bus-turistico-city-tour.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "primera cuadra de calle Laprida",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=primera+cuadra+de+calle+Laprida%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El Bus Turístico SMT ofrece un city tour guiado de dos horas por los puntos más emblemáticos de San Miguel de Tucumán, incluyendo una visita al Cementerio del Oeste. La actividad se realiza el viernes 30 de octubre a las 16 h, con salida desde la primera cuadra de calle Laprida. Es un servicio gratuito que requiere inscripción previa en la web oficial.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c7694bdd12736ded7ddec3452048eb64762874b8cdeb9b4fd54ef9233966e83a"
+  },
+  {
+    "id": "47120",
+    "source": "MEC",
+    "title": "30 de octubre | Una clínica de prácticas artísticas llega al Ingenio de las Artes",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-una-clinica-de-practicas-artisticas-llega-al-ingenio-de-las-artes/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "17:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T17:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Festival de Artes Visuales Tucumán Arte propone una jornada de trabajo para artistas en el Ingenio de las Artes, en Lastenia. El viernes 30 de octubre, a las 17, se realizará Al encuentro del síntoma: clínica de prácticas artísticas, o mejor, su reverso , a cargo de Aníbal Buede, de Córdoba. Una propuesta para artistas seleccionados La actividad está destinada a artistas que participaron de una convocatoria y de un proceso de selección previo. La clínica se desarrolla en el marco de la programación del festival, que reúne propuestas vinculadas con las artes visuales. Si buscás qué hacer en Tucumán , seguí la programación de Tucumán Arte para conocer las distintas actividades del encuentro. Datos del evento Fecha: viernes 30 de octubre de 2026. Hora: 17:00. Lugar: Ingenio de las Artes, ex Ingenio Lastenia. A cargo de: Aníbal Buede (Córdoba). Participación: artistas seleccionados mediante convocatoria previa.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/ingeniode-las-artes.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Ingenio de las Artes, ex Ingenio Lastenia. A cargo de: Aníbal Buede (Córdoba)",
+    "address": "",
+    "city": "",
+    "organizer": "Aníbal Buede (Córdoba)",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Talleres y Cursos"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Ingenio+de+las+Artes%2C+ex+Ingenio+Lastenia.+A+cargo+de%3A+An%C3%ADbal+Buede+%28C%C3%B3rdoba%29%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "17:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T17:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El viernes 30 de octubre a las 17:00 se realizará la clínica de prácticas artísticas Al encuentro del síntoma en el Ingenio de las Artes, ubicado en el ex Ingenio Lastenia. La actividad, enmarcada en el Festival de Artes Visuales Tucumán Arte, estará a cargo de Aníbal Buede. La participación está destinada exclusivamente a artistas seleccionados mediante una convocatoria previa.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6588ff9df78708bd026ac916a4506cc3a1912fa7be3134dc2aeb4e7f1482fdf5"
+  },
+  {
+    "id": "47136",
+    "source": "MEC",
+    "title": "30 de Octubre | Visita guiada nocturna al Cementerio del Oeste para recorrer su historia y su arte",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-visita-guiada-nocturna-al-cementerio-del-oeste-para-recorrer-su-historia-y-su-arte/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás buscando qué hacer en Tucumán este viernes 30 de octubre, una propuesta distinta te espera apenas cae el sol: la visita guiada nocturna por el Cementerio del Oeste. Es un paseo gratuito para vecinos y turistas que quieran redescubrir la riqueza histórica, arquitectónica y escultórica de una de las necrópolis más antiguas de la ciudad. Un recorrido por la historia y el arte tucumano La Dirección de Cementerios de la Municipalidad de San Miguel de Tucumán ofrece estas visitas guiadas en el Cementerio del Oeste, ubicado en Asunción 150. Entre mausoleos, panteones y esculturas, el paseo permite conocer historias de familias y personajes que forman parte de la identidad de Tucumán. Horarios de las visitas Las visitas nocturnas se realizan los viernes y sábados, a las 20 h, por lo que este viernes 30 de octubre es una gran oportunidad para sumarse. También hay visitas diurnas los lunes, martes, miércoles y jueves, a las 17 h. Cómo participar Los paseos no requieren inscripción previa y no tienen cupo máximo: solo tenés que acercarte al Cementerio del Oeste unos minutos antes de las 20 h. ¡Invitá a tu familia y a tus amigos y animate a vivir una experiencia única! Resumen:\n\nQué: visita guiada nocturna por el Cementerio del Oeste. Cuándo: viernes 30 de octubre, a las 20 h. Dónde: Cementerio del Oeste, Asunción 150, San Miguel de Tucumán. Costo: gratuito. Inscripción: no requiere inscripción previa ni tiene cupo máximo. Otros horarios: nocturnas viernes y sábados a las 20 h; diurnas de lunes a jueves a las 17 h. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "visita guiada nocturna por el Cementerio del Oeste. Cuándo: viernes 30 de octubre, a las 20 h. Dónde: Cementerio del Oeste, Asunción 150, San Miguel de Tucumán. Costo: gratuito. Inscripción: no requiere inscripción previa ni tiene cupo máximo. Otros horarios: nocturnas viernes y sábados a las 20 h; diurnas de lunes a jueves a las 17 h. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/cementerio-del-oeste-visita-guiada-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "Asunción 150",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El viernes 30 de octubre a las 20 h se realizará una visita guiada nocturna gratuita al Cementerio del Oeste, ubicado en Asunción 150, San Miguel de Tucumán. El recorrido permite descubrir la historia y el arte arquitectónico de la necrópolis. La actividad no requiere inscripción previa ni tiene cupo máximo, y solo hay que presentarse en el lugar unos minutos antes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b0487739cc0c50d719b009d54cdcfc64df09f5a5a3924c02a322a11b63c75a3e"
+  },
+  {
     "id": "46874",
     "source": "MEC",
     "title": "30 de Octubre | Aguilares tendrá una gran Velada Boxística con 15 combates y entrada gratuita",
@@ -76,6 +380,157 @@
     "summary_source_hash": "f4f7a319ee78739dc8d1b32dbf181a6c2233f87f5a7c3f4e18afeb8631cec09b"
   },
   {
+    "id": "47119",
+    "source": "MEC",
+    "title": "30 de octubre | Cuatro madres se proyecta gratis en la Sala Hynes O’Connor",
+    "url": "https://agendatucuman.com.ar/eventos/30-de-octubre-cuatro-madres-se-proyecta-gratis-en-la-sala-hynes-oconnor/",
+    "date_start": "2026-10-30",
+    "date_end": "2026-10-30",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-30T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El cine europeo suma una propuesta para quienes buscan qué hacer en Tucumán . El viernes 30 de octubre, a las 22, la Sala Hynes O’Connor recibirá la película irlandesa Cuatro madres , con entrada libre y gratuita. Un fin de semana inesperado en Dublín Dirigida por Darren Thornton y titulada originalmente Four Mothers , la película sigue a un novelista en apuros que debe cuidar a tres mujeres mayores y a su propia madre durante un agitado fin de semana en Dublín. Encuentro de Cine Europeo La proyección forma parte del XXII Encuentro de Cine Europeo en Argentina. Una oportunidad para disfrutar de una película irlandesa en el centro de San Miguel de Tucumán. Datos del evento Fecha: viernes 30 de octubre de 2026. Hora: 22:00. Lugar: Sala Hynes O’Connor, San Martín 251. Entrada: libre y gratuita. Dirección: Darren Thornton.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/four-mothers.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Sala Hynes O’Connor, San Martín 251",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-30",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-30T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Se proyectará gratis la película irlandesa Cuatro madres en el marco del XXII Encuentro de Cine Europeo. La función será el viernes 30 de octubre de 2026, a las 22:00, en la Sala Hynes O’Connor, ubicada en San Martín 251.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "bc7cae59cfcdd99f5d41510bbab7e2a33f6d8ea461d9ca1fd826a6b33609fd99"
+  },
+  {
+    "id": "47126",
+    "source": "MEC",
+    "title": "31 de Octubre y 1 de Noviembre | Las ferias municipales llenan de sabores y artesanías cinco puntos de la ciudad",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-y-1-de-noviembre-las-ferias-municipales-llenan-de-sabores-y-artesanias-cinco-puntos-de-la-ciudad/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "16:00",
+    "time_end": "00:00",
+    "start_datetime": "2026-10-31T16:00:00-03:00",
+    "end_datetime": "2026-10-31T00:00:00-03:00",
+    "description": "Si estás buscando qué hacer en Tucumán este sábado 31 de octubre y domingo 1 de noviembre, las ferias municipales son un plan que nunca falla: comida rica, artesanías, productos gourmet y mucho talento emprendedor repartido en cinco puntos de la ciudad. Anotá el recorrido, elegí tu parque favorito y salí a disfrutar del fin de semana al aire libre. Las ferias están organizadas por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán y reúnen a gastronómicos, artesanos y emprendedores que ofrecerán sus productos durante la tarde y la noche. Palacio de los Deportes: Feria sobre ruedas y show pop El sábado 31 de octubre, de 18.30 a 00 h, los food trucks se instalan en el Palacio de los Deportes para acompañar el espectáculo del grupo pop K4OS. Un plan ideal para cenar rico mientras escuchás música en vivo. Parque El Provincial: emprendedores y paseo gastronómico La Feria de Emprendedores funciona el sábado 31 de octubre y el domingo 1 de noviembre, de 18 a 00 h, en el predio de avenida Roca y Chacabuco. A pocos pasos, la Feria Paseo Gastronómico abre en el mismo horario sobre calle Chacabuco al 900, con propuestas para todos los gustos. Parque Avellaneda: artesanos y feria gourmet La Feria de Artesanos se podrá recorrer el sábado y el domingo, de 18 a 00 h, sobre avenida Mate de Luna y la caminería central. Por su parte, la Feria Gourmet abre el sábado 31 de octubre de 18 a 00 h y el domingo 1 de noviembre de 17 a 00 h, sobre calle Asunción. Parque 9 de Julio y barrio Manantial Sur El domingo 1 de noviembre, de 17 a 23 h, la Feria del Parque 9 de Julio espera a las familias en avenida Soldati al 300. En el barrio Manantial Sur, la Feria Manantial Sur – 2500 Viviendas abre el sábado y el domingo, de 16 a 21 h, sobre avenida Palavecino, entre Constitución y Pueyrredón. ¡Sumate a las ferias municipales! Invitá a tu familia y a tus amigos, recorrelas con tiempo y apoyá el trabajo de los emprendedores tucumanos. Resumen:\n\nCuándo: sábado 31 de octubre y domingo 1 de noviembre. Palacio de los Deportes: Feria sobre ruedas, sábado de 18.30 a 00 h, con el grupo K4OS. Parque El Provincial: Feria de Emprendedores (Roca y Chacabuco) y Feria Paseo Gastronómico (Chacabuco al 900), sábado y domingo de 18 a 00 h. Parque Avellaneda: Feria de Artesanos (Mate de Luna y caminería central), sábado y domingo de 18 a 00 h; Feria Gourmet (calle Asunción), sábado de 18 a 00 h y domingo de 17 a 00 h. Parque 9 de Julio: domingo de 17 a 23 h, avenida Soldati al 300. Manantial Sur: sábado y domingo de 16 a 21 h, avenida Palavecino, entre Constitución y Pueyrredón. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "cuándo": "sábado 31 de octubre y domingo 1 de noviembre. Palacio de los Deportes: Feria sobre ruedas, sábado de 18.30 a 00 h, con el grupo K4OS. Parque El Provincial: Feria de Emprendedores (Roca y Chacabuco) y Feria Paseo Gastronómico (Chacabuco al 900), sábado y domingo de 18 a 00 h. Parque Avellaneda: Feria de Artesanos (Mate de Luna y caminería central), sábado y domingo de 18 a 00 h; Feria Gourmet (calle Asunción), sábado de 18 a 00 h y domingo de 17 a 00 h. Parque 9 de Julio: domingo de 17 a 23 h, avenida Soldati al 300. Manantial Sur: sábado y domingo de 16 a 21 h, avenida Palavecino, entre Constitución y Pueyrredón. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/feria-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Palacio de los Deportes para acompañar el espectáculo del grupo pop K4OS",
+    "address": "Chacabuco al 900",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Palacio+de+los+Deportes+para+acompa%C3%B1ar+el+espect%C3%A1culo+del+grupo+pop+K4OS%2C+Chacabuco+al+900%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "16:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-10-31T16:00:00-03:00",
+        "end_datetime": "2026-10-31T00:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Las ferias municipales se realizarán el sábado 31 de octubre y domingo 1 de noviembre en cinco puntos de San Miguel de Tucumán con gastronomía, artesanías y emprendedores. El sábado de 18.30 a 00 h habrá food trucks y show del grupo K4OS en el Palacio de los Deportes. El resto de las ferias funcionarán en el Parque El Provincial, Parque Avellaneda, Parque 9 de Julio y barrio Manantial Sur en diversos horarios.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "53f649a05f6211a6d230b4a93e7915606b24a0f415d19b64668c26610e3d4e7c"
+  },
+  {
     "id": "46823",
     "source": "MEC",
     "title": "31 de Octubre | El Cuco Fest llega a Tafí Viejo con una kermés de Halloween llena de misterio, juegos y criaturas fantásticas",
@@ -150,42 +605,273 @@
     "summary_source_hash": "519e1fc8cf831c628aeebf5c3c51c2ec12fc2f8039cd60e138b65e60c7dfab05"
   },
   {
-    "id": "46856",
+    "id": "47121",
     "source": "MEC",
-    "title": "5 de Diciembre | Abril Olivera llega a Tucumán para presentar “Río de la Plata”, su nuevo álbum, en La Gesta Cultural",
-    "url": "https://agendatucuman.com.ar/eventos/5-de-diciembre-abril-olivera-llega-a-tucuman-para-presentar-rio-de-la-plata-su-nuevo-album-en-la-gesta-cultural/",
-    "date_start": "2026-12-05",
-    "date_end": "2026-12-05",
-    "time_start": "21:00",
+    "title": "29 al 31 de octubre | Desobediente llega al Espacio INCAA Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/29-al-31-de-octubre-desobediente-llega-al-espacio-incaa-tucuman/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "20:00",
     "time_end": "",
-    "start_datetime": "2026-12-05T21:00:00-03:00",
+    "start_datetime": "2026-10-31T20:00:00-03:00",
     "end_datetime": "",
-    "description": "¡Una de las voces destacadas de la nueva generación del R&B argentino llega a Tucumán! El sábado 5 de diciembre de 2026, Abril Olivera se presentará en La Gesta Cultural con un espectáculo en el que dará a conocer en vivo “Río de la Plata”, su segundo álbum de estudio. Reconocida también por ser una de las voces de NAFTA , la artista propone una experiencia musical que combina R&B, soul, jazz, bossa nova, funk y hip-hop, con una identidad sonora propia que la posiciona entre las nuevas referentes de la música argentina. El concierto tendrá lugar en La Gesta Cultural, ubicada en avenida Alem 747 de San Miguel de Tucumán , y las entradas anticipadas ya están disponibles a través de NorteTicket, con una primera tanda limitada desde $15.000 . Abril Olivera presenta “Río de la Plata” en Tucumán La llegada de Abril Olivera a Tucumán forma parte de la presentación de “Río de la Plata” , su segundo trabajo discográfico, una nueva etapa en su recorrido como solista. Con una propuesta que cruza diferentes géneros de la música contemporánea, la cantante construye un universo artístico donde conviven las influencias del soul y del R&B con ritmos y sonoridades vinculados a la música latinoamericana. Su estilo se caracteriza por una interpretación vocal expresiva y una búsqueda musical que no se limita a un único género. En esta nueva presentación, el público tucumano tendrá la oportunidad de acercarse a su repertorio y descubrir en vivo las canciones de un álbum que representa otro capítulo de su desarrollo artístico. Una de las voces de NAFTA y una referente del nuevo R&B argentino Abril Olivera es conocida por su participación en NAFTA , una de las agrupaciones que contribuyeron a renovar la escena del soul y el R&B en Argentina. Con una propuesta que combina influencias de la música afroamericana y sonidos contemporáneos, NAFTA logró construir una identidad musical reconocible, acercando estos géneros a nuevas generaciones de oyentes. En paralelo, Olivera desarrolla su carrera como solista, explorando diferentes texturas musicales y ampliando sus posibilidades interpretativas. Su música reúne elementos del jazz, la bossa nova, el soul, el funk y el hip-hop , en una combinación que refleja la diversidad de influencias que atraviesan su propuesta. Esta versatilidad le permite moverse entre melodías delicadas, ritmos envolventes y composiciones de sensibilidad contemporánea. “Río de la Plata”: una nueva etapa en su carrera solista Con su segundo álbum de estudio, Abril Olivera continúa consolidando un camino musical propio, independiente de su participación en proyectos colectivos. “Río de la Plata” representa el trabajo que la cantante traerá al escenario tucumano, ofreciendo al público la posibilidad de conocer su nueva propuesta artística en el formato de un concierto en vivo. La combinación de géneros y la personalidad de su interpretación vocal serán parte de los principales atractivos de una presentación destinada a quienes disfrutan de las nuevas expresiones de la música argentina. Para los seguidores de NAFTA, el espectáculo también será una oportunidad de descubrir otra faceta artística de una de sus voces. ¿Dónde comprar las entradas para Abril Olivera en Tucumán? El concierto se realizará el sábado 5 de diciembre de 2026 en La Gesta Cultural , ubicada en avenida Alem 747. La plataforma NorteTicket anuncia la apertura de puertas a las 21 h y el espectáculo a las 22 h . Las entradas se comercializan mediante la ticketera oficial, con los siguientes detalles: Early Tickets: $15.000. Disponibilidad: Primera tanda limitada. Venta online: NorteTicket. Importante: Los precios pueden variar a medida que se agoten las etapas de venta y pueden aplicarse cargos de servicio. La organización recomienda aprovechar la venta anticipada, ya que se trata de una tanda promocional con disponibilidad limitada. La ticketera también informa que los menores de 18 años deberán ingresar acompañados por un adulto y que los niños a partir de los 3 años abonan entrada. Una noche de R&B, soul y nuevas sonoridades para disfrutar en Tucumán Para quienes buscan qué hacer en Tucumán el sábado 5 de diciembre , la presentación de Abril Olivera representa una oportunidad para disfrutar de una de las propuestas de la nueva escena musical argentina. Su combinación de influencias, su identidad vocal y el repertorio de su nuevo álbum prometen una velada especialmente atractiva para los seguidores del R&B, el jazz, el soul y la música contemporánea. La Gesta Cultural será el escenario elegido para recibir a una artista que continúa desarrollando su carrera y ampliando su universo musical. ¡No te pierdas a Abril Olivera en vivo! Aprovechá las entradas promocionales, invitá a tus amigos y preparate para disfrutar de una noche de buena música con una de las voces destacadas del nuevo R&B argentino. 🎶 Todo lo que tenés que saber Evento: Abril Olivera en Tucumán. Presentación: Río de la Plata, su segundo álbum de estudio. Artista: Abril Olivera. Fecha: Sábado 5 de diciembre de 2026. Apertura de puertas: 21 h. Horario del espectáculo: 22 h, según NorteTicket. Lugar: La Gesta Cultural. Dirección: Avenida Alem 747, San Miguel de Tucumán. Géneros: R&B, soul, jazz, bossa nova, funk y hip-hop. Entradas Early Tickets: $15.000, tanda limitada. Venta de entradas: NorteTicket. Ingreso de menores: Menores de 18 años acompañados por un adulto. Desde los 3 años abonan entrada.",
+    "description": "El documental argentino Desobediente , de Federico Coringrato, tendrá tres funciones en el Espacio INCAA Tucumán. Se proyectará el jueves 29, viernes 30 y sábado 31 de octubre, a las 20, en la Sala Hynes O’Connor. La historia de Analía Kalinec La película sigue a Analía Kalinec, hija de un excomisario de la Policía Federal condenado a prisión perpetua por crímenes de lesa humanidad cometidos durante la última dictadura argentina. Tras conocer lo sucedido, rompe el vínculo con su padre y es declarada “hija indigna” por él y sus hermanas. En 2017, junto con otros hijos de condenados, funda el colectivo Historias Desobedientes, que luego busca contacto con familiares en situaciones similares en otros países. Una opción de cine en Tucumán Si buscás qué hacer en Tucumán , estas funciones ofrecen la oportunidad de acercarse a un documental que aborda la memoria y los vínculos familiares. Datos del evento Fechas: 29, 30 y 31 de octubre de 2026. Hora: 20:00. Lugar: Sala Hynes O’Connor, San Martín 251. Entradas: general $5.000; jubilados y estudiantes $2.500. Dirección: Federico Coringrato.",
     "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/abril.png",
-    "price": 15000.0,
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/Desobediente-Espacios-INCAA-scaled-1.png",
+    "price": 5000.0,
     "currency": "ARS",
     "is_free": false,
-    "location": "formato de un concierto en vivo",
-    "address": "Avenida Alem 747, San Miguel de Tucumán",
+    "location": "Sala Hynes O’Connor, San Martín 251. Entradas: general $5.000; jubilados y estudiantes $2.500. Dirección: Federico Coringrato",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251.+Entradas%3A+general+%245.000%3B+jubilados+y+estudiantes+%242.500.+Direcci%C3%B3n%3A+Federico+Coringrato%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-30",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El documental argentino Desobediente, dirigido por Federico Coringrato, se proyectará del 29 al 31 de octubre de 2026 a las 20:00 en la Sala Hynes O’Connor, ubicada en San Martín 251. Las funciones relatan la historia de Analía Kalinec y el colectivo Historias Desobedientes. Las entradas generales cuestan $5.000, mientras que jubilados y estudiantes pagan $2.500.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "32f3d62a39e9e878492c66739917f16e36ce629a009dcc538c7c124ef6155267"
+  },
+  {
+    "id": "47139",
+    "source": "MEC",
+    "title": "31 de Octubre | Noche de visita guiada por el Cementerio del Oeste, entre mausoleos, historia y esculturas",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-noche-de-visita-guiada-por-el-cementerio-del-oeste-entre-mausoleos-historia-y-esculturas/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este sábado 31 de octubre por la noche? Una opción con mucho misterio e historia es la visita guiada nocturna por el Cementerio del Oeste, un paseo gratuito que invita a vecinos y turistas a redescubrir una de las necrópolis más antiguas de la ciudad, con su riqueza histórica, arquitectónica y escultórica. Un museo a cielo abierto La Dirección de Cementerios de la Municipalidad de San Miguel de Tucumán organiza estas visitas guiadas en el Cementerio del Oeste, ubicado en Asunción 150. Mausoleos, panteones y esculturas se transforman en protagonistas de un recorrido que cuenta la historia de Tucumán a través de quienes la construyeron. Horarios de las visitas Las visitas nocturnas se realizan los viernes y sábados, a las 20 h, así que este sábado 31 de octubre es una cita ideal para sumarse. Durante la semana también hay visitas diurnas los lunes, martes, miércoles y jueves, a las 17 h. Cómo participar No hace falta inscribirse ni reservar: los paseos no requieren inscripción previa y no tienen cupo máximo. Solo tenés que llegar al Cementerio del Oeste unos minutos antes de las 20 h. ¡Sumá a tu familia o a tus amigos y viví una noche distinta! Resumen:\n\nQué: visita guiada nocturna por el Cementerio del Oeste. Cuándo: sábado 31 de octubre, a las 20 h. Dónde: Cementerio del Oeste, Asunción 150, San Miguel de Tucumán. Costo: gratuito. Inscripción: no requiere inscripción previa ni tiene cupo máximo. Otros horarios: nocturnas viernes y sábados a las 20 h; diurnas de lunes a jueves a las 17 h. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "visita guiada nocturna por el Cementerio del Oeste. Cuándo: sábado 31 de octubre, a las 20 h. Dónde: Cementerio del Oeste, Asunción 150, San Miguel de Tucumán. Costo: gratuito. Inscripción: no requiere inscripción previa ni tiene cupo máximo. Otros horarios: nocturnas viernes y sábados a las 20 h; diurnas de lunes a jueves a las 17 h. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/cementerio-del-oeste-visita-guiada-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "Asunción 150",
+    "city": "San Miguel de Tucumán",
+    "organizer": "estas visitas guiadas en el Cementerio del Oeste, ubicado en Asunción 150",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Disfrutá una visita guiada nocturna gratuita por el Cementerio del Oeste, ubicado en Asunción 150, para descubrir su historia, mausoleos y esculturas. La cita es este sábado 31 de octubre a las 20 h. No requiere inscripción previa ni tiene cupo máximo.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "e900286ab36c72e6b9691768bc310580e0569086a7316dd7a6459948824b5d70"
+  },
+  {
+    "id": "47118",
+    "source": "MEC",
+    "title": "31 de octubre | Elaha llega a la Sala Hynes O’Connor con entrada gratuita",
+    "url": "https://agendatucuman.com.ar/eventos/31-de-octubre-elaha-llega-a-la-sala-hynes-oconnor-con-entrada-gratuita/",
+    "date_start": "2026-10-31",
+    "date_end": "2026-10-31",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-10-31T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si buscás qué hacer en Tucumán , el sábado 31 de octubre el cine alemán tendrá una cita en la Sala Hynes O’Connor. A las 22 se proyectará Elaha , de Milena Aboyan, con entrada libre y gratuita. Una historia sobre las decisiones y las expectativas Elaha tiene 22 años y está por casarse. Convencida de que debe recuperar una supuesta inocencia, considera una intervención que no puede costear. En ese camino comienza a preguntarse por qué debe ser virgen y para quién. Cine alemán en Tucumán La función integra el ciclo Kino Federal, que lleva películas alemanas a distintas ciudades argentinas a partir de una selección del archivo cinematográfico del Goethe-Institut Buenos Aires. Una oportunidad para acercarse a una propuesta de cine internacional y compartir una noche en el centro tucumano. Datos del evento Fecha: sábado 31 de octubre de 2026. Hora: 22:00. Lugar: Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán. Entrada: libre y gratuita. Película: Elaha, dirigida por Milena Aboyan.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/Elaha-Cine-Aleman.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Sala Hynes O’Connor, San Martín 251, San Miguel de Tucumán",
+    "address": "",
     "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
     "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [
+      "mailto:?subject=31%20de%20octubre%20%7C%20Elaha%20llega%20a%20la%20Sala%20Hynes%20O%E2%80%99Connor%20con%20entrada%20gratuita&body=https%3A%2F%2Fagendatucuman.com.ar%2Feventos%2F31-de-octubre-elaha-llega-a-la-sala-hynes-oconnor-con-entrada-gratuita%2F"
+    ],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-10-31",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-10-31T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-10-31",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El sábado 31 de octubre de 2026 a las 22:00 se proyectará la película alemana Elaha en la Sala Hynes O’Connor, ubicada en San Martín 251, San Miguel de Tucumán. La función forma parte del ciclo Kino Federal y la entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6b6fe1ecf34f6c54ef36eef42660444db8c2d0303b9d6bec9970a39308f78a30"
+  },
+  {
+    "id": "47140",
+    "source": "MEC",
+    "title": "1 de Noviembre | Juan Quintero presenta “Pago Querido”, un recital gratuito en la Casa de la Cultura",
+    "url": "https://agendatucuman.com.ar/eventos/1-de-noviembre-juan-quintero-presenta-pago-querido-un-recital-gratuito-en-la-casa-de-la-cultura/",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-01",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-01T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si todavía no sabés qué hacer en Tucumán este domingo 1 de noviembre, tenemos un plan para los amantes de la buena música: el recital “Pago Querido”, protagonizado por Juan Quintero, uno de los artistas más destacados de la canción argentina contemporánea. La entrada es libre y gratuita. Un tucumano que reinterpreta el folclore Nacido en Tucumán y consolidado como músico, compositor y guitarrista de enorme influencia, Juan Quintero regresa a su tierra natal con un espectáculo que reinterpreta el folclore desde la sensibilidad y la búsqueda sonora actual. Una trayectoria de lujo Cofundador del célebre Aca Seca Trío y colaborador de referentes de la música popular como Mercedes Sosa, Juan Falú y Jorge Fandermole, el artista combina el valor de las raíces culturales con una destacada labor docente, arregladora y compositiva. El concierto se configura como un espacio de encuentro intergeneracional para poner en valor la memoria, la identidad colectiva y el patrimonio musical de la región. Dónde y cómo asistir El recital, organizado por la Subsecretaría de Cultura de la Municipalidad de San Miguel de Tucumán, se realiza a las 19 h en la Casa de la Cultura del Parque 9 de Julio. En caso de inclemencias climáticas, la función se traslada al Complejo Ledesma (25 de Mayo 971) en el mismo horario. ¡Llevá a tu familia, sumá a tus amigos y viví una tarde cargada de música tucumana! Resumen:\n\nQué: recital “Pago Querido” de Juan Quintero. Cuándo: domingo 1 de noviembre, a las 19 h. Dónde: Casa de la Cultura, Parque 9 de Julio, San Miguel de Tucumán. Entrada: libre y gratuita. Organiza: Subsecretaría de Cultura de la Municipalidad de San Miguel de Tucumán. Plan B por clima: Complejo Ledesma, 25 de Mayo 971, mismo horario. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "recital “Pago Querido” de Juan Quintero. Cuándo: domingo 1 de noviembre, a las 19 h. Dónde: Casa de la Cultura, Parque 9 de Julio, San Miguel de Tucumán. Entrada: libre y gratuita. Organiza: Subsecretaría de Cultura de la Municipalidad de San Miguel de Tucumán. Plan B por clima: Complejo Ledesma, 25 de Mayo 971, mismo horario. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/pago-querido-juan-popi-quinteros.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura del Parque 9 de Julio",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Subsecretaría de Cultura de la Municipalidad de San Miguel de Tucumán",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
       "Musica"
     ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=formato+de+un+concierto+en+vivo%2C+Avenida+Alem+747%2C+San+Miguel+de+Tucum%C3%A1n",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+del+Parque+9+de+Julio%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
       {
-        "date": "2026-12-05",
-        "time_start": "21:00",
+        "date": "2026-11-01",
+        "time_start": "19:00",
         "time_end": "",
-        "start_datetime": "2026-12-05T21:00:00-03:00",
+        "start_datetime": "2026-11-01T19:00:00-03:00",
         "end_datetime": ""
       }
     ],
@@ -209,8 +895,8 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-12-05",
-      "card_time": "21:00",
+      "card_date": "2026-11-01",
+      "card_time": "19:00",
       "date": "title_day",
       "time": "mec_card",
       "location": "narrative",
@@ -218,9 +904,162 @@
       "v11_enrichment_error": "",
       "query_month": "2026-10"
     },
-    "summary": "Abril Olivera se presentará el sábado 5 de diciembre de 2026 a las 22 h en La Gesta Cultural, ubicada en Avenida Alem 747, San Miguel de Tucumán, para presentar su nuevo álbum Río de la Plata. Las entradas anticipadas se consiguen en NorteTicket desde $15.000 para la primera tanda limitada. Los menores de 18 años deben ingresar con un adulto y desde los 3 años abonan entrada.",
+    "summary": "El músico Juan Quintero presenta su recital Pago Querido para reinterpretar el folclore con entrada libre y gratuita. La cita es el domingo 1 de noviembre a las 19 h en la Casa de la Cultura del Parque 9 de Julio. Ante clima adverso, el evento se traslada al Complejo Ledesma, ubicado en 25 de Mayo 971, en el mismo horario.",
     "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": "f9eb0b7e7e57b85cd687b244259954a775f6c8a950d366cbd7dc4baae2e118be"
+    "summary_source_hash": "d8a70df918cfdf245184364646fafeda2bfafd87c2aa01e35a46233207c20c35"
+  },
+  {
+    "id": "47138",
+    "source": "MEC",
+    "title": "1 de Noviembre | Regresa el Bus Turístico Nocturno con parada estelar en el Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/1-de-noviembre-regresa-el-bus-turistico-nocturno-con-parada-estelar-en-el-cementerio-del-oeste/",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-01",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-01T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si el domingo 1 de noviembre todavía no sabés qué hacer en Tucumán, anotá este plan: regresa el Bus Turístico Nocturno con un paseo por el casco histórico de la ciudad y una visita teatralizada en el Cementerio del Oeste. Una salida distinta para disfrutar de la noche tucumana en familia o con amigos. Un recorrido nocturno por el casco histórico El domingo 1 de noviembre, a las 19 h, el bus parte desde la parada ubicada en la primera cuadra de calle Laprida, frente a la Plaza Independencia. Desde allí, el paseo recorre el casco histórico de San Miguel de Tucumán con otra luz: la de la noche. La parada estelar: “Recordar” en el Cementerio del Oeste El gran momento del circuito es el Cementerio del Oeste, donde se pondrá en escena la obra “Recordar”, a cargo del grupo teatral “Los Intérpretes”. Los actores darán vida a personajes tucumanos cuyos restos descansan en esa necrópolis: Clodomiro Hileret, Bernardo de Monteagudo, Lola Mora, Lucas Córdoba y Chivo Valladares. También se recreará la figura del Perro Familiar, una de las leyendas más queridas de la provincia. Cómo reservar tu lugar Las inscripciones se reciben a través de la web oficial del Bus Turístico SMT. ¡Reservá con tiempo! Tené en cuenta que el paseo se suspende en caso de lluvia. Resumen:\n\nQué: Bus Turístico Nocturno con visita teatralizada “Recordar”. Cuándo: domingo 1 de noviembre, a las 19 h. Salida: parada del Bus Turístico SMT, Laprida, primera cuadra (Plaza Independencia). Parada estelar: Cementerio del Oeste, con la obra a cargo de “Los Intérpretes”. Inscripción: online, en la web del Bus Turístico SMT. Importante: se suspende en caso de lluvia. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Bus Turístico Nocturno con visita teatralizada “Recordar”. Cuándo: domingo 1 de noviembre, a las 19 h. Salida: parada del Bus Turístico SMT, Laprida, primera cuadra (Plaza Independencia). Parada estelar: Cementerio del Oeste, con la obra a cargo de “Los Intérpretes”. Inscripción: online, en la web del Bus Turístico SMT. Importante: se suspende en caso de lluvia. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/bus-turistico-nocturno-cementerio.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Cementerio del Oeste",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cementerio+del+Oeste%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-01",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-01T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-01",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "El domingo 1 de noviembre a las 19 h regresa el Bus Turístico Nocturno con un recorrido por el casco histórico y una visita teatralizada en el Cementerio del Oeste. La salida es desde la primera cuadra de calle Laprida, frente a Plaza Independencia. Los lugares se reservan en la web del Bus Turístico SMT y el paseo se suspende por lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "e428c6cbb10645243a935c35175be85bd09fdd18bf7824dad7947d7d91bbf1c5"
+  },
+  {
+    "id": "47141",
+    "source": "MEC",
+    "title": "1 de Noviembre | “Recordar”, teatro entre mausoleos y leyendas en el Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/1-de-noviembre-recordar-teatro-entre-mausoleos-y-leyendas-en-el-cementerio-del-oeste/",
+    "date_start": "2026-11-01",
+    "date_end": "2026-11-01",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-01T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué hacer en Tucumán este domingo 1 de noviembre? Una propuesta que mezcla teatro, historia y leyenda: la visita teatralizada “Recordar” en el Cementerio del Oeste, con entrada libre y gratuita. Entre mausoleos, panteones y sepulturas, grandes figuras de la historia tucumana vuelven a la vida sobre el escenario más original de la ciudad. Personajes que vuelven a la vida Bernardo de Monteagudo, el empresario azucarero Clodomiro Hileret, la artista Lola Mora, el ex gobernador Lucas Córdoba y el músico Rolando “Chivo” Valladares surgirán de entre los mausoleos, panteones y sepulturas donde descansan sus restos. También se recreará la leyenda del Perro Familiar, uno de los relatos más populares del imaginario tucumano. El elenco El espectáculo está protagonizado por actores de la compañía artística “Los Intérpretes”, dirigida por Soledad Pereyra y Horacio Dantur. Dónde, cuándo y cómo sumarte La función es el domingo 1 de noviembre a las 20 h en el Cementerio del Oeste, ubicado en Asunción 150. Además, formará parte de un nuevo paseo nocturno del Bus Turístico, que saldrá ese día a las 19 h desde la Plaza Independencia. Quienes quieran sumarse al bus deben inscribirse a través de la web oficial del Bus Turístico SMT. ¡Anotate el plan y invitá a tu familia y a tus amigos! Resumen:\n\nQué: visita teatralizada “Recordar”. Cuándo: domingo 1 de noviembre, a las 20 h. Dónde: Cementerio del Oeste, Asunción 150, San Miguel de Tucumán. Elenco: compañía “Los Intérpretes”, con dirección de Soledad Pereyra y Horacio Dantur. Entrada: libre y gratuita. Bus Turístico Nocturno: sale a las 19 h desde Plaza Independencia, con inscripción previa online. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "visita teatralizada “Recordar”. Cuándo: domingo 1 de noviembre, a las 20 h. Dónde: Cementerio del Oeste, Asunción 150, San Miguel de Tucumán. Elenco: compañía “Los Intérpretes”, con dirección de Soledad Pereyra y Horacio Dantur. Entrada: libre y gratuita. Bus Turístico Nocturno: sale a las 19 h desde Plaza Independencia, con inscripción previa online. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/teatro-recordar-cementerio-del-oeste.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "Asunción 150",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-01",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-01T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-01",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-10"
+    },
+    "summary": "Disfrutá de la visita teatralizada Recordar, una propuesta que mezcla historia y leyenda con la participación de la compañía Los Intérpretes. La función es el domingo 1 de noviembre a las 20 h en el Cementerio del Oeste, ubicado en Asunción 150, con entrada libre y gratuita. Además, habrá un paseo nocturno en el Bus Turístico que sale a las 19 h desde la Plaza Independencia, con inscripción previa online.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3c938b500efb86124dcf5aba9ccd97ddd27034e4cfc1a442e4359970bd0692b5"
   }
 ]

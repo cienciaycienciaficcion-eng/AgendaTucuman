@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-10-29T10:18:57.544132-03:00",
+  "generated_at": "2026-10-30T02:58:48.886707-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "BACKROOMS: VERSION EXTENDIDA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 111,
       "genres": [
         "Terror"
@@ -48,7 +48,7 @@
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -90,7 +90,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -134,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -189,7 +189,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -235,7 +235,7 @@
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -274,7 +274,7 @@
       "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 95,
       "genres": [
         "Comedia Romántica"
@@ -437,7 +437,7 @@
       "title": "PINOCHO SIN CUERDAS - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-11-01",
       "duration_minutes": 82,
       "genres": [
         "Terror"
@@ -520,7 +520,7 @@
       "title": "ESTACIÓN ZOMBIE: 10 ANIVERSARIO - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-11-01",
       "duration_minutes": null,
       "genres": [
         "Terror Thriller"
@@ -561,7 +561,7 @@
       "title": "LA CAJA DEL DEMONIO - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-11-01",
       "duration_minutes": 45,
       "genres": [
         "Terror"
@@ -600,7 +600,7 @@
       "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-10-30",
       "duration_minutes": 130,
       "genres": [
         "Animación Aventuras"
@@ -641,7 +641,7 @@
       "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-10-29",
+      "release_date": "2026-11-01",
       "duration_minutes": 130,
       "genres": [
         "Animación Aventuras"
