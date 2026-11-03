@@ -215,13 +215,6 @@
       "processed_at": "2026-10-05T10:32:14.334065+00:00",
       "reason": "Informa sobre las ofertas y productos del programa municipal 'Mercado en tu Barrio' en San Miguel de Tucumán, lo cual constituye un servicio de utilidad pública para los ciudadanos."
     },
-    "se-realizaran-nuevas-jornadas-de-eco-canje": {
-      "selected": false,
-      "processed_at": "2026-10-05T13:11:20.307987+00:00",
-      "content_hash": "2725d6c9418c7e0c3a84b36ed97e2d44d63e8b7f2f43a837c4df2c13c4a3d7e5",
-      "provider": "deterministic-filter",
-      "reason": "Descartado por filtro previo sin IA."
-    },
     "13-al-17-de-julio-donde-se-brindara-el-servicio-gratuito-de-castracion-para-animales-de-compania": {
       "selected": true,
       "processed_at": "2026-10-05T13:11:20.750893+00:00",
@@ -447,6 +440,36 @@
       "provider": "gemini",
       "processed_at": "2026-10-28T02:54:36.482437+00:00",
       "reason": "Es una actividad de salud pública y prevención organizada por la Municipalidad de Tafí Viejo abierta a la comunidad."
+    },
+    "4-de-noviembre-en-yerba-buena-tramites-salud-y-atencion-veterinaria": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-11-03T16:14:59.922387+00:00",
+      "reason": "Ofrece información sobre un operativo municipal (La Muni Cerca) en Yerba Buena con trámites, atención veterinaria, vacunación y eco-canje."
+    },
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-11": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-11-03T16:15:28.119734+00:00",
+      "reason": "Informa sobre un operativo municipal integral que ofrece trámites de DNI, Licencia de Conducir, SUBE, atención médica y castraciones en barrios de San Miguel de Tucumán con cronograma y ubicación detallados."
+    },
+    "smt-donde-habra-jornadas-de-eco-canje-esta-semana-2": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-11-03T16:15:53.033020+00:00",
+      "reason": "Informa sobre el cronograma y ubicaciones del operativo municipal de Eco Canje de la Municipalidad de San Miguel de Tucumán."
+    },
+    "smt-donde-castrar-gratis-a-tu-mascota-del-3-al-6-de-noviembre": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-11-03T16:16:11.862340+00:00",
+      "reason": "Información sobre operativo municipal gratuito de castración de mascotas en barrios de San Miguel de Tucumán."
+    },
+    "3-al-6-de-noviembre-donde-se-ubicara-el-mercado-en-tu-barrio": {
+      "selected": true,
+      "provider": "gemini",
+      "processed_at": "2026-11-03T16:16:28.775684+00:00",
+      "reason": "Informa sobre la ubicación y ofertas del programa municipal Mercado en tu Barrio."
     }
   },
   "selected_ids": [
@@ -462,15 +485,20 @@
     "smt-donde-habra-jornadas-de-eco-canje-esta-semana",
     "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-31-de-octubre",
     "tafi-viejo-curso-gratuito-de-molderia",
-    "tafi-viejo-encuentro-comunitario-para-promover-la-salud-mental"
+    "tafi-viejo-encuentro-comunitario-para-promover-la-salud-mental",
+    "4-de-noviembre-en-yerba-buena-tramites-salud-y-atencion-veterinaria",
+    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-11",
+    "smt-donde-habra-jornadas-de-eco-canje-esta-semana-2",
+    "smt-donde-castrar-gratis-a-tu-mascota-del-3-al-6-de-noviembre",
+    "3-al-6-de-noviembre-donde-se-ubicara-el-mercado-en-tu-barrio"
   ],
-  "updated_at": "2026-11-03T06:45:39.029333+00:00",
+  "updated_at": "2026-11-03T16:16:28.777193+00:00",
   "gemini_usage": {
-    "date": "2026-10-28",
-    "calls": 9
+    "date": "2026-11-03",
+    "calls": 6
   },
   "groq_usage": {
-    "date": "2026-10-28",
+    "date": "2026-11-03",
     "calls": 0
   }
 }
