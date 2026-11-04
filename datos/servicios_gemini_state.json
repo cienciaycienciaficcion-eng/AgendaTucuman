@@ -473,9 +473,6 @@
     }
   },
   "selected_ids": [
-    "ofertas-del-mercado-municipal-dorrego-para-esta-semana-hasta-el-24-de-octubre",
-    "yerba-buena-la-muni-cerca-llega-para-atender-a-los-vecinos-de-esa-ciudad",
-    "tafi-viejo-nuevos-cursos-gratuitos-de-formacion-profesional",
     "donde-habra-jornadas-de-eco-canje-esta-semana-10",
     "donde-brindara-sus-servicios-el-trailer-de-cuidado-integral-de-salud-de-la-mujer",
     "smt-donde-castrar-gratis-a-tu-mascota-hasta-el-viernes-30-de-octubre",
@@ -492,7 +489,7 @@
     "smt-donde-castrar-gratis-a-tu-mascota-del-3-al-6-de-noviembre",
     "3-al-6-de-noviembre-donde-se-ubicara-el-mercado-en-tu-barrio"
   ],
-  "updated_at": "2026-11-03T21:47:49.137253+00:00",
+  "updated_at": "2026-11-04T02:19:43.239251+00:00",
   "gemini_usage": {
     "date": "2026-11-03",
     "calls": 6
