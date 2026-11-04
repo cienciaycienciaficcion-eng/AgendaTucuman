@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-03T16:33:37.757869-03:00",
+  "generated_at": "2026-11-04T03:37:03.616911-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "BACKROOMS: VERSION EXTENDIDA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 111,
       "genres": [
         "Terror"
@@ -48,7 +48,7 @@
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -90,7 +90,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -134,7 +134,7 @@
       "title": "STREET FIGHTER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 119,
       "genres": [
         "Acción"
@@ -189,7 +189,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -235,7 +235,7 @@
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -271,92 +271,10 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "¿QUERÉS SER MI HIJO? - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-11-03",
-      "duration_minutes": 95,
-      "genres": [
-        "Comedia Romántica"
-      ],
-      "director": [
-        "Hernán Guerschuny"
-      ],
-      "cast": [
-        "Wanda Nara",
-        "Agustin Bernasconi",
-        "Jean Pierre Noher",
-        "Charo López"
-      ],
-      "synopsis": "Una mujer conformista de 42 años descubre que su novio, con quien lleva 15 años de relación, le es infiel. Estancada, con el corazón roto y sin trabajo, Lucía decide regresar a su departamento de soltera para comenzar de cero, únicamente para descubrir que su nuevo vecino, Javier, es un joven mujeriego de 22 años que siempre tiene fiestas y no la deja descansar. Para conseguir el trabajo que siempre ha querido, Lucía decide mentir en su entrevista laboral: asegura ser una mujer de familia y tener un hijo de 22 años. Como si eso no fuera suficiente, en la última prueba para ser contratada debe participar en un family day junto a los directivos de la empresa y sus familias. Desesperada, Lucía le propone un trato a Javier: él se hará pasar por su hijo y, a cambio, ella le permitirá organizar todas las fiestas que quiera. Lo que ninguno imagina es que, en medio de tantas mentiras y durante ese family day, surgirá un inesperado romance entre ellos, a pesar de los 20 años que los separan. Ambos deberán cuestionarse qué es lo que realmente quieren para sus vidas. Lucía tendrá que dejar de conformarse con lo que tenía y animarse a perseguir sus propios sueños, mientras que Javier deberá enfrentar sus sentimientos por primera vez y luchar por la mujer que ama.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3651_img2.jpg",
-      "classification": "SP - Supervisión Parental sugerida",
-      "nationality": "Argentina",
-      "distributor": "Digicine",
-      "trailer": "https://www.youtube.com/embed/AQdSYSSypFQ",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6045-QUER-S-SER-MI-HIJO---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6045,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "GODZILLA MINUS ZERO - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-11-03",
-      "duration_minutes": 135,
-      "genres": [
-        "Ciencia Ficción"
-      ],
-      "director": [
-        "Takashi Yamazaki"
-      ],
-      "cast": [
-        "Ryunosuke Kamiki",
-        "Minami Hamabe y Miou Tanaka."
-      ],
-      "synopsis": "En el Japón de la posguerra, un país devastado intenta reconstruirse desde las cenizas. Sin embargo, una nueva amenaza emerge desde el océano: Godzilla. Mientras la nación lucha por sobrevivir, la aparición de esta fuerza destructiva lleva a la humanidad al límite absoluto, enfrentándola no solo a la destrucción, sino también a su propia fragilidad.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3595_img2.jpg",
-      "classification": "R13 - Restringida para menores de 13 años",
-      "nationality": "Japón",
-      "distributor": "BF Films",
-      "trailer": "https://www.youtube.com/embed/QUhzeuAYES0",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6059-GODZILLA-MINUS-ZERO---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Martes 3 de Noviembre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6059,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "LA CAJA DEL DEMONIO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 45,
       "genres": [
         "Terror"
@@ -437,7 +355,7 @@
       "title": "ESTACIÓN ZOMBIE: 10 ANIVERSARIO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": null,
       "genres": [
         "Terror Thriller"
@@ -478,7 +396,7 @@
       "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-03",
+      "release_date": "2026-11-04",
       "duration_minutes": 130,
       "genres": [
         "Animación Aventuras"
@@ -549,8 +467,8 @@
     }
   ],
   "summary": {
-    "total": 12,
-    "complete_source": 10,
+    "total": 10,
+    "complete_source": 8,
     "partial_source": 2,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
