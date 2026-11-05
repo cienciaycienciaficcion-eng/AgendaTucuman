@@ -1,85 +1,5 @@
 [
   {
-    "id": "47213",
-    "source": "MEC",
-    "title": "5 de Noviembre | «Patrimonios en Reserva»: primera jornada académica y cultural sobre el patrimonio artístico público de Tucumán",
-    "url": "https://agendatucuman.com.ar/eventos/5-de-noviembre-patrimonios-en-reserva-primera-jornada-academica-y-cultural-sobre-el-patrimonio-artistico-publico-de-tucuman/",
-    "date_start": "2026-11-05",
-    "date_end": "2026-11-05",
-    "time_start": "09:00",
-    "time_end": "",
-    "start_datetime": "2026-11-05T09:00:00-03:00",
-    "end_datetime": "",
-    "description": "El arte que Tucumán guarda en sus colecciones públicas tiene su propio espacio de reflexión. El Centro Cultural Rougés recibe «Patrimonios en Reserva», la primera Jornada Académica-Cultural sobre Colecciones y Patrimonio Artístico Público de Tucumán, una propuesta ideal para quienes se interesan por la historia, los museos y las artes visuales. Un encuentro para conocer y cuidar el patrimonio La jornada se desarrolla el jueves 5 de noviembre, desde las 9, y se presenta como el primer encuentro de este espacio de intercambio entre especialistas, instituciones y público interesado en el patrimonio artístico de la provincia. Es una invitación a mirar de cerca las obras que forman parte de las colecciones públicas y a pensar cómo se conservan, se estudian y se comparten. Parte del Festival de Artes Visuales Tucumán Arte La actividad integra la programación del Festival de Artes Visuales Tucumán Arte, que durante estos días ofrece muestras, charlas y recorridos en distintos espacios de la ciudad. Si te preguntás qué hacer en Tucumán esta semana con una propuesta cultural diferente, esta jornada es una excelente opción para sumar a tu agenda. Dónde y cómo participar El Centro Cultural Rougés está en San Martín 251, en pleno centro de San Miguel de Tucumán. Para consultas podés comunicarte al (0381) 4307678 o al 4524436, o escribir por correo electrónico al Ente Cultural de Tucumán. ¡Sumate y descubrí el patrimonio que cuenta la historia artística de la provincia!\n\nQué: «Patrimonios en Reserva», I Jornada Académica-Cultural sobre Colecciones y Patrimonio Artístico Público de Tucumán Cuándo: jueves 5 de noviembre, desde las 9 Dónde: Centro Cultural Rougés, San Martín 251, San Miguel de Tucumán Consultas: (0381) 4307678 / 4524436 Organiza: Ente Cultural de Tucumán, en el marco del Festival Tucumán Arte",
-    "highlighted_metadata": {
-      "qué": "«Patrimonios en Reserva», I Jornada Académica-Cultural sobre Colecciones y Patrimonio Artístico Público de Tucumán Cuándo: jueves 5 de noviembre, desde las 9 Dónde: Centro Cultural Rougés, San Martín 251, San Miguel de Tucumán Consultas: (0381) 4307678 / 4524436 Organiza: Ente Cultural de Tucumán, en el marco del Festival Tucumán Arte"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/jornada-patrimonios-en-reserva.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "patrimonio artístico de la provincia",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [
-      "0381) 4307678"
-    ],
-    "categories": [
-      "Gratis"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=patrimonio+art%C3%ADstico+de+la+provincia%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [
-      "mailto:?subject=5%20de%20Noviembre%20%7C%20%C2%ABPatrimonios%20en%20Reserva%C2%BB%3A%20primera%20jornada%20acad%C3%A9mica%20y%20cultural%20sobre%20el%20patrimonio%20art%C3%ADstico%20p%C3%BAblico%20de%20Tucum%C3%A1n&body=https%3A%2F%2Fagendatucuman.com.ar%2Feventos%2F5-de-noviembre-patrimonios-en-reserva-primera-jornada-academica-y-cultural-sobre-el-patrimonio-artistico-publico-de-tucuman%2F"
-    ],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-05",
-        "time_start": "09:00",
-        "time_end": "",
-        "start_datetime": "2026-11-05T09:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "narrative",
-        "score": 0.65
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-05",
-      "card_time": "09:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "narrative",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El Centro Cultural Rougés recibe «Patrimonios en Reserva», la primera jornada académica y cultural sobre el patrimonio artístico público de Tucumán. La cita es el jueves 5 de noviembre desde las 9 en San Martín 251, San Miguel de Tucumán. Esta propuesta forma parte del Festival de Artes Visuales Tucumán Arte.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "4887baee1ba08639bf855099c883a64551cda8fb9316f189483cacf694022938"
-  },
-  {
     "id": "47264",
     "source": "MEC",
     "title": "5 de Noviembre | Llega la 5ª Fiesta Nacional del Sánguche de Milanesa a Yerba Buena con cuatro días de festejo",
@@ -400,7 +320,7 @@
     "highlighted_metadata": {
       "qué": "TucuChamber, orquesta de cámara Cuándo: jueves 5 de noviembre, a las 21 Dónde: Auditorio del Centro Cultural Virla, San Miguel de Tucumán Entrada general: $10.000"
     },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823478324-iapw76.png",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tucuchamber.webp",
     "price": 10000.0,
     "currency": "ARS",
     "is_free": false,
@@ -552,7 +472,7 @@
     "highlighted_metadata": {
       "qué": "Feria M.A.B. (emprendimientos, artesanías y diseño local) Cuándo: viernes 6 de noviembre de 17 a 21 y sábado 7 de 10 a 21 Dónde: Sala de Arcos y Vitrinas Bóvedas, Centro Cultural Virla, San Miguel de Tucumán"
     },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823478324-iapw76.png",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mab.webp",
     "price": null,
     "currency": "",
     "is_free": false,
@@ -2396,7 +2316,7 @@
     "highlighted_metadata": {
       "qué": "“Noches de Swing” (jazz, blues, pop, boogie-woogie y más) Cuándo: sábado 7 de noviembre, a las 21 Dónde: Auditorio del Centro Cultural Virla, San Miguel de Tucumán Entradas anticipadas: $20.000 y $25.000"
     },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823478324-iapw76.png",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/swing.webp",
     "price": 20000.0,
     "currency": "ARS",
     "is_free": false,
@@ -3388,7 +3308,7 @@
     "highlighted_metadata": {
       "qué": "recital de piano de Lidia Hortt Cuándo: domingo 8 de noviembre, a las 20 Dónde: Auditorio del Centro Cultural Virla, San Miguel de Tucumán Entradas: general $15.000; jubilados $12.000"
     },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823478324-iapw76.png",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/piano.webp",
     "price": 15000.0,
     "currency": "ARS",
     "is_free": false,
@@ -3525,6 +3445,80 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "2ad4332dadf1c5debee0e24382112c693b185a88f001d3d84e140568aeede9d1"
+  },
+  {
+    "id": "47309",
+    "source": "MEC",
+    "title": "6 al 9 de noviembre | Las ferias municipales llegan a parques, plazas y distintos espacios de San Miguel de Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/6-al-9-de-noviembre-las-ferias-municipales-llegan-a-parques-plazas-y-distintos-espacios-de-san-miguel-de-tucuman/",
+    "date_start": "2026-11-09",
+    "date_end": "2026-11-09",
+    "time_start": "17:00",
+    "time_end": "23:00",
+    "start_datetime": "2026-11-09T17:00:00-03:00",
+    "end_datetime": "2026-11-09T23:00:00-03:00",
+    "description": "San Miguel de Tucumán tendrá cuatro jornadas con propuestas gastronómicas, ferias de artesanos y espacios para emprendedores. Desde el viernes 6 hasta el lunes 9 de noviembre, vecinos y visitantes podrán recorrer distintos puntos de la ciudad, disfrutar de productos regionales, descubrir creaciones locales y compartir actividades al aire libre. Las ferias organizadas por la Municipalidad de San Miguel de Tucumán se instalarán en los parques El Provincial, Avellaneda y 9 de Julio, además de Plaza Independencia, el barrio Manantial Sur y el Palacio de los Deportes. Para quienes buscan qué hacer en Tucumán durante el fin de semana , estas propuestas ofrecen alternativas para pasear, disfrutar de la gastronomía y acompañar el trabajo de artesanos y emprendedores locales. Palacio de los Deportes: gastronomía y espectáculos musicales La Feria sobre Ruedas acompañará dos importantes espectáculos musicales con una propuesta de food trucks para el público asistente. El viernes 6 de noviembre, de 17 a 23 h , los puestos gastronómicos estarán presentes durante el espectáculo de Babasónicos. El sábado 7, de 19 a 00 h , la feria volverá a instalarse en el marco del show del dúo Jesse & Joy. Parque El Provincial: Feria de Artesanos El Parque El Provincial recibirá a los artesanos locales el sábado 7 y el lunes 9 de noviembre, de 18 a 00 h . La actividad se desarrollará en el predio ubicado en avenida Roca y Chacabuco, con una propuesta para recorrer los puestos y conocer el trabajo de los expositores. Parque Avellaneda: emprendedores y paseo gastronómico El Parque Avellaneda concentrará dos propuestas durante tres jornadas consecutivas: sábado 7, domingo 8 y lunes 9 de noviembre, de 18 a 00 h . La Feria de Emprendedores estará ubicada sobre avenida Mate de Luna y la caminería central, mientras que el Paseo Gastronómico funcionará sobre calle Asunción. De esta manera, quienes visiten el parque podrán combinar una recorrida por los emprendimientos locales con distintas opciones para comer. Parque 9 de Julio: feria sobre avenida Soldati El domingo 8 y el lunes 9 de noviembre, de 17 a 23 h , se desarrollará la Feria Parque 9 de Julio. Los puestos estarán ubicados sobre avenida Soldati al 300, sumando otra alternativa para disfrutar de las tardes y noches en uno de los espacios verdes más tradicionales de San Miguel de Tucumán. Plaza Independencia: artesanías y Feria Gourmet El principal paseo público de la capital tucumana será escenario de dos propuestas el domingo 8 de noviembre . La Feria de Artesanos funcionará de 15.30 a 00 h , sobre calles 24 de Septiembre y Laprida. Por su parte, la Feria Gourmet ofrecerá su propuesta gastronómica de 15 a 00 h , sobre calle 24 de Septiembre al 300. Ambas ferias permitirán disfrutar de una tarde de paseo por el centro de la ciudad. Barrio Manantial Sur: feria en las 2500 Viviendas La Feria Manantial Sur – 2500 Viviendas tendrá lugar el sábado 7 y domingo 8 de noviembre, de 16 a 21 h . La actividad se desarrollará sobre avenida Palavecino, entre Constitución y Pueyrredón, acercando la propuesta municipal a los vecinos de la zona sur de la capital. ¿Dónde y cuándo estarán las ferias municipales? Resumen de la programación Palacio de los Deportes: viernes 6, de 17 a 23 h, y sábado 7, de 19 a 00 h. Feria sobre Ruedas. Parque El Provincial: sábado 7 y lunes 9, de 18 a 00 h. Feria de Artesanos, avenida Roca y Chacabuco. Parque Avellaneda: sábado 7, domingo 8 y lunes 9, de 18 a 00 h. Feria de Emprendedores sobre avenida Mate de Luna y caminería central; Paseo Gastronómico sobre calle Asunción. Parque 9 de Julio: domingo 8 y lunes 9, de 17 a 23 h. Avenida Soldati al 300. Plaza Independencia: domingo 8, de 15.30 a 00 h, Feria de Artesanos sobre 24 de Septiembre y Laprida; de 15 a 00 h, Feria Gourmet sobre 24 de Septiembre al 300. Barrio Manantial Sur: sábado 7 y domingo 8, de 16 a 21 h. Avenida Palavecino, entre Constitución y Pueyrredón. Una invitación para disfrutar de la ciudad Con distintas ubicaciones y horarios, las ferias municipales ofrecen alternativas para organizar una salida durante el fin de semana y el lunes, recorrer espacios públicos y apoyar la producción y el emprendedurismo local. Elegí tu paseo favorito y descubrí más propuestas culturales, recreativas y gastronómicas en Agenda Tucumán .",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/feriado-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "Soldati El domingo 8",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Soldati+El+domingo+8%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-09",
+        "time_start": "17:00",
+        "time_end": "23:00",
+        "start_datetime": "2026-11-09T17:00:00-03:00",
+        "end_datetime": "2026-11-09T23:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-06",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Del 6 al 9 de noviembre, las ferias municipales de San Miguel de Tucumán ofrecen propuestas gastronómicas, artesanías y emprendedores en parques, plazas y espacios públicos de la ciudad. Habrá actividades en el Palacio de los Deportes, parques El Provincial, Avellaneda y 9 de Julio, Plaza Independencia y Manantial Sur, con horarios específicos según cada locación.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6bd57c7b238495141b6a633c1ab0de6257f93a3324de313d4c03400a404df84a"
   },
   {
     "id": "47302",
@@ -3831,5 +3825,58 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "dce11c4efd7bab4099befa22014e9b93cc0cd4d3b1d9991e89eae69f1beeef6a"
+  },
+  {
+    "id": "cine-estrenos-semana-2026-11-05",
+    "source": "CINEMACENTER",
+    "title": "Estrenos de la semana",
+    "url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+    "date_start": "2026-11-05",
+    "date_end": "2026-11-11",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-11-05T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "<p><strong>Nuevas películas que llegan a la cartelera de Cinemacenter Tucumán esta semana:</strong></p>\n<ul>\n<li>EL GATO CON SOMBRERO — estreno 5 de noviembre de 2026</li>\n<li>GODZILLA MINUS ZERO — estreno 5 de noviembre de 2026</li>\n<li>SACRIFICIO: LOS ELEGIDOS — estreno 5 de noviembre de 2026</li>\n<li>ENTREGA AL LÍMITE — estreno 6 de noviembre de 2026</li>\n</ul>\n<p><a href=\"https://www.cinemacenter.com.ar/cartelera#contenido\">Ver cartelera y horarios</a></p>",
+    "summary": "",
+    "image": "https://www.cinemacenter.com.ar/img_movies/3269_img2.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Cinemacenter Tucumán",
+    "address": "Av. Néstor Kirchner (Ex Roca) 3450",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Cinemacenter",
+    "categories": [
+      "Cine"
+    ],
+    "tags": [
+      "Cine",
+      "Estrenos"
+    ],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cinemacenter+Tucumán",
+    "registration_urls": [
+      "https://www.miboleteria.com.ar"
+    ],
+    "external_urls": [
+      "https://www.cinemacenter.com.ar/cartelera#contenido",
+      "https://www.miboleteria.com.ar"
+    ],
+    "occurrences": [
+      {
+        "date": "2026-11-05",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-11-05T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "cinemacenter_release_titles": [
+      "EL GATO CON SOMBRERO",
+      "GODZILLA MINUS ZERO",
+      "SACRIFICIO: LOS ELEGIDOS",
+      "ENTREGA AL LÍMITE"
+    ],
+    "cinemacenter_release_count": 4
   }
 ]
