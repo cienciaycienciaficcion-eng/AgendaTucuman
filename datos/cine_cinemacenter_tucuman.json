@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-06T16:30:37.957764-03:00",
-  "reference_date": "2026-11-06",
+  "generated_at": "2026-11-07T10:14:10.144738-03:00",
+  "reference_date": "2026-11-07",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "13f78f017a2994061118ab12ec00aa6700b8bb8ec5d5b880bee03067e1752785"
+    "pdf_sha256": "249a8bf4f9a0229d6d703817593a743642ceb596aa49921d01cdb6b5da486f72"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -34,9 +34,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:10"
-          ],
+          "viernes": [],
           "sábado": [
             "20:10"
           ],
@@ -54,12 +52,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "20:10",
-            "datetime": "2026-11-06T20:10:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "20:10",
@@ -96,7 +88,7 @@
           "title": "COYOTE VS ACME - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 110,
           "genres": [
             "Animación Familiar"
@@ -149,9 +141,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "22:50"
-          ],
+          "viernes": [],
           "sábado": [
             "22:50"
           ],
@@ -169,12 +159,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "22:50",
-            "datetime": "2026-11-06T22:50:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "22:50",
@@ -211,7 +195,7 @@
           "title": "MADRE SINIESTRA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 93,
           "genres": [
             "Terror"
@@ -266,9 +250,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "18:10"
-          ],
+          "viernes": [],
           "sábado": [
             "18:10"
           ],
@@ -286,12 +268,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "18:10",
-            "datetime": "2026-11-06T18:10:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "18:10",
@@ -328,7 +304,7 @@
           "title": "ESCUELA DE MONSTRUOS - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 81,
           "genres": [
             "Animación"
@@ -385,9 +361,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "23:00"
-          ],
+          "viernes": [],
           "sábado": [
             "23:00"
           ],
@@ -405,12 +379,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "23:00",
-            "datetime": "2026-11-06T23:00:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "23:00",
@@ -447,7 +415,7 @@
           "title": "CLAYFACE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 108,
           "genres": [
             "Terror Drama"
@@ -570,11 +538,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "17:10",
-            "20:00",
-            "22:20"
-          ],
+          "viernes": [],
           "sábado": [
             "17:10",
             "20:00",
@@ -601,24 +565,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "17:10",
-            "datetime": "2026-11-06T17:10:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "20:00",
-            "datetime": "2026-11-06T20:00:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "22:20",
-            "datetime": "2026-11-06T22:20:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "17:10",
@@ -709,7 +655,7 @@
           "title": "GODZILLA MINUS ZERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 135,
           "genres": [
             "Ciencia Ficción"
@@ -760,10 +706,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "18:30",
-            "21:20"
-          ],
+          "viernes": [],
           "sábado": [
             "18:30",
             "21:20"
@@ -785,18 +728,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "18:30",
-            "datetime": "2026-11-06T18:30:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "21:20",
-            "datetime": "2026-11-06T21:20:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "18:30",
@@ -857,7 +788,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -983,11 +914,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "16:00",
-            "18:20",
-            "19:50"
-          ],
+          "viernes": [],
           "sábado": [
             "18:20",
             "19:50"
@@ -1014,24 +941,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "16:00",
-            "datetime": "2026-11-06T16:00:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "18:20",
-            "datetime": "2026-11-06T18:20:00",
-            "weekday": "viernes"
-          },
-          {
-            "date": "2026-11-06",
-            "time": "19:50",
-            "datetime": "2026-11-06T19:50:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "18:20",
@@ -1122,7 +1031,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -1173,9 +1082,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "17:20"
-          ],
+          "viernes": [],
           "sábado": [
             "17:20"
           ],
@@ -1193,12 +1100,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "17:20",
-            "datetime": "2026-11-06T17:20:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "17:20",
@@ -1235,7 +1136,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -1286,9 +1187,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "20:50"
-          ],
+          "viernes": [],
           "sábado": [
             "20:50"
           ],
@@ -1304,12 +1203,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "20:50",
-            "datetime": "2026-11-06T20:50:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "20:50",
@@ -1340,7 +1233,7 @@
           "title": "ENTREGA AL LÍMITE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 98,
           "genres": [
             "Acción"
@@ -1569,9 +1462,7 @@
         "week_end": "2026-11-11",
         "schedule": {
           "jueves": [],
-          "viernes": [
-            "22:30"
-          ],
+          "viernes": [],
           "sábado": [
             "22:30"
           ],
@@ -1587,12 +1478,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-06",
-            "time": "22:30",
-            "datetime": "2026-11-06T22:30:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-07",
             "time": "22:30",
@@ -1623,7 +1508,7 @@
           "title": "SACRIFICIO: LOS ELEGIDOS - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-06",
+          "release_date": "2026-11-07",
           "duration_minutes": 103,
           "genres": [
             "Acción Aventuras"
