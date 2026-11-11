@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-10T16:49:56.959950-03:00",
+  "generated_at": "2026-11-11T03:38:27.305498-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "COYOTE VS ACME - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 110,
       "genres": [
         "Animación Familiar"
@@ -49,7 +49,7 @@
       "title": "MADRE SINIESTRA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 93,
       "genres": [
         "Terror"
@@ -93,7 +93,7 @@
       "title": "ESCUELA DE MONSTRUOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 81,
       "genres": [
         "Animación"
@@ -139,7 +139,7 @@
       "title": "CLAYFACE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 108,
       "genres": [
         "Terror Drama"
@@ -178,7 +178,7 @@
       "title": "GODZILLA MINUS ZERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 135,
       "genres": [
         "Ciencia Ficción"
@@ -218,7 +218,7 @@
       "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 130,
       "genres": [
         "Animación Aventuras"
@@ -259,7 +259,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -299,7 +299,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -339,7 +339,7 @@
       "title": "ENTREGA AL LÍMITE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 98,
       "genres": [
         "Acción"
@@ -387,7 +387,7 @@
       "title": "SACRIFICIO: LOS ELEGIDOS - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-10",
+      "release_date": "2026-11-11",
       "duration_minutes": 103,
       "genres": [
         "Acción Aventuras"
