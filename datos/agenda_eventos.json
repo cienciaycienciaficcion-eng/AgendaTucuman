@@ -457,5 +457,59 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "dce11c4efd7bab4099befa22014e9b93cc0cd4d3b1d9991e89eae69f1beeef6a"
+  },
+  {
+    "id": "cine-estrenos-semana-2026-11-12",
+    "source": "CINEMACENTER",
+    "title": "Estrenos de la semana",
+    "url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+    "date_start": "2026-11-12",
+    "date_end": "2026-11-18",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-11-12T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "<p><strong>Nuevas películas que llegan a la cartelera de Cinemacenter Tucumán esta semana:</strong></p>\n<ul>\n<li>COMO ROBAR UN BANCO — estreno 12 de noviembre de 2026</li>\n<li>EBENEZER: LOS FANTASMAS DE NAVIDAD — estreno 12 de noviembre de 2026</li>\n<li>PLUMAS OPERACION RESCATE — estreno 12 de noviembre de 2026</li>\n<li>ANIQUILACIÓN — estreno 13 de noviembre de 2026</li>\n<li>LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA — estreno 18 de noviembre de 2026</li>\n</ul>\n<p><a href=\"https://www.cinemacenter.com.ar/cartelera#contenido\">Ver cartelera y horarios</a></p>",
+    "summary": "",
+    "image": "https://www.cinemacenter.com.ar/img_movies/3572_img2.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Cinemacenter Tucumán",
+    "address": "Av. Néstor Kirchner (Ex Roca) 3450",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Cinemacenter",
+    "categories": [
+      "Cine"
+    ],
+    "tags": [
+      "Cine",
+      "Estrenos"
+    ],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cinemacenter+Tucumán",
+    "registration_urls": [
+      "https://www.miboleteria.com.ar"
+    ],
+    "external_urls": [
+      "https://www.cinemacenter.com.ar/cartelera#contenido",
+      "https://www.miboleteria.com.ar"
+    ],
+    "occurrences": [
+      {
+        "date": "2026-11-12",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-11-12T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "cinemacenter_release_titles": [
+      "COMO ROBAR UN BANCO",
+      "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+      "PLUMAS OPERACION RESCATE",
+      "ANIQUILACIÓN",
+      "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA"
+    ],
+    "cinemacenter_release_count": 5
   }
 ]

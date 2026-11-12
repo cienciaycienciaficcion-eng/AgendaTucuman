@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-11T03:38:27.305635-03:00",
-  "reference_date": "2026-11-11",
+  "generated_at": "2026-11-12T17:02:18.051637-03:00",
+  "reference_date": "2026-11-12",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "2a9d7c4f5be4f7ad37ea0128ef94055733491eee3319255cfe921575393e9ab8"
+    "pdf_sha256": "8945913b09102628bca673b67f1069109a0a1ce5cd40f44cce8af468132896e0"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -17,312 +17,9 @@
     "country": "Argentina"
   },
   "cartelera": {
-    "week_start": "2026-11-05",
-    "week_end": "2026-11-11",
+    "week_start": "2026-11-12",
+    "week_end": "2026-11-18",
     "movies": [
-      {
-        "id": "cinemacenter-tucuman-coyote-vs-acme-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "COYOTE VS ACME",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "20:10"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-11",
-            "time": "20:10",
-            "datetime": "2026-11-11T20:10:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5736,
-        "metadata": {
-          "title": "COYOTE VS ACME - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-11",
-          "duration_minutes": 110,
-          "genres": [
-            "Animación Familiar"
-          ],
-          "director": [
-            "Dave Green"
-          ],
-          "cast": [
-            "John Cena",
-            "Will Forte",
-            "Lana Condor",
-            "Tone Bell"
-          ],
-          "synopsis": "Después de que todos los productos fabricados por ACME Corporation le salgan mal a Wile E. Coyote, en su persecución del Correcaminos, contrata a un abogado humano igualmente desafortunado para demandar a la empresa. Cuando el abogado de Wile E. descubre que el intimidante jefe de su antiguo bufete es el director general de ACME, se une a Wile E. para ganar el juicio contra él.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3548_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Estados Unidos",
-          "distributor": "BF",
-          "trailer": "https://www.youtube.com/embed/r4HNeBH7Q4A",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5736-COYOTE-VS-ACME---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 27 de Agosto de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5736,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-madre-siniestra-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "MADRE SINIESTRA",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "22:50"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-11",
-            "time": "22:50",
-            "datetime": "2026-11-11T22:50:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5825,
-        "metadata": {
-          "title": "MADRE SINIESTRA - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-11",
-          "duration_minutes": 93,
-          "genres": [
-            "Terror"
-          ],
-          "director": [
-            "Rob Savage"
-          ],
-          "cast": [
-            "Jessica Chastain",
-            "Jay Duplass",
-            "Arabella Olivia Clark",
-            "Dichen Lachman",
-            "con Arian Moayed",
-            "Karen Allen"
-          ],
-          "synopsis": "Bela, una niña de 8 años que vive en un hogar con problemas matrimoniales, enfrenta a una entidad siniestra que sale de su clóset. La presencia, a quien llama Otra Mamá, se vuelve cada vez más amenazante para ella y su familia.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3602_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/gUrcl1APfVY",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5825-MADRE-SINIESTRA---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 8 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5825,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-escuela-de-monstruos-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "ESCUELA DE MONSTRUOS",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "18:10"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-11",
-            "time": "18:10",
-            "datetime": "2026-11-11T18:10:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5854,
-        "metadata": {
-          "title": "ESCUELA DE MONSTRUOS - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-11",
-          "duration_minutes": 81,
-          "genres": [
-            "Animación"
-          ],
-          "director": [
-            "Verena Fels"
-          ],
-          "cast": [
-            "Lilian Jane Gartner",
-            "Verena Altenberger",
-            "Silvia Schneider",
-            "Susi Stach",
-            "Michael Ostrowski",
-            "Philipp Hansa",
-            "Armin Assinger",
-            "Alix Martin"
-          ],
-          "synopsis": "Tras ser expulsada del colegio, Mía y su mascota Quentin llegan a la Escuela Bosque Muerto, donde ella es la única humana entre sus compañeros monstruosos. Debido al odio del director Van Vlad hacia los humanos, Mia deberá aliarse con los monstruos para desbaratar sus planes.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3657_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Alemania",
-          "distributor": "Cinetopia",
-          "trailer": "https://www.youtube.com/embed/2iaKr78081o",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5854-ESCUELA-DE-MONSTRUOS---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 15 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5854,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-clayface-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "CLAYFACE",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "23:00"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-11",
-            "time": "23:00",
-            "datetime": "2026-11-11T23:00:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 5861,
-        "metadata": {
-          "title": "CLAYFACE - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-11",
-          "duration_minutes": 108,
-          "genres": [
-            "Terror Drama"
-          ],
-          "director": [
-            "James Watkins"
-          ],
-          "cast": [
-            "Eddie Marsan Max Minghella Naomi Ackie"
-          ],
-          "synopsis": "Una criatura cambiante hecha de arcilla mágica acecha Ciudad Gótica, alternando entre villano y aliado de Batman. Varias figuras trágicas han asumido el manto de Cara de Barro a lo largo de los años.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3550_img2.jpg",
-          "classification": "R17 - Restringida para menores de 17 años",
-          "nationality": "Reino Unido",
-          "distributor": "Warner Bros.",
-          "trailer": "https://www.youtube.com/embed/MnaFt0OrDTM",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/5861-CLAYFACE---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 22 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 5861,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
       {
         "id": "cinemacenter-tucuman-godzilla-minus-zero-2d-cast",
         "source": "cinemacenter",
@@ -333,38 +30,72 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "20:10"
+          ],
+          "viernes": [
+            "20:10"
+          ],
+          "sábado": [
+            "20:10"
+          ],
+          "domingo": [
+            "20:10"
+          ],
+          "lunes": [
+            "20:10"
+          ],
+          "martes": [
+            "20:10"
+          ],
           "miércoles": [
-            "17:10",
-            "20:00",
-            "22:20"
+            "20:10"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-11",
-            "time": "17:10",
-            "datetime": "2026-11-11T17:10:00",
-            "weekday": "miércoles"
+            "date": "2026-11-12",
+            "time": "20:10",
+            "datetime": "2026-11-12T20:10:00",
+            "weekday": "jueves"
           },
           {
-            "date": "2026-11-11",
-            "time": "20:00",
-            "datetime": "2026-11-11T20:00:00",
-            "weekday": "miércoles"
+            "date": "2026-11-13",
+            "time": "20:10",
+            "datetime": "2026-11-13T20:10:00",
+            "weekday": "viernes"
           },
           {
-            "date": "2026-11-11",
-            "time": "22:20",
-            "datetime": "2026-11-11T22:20:00",
+            "date": "2026-11-14",
+            "time": "20:10",
+            "datetime": "2026-11-14T20:10:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "20:10",
+            "datetime": "2026-11-15T20:10:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "20:10",
+            "datetime": "2026-11-16T20:10:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "20:10",
+            "datetime": "2026-11-17T20:10:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "20:10",
+            "datetime": "2026-11-18T20:10:00",
             "weekday": "miércoles"
           }
         ],
@@ -373,7 +104,7 @@
           "title": "GODZILLA MINUS ZERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-11",
+          "release_date": "2026-11-12",
           "duration_minutes": 135,
           "genres": [
             "Ciencia Ficción"
@@ -420,31 +151,72 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "21:10"
+          ],
+          "viernes": [
+            "21:10"
+          ],
+          "sábado": [
+            "21:10"
+          ],
+          "domingo": [
+            "21:10"
+          ],
+          "lunes": [
+            "21:10"
+          ],
+          "martes": [
+            "21:10"
+          ],
           "miércoles": [
-            "18:30",
-            "21:20"
+            "22:10"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-11",
-            "time": "18:30",
-            "datetime": "2026-11-11T18:30:00",
-            "weekday": "miércoles"
+            "date": "2026-11-12",
+            "time": "21:10",
+            "datetime": "2026-11-12T21:10:00",
+            "weekday": "jueves"
           },
           {
-            "date": "2026-11-11",
-            "time": "21:20",
-            "datetime": "2026-11-11T21:20:00",
+            "date": "2026-11-13",
+            "time": "21:10",
+            "datetime": "2026-11-13T21:10:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "21:10",
+            "datetime": "2026-11-14T21:10:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "21:10",
+            "datetime": "2026-11-15T21:10:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "21:10",
+            "datetime": "2026-11-16T21:10:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "21:10",
+            "datetime": "2026-11-17T21:10:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "22:10",
+            "datetime": "2026-11-18T22:10:00",
             "weekday": "miércoles"
           }
         ],
@@ -453,7 +225,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-11",
+          "release_date": "2026-11-12",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -501,38 +273,135 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "15:00",
+            "18:40",
+            "19:50"
+          ],
+          "viernes": [
+            "12:00",
+            "18:40",
+            "19:50"
+          ],
+          "sábado": [
+            "18:40",
+            "19:50"
+          ],
+          "domingo": [
+            "18:40",
+            "19:50"
+          ],
+          "lunes": [
+            "18:40",
+            "19:50"
+          ],
+          "martes": [
+            "18:40",
+            "19:50"
+          ],
           "miércoles": [
-            "16:00",
-            "18:20",
+            "16:30",
             "19:50"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-11",
-            "time": "16:00",
-            "datetime": "2026-11-11T16:00:00",
-            "weekday": "miércoles"
+            "date": "2026-11-12",
+            "time": "15:00",
+            "datetime": "2026-11-12T15:00:00",
+            "weekday": "jueves"
           },
           {
-            "date": "2026-11-11",
-            "time": "18:20",
-            "datetime": "2026-11-11T18:20:00",
-            "weekday": "miércoles"
+            "date": "2026-11-12",
+            "time": "18:40",
+            "datetime": "2026-11-12T18:40:00",
+            "weekday": "jueves"
           },
           {
-            "date": "2026-11-11",
+            "date": "2026-11-12",
             "time": "19:50",
-            "datetime": "2026-11-11T19:50:00",
+            "datetime": "2026-11-12T19:50:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "12:00",
+            "datetime": "2026-11-13T12:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "18:40",
+            "datetime": "2026-11-13T18:40:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "19:50",
+            "datetime": "2026-11-13T19:50:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "18:40",
+            "datetime": "2026-11-14T18:40:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "19:50",
+            "datetime": "2026-11-14T19:50:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "18:40",
+            "datetime": "2026-11-15T18:40:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "19:50",
+            "datetime": "2026-11-15T19:50:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "18:40",
+            "datetime": "2026-11-16T18:40:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "19:50",
+            "datetime": "2026-11-16T19:50:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "18:40",
+            "datetime": "2026-11-17T18:40:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "19:50",
+            "datetime": "2026-11-17T19:50:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "16:30",
+            "datetime": "2026-11-18T16:30:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "19:50",
+            "datetime": "2026-11-18T19:50:00",
             "weekday": "miércoles"
           }
         ],
@@ -541,7 +410,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-11",
+          "release_date": "2026-11-12",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -588,24 +457,72 @@
         "status": "cartelera_vigente",
         "format": "3D",
         "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "17:20"
+          ],
+          "viernes": [
+            "17:20"
+          ],
+          "sábado": [
+            "17:20"
+          ],
+          "domingo": [
+            "17:20"
+          ],
+          "lunes": [
+            "17:20"
+          ],
+          "martes": [
+            "17:20"
+          ],
           "miércoles": [
             "17:20"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-11",
+            "date": "2026-11-12",
             "time": "17:20",
-            "datetime": "2026-11-11T17:20:00",
+            "datetime": "2026-11-12T17:20:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "17:20",
+            "datetime": "2026-11-13T17:20:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "17:20",
+            "datetime": "2026-11-14T17:20:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "17:20",
+            "datetime": "2026-11-15T17:20:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "17:20",
+            "datetime": "2026-11-16T17:20:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "17:20",
+            "datetime": "2026-11-17T17:20:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "17:20",
+            "datetime": "2026-11-18T17:20:00",
             "weekday": "miércoles"
           }
         ],
@@ -614,7 +531,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-11",
+          "release_date": "2026-11-12",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -652,17 +569,17 @@
         }
       },
       {
-        "id": "cinemacenter-tucuman-entrega-al-limite-2d-cast",
+        "id": "cinemacenter-tucuman-los-juegos-del-hambre-amanecer-en-la-cosecha-2d-cast",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
         "cinema": "Cinemacenter Tucumán",
         "city": "San Miguel de Tucumán",
-        "title": "ENTREGA AL LÍMITE",
+        "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA",
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
         "schedule": {
           "jueves": [],
           "viernes": [],
@@ -671,49 +588,55 @@
           "lunes": [],
           "martes": [],
           "miércoles": [
-            "20:50"
+            "19:00",
+            "22:10"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-11",
-            "time": "20:50",
-            "datetime": "2026-11-11T20:50:00",
+            "date": "2026-11-18",
+            "time": "19:00",
+            "datetime": "2026-11-18T19:00:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "22:10",
+            "datetime": "2026-11-18T22:10:00",
             "weekday": "miércoles"
           }
         ],
-        "cinemacenter_movie_id": 6080,
+        "cinemacenter_movie_id": 6090,
         "metadata": {
-          "title": "ENTREGA AL LÍMITE - 2D CAST",
+          "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-11",
-          "duration_minutes": 98,
+          "release_date": "2026-11-18",
+          "duration_minutes": 158,
           "genres": [
-            "Acción"
+            "Acción Ciencia Ficción"
           ],
           "director": [
-            "Scott Waugh"
+            "Francis Lawrence"
           ],
           "cast": [
-            "Alan Ritchson",
-            "Owen Wilson",
-            "Rodrigo Santoro",
-            "Leila George",
-            "Adriana Barraza",
-            "Peta Sergeant",
-            "Scarlett Crabtree",
-            "Geraldine Hakewill",
-            "Goran D. Kleut",
-            "Adam Fraser"
+            "Joseph Zada como Haymitch Abernathy",
+            "Kieran Culkin como Caesar Flickerman (versión joven del icónico presentador)",
+            "Elle Fanning como Effie Trinket joven",
+            "Ralph Fiennes como Presidente Coriolanus Snow",
+            "Jesse Plemons como Plutarch Heavensbee",
+            "Maya Hawke como Wiress",
+            "Ben Wang como Wyatt Callow",
+            "Glenn Close como Drusilla Sickle",
+            "Mckenna Grace como Maysilee Donner."
           ],
-          "synopsis": "Un ex soldado se ve inmerso en una brutal carrera contrarreloj cuando una entrega médica crítica le convierte en objetivo de un despiadado cártel. Con la traición acechándole por todos lados, debe sobrevivir a la persecución y entregar su carga antes de que a un niño inocente se le acabe el tiempo.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3655_img2.jpg",
+          "synopsis": "Mucho antes de que Katniss Everdeen se ofreciera como tributo, existió otro sobreviviente. La historia nos lleva 24 años antes de los eventos de la saga original, al amanecer del día de la cosecha de los 50° Juegos del Hambre, conocidos como el Second Quarter Quell. En esta edición especial, el Capitolio impone una regla brutal: cada distrito deberá enviar el doble de tributos, convirtiendo la arena en el espectáculo más cruel jamás visto. Entre los elegidos está Haymitch Abernathy, un joven del Distrito 12 que deberá usar su inteligencia y astucia para sobrevivir en un juego diseñado para destruirlos a todos. Pero incluso si logra ganar descubrirá que en los Juegos del Hambre la victoria también tiene un precio.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3408_img2.jpg",
           "classification": "R13 - Restringida para menores de 13 años",
           "nationality": "Estados Unidos",
-          "distributor": "Diamond Films",
-          "trailer": "https://www.youtube.com/embed/YJTR-wQ9MvM",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6080-ENTREGA-AL-L-MITE---2D-CAST",
+          "distributor": "BF + Paris Films",
+          "trailer": "https://www.youtube.com/embed/bHBmT6yWWvc",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6090-LOS-JUEGOS-DEL-HAMBRE-AMANECER-EN-LA-COSECHA---2D-CAST",
           "source": "Cinemacenter",
           "trailer_source": "iframe",
           "metadata_missing": [],
@@ -721,11 +644,11 @@
             "original_title"
           ],
           "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 5 de Noviembre de 2026",
+            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
             "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
           ],
           "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6080,
+          "cinemacenter_movie_id": 6090,
           "cinemacenter_cinema_id": null,
           "cinemacenter_city_id": 13,
           "cinemacenter_ficha_source": "direct_ficha_link",
@@ -733,68 +656,190 @@
         }
       },
       {
-        "id": "cinemacenter-tucuman-sacrificio-los-elegidos-2d-cast",
+        "id": "cinemacenter-tucuman-como-robar-un-banco-2d-cast",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
         "cinema": "Cinemacenter Tucumán",
         "city": "San Miguel de Tucumán",
-        "title": "SACRIFICIO: LOS ELEGIDOS",
+        "title": "COMO ROBAR UN BANCO",
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-05",
-        "week_end": "2026-11-11",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "17:00",
+            "20:00"
+          ],
+          "viernes": [
+            "17:00",
+            "20:00",
+            "22:40"
+          ],
+          "sábado": [
+            "17:00",
+            "20:00",
+            "22:40"
+          ],
+          "domingo": [
+            "17:00",
+            "20:00"
+          ],
+          "lunes": [
+            "17:00",
+            "20:00",
+            "22:40"
+          ],
+          "martes": [
+            "17:00",
+            "20:00",
+            "22:40"
+          ],
           "miércoles": [
-            "22:30"
+            "17:00",
+            "19:30"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-11",
-            "time": "22:30",
-            "datetime": "2026-11-11T22:30:00",
+            "date": "2026-11-12",
+            "time": "17:00",
+            "datetime": "2026-11-12T17:00:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-12",
+            "time": "20:00",
+            "datetime": "2026-11-12T20:00:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "17:00",
+            "datetime": "2026-11-13T17:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "20:00",
+            "datetime": "2026-11-13T20:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "22:40",
+            "datetime": "2026-11-13T22:40:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "17:00",
+            "datetime": "2026-11-14T17:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "20:00",
+            "datetime": "2026-11-14T20:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "22:40",
+            "datetime": "2026-11-14T22:40:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "17:00",
+            "datetime": "2026-11-15T17:00:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "20:00",
+            "datetime": "2026-11-15T20:00:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "17:00",
+            "datetime": "2026-11-16T17:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "20:00",
+            "datetime": "2026-11-16T20:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "22:40",
+            "datetime": "2026-11-16T22:40:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "17:00",
+            "datetime": "2026-11-17T17:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "20:00",
+            "datetime": "2026-11-17T20:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "22:40",
+            "datetime": "2026-11-17T22:40:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "17:00",
+            "datetime": "2026-11-18T17:00:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "19:30",
+            "datetime": "2026-11-18T19:30:00",
             "weekday": "miércoles"
           }
         ],
-        "cinemacenter_movie_id": 6084,
+        "cinemacenter_movie_id": 6104,
         "metadata": {
-          "title": "SACRIFICIO: LOS ELEGIDOS - 2D CAST",
+          "title": "COMO ROBAR UN BANCO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-11",
-          "duration_minutes": 103,
+          "release_date": "2026-11-12",
+          "duration_minutes": 122,
           "genres": [
-            "Acción Aventuras"
+            "Acción Thriller"
           ],
           "director": [
-            "Romain Gavras"
+            "David Leitch"
           ],
           "cast": [
-            "Chris Evans",
-            "Anya Taylor-Joy",
-            "Vincent Cassel",
-            "Salma Hayek Pinault",
-            "John Malkovich",
-            "Charli xcx",
-            "Yung Lean",
-            "Sam Richardson",
-            "Jade Croot",
-            "Ambika Mod"
+            "Nicholas Hoult",
+            "Zoë Kravitz",
+            "Anna Sawai",
+            "Rhenzy Feliz",
+            "Christian Slater as Walton",
+            "with Pete Davidson",
+            "John C. Reilly."
           ],
-          "synopsis": "Una exclusiva gala benéfica se convierte en una pesadilla cuando un grupo radical irrumpe en el evento en busca de un misterioso artefacto ligado a una antigua profecía. Entre los rehenes se encuentra Mike Tyler, una estrella de cine en horas bajas que ve en esta inesperada situación una oportunidad para recuperar el protagonismo que perdió. Pero mientras el caos se apodera de la noche, Mike descubrirá que hay mucho más en juego que su propia redención.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3671_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
+          "synopsis": "Una banda de ladrones expertos en redes sociales transmite en vivo sus audaces robos bancarios, sin darse cuenta de que la fama viral que están ganando los ha puesto en la mira de un veterano agente del FBI y una brillante ingeniera de software. A pesar de que este dúo fuera de lo común los sigue cada vez más de cerca, la organización criminal lleva sus límites al extremo, arriesgándolo todo por sus ideales y por el golpe más ambicioso de sus vidas hasta ahora.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3572_img2.jpg",
+          "classification": "R17 - Restringida para menores de 17 años",
           "nationality": "Estados Unidos",
-          "distributor": "Impacto",
-          "trailer": "https://www.youtube.com/embed/iO1F1H624hI",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6084-SACRIFICIO-LOS-ELEGIDOS---2D-CAST",
+          "distributor": "UIP",
+          "trailer": "https://www.youtube.com/embed/eUikTiezPlw",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6104-COMO-ROBAR-UN-BANCO---2D-CAST",
           "source": "Cinemacenter",
           "trailer_source": "iframe",
           "metadata_missing": [],
@@ -802,11 +847,774 @@
             "original_title"
           ],
           "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 5 de Noviembre de 2026",
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
             "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
           ],
           "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6084,
+          "cinemacenter_movie_id": 6104,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-aniquilacion-2d-cast",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "ANIQUILACIÓN",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "CAST",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
+        "schedule": {
+          "jueves": [],
+          "viernes": [
+            "22:20",
+            "23:00"
+          ],
+          "sábado": [
+            "22:20",
+            "23:00"
+          ],
+          "domingo": [],
+          "lunes": [
+            "22:20",
+            "23:00"
+          ],
+          "martes": [
+            "22:20",
+            "23:00"
+          ],
+          "miércoles": [
+            "22:20",
+            "23:00"
+          ]
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-13",
+            "time": "22:20",
+            "datetime": "2026-11-13T22:20:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "23:00",
+            "datetime": "2026-11-13T23:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "22:20",
+            "datetime": "2026-11-14T22:20:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "23:00",
+            "datetime": "2026-11-14T23:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "22:20",
+            "datetime": "2026-11-16T22:20:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "23:00",
+            "datetime": "2026-11-16T23:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "22:20",
+            "datetime": "2026-11-17T22:20:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "23:00",
+            "datetime": "2026-11-17T23:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "22:20",
+            "datetime": "2026-11-18T22:20:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "23:00",
+            "datetime": "2026-11-18T23:00:00",
+            "weekday": "miércoles"
+          }
+        ],
+        "cinemacenter_movie_id": 6105,
+        "metadata": {
+          "title": "ANIQUILACIÓN - 2D CAST",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-13",
+          "duration_minutes": 32,
+          "genres": [
+            "Acción Thriller"
+          ],
+          "director": [
+            "Adam Wingard"
+          ],
+          "cast": [
+            "Adria Arjona",
+            "Alex Pereira",
+            "Dan Stevens",
+            "Eric Wareheim",
+            "Reginald VelJohnson",
+            "Michael Biehn",
+            "Drew Starkey",
+            "Rebecca Hall",
+            "Maurice Greene",
+            "Sarah Minnich"
+          ],
+          "synopsis": "Cuando un escuadrón rebelde de supersoldados modificados genéticamente se desata en el desierto, una francotiradora del ejército de armas tomar debe desatar el infierno para proteger a su hija pequeña.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3679_img2.jpg",
+          "classification": "R17 - Restringida para menores de 17 años",
+          "nationality": "Estados Unidos",
+          "distributor": "Diamond Films",
+          "trailer": "https://www.youtube.com/embed/dRQrD6khw8c",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6105-ANIQUILACI-N---2D-CAST",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6105,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-como-robar-un-banco-2d-sub",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "COMO ROBAR UN BANCO",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "SUB",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
+        "schedule": {
+          "jueves": [
+            "22:40"
+          ],
+          "viernes": [],
+          "sábado": [],
+          "domingo": [
+            "22:40"
+          ],
+          "lunes": [],
+          "martes": [],
+          "miércoles": []
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-12",
+            "time": "22:40",
+            "datetime": "2026-11-12T22:40:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "22:40",
+            "datetime": "2026-11-15T22:40:00",
+            "weekday": "domingo"
+          }
+        ],
+        "cinemacenter_movie_id": 6107,
+        "metadata": {
+          "title": "COMO ROBAR UN BANCO - 2D SUB",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-12",
+          "duration_minutes": 122,
+          "genres": [
+            "Acción Thriller"
+          ],
+          "director": [
+            "David Leitch"
+          ],
+          "cast": [
+            "Nicholas Hoult",
+            "Zoë Kravitz",
+            "Anna Sawai",
+            "Rhenzy Feliz",
+            "Christian Slater as Walton",
+            "with Pete Davidson",
+            "John C. Reilly."
+          ],
+          "synopsis": "Una banda de ladrones expertos en redes sociales transmite en vivo sus audaces robos bancarios, sin darse cuenta de que la fama viral que están ganando los ha puesto en la mira de un veterano agente del FBI y una brillante ingeniera de software. A pesar de que este dúo fuera de lo común los sigue cada vez más de cerca, la organización criminal lleva sus límites al extremo, arriesgándolo todo por sus ideales y por el golpe más ambicioso de sus vidas hasta ahora.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3572_img2.jpg",
+          "classification": "R17 - Restringida para menores de 17 años",
+          "nationality": "Estados Unidos",
+          "distributor": "UIP",
+          "trailer": "https://www.youtube.com/embed/eUikTiezPlw",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6107-COMO-ROBAR-UN-BANCO---2D-SUB",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6107,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-ebenezer-los-fantasmas-de-navidad-2d-cast",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "CAST",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
+        "schedule": {
+          "jueves": [
+            "17:10",
+            "19:40"
+          ],
+          "viernes": [
+            "17:10",
+            "19:40",
+            "22:30"
+          ],
+          "sábado": [
+            "17:10",
+            "19:40",
+            "22:30"
+          ],
+          "domingo": [
+            "17:10",
+            "19:40"
+          ],
+          "lunes": [
+            "17:10",
+            "19:40",
+            "22:30"
+          ],
+          "martes": [
+            "17:10",
+            "19:40",
+            "22:30"
+          ],
+          "miércoles": [
+            "17:10",
+            "19:40",
+            "22:30"
+          ]
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-12",
+            "time": "17:10",
+            "datetime": "2026-11-12T17:10:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-12",
+            "time": "19:40",
+            "datetime": "2026-11-12T19:40:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "17:10",
+            "datetime": "2026-11-13T17:10:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "19:40",
+            "datetime": "2026-11-13T19:40:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "22:30",
+            "datetime": "2026-11-13T22:30:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "17:10",
+            "datetime": "2026-11-14T17:10:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "19:40",
+            "datetime": "2026-11-14T19:40:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "22:30",
+            "datetime": "2026-11-14T22:30:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "17:10",
+            "datetime": "2026-11-15T17:10:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "19:40",
+            "datetime": "2026-11-15T19:40:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "17:10",
+            "datetime": "2026-11-16T17:10:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "19:40",
+            "datetime": "2026-11-16T19:40:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "22:30",
+            "datetime": "2026-11-16T22:30:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "17:10",
+            "datetime": "2026-11-17T17:10:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "19:40",
+            "datetime": "2026-11-17T19:40:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "22:30",
+            "datetime": "2026-11-17T22:30:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "17:10",
+            "datetime": "2026-11-18T17:10:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "19:40",
+            "datetime": "2026-11-18T19:40:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "22:30",
+            "datetime": "2026-11-18T22:30:00",
+            "weekday": "miércoles"
+          }
+        ],
+        "cinemacenter_movie_id": 6108,
+        "metadata": {
+          "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-12",
+          "duration_minutes": 115,
+          "genres": [
+            "Fantasía"
+          ],
+          "director": [
+            "Ti West"
+          ],
+          "cast": [
+            "Johnny Depp",
+            "Andrea Riseborough",
+            "Ian McKellen",
+            "Tramell Tillman",
+            "Daisy Ridley",
+            "Rupert Grint",
+            "Sam Claflin",
+            "Charlie Murphy",
+            "Arthur Conti",
+            "Ellie Bamber."
+          ],
+          "synopsis": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3605_img2.jpg",
+          "classification": "SP - Supervisión Parental sugerida",
+          "nationality": "Estados Unidos",
+          "distributor": "UIP",
+          "trailer": "https://www.youtube.com/embed/TKz2QyzSnFY",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6108-EBENEZER-LOS-FANTASMAS-DE-NAVIDAD---2D-CAST",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6108,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-ebenezer-los-fantasmas-de-navidad-2d-sub",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "SUB",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
+        "schedule": {
+          "jueves": [
+            "22:30",
+            "23:00"
+          ],
+          "viernes": [],
+          "sábado": [],
+          "domingo": [
+            "22:30",
+            "23:00"
+          ],
+          "lunes": [],
+          "martes": [],
+          "miércoles": []
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-12",
+            "time": "22:30",
+            "datetime": "2026-11-12T22:30:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-12",
+            "time": "23:00",
+            "datetime": "2026-11-12T23:00:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "22:30",
+            "datetime": "2026-11-15T22:30:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "23:00",
+            "datetime": "2026-11-15T23:00:00",
+            "weekday": "domingo"
+          }
+        ],
+        "cinemacenter_movie_id": 6109,
+        "metadata": {
+          "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D SUB",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-12",
+          "duration_minutes": 115,
+          "genres": [
+            "Fantasía"
+          ],
+          "director": [
+            "Ti West"
+          ],
+          "cast": [
+            "Johnny Depp",
+            "Andrea Riseborough",
+            "Ian McKellen",
+            "Tramell Tillman",
+            "Daisy Ridley",
+            "Rupert Grint",
+            "Sam Claflin",
+            "Charlie Murphy",
+            "Arthur Conti",
+            "Ellie Bamber."
+          ],
+          "synopsis": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3605_img2.jpg",
+          "classification": "SP - Supervisión Parental sugerida",
+          "nationality": "Estados Unidos",
+          "distributor": "UIP",
+          "trailer": "https://www.youtube.com/embed/TKz2QyzSnFY",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6109-EBENEZER-LOS-FANTASMAS-DE-NAVIDAD---2D-SUB",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6109,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-plumas-operacion-rescate-2d-cast",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "PLUMAS OPERACION RESCATE",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "CAST",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
+        "schedule": {
+          "jueves": [
+            "18:10"
+          ],
+          "viernes": [
+            "18:10"
+          ],
+          "sábado": [
+            "18:10"
+          ],
+          "domingo": [
+            "18:10"
+          ],
+          "lunes": [
+            "18:10"
+          ],
+          "martes": [
+            "18:10"
+          ],
+          "miércoles": [
+            "18:10"
+          ]
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-12",
+            "time": "18:10",
+            "datetime": "2026-11-12T18:10:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-13",
+            "time": "18:10",
+            "datetime": "2026-11-13T18:10:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-14",
+            "time": "18:10",
+            "datetime": "2026-11-14T18:10:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "18:10",
+            "datetime": "2026-11-15T18:10:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-16",
+            "time": "18:10",
+            "datetime": "2026-11-16T18:10:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-17",
+            "time": "18:10",
+            "datetime": "2026-11-17T18:10:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-11-18",
+            "time": "18:10",
+            "datetime": "2026-11-18T18:10:00",
+            "weekday": "miércoles"
+          }
+        ],
+        "cinemacenter_movie_id": 6111,
+        "metadata": {
+          "title": "PLUMAS OPERACION RESCATE - 2D CAST",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-12",
+          "duration_minutes": 85,
+          "genres": [
+            "Animación"
+          ],
+          "director": [
+            "Dong Long",
+            "Nigel W. Tierney"
+          ],
+          "cast": [
+            "Liu Xingzuo",
+            "Xingliner",
+            "Chen Hao",
+            "Park Shi-yoon"
+          ],
+          "synopsis": "Un joven águila criado por gallinas abandona el hogar para descubrir su verdadera identidad. Al encontrar su familia de águilas y propósito con la Fuerza Emplumada, ignora una siniestra trama que se gesta en la ciudad cercana.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3687_img2.jpg",
+          "classification": "G - Audiencia General",
+          "nationality": "Tailandia",
+          "distributor": "Zennit",
+          "trailer": null,
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6111-PLUMAS-OPERACION-RESCATE---2D-CAST",
+          "source": "Cinemacenter",
+          "trailer_source": null,
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6111,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-aniquilacion-2d-sub",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "ANIQUILACIÓN",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "SUB",
+        "week_start": "2026-11-12",
+        "week_end": "2026-11-18",
+        "schedule": {
+          "jueves": [
+            "22:20"
+          ],
+          "viernes": [],
+          "sábado": [],
+          "domingo": [
+            "22:20"
+          ],
+          "lunes": [],
+          "martes": [],
+          "miércoles": []
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-12",
+            "time": "22:20",
+            "datetime": "2026-11-12T22:20:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-15",
+            "time": "22:20",
+            "datetime": "2026-11-15T22:20:00",
+            "weekday": "domingo"
+          }
+        ],
+        "cinemacenter_movie_id": 6112,
+        "metadata": {
+          "title": "ANIQUILACIÓN - 2D SUB",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-12",
+          "duration_minutes": 32,
+          "genres": [
+            "Acción Thriller"
+          ],
+          "director": [
+            "Adam Wingard"
+          ],
+          "cast": [
+            "Adria Arjona",
+            "Alex Pereira",
+            "Dan Stevens",
+            "Eric Wareheim",
+            "Reginald VelJohnson",
+            "Michael Biehn",
+            "Drew Starkey",
+            "Rebecca Hall",
+            "Maurice Greene",
+            "Sarah Minnich"
+          ],
+          "synopsis": "Cuando un escuadrón rebelde de supersoldados modificados genéticamente se desata en el desierto, una francotiradora del ejército de armas tomar debe desatar el infierno para proteger a su hija pequeña.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3679_img2.jpg",
+          "classification": "R17 - Restringida para menores de 17 años",
+          "nationality": "Estados Unidos",
+          "distributor": "Diamond Films",
+          "trailer": "https://www.youtube.com/embed/dRQrD6khw8c",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6112-ANIQUILACI-N---2D-SUB",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6112,
           "cinemacenter_cinema_id": null,
           "cinemacenter_city_id": 13,
           "cinemacenter_ficha_source": "direct_ficha_link",
@@ -859,9 +1667,9 @@
   ],
   "mi_boleteria_url": "https://www.miboleteria.com.ar",
   "summary": {
-    "cartelera_total": 10,
-    "metadata_con_movie_id": 10,
-    "metadata_ok": 10,
+    "cartelera_total": 12,
+    "metadata_con_movie_id": 12,
+    "metadata_ok": 12,
     "metadata_failures": 0,
     "metadata_source": "Cinemacenter-only",
     "failures": []
