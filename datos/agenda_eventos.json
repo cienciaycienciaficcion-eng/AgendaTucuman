@@ -153,6 +153,770 @@
     "summary_source_hash": "776743c6fffd635cb70a46940aaab4ef248bb9468b39ec3a141a9e9237f2548a"
   },
   {
+    "id": "47413",
+    "source": "MEC",
+    "title": "13 de Noviembre | Festival Tocando al Frente: edición Primavera ’26 con Ahyre, Los Puesteros y más en Las Cañas",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-festival-tocando-al-frente-edicion-primavera-26-con-ahyre-los-puesteros-y-mas-en-las-canas/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "18:00",
+    "time_end": "02:00",
+    "start_datetime": "2026-11-13T18:00:00-03:00",
+    "end_datetime": "2026-11-13T02:00:00-03:00",
+    "description": "El folclore se adueña de Yerba Buena. El festival Tocando al Frente llega con su edición Primavera ’26 este viernes 13 de noviembre en Las Cañas , con una cartelera repleta de referentes de la música popular argentina. Una grilla de lujo Subirán al escenario Ahyre, Los Puesteros, Tawa, Josué y Pucho, Sangre Mansera, Magalí Gómez, Herederos, Martu Bongiovanni y la Escuela de Folklore San Francisco Solano , en una noche que reunirá distintas voces y estilos del folclore. Un festival con identidad Impulsado desde hace años por Los Puesteros, Tocando al Frente se consolidó como un encuentro que celebra el folclore argentino y la identidad cultural de distintas regiones del país, con una propuesta diversa para todos los públicos. Entradas y reservas de mesa El festival será de 18 a 2 h en Las Cañas (Las Rosas y avenida Juan Domingo Perón, Yerba Buena). Las entradas anticipadas se venden por la plataforma Intercloudy, y las mesas se reservan con el 50% de anticipo al 381 545-2911.\n\nQué: Festival Tocando al Frente – edición Primavera ’26 Artistas: Ahyre, Los Puesteros, Tawa, Josué y Pucho, Sangre Mansera, Magalí Gómez, Herederos, Martu Bongiovanni y Escuela de Folklore San Francisco Solano Cuándo: viernes 13 de noviembre, de 18 a 2 h Dónde: Las Cañas – Las Rosas y Av. Juan Domingo Perón, Yerba Buena Entradas: anticipadas en Intercloudy; reservas de mesa al 381 545-2911 (50% de anticipo) Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "Festival Tocando al Frente – edición Primavera ’26 Artistas: Ahyre, Los Puesteros, Tawa, Josué y Pucho, Sangre Mansera, Magalí Gómez, Herederos, Martu Bongiovanni y Escuela de Folklore San Francisco Solano Cuándo: viernes 13 de noviembre, de 18 a 2 h Dónde: Las Cañas – Las Rosas y Av. Juan Domingo Perón, Yerba Buena Entradas: anticipadas en Intercloudy; reservas de mesa al 381 545-2911 (50% de anticipo) Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tocando-al-frente.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Las Cañas",
+    "address": "Las Rosas y Av. Juan Domingo Perón, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Las+Ca%C3%B1as%2C+Las+Rosas+y+Av.+Juan+Domingo+Per%C3%B3n%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "18:00",
+        "time_end": "02:00",
+        "start_datetime": "2026-11-13T18:00:00-03:00",
+        "end_datetime": "2026-11-13T02:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El festival folclórico Tocando al Frente celebrará su edición Primavera ’26 con las actuaciones de Ahyre, Los Puesteros y otros artistas destacados. La cita es el viernes 13 de noviembre, de 18 a 2 h, en Las Cañas, ubicado en Las Rosas y Av. Juan Domingo Perón, Yerba Buena. Las entradas anticipadas se consiguen en Intercloudy y las reservas de mesa se realizan al 381 545-2911 con un 50% de anticipo.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a3edaa5b1a86979ed1bbf6816598667b2e917383ca5c1a633f0eb2fbfe7742b9"
+  },
+  {
+    "id": "47401",
+    "source": "MEC",
+    "title": "13 de Noviembre | Se inaugura “Diversidad II”, muestra fotográfica curada por Larry Chávez en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-se-inaugura-diversidad-ii-muestra-fotografica-curada-por-larry-chavez-en-el-virla/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "La fotografía tiene su espacio en el Centro Cultural Virla . Este viernes 13 de noviembre se inaugura “Diversidad II” , una muestra fotográfica con curaduría de Larry Chávez , que podrá visitarse hasta el 26 de noviembre. Distintas miradas, una misma realidad Bajo esa consigna, la exposición reúne imágenes que proponen diferentes formas de mirar el mundo que nos rodea: retratos, paisajes y escenas que dialogan entre sí y que invitan a detenerse y reflexionar. En Vitrinas Bar La muestra se exhibe en el espacio Vitrinas Bar del Virla, un lugar ideal para recorrerla con calma y combinarla con otras propuestas de la cartelera del centro cultural. Inauguración La apertura será el viernes 13 a las 19 h. Después de la inauguración, la muestra seguirá abierta al público hasta el 26 de noviembre.\n\nQué: Muestra fotográfica “Diversidad II” – curaduría de Larry Chávez Inauguración: viernes 13 de noviembre, 19 h Hasta: 26 de noviembre Dónde: Vitrinas Bar – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Fuente: Centro Cultural Virla",
+    "highlighted_metadata": {
+      "qué": "Muestra fotográfica “Diversidad II” – curaduría de Larry Chávez Inauguración: viernes 13 de noviembre, 19 h Hasta: 26 de noviembre Dónde: Vitrinas Bar – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Fuente: Centro Cultural Virla"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-diversidad.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Centro Cultural Virla inaugura este viernes 13 de noviembre a las 19 h la muestra fotográfica Diversidad II, curada por Larry Chávez. La exposición reúne diversos retratos, paisajes y escenas que invitan a la reflexión en el espacio Vitrinas Bar. Se podrá visitar hasta el 26 de noviembre en 25 de Mayo 265, San Miguel de Tucumán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
+  },
+  {
+    "id": "47398",
+    "source": "MEC",
+    "title": "13 de Noviembre | Divididos presenta gratis su documental “Sonidos, Barro y Piel” en Tafí Viejo",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-divididos-presenta-gratis-su-documental-sonidos-barro-y-piel-en-tafi-viejo/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "La previa del regreso de Divididos a Tucumán tiene una parada especial en Tafí Viejo. Este viernes 13 de noviembre se proyectará “Sonidos, Barro y Piel” , el documental de la banda, en una función gratuita en la Casa de la Cultura Catalina Albarracín de Suárez . El detrás de escena de la Aplanadora Con una duración de 48 minutos, el documental acompaña la grabación del último disco de Divididos y muestra a Ricardo Mollo, Diego Arnedo y Catriel Ciavarella reflexionando sobre las herramientas emocionales de la creación musical y el vínculo que los mantiene unidos tras tantos años. Fue grabado entre 2019 y 2025 y estuvo nominado a los Premios Gardel como Mejor Videoclip Largo y a los premios BAMV como Mejor Documental. Charla con el director Al finalizar la proyección, el público podrá participar de una charla con el director, Leopoldo Montero Ciancio . La función forma parte de las proyecciones gratuitas y solidarias que la banda realiza en distintas ciudades durante su gira 2026. Entrada libre y gratuita La actividad es para todo público: fanáticos, familias y curiosos. La cita es un día antes del show de Divididos en el Club Atlético Central Córdoba, así que es el calentamiento ideal para el sábado.\n\nQué: Proyección del documental “Sonidos, Barro y Piel” de Divididos + charla con el director Cuándo: viernes 13 de noviembre, 20 h Dónde: Casa de la Cultura Catalina Albarracín de Suárez – Av. Alem 753, Tafí Viejo Duración: 48 minutos Entrada: libre y gratuita Fuente: Municipalidad de Tafí Viejo",
+    "highlighted_metadata": {
+      "qué": "Proyección del documental “Sonidos, Barro y Piel” de Divididos + charla con el director Cuándo: viernes 13 de noviembre, 20 h Dónde: Casa de la Cultura Catalina Albarracín de Suárez – Av. Alem 753, Tafí Viejo Duración: 48 minutos Entrada: libre y gratuita Fuente: Municipalidad de Tafí Viejo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/divididos-documental.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura Catalina Albarracín de Suárez",
+    "address": "Avenida Alem 753, Tafí Viejo, Tucumán",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+Catalina+Albarrac%C3%ADn+de+Su%C3%A1rez%2C+Avenida+Alem+753%2C+Taf%C3%AD+Viejo%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 13 de noviembre a las 20 h se proyectará de forma gratuita el documental Sonidos, Barro y Piel de la banda Divididos en la Casa de la Cultura Catalina Albarracín de Suárez, ubicada en Avenida Alem 753, Tafí Viejo. Al finalizar la función, de 48 minutos de duración, habrá una charla con el director Leopoldo Montero Ciancio. La entrada es libre y gratuita para todo público.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "2b08da5268e32dd84b17c6d8e5325b6bbfd579e80e0cdbfca2c40e39cfe49ce5"
+  },
+  {
+    "id": "47384",
+    "source": "MEC",
+    "title": "13 de Noviembre | Seramacali presenta “Nuestra Raíz” con un concierto gratuito en el Museo Folklórico",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-seramacali-presenta-nuestra-raiz-con-un-concierto-gratuito-en-el-museo-folklorico/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música popular tiene una cita especial este viernes en San Miguel de Tucumán. El grupo Seramacali , integrado por estudiantes del Trayecto Artístico Específico en Música Popular de la ESEA, presentará “Nuestra Raíz” , un concierto al aire libre con entrada libre y gratuita en la Casa Museo Folklórico Provincial. Un concierto para volver a las raíces La propuesta invita a reencontrarse con los sonidos de nuestra tierra y con el repertorio de la música popular argentina. El concierto forma parte de las actividades de la Escuela Superior de Educación Artística (ESEA), dependiente del Ministerio de Educación de Tucumán, y es una muy buena oportunidad para conocer a las nuevas voces e intérpretes que se forman en la provincia. Un escenario con historia El encuentro será en el Museo Folklórico Provincial “Gral. Manuel Belgrano”, ubicado en 24 de Septiembre 565, uno de los espacios culturales más queridos del centro tucumano. Una noche ideal para disfrutar de buena música en un ambiente cálido y familiar. Entrada libre, pero atentos al clima La actividad es gratuita y abierta a todo público. Desde la organización aclararon que el concierto se suspende en caso de lluvia, así que conviene chequear el pronóstico antes de salir. Si buscás un plan tranquilo y con sabor a raíz para arrancar el fin de semana, acercate al Museo Folklórico y dejate llevar por la música.\n\nQué: Concierto “Nuestra Raíz” – Seramacali (Música Popular ESEA) Cuándo: viernes 13 de noviembre, 20 h Dónde: Casa Museo Folklórico Provincial – 24 de Septiembre 565, San Miguel de Tucumán Entrada: libre y gratuita Importante: se suspende por lluvia Fuente: Ente Cultural de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Concierto “Nuestra Raíz” – Seramacali (Música Popular ESEA) Cuándo: viernes 13 de noviembre, 20 h Dónde: Casa Museo Folklórico Provincial – 24 de Septiembre 565, San Miguel de Tucumán Entrada: libre y gratuita Importante: se suspende por lluvia Fuente: Ente Cultural de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/nuestra-raiz.png",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Museo Folklórico Provincial General Manuel Belgrano",
+    "address": "24 de Septiembre 565, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+Folkl%C3%B3rico+Provincial+General+Manuel+Belgrano%2C+24+de+Septiembre+565%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El grupo Seramacali presenta su concierto de música popular Nuestra Raíz en el Museo Folklórico Provincial General Manuel Belgrano, ubicado en 24 de Septiembre 565, San Miguel de Tucumán. La cita es el viernes 13 de noviembre a las 20 horas con entrada libre y gratuita. Se aclara que la actividad se suspende en caso de lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a53aa13d0592991203adf49abd33bbebf0be3c4d3753329ff6176057a336c3df"
+  },
+  {
+    "id": "47402",
+    "source": "MEC",
+    "title": "13 de Noviembre | Sofía Calvo presenta “Es hora de hablar”, un stand up para reír y reconocernos en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-sofia-calvo-presenta-es-hora-de-hablar-un-stand-up-para-reir-y-reconocernos-en-el-virla/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "La licenciada en Psicología Sofía Calvo llega al auditorio del Centro Cultural Virla con “Es hora de hablar” , un espectáculo de stand up para reflexionar, reírnos y reconocernos. Humor con mirada de psicóloga El show pone sobre el escenario esas cosas que sentimos pero que pocas veces nos animamos a decir. Con una mirada atenta a lo cotidiano y a los vínculos, Sofía Calvo combina humor y reflexión en una propuesta que conecta con el público desde lo emocional. Una noche en el auditorio del Virla La función será este viernes 13 de noviembre a las 20 h, en el auditorio del centro cultural de 25 de Mayo 265. La producción está a cargo de Flashando Prod. Entradas Las entradas se consiguen a través de la ticketera del Virla (Elvirla.entradanet.com) y de la boletería online de la producción. Ideal para ir con amigas, amigos o en pareja.\n\nQué: “Es hora de hablar” – Sofía Calvo (stand up) Cuándo: viernes 13 de noviembre, 20 h Dónde: Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Entradas: Elvirla.entradanet.com Fuente: Centro Cultural Virla",
+    "highlighted_metadata": {
+      "qué": "“Es hora de hablar” – Sofía Calvo (stand up) Cuándo: viernes 13 de noviembre, 20 h Dónde: Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Entradas: Elvirla.entradanet.com Fuente: Centro Cultural Virla"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-sofia-calvo.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La psicóloga Sofía Calvo presenta su espectáculo de stand up Es hora de hablar, una propuesta de humor y reflexión sobre los vínculos cotidianos. La función será el viernes 13 de noviembre a las 20 horas en el auditorio del Centro Cultural Virla, ubicado en 25 de Mayo 265. Las entradas se pueden adquirir en la ticketera del Virla y en la boletería online de la producción.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "9ddd5f781706b046515e097ccb06077449a00d855b16d6459d95dee08b5cb522"
+  },
+  {
+    "id": "47390",
+    "source": "MEC",
+    "title": "13 de Noviembre | Visita guiada nocturna y gratuita por el Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-visita-guiada-nocturna-y-gratuita-por-el-cementerio-del-oeste/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Te animás a recorrer de noche una de las necrópolis más antiguas de la ciudad? Este viernes 13 de noviembre, la Dirección de Cementerios de la Municipalidad de San Miguel de Tucumán propone una nueva visita guiada nocturna por el Cementerio del Oeste , gratuita y sin inscripción previa. Historia, arte y arquitectura El recorrido invita a vecinos y turistas a redescubrir la riqueza histórica, arquitectónica y escultórica del cementerio de calle Asunción. Bóvedas, esculturas y las historias de personajes que marcaron la vida tucumana forman parte de un paseo distinto, que combina patrimonio y misterio. Sin cupo y sin inscripción Las visitas no requieren inscripción previa ni tienen cupo máximo: solo hay que acercarse a la entrada del cementerio, en Asunción 150, a la hora indicada. Las salidas nocturnas son los viernes y sábados a las 20 h, y también hay recorridos diurnos de lunes a jueves a las 17 h. Un plan diferente para la noche Si buscás algo fuera de lo común para hacer en Tucumán, esta visita es ideal para ir con amigos o en familia. Llevá calzado cómodo y sumate a esta experiencia que cada vez convoca a más público.\n\nQué: Visita guiada nocturna al Cementerio del Oeste Cuándo: viernes 13 de noviembre, 20 h Dónde: Cementerio del Oeste – Asunción 150, San Miguel de Tucumán Inscripción: no requiere; sin cupo máximo Entrada: gratuita Otras visitas: viernes y sábados 20 h (nocturnas); lunes a jueves 17 h (diurnas) Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Visita guiada nocturna al Cementerio del Oeste Cuándo: viernes 13 de noviembre, 20 h Dónde: Cementerio del Oeste – Asunción 150, San Miguel de Tucumán Inscripción: no requiere; sin cupo máximo Entrada: gratuita Otras visitas: viernes y sábados 20 h (nocturnas); lunes a jueves 17 h (diurnas) Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cementerio-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Cementerio del Oeste",
+    "address": "Asunción 150, San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "organizer": "a más público",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cementerio+del+Oeste%2C+Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 13 de noviembre a las 20 h se realizará una visita guiada nocturna y gratuita por el Cementerio del Oeste, ubicado en Asunción 150, San Miguel de Tucumán. El recorrido invita a descubrir la historia, la arquitectura y las esculturas de la necrópolis. La actividad es libre, sin inscripción previa ni cupo máximo.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "f81e78a266f3b5ebbc8bfee1e6bde4ac1c8ca4370091baecd81cfbe5fe6e3984"
+  },
+  {
+    "id": "47408",
+    "source": "MEC",
+    "title": "13 de Noviembre | “1966, memorias del cierre”: danza gratuita en el Teatro Alberdi a 60 años del cierre de los ingenios",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-1966-memorias-del-cierre-danza-gratuita-en-el-teatro-alberdi-a-60-anos-del-cierre-de-los-ingenios/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-13T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "A 60 años del cierre de los ingenios azucareros de Tucumán, la Facultad de Artes de la UNT presenta la última función del año de “1966, memorias del cierre” , un espectáculo interdisciplinario de danza que se verá con entrada gratuita en el Teatro Alberdi . Memoria en movimiento A través del movimiento, la música y las imágenes, la obra recupera uno de los acontecimientos que marcó profundamente la historia social, económica y cultural de la provincia. Una puesta que invita a reflexionar sobre las historias de miles de familias tucumanas, el desarraigo, la resistencia y las huellas que dejó en nuestra identidad colectiva. Gran cierre de las Jornadas de Investigación La función, realizada por docentes y estudiantes de la Facultad de Artes, es el cierre de las 7ª Jornadas de Investigación de la FAUNT y las 5ª Jornadas Nacionales de Investigación en Artes, bajo el lema “Arte, memoria y transformaciones”. Entradas gratuitas La entrada es libre y gratuita, con entradas disponibles en la boletería del teatro. La cita es en la Sala Mayor, en Jujuy 92.\n\nQué: “1966, memorias del cierre” – Facultad de Artes UNT (danza) Cuándo: viernes 13 de noviembre, 20.30 h Dónde: Sala Mayor – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entrada: libre y gratuita (retirar en boletería) Fuente: Facultad de Artes UNT y Teatro Alberdi (Instagram)",
+    "highlighted_metadata": {
+      "qué": "“1966, memorias del cierre” – Facultad de Artes UNT (danza) Cuándo: viernes 13 de noviembre, 20.30 h Dónde: Sala Mayor – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entrada: libre y gratuita (retirar en boletería) Fuente: Facultad de Artes UNT y Teatro Alberdi (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi-1966.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Teatro Alberdi",
+    "address": "Jujuy 92, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi%2C+Jujuy+92%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-13T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El espectáculo de danza interdisciplinaria 1966, memorias del cierre conmemora a 60 años el cierre de los ingenios azucareros tucumanos. La función gratuita se realizará el viernes 13 de noviembre a las 20.30 h en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy 92, San Miguel de Tucumán. Las entradas libres se retiran en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "d173a199aa692a418abf6fc9fcb04826403b089867b3c7832fa124a4ec892484"
+  },
+  {
+    "id": "47414",
+    "source": "MEC",
+    "title": "13 de Noviembre | Calle Cortada presenta su álbum debut “Otro espejismo” en el Teatro Puerto Libertad",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-calle-cortada-presenta-su-album-debut-otro-espejismo-en-el-teatro-puerto-libertad/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La escena alternativa tucumana tiene cita este viernes. Calle Cortada , la joven banda de rock alternativo, presenta su álbum debut “Otro espejismo” en el Teatro Puerto Libertad , con Invierno como banda invitada. Un disco sobre el amor como escape “Otro espejismo” habla del amor cuando funciona como una huida. A lo largo del álbum aparecen relaciones que parecen repetirse una y otra vez, donde el intento de encontrarse en otra persona termina convirtiéndose en un nuevo espejismo. Quiénes son Calle Cortada La banda está integrada por Luana Muller (voz y guitarra), Mariano Sobrino (guitarra), Cecilia Klyver (batería), Ignacio Torres (sintetizadores) y Kelo Terán (bajo y coros). Nació en 2021, cuando Luana y Mariano se conocieron por Twitter gracias a su admiración compartida por The 1975, y en 2024 inició una nueva etapa con su formación actual. Entradas El show es a las 21 h en Las Piedras 1850. Las entradas anticipadas se consiguen contactando a la banda a través de sus redes o en su sitio web. La sala es un espacio libre de tabaco, con sectores habilitados para fumadores.\n\nQué: Calle Cortada presenta “Otro espejismo” + Invierno (banda invitada) Cuándo: viernes 13 de noviembre, 21 h Dónde: Teatro Puerto Libertad – Las Piedras 1850, San Miguel de Tucumán Entradas: anticipadas a través de la banda (redes sociales y web) Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "Calle Cortada presenta “Otro espejismo” + Invierno (banda invitada) Cuándo: viernes 13 de noviembre, 21 h Dónde: Teatro Puerto Libertad – Las Piedras 1850, San Miguel de Tucumán Entradas: anticipadas a través de la banda (redes sociales y web) Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/calle-cortada.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Puerto Cultural Libertad",
+    "address": "Las Piedras 1850",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Puerto+Cultural+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La banda de rock alternativo Calle Cortada presenta su álbum debut Otro espejismo junto a Invierno como invitada. El show será el viernes 13 de noviembre a las 21 h en el Teatro Puerto Libertad, ubicado en Las Piedras 1850. Las entradas anticipadas se consiguen a través de las redes sociales y el sitio web de la banda.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "51dc1c4bf9c27cd02edc590e412cbca23c29854cdc52c2d6b89897d5fbffa8be"
+  },
+  {
+    "id": "47385",
+    "source": "MEC",
+    "title": "13 de Noviembre | La Banda Sinfónica de la Provincia une a The Beatles y Queen en “De Liverpool a Wembley”",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-la-banda-sinfonica-de-la-provincia-une-a-the-beatles-y-queen-en-de-liverpool-a-wembley/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Dos de las bandas más influyentes de la historia del rock se encuentran sobre el escenario del Teatro San Martín . La Banda Sinfónica de la Provincia presenta “De Liverpool a Wembley” , un concierto que recorre los grandes clásicos de The Beatles y Queen con arreglos pensados especialmente para el formato sinfónico. De “Hey Jude” a “Bohemian Rhapsody” La primera parte del espectáculo estará dedicada al cuarteto de Liverpool, con canciones que atravesaron generaciones como “Yesterday”, “Hey Jude”, “Yellow Submarine” y “Ob-La-Di, Ob-La-Da”. En la segunda mitad llegará el turno de Queen, con versiones de “Bohemian Rhapsody”, “Don’t Stop Me Now”, “The Show Must Go On”, “Radio Ga Ga” y “We Are the Champions”, entre otros himnos de la banda de Freddie Mercury. El rock con sonido de banda sinfónica La dirección está a cargo del maestro Jorge Bulacia Soler , con Nahuel Guzmán como asistente de dirección. A través de los vientos y la percusión, el cuerpo estable propone una nueva lectura de estas canciones, combinando la potencia del rock con la riqueza sonora de la música sinfónica. Entradas con promoción 2×1 La entrada general cuesta $10.000 y hay promoción 2×1. Se consiguen en las boleterías del Teatro San Martín y en la plataforma de venta de Cultura de Tucumán (Entradanet). Un plan ideal para cantar a coro y empezar el finde con todo.\n\nQué: “De Liverpool a Wembley” – Banda Sinfónica de la Provincia Cuándo: viernes 13 de noviembre, 21 h Dónde: Teatro San Martín – Av. Sarmiento 601, San Miguel de Tucumán Entradas: general $10.000, con promoción 2×1 Venta: boleterías del teatro y culturadetucuman.entradanet.com Fuente: Ente Cultural de Tucumán y Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "“De Liverpool a Wembley” – Banda Sinfónica de la Provincia Cuándo: viernes 13 de noviembre, 21 h Dónde: Teatro San Martín – Av. Sarmiento 601, San Miguel de Tucumán Entradas: general $10.000, con promoción 2×1 Venta: boleterías del teatro y culturadetucuman.entradanet.com Fuente: Ente Cultural de Tucumán y Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/liverpool-wembley.jpeg",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Teatro San Martín",
+    "address": "Avenida Sarmiento 601 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+San+Mart%C3%ADn%2C+Avenida+Sarmiento+601+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Banda Sinfónica de la Provincia presenta De Liverpool a Wembley, un concierto sinfónico con los grandes clásicos de The Beatles y Queen. La cita es el viernes 13 de noviembre a las 21 h en el Teatro San Martín, ubicado en Avenida Sarmiento 601. Las entradas generales cuestan $10.000, cuentan con promoción 2x1 y se consiguen en la boletería y en Entradanet.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "54fd7727c345ba585c0e679734e75ecc7de9b0b32a7dc7485d49c9abf9b22096"
+  },
+  {
+    "id": "47407",
+    "source": "MEC",
+    "title": "13 de Noviembre | Última función de “Retablillo de Don Cristóbal”, de García Lorca, en Yerba Buena",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-ultima-funcion-de-retablillo-de-don-cristobal-de-garcia-lorca-en-yerba-buena/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Es la última oportunidad del año para ver “Retablillo de Don Cristóbal” , la obra de Federico García Lorca que el grupo Sunqu-Arte presenta este viernes 13 de noviembre en la Casa de la Cultura de Yerba Buena . Títeres, actores y poesía La puesta combina títeres y actores para dar vida a una farsa rural donde la poesía y lo popular se encuentran en una crítica al poder y la violencia, con una mirada que sigue vigente. La dirección es de Norma Aparicio . Cierre de temporada 2026 Esta función marca el final de la temporada 2026 de la obra, por lo que es el momento ideal para quienes todavía no la vieron. Entradas y reservas La entrada general cuesta $15.000 y las anticipadas se consiguen a 2 por $25.000. Las reservas se hacen al 381 573-5831.\n\nQué: “Retablillo de Don Cristóbal” – Grupo Sunqu-Arte Dirección: Norma Aparicio Cuándo: viernes 13 de noviembre, 21 h Dónde: Casa de la Cultura de Yerba Buena – Higueritas 1850, Yerba Buena Entradas: general $15.000; anticipadas 2 x $25.000 Reservas: 381 573-5831 Fuente: Casa de la Cultura de Yerba Buena (Instagram)",
+    "highlighted_metadata": {
+      "qué": "“Retablillo de Don Cristóbal” – Grupo Sunqu-Arte Dirección: Norma Aparicio Cuándo: viernes 13 de noviembre, 21 h Dónde: Casa de la Cultura de Yerba Buena – Higueritas 1850, Yerba Buena Entradas: general $15.000; anticipadas 2 x $25.000 Reservas: 381 573-5831 Fuente: Casa de la Cultura de Yerba Buena (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/yb-retablillo.webp",
+    "price": 15000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Casa de la Cultura de Yerba Buena",
+    "address": "Las Higueritas 1850, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+de+Yerba+Buena%2C+Las+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El grupo Sunqu-Arte presenta la última función del año de la obra de títeres y actores “Retablillo de Don Cristóbal”. La cita es el viernes 13 de noviembre a las 21 h en la Casa de la Cultura de Yerba Buena, ubicada en Las Higueritas 1850. La entrada general cuesta $15.000 y hay una promo anticipada de 2 por $25.000, con reservas al 381 573-5831.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "77f0ec4badf54bfb9673e40ba58752f988cdb788520933fb3cfa358155b96f9c"
+  },
+  {
     "id": "47302",
     "source": "MEC",
     "title": "13 de Noviembre | “Retablillo de Don Cristóbal”, de Lorca, cierra su temporada en la Casa de la Cultura de Yerba Buena",
@@ -231,6 +995,2151 @@
     "summary_source_hash": "717cd36fd9efb87f84c4a8f23e68fbf7e036b4eff01c3280718d76d40e99e5c3"
   },
   {
+    "id": "47392",
+    "source": "MEC",
+    "title": "13 de Noviembre | “Tevye, el lechero”: el clásico de “El violinista en el tejado” sube al Teatro Rosita Ávila",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-tevye-el-lechero-el-clasico-de-el-violinista-en-el-tejado-sube-al-teatro-rosita-avila/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "21:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-11-13T21:00:00-03:00",
+    "end_datetime": "2026-11-13T18:00:00-03:00",
+    "description": "Una historia de familia, tradición y cambio llega al Teatro Municipal Rosita Ávila . Este viernes 13 de noviembre se presenta “Tevye, el lechero” , un espectáculo teatral y musical basado en los relatos de Scholem Aleijem, popularizados en el teatro y el cine como “El violinista en el tejado” . 27 artistas en escena Se trata de un proyecto escénico de la Escuela de Danza Tello & Kozlov , con dirección de la maestra y coreógrafa Alejandra Tello junto a Andrei Kozlov , y coaching vocal de Bety Platte . Actores, cantantes y bailarines (27 en total) dan vida a una puesta que combina teatro, música y danza. La historia de Tevye La obra narra la vida de Tevye, un humilde lechero y padre de cinco hijas, que debe enfrentar los cambios del mundo, los exilios y los amores que desafían las tradiciones de su pueblo. Entre la fe, la identidad y los lazos familiares, intenta comprender una nueva forma de vivir el amor. Funciones y entradas Hay funciones el viernes 13 y el sábado 14 de noviembre a las 21 h. Las entradas se consiguen en la ticketera digital de la Municipalidad (entradas.smt.gob.ar) o en la boletería del teatro, que atiende días hábiles de 9 a 18 h y los días de función desde las 17 h.\n\nQué: “Tevye, el lechero” – Escuela de Danza Tello & Kozlov Cuándo: viernes 13 de noviembre, 21 h (funciones viernes 13 y sábado 14) Dónde: Teatro Municipal Rosita Ávila – Las Piedras 1550, San Miguel de Tucumán Entradas: entradas.smt.gob.ar o boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "“Tevye, el lechero” – Escuela de Danza Tello & Kozlov Cuándo: viernes 13 de noviembre, 21 h (funciones viernes 13 y sábado 14) Dónde: Teatro Municipal Rosita Ávila – Las Piedras 1550, San Miguel de Tucumán Entradas: entradas.smt.gob.ar o boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tevye.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1500, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1500%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "21:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-11-13T21:00:00-03:00",
+        "end_datetime": "2026-11-13T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 13 y sábado 14 de noviembre a las 21 h se presenta en el Teatro Municipal Rosita Ávila (Las Piedras 1500) la obra musical Tevye, el lechero, basada en los relatos de El violinista en el tejado. El espectáculo cuenta con 27 artistas en escena bajo la dirección de Alejandra Tello y Andrei Kozlov. Las entradas se pueden adquirir en la boletería del teatro o en la web oficial de la Municipalidad.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "5aab14b05942c5e574524348a3fba948d8a809f018b86f7488342526dd894c44"
+  },
+  {
+    "id": "47415",
+    "source": "MEC",
+    "title": "13 de Noviembre | El Fogón Salamanquero vuelve con su segunda edición y una noche a puro folclore",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-el-fogon-salamanquero-vuelve-con-su-segunda-edicion-y-una-noche-a-puro-folclore/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Música, encuentro y tradición: El Fogón Salamanquero anuncia su segunda edición este viernes 13 de noviembre en San Miguel de Tucumán, con una grilla de artistas que celebra el folclore y las expresiones de nuestra cultura popular. La grilla Se presentarán Enzo Celiz, Lucas Cáceres y La Changada , junto a Nery Vega, David Risso y Proyecto Folk . Además, participarán como invitados especiales Andrea Medina y Santiago Valdez . Un fogón para compartir Con esta segunda edición, el Fogón Salamanquero vuelve a apostar por un espacio de encuentro alrededor de la música folclórica, en una noche pensada para disfrutar de nuestras raíces y compartir entre amigos. Entradas y puntos de venta La cita es a partir de las 22 h en Bernardino Rivadavia 1320. Las entradas se venden por Central Ticket y en forma física en la Academia José Hernández (Bolívar 1637) y en el Grupo Popular Independiente (San Martín 1071). Consultas: 381 211-3830 / 381 577-0101.\n\nQué: El Fogón Salamanquero – segunda edición Artistas: Enzo Celiz, Lucas Cáceres y La Changada, Nery Vega, David Risso, Proyecto Folk; invitados: Andrea Medina y Santiago Valdez Cuándo: viernes 13 de noviembre, 22 h Dónde: Bernardino Rivadavia 1320, San Miguel de Tucumán Entradas: Central Ticket; Academia José Hernández (Bolívar 1637) y Grupo Popular Independiente (San Martín 1071) Consultas: 381 211-3830 / 381 577-0101 Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "El Fogón Salamanquero – segunda edición Artistas: Enzo Celiz, Lucas Cáceres y La Changada, Nery Vega, David Risso, Proyecto Folk; invitados: Andrea Medina y Santiago Valdez Cuándo: viernes 13 de noviembre, 22 h Dónde: Bernardino Rivadavia 1320, San Miguel de Tucumán Entradas: Central Ticket; Academia José Hernández (Bolívar 1637) y Grupo Popular Independiente (San Martín 1071) Consultas: 381 211-3830 / 381 577-0101 Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/fogon-salamanquero.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Bernardino Rivadavia 1320",
+    "address": "Bernardino Rivadavia 1320, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Bernardino+Rivadavia+1320%2C+Bernardino+Rivadavia+1320%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Llega la segunda edición de El Fogón Salamanquero con una noche de música folclórica y destacados artistas en vivo. La cita es el viernes 13 de noviembre a partir de las 22 h en Bernardino Rivadavia 1320, San Miguel de Tucumán. Las entradas se consiguen en Central Ticket y puntos de venta habilitados.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "cde661ae2053e587a26aa95c77445972f42797a7e71620a9de03edcc49bfe7d6"
+  },
+  {
+    "id": "47421",
+    "source": "MEC",
+    "title": "13 de Noviembre | Viernes Escondido: peña, show y guitarreada en La Escondida con Algarroberos y más",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-viernes-escondido-pena-show-y-guitarreada-en-la-escondida-con-algarroberos-y-mas/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "22:00",
+    "time_end": "05:00",
+    "start_datetime": "2026-11-13T22:00:00-03:00",
+    "end_datetime": "2026-11-13T05:00:00-03:00",
+    "description": "La Peña La Escondida vuelve a abrir sus puertas para una noche de folclore, encuentro y amistad. Este viernes 13 de noviembre llega el Viernes Escondido , con un show de grandes artistas y la clásica guitarreada hasta la madrugada. Quiénes se presentan La cartelera de la noche reúne a Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi . Una grilla bien tucumana, con folclore, canto popular y hasta mariachi para encender la noche del viernes. Show, peña y guitarreada Como siempre, la propuesta combina show en vivo, peña y guitarreada desde las 22 h hasta las 5 de la mañana, con servicio de bar. Un plan ideal para tomarse un buen vino o un fernet entre amigos. Reservas de mesa Para quienes quieren llegar temprano y comer algo rico, la peña toma reservas de mesa al 381 561-6818. La Escondida está en Miguel Lillo 234, San Miguel de Tucumán.\n\nQué: Viernes Escondido en Peña La Escondida Artistas: Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi Cuándo: viernes 13 de noviembre, de 22 a 5 h Dónde: Peña La Escondida – Miguel Lillo 234, San Miguel de Tucumán Reservas de mesa: 381 561-6818 Fuente: Peña La Escondida (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Viernes Escondido en Peña La Escondida Artistas: Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi Cuándo: viernes 13 de noviembre, de 22 a 5 h Dónde: Peña La Escondida – Miguel Lillo 234, San Miguel de Tucumán Reservas de mesa: 381 561-6818 Fuente: Peña La Escondida (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/escondida-viernes.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "22:00",
+        "time_end": "05:00",
+        "start_datetime": "2026-11-13T22:00:00-03:00",
+        "end_datetime": "2026-11-13T05:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 13 de noviembre se realizará el Viernes Escondido en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. Desde las 22 hasta las 5 horas habrá shows de Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi, además de una guitarreada. Se pueden hacer reservas de mesa al 381 561-6818.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "00448959679c6dc19bb966facc0d996dad62672b29472bf42bc72ce1898726c7"
+  },
+  {
+    "id": "47386",
+    "source": "MEC",
+    "title": "13 de Noviembre | “Cara o seca”, la comedia belga que llega gratis al Encuentro de Cine Europeo",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-cara-o-seca-la-comedia-belga-que-llega-gratis-al-encuentro-de-cine-europeo/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El XXII Encuentro de Cine Europeo en Argentina sigue su paso por Tucumán y este viernes propone una de sus funciones más divertidas: “Cara o seca” ( Aimer perdre ), la película belga dirigida por los hermanos Lenny y Harpo Guit , con entrada libre y gratuita en la Sala Hynes O’Connor . Una racha que lo cambia todo La historia sigue a Armande Pigeon , una mujer que vive al límite entre apuestas y travesuras, siempre con mala suerte y con dificultades para llegar a fin de mes. Pero una noche, junto a Ronnie, empieza una racha ganadora que parece no tener fin. Una comedia sobre el azar, las decisiones impulsivas y las vueltas inesperadas de la vida. Cine europeo, gratis y en el centro La función es parte de la programación del Encuentro de Cine Europeo, que acerca al público tucumano títulos recientes del continente que difícilmente lleguen a la cartelera comercial. La sala está en San Martín 251, en pleno centro de la ciudad. Un plan de viernes a la noche Con entrada libre y gratuita, es una gran opción para cerrar la semana con cine de autor y buen humor. Te recomendamos llegar con tiempo para asegurarte un lugar.\n\nQué: “Cara o seca” (Aimer perdre, Bélgica) – XXII Encuentro de Cine Europeo Dirección: Lenny y Harpo Guit Cuándo: viernes 13 de noviembre, 22 h Dónde: Sala Hynes O’Connor – San Martín 251, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán y Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "“Cara o seca” (Aimer perdre, Bélgica) – XXII Encuentro de Cine Europeo Dirección: Lenny y Harpo Guit Cuándo: viernes 13 de noviembre, 22 h Dónde: Sala Hynes O’Connor – San Martín 251, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán y Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cara-o-seca.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Sala Hynes O’Connor",
+    "address": "San Martín 251, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Hynes+O%E2%80%99Connor%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 13 de noviembre a las 22 h, la Sala Hynes O’Connor, ubicada en San Martín 251 en San Miguel de Tucumán, proyectará la comedia belga “Cara o seca” en el marco del Encuentro de Cine Europeo. La función es con entrada libre y gratuita. Se recomienda llegar con anticipación para asegurar un lugar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "e412cdf49e3bc4ff6d85a79c42fcfaf492251bc920f7798b8cdc57bcea7fd58b"
+  },
+  {
+    "id": "47416",
+    "source": "MEC",
+    "title": "13 de Noviembre | “El comportamiento de las vacas”, danza y teatro en La Sodería",
+    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-el-comportamiento-de-las-vacas-danza-y-teatro-en-la-soderia/",
+    "date_start": "2026-11-13",
+    "date_end": "2026-11-13",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-13T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Qué tienen en común el ganado y nuestros modos de comportamiento social? “El comportamiento de las vacas” , la obra dirigida por Marcela González Cortés , propone esa analogía este viernes 13 de noviembre en La Sodería . Una mirada satírica sobre lo colectivo Con una impronta anclada en la danza contemporánea y el teatro, la obra muestra una condición colectiva, precaria y vulnerable: una manera grupal de moverse, una calma que puede alterarse y un cuerpo que se adapta dentro de una aparente libertad condicionada por ritmos, necesidades y destinos. Elenco y equipo El elenco está compuesto por Martín Abregú, María Belén Jeréz, Sofía Jure, Rocío Meza y Pablo Salas. La puesta incluye música de Atahualpa Yupanqui, Alberto Iglesias, Miguel Abuelo y Santiago Barrionuevo. Diseño de vestuario: Ger Gómez; asistencia de dirección y registro audiovisual: Melina Zanacchi. Edición de banda sonora, coreografía y dirección: Marcela González Cortés. Entradas La función es a las 22 h en Juan Posse 1141. Las entradas anticipadas cuestan $20.000 (por transferencia; consultas por WhatsApp al 381 661-2247). En la puerta, $25.000, con descuento a $15.000 para jubilados y estudiantes.\n\nQué: “El comportamiento de las vacas” – danza y teatro Dirección: Marcela González Cortés Cuándo: viernes 13 de noviembre, 22 h Dónde: La Sodería – Juan Posse 1141, San Miguel de Tucumán Entradas: anticipadas $20.000; en puerta $25.000; jubilados y estudiantes $15.000 Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "“El comportamiento de las vacas” – danza y teatro Dirección: Marcela González Cortés Cuándo: viernes 13 de noviembre, 22 h Dónde: La Sodería – Juan Posse 1141, San Miguel de Tucumán Entradas: anticipadas $20.000; en puerta $25.000; jubilados y estudiantes $15.000 Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/vacas.jpg",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "La Sodería",
+    "address": "Juan José Posse 1141, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Soder%C3%ADa%2C+Juan+Jos%C3%A9+Posse+1141%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-13",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-13T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-13",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La obra de danza y teatro El comportamiento de las vacas, dirigida por Marcela González Cortés, ofrece una mirada satírica sobre lo colectivo a través de la analogía entre el ganado y los comportamientos sociales. La función será el viernes 13 de noviembre a las 22 h en La Sodería, ubicada en Juan Posse 1141, San Miguel de Tucumán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "062ddb0cdc3717974b0ff1d68822ed8f33c79b0b1e2c5e441f8d87ce4be6535c"
+  },
+  {
+    "id": "47387",
+    "source": "MEC",
+    "title": "14 de Noviembre | Fiesta de la Tradición y los Juegos Criollos en el Museo Sanmartiniano",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-fiesta-de-la-tradicion-y-los-juegos-criollos-en-el-museo-sanmartiniano/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "12:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-11-14T12:00:00-03:00",
+    "end_datetime": "2026-11-14T18:00:00-03:00",
+    "description": "Taba, truco, sapo y música en vivo: el Museo Sanmartiniano de Tucumán celebra el Día de la Tradición con una gran Fiesta de la Tradición y de los Juegos Criollos , una jornada gratuita pensada para disfrutar en familia en La Ramada de Abajo. Juegos criollos para todas las edades Durante la tarde, el público podrá participar de torneos de taba, truco y sapo , además de otras actividades tradicionales. La programación incluye también presentaciones en vivo de músicos locales que pondrán el toque de música popular argentina a la celebración. Un homenaje a nuestra identidad La fiesta se enmarca en el Día de la Tradición, que se conmemora cada 10 de noviembre en homenaje al nacimiento de José Hernández, autor del Martín Fierro. La propuesta busca recuperar y compartir prácticas que forman parte de la identidad cultural argentina y promover el encuentro entre generaciones. Cómo llegar El Museo Sanmartiniano está sobre la Ruta Provincial 317, km 4, en La Ramada de Abajo, departamento Burruyacú. Es una linda excusa para una escapada de sábado: llevá a la familia, sumate a los juegos y disfrutá de una tarde a puro campo.\n\nQué: Fiesta de la Tradición y de los Juegos Criollos Cuándo: sábado 14 de noviembre, de 12 a 18 h Dónde: Museo Sanmartiniano de Tucumán – Ruta Provincial 317, km 4, La Ramada de Abajo (Burruyacú) Actividades: torneos de taba, truco y sapo, música en vivo Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Fiesta de la Tradición y de los Juegos Criollos Cuándo: sábado 14 de noviembre, de 12 a 18 h Dónde: Museo Sanmartiniano de Tucumán – Ruta Provincial 317, km 4, La Ramada de Abajo (Burruyacú) Actividades: torneos de taba, truco y sapo, música en vivo Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/fiesta-tradicion.jpeg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Museo Sanmartiniano de Tucumán",
+    "address": "Ruta Provincial 317, km 4, La Ramada de Abajo, Burruyacú, Tucumán",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+Sanmartiniano+de+Tucum%C3%A1n%2C+Ruta+Provincial+317%2C+km+4%2C+La+Ramada+de+Abajo%2C+Burruyac%C3%BA%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "12:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-11-14T12:00:00-03:00",
+        "end_datetime": "2026-11-14T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "12:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Museo Sanmartiniano de Tucumán celebra la Fiesta de la Tradición y los Juegos Criollos con torneos de taba, truco, sapo y música en vivo. La cita es el sábado 14 de noviembre, de 12 a 18 h, en la Ruta Provincial 317, km 4, La Ramada de Abajo, Burruyacú. La entrada es libre y gratuita para toda la familia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "d805e8e9d14d066b55ff1a58ee174d1efe17820bf12f6bd1caa96c803d6dfad4"
+  },
+  {
+    "id": "47389",
+    "source": "MEC",
+    "title": "14 y 15 de Noviembre | Dónde estarán las ferias municipales este fin de semana en San Miguel de Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/14-y-15-de-noviembre-donde-estaran-las-ferias-municipales-este-fin-de-semana-en-san-miguel-de-tucuman/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-15",
+    "time_start": "16:00",
+    "time_end": "00:00",
+    "start_datetime": "2026-11-14T16:00:00-03:00",
+    "end_datetime": "2026-11-15T00:00:00-03:00",
+    "description": "Gastronomía, artesanías y emprendimientos locales vuelven a ocupar los espacios verdes de la ciudad. Este sábado 14 y domingo 15 de noviembre, las ferias municipales organizadas por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán se podrán recorrer en los parques El Provincial y Avellaneda, en Plaza Independencia y en el barrio Manantial Sur. Sábado 14: parques El Provincial y Avellaneda En el Parque El Provincial , la Feria de Emprendedores funcionará de 18 a 00 h en el predio de avenida Roca y Chacabuco. En el Parque Avellaneda , la Feria de Artesanos (sobre avenida Mate de Luna y caminería central) y la Feria Gourmet (sobre calle Asunción) abrirán sábado y domingo de 18 a 00 h. Domingo 15: Plaza Independencia El domingo, la Plaza Independencia recibirá la Feria de Emprendedores y la Feria Parque 9 de Julio, de 15.30 a 00 h, sobre 24 de Septiembre y Laprida, y la Feria Paseo Gastronómico, de 15 a 00 h, sobre 24 de Septiembre al 300. Barrio Manantial Sur La Feria Manantial Sur – 2500 Viviendas estará el sábado y el domingo de 16 a 21 h sobre avenida Palavecino, entre Constitución y Pueyrredón. Un plan ideal para pasear, comer algo rico y apoyar a los emprendedores tucumanos.\n\nQué: Ferias municipales: artesanos, emprendedores, gourmet y gastronómicas Sábado 14: Parque El Provincial (18 a 00 h); Parque Avellaneda (18 a 00 h); Manantial Sur (16 a 21 h) Domingo 15: Parque Avellaneda (18 a 00 h); Plaza Independencia (desde las 15/15.30 h hasta 00 h); Manantial Sur (16 a 21 h) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Ferias municipales: artesanos, emprendedores, gourmet y gastronómicas Sábado 14: Parque El Provincial (18 a 00 h); Parque Avellaneda (18 a 00 h); Manantial Sur (16 a 21 h) Domingo 15: Parque Avellaneda (18 a 00 h); Plaza Independencia (desde las 15/15.30 h hasta 00 h); Manantial Sur (16 a 21 h) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ferias-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "San Miguel de Tucumán",
+    "address": "San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "16:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-11-14T16:00:00-03:00",
+        "end_datetime": "2026-11-14T00:00:00-03:00"
+      },
+      {
+        "date": "2026-11-15",
+        "time_start": "16:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-11-15T16:00:00-03:00",
+        "end_datetime": "2026-11-15T00:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "16:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 14 y domingo 15 de noviembre se realizarán las ferias municipales en San Miguel de Tucumán con propuestas gastronómicas, artesanías y emprendimientos. Los espacios habilitados son los parques El Provincial y Avellaneda, la Plaza Independencia y el barrio Manantial Sur, con diferentes horarios según cada ubicación. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "bebd5f5279197a6d65f81c6d7fd3c4d263989bbd38117b1031db78a3d1257e3f"
+  },
+  {
+    "id": "47403",
+    "source": "MEC",
+    "title": "14 de Noviembre | Café Literario y Cultural del Virla, con la presentación de “¿Quién borró el horizonte?”",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-cafe-literario-y-cultural-del-virla-con-la-presentacion-de-quien-borro-el-horizonte/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "Libros, lecturas y conversación con autores: el Café Literario y Cultural del Virla vuelve este sábado 14 de noviembre con una nueva edición, organizada por la Facultad de Filosofía y Letras de la UNT y coordinada por Guillermo Siles . Un espacio para compartir lecturas El ciclo propone un encuentro distendido para compartir libros, lecturas, presentaciones y conversaciones con escritores. En esta edición participan Gilda Isaac, Rosana Forgas, Sebastián Ganzburg y Miky Calvo . Presentación de una novela Además, se presentará la novela “¿Quién borró el horizonte?” , de Idangel Betancourt , y Federico Soler conversará con el autor. Habrá canciones a cargo de Miky Calvo. Entrada libre y gratuita La cita es en el subsuelo del Centro Cultural Virla (25 de Mayo 265) y la entrada es libre y gratuita. Un plan perfecto para los amantes de la literatura.\n\nQué: Café Literario y Cultural del Virla Cuándo: sábado 14 de noviembre, 18 h Dónde: Subsuelo – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Participan: Gilda Isaac, Rosana Forgas, Sebastián Ganzburg y Miky Calvo Presentación: “¿Quién borró el horizonte?”, de Idangel Betancourt Entrada: libre y gratuita Fuente: Centro Cultural Virla",
+    "highlighted_metadata": {
+      "qué": "Café Literario y Cultural del Virla Cuándo: sábado 14 de noviembre, 18 h Dónde: Subsuelo – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Participan: Gilda Isaac, Rosana Forgas, Sebastián Ganzburg y Miky Calvo Presentación: “¿Quién borró el horizonte?”, de Idangel Betancourt Entrada: libre y gratuita Fuente: Centro Cultural Virla"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-cafe-literario.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "la Facultad de Filosofía y Letras de la UNT y coordinada por Guillermo Siles",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Centro Cultural Virla realiza este sábado 14 de noviembre a las 18 h una nueva edición del Café Literario y Cultural, con lecturas, música y la presentación de la novela ¿Quién borró el horizonte?, de Idangel Betancourt. La cita es en el subsuelo del espacio ubicado en 25 de Mayo 265, San Miguel de Tucumán. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0375d93291f447ba0623fe36458782ec166f1864dac16281517511ef6c485e3b"
+  },
+  {
+    "id": "47420",
+    "source": "MEC",
+    "title": "14 de Noviembre | Previa y post Divididos gratis en La Gesta Cultural con La Colgada Basautor",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-previa-y-post-divididos-gratis-en-la-gesta-cultural-con-la-colgada-basautor/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Vas al show de Divididos? Entonces la previa ya tiene dirección. La Gesta Cultural , ubicada justo frente a Central Córdoba, organiza una previa y post Divididos con entrada gratuita y música en vivo de La Colgada Basautor . Acústico en la previa La Colgada Basautor celebrará las canciones de la Aplanadora del Rock con un set acústico antes del recital, ideal para ir calentando la garganta y encontrarse con otros fanáticos. Banda completa en el post Y cuando termine el show de Divididos, la fiesta sigue: La Colgada Basautor volverá al escenario con la banda completa para seguir tocando los clásicos de Mollo, Arnedo y Ciavarella. Entrada gratis La cita es el sábado 14 de noviembre desde las 19 h en Av. Alem 747, a pasos del estadio. La entrada es libre y gratuita.\n\nQué: Previa y post Divididos con La Colgada Basautor (tributo) Cuándo: sábado 14 de noviembre, desde las 19 h Dónde: La Gesta Cultural – Av. Alem 747, San Miguel de Tucumán (frente a Central Córdoba) Entrada: gratis Fuente: La Gesta Cultural (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Previa y post Divididos con La Colgada Basautor (tributo) Cuándo: sábado 14 de noviembre, desde las 19 h Dónde: La Gesta Cultural – Av. Alem 747, San Miguel de Tucumán (frente a Central Córdoba) Entrada: gratis Fuente: La Gesta Cultural (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/previa-divididos.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "La Gesta Cultural",
+    "address": "Av. Alem 747, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "una previa y post Divididos con entrada gratuita y música en vivo de",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural%2C+Av.+Alem+747%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Gesta Cultural organiza una previa y post show de Divididos con la música en vivo de La Colgada Basautor. La cita es el sábado 14 de noviembre desde las 19 h en Av. Alem 747, San Miguel de Tucumán, con entrada libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3cbe06a10448ae7b543e4dd25dcacd98df913fd8498bfbc89f5f715df16ded53"
+  },
+  {
+    "id": "47391",
+    "source": "MEC",
+    "title": "14 de Noviembre | Visita guiada nocturna y gratuita por el Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-visita-guiada-nocturna-y-gratuita-por-el-cementerio-del-oeste/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "¿Te animás a recorrer de noche una de las necrópolis más antiguas de la ciudad? Este sábado 14 de noviembre, la Dirección de Cementerios de la Municipalidad de San Miguel de Tucumán propone una nueva visita guiada nocturna por el Cementerio del Oeste , gratuita y sin inscripción previa. Historia, arte y arquitectura El recorrido invita a vecinos y turistas a redescubrir la riqueza histórica, arquitectónica y escultórica del cementerio de calle Asunción. Bóvedas, esculturas y las historias de personajes que marcaron la vida tucumana forman parte de un paseo distinto, que combina patrimonio y misterio. Sin cupo y sin inscripción Las visitas no requieren inscripción previa ni tienen cupo máximo: solo hay que acercarse a la entrada del cementerio, en Asunción 150, a la hora indicada. Las salidas nocturnas son los viernes y sábados a las 20 h, y también hay recorridos diurnos de lunes a jueves a las 17 h. Un plan diferente para la noche Si buscás algo fuera de lo común para hacer en Tucumán, esta visita es ideal para ir con amigos o en familia. Llevá calzado cómodo y sumate a esta experiencia que cada vez convoca a más público.\n\nQué: Visita guiada nocturna al Cementerio del Oeste Cuándo: sábado 14 de noviembre, 20 h Dónde: Cementerio del Oeste – Asunción 150, San Miguel de Tucumán Inscripción: no requiere; sin cupo máximo Entrada: gratuita Otras visitas: viernes y sábados 20 h (nocturnas); lunes a jueves 17 h (diurnas) Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Visita guiada nocturna al Cementerio del Oeste Cuándo: sábado 14 de noviembre, 20 h Dónde: Cementerio del Oeste – Asunción 150, San Miguel de Tucumán Inscripción: no requiere; sin cupo máximo Entrada: gratuita Otras visitas: viernes y sábados 20 h (nocturnas); lunes a jueves 17 h (diurnas) Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cementerio-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Cementerio del Oeste",
+    "address": "Asunción 150, San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "organizer": "a más público",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cementerio+del+Oeste%2C+Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 14 de noviembre a las 20 h se realizará una visita guiada nocturna y gratuita por el Cementerio del Oeste, ubicado en Asunción 150, San Miguel de Tucumán. El recorrido invita a descubrir la historia, la arquitectura y las esculturas de la necrópolis. La actividad no requiere inscripción previa ni tiene cupo máximo.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "ae4e88deaf67b2d08347abe39cba0479a2610bc751d0bacac4c1ef16ac181d17"
+  },
+  {
+    "id": "47394",
+    "source": "MEC",
+    "title": "14 de Noviembre | “Las luces de mi ciudad”: el Bus Turístico SMT vuelve con su recorrido nocturno gratuito",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-las-luces-de-mi-ciudad-el-bus-turistico-smt-vuelve-con-su-recorrido-nocturno-gratuito/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "San Miguel de Tucumán se ve distinta de noche, y el Bus Turístico SMT lo sabe. Este sábado 14 de noviembre vuelve “Las luces de mi ciudad” , el recorrido nocturno gratuito que propone descubrir la capital tucumana desde otra perspectiva. Paradas selfie y edificios iluminados Durante el trayecto se realizan paradas “selfie” en lugares icónicos, se recorren los principales polos de esparcimiento de la ciudad y se destaca la iluminación arquitectónica de los teatros Mercedes Sosa, San Martín y Alberdi . El paseo suma además intervenciones artísticas y culturales. Salida desde Plaza Independencia La salida es a las 20 h desde Plaza Independencia, por calle Laprida primera cuadra, donde se encuentra la parada del Bus Turístico. Inscripción previa La actividad es gratuita, pero hay que anotarse previamente a través del formulario del Bus Turístico de la Municipalidad (busturistico.smt.gob.ar). Se suspende en caso de lluvias fuertes. Ideal para turistas y también para tucumanos que quieran redescubrir su ciudad.\n\nQué: “Las luces de mi ciudad” – Bus Turístico Nocturno Cuándo: sábado 14 de noviembre, 20 h Dónde: salida desde Plaza Independencia, Laprida primera cuadra Inscripción: busturistico.smt.gob.ar Costo: gratuito Importante: se suspende por lluvias fuertes Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "“Las luces de mi ciudad” – Bus Turístico Nocturno Cuándo: sábado 14 de noviembre, 20 h Dónde: salida desde Plaza Independencia, Laprida primera cuadra Inscripción: busturistico.smt.gob.ar Costo: gratuito Importante: se suspende por lluvias fuertes Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/bus-nocturno-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Parada del Bus Turístico SMT",
+    "address": "Laprida 50, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Parada+del+Bus+Tur%C3%ADstico+SMT%2C+Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 14 de noviembre a las 20 h se realizará el recorrido nocturno gratuito del Bus Turístico SMT en San Miguel de Tucumán. La salida será desde la parada en Laprida 50 (Plaza Independencia) para recorrer edificios iluminados y espacios icónicos con intervenciones artísticas. La actividad es gratuita con inscripción previa en busturistico.smt.gob.ar y se suspende por lluvias fuertes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a315466d4d5dc9497965c38e14fdea03b7ffec423c4d2423fe455382cb18e9fb"
+  },
+  {
+    "id": "47406",
+    "source": "MEC",
+    "title": "14 de Noviembre | No Identificados y Odisea comparten escenario en la Casa de la Cultura de Yerba Buena",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-no-identificados-y-odisea-comparten-escenario-en-la-casa-de-la-cultura-de-yerba-buena/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-14T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "Dos bandas, una misma noche. No Identificados y Odisea se presentan juntas este sábado 14 de noviembre en la Casa de la Cultura de Yerba Buena , en una velada de música en vivo dedicada a la escena local. Rock local en vivo La propuesta invita a escuchar las canciones de ambos grupos y a encontrarse con quienes siguen de cerca a las bandas tucumanas. Una noche para descubrir nuevos sonidos y apoyar a los artistas de la provincia. En el corazón de Yerba Buena El show será a las 20.30 h en la Casa de la Historia y la Cultura del Bicentenario, ubicada en Higueritas 1850, Yerba Buena. Entradas anticipadas Las entradas anticipadas se reservan por WhatsApp al 381 661-6416. Reservá tu lugar y vení a disfrutar de la música en vivo.\n\nQué: No Identificados + Odisea en vivo Cuándo: sábado 14 de noviembre, 20.30 h Dónde: Casa de la Cultura de Yerba Buena – Higueritas 1850, Yerba Buena Entradas: anticipadas por WhatsApp al 381 661-6416 Fuente: Casa de la Cultura de Yerba Buena (Instagram)",
+    "highlighted_metadata": {
+      "qué": "No Identificados + Odisea en vivo Cuándo: sábado 14 de noviembre, 20.30 h Dónde: Casa de la Cultura de Yerba Buena – Higueritas 1850, Yerba Buena Entradas: anticipadas por WhatsApp al 381 661-6416 Fuente: Casa de la Cultura de Yerba Buena (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/yb-no-identificados.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Casa de la Cultura de Yerba Buena",
+    "address": "Las Higueritas 1850, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+de+Yerba+Buena%2C+Las+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-14T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Las bandas locales No Identificados y Odisea se presentan juntas en un show de música en vivo. El evento será el sábado 14 de noviembre a las 20:30 h en la Casa de la Cultura de Yerba Buena, ubicada en Las Higueritas 1850. Las entradas anticipadas se pueden reservar por WhatsApp al 381 661-6416.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "56b08213c4e51e14259dbfd5fa96a622ecc2e807cae1d3b8719817ea088d168c"
+  },
+  {
+    "id": "47418",
+    "source": "MEC",
+    "title": "14 de Noviembre | Divididos vuelve a Tucumán con un show en el Club Atlético Central Córdoba",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-divididos-vuelve-a-tucuman-con-un-show-en-el-club-atletico-central-cordoba/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Falta cada vez menos. Divididos , una de las bandas fundamentales del rock argentino, se presenta este sábado 14 de noviembre en el Club Atlético Central Córdoba . Será la segunda vez que la Aplanadora del Rock toque en ese escenario en poco más de un año. Más de tres décadas de historia Formada en 1988 en Hurlingham por Ricardo Mollo y Diego Arnedo , ambos exintegrantes de Sumo, la banda construyó una identidad propia combinando rock con sonidos del folclore y otras expresiones de la música popular. Hoy la formación se completa con el baterista Catriel Ciavarella . Un recorrido lleno de hitos En 1993, “La era de la boludez”, grabado en Estados Unidos con la producción artística de Gustavo Santaolalla, los llevó a tocar trece veces en Obras en un mismo año. En 2015 recibieron su tercer Premio Konex. Según la agenda de la productora, el show tucumano es la única fecha de la banda en el interior del país durante noviembre. Entradas La cita es a las 21 h en Alem 790. Las entradas para campo de pie cuestan $75.000 más gastos de servicio y se venden por Ticketek, en la web del club y en las boleterías de Central Córdoba. Hay tres cuotas sin interés con Visa, Mastercard y American Express.\n\nQué: Divididos en vivo Cuándo: sábado 14 de noviembre, 21 h Dónde: Club Atlético Central Córdoba – Av. Alem 790, San Miguel de Tucumán Entradas: campo de pie $75.000 + gastos de servicio Venta: Ticketek, cctucuman.ar y boleterías del club Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "Divididos en vivo Cuándo: sábado 14 de noviembre, 21 h Dónde: Club Atlético Central Córdoba – Av. Alem 790, San Miguel de Tucumán Entradas: campo de pie $75.000 + gastos de servicio Venta: Ticketek, cctucuman.ar y boleterías del club Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/divididos-scaled.jpg",
+    "price": 75000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Club Atlético Central Córdoba",
+    "address": "Av. Alem 790, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Club+Atl%C3%A9tico+Central+C%C3%B3rdoba%2C+Av.+Alem+790%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La banda de rock argentino Divididos se presentará en vivo el sábado 14 de noviembre a las 21 h en el Club Atlético Central Córdoba, ubicado en Av. Alem 790, San Miguel de Tucumán. Las entradas para campo de pie cuestan $75.000 más gastos de servicio y se pueden adquirir en Ticketek, en la web del club y en sus boleterías.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c3da23ff9779a1f7d1b055af00e28d695e93c64be3fd13574f5d7eb64ddd2cd1"
+  },
+  {
+    "id": "47410",
+    "source": "MEC",
+    "title": "14 de Noviembre | El Coro Universitario de Tucumán ofrece un concierto a cappella en el Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-el-coro-universitario-de-tucuman-ofrece-un-concierto-a-cappella-en-el-teatro-alberdi/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "21:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-14T21:00:00-03:00",
+    "end_datetime": "2026-11-14T21:00:00-03:00",
+    "description": "Las voces toman el protagonismo absoluto en la Sala Mayor del Teatro Alberdi . Este sábado 14 de noviembre, el Coro Universitario de Tucumán presenta un concierto a cappella , una propuesta en la que el canto colectivo se luce sin acompañamiento instrumental. La fuerza de las voces El formato a cappella pone en primer plano la riqueza del trabajo coral: armonías, matices y un repertorio que se sostiene únicamente con la voz humana. Una experiencia especial para los amantes de la música coral y para quienes quieran descubrirla. Un elenco de la UNT El concierto se enmarca en la programación de la Secretaría de Extensión Universitaria de la Universidad Nacional de Tucumán, que administra el Teatro Alberdi. Entradas Las entradas se venden en la web de Mi Entrada Digital y en la boletería del teatro, que atiende jueves, viernes y sábado de 10 a 13 y de 18 a 21 h.\n\nQué: Concierto a cappella – Coro Universitario de Tucumán Cuándo: sábado 14 de noviembre, 21 h Dónde: Sala Mayor – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entradas: mientradadigital.com o boletería del teatro Fuente: Teatro Alberdi (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Concierto a cappella – Coro Universitario de Tucumán Cuándo: sábado 14 de noviembre, 21 h Dónde: Sala Mayor – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entradas: mientradadigital.com o boletería del teatro Fuente: Teatro Alberdi (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi-coro.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Alberdi",
+    "address": "Jujuy 92, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi%2C+Jujuy+92%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "21:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-14T21:00:00-03:00",
+        "end_datetime": "2026-11-14T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Coro Universitario de Tucumán presenta un concierto a cappella en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy 92. La cita es el sábado 14 de noviembre a las 21 horas. Las entradas se pueden adquirir en la web de Mi Entrada Digital y en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "61287f567ecdb7db45e0b51c3753cb95e49657f4e55516f79e1e5bd26bf2c3ce"
+  },
+  {
+    "id": "47404",
+    "source": "MEC",
+    "title": "14 de Noviembre | Pablo Molinari trae “Demasiado”, su nuevo stand up, al Centro Cultural Virla",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-pablo-molinari-trae-demasiado-su-nuevo-stand-up-al-centro-cultural-virla/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La cabeza llena de pensamientos, las mil pestañas abiertas y la sensación de que todo es demasiado. Sobre esas situaciones cotidianas construye “Demasiado” , el nuevo espectáculo de stand up de Pablo Molinari , que llega a Tucumán como parte de su gira nacional. Humor para los que sobrepiensan todo Durante poco más de una hora, Molinari propone un recorrido por observaciones obsesivas, reflexiones innecesarias y preguntas que no siempre tienen respuesta. Con su humor quirúrgico, desarma situaciones de todos los días hasta encontrar el absurdo: la vida, la tecnología, los ruidos, la gente y hasta uno mismo. Para reírse de una cabeza que nunca pone pausa El show invita a reconocerse en las pequeñas manías, en la tendencia a sobrepensar cada situación y en la dificultad de encontrar un botón de pausa en medio del ritmo cotidiano. Entradas La función es el sábado 14 de noviembre a las 21 h en el auditorio del Centro Cultural Virla. Las entradas cuestan $31.000 más gastos de ticketera y se venden a través de Entradanet (Elvirla.entradanet.com).\n\nQué: “Demasiado” – Pablo Molinari (stand up) Cuándo: sábado 14 de noviembre, 21 h Dónde: Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Entradas: $31.000 + gastos de ticketera, en Elvirla.entradanet.com Fuente: Centro Cultural Virla y Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "“Demasiado” – Pablo Molinari (stand up) Cuándo: sábado 14 de noviembre, 21 h Dónde: Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Entradas: $31.000 + gastos de ticketera, en Elvirla.entradanet.com Fuente: Centro Cultural Virla y Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/molinari.webp",
+    "price": 31000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El humorista Pablo Molinari presenta su nuevo espectáculo de stand up titulado Demasiado, una propuesta que reflexiona con humor sobre las situaciones cotidianas y el hábito de sobrepensar. La función será el sábado 14 de noviembre a las 21 h en el auditorio del Centro Cultural Virla, ubicado en 25 de Mayo 265. Las entradas tienen un valor de $31.000 más gastos de ticketera y se consiguen a través de Entradanet.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "71dd493935cbe84539eb262b7ef584f9ffd6307810160e5e70b76e90c2c34860"
+  },
+  {
+    "id": "47393",
+    "source": "MEC",
+    "title": "14 de Noviembre | “Tevye, el lechero”: el clásico de “El violinista en el tejado” sube al Teatro Rosita Ávila",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-tevye-el-lechero-el-clasico-de-el-violinista-en-el-tejado-sube-al-teatro-rosita-avila/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "21:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-11-14T21:00:00-03:00",
+    "end_datetime": "2026-11-14T18:00:00-03:00",
+    "description": "Una historia de familia, tradición y cambio llega al Teatro Municipal Rosita Ávila . Este sábado 14 de noviembre se presenta “Tevye, el lechero” , un espectáculo teatral y musical basado en los relatos de Scholem Aleijem, popularizados en el teatro y el cine como “El violinista en el tejado” . 27 artistas en escena Se trata de un proyecto escénico de la Escuela de Danza Tello & Kozlov , con dirección de la maestra y coreógrafa Alejandra Tello junto a Andrei Kozlov , y coaching vocal de Bety Platte . Actores, cantantes y bailarines (27 en total) dan vida a una puesta que combina teatro, música y danza. La historia de Tevye La obra narra la vida de Tevye, un humilde lechero y padre de cinco hijas, que debe enfrentar los cambios del mundo, los exilios y los amores que desafían las tradiciones de su pueblo. Entre la fe, la identidad y los lazos familiares, intenta comprender una nueva forma de vivir el amor. Funciones y entradas Hay funciones el viernes 13 y el sábado 14 de noviembre a las 21 h. Las entradas se consiguen en la ticketera digital de la Municipalidad (entradas.smt.gob.ar) o en la boletería del teatro, que atiende días hábiles de 9 a 18 h y los días de función desde las 17 h.\n\nQué: “Tevye, el lechero” – Escuela de Danza Tello & Kozlov Cuándo: sábado 14 de noviembre, 21 h (funciones viernes 13 y sábado 14) Dónde: Teatro Municipal Rosita Ávila – Las Piedras 1550, San Miguel de Tucumán Entradas: entradas.smt.gob.ar o boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "“Tevye, el lechero” – Escuela de Danza Tello & Kozlov Cuándo: sábado 14 de noviembre, 21 h (funciones viernes 13 y sábado 14) Dónde: Teatro Municipal Rosita Ávila – Las Piedras 1550, San Miguel de Tucumán Entradas: entradas.smt.gob.ar o boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tevye.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1500, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1500%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "21:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-11-14T21:00:00-03:00",
+        "end_datetime": "2026-11-14T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfruta del musical Tevye, el lechero, basado en El violinista en el tejado, con 27 artistas en escena bajo la dirección de Alejandra Tello y Andrei Kozlov. Las funciones son el viernes 13 y sábado 14 de noviembre a las 21 h en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1550, San Miguel de Tucumán. Las entradas están disponibles en la boletería del teatro y en la web entradas.smt.gob.ar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "5247b6fcec2c676a8ea3435a7a8296886da29480907323d16a91d35925a6de6d"
+  },
+  {
+    "id": "47417",
+    "source": "MEC",
+    "title": "14 de Noviembre | Nacho Godoy rinde tributo a Luis Miguel con banda completa en el Teatro Puerto Libertad",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-nacho-godoy-rinde-tributo-a-luis-miguel-con-banda-completa-en-el-teatro-puerto-libertad/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "21:30",
+    "time_end": "",
+    "start_datetime": "2026-11-14T21:30:00-03:00",
+    "end_datetime": "",
+    "description": "Prepárate para cantar, emocionarte y bailar. Nacho Godoy llega con banda completa al Teatro Puerto Libertad con su Tributo a Luis Miguel , este sábado 14 de noviembre. Las canciones de toda una generación El show repasa los grandes éxitos del Sol de México, esas baladas y temas bailables que marcaron a toda una generación y que siguen sonando en fiestas, reuniones y karaokes. Con banda en vivo Nacho Godoy se presenta en formato “full banda”, para recrear con fidelidad el sonido de los clásicos y lograr una noche de pura nostalgia romántica. Entradas El show es a las 21.30 h en Las Piedras 1850. Las entradas anticipadas se consiguen al 381 511-3509.\n\nQué: Nacho Godoy – Tributo a Luis Miguel (full banda) Cuándo: sábado 14 de noviembre, 21.30 h Dónde: Teatro Puerto Libertad – Las Piedras 1850, San Miguel de Tucumán Entradas: anticipadas al 381 511-3509 Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "Nacho Godoy – Tributo a Luis Miguel (full banda) Cuándo: sábado 14 de noviembre, 21.30 h Dónde: Teatro Puerto Libertad – Las Piedras 1850, San Miguel de Tucumán Entradas: anticipadas al 381 511-3509 Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/nacho-godoy.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Puerto Cultural Libertad",
+    "address": "Las Piedras 1850",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Puerto+Cultural+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "21:30",
+        "time_end": "",
+        "start_datetime": "2026-11-14T21:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "21:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Nacho Godoy presenta un tributo a Luis Miguel en formato de banda completa en el Teatro Puerto Libertad. La cita es el sábado 14 de noviembre a las 21:30 h en Las Piedras 1850. Las entradas anticipadas se pueden conseguir al 381 511-3509.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "eebda741720d443ff4dd20794c45c6a71c0a56739e0b301788f9d1c1919dd9ec"
+  },
+  {
+    "id": "47422",
+    "source": "MEC",
+    "title": "14 de Noviembre | Sábado Escondido: Luz Reinoso, Nahuel Heredia Paz, Sunqu Taqki y Magalí Gómez en la Peña La Escondida",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-sabado-escondido-luz-reinoso-nahuel-heredia-paz-sunqu-taqki-y-magali-gomez-en-la-pena-la-escondida/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tucumán, Salta y Córdoba se juntan en un mismo escenario. Este sábado 14 de noviembre, la Peña La Escondida presenta el Sábado Escondido , una noche con artistas de lujo, bar y la clásica guitarreada. Quiénes se presentan La cartelera reúne a Luz Reinoso, Nahuel Heredia Paz, Sunqu Taqki y Magalí Gómez , con artistas que llegan especialmente desde Orán (Salta) y desde Córdoba para compartir la noche con el público tucumano. La experiencia completa Show en vivo, peña, bar y guitarreada desde las 22 h hasta la madrugada: la fórmula de La Escondida para disfrutar del folclore entre amigos. Reservas de mesa Para quienes quieren llegar temprano y cenar, la peña toma reservas de mesa al 381 561-6818. La Escondida está en Miguel Lillo 234, San Miguel de Tucumán.\n\nQué: Sábado Escondido en Peña La Escondida Artistas: Luz Reinoso, Nahuel Heredia Paz, Sunqu Taqki y Magalí Gómez Cuándo: sábado 14 de noviembre, desde las 22 h Dónde: Peña La Escondida – Miguel Lillo 234, San Miguel de Tucumán Reservas de mesa: 381 561-6818 Fuente: Peña La Escondida (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Sábado Escondido en Peña La Escondida Artistas: Luz Reinoso, Nahuel Heredia Paz, Sunqu Taqki y Magalí Gómez Cuándo: sábado 14 de noviembre, desde las 22 h Dónde: Peña La Escondida – Miguel Lillo 234, San Miguel de Tucumán Reservas de mesa: 381 561-6818 Fuente: Peña La Escondida (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/escondida-sabado.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Sábado Escondido en la Peña La Escondida ofrece una noche de folclore con las actuaciones de Luz Reinoso, Nahuel Heredia Paz, Sunqu Taqki y Magalí Gómez. El evento se realiza el sábado 14 de noviembre, desde las 22 h, en Miguel Lillo 234, San Miguel de Tucumán. Se pueden hacer reservas de mesa al 381 561-6818.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b3bbdf3acc3a6ea8c12e75747fa202c437105f5df0abf1a053e3883f333cc5b7"
+  },
+  {
+    "id": "47412",
+    "source": "MEC",
+    "title": "14 de Noviembre | “Poly. Si el loro se viste de seda”, la obra de Huerto Bravo Yñigo, en Casa Luján",
+    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-poly-si-el-loro-se-viste-de-seda-la-obra-de-huerto-bravo-ynigo-en-casa-lujan/",
+    "date_start": "2026-11-14",
+    "date_end": "2026-11-14",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-14T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Bajo Poncho Teatro y Casa Luján Productora Teatral presentan “Poly. Si el loro se viste de seda” , una obra escrita e interpretada por Huerto Bravo Yñigo , que llega este sábado 14 de noviembre con su penúltima función de 2026. Los recuerdos de una mascota El acontecimiento teatral se centra en los recuerdos de “El Poly”, una mascota, a través de los cuales la actriz atraviesa su propia memoria para emocionar, seducir y cautivar. La obra explora el duelo, lo familiar, la pérdida, el amor incondicional y la compañía, en un viaje no lineal por un mapa emocional que demuestra que la lealtad y los recuerdos no se borran con el tiempo. Equipo creativo La dirección es de César Romero . El diseño y la creación de dispositivos escénicos son de Víctor Bravo, César Romero y Huerto Bravo Yñigo; el vestuario, de Olga Sánchez; maquillaje y peinado, de Ana Quinteros; y fotografía, video y edición, de Matías Chilo. Entradas La función es a las 22 h en Casa Luján Centro Cultural Alternativo, Saavedra 74. La entrada general cuesta $20.000 y hay promoción de 2 x $30.000 hasta el viernes.\n\nQué: “Poly. Si el loro se viste de seda” – Huerto Bravo Yñigo Dirección: César Romero Cuándo: sábado 14 de noviembre, 22 h (penúltima función 2026) Dónde: Casa Luján Centro Cultural Alternativo – Saavedra 74, San Miguel de Tucumán Entradas: general $20.000; promo 2 x $30.000 hasta el viernes Fuente: Casa Luján (Instagram)",
+    "highlighted_metadata": {
+      "qué": "“Poly. Si el loro se viste de seda” – Huerto Bravo Yñigo Dirección: César Romero Cuándo: sábado 14 de noviembre, 22 h (penúltima función 2026) Dónde: Casa Luján Centro Cultural Alternativo – Saavedra 74, San Miguel de Tucumán Entradas: general $20.000; promo 2 x $30.000 hasta el viernes Fuente: Casa Luján (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/poly.webp",
+    "price": 20000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Casa Luján Centro Cultural Alternativo",
+    "address": "Saavedra 74, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Luj%C3%A1n+Centro+Cultural+Alternativo%2C+Saavedra+74%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-14",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-14T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-14",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 14 de noviembre a las 22 h se presentará la obra teatral Poly. Si el loro se viste de seda, escrita e interpretada por Huerto Bravo Yñigo y dirigida por César Romero. La cita será en Casa Luján Centro Cultural Alternativo, ubicado en Saavedra 74, San Miguel de Tucumán. La entrada general cuesta $20.000 y hay una promoción de 2 por $30.000 disponible hasta el viernes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "781ea6c53e3bdff628ac39926eb30477e67c22ca12560180834f4d7a090e9662"
+  },
+  {
+    "id": "47409",
+    "source": "MEC",
+    "title": "Hasta el 15 de Noviembre | Última semana de “Arte Fauna 2026”, la muestra de Lourdes Luna Hernández en el Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/hasta-el-15-de-noviembre-ultima-semana-de-arte-fauna-2026-la-muestra-de-lourdes-luna-hernandez-en-el-teatro-alberdi/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "10:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T10:00:00-03:00",
+    "end_datetime": "",
+    "description": "Quedan pocos días para visitar “Arte Fauna 2026” , la exposición de Lourdes Luna Hernández que se exhibe en el foyer de boletería del Teatro Alberdi . Esta es su última semana. Nuestra fauna en riesgo La muestra reúne ilustraciones sobre lienzo dedicadas a especies de nuestra fauna que se encuentran en riesgo. Una propuesta que combina arte y conciencia ambiental, ideal para recorrer en familia. En el foyer del teatro Las obras se pueden ver en el foyer de boletería del Teatro Alberdi, en Jujuy 92, en pleno centro de San Miguel de Tucumán. Entrada libre La visita es libre y gratuita. Si vas a alguna función del teatro esta semana, aprovechá para recorrerla.\n\nQué: Muestra “Arte Fauna 2026” – Lourdes Luna Hernández Cuándo: última semana, hasta el domingo 15 de noviembre Dónde: Foyer de boletería – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Teatro Alberdi (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Muestra “Arte Fauna 2026” – Lourdes Luna Hernández Cuándo: última semana, hasta el domingo 15 de noviembre Dónde: Foyer de boletería – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Teatro Alberdi (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi-arte-fauna.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Teatro Alberdi",
+    "address": "Jujuy 92, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi%2C+Jujuy+92%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "10:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T10:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-10",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Arte Fauna 2026 es la exposición de ilustraciones sobre lienzo de Lourdes Luna Hernández dedicada a especies de fauna en riesgo. La muestra se puede visitar con entrada libre y gratuita en el foyer de boletería del Teatro Alberdi, ubicado en Jujuy 92, San Miguel de Tucumán, hasta el 15 de noviembre de 2026.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "116a7183444b52f8358435afd4cf00c4bc2e2c8b00e128f2e8a11e6ff4d88a1f"
+  },
+  {
+    "id": "47395",
+    "source": "MEC",
+    "title": "15 de Noviembre | City Tour gratuito en el Bus Turístico SMT con visita al Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-city-tour-gratuito-en-el-bus-turistico-smt-con-visita-al-cementerio-del-oeste/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un domingo para conocer la historia de la ciudad sin bajarse del bus. El Bus Turístico SMT realiza este domingo 15 de noviembre su City Tour por los lugares más notables de San Miguel de Tucumán, con una parada especial en el Cementerio del Oeste . Un recorrido por lo más emblemático Es un paseo guiado de dos horas que inicia y finaliza en Plaza Independencia y abarca el entorno histórico, institucional y religioso de la capital tucumana. En esta edición, el itinerario incluye una visita al Cementerio del Oeste, uno de los espacios patrimoniales más valiosos de la ciudad. Cómo inscribirse Las inscripciones se hacen a través de los códigos QR que están en la parada de calle Laprida 50 o mediante el formulario digital del Bus Turístico (busturistico.smt.gob.ar). Un plan gratuito para toda la familia El servicio es gratuito. Si tenés visitas en casa o querés redescubrir tu ciudad, es una muy buena opción para la tarde del domingo.\n\nQué: City Tour del Bus Turístico SMT con visita al Cementerio del Oeste Cuándo: domingo 15 de noviembre, 16 h Duración: dos horas aproximadamente Dónde: salida desde la parada de Laprida 50, Plaza Independencia Inscripción: códigos QR en la parada o busturistico.smt.gob.ar Costo: gratuito Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "City Tour del Bus Turístico SMT con visita al Cementerio del Oeste Cuándo: domingo 15 de noviembre, 16 h Duración: dos horas aproximadamente Dónde: salida desde la parada de Laprida 50, Plaza Independencia Inscripción: códigos QR en la parada o busturistico.smt.gob.ar Costo: gratuito Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/city-tour.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Parada del Bus Turístico SMT",
+    "address": "Laprida 50, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Parada+del+Bus+Tur%C3%ADstico+SMT%2C+Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfrutá de un City Tour gratuito en el Bus Turístico SMT el domingo 15 de noviembre a las 16 h. El recorrido guiado dura dos horas, sale desde Laprida 50 frente a Plaza Independencia e incluye una visita al Cementerio del Oeste. La actividad es gratuita y requiere inscripción previa mediante códigos QR en la parada o en busturistico.smt.gob.ar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "aee97e4719afb109d15d2d7839c929d0ee640d28892d5edcbea42d8b9da439dd"
+  },
+  {
+    "id": "47396",
+    "source": "MEC",
+    "title": "15 de Noviembre | Danza urbana, rap y freestyle en el Encuentro de Cultura Joven del Parque 9 de Julio",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-danza-urbana-rap-y-freestyle-en-el-encuentro-de-cultura-joven-del-parque-9-de-julio/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "La cultura urbana toma la Casa de la Cultura Municipal del Parque 9 de Julio . Este domingo 15 de noviembre llega una nueva edición del Ciclo “Esquinas” , dentro del programa “Cultura Joven” de la Subsecretaría de Cultura municipal, con competencias de danza y rap. Competencias de danza All Style y Cypher Rap La jornada celebrará las expresiones artísticas urbanas con competencias de danza All Style en categorías iniciales y avanzados, y un Cypher Rap con la participación de Alan, Arty, Bigggtrue, El Colo, Puxo y Emere Duilio. Jurado, host y DJ El jurado estará integrado por Juan 99K, Naomi Weslah y Dani Pons. La conducción estará a cargo de Pam y la música, de DJ Sphinge, que animará la jam de freestyle de danza. Habrá premios: un parlante para el primer puesto y auriculares para el segundo. Inscripciones y horarios Las inscripciones se abren a las 16 h en la Casa de la Cultura (avenida Gobernador del Campo y Capitán Cáceres) y la actividad comienza a las 18 h. La participación es libre y gratuita y no se suspende por lluvia. ¡Preparate para bailar, rapear o alentar!\n\nQué: Encuentro de Cultura Joven – Ciclo “Esquinas” Cuándo: domingo 15 de noviembre; inscripciones desde las 16 h, actividad desde las 18 h Dónde: Casa de la Cultura Municipal – Parque 9 de Julio (av. Gobernador del Campo y Capitán Cáceres) Actividades: danza All Style, Cypher Rap, jam de freestyle Premios: parlante (1.º) y auriculares (2.º) Entrada: libre y gratuita; no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán",
+    "highlighted_metadata": {
+      "qué": "Encuentro de Cultura Joven – Ciclo “Esquinas” Cuándo: domingo 15 de noviembre; inscripciones desde las 16 h, actividad desde las 18 h Dónde: Casa de la Cultura Municipal – Parque 9 de Julio (av. Gobernador del Campo y Capitán Cáceres) Actividades: danza All Style, Cypher Rap, jam de freestyle Premios: parlante (1.º) y auriculares (2.º) Entrada: libre y gratuita; no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cultura-joven.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura Municipal – Parque 9 de Julio",
+    "address": "Av. Gobernador del Campo y Capitán Cáceres, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+Municipal+%E2%80%93+Parque+9+de+Julio%2C+Av.+Gobernador+del+Campo+y+Capit%C3%A1n+C%C3%A1ceres%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El domingo 15 de noviembre se realizará el Encuentro de Cultura Joven del Ciclo Esquinas en la Casa de la Cultura Municipal del Parque 9 de Julio. Habrá competencias de danza All Style y Cypher Rap, además de una jam de freestyle. Las inscripciones abrirán a las 16 h y la actividad comenzará a las 18 h con entrada libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "d75abc43e2704f6604b805ba6c67558d2dd9c9ca683afbe8cb10cd36861ca974"
+  },
+  {
+    "id": "47405",
+    "source": "MEC",
+    "title": "15 de Noviembre | “Wonka”, la adaptación teatral y musical para disfrutar en familia en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-wonka-la-adaptacion-teatral-y-musical-para-disfrutar-en-familia-en-el-virla/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "Fantasía, dulces y mucho humor: este domingo 15 de noviembre llega al auditorio del Centro Cultural Virla “Wonka” , una adaptación teatral y musical inspirada en “Charlie y la fábrica de chocolate”. Una aventura mágica La obra propone un viaje al universo del excéntrico chocolatero, con personajes sorprendentes, canciones y escenas llenas de color pensadas para chicos y grandes. Plan familiar de domingo La función es a las 18 h, un horario ideal para ir con toda la familia y cerrar el fin de semana con una salida distinta en el centro de la ciudad. Entradas Las entradas cuestan $13.000 y se consiguen a través de la ticketera del Virla (Elvirla.entradanet.com) o por WhatsApp al 381 467-4536.\n\nQué: “Wonka” – Adaptación teatral y musical Cuándo: domingo 15 de noviembre, 18 h Dónde: Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Entradas: $13.000 – Elvirla.entradanet.com o WhatsApp 381 467-4536 Fuente: Centro Cultural Virla",
+    "highlighted_metadata": {
+      "qué": "“Wonka” – Adaptación teatral y musical Cuándo: domingo 15 de noviembre, 18 h Dónde: Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Entradas: $13.000 – Elvirla.entradanet.com o WhatsApp 381 467-4536 Fuente: Centro Cultural Virla"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-wonka.webp",
+    "price": 13000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El domingo 15 de noviembre a las 18 h se presenta en el auditorio del Centro Cultural Virla, ubicado en 25 de Mayo 265 de San Miguel de Tucumán, la adaptación teatral y musical \"Wonka\". Es un espectáculo familiar lleno de fantasía y canciones inspirado en \"Charlie y la fábrica de chocolate\". Las entradas cuestan $13.000 y se adquieren en Elvirla.entradanet.com o por WhatsApp al 381 467-4536.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "8735a3fa4cf472c8874ee1c4db72129e597766e1e3df58506483009390a9a412"
+  },
+  {
+    "id": "47399",
+    "source": "MEC",
+    "title": "15 de Noviembre | Cine en el Living proyecta “El regreso de los muertos vivos” en CiTá Abasto de Cultura",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-cine-en-el-living-proyecta-el-regreso-de-los-muertos-vivos-en-cita-abasto-de-cultura/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Los muertos se levantan y los 80 vuelven a la vida. Este domingo 15 de noviembre, el ciclo Cine en el Living de CiTá Abasto de Cultura proyecta “El regreso de los muertos vivos” (1985) , el clásico de culto de Dan O’Bannon. Terror, humor negro y punk La película mezcla horror, comedia y música punk en una historia de zombies hambrientos de cerebros que se convirtió en un clásico de culto de los 80. Una noche ideal para los amantes del género y para quienes quieran descubrirla por primera vez en pantalla gigante. Mucho más que una película La propuesta incluye proyección en idioma original con subtítulos en español, trivia, regalos sorpresa y servicio de bar. La bienvenida es a las 20 h y la película comienza a las 20.30 h. Cupos súper limitados La entrada cuesta $6.000 y los lugares son limitados, por lo que conviene reservar con anticipación por WhatsApp. CiTá está en Lamadrid 1457. ¡Vení vivo… y tratá de salir igual!\n\nQué: Cine en el Living: “El regreso de los muertos vivos” (1985) Cuándo: domingo 15 de noviembre; bienvenida 20 h, película 20.30 h Dónde: CiTá Abasto de Cultura – Lamadrid 1457, San Miguel de Tucumán Entrada: $6.000 Incluye: pantalla gigante, versión subtitulada, trivia, regalos sorpresa y bar Reservas: por WhatsApp (cupos limitados) Fuente: Publicación de Fernando Ríos Kissner en Facebook",
+    "highlighted_metadata": {
+      "qué": "Cine en el Living: “El regreso de los muertos vivos” (1985) Cuándo: domingo 15 de noviembre; bienvenida 20 h, película 20.30 h Dónde: CiTá Abasto de Cultura – Lamadrid 1457, San Miguel de Tucumán Entrada: $6.000 Incluye: pantalla gigante, versión subtitulada, trivia, regalos sorpresa y bar Reservas: por WhatsApp (cupos limitados) Fuente: Publicación de Fernando Ríos Kissner en Facebook"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cine-living.jpg",
+    "price": 6000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "CiTá Abasto de Cultura",
+    "address": "Lamadrid 1457, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=CiT%C3%A1+Abasto+de+Cultura%2C+Lamadrid+1457%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El ciclo Cine en el Living proyecta el clásico de culto “El regreso de los muertos vivos” con trivia, regalos y servicio de bar. La cita es el domingo 15 de noviembre en CiTá Abasto de Cultura, ubicado en Lamadrid 1457. La bienvenida es a las 20 h y la función comienza a las 20:30 h, con una entrada de $6.000 y cupos limitados con reserva previa por WhatsApp.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "878d5ca58022e441e3da3ac47693490265ba64fb417fecd15eeea8f613e0d66a"
+  },
+  {
+    "id": "47411",
+    "source": "MEC",
+    "title": "15 de Noviembre | Franco Arroyo se presenta en vivo en la Sala Mayor del Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-franco-arroyo-se-presenta-en-vivo-en-la-sala-mayor-del-teatro-alberdi/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "20:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-15T20:00:00-03:00",
+    "end_datetime": "2026-11-15T21:00:00-03:00",
+    "description": "El domingo tiene música en el Teatro Alberdi. Franco Arroyo se presenta en vivo este 15 de noviembre en la Sala Mayor del histórico teatro de calle Jujuy, con un show pensado para disfrutar de cerca su repertorio. Un concierto en uno de los escenarios más lindos de la ciudad La Sala Mayor del Teatro Alberdi es uno de los espacios más emblemáticos de San Miguel de Tucumán, ideal para una noche de música en vivo con gran acústica y un entorno cargado de historia. Plan de domingo a la noche La función comienza a las 20 h, un horario cómodo para cerrar el fin de semana con una salida cultural en el centro de la ciudad. Entradas Las entradas están disponibles en la web de Mi Entrada Digital y en la boletería del teatro, que atiende de jueves a domingo de 10 a 13 y de 18 a 21 h.\n\nQué: Franco Arroyo en vivo Cuándo: domingo 15 de noviembre, 20 h Dónde: Sala Mayor – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entradas: mientradadigital.com o boletería del teatro Fuente: Teatro Alberdi (Instagram)",
+    "highlighted_metadata": {
+      "qué": "Franco Arroyo en vivo Cuándo: domingo 15 de noviembre, 20 h Dónde: Sala Mayor – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entradas: mientradadigital.com o boletería del teatro Fuente: Teatro Alberdi (Instagram)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi-franco-arroyo.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Alberdi",
+    "address": "Jujuy 92, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi%2C+Jujuy+92%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "20:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-15T20:00:00-03:00",
+        "end_datetime": "2026-11-15T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El músico Franco Arroyo se presenta en vivo en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy 92, San Miguel de Tucumán. El concierto será el domingo 15 de noviembre de 2026 a las 20 h. Las entradas se pueden adquirir en la web de Mi Entrada Digital y en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "404f6f6e74a382a8b440bf35d28258095beabc1c386436b54656eeae565b4a00"
+  },
+  {
+    "id": "47397",
+    "source": "MEC",
+    "title": "15 de Noviembre | “Derrapando” vuelve al Rosita Ávila con seis comediantes y una noche de stand up",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-derrapando-vuelve-al-rosita-avila-con-seis-comediantes-y-una-noche-de-stand-up/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "20:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-11-15T20:00:00-03:00",
+    "end_datetime": "2026-11-15T18:00:00-03:00",
+    "description": "Seis comediantes, muchas historias reales y ninguna garantía de salir igual que como entraste. “Derrapando” , el show de stand up que ya pasó por la ciudad, vuelve al Teatro Municipal Rosita Ávila este domingo 15 de noviembre. Humor sobre lo que nos pasa a todos Los comediantes subirán al escenario a contar lo que les pasó de verdad: la pareja, las citas, los hijos, los amigos y la infancia. Una noche para olvidarse de los problemas, soltar la carcajada y descubrir que siempre hay alguien más desquiciado que uno. Quiénes se suben al escenario Participan Tania Zuco, Pía Manghera, Gustavo Romano, Ratón Vega, Fran Ricci y Ago Manser , en un show coral donde cada uno aporta su estilo. Entradas Las entradas se pueden conseguir en la ticketera digital de la Municipalidad (entradas.smt.gob.ar) o en la boletería del teatro, que atiende días hábiles de 9 a 18 h y los días de función desde las 17 h.\n\nQué: “Derrapando” – Stand up Elenco: Tania Zuco, Pía Manghera, Gustavo Romano, Ratón Vega, Fran Ricci y Ago Manser Cuándo: domingo 15 de noviembre, 20 h Dónde: Teatro Municipal Rosita Ávila – Las Piedras 1550, San Miguel de Tucumán Entradas: entradas.smt.gob.ar o boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán y prensa del espectáculo",
+    "highlighted_metadata": {
+      "qué": "“Derrapando” – Stand up Elenco: Tania Zuco, Pía Manghera, Gustavo Romano, Ratón Vega, Fran Ricci y Ago Manser Cuándo: domingo 15 de noviembre, 20 h Dónde: Teatro Municipal Rosita Ávila – Las Piedras 1550, San Miguel de Tucumán Entradas: entradas.smt.gob.ar o boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán y prensa del espectáculo"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/derrapando.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1500, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1500%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "20:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-11-15T20:00:00-03:00",
+        "end_datetime": "2026-11-15T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El show de stand up Derrapando regresa con seis comediantes para ofrecer una noche de humor sobre historias reales y cotidianas. La función será el domingo 15 de noviembre a las 20 h en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1500, San Miguel de Tucumán. Las entradas se pueden adquirir en la web de la Municipalidad o en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "389590763d1681b33c925556757899ccfd3592a88a592b7ac04d81158cfd1703"
+  },
+  {
+    "id": "47388",
+    "source": "MEC",
+    "title": "15 de Noviembre | “La Casa”, el thriller de Gustavo Triviño, llega al Espacio INCAA Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-la-casa-el-thriller-de-gustavo-trivino-llega-al-espacio-incaa-tucuman/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Espacio INCAA Tucumán suma a su cartelera “La Casa” , la película de Gustavo Triviño que se podrá ver en la Sala Orestes Caviglia en tres funciones, desde el domingo 15 hasta el martes 17 de noviembre. Una venta que se vuelve una trampa Despedido de una multinacional y bajo presión económica, Hugo Vaca decide vender su casa a un enigmático grupo de inversores. Lo que parecía una salida termina llevándolo a una situación cada vez más incierta y peligrosa. Un relato de suspenso que dialoga con la crisis, el desempleo y la vulnerabilidad. Días y horarios de las funciones Las proyecciones serán el domingo 15 y el lunes 16 a las 20 h , y el martes 17 a las 18 h , en la Sala Orestes Caviglia (San Martín 251). Cine nacional a precio accesible La entrada general cuesta $4.000 y hay valor especial de $2.500 para estudiantes y jubilados. Una excelente oportunidad para apoyar el cine argentino en pantalla grande.\n\nQué: “La Casa”, de Gustavo Triviño – Espacio INCAA Tucumán Cuándo: domingo 15 y lunes 16 de noviembre a las 20 h; martes 17 a las 18 h Dónde: Sala Orestes Caviglia – San Martín 251, San Miguel de Tucumán Entradas: general $4.000; estudiantes y jubilados $2.500 Fuente: Ente Cultural de Tucumán",
+    "highlighted_metadata": {
+      "qué": "“La Casa”, de Gustavo Triviño – Espacio INCAA Tucumán Cuándo: domingo 15 y lunes 16 de noviembre a las 20 h; martes 17 a las 18 h Dónde: Sala Orestes Caviglia – San Martín 251, San Miguel de Tucumán Entradas: general $4.000; estudiantes y jubilados $2.500 Fuente: Ente Cultural de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/la-casa.jpeg",
+    "price": 4000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Sala Orestes Caviglia",
+    "address": "San Martín 251, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Orestes+Caviglia%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Espacio INCAA Tucumán proyectará el thriller nacional La Casa, dirigido por Gustavo Triviño, en la Sala Orestes Caviglia ubicada en San Martín 251. Las funciones serán el domingo 15 y lunes 16 de noviembre a las 20 h, y el martes 17 a las 18 h. La entrada general cuesta $4.000, con un valor de $2.500 para estudiantes y jubilados.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "488b3235d2387ac1dedc28f753d0b8f0a9a1210c3660f335487e23a23b1dec47"
+  },
+  {
+    "id": "47419",
+    "source": "MEC",
+    "title": "15 de Noviembre | “Esto soy yo… Espíritu de cuerpo”, teatro desde Santiago del Estero en el Puerto Libertad",
+    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-esto-soy-yo-espiritu-de-cuerpo-teatro-desde-santiago-del-estero-en-el-puerto-libertad/",
+    "date_start": "2026-11-15",
+    "date_end": "2026-11-15",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-15T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Ciclo de Teatro del NOA , coordinado por el Grupo La Vorágine, trae al Teatro Puerto Libertad la obra “Esto soy yo… Espíritu de cuerpo” , con dramaturgia de Rekiva y dirección de Ezequiel Vallejo Moro , llegada desde Santiago del Estero. Disciplina, poder e identidad La obra pone en escena los conflictos entre la disciplina, el poder, la identidad y el deseo de pertenecer. Aborda temas como la discriminación, el hostigamiento, el abuso de poder y la salud mental, invitando a reflexionar sobre realidades que atraviesan especialmente a las adolescencias. Una obra para dialogar La propuesta ofrece una oportunidad para trabajar la empatía, el respeto por la diversidad, la prevención del acoso y la violencia, la identificación de situaciones de sufrimiento y la importancia de pedir ayuda. El elenco está integrado por Lucía Castellani, Gabriel Díaz, Germán Puntano, Juan Cruz Tenaglia Speciale y Joel Martínez. Función y entradas La función es el domingo 15 de noviembre a las 21 h en Las Piedras 1850. Es apta para mayores de 16 años. Las entradas están disponibles a través del perfil de Instagram de la sala.\n\nQué: “Esto soy yo… Espíritu de cuerpo” – Ciclo de Teatro del NOA Dirección: Ezequiel Vallejo Moro (dramaturgia de Rekiva) Cuándo: domingo 15 de noviembre, 21 h Dónde: Teatro Puerto Libertad – Las Piedras 1850, San Miguel de Tucumán Público: apta para mayores de 16 años Entradas: a través del perfil de la sala en redes sociales Fuente: Agenda El Tucumano",
+    "highlighted_metadata": {
+      "qué": "“Esto soy yo… Espíritu de cuerpo” – Ciclo de Teatro del NOA Dirección: Ezequiel Vallejo Moro (dramaturgia de Rekiva) Cuándo: domingo 15 de noviembre, 21 h Dónde: Teatro Puerto Libertad – Las Piedras 1850, San Miguel de Tucumán Público: apta para mayores de 16 años Entradas: a través del perfil de la sala en redes sociales Fuente: Agenda El Tucumano"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/este-soy-yo.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Puerto Cultural Libertad",
+    "address": "Las Piedras 1850",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Puerto+Cultural+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-15",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-15T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-15",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El domingo 15 de noviembre a las 21 h se presentará la obra de teatro Esto soy yo… Espíritu de cuerpo, llegada desde Santiago del Estero en el marco del Ciclo de Teatro del NOA. La función será en el Teatro Puerto Cultural Libertad, ubicado en Las Piedras 1850. La propuesta es apta para mayores de 16 años y las entradas se adquieren mediante el Instagram de la sala.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c9e5700895f7a8eb323c860bd29233d17812a9b2b64d5dd71d268ee22f55b350"
+  },
+  {
     "id": "47303",
     "source": "MEC",
     "title": "19 de Noviembre | Peña a beneficio con Cecilia Paliza, Canto Tucumano y Leandro Robin para la Fundación Agrónomos por la Infancia",
@@ -307,6 +3216,82 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "e45f05674b94662d02ae76d309dc930078bdf65df16464cb478f88cf4dd27036"
+  },
+  {
+    "id": "47400",
+    "source": "MEC",
+    "title": "Hasta el 21 de Noviembre | “Arte que da vida”: la muestra de dibujos y pinturas de Bastidores Tuc en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/hasta-el-21-de-noviembre-arte-que-da-vida-la-muestra-de-dibujos-y-pinturas-de-bastidores-tuc-en-el-virla/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "09:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T09:00:00-03:00",
+    "end_datetime": "",
+    "description": "Las salas del Centro Cultural Virla se llenan de color con “Arte que da vida” , la muestra de dibujos y pinturas del taller Bastidores Tuc , que puede visitarse hasta el 21 de noviembre. Una muestra de taller La exposición reúne obras realizadas por alumnos del taller, en una propuesta que pone en valor el proceso de aprendizaje y la expresión artística a través del dibujo y la pintura. Paisajes, naturaleza y retratos conviven en un recorrido amable para todo público. Dónde verla La muestra se exhibe en la Sala Pequeña y en la Sala Semicircular Mercedes Chenaut del Virla, en 25 de Mayo 265. Fue inaugurada el miércoles 11 de noviembre y continúa abierta durante los próximos días. Un plan para cualquier día de la semana Si pasás por el centro, date una vuelta por el Virla: además de esta exposición, el centro cultural tiene una cartelera semanal con música, teatro, humor y literatura.\n\nQué: Muestra “Arte que da vida” – Bastidores Tuc (dibujos y pinturas) Cuándo: del 11 al 21 de noviembre Dónde: Sala Pequeña y Sala Semicircular Mercedes Chenaut – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Fuente: Centro Cultural Virla",
+    "highlighted_metadata": {
+      "qué": "Muestra “Arte que da vida” – Bastidores Tuc (dibujos y pinturas) Cuándo: del 11 al 21 de noviembre Dónde: Sala Pequeña y Sala Semicircular Mercedes Chenaut – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Fuente: Centro Cultural Virla"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-arte-vida.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "09:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T09:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-11",
+      "card_time": "09:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Hasta el 21 de noviembre se puede visitar Arte que da vida, una muestra de dibujos y pinturas del taller Bastidores Tuc. La exposición reúne obras de los alumnos en las salas Pequeña y Semicircular Mercedes Chenaut del Centro Cultural Virla, ubicado en 25 de Mayo 265, San Miguel de Tucumán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6480776625cb37e79c9e04161f490087c5f3b2cbedbc85f75d44ac21a6173c15"
   },
   {
     "id": "46856",
