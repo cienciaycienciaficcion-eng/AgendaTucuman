@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-12T17:02:18.051549-03:00",
+  "generated_at": "2026-11-13T03:54:30.259005-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "GODZILLA MINUS ZERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 135,
       "genres": [
         "Ciencia Ficción"
@@ -47,7 +47,7 @@
       "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 130,
       "genres": [
         "Animación Aventuras"
@@ -88,7 +88,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -128,7 +128,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -215,7 +215,7 @@
       "title": "COMO ROBAR UN BANCO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 122,
       "genres": [
         "Acción Thriller"
@@ -308,7 +308,7 @@
       "title": "COMO ROBAR UN BANCO - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-15",
       "duration_minutes": 122,
       "genres": [
         "Acción Thriller"
@@ -353,7 +353,7 @@
       "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 115,
       "genres": [
         "Fantasía"
@@ -401,7 +401,7 @@
       "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-15",
       "duration_minutes": 115,
       "genres": [
         "Fantasía"
@@ -449,7 +449,7 @@
       "title": "PLUMAS OPERACION RESCATE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-13",
       "duration_minutes": 85,
       "genres": [
         "Animación"
@@ -492,7 +492,7 @@
       "title": "ANIQUILACIÓN - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-12",
+      "release_date": "2026-11-15",
       "duration_minutes": 32,
       "genres": [
         "Acción Thriller"
