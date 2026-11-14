@@ -1,81 +1,5 @@
 [
   {
-    "id": "47264",
-    "source": "MEC",
-    "title": "5 de Noviembre | Llega la 5ª Fiesta Nacional del Sánguche de Milanesa a Yerba Buena con cuatro días de festejo",
-    "url": "https://agendatucuman.com.ar/eventos/5-de-noviembre-llega-la-5a-fiesta-nacional-del-sanguche-de-milanesa-a-yerba-buena-con-cuatro-dias-de-festejo/",
-    "date_start": "2026-11-05",
-    "date_end": "2026-11-05",
-    "time_start": "18:00",
-    "time_end": "",
-    "start_datetime": "2026-11-05T18:00:00-03:00",
-    "end_datetime": "",
-    "description": "Crocante, abundante y bien tucumano: el sánguche de milanesa tiene su propia fiesta nacional y vuelve por quinta vez a Yerba Buena. Del jueves 5 al domingo 8 de noviembre, la Sociedad Rural Tucumán será el punto de encuentro para los amantes de uno de los platos más queridos del país. Cuatro días para disfrutar La Fiesta Nacional del Sánguche de Milanesa se extiende durante todo el fin de semana largo de actividades, con apertura desde las 18 cada jornada. Es una propuesta pensada para ir en familia, con amigos o en pareja y probar distintas versiones del clásico. Un clásico de la gastronomía popular Con su quinta edición, la fiesta consolida un espacio que celebra la cocina popular y reúne a productores, cocineros y público alrededor de un mismo sabor. Si buscás qué hacer en Tucumán este fin de semana con un plan para comer rico, esta es una cita imperdible. Cómo llegar y cuándo ir El predio de la Sociedad Rural Tucumán está en Yerba Buena. Las puertas abren desde las 18 del jueves 5 al domingo 8. Para conocer la grilla artística, los valores de entrada y otros detalles, seguí las redes oficiales de la fiesta. ¡Llevá hambre y sumate a esta celebración!\n\nQué: 5ª Fiesta Nacional del Sánguche de Milanesa Cuándo: del jueves 5 al domingo 8 de noviembre, desde las 18 Dónde: Sociedad Rural Tucumán, Yerba Buena Categoría: evento cultural y gastronómico",
-    "highlighted_metadata": {
-      "qué": "5ª Fiesta Nacional del Sánguche de Milanesa Cuándo: del jueves 5 al domingo 8 de noviembre, desde las 18 Dónde: Sociedad Rural Tucumán, Yerba Buena Categoría: evento cultural y gastronómico"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823061058-xmadmk.png",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "Yerba Buena",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-05",
-        "time_start": "18:00",
-        "time_end": "",
-        "start_datetime": "2026-11-05T18:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.78
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-11",
-      "card_time": "18:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Llega la 5ª Fiesta Nacional del Sánguche de Milanesa a la Sociedad Rural Tucumán en Yerba Buena. Del jueves 5 al domingo 8 de noviembre, desde las 18, se podrá disfrutar de cuatro días con propuestas gastronómicas para toda la familia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "19af26e2d695154ddb99f7d90e33a238a50311a11b28d607f90a4a82ac2979f2"
-  },
-  {
     "id": "47291",
     "source": "MEC",
     "title": "5 de Noviembre | “Espaciotiempo”: muestra colectiva de fotografía en la Sala de Arcos del Centro Cultural Virla",
@@ -214,7 +138,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-13",
+      "card_date": "2026-11-14",
       "card_time": "19:00",
       "date": "title_day",
       "time": "mec_card",
@@ -227,159 +151,6 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
-  },
-  {
-    "id": "47421",
-    "source": "MEC",
-    "title": "13 de Noviembre | Viernes Escondido: peña, show y guitarreada en La Escondida con Algarroberos y más",
-    "url": "https://agendatucuman.com.ar/eventos/13-de-noviembre-viernes-escondido-pena-show-y-guitarreada-en-la-escondida-con-algarroberos-y-mas/",
-    "date_start": "2026-11-13",
-    "date_end": "2026-11-13",
-    "time_start": "22:00",
-    "time_end": "05:00",
-    "start_datetime": "2026-11-13T22:00:00-03:00",
-    "end_datetime": "2026-11-13T05:00:00-03:00",
-    "description": "La Peña La Escondida vuelve a abrir sus puertas para una noche de folclore, encuentro y amistad. Este viernes 13 de noviembre llega el Viernes Escondido , con un show de grandes artistas y la clásica guitarreada hasta la madrugada. Quiénes se presentan La cartelera de la noche reúne a Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi . Una grilla bien tucumana, con folclore, canto popular y hasta mariachi para encender la noche del viernes. Show, peña y guitarreada Como siempre, la propuesta combina show en vivo, peña y guitarreada desde las 22 h hasta las 5 de la mañana, con servicio de bar. Un plan ideal para tomarse un buen vino o un fernet entre amigos. Reservas de mesa Para quienes quieren llegar temprano y comer algo rico, la peña toma reservas de mesa al 381 561-6818. La Escondida está en Miguel Lillo 234, San Miguel de Tucumán.\n\nQué: Viernes Escondido en Peña La Escondida Artistas: Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi Cuándo: viernes 13 de noviembre, de 22 a 5 h Dónde: Peña La Escondida – Miguel Lillo 234, San Miguel de Tucumán Reservas de mesa: 381 561-6818 Fuente: Peña La Escondida (Instagram)",
-    "highlighted_metadata": {
-      "qué": "Viernes Escondido en Peña La Escondida Artistas: Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi Cuándo: viernes 13 de noviembre, de 22 a 5 h Dónde: Peña La Escondida – Miguel Lillo 234, San Miguel de Tucumán Reservas de mesa: 381 561-6818 Fuente: Peña La Escondida (Instagram)"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/escondida-viernes.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Peña La Escondida",
-    "address": "Miguel Lillo 234, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-13",
-        "time_start": "22:00",
-        "time_end": "05:00",
-        "start_datetime": "2026-11-13T22:00:00-03:00",
-        "end_datetime": "2026-11-13T05:00:00-03:00"
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": true
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-13",
-      "card_time": "22:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El viernes 13 de noviembre se realizará el Viernes Escondido en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. Desde las 22 hasta las 5 horas habrá shows de Algarroberos, Alma Tucumana, Jesús Molina y Los 4 Cantores del Alba y su Mariachi, además de una guitarreada. Se pueden hacer reservas de mesa al 381 561-6818.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "00448959679c6dc19bb966facc0d996dad62672b29472bf42bc72ce1898726c7"
-  },
-  {
-    "id": "47387",
-    "source": "MEC",
-    "title": "14 de Noviembre | Fiesta de la Tradición y los Juegos Criollos en el Museo Sanmartiniano",
-    "url": "https://agendatucuman.com.ar/eventos/14-de-noviembre-fiesta-de-la-tradicion-y-los-juegos-criollos-en-el-museo-sanmartiniano/",
-    "date_start": "2026-11-14",
-    "date_end": "2026-11-14",
-    "time_start": "12:00",
-    "time_end": "18:00",
-    "start_datetime": "2026-11-14T12:00:00-03:00",
-    "end_datetime": "2026-11-14T18:00:00-03:00",
-    "description": "Taba, truco, sapo y música en vivo: el Museo Sanmartiniano de Tucumán celebra el Día de la Tradición con una gran Fiesta de la Tradición y de los Juegos Criollos , una jornada gratuita pensada para disfrutar en familia en La Ramada de Abajo. Juegos criollos para todas las edades Durante la tarde, el público podrá participar de torneos de taba, truco y sapo , además de otras actividades tradicionales. La programación incluye también presentaciones en vivo de músicos locales que pondrán el toque de música popular argentina a la celebración. Un homenaje a nuestra identidad La fiesta se enmarca en el Día de la Tradición, que se conmemora cada 10 de noviembre en homenaje al nacimiento de José Hernández, autor del Martín Fierro. La propuesta busca recuperar y compartir prácticas que forman parte de la identidad cultural argentina y promover el encuentro entre generaciones. Cómo llegar El Museo Sanmartiniano está sobre la Ruta Provincial 317, km 4, en La Ramada de Abajo, departamento Burruyacú. Es una linda excusa para una escapada de sábado: llevá a la familia, sumate a los juegos y disfrutá de una tarde a puro campo.\n\nQué: Fiesta de la Tradición y de los Juegos Criollos Cuándo: sábado 14 de noviembre, de 12 a 18 h Dónde: Museo Sanmartiniano de Tucumán – Ruta Provincial 317, km 4, La Ramada de Abajo (Burruyacú) Actividades: torneos de taba, truco y sapo, música en vivo Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán",
-    "highlighted_metadata": {
-      "qué": "Fiesta de la Tradición y de los Juegos Criollos Cuándo: sábado 14 de noviembre, de 12 a 18 h Dónde: Museo Sanmartiniano de Tucumán – Ruta Provincial 317, km 4, La Ramada de Abajo (Burruyacú) Actividades: torneos de taba, truco y sapo, música en vivo Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/fiesta-tradicion.jpeg",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Museo Sanmartiniano de Tucumán",
-    "address": "Ruta Provincial 317, km 4, La Ramada de Abajo, Burruyacú, Tucumán",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+Sanmartiniano+de+Tucum%C3%A1n%2C+Ruta+Provincial+317%2C+km+4%2C+La+Ramada+de+Abajo%2C+Burruyac%C3%BA%2C+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-14",
-        "time_start": "12:00",
-        "time_end": "18:00",
-        "start_datetime": "2026-11-14T12:00:00-03:00",
-        "end_datetime": "2026-11-14T18:00:00-03:00"
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": true
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-14",
-      "card_time": "12:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El Museo Sanmartiniano de Tucumán celebra la Fiesta de la Tradición y los Juegos Criollos con torneos de taba, truco, sapo y música en vivo. La cita es el sábado 14 de noviembre, de 12 a 18 h, en la Ruta Provincial 317, km 4, La Ramada de Abajo, Burruyacú. La entrada es libre y gratuita para toda la familia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "d805e8e9d14d066b55ff1a58ee174d1efe17820bf12f6bd1caa96c803d6dfad4"
   },
   {
     "id": "47389",
@@ -1444,7 +1215,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-10",
+      "card_date": "2026-11-14",
       "card_time": "10:00",
       "date": "title_day",
       "time": "mec_card",
@@ -2208,7 +1979,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-11",
+      "card_date": "2026-11-14",
       "card_time": "09:00",
       "date": "title_day",
       "time": "mec_card",
