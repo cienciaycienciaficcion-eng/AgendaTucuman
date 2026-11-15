@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-14T19:33:50.660053-03:00",
-  "reference_date": "2026-11-14",
+  "generated_at": "2026-11-15T03:44:22.228758-03:00",
+  "reference_date": "2026-11-15",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "6da22ddd038c6b25834b80739472edb37895438899e39097e58f7300fff427f0"
+    "pdf_sha256": "3d6e2784b22bb8cea70de38f83c55eee6d64d4ec347863e871d746ae68d7af47"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -35,9 +35,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "20:10"
-          ],
+          "sábado": [],
           "domingo": [
             "20:10"
           ],
@@ -52,12 +50,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "20:10",
-            "datetime": "2026-11-14T20:10:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "20:10",
@@ -88,7 +80,7 @@
           "title": "GODZILLA MINUS ZERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 135,
           "genres": [
             "Ciencia Ficción"
@@ -140,9 +132,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "21:10"
-          ],
+          "sábado": [],
           "domingo": [
             "21:10"
           ],
@@ -157,12 +147,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "21:10",
-            "datetime": "2026-11-14T21:10:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "21:10",
@@ -193,7 +177,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -246,10 +230,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "18:40",
-            "19:50"
-          ],
+          "sábado": [],
           "domingo": [
             "18:40",
             "19:50"
@@ -268,18 +249,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "18:40",
-            "datetime": "2026-11-14T18:40:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-11-14",
-            "time": "19:50",
-            "datetime": "2026-11-14T19:50:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "18:40",
@@ -334,7 +303,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -386,9 +355,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:20"
-          ],
+          "sábado": [],
           "domingo": [
             "17:20"
           ],
@@ -403,12 +370,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "17:20",
-            "datetime": "2026-11-14T17:20:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "17:20",
@@ -439,7 +400,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -578,11 +539,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:00",
-            "20:00",
-            "22:40"
-          ],
+          "sábado": [],
           "domingo": [
             "17:00",
             "20:00"
@@ -603,24 +560,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "17:00",
-            "datetime": "2026-11-14T17:00:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-11-14",
-            "time": "20:00",
-            "datetime": "2026-11-14T20:00:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-11-14",
-            "time": "22:40",
-            "datetime": "2026-11-14T22:40:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "17:00",
@@ -687,7 +626,7 @@
           "title": "COMO ROBAR UN BANCO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 122,
           "genres": [
             "Acción Thriller"
@@ -744,10 +683,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "22:20",
-            "23:00"
-          ],
+          "sábado": [],
           "domingo": [],
           "lunes": [
             "22:20",
@@ -763,18 +699,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "22:20",
-            "datetime": "2026-11-14T22:20:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-11-14",
-            "time": "23:00",
-            "datetime": "2026-11-14T23:00:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-16",
             "time": "22:20",
@@ -817,7 +741,7 @@
           "title": "ANIQUILACIÓN - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-16",
           "duration_minutes": 32,
           "genres": [
             "Acción Thriller"
@@ -955,11 +879,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "17:10",
-            "19:40",
-            "22:30"
-          ],
+          "sábado": [],
           "domingo": [
             "17:10",
             "19:40"
@@ -981,24 +901,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "17:10",
-            "datetime": "2026-11-14T17:10:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-11-14",
-            "time": "19:40",
-            "datetime": "2026-11-14T19:40:00",
-            "weekday": "sábado"
-          },
-          {
-            "date": "2026-11-14",
-            "time": "22:30",
-            "datetime": "2026-11-14T22:30:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "17:10",
@@ -1071,7 +973,7 @@
           "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 115,
           "genres": [
             "Fantasía"
@@ -1219,9 +1121,7 @@
         "schedule": {
           "jueves": [],
           "viernes": [],
-          "sábado": [
-            "18:10"
-          ],
+          "sábado": [],
           "domingo": [
             "18:10"
           ],
@@ -1236,12 +1136,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-14",
-            "time": "18:10",
-            "datetime": "2026-11-14T18:10:00",
-            "weekday": "sábado"
-          },
           {
             "date": "2026-11-15",
             "time": "18:10",
@@ -1272,7 +1166,7 @@
           "title": "PLUMAS OPERACION RESCATE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-14",
+          "release_date": "2026-11-15",
           "duration_minutes": 85,
           "genres": [
             "Animación"
