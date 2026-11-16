@@ -10,22 +10,27 @@
     "time_end": "",
     "start_datetime": "2026-11-05T19:30:00-03:00",
     "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
+    "description": "La fotografía tiene su espacio en el Virla. El jueves 5 de noviembre se inaugura “Espaciotiempo”, una muestra colectiva que reúne miradas de cuatro fotógrafos y que podrá visitarse hasta el 22 de noviembre. Cuatro autores, cuatro miradas La exposición reúne trabajos de Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López, en un diálogo entre estilos y recorridos personales. Inauguración y horarios La muestra se inaugura el jueves 5, a las 19.30, en la Sala de Arcos y la Bandeja del Centro Cultural Virla, y permanece abierta del 5 al 22 de noviembre. Si buscás qué hacer en Tucumán esta semana con una propuesta de arte, esta es una excelente opción para sumar a tu recorrido. Una semana cargada de cultura El Virla ofrece además conciertos, ferias y espectáculos durante toda la semana. ¡Acercate a la inauguración y descubrí la muestra!\n\nQué: muestra colectiva de fotografía “Espaciotiempo” Cuándo: inauguración el jueves 5 de noviembre, a las 19.30; abierta hasta el 22 de noviembre Dónde: Sala de Arcos y Bandeja, Centro Cultural Virla, San Miguel de Tucumán Artistas: Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López",
+    "highlighted_metadata": {
+      "qué": "muestra colectiva de fotografía “Espaciotiempo” Cuándo: inauguración el jueves 5 de noviembre, a las 19.30; abierta hasta el 22 de noviembre Dónde: Sala de Arcos y Bandeja, Centro Cultural Virla, San Miguel de Tucumán Artistas: Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823478324-iapw76.png",
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "",
+    "location": "Virla",
     "address": "",
-    "city": "",
+    "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Virla%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -49,27 +54,27 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "narrative",
+        "score": 0.65
       },
-      "overall": 0.63
+      "overall": 0.91
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-16",
       "card_time": "19:30",
       "date": "title_day",
       "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
+      "location": "narrative",
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El jueves 5 de noviembre a las 19:30 se inaugura “Espaciotiempo”, una muestra colectiva de fotografía que reúne obras de Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López. La exposición se podrá visitar hasta el 22 de noviembre en la Sala de Arcos y la Bandeja del Centro Cultural Virla.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "776743c6fffd635cb70a46940aaab4ef248bb9468b39ec3a141a9e9237f2548a"
   },
   {
     "id": "47401",
@@ -82,22 +87,26 @@
     "time_end": "",
     "start_datetime": "2026-11-13T19:00:00-03:00",
     "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
+    "description": "La fotografía tiene su espacio en el Centro Cultural Virla . Este viernes 13 de noviembre se inaugura “Diversidad II” , una muestra fotográfica con curaduría de Larry Chávez , que podrá visitarse hasta el 26 de noviembre. Distintas miradas, una misma realidad Bajo esa consigna, la exposición reúne imágenes que proponen diferentes formas de mirar el mundo que nos rodea: retratos, paisajes y escenas que dialogan entre sí y que invitan a detenerse y reflexionar. En Vitrinas Bar La muestra se exhibe en el espacio Vitrinas Bar del Virla, un lugar ideal para recorrerla con calma y combinarla con otras propuestas de la cartelera del centro cultural. Inauguración La apertura será el viernes 13 a las 19 h. Después de la inauguración, la muestra seguirá abierta al público hasta el 26 de noviembre.\n\nQué: Muestra fotográfica “Diversidad II” – curaduría de Larry Chávez Inauguración: viernes 13 de noviembre, 19 h Hasta: 26 de noviembre Dónde: Vitrinas Bar – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Fuente: Centro Cultural Virla",
+    "highlighted_metadata": {
+      "qué": "Muestra fotográfica “Diversidad II” – curaduría de Larry Chávez Inauguración: viernes 13 de noviembre, 19 h Hasta: 26 de noviembre Dónde: Vitrinas Bar – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán Fuente: Centro Cultural Virla"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-diversidad.webp",
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
+    "location": "Centro Cultural Virla",
+    "address": "25 de Mayo 265 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Variedades"
+    ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -121,630 +130,27 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "jsonld",
+        "score": 0.9
       },
-      "overall": 0.63
+      "overall": 0.96
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-16",
       "card_time": "19:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "",
-    "summary_generated": false,
-    "summary_version": 1,
-    "summary_source_hash": ""
-  },
-  {
-    "id": "47389",
-    "source": "MEC",
-    "title": "14 y 15 de Noviembre | Dónde estarán las ferias municipales este fin de semana en San Miguel de Tucumán",
-    "url": "https://agendatucuman.com.ar/eventos/14-y-15-de-noviembre-donde-estaran-las-ferias-municipales-este-fin-de-semana-en-san-miguel-de-tucuman/",
-    "date_start": "2026-11-14",
-    "date_end": "2026-11-15",
-    "time_start": "16:00",
-    "time_end": "00:00",
-    "start_datetime": "2026-11-14T16:00:00-03:00",
-    "end_datetime": "2026-11-15T00:00:00-03:00",
-    "description": "Gastronomía, artesanías y emprendimientos locales vuelven a ocupar los espacios verdes de la ciudad. Este sábado 14 y domingo 15 de noviembre, las ferias municipales organizadas por la Dirección de Relaciones Institucionales de la Municipalidad de San Miguel de Tucumán se podrán recorrer en los parques El Provincial y Avellaneda, en Plaza Independencia y en el barrio Manantial Sur. Sábado 14: parques El Provincial y Avellaneda En el Parque El Provincial , la Feria de Emprendedores funcionará de 18 a 00 h en el predio de avenida Roca y Chacabuco. En el Parque Avellaneda , la Feria de Artesanos (sobre avenida Mate de Luna y caminería central) y la Feria Gourmet (sobre calle Asunción) abrirán sábado y domingo de 18 a 00 h. Domingo 15: Plaza Independencia El domingo, la Plaza Independencia recibirá la Feria de Emprendedores y la Feria Parque 9 de Julio, de 15.30 a 00 h, sobre 24 de Septiembre y Laprida, y la Feria Paseo Gastronómico, de 15 a 00 h, sobre 24 de Septiembre al 300. Barrio Manantial Sur La Feria Manantial Sur – 2500 Viviendas estará el sábado y el domingo de 16 a 21 h sobre avenida Palavecino, entre Constitución y Pueyrredón. Un plan ideal para pasear, comer algo rico y apoyar a los emprendedores tucumanos.\n\nQué: Ferias municipales: artesanos, emprendedores, gourmet y gastronómicas Sábado 14: Parque El Provincial (18 a 00 h); Parque Avellaneda (18 a 00 h); Manantial Sur (16 a 21 h) Domingo 15: Parque Avellaneda (18 a 00 h); Plaza Independencia (desde las 15/15.30 h hasta 00 h); Manantial Sur (16 a 21 h) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán",
-    "highlighted_metadata": {
-      "qué": "Ferias municipales: artesanos, emprendedores, gourmet y gastronómicas Sábado 14: Parque El Provincial (18 a 00 h); Parque Avellaneda (18 a 00 h); Manantial Sur (16 a 21 h) Domingo 15: Parque Avellaneda (18 a 00 h); Plaza Independencia (desde las 15/15.30 h hasta 00 h); Manantial Sur (16 a 21 h) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ferias-scaled.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "San Miguel de Tucumán",
-    "address": "San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-14",
-        "time_start": "16:00",
-        "time_end": "00:00",
-        "start_datetime": "2026-11-14T16:00:00-03:00",
-        "end_datetime": "2026-11-14T00:00:00-03:00"
-      },
-      {
-        "date": "2026-11-15",
-        "time_start": "16:00",
-        "time_end": "00:00",
-        "start_datetime": "2026-11-15T16:00:00-03:00",
-        "end_datetime": "2026-11-15T00:00:00-03:00"
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_days",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": true
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-15",
-      "card_time": "16:00",
-      "date": "title_days",
-      "time": "mec_card",
       "location": "jsonld",
       "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "El sábado 14 y domingo 15 de noviembre se realizarán las ferias municipales en San Miguel de Tucumán con propuestas gastronómicas, artesanías y emprendimientos. Los espacios habilitados son los parques El Provincial y Avellaneda, la Plaza Independencia y el barrio Manantial Sur, con diferentes horarios según cada ubicación. La entrada es libre y gratuita.",
+    "summary": "Este viernes 13 de noviembre a las 19 h se inaugura la muestra fotográfica Diversidad II, curada por Larry Chávez, en el espacio Vitrinas Bar del Centro Cultural Virla, ubicado en 25 de Mayo 265, San Miguel de Tucumán. La exposición reúne retratos, paisajes y escenas que invitan a reflexionar y podrá visitarse hasta el 26 de noviembre.",
     "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": "bebd5f5279197a6d65f81c6d7fd3c4d263989bbd38117b1031db78a3d1257e3f"
-  },
-  {
-    "id": "47409",
-    "source": "MEC",
-    "title": "Hasta el 15 de Noviembre | Última semana de “Arte Fauna 2026”, la muestra de Lourdes Luna Hernández en el Teatro Alberdi",
-    "url": "https://agendatucuman.com.ar/eventos/hasta-el-15-de-noviembre-ultima-semana-de-arte-fauna-2026-la-muestra-de-lourdes-luna-hernandez-en-el-teatro-alberdi/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "10:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T10:00:00-03:00",
-    "end_datetime": "",
-    "description": "Quedan pocos días para visitar “Arte Fauna 2026” , la exposición de Lourdes Luna Hernández que se exhibe en el foyer de boletería del Teatro Alberdi . Esta es su última semana. Nuestra fauna en riesgo La muestra reúne ilustraciones sobre lienzo dedicadas a especies de nuestra fauna que se encuentran en riesgo. Una propuesta que combina arte y conciencia ambiental, ideal para recorrer en familia. En el foyer del teatro Las obras se pueden ver en el foyer de boletería del Teatro Alberdi, en Jujuy 92, en pleno centro de San Miguel de Tucumán. Entrada libre La visita es libre y gratuita. Si vas a alguna función del teatro esta semana, aprovechá para recorrerla.\n\nQué: Muestra “Arte Fauna 2026” – Lourdes Luna Hernández Cuándo: última semana, hasta el domingo 15 de noviembre Dónde: Foyer de boletería – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Teatro Alberdi (Instagram)",
-    "highlighted_metadata": {
-      "qué": "Muestra “Arte Fauna 2026” – Lourdes Luna Hernández Cuándo: última semana, hasta el domingo 15 de noviembre Dónde: Foyer de boletería – Teatro Alberdi – Jujuy 92, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Teatro Alberdi (Instagram)"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi-arte-fauna.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Teatro Alberdi",
-    "address": "Jujuy 92, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Alberdi%2C+Jujuy+92%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "10:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T10:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-15",
-      "card_time": "10:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Arte Fauna 2026 es la exposición de ilustraciones sobre lienzo de Lourdes Luna Hernández dedicada a especies de fauna en riesgo. La muestra se puede visitar con entrada libre y gratuita en el foyer de boletería del Teatro Alberdi, ubicado en Jujuy 92, San Miguel de Tucumán, hasta el 15 de noviembre de 2026.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "116a7183444b52f8358435afd4cf00c4bc2e2c8b00e128f2e8a11e6ff4d88a1f"
-  },
-  {
-    "id": "47395",
-    "source": "MEC",
-    "title": "15 de Noviembre | City Tour gratuito en el Bus Turístico SMT con visita al Cementerio del Oeste",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-city-tour-gratuito-en-el-bus-turistico-smt-con-visita-al-cementerio-del-oeste/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "16:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T16:00:00-03:00",
-    "end_datetime": "",
-    "description": "Un domingo para conocer la historia de la ciudad sin bajarse del bus. El Bus Turístico SMT realiza este domingo 15 de noviembre su City Tour por los lugares más notables de San Miguel de Tucumán, con una parada especial en el Cementerio del Oeste . Un recorrido por lo más emblemático Es un paseo guiado de dos horas que inicia y finaliza en Plaza Independencia y abarca el entorno histórico, institucional y religioso de la capital tucumana. En esta edición, el itinerario incluye una visita al Cementerio del Oeste, uno de los espacios patrimoniales más valiosos de la ciudad. Cómo inscribirse Las inscripciones se hacen a través de los códigos QR que están en la parada de calle Laprida 50 o mediante el formulario digital del Bus Turístico (busturistico.smt.gob.ar). Un plan gratuito para toda la familia El servicio es gratuito. Si tenés visitas en casa o querés redescubrir tu ciudad, es una muy buena opción para la tarde del domingo.\n\nQué: City Tour del Bus Turístico SMT con visita al Cementerio del Oeste Cuándo: domingo 15 de noviembre, 16 h Duración: dos horas aproximadamente Dónde: salida desde la parada de Laprida 50, Plaza Independencia Inscripción: códigos QR en la parada o busturistico.smt.gob.ar Costo: gratuito Fuente: Municipalidad de San Miguel de Tucumán",
-    "highlighted_metadata": {
-      "qué": "City Tour del Bus Turístico SMT con visita al Cementerio del Oeste Cuándo: domingo 15 de noviembre, 16 h Duración: dos horas aproximadamente Dónde: salida desde la parada de Laprida 50, Plaza Independencia Inscripción: códigos QR en la parada o busturistico.smt.gob.ar Costo: gratuito Fuente: Municipalidad de San Miguel de Tucumán"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/city-tour.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Parada del Bus Turístico SMT",
-    "address": "Laprida 50, San Miguel de Tucumán, Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Parada+del+Bus+Tur%C3%ADstico+SMT%2C+Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "16:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T16:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-15",
-      "card_time": "16:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Disfrutá de un City Tour gratuito en el Bus Turístico SMT el domingo 15 de noviembre a las 16 h. El recorrido guiado dura dos horas, sale desde Laprida 50 frente a Plaza Independencia e incluye una visita al Cementerio del Oeste. La actividad es gratuita y requiere inscripción previa mediante códigos QR en la parada o en busturistico.smt.gob.ar.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "aee97e4719afb109d15d2d7839c929d0ee640d28892d5edcbea42d8b9da439dd"
-  },
-  {
-    "id": "47396",
-    "source": "MEC",
-    "title": "15 de Noviembre | Danza urbana, rap y freestyle en el Encuentro de Cultura Joven del Parque 9 de Julio",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-danza-urbana-rap-y-freestyle-en-el-encuentro-de-cultura-joven-del-parque-9-de-julio/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "16:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T16:00:00-03:00",
-    "end_datetime": "",
-    "description": "La cultura urbana toma la Casa de la Cultura Municipal del Parque 9 de Julio . Este domingo 15 de noviembre llega una nueva edición del Ciclo “Esquinas” , dentro del programa “Cultura Joven” de la Subsecretaría de Cultura municipal, con competencias de danza y rap. Competencias de danza All Style y Cypher Rap La jornada celebrará las expresiones artísticas urbanas con competencias de danza All Style en categorías iniciales y avanzados, y un Cypher Rap con la participación de Alan, Arty, Bigggtrue, El Colo, Puxo y Emere Duilio. Jurado, host y DJ El jurado estará integrado por Juan 99K, Naomi Weslah y Dani Pons. La conducción estará a cargo de Pam y la música, de DJ Sphinge, que animará la jam de freestyle de danza. Habrá premios: un parlante para el primer puesto y auriculares para el segundo. Inscripciones y horarios Las inscripciones se abren a las 16 h en la Casa de la Cultura (avenida Gobernador del Campo y Capitán Cáceres) y la actividad comienza a las 18 h. La participación es libre y gratuita y no se suspende por lluvia. ¡Preparate para bailar, rapear o alentar!\n\nQué: Encuentro de Cultura Joven – Ciclo “Esquinas” Cuándo: domingo 15 de noviembre; inscripciones desde las 16 h, actividad desde las 18 h Dónde: Casa de la Cultura Municipal – Parque 9 de Julio (av. Gobernador del Campo y Capitán Cáceres) Actividades: danza All Style, Cypher Rap, jam de freestyle Premios: parlante (1.º) y auriculares (2.º) Entrada: libre y gratuita; no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán",
-    "highlighted_metadata": {
-      "qué": "Encuentro de Cultura Joven – Ciclo “Esquinas” Cuándo: domingo 15 de noviembre; inscripciones desde las 16 h, actividad desde las 18 h Dónde: Casa de la Cultura Municipal – Parque 9 de Julio (av. Gobernador del Campo y Capitán Cáceres) Actividades: danza All Style, Cypher Rap, jam de freestyle Premios: parlante (1.º) y auriculares (2.º) Entrada: libre y gratuita; no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cultura-joven.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Casa de la Cultura Municipal – Parque 9 de Julio",
-    "address": "Av. Gobernador del Campo y Capitán Cáceres, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+Municipal+%E2%80%93+Parque+9+de+Julio%2C+Av.+Gobernador+del+Campo+y+Capit%C3%A1n+C%C3%A1ceres%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "16:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T16:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-15",
-      "card_time": "16:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El domingo 15 de noviembre se realizará el Encuentro de Cultura Joven del Ciclo Esquinas en la Casa de la Cultura Municipal del Parque 9 de Julio. Habrá competencias de danza All Style y Cypher Rap, además de una jam de freestyle. Las inscripciones abrirán a las 16 h y la actividad comenzará a las 18 h con entrada libre y gratuita.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "d75abc43e2704f6604b805ba6c67558d2dd9c9ca683afbe8cb10cd36861ca974"
-  },
-  {
-    "id": "47405",
-    "source": "MEC",
-    "title": "15 de Noviembre | “Wonka”, la adaptación teatral y musical para disfrutar en familia en el Virla",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-wonka-la-adaptacion-teatral-y-musical-para-disfrutar-en-familia-en-el-virla/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "18:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T18:00:00-03:00",
-    "end_datetime": "",
-    "description": "<div class=\"mec-single-event-description mec-events-content\"><p>Fantasía, dulces y mucho humor: este domingo 15 de noviembre llega al auditorio del <strong>Centro Cultural Virla</strong> <strong>“Wonka”</strong>, una adaptación teatral y musical inspirada en “Charlie y la fábrica de chocolate”.</p><h2>Una aventura mágica</h2><p>La obra propone un viaje al universo del excéntrico chocolatero, con personajes sorprendentes, canciones y escenas llenas de color pensadas para chicos y grandes.</p><h2>Plan familiar de domingo</h2><p>La función es a las 18 h, un horario ideal para ir con toda la familia y cerrar el fin de semana con una salida distinta en el centro de la ciudad.</p><h2>Entradas</h2><p>Las entradas cuestan $13.000 y se consiguen a través de la ticketera del Virla (Elvirla.entradanet.com) o por WhatsApp al 381 467-4536.</p><h2>Datos destacados</h2><ul><li><strong>Qué:</strong> “Wonka” – Adaptación teatral y musical</li><li><strong>Cuándo:</strong> domingo 15 de noviembre, 18 h</li><li><strong>Dónde:</strong> Auditorio – Centro Cultural Virla – 25 de Mayo 265, San Miguel de Tucumán</li><li><strong>Entradas:</strong> $13.000 – Elvirla.entradanet.com o WhatsApp 381 467-4536</li></ul><p><em>Fuente: Centro Cultural Virla.</em></p></div>",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla-wonka.webp",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Centro Cultural Virla",
-    "address": "25 de Mayo 265 - San Miguel De Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+25+de+Mayo+265+-+San+Miguel+De+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "18:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T18:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
-      "card_time": "18:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El domingo 15 de noviembre a las 18 h se presenta en el auditorio del Centro Cultural Virla, ubicado en 25 de Mayo 265, San Miguel de Tucumán, la adaptación teatral y musical “Wonka”. Es un espectáculo familiar lleno de fantasía y canciones inspirado en “Charlie y la fábrica de chocolate”. Las entradas cuestan $13.000 y se adquieren en Elvirla.entradanet.com o por WhatsApp al 381 467-4536.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "5478e39bff79ad1a7696599adafbb1b7a39aeb4a7f68664dd5db24b65c7810b7"
-  },
-  {
-    "id": "47399",
-    "source": "MEC",
-    "title": "15 de Noviembre | Cine en el Living proyecta “El regreso de los muertos vivos” en CiTá Abasto de Cultura",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-cine-en-el-living-proyecta-el-regreso-de-los-muertos-vivos-en-cita-abasto-de-cultura/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "20:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T20:00:00-03:00",
-    "end_datetime": "",
-    "description": "<div class=\"mec-single-event-description mec-events-content\"><p>Los muertos se levantan y los 80 vuelven a la vida. Este domingo 15 de noviembre, el ciclo <strong>Cine en el Living</strong> de <strong>CiTá Abasto de Cultura</strong> proyecta <strong>“El regreso de los muertos vivos” (1985)</strong>, el clásico de culto de Dan O’Bannon.</p><h2>Terror, humor negro y punk</h2><p>La película mezcla horror, comedia y música punk en una historia de zombies hambrientos de cerebros que se convirtió en un clásico de culto de los 80. Una noche ideal para los amantes del género y para quienes quieran descubrirla por primera vez en pantalla gigante.</p><h2>Mucho más que una película</h2><p>La propuesta incluye proyección en idioma original con subtítulos en español, trivia, regalos sorpresa y servicio de bar. La bienvenida es a las 20 h y la película comienza a las 20.30 h.</p><h2>Cupos súper limitados</h2><p>La entrada cuesta $6.000 y los lugares son limitados, por lo que conviene reservar con anticipación por WhatsApp. CiTá está en Lamadrid 1457. ¡Vení vivo… y tratá de salir igual!</p><h2>Datos destacados</h2><ul><li><strong>Qué:</strong> Cine en el Living: “El regreso de los muertos vivos” (1985)</li><li><strong>Cuándo:</strong> domingo 15 de noviembre; bienvenida 20 h, película 20.30 h</li><li><strong>Dónde:</strong> CiTá Abasto de Cultura – Lamadrid 1457, San Miguel de Tucumán</li><li><strong>Entrada:</strong> $6.000</li><li><strong>Incluye:</strong> pantalla gigante, versión subtitulada, trivia, regalos sorpresa y bar</li><li><strong>Reservas:</strong> por WhatsApp (cupos limitados)</li></ul><p><em>Fuente: Publicación de Fernando Ríos Kissner en Facebook.</em></p></div>",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cine-living.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "CiTá Abasto de Cultura",
-    "address": "Lamadrid 1457, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=CiT%C3%A1+Abasto+de+Cultura%2C+Lamadrid+1457%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T20:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
-      "card_time": "20:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El ciclo Cine en el Living proyecta el clásico de culto “El regreso de los muertos vivos” el domingo 15 de noviembre en CiTá Abasto de Cultura, ubicado en Lamadrid 1457. La jornada incluye trivia, regalos y servicio de bar, con bienvenida a las 20 h y función a las 20:30 h. Las entradas cuestan $6.000 y los cupos son limitados con reserva previa por WhatsApp.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "024241816716b9be5a7e9c8410ca2ed942c361da9c16cd6fb91249c53540c5d2"
-  },
-  {
-    "id": "47411",
-    "source": "MEC",
-    "title": "15 de Noviembre | Franco Arroyo se presenta en vivo en la Sala Mayor del Teatro Alberdi",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-franco-arroyo-se-presenta-en-vivo-en-la-sala-mayor-del-teatro-alberdi/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "20:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T20:00:00-03:00",
-    "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T20:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.63
-    },
-    "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
-      "card_time": "20:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "",
-    "summary_generated": false,
-    "summary_version": 1,
-    "summary_source_hash": ""
-  },
-  {
-    "id": "47397",
-    "source": "MEC",
-    "title": "15 de Noviembre | “Derrapando” vuelve al Rosita Ávila con seis comediantes y una noche de stand up",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-derrapando-vuelve-al-rosita-avila-con-seis-comediantes-y-una-noche-de-stand-up/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "20:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T20:00:00-03:00",
-    "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T20:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.63
-    },
-    "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
-      "card_time": "20:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "",
-    "summary_generated": false,
-    "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
   },
   {
     "id": "47388",
@@ -757,22 +163,26 @@
     "time_end": "",
     "start_datetime": "2026-11-15T20:00:00-03:00",
     "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
-    "price": null,
-    "currency": "",
+    "description": "El Espacio INCAA Tucumán suma a su cartelera “La Casa” , la película de Gustavo Triviño que se podrá ver en la Sala Orestes Caviglia en tres funciones, desde el domingo 15 hasta el martes 17 de noviembre. Una venta que se vuelve una trampa Despedido de una multinacional y bajo presión económica, Hugo Vaca decide vender su casa a un enigmático grupo de inversores. Lo que parecía una salida termina llevándolo a una situación cada vez más incierta y peligrosa. Un relato de suspenso que dialoga con la crisis, el desempleo y la vulnerabilidad. Días y horarios de las funciones Las proyecciones serán el domingo 15 y el lunes 16 a las 20 h , y el martes 17 a las 18 h , en la Sala Orestes Caviglia (San Martín 251). Cine nacional a precio accesible La entrada general cuesta $4.000 y hay valor especial de $2.500 para estudiantes y jubilados. Una excelente oportunidad para apoyar el cine argentino en pantalla grande.\n\nQué: “La Casa”, de Gustavo Triviño – Espacio INCAA Tucumán Cuándo: domingo 15 y lunes 16 de noviembre a las 20 h; martes 17 a las 18 h Dónde: Sala Orestes Caviglia – San Martín 251, San Miguel de Tucumán Entradas: general $4.000; estudiantes y jubilados $2.500 Fuente: Ente Cultural de Tucumán",
+    "highlighted_metadata": {
+      "qué": "“La Casa”, de Gustavo Triviño – Espacio INCAA Tucumán Cuándo: domingo 15 y lunes 16 de noviembre a las 20 h; martes 17 a las 18 h Dónde: Sala Orestes Caviglia – San Martín 251, San Miguel de Tucumán Entradas: general $4.000; estudiantes y jubilados $2.500 Fuente: Ente Cultural de Tucumán"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/la-casa.jpeg",
+    "price": 4000.0,
+    "currency": "ARS",
     "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
+    "location": "Sala Orestes Caviglia",
+    "address": "San Martín 251, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Cine"
+    ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Orestes+Caviglia%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -796,99 +206,27 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "jsonld",
+        "score": 0.9
       },
-      "overall": 0.63
+      "overall": 0.96
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-16",
       "card_time": "20:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
+      "location": "jsonld",
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El Espacio INCAA Tucumán proyectará el thriller nacional La Casa, dirigido por Gustavo Triviño, en la Sala Orestes Caviglia ubicada en San Martín 251. Las funciones serán el domingo 15 y lunes 16 de noviembre a las 20 h, y el martes 17 a las 18 h. La entrada general cuesta $4.000, con un valor especial de $2.500 para estudiantes y jubilados.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
-  },
-  {
-    "id": "47419",
-    "source": "MEC",
-    "title": "15 de Noviembre | “Esto soy yo… Espíritu de cuerpo”, teatro desde Santiago del Estero en el Puerto Libertad",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-esto-soy-yo-espiritu-de-cuerpo-teatro-desde-santiago-del-estero-en-el-puerto-libertad/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "21:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T21:00:00-03:00",
-    "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "21:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T21:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.63
-    },
-    "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
-      "card_date": "2026-11-15",
-      "card_time": "21:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "",
-    "summary_generated": false,
-    "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "488b3235d2387ac1dedc28f753d0b8f0a9a1210c3660f335487e23a23b1dec47"
   },
   {
     "id": "47303",
@@ -901,22 +239,28 @@
     "time_end": "",
     "start_datetime": "2026-11-19T00:00:00-03:00",
     "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
+    "description": "Música, tradición y solidaridad en una misma noche. Lo de La Paliza organiza una peña con un propósito muy especial: reunir fondos a beneficio de la Fundación Agrónomos por la Infancia. Artistas que se suman a la causa Acompañarán la velada Cecilia Paliza, Canto Tucumano y Leandro Robin, con un repertorio de folclore y música popular para disfrutar entre amigos y en familia. Una peña con propósito La actividad invita a sumar un granito de arena a una hermosa causa mientras se comparte una noche de música. Si buscás qué hacer en Tucumán a fin de mes con un plan solidario, anotá esta fecha. Dónde y cómo conseguir tu tarjeta La peña es el jueves 19 de noviembre, en Lo de La Paliza, Laprida 181, San Miguel de Tucumán. Ya podés reservar o comprar tu tarjeta; para consultas, el contacto es el 11 3568 6892. ¡Te esperamos para una peña inolvidable!\n\nQué: peña a beneficio de la Fundación Agrónomos por la Infancia Cuándo: jueves 19 de noviembre Dónde: Lo de La Paliza, Laprida 181, San Miguel de Tucumán Artistas: Cecilia Paliza, Canto Tucumano y Leandro Robin Entradas: reserva o compra de tarjeta en el local",
+    "highlighted_metadata": {
+      "qué": "peña a beneficio de la Fundación Agrónomos por la Infancia Cuándo: jueves 19 de noviembre Dónde: Lo de La Paliza, Laprida 181, San Miguel de Tucumán Artistas: Cecilia Paliza, Canto Tucumano y Leandro Robin Entradas: reserva o compra de tarjeta en el local"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823617821-pawp4h.png",
     "price": null,
     "currency": "",
     "is_free": false,
-    "location": "",
+    "location": "local",
     "address": "",
-    "city": "",
-    "organizer": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "una peña con un propósito muy especial: reunir fondos a beneficio de la Fundación Agrónomos por la Infancia",
     "contact_email": [],
-    "contact_phone": [],
-    "categories": [],
+    "contact_phone": [
+      "11 3568 6892"
+    ],
+    "categories": [
+      "Musica"
+    ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=local%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -940,27 +284,27 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "narrative",
+        "score": 0.65
       },
-      "overall": 0.33
+      "overall": 0.61
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
+      "page_status": 200,
+      "rest_status": 200,
       "card_date": "2026-11-19",
       "card_time": "",
       "date": "title_day",
       "time": "",
-      "location": "",
-      "jsonld_count": 0,
+      "location": "narrative",
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "Disfrutá de una peña solidaria a beneficio de la Fundación Agrónomos por la Infancia con las actuaciones de Cecilia Paliza, Canto Tucumano y Leandro Robin. El evento se realizará el jueves 19 de noviembre en Lo de La Paliza, ubicado en Laprida 181, San Miguel de Tucumán. Las tarjetas se pueden reservar y comprar previamente comunicándose al 11 3568 6892.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "e45f05674b94662d02ae76d309dc930078bdf65df16464cb478f88cf4dd27036"
   },
   {
     "id": "47400",
@@ -1024,7 +368,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-15",
+      "card_date": "2026-11-16",
       "card_time": "09:00",
       "date": "title_day",
       "time": "mec_card",
@@ -1049,22 +393,24 @@
     "time_end": "",
     "start_datetime": "2026-12-05T21:00:00-03:00",
     "end_datetime": "",
-    "description": "",
+    "description": "¡Una de las voces destacadas de la nueva generación del R&B argentino llega a Tucumán! El sábado 5 de diciembre de 2026, Abril Olivera se presentará en La Gesta Cultural con un espectáculo en el que dará a conocer en vivo “Río de la Plata”, su segundo álbum de estudio. Reconocida también por ser una de las voces de NAFTA , la artista propone una experiencia musical que combina R&B, soul, jazz, bossa nova, funk y hip-hop, con una identidad sonora propia que la posiciona entre las nuevas referentes de la música argentina. El concierto tendrá lugar en La Gesta Cultural, ubicada en avenida Alem 747 de San Miguel de Tucumán , y las entradas anticipadas ya están disponibles a través de NorteTicket, con una primera tanda limitada desde $15.000 . Abril Olivera presenta “Río de la Plata” en Tucumán La llegada de Abril Olivera a Tucumán forma parte de la presentación de “Río de la Plata” , su segundo trabajo discográfico, una nueva etapa en su recorrido como solista. Con una propuesta que cruza diferentes géneros de la música contemporánea, la cantante construye un universo artístico donde conviven las influencias del soul y del R&B con ritmos y sonoridades vinculados a la música latinoamericana. Su estilo se caracteriza por una interpretación vocal expresiva y una búsqueda musical que no se limita a un único género. En esta nueva presentación, el público tucumano tendrá la oportunidad de acercarse a su repertorio y descubrir en vivo las canciones de un álbum que representa otro capítulo de su desarrollo artístico. Una de las voces de NAFTA y una referente del nuevo R&B argentino Abril Olivera es conocida por su participación en NAFTA , una de las agrupaciones que contribuyeron a renovar la escena del soul y el R&B en Argentina. Con una propuesta que combina influencias de la música afroamericana y sonidos contemporáneos, NAFTA logró construir una identidad musical reconocible, acercando estos géneros a nuevas generaciones de oyentes. En paralelo, Olivera desarrolla su carrera como solista, explorando diferentes texturas musicales y ampliando sus posibilidades interpretativas. Su música reúne elementos del jazz, la bossa nova, el soul, el funk y el hip-hop , en una combinación que refleja la diversidad de influencias que atraviesan su propuesta. Esta versatilidad le permite moverse entre melodías delicadas, ritmos envolventes y composiciones de sensibilidad contemporánea. “Río de la Plata”: una nueva etapa en su carrera solista Con su segundo álbum de estudio, Abril Olivera continúa consolidando un camino musical propio, independiente de su participación en proyectos colectivos. “Río de la Plata” representa el trabajo que la cantante traerá al escenario tucumano, ofreciendo al público la posibilidad de conocer su nueva propuesta artística en el formato de un concierto en vivo. La combinación de géneros y la personalidad de su interpretación vocal serán parte de los principales atractivos de una presentación destinada a quienes disfrutan de las nuevas expresiones de la música argentina. Para los seguidores de NAFTA, el espectáculo también será una oportunidad de descubrir otra faceta artística de una de sus voces. ¿Dónde comprar las entradas para Abril Olivera en Tucumán? El concierto se realizará el sábado 5 de diciembre de 2026 en La Gesta Cultural , ubicada en avenida Alem 747. La plataforma NorteTicket anuncia la apertura de puertas a las 21 h y el espectáculo a las 22 h . Las entradas se comercializan mediante la ticketera oficial, con los siguientes detalles: Early Tickets: $15.000. Disponibilidad: Primera tanda limitada. Venta online: NorteTicket. Importante: Los precios pueden variar a medida que se agoten las etapas de venta y pueden aplicarse cargos de servicio. La organización recomienda aprovechar la venta anticipada, ya que se trata de una tanda promocional con disponibilidad limitada. La ticketera también informa que los menores de 18 años deberán ingresar acompañados por un adulto y que los niños a partir de los 3 años abonan entrada. Una noche de R&B, soul y nuevas sonoridades para disfrutar en Tucumán Para quienes buscan qué hacer en Tucumán el sábado 5 de diciembre , la presentación de Abril Olivera representa una oportunidad para disfrutar de una de las propuestas de la nueva escena musical argentina. Su combinación de influencias, su identidad vocal y el repertorio de su nuevo álbum prometen una velada especialmente atractiva para los seguidores del R&B, el jazz, el soul y la música contemporánea. La Gesta Cultural será el escenario elegido para recibir a una artista que continúa desarrollando su carrera y ampliando su universo musical. ¡No te pierdas a Abril Olivera en vivo! Aprovechá las entradas promocionales, invitá a tus amigos y preparate para disfrutar de una noche de buena música con una de las voces destacadas del nuevo R&B argentino. 🎶 Todo lo que tenés que saber Evento: Abril Olivera en Tucumán. Presentación: Río de la Plata, su segundo álbum de estudio. Artista: Abril Olivera. Fecha: Sábado 5 de diciembre de 2026. Apertura de puertas: 21 h. Horario del espectáculo: 22 h, según NorteTicket. Lugar: La Gesta Cultural. Dirección: Avenida Alem 747, San Miguel de Tucumán. Géneros: R&B, soul, jazz, bossa nova, funk y hip-hop. Entradas Early Tickets: $15.000, tanda limitada. Venta de entradas: NorteTicket. Ingreso de menores: Menores de 18 años acompañados por un adulto. Desde los 3 años abonan entrada.",
     "highlighted_metadata": {},
-    "image": "",
-    "price": null,
-    "currency": "",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/abril.png",
+    "price": 15000.0,
+    "currency": "ARS",
     "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
+    "location": "formato de un concierto en vivo",
+    "address": "Avenida Alem 747, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Musica"
+    ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=formato+de+un+concierto+en+vivo%2C+Avenida+Alem+747%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -1088,27 +434,27 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "narrative",
+        "score": 0.65
       },
-      "overall": 0.63
+      "overall": 0.91
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
+      "page_status": 200,
+      "rest_status": 200,
       "card_date": "2026-12-05",
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
+      "location": "narrative",
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El sábado 5 de diciembre de 2026, la cantante Abril Olivera se presentará en La Gesta Cultural, ubicada en Avenida Alem 747, San Miguel de Tucumán, para presentar su nuevo álbum Río de la Plata. Las puertas abrirán a las 21 h y el espectáculo comenzará a las 22 h. Las entradas anticipadas se consiguen a través de NorteTicket desde $15.000 para la primera tanda limitada.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "f9eb0b7e7e57b85cd687b244259954a775f6c8a950d366cbd7dc4baae2e118be"
   },
   {
     "id": "47289",
@@ -1121,19 +467,23 @@
     "time_end": "",
     "start_datetime": "2026-12-06T00:00:00-03:00",
     "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
+    "description": "Anotá en el calendario: Tafí Viejo se prepara para recibir a corredores de toda la provincia y del país en una nueva edición de la Media Maratón del Limón, una de las propuestas deportivas más esperadas del año. Tres distancias para todos los niveles La competencia tendrá recorridos de 5, 10 y 21 kilómetros, para participantes de diferentes niveles y categorías. La largada será desde el predio de Lomas Fútbol. Medalla, remera y premios Cada corredor recibirá su medalla finisher, seguro, remera oficial y dorsal. Las categorías competitivas tendrán premiación en efectivo y habrá sorteo de una moto 0 kilómetro, además de un cierre musical para compartir entre corredores. Categorías por edad La clasificación estará organizada por edades, con divisiones cada cinco años y categorías especiales para mayores de 65, para que todos compitan en condiciones acordes a su franja etaria. Si buscás qué hacer en Tucumán en diciembre con un plan deportivo, ¡ya podés ir preparándote!\n\nQué: Media Maratón del Limón (5K, 10K y 21K) Cuándo: domingo 6 de diciembre Dónde: largada en el predio de Lomas Fútbol, Tafí Viejo Incluye: medalla finisher, seguro, remera oficial, dorsal y sorteo de una moto 0 km",
+    "highlighted_metadata": {
+      "qué": "Media Maratón del Limón (5K, 10K y 21K) Cuándo: domingo 6 de diciembre Dónde: largada en el predio de Lomas Fútbol, Tafí Viejo Incluye: medalla finisher, seguro, remera oficial, dorsal y sorteo de una moto 0 km"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823230557-ex0wk4.png",
     "price": null,
     "currency": "",
     "is_free": false,
     "location": "",
     "address": "",
-    "city": "",
-    "organizer": "",
+    "city": "Tafí Viejo",
+    "organizer": "edades, con divisiones cada cinco años y categorías especiales para mayores de 65, para que todos compitan en condiciones acordes a su franja etaria",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Deportes"
+    ],
     "tags": [],
     "map_urls": [],
     "map_search_url": "",
@@ -1163,23 +513,23 @@
         "source": "",
         "score": 0
       },
-      "overall": 0.33
+      "overall": 0.48
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
+      "page_status": 200,
+      "rest_status": 200,
       "card_date": "2026-12-06",
       "card_time": "",
       "date": "title_day",
       "time": "",
       "location": "",
-      "jsonld_count": 0,
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El 6 de diciembre de 2026 se realizará la Media Maratón del Limón en Tafí Viejo, con distancias de 5, 10 y 21 kilómetros. La largada será desde el predio de Lomas Fútbol e incluirá medalla, remera, seguro, dorsal y el sorteo de una moto 0 km.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "dce11c4efd7bab4099befa22014e9b93cc0cd4d3b1d9991e89eae69f1beeef6a"
   }
 ]
