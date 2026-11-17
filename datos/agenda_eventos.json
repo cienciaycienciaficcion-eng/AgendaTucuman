@@ -255,7 +255,9 @@
     "contact_phone": [
       "11 3568 6892"
     ],
-    "categories": [],
+    "categories": [
+      "Musica"
+    ],
     "tags": [],
     "map_urls": [],
     "map_search_url": "https://www.google.com/maps/search/?api=1&query=local%2C+San+Miguel+de+Tucum%C3%A1n",
@@ -285,7 +287,7 @@
         "source": "narrative",
         "score": 0.65
       },
-      "overall": 0.56
+      "overall": 0.61
     },
     "_sources": {
       "page_status": 200,
@@ -391,22 +393,24 @@
     "time_end": "",
     "start_datetime": "2026-12-05T21:00:00-03:00",
     "end_datetime": "",
-    "description": "",
+    "description": "¡Una de las voces destacadas de la nueva generación del R&B argentino llega a Tucumán! El sábado 5 de diciembre de 2026, Abril Olivera se presentará en La Gesta Cultural con un espectáculo en el que dará a conocer en vivo “Río de la Plata”, su segundo álbum de estudio. Reconocida también por ser una de las voces de NAFTA , la artista propone una experiencia musical que combina R&B, soul, jazz, bossa nova, funk y hip-hop, con una identidad sonora propia que la posiciona entre las nuevas referentes de la música argentina. El concierto tendrá lugar en La Gesta Cultural, ubicada en avenida Alem 747 de San Miguel de Tucumán , y las entradas anticipadas ya están disponibles a través de NorteTicket, con una primera tanda limitada desde $15.000 . Abril Olivera presenta “Río de la Plata” en Tucumán La llegada de Abril Olivera a Tucumán forma parte de la presentación de “Río de la Plata” , su segundo trabajo discográfico, una nueva etapa en su recorrido como solista. Con una propuesta que cruza diferentes géneros de la música contemporánea, la cantante construye un universo artístico donde conviven las influencias del soul y del R&B con ritmos y sonoridades vinculados a la música latinoamericana. Su estilo se caracteriza por una interpretación vocal expresiva y una búsqueda musical que no se limita a un único género. En esta nueva presentación, el público tucumano tendrá la oportunidad de acercarse a su repertorio y descubrir en vivo las canciones de un álbum que representa otro capítulo de su desarrollo artístico. Una de las voces de NAFTA y una referente del nuevo R&B argentino Abril Olivera es conocida por su participación en NAFTA , una de las agrupaciones que contribuyeron a renovar la escena del soul y el R&B en Argentina. Con una propuesta que combina influencias de la música afroamericana y sonidos contemporáneos, NAFTA logró construir una identidad musical reconocible, acercando estos géneros a nuevas generaciones de oyentes. En paralelo, Olivera desarrolla su carrera como solista, explorando diferentes texturas musicales y ampliando sus posibilidades interpretativas. Su música reúne elementos del jazz, la bossa nova, el soul, el funk y el hip-hop , en una combinación que refleja la diversidad de influencias que atraviesan su propuesta. Esta versatilidad le permite moverse entre melodías delicadas, ritmos envolventes y composiciones de sensibilidad contemporánea. “Río de la Plata”: una nueva etapa en su carrera solista Con su segundo álbum de estudio, Abril Olivera continúa consolidando un camino musical propio, independiente de su participación en proyectos colectivos. “Río de la Plata” representa el trabajo que la cantante traerá al escenario tucumano, ofreciendo al público la posibilidad de conocer su nueva propuesta artística en el formato de un concierto en vivo. La combinación de géneros y la personalidad de su interpretación vocal serán parte de los principales atractivos de una presentación destinada a quienes disfrutan de las nuevas expresiones de la música argentina. Para los seguidores de NAFTA, el espectáculo también será una oportunidad de descubrir otra faceta artística de una de sus voces. ¿Dónde comprar las entradas para Abril Olivera en Tucumán? El concierto se realizará el sábado 5 de diciembre de 2026 en La Gesta Cultural , ubicada en avenida Alem 747. La plataforma NorteTicket anuncia la apertura de puertas a las 21 h y el espectáculo a las 22 h . Las entradas se comercializan mediante la ticketera oficial, con los siguientes detalles: Early Tickets: $15.000. Disponibilidad: Primera tanda limitada. Venta online: NorteTicket. Importante: Los precios pueden variar a medida que se agoten las etapas de venta y pueden aplicarse cargos de servicio. La organización recomienda aprovechar la venta anticipada, ya que se trata de una tanda promocional con disponibilidad limitada. La ticketera también informa que los menores de 18 años deberán ingresar acompañados por un adulto y que los niños a partir de los 3 años abonan entrada. Una noche de R&B, soul y nuevas sonoridades para disfrutar en Tucumán Para quienes buscan qué hacer en Tucumán el sábado 5 de diciembre , la presentación de Abril Olivera representa una oportunidad para disfrutar de una de las propuestas de la nueva escena musical argentina. Su combinación de influencias, su identidad vocal y el repertorio de su nuevo álbum prometen una velada especialmente atractiva para los seguidores del R&B, el jazz, el soul y la música contemporánea. La Gesta Cultural será el escenario elegido para recibir a una artista que continúa desarrollando su carrera y ampliando su universo musical. ¡No te pierdas a Abril Olivera en vivo! Aprovechá las entradas promocionales, invitá a tus amigos y preparate para disfrutar de una noche de buena música con una de las voces destacadas del nuevo R&B argentino. 🎶 Todo lo que tenés que saber Evento: Abril Olivera en Tucumán. Presentación: Río de la Plata, su segundo álbum de estudio. Artista: Abril Olivera. Fecha: Sábado 5 de diciembre de 2026. Apertura de puertas: 21 h. Horario del espectáculo: 22 h, según NorteTicket. Lugar: La Gesta Cultural. Dirección: Avenida Alem 747, San Miguel de Tucumán. Géneros: R&B, soul, jazz, bossa nova, funk y hip-hop. Entradas Early Tickets: $15.000, tanda limitada. Venta de entradas: NorteTicket. Ingreso de menores: Menores de 18 años acompañados por un adulto. Desde los 3 años abonan entrada.",
     "highlighted_metadata": {},
-    "image": "",
-    "price": null,
-    "currency": "",
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/abril.png",
+    "price": 15000.0,
+    "currency": "ARS",
     "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "",
+    "location": "formato de un concierto en vivo",
+    "address": "Avenida Alem 747, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
     "organizer": "",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Musica"
+    ],
     "tags": [],
     "map_urls": [],
-    "map_search_url": "",
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=formato+de+un+concierto+en+vivo%2C+Avenida+Alem+747%2C+San+Miguel+de+Tucum%C3%A1n",
     "registration_urls": [],
     "external_urls": [],
     "occurrences": [
@@ -430,27 +434,27 @@
         "has_end": false
       },
       "location": {
-        "source": "",
-        "score": 0
+        "source": "narrative",
+        "score": 0.65
       },
-      "overall": 0.63
+      "overall": 0.91
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
+      "page_status": 200,
+      "rest_status": 200,
       "card_date": "2026-12-05",
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
-      "location": "",
-      "jsonld_count": 0,
+      "location": "narrative",
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "La cantante Abril Olivera se presentará el sábado 5 de diciembre de 2026 a las 22 h en La Gesta Cultural, ubicada en Avenida Alem 747, San Miguel de Tucumán. En el concierto en vivo dará a conocer su nuevo álbum Río de la Plata. Las entradas anticipadas se consiguen en NorteTicket desde $15.000 para la primera tanda limitada. Los menores de 18 años deben ingresar con un adulto y desde los 3 años abonan entrada.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "f9eb0b7e7e57b85cd687b244259954a775f6c8a950d366cbd7dc4baae2e118be"
   },
   {
     "id": "47289",
@@ -463,19 +467,23 @@
     "time_end": "",
     "start_datetime": "2026-12-06T00:00:00-03:00",
     "end_datetime": "",
-    "description": "",
-    "highlighted_metadata": {},
-    "image": "",
+    "description": "Anotá en el calendario: Tafí Viejo se prepara para recibir a corredores de toda la provincia y del país en una nueva edición de la Media Maratón del Limón, una de las propuestas deportivas más esperadas del año. Tres distancias para todos los niveles La competencia tendrá recorridos de 5, 10 y 21 kilómetros, para participantes de diferentes niveles y categorías. La largada será desde el predio de Lomas Fútbol. Medalla, remera y premios Cada corredor recibirá su medalla finisher, seguro, remera oficial y dorsal. Las categorías competitivas tendrán premiación en efectivo y habrá sorteo de una moto 0 kilómetro, además de un cierre musical para compartir entre corredores. Categorías por edad La clasificación estará organizada por edades, con divisiones cada cinco años y categorías especiales para mayores de 65, para que todos compitan en condiciones acordes a su franja etaria. Si buscás qué hacer en Tucumán en diciembre con un plan deportivo, ¡ya podés ir preparándote!\n\nQué: Media Maratón del Limón (5K, 10K y 21K) Cuándo: domingo 6 de diciembre Dónde: largada en el predio de Lomas Fútbol, Tafí Viejo Incluye: medalla finisher, seguro, remera oficial, dorsal y sorteo de una moto 0 km",
+    "highlighted_metadata": {
+      "qué": "Media Maratón del Limón (5K, 10K y 21K) Cuándo: domingo 6 de diciembre Dónde: largada en el predio de Lomas Fútbol, Tafí Viejo Incluye: medalla finisher, seguro, remera oficial, dorsal y sorteo de una moto 0 km"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823230557-ex0wk4.png",
     "price": null,
     "currency": "",
     "is_free": false,
     "location": "",
     "address": "",
-    "city": "",
-    "organizer": "",
+    "city": "Tafí Viejo",
+    "organizer": "edades, con divisiones cada cinco años y categorías especiales para mayores de 65, para que todos compitan en condiciones acordes a su franja etaria",
     "contact_email": [],
     "contact_phone": [],
-    "categories": [],
+    "categories": [
+      "Deportes"
+    ],
     "tags": [],
     "map_urls": [],
     "map_search_url": "",
@@ -505,23 +513,23 @@
         "source": "",
         "score": 0
       },
-      "overall": 0.33
+      "overall": 0.48
     },
     "_sources": {
-      "page_status": 429,
-      "rest_status": 429,
+      "page_status": 200,
+      "rest_status": 200,
       "card_date": "2026-12-06",
       "card_time": "",
       "date": "title_day",
       "time": "",
       "location": "",
-      "jsonld_count": 0,
+      "jsonld_count": 2,
       "v11_enrichment_error": "",
       "query_month": "2026-11"
     },
-    "summary": "",
-    "summary_generated": false,
+    "summary": "El domingo 6 de diciembre de 2026 se realizará la Media Maratón del Limón en Tafí Viejo, con recorridos de 5, 10 y 21 kilómetros. La largada será en el predio de Lomas Fútbol e incluye medalla, remera, seguro, dorsal, premios en efectivo y el sorteo de una moto 0 km.",
+    "summary_generated": true,
     "summary_version": 1,
-    "summary_source_hash": ""
+    "summary_source_hash": "dce11c4efd7bab4099befa22014e9b93cc0cd4d3b1d9991e89eae69f1beeef6a"
   }
 ]
