@@ -62,7 +62,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-17",
+      "card_date": "2026-11-18",
       "card_time": "19:30",
       "date": "title_day",
       "time": "mec_card",
@@ -138,7 +138,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-17",
+      "card_date": "2026-11-18",
       "card_time": "19:00",
       "date": "title_day",
       "time": "mec_card",
@@ -151,82 +151,6 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
-  },
-  {
-    "id": "47388",
-    "source": "MEC",
-    "title": "15 de Noviembre | “La Casa”, el thriller de Gustavo Triviño, llega al Espacio INCAA Tucumán",
-    "url": "https://agendatucuman.com.ar/eventos/15-de-noviembre-la-casa-el-thriller-de-gustavo-trivino-llega-al-espacio-incaa-tucuman/",
-    "date_start": "2026-11-15",
-    "date_end": "2026-11-15",
-    "time_start": "20:00",
-    "time_end": "",
-    "start_datetime": "2026-11-15T20:00:00-03:00",
-    "end_datetime": "",
-    "description": "El Espacio INCAA Tucumán suma a su cartelera “La Casa” , la película de Gustavo Triviño que se podrá ver en la Sala Orestes Caviglia en tres funciones, desde el domingo 15 hasta el martes 17 de noviembre. Una venta que se vuelve una trampa Despedido de una multinacional y bajo presión económica, Hugo Vaca decide vender su casa a un enigmático grupo de inversores. Lo que parecía una salida termina llevándolo a una situación cada vez más incierta y peligrosa. Un relato de suspenso que dialoga con la crisis, el desempleo y la vulnerabilidad. Días y horarios de las funciones Las proyecciones serán el domingo 15 y el lunes 16 a las 20 h , y el martes 17 a las 18 h , en la Sala Orestes Caviglia (San Martín 251). Cine nacional a precio accesible La entrada general cuesta $4.000 y hay valor especial de $2.500 para estudiantes y jubilados. Una excelente oportunidad para apoyar el cine argentino en pantalla grande.\n\nQué: “La Casa”, de Gustavo Triviño – Espacio INCAA Tucumán Cuándo: domingo 15 y lunes 16 de noviembre a las 20 h; martes 17 a las 18 h Dónde: Sala Orestes Caviglia – San Martín 251, San Miguel de Tucumán Entradas: general $4.000; estudiantes y jubilados $2.500 Fuente: Ente Cultural de Tucumán",
-    "highlighted_metadata": {
-      "qué": "“La Casa”, de Gustavo Triviño – Espacio INCAA Tucumán Cuándo: domingo 15 y lunes 16 de noviembre a las 20 h; martes 17 a las 18 h Dónde: Sala Orestes Caviglia – San Martín 251, San Miguel de Tucumán Entradas: general $4.000; estudiantes y jubilados $2.500 Fuente: Ente Cultural de Tucumán"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/la-casa.jpeg",
-    "price": 4000.0,
-    "currency": "ARS",
-    "is_free": false,
-    "location": "Sala Orestes Caviglia",
-    "address": "San Martín 251, San Miguel de Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Cine"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Orestes+Caviglia%2C+San+Mart%C3%ADn+251%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-15",
-        "time_start": "20:00",
-        "time_end": "",
-        "start_datetime": "2026-11-15T20:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-17",
-      "card_time": "20:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El Espacio INCAA Tucumán proyectará el thriller nacional La Casa, dirigido por Gustavo Triviño, en la Sala Orestes Caviglia ubicada en San Martín 251. Las funciones serán el domingo 15 y lunes 16 de noviembre a las 20 h, y el martes 17 a las 18 h. La entrada general cuesta $4.000, con un valor especial de $2.500 para estudiantes y jubilados.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "488b3235d2387ac1dedc28f753d0b8f0a9a1210c3660f335487e23a23b1dec47"
   },
   {
     "id": "47303",
@@ -368,7 +292,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-17",
+      "card_date": "2026-11-18",
       "card_time": "09:00",
       "date": "title_day",
       "time": "mec_card",
