@@ -472,14 +472,8 @@
       "reason": "Informa sobre la ubicación y ofertas del programa municipal Mercado en tu Barrio."
     }
   },
-  "selected_ids": [
-    "4-de-noviembre-en-yerba-buena-tramites-salud-y-atencion-veterinaria",
-    "programa-hospital-movil-en-que-localidades-se-ubicara-esta-semana-11",
-    "smt-donde-habra-jornadas-de-eco-canje-esta-semana-2",
-    "smt-donde-castrar-gratis-a-tu-mascota-del-3-al-6-de-noviembre",
-    "3-al-6-de-noviembre-donde-se-ubicara-el-mercado-en-tu-barrio"
-  ],
-  "updated_at": "2026-11-18T17:14:48.220993+00:00",
+  "selected_ids": [],
+  "updated_at": "2026-11-19T00:21:44.755465+00:00",
   "gemini_usage": {
     "date": "2026-11-03",
     "calls": 6
