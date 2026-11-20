@@ -62,7 +62,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-19",
+      "card_date": "2026-11-20",
       "card_time": "19:30",
       "date": "title_day",
       "time": "mec_card",
@@ -138,7 +138,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-19",
+      "card_date": "2026-11-20",
       "card_time": "19:00",
       "date": "title_day",
       "time": "mec_card",
@@ -151,84 +151,6 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
-  },
-  {
-    "id": "47303",
-    "source": "MEC",
-    "title": "19 de Noviembre | Peña a beneficio con Cecilia Paliza, Canto Tucumano y Leandro Robin para la Fundación Agrónomos por la Infancia",
-    "url": "https://agendatucuman.com.ar/eventos/19-de-noviembre-pena-a-beneficio-con-cecilia-paliza-canto-tucumano-y-leandro-robin-para-la-fundacion-agronomos-por-la-infancia/",
-    "date_start": "2026-11-19",
-    "date_end": "2026-11-19",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-11-19T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "Música, tradición y solidaridad en una misma noche. Lo de La Paliza organiza una peña con un propósito muy especial: reunir fondos a beneficio de la Fundación Agrónomos por la Infancia. Artistas que se suman a la causa Acompañarán la velada Cecilia Paliza, Canto Tucumano y Leandro Robin, con un repertorio de folclore y música popular para disfrutar entre amigos y en familia. Una peña con propósito La actividad invita a sumar un granito de arena a una hermosa causa mientras se comparte una noche de música. Si buscás qué hacer en Tucumán a fin de mes con un plan solidario, anotá esta fecha. Dónde y cómo conseguir tu tarjeta La peña es el jueves 19 de noviembre, en Lo de La Paliza, Laprida 181, San Miguel de Tucumán. Ya podés reservar o comprar tu tarjeta; para consultas, el contacto es el 11 3568 6892. ¡Te esperamos para una peña inolvidable!\n\nQué: peña a beneficio de la Fundación Agrónomos por la Infancia Cuándo: jueves 19 de noviembre Dónde: Lo de La Paliza, Laprida 181, San Miguel de Tucumán Artistas: Cecilia Paliza, Canto Tucumano y Leandro Robin Entradas: reserva o compra de tarjeta en el local",
-    "highlighted_metadata": {
-      "qué": "peña a beneficio de la Fundación Agrónomos por la Infancia Cuándo: jueves 19 de noviembre Dónde: Lo de La Paliza, Laprida 181, San Miguel de Tucumán Artistas: Cecilia Paliza, Canto Tucumano y Leandro Robin Entradas: reserva o compra de tarjeta en el local"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823617821-pawp4h.png",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "local",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "una peña con un propósito muy especial: reunir fondos a beneficio de la Fundación Agrónomos por la Infancia",
-    "contact_email": [],
-    "contact_phone": [
-      "11 3568 6892"
-    ],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=local%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-19",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-11-19T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "",
-        "score": 0,
-        "has_start": false,
-        "has_end": false
-      },
-      "location": {
-        "source": "narrative",
-        "score": 0.65
-      },
-      "overall": 0.61
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-19",
-      "card_time": "",
-      "date": "title_day",
-      "time": "",
-      "location": "narrative",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Disfrutá de una peña solidaria a beneficio de la Fundación Agrónomos por la Infancia con las actuaciones de Cecilia Paliza, Canto Tucumano y Leandro Robin. El evento se realizará el jueves 19 de noviembre en Lo de La Paliza, ubicado en Laprida 181, San Miguel de Tucumán. Las tarjetas se pueden reservar y comprar previamente comunicándose al 11 3568 6892.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "e45f05674b94662d02ae76d309dc930078bdf65df16464cb478f88cf4dd27036"
   },
   {
     "id": "47400",
@@ -292,7 +214,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-19",
+      "card_date": "2026-11-20",
       "card_time": "09:00",
       "date": "title_day",
       "time": "mec_card",

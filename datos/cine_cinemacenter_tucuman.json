@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-19T17:45:09.760331-03:00",
-  "reference_date": "2026-11-19",
+  "generated_at": "2026-11-20T04:26:41.678607-03:00",
+  "reference_date": "2026-11-20",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "2b8255ca077f6a00b0bae52413e067b044a8251f5d687d7db0f779bd02e80d5d"
+    "pdf_sha256": "05f4b47d804e9b448064f9f16f2e1aaec9742d0dbe4d4419c7fa228a9ee051c7"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -33,9 +33,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "21:20"
-          ],
+          "jueves": [],
           "viernes": [
             "21:20"
           ],
@@ -56,12 +54,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "21:20",
-            "datetime": "2026-11-19T21:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "21:20",
@@ -104,7 +96,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -155,11 +147,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "17:00",
-            "18:40",
-            "20:00"
-          ],
+          "jueves": [],
           "viernes": [
             "17:00",
             "18:40",
@@ -192,24 +180,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "17:00",
-            "datetime": "2026-11-19T17:00:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-11-19",
-            "time": "18:40",
-            "datetime": "2026-11-19T18:40:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-11-19",
-            "time": "20:00",
-            "datetime": "2026-11-19T20:00:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "17:00",
@@ -324,7 +294,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -374,9 +344,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "17:30"
-          ],
+          "jueves": [],
           "viernes": [
             "17:30"
           ],
@@ -397,12 +365,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "17:30",
-            "datetime": "2026-11-19T17:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "17:30",
@@ -445,7 +407,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -495,10 +457,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "16:00",
-            "19:10"
-          ],
+          "jueves": [],
           "viernes": [
             "16:00",
             "19:10",
@@ -530,18 +489,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "16:00",
-            "datetime": "2026-11-19T16:00:00",
-            "weekday": "jueves"
-          },
-          {
-            "date": "2026-11-19",
-            "time": "19:10",
-            "datetime": "2026-11-19T19:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "16:00",
@@ -650,7 +597,7 @@
           "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 158,
           "genres": [
             "Acción Ciencia Ficción"
@@ -707,9 +654,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "22:20"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -720,12 +665,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "22:20",
-            "datetime": "2026-11-19T22:20:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-22",
             "time": "22:20",
@@ -738,7 +677,7 @@
           "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-22",
           "duration_minutes": 158,
           "genres": [
             "Acción Ciencia Ficción"
@@ -795,9 +734,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "22:30"
-          ],
+          "jueves": [],
           "viernes": [
             "22:30"
           ],
@@ -818,12 +755,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "22:30",
-            "datetime": "2026-11-19T22:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "22:30",
@@ -866,7 +797,7 @@
           "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 115,
           "genres": [
             "Fantasía"
@@ -924,9 +855,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "18:10"
-          ],
+          "jueves": [],
           "viernes": [
             "18:10"
           ],
@@ -947,12 +876,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "18:10",
-            "datetime": "2026-11-19T18:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "18:10",
@@ -995,7 +918,7 @@
           "title": "PLUMAS OPERACION RESCATE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 85,
           "genres": [
             "Animación"
@@ -1048,9 +971,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "19:30"
-          ],
+          "jueves": [],
           "viernes": [
             "19:30",
             "22:10"
@@ -1076,12 +997,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "19:30",
-            "datetime": "2026-11-19T19:30:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "19:30",
@@ -1154,7 +1069,7 @@
           "title": "YO SOY ROCKY - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 127,
           "genres": [
             "Biográfica"
@@ -1212,9 +1127,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "22:10"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1225,12 +1138,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "22:10",
-            "datetime": "2026-11-19T22:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-22",
             "time": "22:10",
@@ -1243,7 +1150,7 @@
           "title": "YO SOY ROCKY - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-22",
           "duration_minutes": 127,
           "genres": [
             "Biográfica"
@@ -1301,9 +1208,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "20:10"
-          ],
+          "jueves": [],
           "viernes": [
             "20:10"
           ],
@@ -1324,12 +1229,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "20:10",
-            "datetime": "2026-11-19T20:10:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-20",
             "time": "20:10",
@@ -1372,7 +1271,7 @@
           "title": "RECEN POR MI - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-20",
           "duration_minutes": 110,
           "genres": [
             "Documental"
@@ -1525,9 +1424,7 @@
         "week_start": "2026-11-19",
         "week_end": "2026-11-25",
         "schedule": {
-          "jueves": [
-            "22:40"
-          ],
+          "jueves": [],
           "viernes": [],
           "sábado": [],
           "domingo": [
@@ -1538,12 +1435,6 @@
           "miércoles": []
         },
         "occurrences": [
-          {
-            "date": "2026-11-19",
-            "time": "22:40",
-            "datetime": "2026-11-19T22:40:00",
-            "weekday": "jueves"
-          },
           {
             "date": "2026-11-22",
             "time": "22:40",
@@ -1556,7 +1447,7 @@
           "title": "LA ASISTENTE DE LA MORGUE - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-19",
+          "release_date": "2026-11-22",
           "duration_minutes": 94,
           "genres": [
             "Terror Suspenso"

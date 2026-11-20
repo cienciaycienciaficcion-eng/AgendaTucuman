@@ -1,13 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-19T17:45:09.760178-03:00",
+  "generated_at": "2026-11-20T04:26:41.678447-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
       "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 130,
       "genres": [
         "Animación Aventuras"
@@ -48,7 +48,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -88,7 +88,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -128,7 +128,7 @@
       "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 158,
       "genres": [
         "Acción Ciencia Ficción"
@@ -175,7 +175,7 @@
       "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-22",
       "duration_minutes": 158,
       "genres": [
         "Acción Ciencia Ficción"
@@ -222,7 +222,7 @@
       "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 115,
       "genres": [
         "Fantasía"
@@ -270,7 +270,7 @@
       "title": "PLUMAS OPERACION RESCATE - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 85,
       "genres": [
         "Animación"
@@ -313,7 +313,7 @@
       "title": "YO SOY ROCKY - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 127,
       "genres": [
         "Biográfica"
@@ -361,7 +361,7 @@
       "title": "YO SOY ROCKY - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-22",
       "duration_minutes": 127,
       "genres": [
         "Biográfica"
@@ -409,7 +409,7 @@
       "title": "RECEN POR MI - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-20",
       "duration_minutes": 110,
       "genres": [
         "Documental"
@@ -487,7 +487,7 @@
       "title": "LA ASISTENTE DE LA MORGUE - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-19",
+      "release_date": "2026-11-22",
       "duration_minutes": 94,
       "genres": [
         "Terror Suspenso"
