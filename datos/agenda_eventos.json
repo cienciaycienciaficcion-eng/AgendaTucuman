@@ -153,6 +153,609 @@
     "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
   },
   {
+    "id": "47594",
+    "source": "MEC",
+    "title": "20 y 21 de Noviembre | «Amor trava», el documental de Lucrecia Mastrangelo, llega al Espacio INCAA Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/20-y-21-de-noviembre-amor-trava-el-documental-de-lucrecia-mastrangelo-llega-al-espacio-incaa-tucuman/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-21",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-20T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Si estás buscando un plan cultural distinto para este fin de semana, el Espacio INCAA Tucumán propone una cita imperdible con el cine documental argentino. Este viernes 20 y sábado 21 de noviembre, a las 20 h, se proyecta «Amor trava» , la película de Lucrecia Mastrangelo , en la Sala Hynes O’Connor, ubicada en San Martín 251. Un retrato íntimo sobre crecer y transformarse «Amor trava» es el retrato de Aurora, una adolescente que atraviesa su transición. El documental se mete de lleno en sus planes de futuro, sus miedos y, sobre todo, en el vínculo con su madre, que funciona como eje emocional de la historia. Con una mirada cercana y sensible, la película invita a reflexionar sobre la identidad, el acompañamiento familiar y los desafíos de construir un camino propio en plena adolescencia. Cine argentino en el centro de la ciudad El Espacio INCAA Tucumán se consolidó como una de las pantallas de referencia para el cine nacional en la provincia. Sus funciones son una excelente alternativa para quienes disfrutan del cine de autor y buscan propuestas que no siempre llegan a las salas comerciales. Entradas a precio accesible La entrada general cuesta $5.000, mientras que estudiantes y jubilados abonan $2.500. Te recomendamos llegar con algunos minutos de anticipación para asegurar tu lugar. ¿Ya tenés plan para el viernes o el sábado? Sumate a esta función, invitá a alguien con quien compartir la charla de la salida y descubrí una de las películas documentales más sensibles de la cartelera. Resumen Película: «Amor trava», de Lucrecia Mastrangelo (documental) Fechas: viernes 20 y sábado 21 de noviembre Horario: 20 h Lugar: Sala Hynes O’Connor – Espacio INCAA Tucumán, San Martín 251 Entradas: general $5.000; estudiantes y jubilados $2.500 Informes: (0381) 430-7678 / 452-4436 Fuente: Ente Cultural de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ente_amor_trava.jpg",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "provincia",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "0381) 430-7678"
+    ],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=provincia%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-20T20:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-11-21",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "20:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Espacio INCAA Tucumán proyecta el documental Amor trava, dirigido por Lucrecia Mastrangelo. Las funciones son el viernes 20 y sábado 21 de noviembre a las 20 h en la Sala Hynes O’Connor, ubicada en San Martín 251. La entrada general cuesta $5.000 y $2.500 para estudiantes y jubilados.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0d50b82534499ab31fe7913256d846c08466004b01cdd6684b16c4bc27b8f1ca"
+  },
+  {
+    "id": "47599",
+    "source": "MEC",
+    "title": "20 de Noviembre | Concierto coral gratuito en el Museo de la Industria Azucarera del Parque 9 de Julio",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-concierto-coral-gratuito-en-el-museo-de-la-industria-azucarera-del-parque-9-de-julio/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-20T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "Voces infantiles, juveniles y universitarias se unen en una noche especial dentro del Parque 9 de Julio. Este viernes 20 de noviembre, a las 20.30 h, el Museo de la Industria Azucarera (MIA) recibe un concierto coral con entrada libre y gratuita. Dos coros en un mismo escenario Participarán el Coro Infanto Juvenil de la Municipalidad de San Miguel de Tucumán y el Coro de la Facultad de Medicina de la UNT , dos agrupaciones que compartirán repertorio y talento en un encuentro pensado para toda la familia. Un entorno histórico para disfrutar música El MIA, ubicado en la antigua casa del obispo Colombres, es uno de los espacios más emblemáticos del parque y un marco ideal para una velada musical. Además, la actividad no se suspende por lluvia, así que no hay excusas para perdérsela. Si buscás un plan tranquilo, gratuito y con buena música para arrancar el fin de semana, acercate al Parque 9 de Julio y dejate envolver por las voces de los coros tucumanos. Resumen Evento: Concierto coral Participan: Coro Infanto Juvenil de la Municipalidad de SMT y Coro de la Facultad de Medicina de la UNT Fecha: viernes 20 de noviembre Horario: 20.30 h Lugar: Museo de la Industria Azucarera, Parque 9 de Julio Entrada: libre y gratuita Clima: no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_coral_mia-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Museo de la Industria Azucarera, Parque 9 de Julio",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+de+la+Industria+Azucarera%2C+Parque+9+de+Julio%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-20T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfrutá de un concierto coral gratuito con el Coro Infanto Juvenil de la Municipalidad de San Miguel de Tucumán y el Coro de la Facultad de Medicina de la UNT. La cita es el viernes 20 de noviembre a las 20.30 h en el Museo de la Industria Azucarera, ubicado en el Parque 9 de Julio. La actividad no se suspende por lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b275f8d51c067fdc4fb1cfea3edda80373849253adcf795853c6aa5d6f28b1ba"
+  },
+  {
+    "id": "47610",
+    "source": "MEC",
+    "title": "20 de Noviembre | La Orquesta Juvenil de la UNT ofrece un concierto homenaje por el Día de la Música en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-la-orquesta-juvenil-de-la-unt-ofrece-un-concierto-homenaje-por-el-dia-de-la-musica-en-el-virla/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-20T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "La música se celebra con talento joven en el Centro Cultural Virla. Este viernes 20 de noviembre, a las 20.30 h, la Orquesta Juvenil de la UNT presenta un Concierto Homenaje por el Día de la Música en el Auditorio del Virla (25 de Mayo 265). Una orquesta joven con solistas destacados La formación estará dirigida por el maestro Erik Luján Berman , con la participación de la maestra invitada Susana Noemí García . Los solistas de la noche serán Tomás Aquino, Lautaro Fernández y Walter Serrano. El Día de la Música en clave sinfónica El concierto se suma a las celebraciones por el Día de la Música y es una oportunidad ideal para acompañar a los jóvenes músicos de la Universidad Nacional de Tucumán y disfrutar de una velada sinfónica en pleno centro. Entradas La entrada general cuesta $10.000, con promoción 2×1 para estudiantes y jubilados. Las entradas se consiguen en la ticketera online del Virla y en el centro cultural. Arrancá el fin de semana con buena música. Resumen Concierto: Homenaje por el Día de la Música Intérpretes: Orquesta Juvenil de la UNT Dirección: Erik Luján Berman; maestra invitada Susana Noemí García Solistas: Tomás Aquino, Lautaro Fernández y Walter Serrano Fecha: viernes 20 de noviembre Horario: 20.30 h Lugar: Auditorio del Centro Cultural Virla, 25 de Mayo 265 Entradas: $10.000; promo 2×1 para estudiantes y jubilados (elvirla.entradanet.com) Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_5.webp",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Centro Cultural Virla",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-20T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Orquesta Juvenil de la UNT presenta un concierto homenaje por el Día de la Música en el Centro Cultural Virla. La cita es el viernes 20 de noviembre a las 20:30 h en el auditorio ubicado en 25 de Mayo 265. Las entradas generales cuestan $10.000, con promoción 2x1 para estudiantes y jubilados.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b292db8592c4e8df98c4ed7a472b333310e0d03d2f8454aaca2385a5d5aea41c"
+  },
+  {
+    "id": "47631",
+    "source": "MEC",
+    "title": "20 de Noviembre | Jorge Rojas presenta «Piano y Voz» en el Teatro Mercedes Sosa con Román Ramonda como invitado",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-jorge-rojas-presenta-piano-y-voz-en-el-teatro-mercedes-sosa-con-roman-ramonda-como-invitado/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-20T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Una de las voces más populares del folclore argentino llega con un formato íntimo. Jorge Rojas presenta «Piano y Voz» este viernes 20 de noviembre a las 21 h en el Teatro Mercedes Sosa (San Martín 479). Un concierto despojado y cercano En este formato, Rojas deja de lado el gran despliegue para reencontrarse con sus canciones desde lo esencial: la voz y el piano. Una propuesta pensada para escuchar con atención cada interpretación y redescubrir temas que forman parte de la historia del folclore reciente. Román Ramonda, artista invitado La noche contará con la participación de Román Ramonda como artista invitado, que se suma a un show que promete momentos emotivos y mucha conexión con el público. Entradas Las entradas se consiguen a través de la boletería online oficial del Teatro Mercedes Sosa y en la boletería del teatro. Si sos fan de Jorge Rojas, no te pierdas esta versión íntima de su repertorio. Resumen Artista: Jorge Rojas Espectáculo: «Piano y Voz» Invitado: Román Ramonda Fecha: viernes 20 de noviembre Horario: 21 h Lugar: Teatro Mercedes Sosa, San Martín 479 Entradas: boletería del teatro y web oficial del Teatro Mercedes Sosa Fuente: Ente Tucumán Turismo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_jorge_rojas.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Mercedes Sosa, San Martín 479 Entradas: boletería del teatro y web oficial del Teatro Mercedes Sosa Fuente: Ente Tucumán Turismo",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+San+Mart%C3%ADn+479+Entradas%3A+boleter%C3%ADa+del+teatro+y+web+oficial+del+Teatro+Mercedes+Sosa+Fuente%3A+Ente+Tucum%C3%A1n+Turismo",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-20T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Jorge Rojas presenta su espectáculo íntimo Piano y Voz, con la participación de Román Ramonda como invitado especial. La cita es el viernes 20 de noviembre a las 21 h en el Teatro Mercedes Sosa, ubicado en San Martín 479. Las entradas se pueden adquirir en la boletería del lugar y en su sitio web oficial.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "9a2b4cc2791290f710e45a96c26e982b607961552878a2ddba2e211b50988ec8"
+  },
+  {
+    "id": "47600",
+    "source": "MEC",
+    "title": "20 de Noviembre | Julieta Laso presenta «Fabriquera» en el Teatro Municipal Rosita Ávila",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-julieta-laso-presenta-fabriquera-en-el-teatro-municipal-rosita-avila/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "21:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-11-20T21:00:00-03:00",
+    "end_datetime": "2026-11-20T18:00:00-03:00",
+    "description": "Una de las grandes cantoras de la escena argentina contemporánea llega a Tucumán. Julieta Laso presenta «Fabriquera» este viernes 20 de noviembre a las 21 h en el Teatro Municipal Rosita Ávila , ubicado en Las Piedras 1550. Un regreso a las raíces del tango En este trabajo, Laso vuelve a las raíces de su decir tanguero con un repertorio intenso y personal que combina canciones inéditas con obras de Melingo, Julián Centeya, Evaristo Carriego, María Celeste Torre y Patxi Andion. El disco es también fruto de dos años de trabajo compartido con Melingo, una experiencia que marcó a fondo su manera de cantar. Tango, poesía y canción popular en vivo Sobre el escenario la acompañan Patricio Cotella en contrabajo y Leandro Angeli en guitarra. Juntos le dan a «Fabriquera» una nueva dimensión, en una propuesta que cruza tango, poesía y canción popular desde una voz inconfundible. Cómo conseguir entradas Las entradas están disponibles en la ticketera digital de la Municipalidad de San Miguel de Tucumán y en la boletería del teatro, que atiende en días hábiles de 9 a 18 h y los días de función desde las 17 h. Si sos de los que disfrutan el tango con identidad propia, esta es tu noche. Resumen Artista: Julieta Laso Espectáculo: «Fabriquera» Músicos: Patricio Cotella (contrabajo) y Leandro Angeli (guitarra) Fecha: viernes 20 de noviembre Horario: 21 h Lugar: Teatro Municipal Rosita Ávila, Las Piedras 1550 Entradas: ticketera digital municipal (entradas.smt.gob.ar) y boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_fabriquera-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "21:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-11-20T21:00:00-03:00",
+        "end_datetime": "2026-11-20T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La destacada cantora Julieta Laso presenta su espectáculo de tango «Fabriquera» junto a los músicos Patricio Cotella y Leandro Angeli. La cita es el viernes 20 de noviembre a las 21 h en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1550. Las entradas se pueden adquirir en la ticketera digital municipal y en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "7ce35993e5fe2c8464b52d71b12c8233e3c2fff6205de17417ee93b1081daaed"
+  },
+  {
+    "id": "47617",
+    "source": "MEC",
+    "title": "20 de Noviembre | El taller de danzas folclóricas Zonkko América presenta «Ñan Purispa» en el Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-el-taller-de-danzas-folcloricas-zonkko-america-presenta-nan-purispa-en-el-teatro-alberdi/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "21:15",
+    "time_end": "",
+    "start_datetime": "2026-11-20T21:15:00-03:00",
+    "end_datetime": "",
+    "description": "La danza folclórica se adueña de la Sala Mayor del Teatro Alberdi. Este viernes 20 de noviembre, a las 21.15 h, el Taller de danzas folclóricas Zonkko América , del Complejo Dickens, presenta «Ñan Purispa» , con entrada gratuita. Un camino de danza y raíces «Ñan Purispa» es una expresión en quechua que remite a «caminando el camino». El espectáculo propone un recorrido por las danzas de nuestra tierra, con la identidad latinoamericana como hilo conductor y el trabajo de bailarinas y bailarines que se formaron durante el año en el taller. El cierre de un año de trabajo La presentación es una oportunidad para acompañar a quienes forman parte del taller y disfrutar de la riqueza del folclore sobre uno de los escenarios más tradicionales de la ciudad. Gratis en el Alberdi La entrada es gratuita. El Teatro Alberdi está ubicado en Jujuy y Crisóstomo Álvarez. Llegá con tiempo para conseguir una buena ubicación y sumate a esta celebración de nuestras raíces. Resumen Espectáculo: «Ñan Purispa» Elenco: Taller de danzas folclóricas Zonkko América – Complejo Dickens Fecha: viernes 20 de noviembre Horario: 21.15 h Lugar: Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez Entrada: gratuita Fuente: Teatro Alberdi (Instagram @teatroalberdi_oficial).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi_3.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Mayor+del+Teatro+Alberdi%2C+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "21:15",
+        "time_end": "",
+        "start_datetime": "2026-11-20T21:15:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "21:15",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El taller de danzas folclóricas Zonkko América presenta el espectáculo de raíz latinoamericana «Ñan Purispa». La función se realizará el viernes 20 de noviembre a las 21.15 h en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy y Crisóstomo Álvarez. La entrada es totalmente gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0fcd52eab41fcab24be0bb1f3134af850c6fe337d694e80aec0922241479f8b4"
+  },
+  {
+    "id": "47626",
+    "source": "MEC",
+    "title": "20 de Noviembre | Gisela Canevaro y Carlos Podazza presentan una noche de tangos y boleros en Lo de la Paliza",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-gisela-canevaro-y-carlos-podazza-presentan-una-noche-de-tangos-y-boleros-en-lo-de-la-paliza/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-20T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tangos, boleros y música latinoamericana para empezar el finde largo con una cena especial. Este viernes 20 de noviembre, a las 22 h, Gisela Canevaro y Carlos Podazza se presentan en Lo de la Paliza (Laprida 181, San Miguel de Tucumán). Un repertorio para disfrutar sin apuro El dúo propone un recorrido por tangos, boleros y música latinoamericana, con interpretaciones sentidas y un clima ideal para escuchar de cerca. La noche contará además con las artistas invitadas Ana Marcilla y Andrea García Wilde . Música, comida rica y tragos Lo de la Paliza propone noches de música en vivo acompañadas de gastronomía y tragos, en un ambiente íntimo en pleno centro tucumano, en Laprida 181. Un plan ideal para cenar con amigos o en pareja mientras disfrutás de un show cercano. Entradas y reservas El valor del espectáculo es de $7.000 en efectivo. Para reservar mesa, se puede escribir por WhatsApp al 381 241-8094 o llamar al 258-8995. Conviene reservar con anticipación, porque las noches de música en vivo suelen llenarse. Resumen Artistas: Gisela Canevaro y Carlos Podazza Invitadas: Ana Marcilla y Andrea García Wilde Género: tangos, boleros y música latinoamericana Fecha: viernes 20 de noviembre Horario: 22 h Lugar: Lo de la Paliza, Laprida 181 Entrada: $7.000 en efectivo Reservas: WhatsApp 381 241-8094 / tel. 258-8995 Fuente: Ente Tucumán Turismo y Lo de la Paliza.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_canevaro.jpg",
+    "price": 7000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Lo de la Paliza, Laprida 181",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-20T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Gisela Canevaro y Carlos Podazza presentan una noche de tangos, boleros y música latinoamericana, acompañados por Ana Marcilla y Andrea García Wilde. El show será este viernes 20 de noviembre a las 22 h en Lo de la Paliza, ubicado en Laprida 181. La entrada cuesta $7.000 en efectivo y se realizan reservas al WhatsApp 381 241-8094 o al teléfono 258-8995.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "d1cafa2aa6ce4c366e414da4acd462b98ec879d4d8d07e09485f1d9b7eb986f4"
+  },
+  {
+    "id": "47621",
+    "source": "MEC",
+    "title": "20 de Noviembre | Viernes Escondido: peña y guitarreada con Trova Dúo, Matías Brito, Desnaturaliza2 y Sonkoy Tucma",
+    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-viernes-escondido-pena-y-guitarreada-con-trova-duo-matias-brito-desnaturaliza2-y-sonkoy-tucma/",
+    "date_start": "2026-11-20",
+    "date_end": "2026-11-20",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-20T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El fin de semana largo arranca con folclore en la peña. Este viernes 20 de noviembre, desde las 22 h, La Escondida (Miguel Lillo 234, San Miguel de Tucumán) propone el Viernes Escondido , una noche de bar, peña y guitarreada. Los artistas de la noche Sobre el escenario se presentarán Trova Dúo , Matías Brito , Desnaturaliza2 y Sonkoy Tucma , artistas con mucha presencia que prometen una noche bien folclórica. Guitarreada toda la noche Además de los shows, la propuesta incluye guitarreada toda la noche, ese clima de peña en el que cualquiera puede sumarse a cantar. Un espacio de encuentro, tradición y amistad, como define el lugar su propia identidad. Bar y peña en el centro La Escondida funciona como bar y peña, con mesas para disfrutar de la música, algo rico para comer y buena compañía. Para consultas y reservas, se puede contactar al lugar a través de sus redes sociales. ¡Armá la mesa con amigos y vení a disfrutar! Resumen Evento: Viernes Escondido – bar, peña y guitarreada Artistas: Trova Dúo, Matías Brito, Desnaturaliza2 y Sonkoy Tucma Fecha: viernes 20 de noviembre Horario: desde las 22 h Lugar: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Fuente: La Escondida (Instagram @laescondida.tucuman).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/escondida_1.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Fuente: La Escondida (Instagram @laescondida.tucuman)",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+Fuente%3A+La+Escondida+%28Instagram+%40laescondida.tucuman%29",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-20",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-20T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 20 de noviembre, desde las 22 h, se realizará el Viernes Escondido en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. La noche de bar y peña contará con música folclórica en vivo a cargo de Trova Dúo, Matías Brito, Desnaturaliza2 y Sonkoy Tucma, además de una guitarreada abierta toda la noche. Las consultas y reservas se realizan a través de las redes sociales del lugar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3ec5c2ba4f264527c06311a924b8f7a54148595a3a2a12c3c04efb39a41bb178"
+  },
+  {
     "id": "47400",
     "source": "MEC",
     "title": "Hasta el 21 de Noviembre | “Arte que da vida”: la muestra de dibujos y pinturas de Bastidores Tuc en el Virla",
@@ -227,6 +830,2468 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "6480776625cb37e79c9e04161f490087c5f3b2cbedbc85f75d44ac21a6173c15"
+  },
+  {
+    "id": "47632",
+    "source": "MEC",
+    "title": "21 de Noviembre | Campeonato Argentino de Vela en Altura: la Copa Regata de las Nubes se corre en el dique La Angostura",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-campeonato-argentino-de-vela-en-altura-la-copa-regata-de-las-nubes-se-corre-en-el-dique-la-angostura/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "10:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-21T10:00:00-03:00",
+    "end_datetime": "2026-11-21T21:00:00-03:00",
+    "description": "Velas, montañas y deporte en uno de los paisajes más lindos de la provincia. Este sábado 21 de noviembre, el dique La Angostura , en El Mollar, será escenario de la 2° edición del Campeonato Argentino de Vela en Altura – Copa Regata de las Nubes . Una competencia única entre cerros El campeonato reúne a deportistas náuticos en un espejo de agua rodeado de montañas, a casi 2.000 metros sobre el nivel del mar. La propuesta convoca tanto a competidores como a público que quiera disfrutar del espectáculo de las velas sobre el dique. Horarios Las actividades se desarrollan de 10 a 21 h, y el horario destacado de competencia anunciado por la organización es a partir de las 11 h. Es una excelente excusa para pasar el día en El Mollar y Tafí del Valle. Informes Para más información, la organización atiende consultas por WhatsApp al 381 633-7979. El evento cuenta con el acompañamiento del Ente Tucumán Turismo y el Gobierno de Tucumán. ¡Llevá abrigo, protector solar y disfrutá de la regata! Resumen Evento: Campeonato Argentino de Vela en Altura – Copa Regata de las Nubes (2° edición) Fecha: sábado 21 de noviembre Horario: de 10 a 21 h (competencia desde las 11 h) Lugar: Dique La Angostura, El Mollar, Tafí del Valle Informes: WhatsApp 381 633-7979 Fuente: Ente Tucumán Turismo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_vela.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Dique La Angostura, El Mollar, Tafí del Valle Informes: WhatsApp 381 633-7979 Fuente: Ente Tucumán Turismo",
+    "address": "",
+    "city": "Tafí del Valle",
+    "organizer": "tanto a competidores como a público que quiera disfrutar del espectáculo de las velas sobre el dique",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Deportes"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Dique+La+Angostura%2C+El+Mollar%2C+Taf%C3%AD+del+Valle+Informes%3A+WhatsApp+381+633-7979+Fuente%3A+Ente+Tucum%C3%A1n+Turismo",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "10:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-21T10:00:00-03:00",
+        "end_datetime": "2026-11-21T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 21 de noviembre se disputa la segunda edición del Campeonato Argentino de Vela en Altura – Copa Regata de las Nubes en el dique La Angostura, en El Mollar. Las actividades se desarrollan de 10 a 21 h y la competencia inicia a partir de las 11 h. Para consultas, hay disponible un contacto por WhatsApp al 381 633-7979.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "fe7370519c05db660a55fa469a5e03298d70d4d40f4e9ec721f484059ba4ad97"
+  },
+  {
+    "id": "47596",
+    "source": "MEC",
+    "title": "21 de Noviembre | Fiesta de la Tradición y de los Juegos Criollos en el Museo Sanmartiniano de La Ramada",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-fiesta-de-la-tradicion-y-de-los-juegos-criollos-en-el-museo-sanmartiniano-de-la-ramada/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "12:00",
+    "time_end": "18:00",
+    "start_datetime": "2026-11-21T12:00:00-03:00",
+    "end_datetime": "2026-11-21T18:00:00-03:00",
+    "description": "Taba, truco, sapo y música en vivo: el Museo Sanmartiniano de Tucumán se prepara para vivir la Fiesta de la Tradición y de los Juegos Criollos , una jornada al aire libre pensada para toda la familia. La cita es este sábado 21 de noviembre, de 12 a 18 h, en la Ruta Provincial 317, km 4, en La Ramada de Abajo (Burruyacú), con entrada libre y gratuita. Juegos criollos para todas las edades Durante la tarde habrá torneos de taba, truco y sapo, además de otras actividades tradicionales para compartir entre generaciones. La programación se completa con presentaciones en vivo de músicos locales que pondrán el ritmo de la música popular argentina. Un homenaje al Día de la Tradición La propuesta se enmarca en las celebraciones por el Día de la Tradición, que se conmemora cada 10 de noviembre en homenaje al nacimiento de José Hernández, autor del Martín Fierro. La idea es recuperar y compartir prácticas que forman parte de nuestra identidad cultural. Un paseo ideal para el sábado El Museo Sanmartiniano sigue ampliando sus propuestas culturales y recreativas como espacio de encuentro para la comunidad. Si buscás una salida al aire libre, con costumbres criollas y buena música, armá la escapada a Burruyacú y disfrutá de una tarde bien tucumana. Resumen Evento: Fiesta de la Tradición y de los Juegos Criollos Fecha: sábado 21 de noviembre Horario: de 12 a 18 h Lugar: Museo Sanmartiniano de Tucumán, Ruta Provincial 317, km 4, La Ramada de Abajo, Burruyacú Actividades: torneos de taba, truco y sapo, juegos tradicionales y música en vivo Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ente_fiesta_tradicion.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "Provincial 317",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Provincial+317%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "12:00",
+        "time_end": "18:00",
+        "start_datetime": "2026-11-21T12:00:00-03:00",
+        "end_datetime": "2026-11-21T18:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "12:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfrutá de la Fiesta de la Tradición y de los Juegos Criollos en el Museo Sanmartiniano de Tucumán, ubicado en la Ruta Provincial 317, km 4, La Ramada de Abajo, Burruyacú. El sábado 21 de noviembre, de 12 a 18 h, habrá torneos de taba, truco y sapo, además de música en vivo. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3901a000d79979c8c43edbbec563680755c22626e89909d52b89c94bba832de5"
+  },
+  {
+    "id": "47634",
+    "source": "MEC",
+    "title": "21 de Noviembre | Tafí del Valle vive la 6° edición del Festival de la Tradición con una gran jineteada",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-tafi-del-valle-vive-la-6-edicion-del-festival-de-la-tradicion-con-una-gran-jineteada/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "12:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T12:00:00-03:00",
+    "end_datetime": "",
+    "description": "«El campo, las destrezas criollas y la tradición se hacen fiesta en Tafí del Valle». Así presenta la Agrupación Gaucha San Antonio de Padua la 6° edición del Festival de la Tradición , que se realiza este sábado 21 de noviembre en el Predio del Complejo Municipal, Ruta 307, km 61, Tafí del Valle. Cronograma de actividades La jornada comienza a las 12 h con un almuerzo criollo (locro, empanadas y asado). A las 13 h se realizará una ceremonia a la Madre Tierra; a las 14 h, el desfile de agrupaciones gauchas; y a las 15 h, tareas de corral como enlazada, pialada, doma en montura tafinista y doma de terneros. Gran jineteada a las 21 h El plato fuerte llega a las 21 h con la gran jineteada , en categorías crina limpia y grupa, con una gran final. Animarán las tropillas La Bandeña de los hermanos Guanco y La Churqueña de Roberto Villarreal, con el payador Elio Rodríguez, el relator Sergio Ríos y los jurados Alfredo Olivera y Elvio Lazarte. Música, folclore y baile para cerrar Al finalizar, la fiesta sigue con una gran noche de música, folclore y baile. La entrada tiene un valor de $8.000. Un plan ideal para vivir las tradiciones gauchas en el corazón de los Valles. Resumen Evento: 6° Festival de la Tradición Organiza: Agrupación Gaucha San Antonio de Padua Fecha: sábado 21 de noviembre Horario: desde las 12 h; gran jineteada a las 21 h Lugar: Predio del Complejo Municipal, Ruta 307, km 61, Tafí del Valle Entrada: $8.000 Fuente: Ente Tucumán Turismo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_festival_tradicion_tafi.jpg",
+    "price": 8000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Predio del Complejo Municipal, Ruta 307, km 61, Tafí del Valle",
+    "address": "",
+    "city": "Tafí del Valle",
+    "organizer": "Agrupación Gaucha San Antonio de Padua Fecha: sábado 21 de noviembre Horario: desde las 12 h",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Predio+del+Complejo+Municipal%2C+Ruta+307%2C+km+61%2C+Taf%C3%AD+del+Valle%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "12:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T12:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "12:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Tafí del Valle celebra la 6° edición del Festival de la Tradición con destrezas criollas, desfile gaucho y una gran jineteada. El evento se realiza el sábado 21 de noviembre desde las 12 h en el Predio del Complejo Municipal, ubicado en la Ruta 307, km 61. La entrada general tiene un valor de 8000 pesos.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3bc912b5de0e6b94b4d4ded10bc52cc1e2486d303e756cc3734a8d0ec6c7d285"
+  },
+  {
+    "id": "47602",
+    "source": "MEC",
+    "title": "21 de Noviembre | Masterclass gratuita de costura navideña creativa en la Casa del Bicentenario",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-masterclass-gratuita-de-costura-navidena-creativa-en-la-casa-del-bicentenario/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "16:00",
+    "time_end": "19:00",
+    "start_datetime": "2026-11-21T16:00:00-03:00",
+    "end_datetime": "2026-11-21T19:00:00-03:00",
+    "description": "Se acercan las fiestas y es un buen momento para empezar a decorar la casa con algo hecho a mano. Este sábado 21 de noviembre, de 16 a 19 h, la Casa del Bicentenario (Adolfo de la Vega 505) ofrece una masterclass gratuita de costura navideña creativa . Adornos navideños hechos por vos La clase estará a cargo de la profesora Miriam Vera , quien guiará a los participantes en la confección de distintos adornos para decorar el hogar en esta época festiva, como gorros y botas navideñas. Qué materiales llevar Para participar se necesita: 40 cm de tela para el gorro (friselina o retazos, preferentemente rojos), 30 cm de guata para el pompón y la guarda, 40 cm de tela estampada para la bota (o una media como base), hilo, aguja, tijera y máquina de coser propia. De manera opcional se pueden sumar luces, cascabeles, cintas y pompones para decorar. Cómo inscribirse La inscripción es gratuita y se realiza al 381 355-7844 o de manera presencial en la Casa del Bicentenario, de 15.30 a 22 h. La actividad no se suspende por lluvia. Anotate a tiempo y llevate tus adornos listos para el arbolito. Resumen Actividad: Masterclass de costura navideña creativa Docente: profesora Miriam Vera Fecha: sábado 21 de noviembre Horario: de 16 a 19 h Lugar: Casa del Bicentenario, Adolfo de la Vega 505 Inscripción: gratuita, al 381 355-7844 o presencial en la Casa del Bicentenario Requisito: llevar materiales y máquina de coser propia Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_costura-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa del Bicentenario, Adolfo de la Vega 505",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Talleres y Cursos"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+del+Bicentenario%2C+Adolfo+de+la+Vega+505%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "16:00",
+        "time_end": "19:00",
+        "start_datetime": "2026-11-21T16:00:00-03:00",
+        "end_datetime": "2026-11-21T19:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Este sábado 21 de noviembre, de 16 a 19 h, la Casa del Bicentenario (Adolfo de la Vega 505) será sede de una masterclass gratuita de costura navideña creativa a cargo de la profesora Miriam Vera. Los asistentes aprenderán a confeccionar adornos como gorros y botas navideñas, y deberán llevar sus propios materiales y máquina de coser.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0ce4a9e17ad5e1accced036bd7a79b53d403d3379304187d7bf4fcecb35f00db"
+  },
+  {
+    "id": "47603",
+    "source": "MEC",
+    "title": "21 de Noviembre | Tucumán Holístico celebra su 21° encuentro en la Casa de la Cultura del Parque 9 de Julio",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-tucuman-holistico-celebra-su-21-encuentro-en-la-casa-de-la-cultura-del-parque-9-de-julio/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "16:00",
+    "time_end": "20:00",
+    "start_datetime": "2026-11-21T16:00:00-03:00",
+    "end_datetime": "2026-11-21T20:00:00-03:00",
+    "description": "Una tarde para bajar un cambio, conectar con el cuerpo y disfrutar de experiencias de bienestar. Este sábado 21 de noviembre, de 16 a 20 h, la Casa de la Cultura del Parque 9 de Julio recibe la vigésima primera edición de Tucumán Holístico , con entrada libre y gratuita. Cronograma de actividades A las 16 h arrancan el yoga terapéutico para adultos mayores con Homero Sánchez y el yoga para niños con Constanza Usandivaras. A las 16.30 h será el turno del yoga en sillas con Fernanda Gómez, mientras en simultáneo habrá sesiones de biorresonancia cuántica y alineación de chakras con la Lic. Qoqi Méndez. A las 17 h se suman Tai Chi con Franco Cuozzo y técnicas de relax grupal con Gabriela García; a las 17.30 h, arteterapia para mujeres con la Lic. Ariana Machin; y a las 18 h, una charla sobre homeopatía a cargo de la Dra. Ana Ludemann. Música y danza para cerrar la tarde A las 18.30 h llega el Ecstatic Dance con Elvira Rueda y DJ set de Ana Lucía Lobo; a las 19 h, música meditativa y cuencos con Marcela Roselló; y a las 19.30 h, una experiencia musical inmersiva con Raúl Aguirre e invitados. Stands para recorrer Durante toda la tarde habrá espacios de reiki, masoterapia, tarot, péndulo, piedras energéticas y alimentos saludables. La actividad no se suspende por lluvia. Sumate y regalate una tarde de bienestar. Resumen Evento: Tucumán Holístico – 21° encuentro Fecha: sábado 21 de noviembre Horario: de 16 a 20 h Lugar: Casa de la Cultura, Parque 9 de Julio Actividades: yoga, Tai Chi, arteterapia, charlas, Ecstatic Dance, cuencos y stands holísticos Entrada: libre y gratuita Clima: no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_holistico.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura, Parque 9 de Julio Actividades: yoga, Tai Chi, arteterapia, charlas, Ecstatic Dance, cuencos y stands holísticos",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Salud"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura%2C+Parque+9+de+Julio+Actividades%3A+yoga%2C+Tai+Chi%2C+arteterapia%2C+charlas%2C+Ecstatic+Dance%2C+cuencos+y+stands+hol%C3%ADsticos%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "16:00",
+        "time_end": "20:00",
+        "start_datetime": "2026-11-21T16:00:00-03:00",
+        "end_datetime": "2026-11-21T20:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Llega la 21° edición de Tucumán Holístico con actividades de bienestar como yoga, Tai Chi, charlas, arteterapia y stands holísticos. La cita es el sábado 21 de noviembre, de 16 a 20 h, en la Casa de la Cultura del Parque 9 de Julio. La entrada es libre y gratuita y la actividad no se suspende por lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6724bb6a9eb9e17d7b08f022286c2bf894124839e79a1ee5a775ad25a145dba5"
+  },
+  {
+    "id": "47633",
+    "source": "MEC",
+    "title": "21 de Noviembre | El Encuentro reúne a Dúo Tafí, Luuh Marcello, Ser Herencia y más artistas en El Cadillal",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-el-encuentro-reune-a-duo-tafi-luuh-marcello-ser-herencia-y-mas-artistas-en-el-cadillal/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "17:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T17:00:00-03:00",
+    "end_datetime": "",
+    "description": "Folclore, baile y una tarde larga junto al lago. El Encuentro se realiza este sábado 21 de noviembre desde las 17 h en el Complejo de Vialidad , Ruta Provincial 347, km 4,5, en El Cadillal. Una grilla de artistas para todos los gustos Sobre el escenario estarán Dúo Tafí , Luuh Marcello , Ser Herencia , Canto Sumaj , Sangre Santiagueña y Alexis Pérez como DJ en vivo, en una propuesta que combina folclore y ritmos populares. Artesanos y academias invitadas La jornada se completa con artesanos y la participación de academias de danza invitadas, para que el encuentro sea también una fiesta de la cultura popular. Entradas Las entradas se consiguen a través de Central Ticket y en los puntos de venta informados por la organización (WhatsApp 381 367-0472). Una excelente opción para pasar el sábado en El Cadillal con música en vivo. Resumen Evento: El Encuentro Artistas: Dúo Tafí, Luuh Marcello, Ser Herencia, Canto Sumaj, Sangre Santiagueña y Alexis Pérez (DJ) Fecha: sábado 21 de noviembre Horario: desde las 17 h Lugar: Complejo de Vialidad, Ruta Provincial 347, km 4,5, El Cadillal Entradas: Central Ticket y WhatsApp 381 367-0472 Fuente: Ente Tucumán Turismo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_el_encuentro.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Complejo de Vialidad, Ruta Provincial 347, km 4,5, El Cadillal Entradas: Central Ticket y WhatsApp 381 367-0472 Fuente: Ente Tucumán Turismo",
+    "address": "Provincial 347",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Complejo+de+Vialidad%2C+Ruta+Provincial+347%2C+km+4%2C5%2C+El+Cadillal+Entradas%3A+Central+Ticket+y+WhatsApp+381+367-0472+Fuente%3A+Ente+Tucum%C3%A1n+Turismo",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "17:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T17:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Encuentro se realiza el sábado 21 de noviembre desde las 17 h en el Complejo de Vialidad, ubicado en la Ruta Provincial 347, km 4,5, en El Cadillal. El evento ofrece una tarde de música en vivo con Dúo Tafí, Luuh Marcello, Ser Herencia, Canto Sumaj, Sangre Santiagueña y el DJ Alexis Pérez, además de artesanos y academias de danza.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6e62e01af68017407089dc5bfa3c30d40573f6d868ec7d57e6015b3b37061058"
+  },
+  {
+    "id": "47609",
+    "source": "MEC",
+    "title": "21 y 22 de Noviembre | Las ferias de artesanos y emprendedores de Tafí Viejo invitan a pasear el fin de semana",
+    "url": "https://agendatucuman.com.ar/eventos/21-y-22-de-noviembre-las-ferias-de-artesanos-y-emprendedores-de-tafi-viejo-invitan-a-pasear-el-fin-de-semana/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-22",
+    "time_start": "17:00",
+    "time_end": "23:00",
+    "start_datetime": "2026-11-21T17:00:00-03:00",
+    "end_datetime": "2026-11-22T23:00:00-03:00",
+    "description": "Tafí Viejo tiene plan de fin de semana para recorrer, comprar y acompañar el trabajo local. La Feria de Artesanos y Emprendedores se instala el sábado y el domingo en distintos puntos de la ciudad, con propuestas de producción taficeña para todos los gustos. Sábado en avenida Alem El sábado 21 de noviembre, la feria se instala sobre avenida Alem , de 17 a 23 h. Vecinos y visitantes podrán recorrer los puestos y conocer las distintas propuestas de artesanos y emprendedores de la ciudad. Domingo en dos puntos de la ciudad El domingo 22, la actividad se traslada a partir de las 18 h a dos sectores: calle San Martín al 100 y la intersección de avenida Jaldo y Alfonsín , en Lomas de Tafí. Allí los feriantes compartirán sus productos y creaciones en espacios al aire libre. Una forma de apoyar lo hecho en Tafí Viejo Estas ferias fortalecen la economía social, abren espacios de comercialización y dan visibilidad a los emprendimientos locales. Además, son una gran excusa para salir en familia o con amigos y disfrutar de la Ciudad del Limón. Acercate, recorré y llevate algo hecho por manos taficeñas. Resumen Evento: Feria de Artesanos y Emprendedores de Tafí Viejo Sábado 21: avenida Alem, de 17 a 23 h Domingo 22: desde las 18 h en calle San Martín al 100 y en avenida Jaldo y Alfonsín (Lomas de Tafí) Propuesta: artesanías, emprendimientos y producción local Fuente: Municipalidad de Tafí Viejo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tafi_ferias.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "Alem El sábado 21",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Alem+El+s%C3%A1bado+21%2C+Taf%C3%AD+Viejo%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "17:00",
+        "time_end": "23:00",
+        "start_datetime": "2026-11-21T17:00:00-03:00",
+        "end_datetime": "2026-11-21T23:00:00-03:00"
+      },
+      {
+        "date": "2026-11-22",
+        "time_start": "17:00",
+        "time_end": "23:00",
+        "start_datetime": "2026-11-22T17:00:00-03:00",
+        "end_datetime": "2026-11-22T23:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "17:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Feria de Artesanos y Emprendedores de Tafí Viejo ofrece este fin de semana una propuesta para conocer la producción local. El sábado 21 de noviembre se realizará en la avenida Alem de 17 a 23 h. El domingo 22, desde las 18 h, la actividad se trasladará a calle San Martín al 100 y a la avenida Jaldo y Alfonsín en Lomas de Tafí.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a0834976b48d0501a2cd0e2c2bbecf244475c92f4b92b1b273c69ef23cd27cec"
+  },
+  {
+    "id": "47611",
+    "source": "MEC",
+    "title": "21 de Noviembre | «Mi mundo imaginario», la experiencia sensorial de Teatro Invisible Kids, llega al Virla",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-mi-mundo-imaginario-la-experiencia-sensorial-de-teatro-invisible-kids-llega-al-virla/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Una propuesta para que grandes y chicos imaginen juntos con los ojos vendados. Este sábado 21 de noviembre, a las 19 h, la Sala Pequeña del Centro Cultural Virla recibe «Mi mundo imaginario» , la experiencia sensorial de Teatro Invisible Kids . Una experiencia para todos los sentidos La obra invita a vivir el teatro de otra manera: sin la vista, despertando el oído, el tacto y el olfato para construir un universo imaginario. Está pensada para toda la familia y recomendada para niños a partir de 3 años. Vuelve por cuarta vez a Tucumán La compañía, ganadora de dos premios en Carlos Paz, regresa por cuarta vez a la provincia con una propuesta que ya conquistó al público tucumano. Una salida distinta para compartir con los más chicos este fin de semana largo. Entradas y reservas La entrada cuesta $12.000, y las anticipadas tienen promoción de 2 x $20.000. Reservas por WhatsApp al 387 445-7792 o en la ticketera online del Virla. Los cupos son limitados, así que conviene reservar con tiempo. Resumen Obra: «Mi mundo imaginario» – Teatro Invisible Kids Público: familias, niños a partir de 3 años Fecha: sábado 21 de noviembre Horario: 19 h Lugar: Sala Pequeña del Centro Cultural Virla, 25 de Mayo 265 Entradas: $12.000; anticipadas 2 x $20.000 Reservas: WhatsApp 387 445-7792 Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_6.webp",
+    "price": 12000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "ticketera online del Virla",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=ticketera+online+del+Virla%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 21 de noviembre a las 19 h, la Sala Pequeña del Centro Cultural Virla presenta «Mi mundo imaginario», una experiencia sensorial y teatral con los ojos vendados para toda la familia recomendada desde los 3 años. Las entradas cuestan $12.000 y hay promoción de 2 x $20.000 para anticipadas. Los cupos son limitados y las reservas se realizan por WhatsApp al 387 445-7792 o en la ticketera online del Virla.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "44593ed651717ba9df4efb8c7f7bd152660c223827ad6868e6c357fa67a5856e"
+  },
+  {
+    "id": "47623",
+    "source": "MEC",
+    "title": "21 de Noviembre | El Reloj, leyenda del rock argentino, llega a Bar Cerberus de Alderetes",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-el-reloj-leyenda-del-rock-argentino-llega-a-bar-cerberus-de-alderetes/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Una de las bandas fundamentales de la historia del rock argentino toca en Tucumán. El Reloj , referente del hard rock y el rock progresivo, se presenta el sábado 21 de noviembre desde las 20 h en Bar Cerberus , Obispo Colombres 316, Alderetes. Como invitadas tocarán Estonía, Antigua Roca y Traidores No! Más de 50 años de historia Nacida a comienzos de los años 70 en el oeste del Gran Buenos Aires, la banda combinó la potencia del hard rock con estructuras del rock progresivo y es considerada pionera del heavy metal en América Latina. Su primer disco, de 1975, incluyó clásicos como «Alguien más en quien confiar», «Blues del atardecer» y «El viejo Serafín». Vigencia y nuevas canciones En 2022 celebraron 50 años con un concierto en el Auditorio Belgrano, editado luego como álbum doble. En 2025, dos de sus canciones formaron parte de la banda sonora de la serie El Eternauta. Hoy la formación integra a Eduardo Frezza (voz y bajo), Osvaldo Zabala (guitarra), Maxi Zabala (batería), José Sanmartino (teclados) y Alexis Fillerin (guitarra), y ya suma temas nuevos a sus shows. Dónde conseguir entradas Las entradas físicas están en La Rockería (Buenos Aires 39, local 6), Lunáticos Viajantes (Mendoza 148) y en el propio Cerberus. También hay venta virtual por transferencia al alias alde.rock, enviando el comprobante al 381 666-1666. Para conocer el precio vigente, conviene consultar en los puntos de venta. ¡No te quedes afuera de esta noche de rock! Resumen Banda: El Reloj Invitados: Estonía, Antigua Roca y Traidores No! Fecha: sábado 21 de noviembre Horario: desde las 20 h Lugar: Bar Cerberus, Obispo Colombres 316, Alderetes Entradas: La Rockería, Lunáticos Viajantes, Cerberus o por transferencia (alias alde.rock) Producción: Estonía y AldeRock Fuente: Agenda El Tucumano.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/et_reloj.png",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "propio Cerberus",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=propio+Cerberus%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La legendaria banda de rock argentino El Reloj se presenta en Tucumán junto a Estonía, Antigua Roca y Traidores No! El show será el sábado 21 de noviembre desde las 20 h en Bar Cerberus, ubicado en Obispo Colombres 316, Alderetes. Las entradas se consiguen en puntos de venta físicos y por transferencia al alias alde.rock.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c6be42775712c5e5629074b3b9c058f9642e69c09447b188ecdb5e8f9fd889c5"
+  },
+  {
+    "id": "47604",
+    "source": "MEC",
+    "title": "21 de Noviembre | «Las luces de mi ciudad»: vuelve el recorrido nocturno gratuito del Bus Turístico SMT",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-las-luces-de-mi-ciudad-vuelve-el-recorrido-nocturno-gratuito-del-bus-turistico-smt/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Descubrir San Miguel de Tucumán de noche tiene otro encanto. Este sábado 21 de noviembre vuelve «Las luces de mi ciudad» , el recorrido nocturno y gratuito del Bus Turístico SMT , con salida a las 20 h desde Plaza Independencia, por calle Laprida primera cuadra. La ciudad iluminada Durante el trayecto se recorren los principales polos de esparcimiento de la capital y se destaca la iluminación arquitectónica de los teatros Mercedes Sosa, San Martín y Alberdi, tres joyas del patrimonio tucumano que de noche lucen todavía más. Paradas para la foto e intervenciones artísticas El paseo incluye paradas «selfie» en lugares icónicos y contempla intervenciones artísticas y culturales a lo largo del camino. Un plan ideal para hacer en familia, con amigos o para mostrarles la ciudad a quienes vienen de visita. Cómo inscribirse La actividad es gratuita, pero requiere inscripción previa a través del formulario online del Bus Turístico de la Municipalidad. Se suspende en caso de lluvias fuertes. Reservá tu lugar y viví la ciudad desde otra perspectiva. Resumen Actividad: Bus Turístico SMT – recorrido nocturno «Las luces de mi ciudad» Fecha: sábado 21 de noviembre Horario: salida 20 h Punto de partida: Plaza Independencia, calle Laprida primera cuadra Costo: gratuito, con inscripción previa (busturistico.smt.gob.ar) Clima: se suspende por lluvias fuertes Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_bus_nocturno-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 21 de noviembre a las 20 h se realizará el recorrido nocturno gratuito Las luces de mi ciudad a bordo del Bus Turístico SMT. La salida será desde la Plaza Independencia, en la primera cuadra de calle Laprida, para visitar puntos icónicos con intervenciones artísticas. La actividad es gratuita con inscripción previa y se suspende por lluvias fuertes.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "8ab6288915df8815fa275f04a43f310c951090b9fd4c76e9633931731492879c"
+  },
+  {
+    "id": "47616",
+    "source": "MEC",
+    "title": "21 de Noviembre | El taller de teatro para adultos de Yerba Buena presenta «Amores» en la Casa de la Cultura",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-el-taller-de-teatro-para-adultos-de-yerba-buena-presenta-amores-en-la-casa-de-la-cultura/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El teatro independiente de Yerba Buena muestra su trabajo del año. Este sábado 21 de noviembre, a las 21 h, el Taller de Teatro para Adultos presenta «Amores: encuentros, desencuentros y otras hierbas» en la Casa de la Cultura de Yerba Buena (Higueritas 1850). Historias de amor, encuentros y desencuentros La obra se mete con el amor en todas sus formas: los encuentros que nos cambian la vida, los desencuentros que duelen y todo lo que pasa en el medio. Una propuesta con humor y emoción, pensada para que el público se reconozca en escena. Muestra anual de talleres La función forma parte de las muestras anuales de los talleres de Cultura de Yerba Buena. La dirección general está a cargo de Ricardo Podazza y Javier Torres Dowdall, quienes guiaron al grupo durante todo el año. Entrada libre La entrada es libre, con colaboración voluntaria. Una buena oportunidad para acompañar el teatro local y disfrutar una noche distinta en Yerba Buena. Resumen Obra: «Amores: encuentros, desencuentros y otras hierbas» Elenco: Taller de Teatro para Adultos de Cultura Yerba Buena Dirección general: Ricardo Podazza y Javier Torres Dowdall Fecha: sábado 21 de noviembre Horario: 21 h Lugar: Casa de la Cultura, Higueritas 1850, Yerba Buena Entrada: libre, con colaboración voluntaria Fuente: Cultura Yerba Buena (Instagram @ybcultura).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/yb_amores.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura, Higueritas 1850, Yerba Buena",
+    "address": "",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura%2C+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Taller de Teatro para Adultos de Yerba Buena presenta la obra «Amores» como parte de su muestra anual. La función será el sábado 21 de noviembre a las 21 h en la Casa de la Cultura, ubicada en Higueritas 1850. La entrada es libre con colaboración voluntaria.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "470c2a6d9b5c4883dc0463f2ea17651137f44b1b8132d2f93e863cfd6b3ea084"
+  },
+  {
+    "id": "47618",
+    "source": "MEC",
+    "title": "21 de Noviembre | Gonzalo Zamora llega en vivo a la Sala Mayor del Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-gonzalo-zamora-llega-en-vivo-a-la-sala-mayor-del-teatro-alberdi/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "21:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-21T21:00:00-03:00",
+    "end_datetime": "2026-11-21T21:00:00-03:00",
+    "description": "El folclore con sello propio tiene cita en el centro de la ciudad. Este sábado 21 de noviembre, a las 21 h, Gonzalo Zamora se presenta en vivo en la Sala Mayor del Teatro Alberdi . Un show de música y folclore Con su guitarra como compañera, Zamora propone un recital íntimo y potente a la vez, en el que la música folclórica se cruza con su impronta personal. Una noche pensada para quienes disfrutan de la canción de raíz en un escenario cálido como el del Alberdi. El Alberdi, casa de la música tucumana El Teatro Alberdi, en Jujuy y Crisóstomo Álvarez, sigue siendo uno de los espacios centrales para la música en vivo en San Miguel de Tucumán, con una programación que acompaña a artistas de la provincia y de todo el país. Dónde comprar entradas Las entradas se venden en la web Mi Entrada Digital y en la boletería del teatro, que atiende de jueves a sábado de 10 a 13 y de 18 a 21 h. Reservá tu lugar y disfrutá de una noche de sábado con música en vivo. Resumen Artista: Gonzalo Zamora Género: música – folclore Fecha: sábado 21 de noviembre Horario: 21 h Lugar: Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez Entradas: mientradadigital.com y boletería (jue. a sáb., 10 a 13 y 18 a 21 h) Fuente: Teatro Alberdi (Instagram @teatroalberdi_oficial).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi_4.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "centro de la ciudad",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=centro+de+la+ciudad%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "21:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-21T21:00:00-03:00",
+        "end_datetime": "2026-11-21T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El músico Gonzalo Zamora se presenta en vivo con un show de folclore este sábado 21 de noviembre a las 21 h en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy y Crisóstomo Álvarez. Las entradas se pueden adquirir en la web de Mi Entrada Digital y en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "800f0aa68f03e27abce0726c2b1aeea6fd76772f5f3d39f47e30e7449c9377c1"
+  },
+  {
+    "id": "47597",
+    "source": "MEC",
+    "title": "21 de Noviembre | La Orquesta y el Coro Estables presentan «Aclamad a Dios – Jubilate Deo» en el Teatro San Martín",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-la-orquesta-y-el-coro-estables-presentan-aclamad-a-dios-jubilate-deo-en-el-teatro-san-martin/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música sacra será protagonista este sábado en el principal escenario de la provincia. La Orquesta Estable y el Coro Estable de la Provincia presentan el concierto sinfónico-coral «Aclamad a Dios – Jubilate Deo» , el sábado 21 de noviembre a las 21 h, en el Teatro San Martín (Av. Sarmiento 601). Un concierto de alegría y gratitud La propuesta toma como referencia el Salmo 100, un himno bíblico de alabanza y acción de gracias que invita a celebrar con alegría. El título Jubilate Deo, expresión latina asociada a ese salmo, resume el espíritu de una noche pensada como un mensaje de esperanza, gratitud y encuentro a través de la música. Jorge Lhez vuelve a dirigir en Tucumán La dirección general estará a cargo del maestro invitado Jorge Lhez , ex director titular de la Orquesta Estable de la Provincia. Director de orquesta, pianista y director coral, se formó en el Conservatorio Julián Aguirre de Río Cuarto, el Instituto Superior de Arte del Teatro Colón y la Universidad Internacional de La Rioja. También dirigió la Orquesta Sinfónica de Salta, fundó el Festival Música por el Camino de la Fe y actualmente es director artístico de la Universidad Católica de Salta. Solistas y preparación coral La preparación del Coro Estable es del maestro Silvio Sevallos, y las solistas serán María Silvia Díaz (soprano), Claudia Manrique (mezzosoprano) y Fernanda Monteros (soprano). Las entradas tienen promoción 2×1 y se consiguen en la boletería del teatro o en la ticketera online de Cultura de Tucumán. Una noche ideal para dejarse llevar por la potencia de una orquesta y un coro en vivo. Resumen Concierto: «Aclamad a Dios – Jubilate Deo» Intérpretes: Orquesta Estable y Coro Estable de la Provincia Dirección: maestro invitado Jorge Lhez Fecha: sábado 21 de noviembre Horario: 21 h Lugar: Teatro San Martín, Av. Sarmiento 601 Entradas: promoción 2×1, en boletería y en culturadetucuman.entradanet.com Fuente: Ente Cultural de Tucumán y Agenda El Tucumano.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ente_jubilate.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "principal escenario de la provincia",
+    "address": "maestro invitado Jorge Lhez Fecha: sábado 21 de noviembre Horario: 21 h Lugar: Teatro San Martín, Av",
+    "city": "Monteros",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=principal+escenario+de+la+provincia%2C+maestro+invitado+Jorge+Lhez+Fecha%3A+s%C3%A1bado+21+de+noviembre+Horario%3A+21+h+Lugar%3A+Teatro+San+Mart%C3%ADn%2C+Av%2C+Monteros%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Orquesta y el Coro Estables de la Provincia presentan el concierto sinfónico-coral «Aclamad a Dios – Jubilate Deo», bajo la dirección del maestro invitado Jorge Lhez. El evento se realizará el sábado 21 de noviembre a las 21 h en el Teatro San Martín, ubicado en Av. Sarmiento 601. Las entradas cuentan con promoción 2×1 y se pueden adquirir en la boletería y en la ticketera online de Cultura de Tucumán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "45bf87b9f2151c77ec7acd863eb25be00eb0ca0d8c7288c0f897e9a4eac991ed"
+  },
+  {
+    "id": "47612",
+    "source": "MEC",
+    "title": "21 de Noviembre | Teatro Invisible propone una experiencia sensorial en la oscuridad en el Centro Cultural Virla",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-teatro-invisible-propone-una-experiencia-sensorial-en-la-oscuridad-en-el-centro-cultural-virla/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "21:30",
+    "time_end": "",
+    "start_datetime": "2026-11-21T21:30:00-03:00",
+    "end_datetime": "",
+    "description": "¿Te animás a vivir una obra sin ver nada? Este sábado 21 de noviembre, el Centro Cultural Virla recibe una experiencia sensorial en la oscuridad de la compañía Teatro Invisible , con dos funciones: a las 21.30 y a las 23 h, en la Sala Pequeña. Descubrir y potenciar los sentidos La propuesta es diferente a cualquier función tradicional: el público vive la historia con los ojos vendados y se deja guiar por sonidos, aromas y texturas. Una forma de descubrir y potenciar los sentidos que no deja a nadie indiferente. Una compañía premiada en gira por Tucumán Teatro Invisible, ganadora de dos premios en Carlos Paz, vuelve a la provincia como parte de su gira 2026. La experiencia está recomendada para mayores de 14 años y los cupos son limitados. Entradas y reservas La entrada cuesta $18.000 y las anticipadas tienen promoción de 2 x $30.000. Las reservas se hacen por WhatsApp al 387 445-7792 o a través de la ticketera online del Virla. Un plan ideal para salir de la rutina el sábado a la noche. Resumen Propuesta: Experiencia sensorial en la oscuridad – Teatro Invisible Fecha: sábado 21 de noviembre Funciones: 21.30 y 23 h Lugar: Sala Pequeña del Centro Cultural Virla, 25 de Mayo 265 Edad recomendada: a partir de 14 años Entradas: $18.000; anticipadas 2 x $30.000 Reservas: WhatsApp 387 445-7792 (cupos limitados) Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_7.webp",
+    "price": 18000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Sala Pequeña",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Peque%C3%B1a%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "21:30",
+        "time_end": "",
+        "start_datetime": "2026-11-21T21:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "21:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 21 de noviembre, la compañía Teatro Invisible presenta una experiencia sensorial en la oscuridad con los ojos vendados en la Sala Pequeña del Centro Cultural Virla. Habrá funciones a las 21.30 y 23 h, recomendadas para mayores de 14 años, con cupos limitados. Las entradas cuestan $18.000 y hay promoción de 2 x $30.000 para anticipadas, reservando al WhatsApp 387 445-7792 o en la ticketera del lugar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6acad2200b2ccce5588d57752001ba3ef5d455422045e04092ec3663e3087e4a"
+  },
+  {
+    "id": "47627",
+    "source": "MEC",
+    "title": "21 de Noviembre | Cecilia Paliza celebra el Día de la Música con un show de todos los estilos en Lo de la Paliza",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-cecilia-paliza-celebra-el-dia-de-la-musica-con-un-show-de-todos-los-estilos-en-lo-de-la-paliza/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Una gran voz tucumana para recibir el Día de la Música. Este sábado 21 de noviembre, a las 22 h, Cecilia Paliza se presenta en Lo de la Paliza (Laprida 181) con un show que recorre «todos los estilos» para recibir el Día de la Música. Una noche para recibir el Día de la Música Con una de las voces más reconocidas de la provincia, la propuesta promete un repertorio variado, con canciones de distintos géneros para cantar y celebrar en la víspera del 22 de noviembre, Día de la Música. Música, comida rica y tragos Lo de la Paliza propone noches de música en vivo acompañadas de gastronomía y tragos, en un ambiente íntimo en pleno centro tucumano, en Laprida 181. Un plan ideal para cenar con amigos o en pareja mientras disfrutás de un show cercano. Entradas y reservas El valor del espectáculo es de $7.000 en efectivo. Para reservar mesa, se puede escribir por WhatsApp al 381 241-8094 o llamar al 258-8995. Reservá tu mesa con tiempo y viví la previa del Día de la Música con una gran voz tucumana. Resumen Artista: Cecilia Paliza Propuesta: show de todos los estilos para recibir el Día de la Música Fecha: sábado 21 de noviembre Horario: 22 h Lugar: Lo de la Paliza, Laprida 181 Entrada: $7.000 en efectivo Reservas: WhatsApp 381 241-8094 / tel. 258-8995 Fuente: Ente Tucumán Turismo y Lo de la Paliza.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_cecilia_paliza.jpg",
+    "price": 7000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Lo de la Paliza, Laprida 181",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Cecilia Paliza brindará un show de todos los estilos este sábado 21 de noviembre a las 22 h en Lo de la Paliza, ubicado en Laprida 181, para celebrar el Día de la Música. Las entradas cuestan 7000 pesos en efectivo y las reservas se realizan al WhatsApp 381 241-8094 o llamando al 258-8995.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "bf93b0661e13f7783d0bbea356032e6108a3442e37760e056420ff52f512f12f"
+  },
+  {
+    "id": "47624",
+    "source": "MEC",
+    "title": "21 de Noviembre | Mariano Mellino regresa a Tucumán con una noche electrónica en el Palacio de los Deportes",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-mariano-mellino-regresa-a-tucuman-con-una-noche-electronica-en-el-palacio-de-los-deportes/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música electrónica tiene una de sus fechas más esperadas del año. Después de varios años, el DJ y productor Mariano Mellino vuelve a Tucumán este sábado 21 de noviembre para presentarse en el Palacio de los Deportes (Av. Coronel Suárez 300). Un referente del progressive house Mellino es considerado uno de los referentes del progressive house argentino y tiene reconocimiento en escenarios de todo el mundo. Incluso Hernán Cattáneo lo señaló como uno de los nombres que representan el futuro de la música electrónica. Dos productoras, una gran producción El evento une a Rasuk Producciones y Medusa Club, con una propuesta que combina música, tecnología y una puesta visual diseñada especialmente para la noche. Desde la organización adelantaron que están trabajando cada detalle para ofrecer una experiencia única. Line up y entradas La noche arranca a las 22 h con Fer Torti y Miss Lupe, mientras que el warm up estará a cargo de Caro Zamora. Las últimas entradas anticipadas se consiguen a través de PassesShow. Si sos fan de la electrónica, esta es la fecha para marcar en rojo. Resumen Artista: Mariano Mellino Line up: Fer Torti, Miss Lupe y Caro Zamora (warm up) Organizan: Rasuk Producciones y Medusa Club Fecha: sábado 21 de noviembre Horario: desde las 22 h Lugar: Palacio de los Deportes, Av. Coronel Suárez 300 Entradas: anticipadas en PassesShow Fuente: Agenda El Tucumano.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/et_mellino.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Palacio de los Deportes, Av. Coronel Suárez 300 Entradas: anticipadas en PassesShow Fuente: Agenda El Tucumano",
+    "address": "Coronel Suárez 300",
+    "city": "",
+    "organizer": "Rasuk Producciones y Medusa Club Fecha: sábado 21 de noviembre Horario: desde las 22 h Lugar: Palacio de los Deportes, Av",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Palacio+de+los+Deportes%2C+Av.+Coronel+Su%C3%A1rez+300+Entradas%3A+anticipadas+en+PassesShow+Fuente%3A+Agenda+El+Tucumano",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El reconocido DJ Mariano Mellino regresa a Tucumán para ofrecer una noche de música electrónica en el Palacio de los Deportes, ubicado en Av. Coronel Suárez 300. El evento se realizará el sábado 21 de noviembre a partir de las 22 h, con un line up que incluye a Fer Torti, Miss Lupe y Caro Zamora. Las entradas anticipadas se pueden conseguir a través de PassesShow.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b4024a92fdbc215ae8d2eee690a1bf40370511d6504039e2fdc42ea801bac8d9"
+  },
+  {
+    "id": "47622",
+    "source": "MEC",
+    "title": "21 de Noviembre | Sábado Escondido: Lautaro Urueña, Los de Tucumán, Matías Vargas y Mateo Gómez en la peña",
+    "url": "https://agendatucuman.com.ar/eventos/21-de-noviembre-sabado-escondido-lautaro-uruena-los-de-tucuman-matias-vargas-y-mateo-gomez-en-la-pena/",
+    "date_start": "2026-11-21",
+    "date_end": "2026-11-21",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-21T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "La segunda noche del finde peñero trae una grilla joven y con mucha energía. Este sábado 21 de noviembre, desde las 22 h, La Escondida (Miguel Lillo 234) celebra el Sábado Escondido , con bar, peña y guitarreada. Una grilla con nuevas voces del folclore Se presentarán Lautaro Urueña , Los de Tucumán , Matías Vargas y Mateo Gómez , artistas que vienen ganando lugar en la escena folclórica local y que prometen hacer cantar y bailar a todos. Guitarreada hasta tarde Como cada fin de semana, la noche se completa con guitarreada toda la noche, para que el público también se sume a la fiesta con sus temas favoritos. Plan de sábado en clave folclórica La Escondida combina escenario, mesas y gastronomía en un ambiente de encuentro, tradición y amistad. Para consultas y reservas, contactá al lugar a través de sus redes sociales. Si te gusta el folclore en vivo, esta es una parada obligada del sábado. Resumen Evento: Sábado Escondido – bar, peña y guitarreada Artistas: Lautaro Urueña, Los de Tucumán, Matías Vargas y Mateo Gómez Fecha: sábado 21 de noviembre Horario: desde las 22 h Lugar: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Fuente: La Escondida (Instagram @laescondida.tucuman).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/escondida_2.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Fuente: La Escondida (Instagram @laescondida.tucuman)",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+Fuente%3A+La+Escondida+%28Instagram+%40laescondida.tucuman%29",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-21",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-21T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 21 de noviembre desde las 22 h, la Peña La Escondida en Miguel Lillo 234 presenta una nueva edición del Sábado Escondido. El evento contará con las actuaciones de Lautaro Urueña, Los de Tucumán, Matías Vargas y Mateo Gómez, además de una guitarreada hasta tarde.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6f567d10adbece997290b3686a916fe19c177ce1d6419b43fdc78d77f454355c"
+  },
+  {
+    "id": "47629",
+    "source": "MEC",
+    "title": "Del 20 al 22 de Noviembre | PLUM: el Festival Internacional de Cine de Animación vuelve a Tafí del Valle",
+    "url": "https://agendatucuman.com.ar/eventos/del-20-al-22-de-noviembre-plum-el-festival-internacional-de-cine-de-animacion-vuelve-a-tafi-del-valle/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "10:00",
+    "time_end": "01:00",
+    "start_datetime": "2026-11-22T10:00:00-03:00",
+    "end_datetime": "2026-11-22T01:00:00-03:00",
+    "description": "«Una explosión animada entre montañas»: así se presenta la 4° edición de PLUM, Festival Internacional de Cine de Animación , que se realiza del viernes 20 al domingo 22 de noviembre en el Salón Marino (Av. Belgrano s/n) de Tafí del Valle, con entrada libre y gratuita. Tres días de animación en los Valles El festival combina proyecciones de cortos y películas de animación con talleres, charlas, feria, un laboratorio de proyectos y shows musicales. Una propuesta ideal tanto para amantes del cine animado como para familias que buscan un plan distinto en el fin de semana largo. Horarios El viernes 20 las actividades se extienden de 10 a 1 h; el sábado 21, de 9 a 22 h; y el domingo 22, de 10 a 21.30 h. La programación completa puede consultarse en la web y las redes del festival (@plumfest). Una escapada con cine incluido Si estás pensando en subir a los Valles este finde, PLUM suma una excusa más: cine de todo el mundo, actividades para aprender y compartir, y el paisaje de Tafí del Valle como telón de fondo. ¡Armá la escapada! Resumen Evento: PLUM – 4° Festival Internacional de Cine de Animación Fechas: del viernes 20 al domingo 22 de noviembre Horarios: vie. 10 a 1 h; sáb. 9 a 22 h; dom. 10 a 21.30 h Lugar: Salón Marino, Av. Belgrano s/n, Tafí del Valle Actividades: proyecciones, talleres, charlas, feria, laboratorio de proyectos y shows musicales Entrada: libre y gratuita Fuente: Ente Tucumán Turismo y PLUM Animation Fest.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_cine_animacion.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Salón Marino, Av. Belgrano s/n, Tafí del Valle Actividades: proyecciones, talleres, charlas, feria, laboratorio de proyectos y shows musicales",
+    "address": "",
+    "city": "Tafí del Valle",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sal%C3%B3n+Marino%2C+Av.+Belgrano+s%2Fn%2C+Taf%C3%AD+del+Valle+Actividades%3A+proyecciones%2C+talleres%2C+charlas%2C+feria%2C+laboratorio+de+proyectos+y+shows+musicales%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "10:00",
+        "time_end": "01:00",
+        "start_datetime": "2026-11-22T10:00:00-03:00",
+        "end_datetime": "2026-11-22T01:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Del 20 al 22 de noviembre se realiza la 4° edición del Festival Internacional de Cine de Animación PLUM en el Salón Marino de Tafí del Valle, con entrada libre y gratuita. Durante tres días habrá proyecciones, talleres, charlas, feria, laboratorio de proyectos y shows musicales. Los horarios son: viernes de 10 a 1 h, sábado de 9 a 22 h y domingo de 10 a 21.30 h.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "5bd2b28b2fc2eaabde8cd73f7475fb2f80cbfa290fc24c7da5c9365e2c01b1d1"
+  },
+  {
+    "id": "47630",
+    "source": "MEC",
+    "title": "Del 20 al 22 de Noviembre | El Festivalazo llena de folclore el Club Floresta durante el fin de semana largo",
+    "url": "https://agendatucuman.com.ar/eventos/del-20-al-22-de-noviembre-el-festivalazo-llena-de-folclore-el-club-floresta-durante-el-fin-de-semana-largo/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "16:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T16:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tres días de música y tradición en la capital tucumana. El Festivalazo se realiza el viernes 20, sábado 21 y domingo 22 de noviembre en el Club Floresta (Av. Colón 471), a partir de las 16 h. Una celebración folclórica de tres jornadas Organizado por FJ Producciones , dedicada a eventos folclóricos, turísticos, artísticos y culturales, el festival propone tres tardes y noches de música popular, ideal para disfrutar en familia y con amigos durante el fin de semana largo. Desde las 16 h, todos los días Las actividades comienzan cada jornada a partir de las 16 h, por lo que hay tiempo de sobra para acercarse, buscar un buen lugar y quedarse a disfrutar hasta la noche. Plan de finde largo Si te gusta el folclore y buscás una propuesta para compartir varias horas de música, El Festivalazo es una gran opción en el centro de la ciudad. Para conocer la grilla y el valor de las entradas, conviene consultar las redes de la organización. Resumen Evento: El Festivalazo Organiza: FJ Producciones Fechas: viernes 20, sábado 21 y domingo 22 de noviembre Horario: desde las 16 h Lugar: Club Floresta, Av. Colón 471, San Miguel de Tucumán Fuente: Ente Tucumán Turismo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_festivalazo.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Club Floresta, Av. Colón 471, San Miguel de Tucumán Fuente: Ente Tucumán Turismo",
+    "address": "Colón 471",
+    "city": "San Miguel de Tucumán",
+    "organizer": "FJ Producciones Fechas: viernes 20, sábado 21 y domingo 22 de noviembre Horario: desde las 16 h Lugar: Club Floresta, Av",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Club+Floresta%2C+Av.+Col%C3%B3n+471%2C+San+Miguel+de+Tucum%C3%A1n+Fuente%3A+Ente+Tucum%C3%A1n+Turismo",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "16:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T16:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Festivalazo es una celebración de folclore con tres días de música y tradición en la capital tucumana. Se realiza del viernes 20 al domingo 22 de noviembre, desde las 16 h, en el Club Floresta ubicado en Av. Colón 471, San Miguel de Tucumán. Para conocer la grilla de artistas y el valor de las entradas, se deben consultar las redes sociales de la organización.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "8f048ebe1041a1b3ef380fa6e730f7a696105f0975df3128dfd0940c1cad83cf"
+  },
+  {
+    "id": "47619",
+    "source": "MEC",
+    "title": "22 de Noviembre | «Juguetes, una aventura musical»: teatro infantil en vivo en el Teatro Alberdi",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-juguetes-una-aventura-musical-teatro-infantil-en-vivo-en-el-teatro-alberdi/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "17:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-22T17:00:00-03:00",
+    "end_datetime": "2026-11-22T21:00:00-03:00",
+    "description": "Un plan ideal para el domingo con los más chicos. Este domingo 22 de noviembre, a las 17 h, la Sala Mayor del Teatro Alberdi recibe «Juguetes, una aventura musical» , un espectáculo de teatro infantil en vivo. Una aventura llena de canciones La obra propone un viaje al mundo de los juguetes, con canciones, personajes queridos por los chicos y mucha participación del público. Una propuesta para disfrutar en familia y compartir una tarde de risas y música. Teatro en vivo para toda la familia El espectáculo está pensado para que niñas y niños vivan la magia del teatro en una de las salas más tradicionales de la ciudad, ubicada en Jujuy y Crisóstomo Álvarez. Dónde comprar entradas Las entradas se venden en la web Mi Entrada Digital y en la boletería del teatro, que atiende de jueves a sábado de 10 a 13 y de 18 a 21 h, y el domingo de 10 a 13 y de 15 a 17 h. Conseguí las entradas con anticipación y sorprendé a los chicos con una salida al teatro. Resumen Obra: «Juguetes, una aventura musical» Género: teatro infantil Fecha: domingo 22 de noviembre Horario: 17 h Lugar: Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez Entradas: mientradadigital.com y boletería del teatro Fuente: Teatro Alberdi (Instagram @teatroalberdi_oficial).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi_5.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "17:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-22T17:00:00-03:00",
+        "end_datetime": "2026-11-22T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El domingo 22 de noviembre a las 17 h se presenta la obra de teatro infantil «Juguetes, una aventura musical» en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy y Crisóstomo Álvarez. Es un espectáculo familiar lleno de canciones y participación del público. Las entradas se pueden adquirir en la web Mi Entrada Digital y en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "254d30b79628ba00c05f96d3c349422347aa2605f2754ddc287282e6e81200a8"
+  },
+  {
+    "id": "47605",
+    "source": "MEC",
+    "title": "22 de Noviembre | City Tour gratuito en el Bus Turístico SMT con visita al Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-city-tour-gratuito-en-el-bus-turistico-smt-con-visita-al-cementerio-del-oeste/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "Historia, arquitectura y patrimonio en un solo paseo. Este domingo 22 de noviembre a las 18 h, el Bus Turístico SMT realiza su City Tour por los lugares más notables de la capital, con una parada especial en el Cementerio del Oeste . Un recorrido guiado por el corazón de la ciudad El paseo dura alrededor de dos horas y recorre los puntos más emblemáticos de San Miguel de Tucumán. Comienza y termina en Plaza Independencia, abarcando su entorno histórico, institucional y religioso. La visita al Cementerio del Oeste Como parte del itinerario, el recorrido incluye una visita al Cementerio del Oeste, uno de los espacios patrimoniales más ricos de la ciudad por su arquitectura funeraria y por las figuras históricas que allí descansan. Gratis y con inscripción El servicio es gratuito. Las inscripciones se realizan mediante los códigos QR ubicados en la parada de calle Laprida 50 o a través del formulario digital del Bus Turístico. Ideal para redescubrir la ciudad un domingo a la tarde. Resumen Actividad: City Tour con visita al Cementerio del Oeste Fecha: domingo 22 de noviembre Horario: 18 h (duración aproximada: 2 horas) Punto de partida: parada del Bus Turístico, Laprida 50 (Plaza Independencia) Costo: gratuito, con inscripción previa (QR en la parada o busturistico.smt.gob.ar) Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_city_tour.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Cementerio del Oeste",
+    "address": "Laprida 50",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cementerio+del+Oeste%2C+Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Este domingo 22 de noviembre a las 18 h se realiza un City Tour gratuito en el Bus Turístico SMT con una visita guiada al Cementerio del Oeste. El recorrido dura unas dos horas, comienza y finaliza en la parada de Laprida 50 frente a Plaza Independencia. Requiere inscripción previa a través del formulario digital o el código QR ubicado en la parada.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "bdb1fdd26d84f01ae18972b798bbb76dd4fa5c2153fab28934c5a53fd266dc31"
+  },
+  {
+    "id": "47606",
+    "source": "MEC",
+    "title": "22 de Noviembre | La Banda de Música Municipal celebra el Día de la Música con un concierto en Plaza Independencia",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-la-banda-de-musica-municipal-celebra-el-dia-de-la-musica-con-un-concierto-en-plaza-independencia/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Día de la Música se celebra al aire libre y en el corazón de la ciudad. Este domingo 22 de noviembre, a las 19 h, la Banda de Música Municipal «Maestro Luzbel Giacobbe» ofrecerá un concierto gratuito en Plaza Independencia . Un homenaje a Santa Cecilia y a la música Cada 22 de noviembre se celebra el Día de la Música, en coincidencia con la festividad de Santa Cecilia, patrona de los músicos. La Banda Municipal, una de las formaciones con más trayectoria de la ciudad, se suma a la celebración con un repertorio para disfrutar en familia. Plan completo en la plaza El concierto se complementa con las Ferias Gourmet y de Artesanos, que estarán funcionando ese domingo en la plaza. Así, se puede combinar buena música, paseo y algo rico para comer en una tarde bien tucumana. La entrada es libre y gratuita. Tené en cuenta que las actividades se suspenden por lluvia. Resumen Evento: Concierto por el Día de la Música Intérpretes: Banda de Música Municipal «Maestro Luzbel Giacobbe» Fecha: domingo 22 de noviembre Horario: 19 h Lugar: Plaza Independencia, 24 de Septiembre y San Martín Entrada: libre y gratuita Clima: se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_banda.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Plaza Independencia, 24 de Septiembre y San Martín",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Plaza+Independencia%2C+24+de+Septiembre+y+San+Mart%C3%ADn%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Banda de Música Municipal Maestro Luzbel Giacobbe ofrecerá un concierto gratuito por el Día de la Música. Será el domingo 22 de noviembre a las 19 h en la Plaza Independencia, en el cruce de 24 de Septiembre y San Martín. Las actividades se suspenden por lluvia y se complementan con las Ferias Gourmet y de Artesanos.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "27f4902fd93c5f2a0290d601882d88fd9669dc1bc915db81d9beb56efb2e49dc"
+  },
+  {
+    "id": "47607",
+    "source": "MEC",
+    "title": "22 de Noviembre | Los talleres de la Casa Museo de la Ciudad muestran lo producido durante el año",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-los-talleres-de-la-casa-museo-de-la-ciudad-muestran-lo-producido-durante-el-ano/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un año de trabajo creativo se comparte con la comunidad. Este domingo 22 de noviembre, a las 19 h, la Casa Museo de la Ciudad (Salta 532) presenta la Muestra anual de talleres , un encuentro abierto para celebrar lo aprendido y lo producido en los talleres de Casa de la Ciudad. Producciones, saberes y experiencias En esta muestra, los participantes presentarán las producciones, saberes y experiencias adquiridas durante el año. Es una excelente oportunidad para conocer de cerca la labor creativa de vecinos y talleristas, y para inspirarse si estás pensando en sumarte a alguno de los talleres el año próximo. Una salida cultural en familia La propuesta está pensada para disfrutar en familia y acompañar el esfuerzo de quienes participaron durante todo el año. La entrada es libre y gratuita. Si llueve, cambia de lugar En caso de lluvia, la muestra no se suspende: se traslada al Complejo Ledesma, en 25 de Mayo y Sarmiento. Agendalo y acompañá a los talleristas de la ciudad. Resumen Evento: Muestra anual de talleres de Casa de la Ciudad Fecha: domingo 22 de noviembre Horario: 19 h Lugar: Casa Museo de la Ciudad, Salta 532 Lugar alternativo por lluvia: Complejo Ledesma, 25 de Mayo y Sarmiento Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_muestra_talleres.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Museo de la Ciudad, Salta 532 Lugar alternativo por lluvia: Complejo Ledesma, 25 de Mayo y Sarmiento",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Talleres y Cursos"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Museo+de+la+Ciudad%2C+Salta+532+Lugar+alternativo+por+lluvia%3A+Complejo+Ledesma%2C+25+de+Mayo+y+Sarmiento%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Casa Museo de la Ciudad presenta su muestra anual de talleres para compartir las producciones y saberes de todo el año. La cita es el domingo 22 de noviembre a las 19 h en Salta 532, con entrada libre y gratuita. En caso de lluvia, el evento se trasladará al Complejo Ledesma, ubicado en 25 de Mayo y Sarmiento.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "ee1323d5cce628020d5c7f5aa3866d0df1a066a6ff39435fbf452246277e60b7"
+  },
+  {
+    "id": "47608",
+    "source": "MEC",
+    "title": "22 de Noviembre | Mariano Jarjal y el Trío Gotan ofrecen una noche de tango gratuita en el Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-mariano-jarjal-y-el-trio-gotan-ofrecen-una-noche-de-tango-gratuita-en-el-cementerio-del-oeste/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tangos y milongas en un escenario tan original como emblemático. Este domingo 22 de noviembre, por el Día de la Música, Mariano Jarjal se presenta junto al Trío Gotan en las escalinatas del Cementerio del Oeste , ubicado en Asunción 150, a las 20 h. Una voz joven del tango tucumano Jarjal viene construyendo una destacada trayectoria nacional como referente del tango tucumano: fue Consagración en el Festival de Baradero y se coronó Campeón Nacional de la Voz del Tango en La Falda. Junto al Trío Gotan propone un repertorio de tangos y milongas para disfrutar bajo las estrellas. Música en espacios patrimoniales La propuesta forma parte de las actividades que impulsa la Municipalidad de San Miguel de Tucumán para llevar la música y la cultura a distintos espacios de la ciudad. El Cementerio del Oeste, con su valor histórico y arquitectónico, será el marco de una noche distinta. La entrada es libre y gratuita. El concierto se suspende en caso de lluvia, así que conviene mirar el pronóstico y no dejar pasar esta experiencia. Resumen Artistas: Mariano Jarjal y el Trío Gotan Motivo: Día de la Música Fecha: domingo 22 de noviembre Horario: 20 h Lugar: escalinatas del Cementerio del Oeste, Asunción 150 Entrada: libre y gratuita Clima: se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_jarjal.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "escalinatas del Cementerio del Oeste, Asunción 150",
+    "address": "Asunción 150",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=escalinatas+del+Cementerio+del+Oeste%2C+Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Este domingo 22 de noviembre a las 20 h, Mariano Jarjal y el Trío Gotan ofrecerán un recital gratuito de tangos y milongas en las escalinatas del Cementerio del Oeste, ubicado en Asunción 150. La actividad se realiza por el Día de la Música y se suspende en caso de lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a4cf87b8946f9b73957e71527977e70e8e7fa5e5677549f62208c22ec12e2718"
+  },
+  {
+    "id": "47625",
+    "source": "MEC",
+    "title": "22 de Noviembre | Noelia Pace presenta «Mediumnidad» en el Teatro Mercedes Sosa",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-noelia-pace-presenta-mediumnidad-en-el-teatro-mercedes-sosa/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Espiritualidad, duelo y conexión energética son los ejes del encuentro que llega a Tucumán. Noelia Pace presenta su gira «Mediumnidad» el domingo 22 de noviembre a las 20 h en el Teatro Mercedes Sosa (San Martín 479). Una mirada distinta sobre la muerte Durante el encuentro, Pace plantea la muerte como una transformación de la energía y no como un final. A través de herramientas de conexión individual y grupal, propone reconocer señales, comprender los procesos de duelo y reflexionar sobre el vínculo entre quienes partieron y quienes permanecen. Quién es Noelia Pace Médium, tanatóloga y escritora, fue pionera en llevar la mediumnidad a las salas teatrales y desde 2021 se presenta en Argentina, América y Europa. Colabora con SOS Desaparecidos, en España, y publicó los libros «Transmutar», «Sanando», «Tarot en tu ser» y «Sesión Abierta». Recibió, entre otras distinciones, el Martín Fierro Federal y el Martín Fierro Teatro 2025. Entradas Las entradas están disponibles en la boletería online oficial del Teatro Mercedes Sosa. Si te interesan estas temáticas, reservá tu lugar con anticipación. Resumen Espectáculo: «Mediumnidad» Protagonista: Noelia Pace, médium, tanatóloga y escritora Fecha: domingo 22 de noviembre Horario: 20 h Lugar: Teatro Mercedes Sosa, San Martín 479 Entradas: web oficial del Teatro Mercedes Sosa (entradas.teatromercedessosa.com.ar) Fuente: Agenda El Tucumano.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/et_noelia_pace.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Mercedes Sosa, San Martín 479 Entradas: web oficial del Teatro Mercedes Sosa (entradas.teatromercedessosa.com.ar) Fuente: Agenda El Tucumano",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+San+Mart%C3%ADn+479+Entradas%3A+web+oficial+del+Teatro+Mercedes+Sosa+%28entradas.teatromercedessosa.com.ar%29+Fuente%3A+Agenda+El+Tucumano",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Noelia Pace presenta su espectáculo de espiritualidad y conexión energética titulado Mediumnidad. La cita es el domingo 22 de noviembre a las 20 h en el Teatro Mercedes Sosa, ubicado en San Martín 479. Las entradas se pueden adquirir a través de la web oficial del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "2ce6dfeb1b8d162e465a74c47851e9d7d1515a8f8f1841d4cc404675bb821151"
+  },
+  {
+    "id": "47613",
+    "source": "MEC",
+    "title": "22 de Noviembre | Roberto Buffo homenajea a Manuel de Falla con un recital de piano en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-roberto-buffo-homenajea-a-manuel-de-falla-con-un-recital-de-piano-en-el-virla/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-22T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "Un homenaje pianístico a uno de los grandes compositores españoles. Este domingo 22 de noviembre, a las 20.30 h, el maestro Roberto Buffo ofrece el Recital Manuel de Falla en el Auditorio del Centro Cultural Virla (25 de Mayo 265). 150 años del nacimiento de Manuel de Falla El recital rinde homenaje al compositor andaluz al cumplirse 150 años de su nacimiento. Falla es una figura clave de la música española del siglo XX, con una obra que combina la tradición popular de su tierra con un lenguaje de gran refinamiento. Un pianista de referencia en Tucumán Roberto Buffo es uno de los nombres de referencia de la escena académica local y estará a cargo de un programa dedicado íntegramente al autor, ideal para quienes disfrutan del piano y de la música clásica. Entradas La entrada general cuesta $15.000, con promoción 2×1. Se consiguen en la ticketera online del Virla y en el centro cultural. Cerrá el domingo con una noche de piano en vivo. Resumen Recital: Homenaje a Manuel de Falla Intérprete: Roberto Buffo (piano) Fecha: domingo 22 de noviembre Horario: 20.30 h Lugar: Auditorio del Centro Cultural Virla, 25 de Mayo 265 Entradas: $15.000, promo 2×1 (elvirla.entradanet.com) Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_8.webp",
+    "price": 15000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "ticketera online del Virla y en el centro cultural",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=ticketera+online+del+Virla+y+en+el+centro+cultural%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-22T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El pianista Roberto Buffo ofrecerá un recital en homenaje al compositor Manuel de Falla el domingo 22 de noviembre a las 20:30 h en el Auditorio del Centro Cultural Virla. La entrada general cuesta $15.000 con promoción 2x1 y se puede adquirir en la ticketera online del centro cultural y en el lugar.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a7806e084bd757789f3da5de1eb53100d914410591b789b422a1dd39d6e1e6b1"
+  },
+  {
+    "id": "47628",
+    "source": "MEC",
+    "title": "22 de Noviembre | Ser Herencia pone folclore a la noche de domingo en Lo de la Paliza",
+    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-ser-herencia-pone-folclore-a-la-noche-de-domingo-en-lo-de-la-paliza/",
+    "date_start": "2026-11-22",
+    "date_end": "2026-11-22",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-22T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El fin de semana largo sigue con folclore en vivo. Este domingo 22 de noviembre, a las 22 h, el dúo Ser Herencia se presenta en Lo de la Paliza (Laprida 181, San Miguel de Tucumán). Folclore para cantar y disfrutar Ser Herencia propone un repertorio folclórico ideal para aprovechar la noche del domingo, ya que el lunes 23 es feriado. Una cita para quienes disfrutan de la música de raíz en un ambiente cercano. Música, comida rica y tragos Lo de la Paliza propone noches de música en vivo acompañadas de gastronomía y tragos, en un ambiente íntimo en pleno centro tucumano, en Laprida 181. Un plan ideal para cenar con amigos o en pareja mientras disfrutás de un show cercano. Entradas y reservas El valor del espectáculo es de $7.000 en efectivo. Para reservar mesa, se puede escribir por WhatsApp al 381 241-8094 o llamar al 258-8995. Reservá tu mesa y aprovechá la víspera del feriado con buena música. Resumen Artistas: Ser Herencia Género: folclore Fecha: domingo 22 de noviembre Horario: 22 h Lugar: Lo de la Paliza, Laprida 181 Entrada: $7.000 en efectivo Reservas: WhatsApp 381 241-8094 / tel. 258-8995 Fuente: Ente Tucumán Turismo y Lo de la Paliza.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_ser_herencia.jpg",
+    "price": 7000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Lo de la Paliza, Laprida 181",
+    "address": "",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-22",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-22T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.97
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El dúo Ser Herencia ofrecerá un show de folclore en vivo el domingo 22 de noviembre a las 22 h en Lo de la Paliza, ubicado en Laprida 181. La entrada general cuesta $7000 en efectivo. Para realizar reservas de mesas, comunicarse por WhatsApp al 381 241-8094 o llamar al 258-8995.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "76890b0d7e0c3463b2da308eb32464a7d619faba62d09a1f1d2aef1462e9faee"
+  },
+  {
+    "id": "47601",
+    "source": "MEC",
+    "title": "Del 21 al 23 de Noviembre | Ferias municipales: dónde encontrar artesanos, emprendedores y gastronomía en la capital",
+    "url": "https://agendatucuman.com.ar/eventos/del-21-al-23-de-noviembre-ferias-municipales-donde-encontrar-artesanos-emprendedores-y-gastronomia-en-la-capital/",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time_start": "18:00",
+    "time_end": "00:00",
+    "start_datetime": "2026-11-23T18:00:00-03:00",
+    "end_datetime": "2026-11-23T00:00:00-03:00",
+    "description": "El fin de semana largo viene con paseo incluido. Las ferias municipales de San Miguel de Tucumán estarán presentes el sábado 21, el domingo 22 y el lunes 23 de noviembre en tres parques de la ciudad, en Plaza Independencia y en el barrio Manantial Sur, con propuestas de artesanos, emprendedores y gastronomía. Parque Avellaneda y Parque El Provincial En el Parque Avellaneda , la Feria de Emprendedores funcionará sábado, domingo y lunes de 18 a 00 h sobre avenida Mate de Luna y la caminería central, mientras que el Paseo Gastronómico estará el domingo y el lunes, de 18 a 00 h, sobre calle Asunción. En el Parque El Provincial , la Feria de Artesanos se podrá recorrer el sábado 21 y el lunes 23, de 18 a 00 h, en el predio de avenida Roca y Chacabuco. Plaza Independencia y Parque 9 de Julio El domingo 22, la Plaza Independencia recibirá la Feria de Artesanos, de 16.30 a 00 h, sobre 24 de Septiembre y Laprida, y la Feria Gourmet, de 16 a 00 h, sobre 24 de Septiembre al 300. En el Parque 9 de Julio , la feria estará el domingo 22 y el lunes 23, de 17 a 23 h, sobre avenida Soldati al 300. Barrio Manantial Sur La Feria Manantial Sur – 2500 Viviendas funcionará el sábado 21 y el domingo 22, de 18 a 22 h, sobre avenida Palavecino, entre Constitución y Pueyrredón. Elegí tu feria favorita, salí a caminar y apoyá a los productores locales. Tené en cuenta que las ferias se suspenden en caso de lluvia. Resumen Fechas: sábado 21, domingo 22 y lunes 23 de noviembre Parque Avellaneda: Emprendedores (sáb. a lun., 18 a 00 h) y Paseo Gastronómico (dom. y lun., 18 a 00 h) Parque El Provincial: Artesanos (sáb. y lun., 18 a 00 h) Plaza Independencia: Artesanos (dom., 16.30 a 00 h) y Gourmet (dom., 16 a 00 h) Parque 9 de Julio: dom. y lun., 17 a 23 h, Av. Soldati al 300 Manantial Sur: sáb. y dom., 18 a 22 h, Av. Palavecino Clima: se suspenden por lluvia Fuente: Municipalidad de San Miguel de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_ferias-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "predio de avenida Roca y Chacabuco",
+    "address": "Soldati al 300",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=predio+de+avenida+Roca+y+Chacabuco%2C+Soldati+al+300%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-23",
+        "time_start": "18:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-11-23T18:00:00-03:00",
+        "end_datetime": "2026-11-23T00:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-21",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Del 21 al 23 de noviembre se realizarán las ferias municipales en San Miguel de Tucumán con artesanos, emprendedores y gastronomía. Funcionarán en el Parque Avellaneda, Parque El Provincial, Plaza Independencia, Parque 9 de Julio y barrio Manantial Sur en diversos horarios. Las actividades se suspenden en caso de lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "010d5f665bafcf2a9be1e754f0e526e7cf93dd92888f0728898d4463e71d516c"
+  },
+  {
+    "id": "47614",
+    "source": "MEC",
+    "title": "23 de Noviembre | El cuarteto de cuerdas Alpa Puyo celebra su 5° aniversario con un concierto en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/23-de-noviembre-el-cuarteto-de-cuerdas-alpa-puyo-celebra-su-5-aniversario-con-un-concierto-en-el-virla/",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-23T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Música de cámara para cerrar el fin de semana largo. Este lunes 23 de noviembre, a las 20 h, el cuarteto de cuerdas Alpa Puyo se presenta en el Auditorio del Centro Cultural Virla (25 de Mayo 265) en un concierto que celebra su quinto aniversario. Un repertorio con sello americano El programa incluye obras de Jeff Manookian, Constantino Gaito y Luis Gianneo, compositores vinculados a la tradición académica del continente y, en el caso de Gaito y Gianneo, a la historia de la música argentina. Con Roberto Buffo como invitado El cuarteto contará con la participación especial del maestro Roberto Buffo en piano, para obras que combinan las cuerdas con el teclado. Cinco años compartiendo música merecen una celebración a la altura. Entradas La entrada general cuesta $15.000 y las anticipadas, $10.000. Se consiguen en la ticketera online del Virla y en el centro cultural. Una gran opción para disfrutar del feriado con música en vivo. Resumen Concierto: Cuarteto de cuerdas Alpa Puyo – 5° aniversario Invitado: Roberto Buffo (piano) Repertorio: obras de Jeff Manookian, Constantino Gaito y Luis Gianneo Fecha: lunes 23 de noviembre Horario: 20 h Lugar: Auditorio del Centro Cultural Virla, 25 de Mayo 265 Entradas: generales $15.000; anticipadas $10.000 (elvirla.entradanet.com) Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_9.webp",
+    "price": 15000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "ticketera online del Virla y en el centro cultural",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=ticketera+online+del+Virla+y+en+el+centro+cultural%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-23",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-23T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-23",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El cuarteto de cuerdas Alpa Puyo celebra su 5° aniversario con un concierto junto al pianista Roberto Buffo. La cita es el lunes 23 de noviembre a las 20 h en el Auditorio del Centro Cultural Virla, ubicado en 25 de Mayo 265. Las entradas generales cuestan $15.000 y las anticipadas $10.000, disponibles en la ticketera online del Virla y en el centro cultural.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "390e7545e92c8f982cece599c53663dd93fb357a26b622ea3bea01f79393fb73"
+  },
+  {
+    "id": "47620",
+    "source": "MEC",
+    "title": "23 de Noviembre | César «Banana» Pueyrredón se presenta en el Teatro Alberdi con Matías Puente como apertura",
+    "url": "https://agendatucuman.com.ar/eventos/23-de-noviembre-cesar-banana-pueyrredon-se-presenta-en-el-teatro-alberdi-con-matias-puente-como-apertura/",
+    "date_start": "2026-11-23",
+    "date_end": "2026-11-23",
+    "time_start": "20:30",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-23T20:30:00-03:00",
+    "end_datetime": "2026-11-23T21:00:00-03:00",
+    "description": "Uno de los grandes nombres de la música popular argentina llega a Tucumán en el feriado. César «Banana» Pueyrredón se presenta el lunes 23 de noviembre, a las 20.30 h, en la Sala Mayor del Teatro Alberdi , en un show organizado junto a la Fundación DAR. Las canciones de siempre, en vivo Pueyrredón es autor e intérprete de algunas de las baladas más recordadas del pop y el rock nacional, con una carrera que atraviesa décadas y generaciones. Su presentación promete una noche de canciones para corear de principio a fin. Matías Puente en la apertura La apertura estará a cargo de Matías Puente , que calentará el ambiente antes de la llegada del artista principal. La función se realiza en el marco de una propuesta de la Fundación DAR. Dónde comprar entradas Las entradas se venden en la web Mi Entrada Digital y en la boletería del teatro, que atiende de viernes a domingo de 10 a 13 y de 18 a 21 h. Cerrá el fin de semana largo con un clásico de la música argentina. Resumen Artista: César «Banana» Pueyrredón Apertura: Matías Puente Organiza: Fundación DAR Fecha: lunes 23 de noviembre Horario: 20.30 h Lugar: Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez Entradas: mientradadigital.com y boletería (vie. a dom., 10 a 13 y 18 a 21 h) Fuente: Teatro Alberdi (Instagram @teatroalberdi_oficial).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi_6.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "feriado",
+    "address": "",
+    "city": "",
+    "organizer": "Fundación DAR Fecha: lunes 23 de noviembre Horario: 20",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=feriado%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-23",
+        "time_start": "20:30",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-23T20:30:00-03:00",
+        "end_datetime": "2026-11-23T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-23",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "César «Banana» Pueyrredón se presentará en vivo con un show de apertura a cargo de Matías Puente. La cita es el lunes 23 de noviembre a las 20.30 h en la Sala Mayor del Teatro Alberdi. Las entradas se pueden adquirir en la web de Mi Entrada Digital y en la boletería del teatro.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "5ef773d8c0385dc492379c575de02114ce1b1325a7fdff18caa9158d89355f1c"
+  },
+  {
+    "id": "47598",
+    "source": "MEC",
+    "title": "Del 22 al 24 de Noviembre | La comedia «¿Querés ser mi hijo?» se proyecta en el Espacio INCAA Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/del-22-al-24-de-noviembre-la-comedia-queres-ser-mi-hijo-se-proyecta-en-el-espacio-incaa-tucuman/",
+    "date_start": "2026-11-24",
+    "date_end": "2026-11-24",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-24T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Una comedia argentina con una premisa tan disparatada como entrañable llega a la pantalla del Espacio INCAA Tucumán . «¿Querés ser mi hijo?» , de Hernán Guerschuny , se proyecta el domingo 22 y el lunes 23 de noviembre a las 20 h, y el martes 24 a las 18 h, en la Sala Orestes Caviglia (San Martín 251). De qué se trata Lucía tiene 40 años y su vida da un vuelco cuando descubre una infidelidad. Para conseguir un trabajo en el que le exigen ser madre, se le ocurre una solución insólita: proponerle a Javier, su joven vecino, que finja ser su hijo. A cambio, ella lo dejará hacer fiestas. Lo que sigue es un enredo lleno de humor y situaciones inesperadas. Tres funciones para elegir La película tendrá funciones a las 20 h el domingo y el lunes, y una función más temprana, a las 18 h, el martes. Una buena opción para cerrar el fin de semana largo o arrancar la semana con risas. Entradas accesibles La entrada general cuesta $5.000 y la de estudiantes y jubilados, $2.500. Elegí tu función, sumá compañía y date el gusto de disfrutar cine argentino en pantalla grande. Resumen Película: «¿Querés ser mi hijo?», de Hernán Guerschuny Fechas y horarios: domingo 22 y lunes 23 de noviembre a las 20 h; martes 24 a las 18 h Lugar: Sala Orestes Caviglia – Espacio INCAA Tucumán, San Martín 251 Entradas: general $5.000; estudiantes y jubilados $2.500 Informes: (0381) 430-7678 / 452-4436 Fuente: Ente Cultural de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ente_queres_hijo.jpg",
+    "price": 5000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "0381) 430-7678"
+    ],
+    "categories": [
+      "Cine"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-24",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-24T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-22",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La comedia argentina «¿Querés ser mi hijo?», dirigida por Hernán Guerschuny, se proyectará en el Espacio INCAA Tucumán. Las funciones serán el domingo 22 y lunes 23 de noviembre a las 20 h, y el martes 24 a las 18 h en la Sala Orestes Caviglia, ubicada en San Martín 251. La entrada general cuesta $5.000 y para estudiantes y jubilados $2.500.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3fa062b3ffc701e8c434b96f4c6a6a0698522ae7c679ffea859f03bd0c69307c"
+  },
+  {
+    "id": "47595",
+    "source": "MEC",
+    "title": "Del 20 al 28 de Noviembre | El grupo de teatro de niños del Ente Cultural presenta «La Patria Necesita de estos Locos» en el Teatro Orestes Caviglia",
+    "url": "https://agendatucuman.com.ar/eventos/del-20-al-28-de-noviembre-el-grupo-de-teatro-de-ninos-del-ente-cultural-presenta-la-patria-necesita-de-estos-locos-en-el-teatro-orestes-caviglia/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La historia del General José de San Martín sube al escenario de la mano de los más chicos. El grupo de teatro de niños del Ente Cultural de Tucumán presenta «La Patria Necesita de estos Locos» , de Nicolás Aráoz, con funciones el 20, 21, 27 y 28 de noviembre a las 21 h en el Teatro Orestes Caviglia (San Martín 251). La vida de San Martín contada por niños La obra recorre la vida del Libertador desde su infancia hasta su muerte, en un relato que combina historia, emoción y el entusiasmo de un elenco infantil que se luce sobre el escenario. Una propuesta ideal para ir en familia y acercar a chicos y grandes a uno de los grandes héroes de nuestra historia. Un elenco numeroso y un gran equipo detrás En escena actúan Florencia Rojo, Briana Lucero, Amanda Girbau, Lisa Mirkin, Guillermina Moroni, Florentina Guzmán, Valentín Lorenzo Minué, Luisa Flores Guerra, Gerónimo Suárez, Emma Gutierrez, Augusto Grondona, Salvador Armanini, Luján Sanchez, Felipe Prado Maldonado, Corina Armanini, Alma Salas Barber, Máximo Canducci y Eva Rodriguez Vaisblat. La música original es de Fernando Flores Blasco, el diseño de vestuario de Elizabeth Cárdenas y la dirección general de Lilian Mirkin, acompañados por un amplio equipo técnico de operación, utilería y asistencia de escena. Entradas con promoción 2×1 La entrada general cuesta $10.000 con promoción 2×1. Se consiguen en la boletería del teatro y online a través de la ticketera oficial de Cultura de Tucumán (Entradanet). Elegí tu fecha y no te pierdas esta puesta llena de compromiso y talento local. Resumen Obra: «La Patria Necesita de estos Locos», de Nicolás Aráoz Elenco: Grupo de teatro de niños del Ente Cultural de Tucumán Fechas: 20, 21, 27 y 28 de noviembre Horario: 21 h Lugar: Teatro Orestes Caviglia, San Martín 251 Entradas: $10.000 con promoción 2×1, en boletería y en culturadetucuman.entradanet.com Dirección general: Lilian Mirkin Fuente: Ente Cultural de Tucumán.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ente_patria_locos.jpg",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "",
+        "score": 0
+      },
+      "overall": 0.78
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El grupo de teatro de niños del Ente Cultural de Tucumán presenta la obra La Patria Necesita de estos Locos, que repasa la vida de José de San Martín. Las funciones serán el 20, 21, 27 y 28 de noviembre a las 21 h en el Teatro Orestes Caviglia, ubicado en San Martín 251. Las entradas cuestan $10.000 con promoción 2×1 y se pueden adquirir en la boletería o de forma online.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "42a7fcc173f7f9c6a9d6477d5cd24825daec0e8573c67cde876d79120a849150"
+  },
+  {
+    "id": "47615",
+    "source": "MEC",
+    "title": "Hasta el 29 de Noviembre | «Arte en Cerámica»: las esculturas ecuestres de Águeda Ponce se exhiben en el Virla",
+    "url": "https://agendatucuman.com.ar/eventos/hasta-el-29-de-noviembre-arte-en-ceramica-las-esculturas-ecuestres-de-agueda-ponce-se-exhiben-en-el-virla/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "",
+    "time_end": "",
+    "start_datetime": "2026-11-29T00:00:00-03:00",
+    "end_datetime": "",
+    "description": "Caballos modelados en cerámica, con movimiento y detalle, se pueden ver por estos días en el centro de la ciudad. Hasta el 29 de noviembre, las Vitrinas Bóvedas del Centro Cultural Virla (25 de Mayo 265) exhiben «Arte en Cerámica» , la muestra de esculturas ecuestres de Águeda Ponce . El arte de dar forma al movimiento La exposición reúne esculturas ecuestres realizadas en cerámica, en las que la artista explora la figura del caballo y su movimiento. Una propuesta que pone en valor el trabajo manual y el oficio cerámico. Una muestra para visitar sin apuro La muestra fue inaugurada el 17 de noviembre y permanece abierta hasta fin de mes, por lo que es una buena excusa para darse una vuelta por el Virla antes o después de alguna de sus funciones. Dónde verla Las obras se exhiben en las Vitrinas Bóvedas del centro cultural, en pleno microcentro tucumano. Si te gusta la cerámica o simplemente buscás una visita cultural breve, anotala en tu agenda. Resumen Muestra: «Arte en Cerámica» – esculturas ecuestres Artista: Águeda Ponce Fechas: del 17 al 29 de noviembre Lugar: Vitrinas Bóvedas del Centro Cultural Virla, 25 de Mayo 265 Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_2.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Vitrinas Bóvedas del Centro Cultural Virla, 25 de Mayo 265 Fuente: Centro Cultural Virla (Instagram @centroculturalvirla)",
+    "address": "",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Vitrinas+B%C3%B3vedas+del+Centro+Cultural+Virla%2C+25+de+Mayo+265+Fuente%3A+Centro+Cultural+Virla+%28Instagram+%40centroculturalvirla%29%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "",
+        "time_end": "",
+        "start_datetime": "2026-11-29T00:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "",
+        "score": 0,
+        "has_start": false,
+        "has_end": false
+      },
+      "location": {
+        "source": "label",
+        "score": 0.95
+      },
+      "overall": 0.67
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-20",
+      "card_time": "",
+      "date": "title_day",
+      "time": "",
+      "location": "label",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Hasta el 29 de noviembre se puede visitar la muestra Arte en Cerámica en las Vitrinas Bóvedas del Centro Cultural Virla, ubicado en 25 de Mayo 265. La exposición presenta esculturas ecuestres realizadas en cerámica por la artista Águeda Ponce.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a7a55761ad4227e97619b21afd6a2a2519106647a1448c77f2d1ed7f23b0b290"
   },
   {
     "id": "46856",
