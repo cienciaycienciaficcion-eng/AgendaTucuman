@@ -1,82 +1,5 @@
 [
   {
-    "id": "47291",
-    "source": "MEC",
-    "title": "5 de Noviembre | “Espaciotiempo”: muestra colectiva de fotografía en la Sala de Arcos del Centro Cultural Virla",
-    "url": "https://agendatucuman.com.ar/eventos/5-de-noviembre-espaciotiempo-muestra-colectiva-de-fotografia-en-la-sala-de-arcos-del-centro-cultural-virla/",
-    "date_start": "2026-11-05",
-    "date_end": "2026-11-05",
-    "time_start": "19:30",
-    "time_end": "",
-    "start_datetime": "2026-11-05T19:30:00-03:00",
-    "end_datetime": "",
-    "description": "La fotografía tiene su espacio en el Virla. El jueves 5 de noviembre se inaugura “Espaciotiempo”, una muestra colectiva que reúne miradas de cuatro fotógrafos y que podrá visitarse hasta el 22 de noviembre. Cuatro autores, cuatro miradas La exposición reúne trabajos de Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López, en un diálogo entre estilos y recorridos personales. Inauguración y horarios La muestra se inaugura el jueves 5, a las 19.30, en la Sala de Arcos y la Bandeja del Centro Cultural Virla, y permanece abierta del 5 al 22 de noviembre. Si buscás qué hacer en Tucumán esta semana con una propuesta de arte, esta es una excelente opción para sumar a tu recorrido. Una semana cargada de cultura El Virla ofrece además conciertos, ferias y espectáculos durante toda la semana. ¡Acercate a la inauguración y descubrí la muestra!\n\nQué: muestra colectiva de fotografía “Espaciotiempo” Cuándo: inauguración el jueves 5 de noviembre, a las 19.30; abierta hasta el 22 de noviembre Dónde: Sala de Arcos y Bandeja, Centro Cultural Virla, San Miguel de Tucumán Artistas: Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López",
-    "highlighted_metadata": {
-      "qué": "muestra colectiva de fotografía “Espaciotiempo” Cuándo: inauguración el jueves 5 de noviembre, a las 19.30; abierta hasta el 22 de noviembre Dónde: Sala de Arcos y Bandeja, Centro Cultural Virla, San Miguel de Tucumán Artistas: Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López"
-    },
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/mcp-claude-in-chrome-blob-1793823478324-iapw76.png",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Virla",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Virla%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-05",
-        "time_start": "19:30",
-        "time_end": "",
-        "start_datetime": "2026-11-05T19:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "narrative",
-        "score": 0.65
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "19:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "narrative",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El jueves 5 de noviembre a las 19:30 se inaugura “Espaciotiempo”, una muestra colectiva de fotografía que reúne obras de Ricardo Boullhesen, Flor Ferrari, Isaías López Madariaga y Pablo Soler López. La exposición se podrá visitar hasta el 22 de noviembre en la Sala de Arcos y la Bandeja del Centro Cultural Virla.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "776743c6fffd635cb70a46940aaab4ef248bb9468b39ec3a141a9e9237f2548a"
-  },
-  {
     "id": "47401",
     "source": "MEC",
     "title": "13 de Noviembre | Se inaugura “Diversidad II”, muestra fotográfica curada por Larry Chávez en el Virla",
@@ -138,7 +61,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "19:00",
       "date": "title_day",
       "time": "mec_card",
@@ -221,7 +144,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "20:00",
       "date": "title_days",
       "time": "mec_card",
@@ -234,526 +157,6 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "0d50b82534499ab31fe7913256d846c08466004b01cdd6684b16c4bc27b8f1ca"
-  },
-  {
-    "id": "47599",
-    "source": "MEC",
-    "title": "20 de Noviembre | Concierto coral gratuito en el Museo de la Industria Azucarera del Parque 9 de Julio",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-concierto-coral-gratuito-en-el-museo-de-la-industria-azucarera-del-parque-9-de-julio/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "20:30",
-    "time_end": "",
-    "start_datetime": "2026-11-20T20:30:00-03:00",
-    "end_datetime": "",
-    "description": "Voces infantiles, juveniles y universitarias se unen en una noche especial dentro del Parque 9 de Julio. Este viernes 20 de noviembre, a las 20.30 h, el Museo de la Industria Azucarera (MIA) recibe un concierto coral con entrada libre y gratuita. Dos coros en un mismo escenario Participarán el Coro Infanto Juvenil de la Municipalidad de San Miguel de Tucumán y el Coro de la Facultad de Medicina de la UNT , dos agrupaciones que compartirán repertorio y talento en un encuentro pensado para toda la familia. Un entorno histórico para disfrutar música El MIA, ubicado en la antigua casa del obispo Colombres, es uno de los espacios más emblemáticos del parque y un marco ideal para una velada musical. Además, la actividad no se suspende por lluvia, así que no hay excusas para perdérsela. Si buscás un plan tranquilo, gratuito y con buena música para arrancar el fin de semana, acercate al Parque 9 de Julio y dejate envolver por las voces de los coros tucumanos. Resumen Evento: Concierto coral Participan: Coro Infanto Juvenil de la Municipalidad de SMT y Coro de la Facultad de Medicina de la UNT Fecha: viernes 20 de noviembre Horario: 20.30 h Lugar: Museo de la Industria Azucarera, Parque 9 de Julio Entrada: libre y gratuita Clima: no se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_coral_mia-scaled.webp",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Museo de la Industria Azucarera, Parque 9 de Julio",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+de+la+Industria+Azucarera%2C+Parque+9+de+Julio%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "20:30",
-        "time_end": "",
-        "start_datetime": "2026-11-20T20:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "20:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Disfrutá de un concierto coral gratuito con el Coro Infanto Juvenil de la Municipalidad de San Miguel de Tucumán y el Coro de la Facultad de Medicina de la UNT. La cita es el viernes 20 de noviembre a las 20.30 h en el Museo de la Industria Azucarera, ubicado en el Parque 9 de Julio. La actividad no se suspende por lluvia.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "b275f8d51c067fdc4fb1cfea3edda80373849253adcf795853c6aa5d6f28b1ba"
-  },
-  {
-    "id": "47610",
-    "source": "MEC",
-    "title": "20 de Noviembre | La Orquesta Juvenil de la UNT ofrece un concierto homenaje por el Día de la Música en el Virla",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-la-orquesta-juvenil-de-la-unt-ofrece-un-concierto-homenaje-por-el-dia-de-la-musica-en-el-virla/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "20:30",
-    "time_end": "",
-    "start_datetime": "2026-11-20T20:30:00-03:00",
-    "end_datetime": "",
-    "description": "La música se celebra con talento joven en el Centro Cultural Virla. Este viernes 20 de noviembre, a las 20.30 h, la Orquesta Juvenil de la UNT presenta un Concierto Homenaje por el Día de la Música en el Auditorio del Virla (25 de Mayo 265). Una orquesta joven con solistas destacados La formación estará dirigida por el maestro Erik Luján Berman , con la participación de la maestra invitada Susana Noemí García . Los solistas de la noche serán Tomás Aquino, Lautaro Fernández y Walter Serrano. El Día de la Música en clave sinfónica El concierto se suma a las celebraciones por el Día de la Música y es una oportunidad ideal para acompañar a los jóvenes músicos de la Universidad Nacional de Tucumán y disfrutar de una velada sinfónica en pleno centro. Entradas La entrada general cuesta $10.000, con promoción 2×1 para estudiantes y jubilados. Las entradas se consiguen en la ticketera online del Virla y en el centro cultural. Arrancá el fin de semana con buena música. Resumen Concierto: Homenaje por el Día de la Música Intérpretes: Orquesta Juvenil de la UNT Dirección: Erik Luján Berman; maestra invitada Susana Noemí García Solistas: Tomás Aquino, Lautaro Fernández y Walter Serrano Fecha: viernes 20 de noviembre Horario: 20.30 h Lugar: Auditorio del Centro Cultural Virla, 25 de Mayo 265 Entradas: $10.000; promo 2×1 para estudiantes y jubilados (elvirla.entradanet.com) Fuente: Centro Cultural Virla (Instagram @centroculturalvirla).",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/virla_5.webp",
-    "price": 10000.0,
-    "currency": "ARS",
-    "is_free": false,
-    "location": "Centro Cultural Virla",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Centro+Cultural+Virla%2C+Tucum%C3%A1n%2C+Argentina",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "20:30",
-        "time_end": "",
-        "start_datetime": "2026-11-20T20:30:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "narrative",
-        "score": 0.65
-      },
-      "overall": 0.91
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "20:30",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "narrative",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "La Orquesta Juvenil de la UNT presenta un concierto homenaje por el Día de la Música en el Centro Cultural Virla. La cita es el viernes 20 de noviembre a las 20:30 h en el auditorio ubicado en 25 de Mayo 265. Las entradas generales cuestan $10.000, con promoción 2x1 para estudiantes y jubilados.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "b292db8592c4e8df98c4ed7a472b333310e0d03d2f8454aaca2385a5d5aea41c"
-  },
-  {
-    "id": "47631",
-    "source": "MEC",
-    "title": "20 de Noviembre | Jorge Rojas presenta «Piano y Voz» en el Teatro Mercedes Sosa con Román Ramonda como invitado",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-jorge-rojas-presenta-piano-y-voz-en-el-teatro-mercedes-sosa-con-roman-ramonda-como-invitado/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "21:00",
-    "time_end": "",
-    "start_datetime": "2026-11-20T21:00:00-03:00",
-    "end_datetime": "",
-    "description": "Una de las voces más populares del folclore argentino llega con un formato íntimo. Jorge Rojas presenta «Piano y Voz» este viernes 20 de noviembre a las 21 h en el Teatro Mercedes Sosa (San Martín 479). Un concierto despojado y cercano En este formato, Rojas deja de lado el gran despliegue para reencontrarse con sus canciones desde lo esencial: la voz y el piano. Una propuesta pensada para escuchar con atención cada interpretación y redescubrir temas que forman parte de la historia del folclore reciente. Román Ramonda, artista invitado La noche contará con la participación de Román Ramonda como artista invitado, que se suma a un show que promete momentos emotivos y mucha conexión con el público. Entradas Las entradas se consiguen a través de la boletería online oficial del Teatro Mercedes Sosa y en la boletería del teatro. Si sos fan de Jorge Rojas, no te pierdas esta versión íntima de su repertorio. Resumen Artista: Jorge Rojas Espectáculo: «Piano y Voz» Invitado: Román Ramonda Fecha: viernes 20 de noviembre Horario: 21 h Lugar: Teatro Mercedes Sosa, San Martín 479 Entradas: boletería del teatro y web oficial del Teatro Mercedes Sosa Fuente: Ente Tucumán Turismo.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_jorge_rojas.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Teatro Mercedes Sosa, San Martín 479 Entradas: boletería del teatro y web oficial del Teatro Mercedes Sosa Fuente: Ente Tucumán Turismo",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Mercedes+Sosa%2C+San+Mart%C3%ADn+479+Entradas%3A+boleter%C3%ADa+del+teatro+y+web+oficial+del+Teatro+Mercedes+Sosa+Fuente%3A+Ente+Tucum%C3%A1n+Turismo",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "21:00",
-        "time_end": "",
-        "start_datetime": "2026-11-20T21:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "21:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Jorge Rojas presenta su espectáculo íntimo Piano y Voz, con la participación de Román Ramonda como invitado especial. La cita es el viernes 20 de noviembre a las 21 h en el Teatro Mercedes Sosa, ubicado en San Martín 479. Las entradas se pueden adquirir en la boletería del lugar y en su sitio web oficial.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "9a2b4cc2791290f710e45a96c26e982b607961552878a2ddba2e211b50988ec8"
-  },
-  {
-    "id": "47600",
-    "source": "MEC",
-    "title": "20 de Noviembre | Julieta Laso presenta «Fabriquera» en el Teatro Municipal Rosita Ávila",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-julieta-laso-presenta-fabriquera-en-el-teatro-municipal-rosita-avila/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "21:00",
-    "time_end": "18:00",
-    "start_datetime": "2026-11-20T21:00:00-03:00",
-    "end_datetime": "2026-11-20T18:00:00-03:00",
-    "description": "Una de las grandes cantoras de la escena argentina contemporánea llega a Tucumán. Julieta Laso presenta «Fabriquera» este viernes 20 de noviembre a las 21 h en el Teatro Municipal Rosita Ávila , ubicado en Las Piedras 1550. Un regreso a las raíces del tango En este trabajo, Laso vuelve a las raíces de su decir tanguero con un repertorio intenso y personal que combina canciones inéditas con obras de Melingo, Julián Centeya, Evaristo Carriego, María Celeste Torre y Patxi Andion. El disco es también fruto de dos años de trabajo compartido con Melingo, una experiencia que marcó a fondo su manera de cantar. Tango, poesía y canción popular en vivo Sobre el escenario la acompañan Patricio Cotella en contrabajo y Leandro Angeli en guitarra. Juntos le dan a «Fabriquera» una nueva dimensión, en una propuesta que cruza tango, poesía y canción popular desde una voz inconfundible. Cómo conseguir entradas Las entradas están disponibles en la ticketera digital de la Municipalidad de San Miguel de Tucumán y en la boletería del teatro, que atiende en días hábiles de 9 a 18 h y los días de función desde las 17 h. Si sos de los que disfrutan el tango con identidad propia, esta es tu noche. Resumen Artista: Julieta Laso Espectáculo: «Fabriquera» Músicos: Patricio Cotella (contrabajo) y Leandro Angeli (guitarra) Fecha: viernes 20 de noviembre Horario: 21 h Lugar: Teatro Municipal Rosita Ávila, Las Piedras 1550 Entradas: ticketera digital municipal (entradas.smt.gob.ar) y boletería del teatro Fuente: Municipalidad de San Miguel de Tucumán.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt_fabriquera-scaled.webp",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "21:00",
-        "time_end": "18:00",
-        "start_datetime": "2026-11-20T21:00:00-03:00",
-        "end_datetime": "2026-11-20T18:00:00-03:00"
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": true
-      },
-      "location": {
-        "source": "",
-        "score": 0
-      },
-      "overall": 0.78
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "21:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "La destacada cantora Julieta Laso presenta su espectáculo de tango «Fabriquera» junto a los músicos Patricio Cotella y Leandro Angeli. La cita es el viernes 20 de noviembre a las 21 h en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1550. Las entradas se pueden adquirir en la ticketera digital municipal y en la boletería del teatro.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "7ce35993e5fe2c8464b52d71b12c8233e3c2fff6205de17417ee93b1081daaed"
-  },
-  {
-    "id": "47617",
-    "source": "MEC",
-    "title": "20 de Noviembre | El taller de danzas folclóricas Zonkko América presenta «Ñan Purispa» en el Teatro Alberdi",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-el-taller-de-danzas-folcloricas-zonkko-america-presenta-nan-purispa-en-el-teatro-alberdi/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "21:15",
-    "time_end": "",
-    "start_datetime": "2026-11-20T21:15:00-03:00",
-    "end_datetime": "",
-    "description": "La danza folclórica se adueña de la Sala Mayor del Teatro Alberdi. Este viernes 20 de noviembre, a las 21.15 h, el Taller de danzas folclóricas Zonkko América , del Complejo Dickens, presenta «Ñan Purispa» , con entrada gratuita. Un camino de danza y raíces «Ñan Purispa» es una expresión en quechua que remite a «caminando el camino». El espectáculo propone un recorrido por las danzas de nuestra tierra, con la identidad latinoamericana como hilo conductor y el trabajo de bailarinas y bailarines que se formaron durante el año en el taller. El cierre de un año de trabajo La presentación es una oportunidad para acompañar a quienes forman parte del taller y disfrutar de la riqueza del folclore sobre uno de los escenarios más tradicionales de la ciudad. Gratis en el Alberdi La entrada es gratuita. El Teatro Alberdi está ubicado en Jujuy y Crisóstomo Álvarez. Llegá con tiempo para conseguir una buena ubicación y sumate a esta celebración de nuestras raíces. Resumen Espectáculo: «Ñan Purispa» Elenco: Taller de danzas folclóricas Zonkko América – Complejo Dickens Fecha: viernes 20 de noviembre Horario: 21.15 h Lugar: Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez Entrada: gratuita Fuente: Teatro Alberdi (Instagram @teatroalberdi_oficial).",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/alberdi_3.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": true,
-    "location": "Sala Mayor del Teatro Alberdi, Jujuy y Crisóstomo Álvarez",
-    "address": "",
-    "city": "",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Gratis",
-      "Variedades"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sala+Mayor+del+Teatro+Alberdi%2C+Jujuy+y+Cris%C3%B3stomo+%C3%81lvarez%2C+Tucum%C3%A1n%2C+Argentina",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "21:15",
-        "time_end": "",
-        "start_datetime": "2026-11-20T21:15:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "21:15",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El taller de danzas folclóricas Zonkko América presenta el espectáculo de raíz latinoamericana «Ñan Purispa». La función se realizará el viernes 20 de noviembre a las 21.15 h en la Sala Mayor del Teatro Alberdi, ubicado en Jujuy y Crisóstomo Álvarez. La entrada es totalmente gratuita.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "0fcd52eab41fcab24be0bb1f3134af850c6fe337d694e80aec0922241479f8b4"
-  },
-  {
-    "id": "47626",
-    "source": "MEC",
-    "title": "20 de Noviembre | Gisela Canevaro y Carlos Podazza presentan una noche de tangos y boleros en Lo de la Paliza",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-gisela-canevaro-y-carlos-podazza-presentan-una-noche-de-tangos-y-boleros-en-lo-de-la-paliza/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "22:00",
-    "time_end": "",
-    "start_datetime": "2026-11-20T22:00:00-03:00",
-    "end_datetime": "",
-    "description": "Tangos, boleros y música latinoamericana para empezar el finde largo con una cena especial. Este viernes 20 de noviembre, a las 22 h, Gisela Canevaro y Carlos Podazza se presentan en Lo de la Paliza (Laprida 181, San Miguel de Tucumán). Un repertorio para disfrutar sin apuro El dúo propone un recorrido por tangos, boleros y música latinoamericana, con interpretaciones sentidas y un clima ideal para escuchar de cerca. La noche contará además con las artistas invitadas Ana Marcilla y Andrea García Wilde . Música, comida rica y tragos Lo de la Paliza propone noches de música en vivo acompañadas de gastronomía y tragos, en un ambiente íntimo en pleno centro tucumano, en Laprida 181. Un plan ideal para cenar con amigos o en pareja mientras disfrutás de un show cercano. Entradas y reservas El valor del espectáculo es de $7.000 en efectivo. Para reservar mesa, se puede escribir por WhatsApp al 381 241-8094 o llamar al 258-8995. Conviene reservar con anticipación, porque las noches de música en vivo suelen llenarse. Resumen Artistas: Gisela Canevaro y Carlos Podazza Invitadas: Ana Marcilla y Andrea García Wilde Género: tangos, boleros y música latinoamericana Fecha: viernes 20 de noviembre Horario: 22 h Lugar: Lo de la Paliza, Laprida 181 Entrada: $7.000 en efectivo Reservas: WhatsApp 381 241-8094 / tel. 258-8995 Fuente: Ente Tucumán Turismo y Lo de la Paliza.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_canevaro.jpg",
-    "price": 7000.0,
-    "currency": "ARS",
-    "is_free": false,
-    "location": "Lo de la Paliza, Laprida 181",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "22:00",
-        "time_end": "",
-        "start_datetime": "2026-11-20T22:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "22:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "Gisela Canevaro y Carlos Podazza presentan una noche de tangos, boleros y música latinoamericana, acompañados por Ana Marcilla y Andrea García Wilde. El show será este viernes 20 de noviembre a las 22 h en Lo de la Paliza, ubicado en Laprida 181. La entrada cuesta $7.000 en efectivo y se realizan reservas al WhatsApp 381 241-8094 o al teléfono 258-8995.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "d1cafa2aa6ce4c366e414da4acd462b98ec879d4d8d07e09485f1d9b7eb986f4"
-  },
-  {
-    "id": "47621",
-    "source": "MEC",
-    "title": "20 de Noviembre | Viernes Escondido: peña y guitarreada con Trova Dúo, Matías Brito, Desnaturaliza2 y Sonkoy Tucma",
-    "url": "https://agendatucuman.com.ar/eventos/20-de-noviembre-viernes-escondido-pena-y-guitarreada-con-trova-duo-matias-brito-desnaturaliza2-y-sonkoy-tucma/",
-    "date_start": "2026-11-20",
-    "date_end": "2026-11-20",
-    "time_start": "22:00",
-    "time_end": "",
-    "start_datetime": "2026-11-20T22:00:00-03:00",
-    "end_datetime": "",
-    "description": "El fin de semana largo arranca con folclore en la peña. Este viernes 20 de noviembre, desde las 22 h, La Escondida (Miguel Lillo 234, San Miguel de Tucumán) propone el Viernes Escondido , una noche de bar, peña y guitarreada. Los artistas de la noche Sobre el escenario se presentarán Trova Dúo , Matías Brito , Desnaturaliza2 y Sonkoy Tucma , artistas con mucha presencia que prometen una noche bien folclórica. Guitarreada toda la noche Además de los shows, la propuesta incluye guitarreada toda la noche, ese clima de peña en el que cualquiera puede sumarse a cantar. Un espacio de encuentro, tradición y amistad, como define el lugar su propia identidad. Bar y peña en el centro La Escondida funciona como bar y peña, con mesas para disfrutar de la música, algo rico para comer y buena compañía. Para consultas y reservas, se puede contactar al lugar a través de sus redes sociales. ¡Armá la mesa con amigos y vení a disfrutar! Resumen Evento: Viernes Escondido – bar, peña y guitarreada Artistas: Trova Dúo, Matías Brito, Desnaturaliza2 y Sonkoy Tucma Fecha: viernes 20 de noviembre Horario: desde las 22 h Lugar: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Fuente: La Escondida (Instagram @laescondida.tucuman).",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/escondida_1.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Fuente: La Escondida (Instagram @laescondida.tucuman)",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n+Fuente%3A+La+Escondida+%28Instagram+%40laescondida.tucuman%29",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-20",
-        "time_start": "22:00",
-        "time_end": "",
-        "start_datetime": "2026-11-20T22:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-20",
-      "card_time": "22:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El viernes 20 de noviembre, desde las 22 h, se realizará el Viernes Escondido en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. La noche de bar y peña contará con música folclórica en vivo a cargo de Trova Dúo, Matías Brito, Desnaturaliza2 y Sonkoy Tucma, además de una guitarreada abierta toda la noche. Las consultas y reservas se realizan a través de las redes sociales del lugar.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "3ec5c2ba4f264527c06311a924b8f7a54148595a3a2a12c3c04efb39a41bb178"
   },
   {
     "id": "47400",
@@ -817,7 +220,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "09:00",
       "date": "title_day",
       "time": "mec_card",
@@ -2162,7 +1565,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "10:00",
       "date": "title_day",
       "time": "mec_card",
@@ -2236,7 +1639,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "16:00",
       "date": "title_day",
       "time": "mec_card",
@@ -3205,7 +2608,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "21:00",
       "date": "title_day",
       "time": "mec_card",
@@ -3279,7 +2682,7 @@
     "_sources": {
       "page_status": 200,
       "rest_status": 200,
-      "card_date": "2026-11-20",
+      "card_date": "2026-11-21",
       "card_time": "",
       "date": "title_day",
       "time": "",
