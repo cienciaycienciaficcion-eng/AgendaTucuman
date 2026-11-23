@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-22T16:49:24.433311-03:00",
-  "reference_date": "2026-11-22",
+  "generated_at": "2026-11-23T04:50:31.364736-03:00",
+  "reference_date": "2026-11-23",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "83739a4e7e6f7a00f32aa9a1ac55f5a55d3092e4adb01da603f4fcdc0ae1d293"
+    "pdf_sha256": "a811365a073371338e00fcab4410f117c2a83ff7d7b9610618bc4f778e5063d6"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -36,9 +36,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "21:20"
-          ],
+          "domingo": [],
           "lunes": [
             "21:20"
           ],
@@ -50,12 +48,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "21:20",
-            "datetime": "2026-11-22T21:20:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "21:20",
@@ -80,7 +72,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -134,11 +126,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "17:00",
-            "18:40",
-            "20:00"
-          ],
+          "domingo": [],
           "lunes": [
             "17:00",
             "18:40",
@@ -156,24 +144,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "17:00",
-            "datetime": "2026-11-22T17:00:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-11-22",
-            "time": "18:40",
-            "datetime": "2026-11-22T18:40:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-11-22",
-            "time": "20:00",
-            "datetime": "2026-11-22T20:00:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "17:00",
@@ -234,7 +204,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -287,9 +257,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "17:30"
-          ],
+          "domingo": [],
           "lunes": [
             "17:30"
           ],
@@ -301,12 +269,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "17:30",
-            "datetime": "2026-11-22T17:30:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "17:30",
@@ -331,7 +293,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -384,10 +346,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "16:00",
-            "19:10"
-          ],
+          "domingo": [],
           "lunes": [
             "16:00",
             "19:10",
@@ -405,18 +364,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "16:00",
-            "datetime": "2026-11-22T16:00:00",
-            "weekday": "domingo"
-          },
-          {
-            "date": "2026-11-22",
-            "time": "19:10",
-            "datetime": "2026-11-22T19:10:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "16:00",
@@ -477,7 +424,7 @@
           "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 158,
           "genres": [
             "Acción Ciencia Ficción"
@@ -522,86 +469,6 @@
         }
       },
       {
-        "id": "cinemacenter-tucuman-los-juegos-del-hambre-amanecer-en-la-cosecha-2d-sub",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "SUB",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [
-            "22:20"
-          ],
-          "lunes": [],
-          "martes": [],
-          "miércoles": []
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "22:20",
-            "datetime": "2026-11-22T22:20:00",
-            "weekday": "domingo"
-          }
-        ],
-        "cinemacenter_movie_id": 6091,
-        "metadata": {
-          "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D SUB",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-22",
-          "duration_minutes": 158,
-          "genres": [
-            "Acción Ciencia Ficción"
-          ],
-          "director": [
-            "Francis Lawrence"
-          ],
-          "cast": [
-            "Joseph Zada como Haymitch Abernathy",
-            "Kieran Culkin como Caesar Flickerman (versión joven del icónico presentador)",
-            "Elle Fanning como Effie Trinket joven",
-            "Ralph Fiennes como Presidente Coriolanus Snow",
-            "Jesse Plemons como Plutarch Heavensbee",
-            "Maya Hawke como Wiress",
-            "Ben Wang como Wyatt Callow",
-            "Glenn Close como Drusilla Sickle",
-            "Mckenna Grace como Maysilee Donner."
-          ],
-          "synopsis": "Mucho antes de que Katniss Everdeen se ofreciera como tributo, existió otro sobreviviente. La historia nos lleva 24 años antes de los eventos de la saga original, al amanecer del día de la cosecha de los 50° Juegos del Hambre, conocidos como el Second Quarter Quell. En esta edición especial, el Capitolio impone una regla brutal: cada distrito deberá enviar el doble de tributos, convirtiendo la arena en el espectáculo más cruel jamás visto. Entre los elegidos está Haymitch Abernathy, un joven del Distrito 12 que deberá usar su inteligencia y astucia para sobrevivir en un juego diseñado para destruirlos a todos. Pero incluso si logra ganar descubrirá que en los Juegos del Hambre la victoria también tiene un precio.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3408_img2.jpg",
-          "classification": "R13 - Restringida para menores de 13 años",
-          "nationality": "Estados Unidos",
-          "distributor": "BF + Paris Films",
-          "trailer": "https://www.youtube.com/embed/bHBmT6yWWvc",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6091-LOS-JUEGOS-DEL-HAMBRE-AMANECER-EN-LA-COSECHA---2D-SUB",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6091,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
         "id": "cinemacenter-tucuman-ebenezer-los-fantasmas-de-navidad-2d-cast",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
@@ -617,9 +484,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "22:30"
-          ],
+          "domingo": [],
           "lunes": [
             "22:30"
           ],
@@ -631,12 +496,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "22:30",
-            "datetime": "2026-11-22T22:30:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "22:30",
@@ -661,7 +520,7 @@
           "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 115,
           "genres": [
             "Fantasía"
@@ -722,9 +581,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "18:10"
-          ],
+          "domingo": [],
           "lunes": [
             "18:10"
           ],
@@ -736,12 +593,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "18:10",
-            "datetime": "2026-11-22T18:10:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "18:10",
@@ -766,7 +617,7 @@
           "title": "PLUMAS OPERACION RESCATE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 85,
           "genres": [
             "Animación"
@@ -822,9 +673,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "19:30"
-          ],
+          "domingo": [],
           "lunes": [
             "19:30",
             "22:10"
@@ -839,12 +688,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "19:30",
-            "datetime": "2026-11-22T19:30:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "19:30",
@@ -887,7 +730,7 @@
           "title": "YO SOY ROCKY - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 127,
           "genres": [
             "Biográfica"
@@ -933,87 +776,6 @@
         }
       },
       {
-        "id": "cinemacenter-tucuman-yo-soy-rocky-2d-sub",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "YO SOY ROCKY",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "SUB",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [
-            "22:10"
-          ],
-          "lunes": [],
-          "martes": [],
-          "miércoles": []
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "22:10",
-            "datetime": "2026-11-22T22:10:00",
-            "weekday": "domingo"
-          }
-        ],
-        "cinemacenter_movie_id": 6117,
-        "metadata": {
-          "title": "YO SOY ROCKY - 2D SUB",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-22",
-          "duration_minutes": 127,
-          "genres": [
-            "Biográfica"
-          ],
-          "director": [
-            "Peter Farrelly"
-          ],
-          "cast": [
-            "Anthony Ippolito",
-            "Stephan James",
-            "Matt Dillon",
-            "AnnaSophia Robb",
-            "P.J. Byrne",
-            "Jay Duplass",
-            "Kiki Seto",
-            "Toby Kebbell",
-            "Tracy Letts",
-            "Robert Morgan"
-          ],
-          "synopsis": "Esta es la historia real detrás de una de las películas más icónicas de todos los tiempos. Un actor desconocido, sin dinero ni contactos, tenía una sola convicción: no solo escribiría Rocky, sino que él sería Rocky Balboa. Rechazado una y otra vez por los estudios, Sylvester Stallone lo apostó todo por sí mismo y se negó a ceder el papel, incluso cuando le ofrecieron una fortuna por hacerlo.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3636_img2.jpg",
-          "classification": "SP - Supervisión Parental sugerida",
-          "nationality": "Estados Unidos",
-          "distributor": "Diamond Films",
-          "trailer": "https://www.youtube.com/embed/KKquTgKlXJY",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6117-YO-SOY-ROCKY---2D-SUB",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6117,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
         "id": "cinemacenter-tucuman-recen-por-mi-2d-cast",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
@@ -1029,9 +791,7 @@
           "jueves": [],
           "viernes": [],
           "sábado": [],
-          "domingo": [
-            "20:10"
-          ],
+          "domingo": [],
           "lunes": [
             "20:10"
           ],
@@ -1043,12 +803,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "20:10",
-            "datetime": "2026-11-22T20:10:00",
-            "weekday": "domingo"
-          },
           {
             "date": "2026-11-23",
             "time": "20:10",
@@ -1073,7 +827,7 @@
           "title": "RECEN POR MI - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-22",
+          "release_date": "2026-11-23",
           "duration_minutes": 110,
           "genres": [
             "Documental"
@@ -1196,78 +950,6 @@
           "cinemacenter_ficha_source": "direct_ficha_link",
           "release_date_source": "Cinemacenter cartelera Tucumán"
         }
-      },
-      {
-        "id": "cinemacenter-tucuman-la-asistente-de-la-morgue-2d-sub",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "LA ASISTENTE DE LA MORGUE",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "SUB",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [
-            "22:40"
-          ],
-          "lunes": [],
-          "martes": [],
-          "miércoles": []
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-22",
-            "time": "22:40",
-            "datetime": "2026-11-22T22:40:00",
-            "weekday": "domingo"
-          }
-        ],
-        "cinemacenter_movie_id": 6124,
-        "metadata": {
-          "title": "LA ASISTENTE DE LA MORGUE - 2D SUB",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-22",
-          "duration_minutes": 94,
-          "genres": [
-            "Terror Suspenso"
-          ],
-          "director": [
-            "Jeremiah Kipp"
-          ],
-          "cast": [
-            "Willa Holland Paul Sparks John Adams"
-          ],
-          "synopsis": "Rebecca Owens, una licenciada en ciencias mortuorias que acepta un trabajo nocturno en la funeraria River Fields. Lo que comienza como un trabajo rutinario pronto se vuelve siniestro al enfrentarse a terroríficas fuerzas sobrenaturales",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3508_img2.jpg",
-          "classification": "R17 - Restringida para menores de 17 años",
-          "nationality": "Estados Unidos",
-          "distributor": "Terrorífico Films",
-          "trailer": "https://www.youtube.com/embed/NXq2FW9-1Ys",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6124-LA-ASISTENTE-DE-LA-MORGUE---2D-SUB",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6124,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
       }
     ]
   },
@@ -1315,9 +997,9 @@
   ],
   "mi_boleteria_url": "https://www.miboleteria.com.ar",
   "summary": {
-    "cartelera_total": 12,
-    "metadata_con_movie_id": 12,
-    "metadata_ok": 12,
+    "cartelera_total": 9,
+    "metadata_con_movie_id": 9,
+    "metadata_ok": 9,
     "metadata_failures": 0,
     "metadata_source": "Cinemacenter-only",
     "failures": []
