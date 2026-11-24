@@ -76,80 +76,6 @@
     "summary_source_hash": "554e5afd36888ff23aa5e45fc1a52f3c407d299848344a273440936380418714"
   },
   {
-    "id": "47628",
-    "source": "MEC",
-    "title": "22 de Noviembre | Ser Herencia pone folclore a la noche de domingo en Lo de la Paliza",
-    "url": "https://agendatucuman.com.ar/eventos/22-de-noviembre-ser-herencia-pone-folclore-a-la-noche-de-domingo-en-lo-de-la-paliza/",
-    "date_start": "2026-11-22",
-    "date_end": "2026-11-22",
-    "time_start": "22:00",
-    "time_end": "",
-    "start_datetime": "2026-11-22T22:00:00-03:00",
-    "end_datetime": "",
-    "description": "El fin de semana largo sigue con folclore en vivo. Este domingo 22 de noviembre, a las 22 h, el dúo Ser Herencia se presenta en Lo de la Paliza (Laprida 181, San Miguel de Tucumán). Folclore para cantar y disfrutar Ser Herencia propone un repertorio folclórico ideal para aprovechar la noche del domingo, ya que el lunes 23 es feriado. Una cita para quienes disfrutan de la música de raíz en un ambiente cercano. Música, comida rica y tragos Lo de la Paliza propone noches de música en vivo acompañadas de gastronomía y tragos, en un ambiente íntimo en pleno centro tucumano, en Laprida 181. Un plan ideal para cenar con amigos o en pareja mientras disfrutás de un show cercano. Entradas y reservas El valor del espectáculo es de $7.000 en efectivo. Para reservar mesa, se puede escribir por WhatsApp al 381 241-8094 o llamar al 258-8995. Reservá tu mesa y aprovechá la víspera del feriado con buena música. Resumen Artistas: Ser Herencia Género: folclore Fecha: domingo 22 de noviembre Horario: 22 h Lugar: Lo de la Paliza, Laprida 181 Entrada: $7.000 en efectivo Reservas: WhatsApp 381 241-8094 / tel. 258-8995 Fuente: Ente Tucumán Turismo y Lo de la Paliza.",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tt_ser_herencia.jpg",
-    "price": 7000.0,
-    "currency": "ARS",
-    "is_free": false,
-    "location": "Lo de la Paliza, Laprida 181",
-    "address": "",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Musica"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+San+Miguel+de+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-22",
-        "time_start": "22:00",
-        "time_end": "",
-        "start_datetime": "2026-11-22T22:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "label",
-        "score": 0.95
-      },
-      "overall": 0.97
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-23",
-      "card_time": "22:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "label",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El dúo Ser Herencia ofrecerá un show de folclore en vivo este domingo 22 de noviembre a las 22 h en Lo de la Paliza, ubicado en Laprida 181. La entrada general cuesta $7.000 en efectivo. Para realizar reservas de mesas, comunicarse por WhatsApp al 381 241-8094 o llamar al 258-8995.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "76890b0d7e0c3463b2da308eb32464a7d619faba62d09a1f1d2aef1462e9faee"
-  },
-  {
     "id": "47601",
     "source": "MEC",
     "title": "Del 21 al 23 de Noviembre | Ferias municipales: dónde encontrar artesanos, emprendedores y gastronomía en la capital",
@@ -449,6 +375,1268 @@
     "summary_source_hash": "3fa062b3ffc701e8c434b96f4c6a6a0698522ae7c679ffea859f03bd0c69307c"
   },
   {
+    "id": "47674",
+    "source": "MEC",
+    "title": "25 de Noviembre | La Morrigan propone impro para niñas y niños en Casa Luján, donde los chicos eligen la historia",
+    "url": "https://agendatucuman.com.ar/eventos/25-de-noviembre-la-morrigan-propone-impro-para-ninas-y-ninos-en-casa-lujan-donde-los-chicos-eligen-la-historia/",
+    "date_start": "2026-11-25",
+    "date_end": "2026-11-25",
+    "time_start": "17:00",
+    "time_end": "",
+    "start_datetime": "2026-11-25T17:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Ranchada Cultural también piensa en los más chicos. Casa Luján abre su programación con «Impro para niñas y niños» , a cargo del dúo La Morrigan , el miércoles 25 de noviembre a las 17 h, en Saavedra 74. La propuesta está pensada para chicos de 6 a 12 años y la entrada es a la gorra. Una historia que se arma con los chicos La Morrigan es un dúo de improvisación actoral y musical integrado por Valentina Ooo (actriz) y Pablo «Chino» Vega (músico). En esta versión para niñas y niños, la actriz construye la historia de un personaje que cuenta sus sueños locos, a partir de lo que los pequeños espectadores relatan sobre sus propios sueños o pesadillas. Como un «Elige tu propia aventura» Cada vez que el personaje principal tiene que tomar una decisión, les pide ayuda a los chicos para que elijan cómo sigue la historia. La música en vivo también se improvisa en el momento, así que cada función es única. En el marco de la Ranchada Cultural Casa Luján participa de la Ranchada Cultural, el movimiento autogestivo de la comunidad teatral tucumana que del 25 al 30 de noviembre busca visibilizar la situación de las salas y grupos independientes. Entrada libre, salida a la gorra: llevá a los chicos y dejá que la imaginación mande. Resumen Propuesta: Impro para niñas y niños, por La Morrigan Elenco: Valentina Ooo (actriz) y Chino Vega (músico) Fecha: miércoles 25 de noviembre Hora: 17 h Lugar: Casa Luján, Saavedra 74, San Miguel de Tucumán Edad: chicos de 6 a 12 años Entrada: libre, salida a la gorra Fuente: Casa Luján Teatro (Instagram @casalujan.teatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/casalujan-s2.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Luján Centro Cultural Alternativo",
+    "address": "Saavedra 74, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Luj%C3%A1n+Centro+Cultural+Alternativo%2C+Saavedra+74%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-25",
+        "time_start": "17:00",
+        "time_end": "",
+        "start_datetime": "2026-11-25T17:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-25",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El dúo La Morrigan presenta su espectáculo de improvisación actoral y musical para niñas y niños de 6 a 12 años, donde el público elige el rumbo de la historia. La cita es el miércoles 25 de noviembre a las 17 h en Casa Luján, ubicado en Saavedra 74, San Miguel de Tucumán. La entrada es libre con salida a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "f6144ac59a101a9d00213422ba0bb8a79cb965bb65eaddef8029795786cb8c9b"
+  },
+  {
+    "id": "47666",
+    "source": "MEC",
+    "title": "25 de Noviembre | La Colorida abre la Ranchada Cultural con el ensayo abierto de «La vida sigue igual»",
+    "url": "https://agendatucuman.com.ar/eventos/25-de-noviembre-la-colorida-abre-la-ranchada-cultural-con-el-ensayo-abierto-de-la-vida-sigue-igual/",
+    "date_start": "2026-11-25",
+    "date_end": "2026-11-25",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-25T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Ranchada Cultural arranca en La Colorida Teatro con una propuesta especial: el ensayo abierto de «La vida sigue igual» , este miércoles 25 de noviembre a las 21 h, en Mendoza 2955, San Miguel de Tucumán. La entrada es a la gorra. Un ensayo abierto para ver la obra en proceso La función permite asomarse al trabajo en construcción de «La vida sigue igual», con las actuaciones de Betina Bendezú y Nerina Dip , bajo la dirección de Máximo Gómez . Una oportunidad distinta para el público teatral: ver cómo se arma una obra antes de su estreno y compartir la experiencia con quienes la hacen. La Ranchada Cultural, del 25 al 30 de noviembre La Ranchada Cultural es un movimiento autogestivo de artistas, trabajadores de la cultura y espacios independientes de Tucumán, que del 25 al 30 de noviembre llena las salas con funciones a la gorra para visibilizar la situación del teatro independiente y reclamar el cumplimiento de las leyes que lo protegen. La Colorida suma una programación completa durante toda la semana. Reservá con tiempo La entrada es a la gorra, y desde la sala recomiendan reservar el lugar con anticipación. Si te gusta el teatro independiente, esta es una linda manera de empezar la semana de la Ranchada y bancar a los artistas tucumanos. ¡No te lo pierdas! Resumen Propuesta: Ensayo abierto de «La vida sigue igual» Actúan: Betina Bendezú y Nerina Dip Dirección: Máximo Gómez Fecha: miércoles 25 de noviembre Hora: 21 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra (con reserva) Marco: Ranchada Cultural 2026 Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s3.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-25",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-25T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-25",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Colorida Teatro inaugura la Ranchada Cultural con el ensayo abierto de la obra «La vida sigue igual», dirigida por Máximo Gómez e interpretada por Betina Bendez ú y Nerina Dip. La cita es el miércoles 25 de noviembre a las 21 h en Mendoza 2955, San Miguel de Tucumán. La entrada es a la gorra y se recomienda reservar con anticipación.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "bb67143e945ad33c3373adb05a609a55fca8f234d38a138e2f58edb3d59bda87"
+  },
+  {
+    "id": "47667",
+    "source": "MEC",
+    "title": "26 de Noviembre | El teatro comunitario llega a La Colorida con «El ingenio San José»",
+    "url": "https://agendatucuman.com.ar/eventos/26-de-noviembre-el-teatro-comunitario-llega-a-la-colorida-con-el-ingenio-san-jose/",
+    "date_start": "2026-11-26",
+    "date_end": "2026-11-26",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-26T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "La memoria de los ingenios tucumanos sube al escenario de La Colorida Teatro con «El ingenio San José» , una obra de teatro comunitario semimontado que se presenta el jueves 26 de noviembre a las 20 h, en Mendoza 2955, como parte de la programación de la Ranchada Cultural . Una creación colectiva con dirección de Alejandra Muntaner La obra parte de un texto de creación colectiva y cuenta con la dirección de Alejandra Muntaner . Se trata de una propuesta de teatro comunitario, donde vecinos y vecinas se suben al escenario para contar, desde su propia mirada, una historia profundamente ligada a la identidad tucumana. Parte de la Ranchada Cultural La función forma parte de la Ranchada Cultural, el movimiento autogestivo que del 25 al 30 de noviembre reúne a artistas y espacios independientes de Tucumán para visibilizar la realidad del teatro independiente. En La Colorida, la programación de esa semana es a la gorra. Un plan con mucha identidad Si te interesa el teatro que nace de la comunidad y las historias de nuestra tierra, el jueves tenés una cita en La Colorida. Reservá tu lugar con tiempo y acompañá esta propuesta colectiva. Resumen Obra: «El ingenio San José» (teatro comunitario semimontado) Texto: creación colectiva Dirección: Alejandra Muntaner Fecha: jueves 26 de noviembre Hora: 20 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra Marco: Ranchada Cultural 2026 Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s4.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-26",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-26T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-26",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfrutá de «El ingenio San José», una obra de teatro comunitario semimontado que rescata la memoria de los ingenios tucumanos. La función será el jueves 26 de noviembre a las 20 h en La Colorida Teatro, ubicado en Mendoza 2955, San Miguel de Tucumán. Esta propuesta forma parte de la Ranchada Cultural y la entrada es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "80231575ecc211512a0e98736eb4e7222d7e44b2ed2ae1a20f3ef53187901526"
+  },
+  {
+    "id": "47668",
+    "source": "MEC",
+    "title": "26 de Noviembre | «Nada» se presenta a la gorra en La Colorida dentro de la Ranchada Cultural",
+    "url": "https://agendatucuman.com.ar/eventos/26-de-noviembre-nada-se-presenta-a-la-gorra-en-la-colorida-dentro-de-la-ranchada-cultural/",
+    "date_start": "2026-11-26",
+    "date_end": "2026-11-26",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-26T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El jueves de la Ranchada Cultural tiene doble función en La Colorida Teatro . Después de «El ingenio San José», a las 21 h llega «Nada» , una obra que se presenta el jueves 26 de noviembre en la sala de Mendoza 2955, con función a la gorra. Una noche de teatro independiente «Nada» forma parte de la grilla que La Colorida preparó para la semana de la Ranchada, con funciones todos los días del miércoles 25 al domingo 29 de noviembre. La propuesta invita a acercarse a la escena independiente tucumana y a sostenerla con la presencia del público. Qué es la Ranchada Cultural La Ranchada Cultural es un movimiento autogestivo de artistas y espacios independientes de Tucumán que, del 25 al 30 de noviembre, organiza funciones, muestras y encuentros para visibilizar la situación de las salas y grupos de teatro independiente. La consigna que se repite en cada flyer es clara: lo que el gobierno ignora, la comunidad sostiene. Acompañá la función Si ya tenés plan para el jueves a la noche, sumá esta función: la entrada es a la gorra y cada aporte ayuda a que el teatro independiente siga vivo. ¡Te esperan en La Colorida! Resumen Obra: «Nada» Fecha: jueves 26 de noviembre Hora: 21 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: función a la gorra Marco: Ranchada Cultural 2026 Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s5.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "funciones, muestras y encuentros para visibilizar la situación de las salas y grupos de teatro independiente",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-26",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-26T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-26",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El jueves 26 de noviembre a las 21 h se presenta la obra de teatro independiente «Nada» en La Colorida Teatro, ubicado en Mendoza 2955, San Miguel de Tucumán. Esta función forma parte de la programación de la Ranchada Cultural y la entrada es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "38e34ba65d4a962b50ae1a8e6b0723be992762fc4ac3e6182e06cbfbb39267dc"
+  },
+  {
+    "id": "47675",
+    "source": "MEC",
+    "title": "26 de Noviembre | «Poly, si el loro se viste de seda» vuelve a Casa Luján con función a la gorra",
+    "url": "https://agendatucuman.com.ar/eventos/26-de-noviembre-poly-si-el-loro-se-viste-de-seda-vuelve-a-casa-lujan-con-funcion-a-la-gorra/",
+    "date_start": "2026-11-26",
+    "date_end": "2026-11-26",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-26T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El jueves 26 de noviembre a las 21 h, Casa Luján presenta «Poly, si el loro se viste de seda» , el unipersonal escrito e interpretado por Huerto Bravo Yñigo , como parte de su programación en la Ranchada Cultural . La función es en Saavedra 74, con entrada libre y salida a la gorra. Los recuerdos de una mascota Este acontecimiento teatral se centra en los recuerdos de una mascota, «el Poly». Con un diseño cuidado, la actriz atraviesa esos recuerdos para emocionar y cautivar, explorando el duelo, lo familiar, la pérdida, el amor incondicional y la compañía. Huerto plantea un viaje no lineal por su propio mapa emocional, donde la lealtad y los recuerdos no se borran con el tiempo. Ficha artística La dirección es de César Romero . El diseño y la creación de dispositivos escénicos son de Víctor Bravo, César Romero y Huerto Bravo Yñigo; el vestuario, de Olga Sánchez; el maquillaje y peinado, de Ana Quinteros; y la fotografía, video y edición, de Matías Chilo. Es una producción de Bajo Poncho Teatro y Casa Luján Productora Teatral. Una función para no perderse En el marco de la Ranchada Cultural, el movimiento autogestivo de la comunidad teatral tucumana, la función es a la gorra. Si todavía no la viste, esta es una gran oportunidad para conocer una de las propuestas independientes del año. Resumen Obra: «Poly, si el loro se viste de seda» Autoría e interpretación: Huerto Bravo Yñigo Dirección: César Romero Fecha: jueves 26 de noviembre Hora: 21 h Lugar: Casa Luján, Saavedra 74, San Miguel de Tucumán Entrada: libre, salida a la gorra Marco: Ranchada Cultural 2026 Fuente: Casa Luján Teatro (Instagram @casalujan.teatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/casalujan-s3.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Luján Centro Cultural Alternativo",
+    "address": "Saavedra 74, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Luj%C3%A1n+Centro+Cultural+Alternativo%2C+Saavedra+74%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-26",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-26T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-26",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El jueves 26 de noviembre a las 21 h se presenta el unipersonal teatral «Poly, si el loro se viste de seda», interpretado por Huerto Bravo Yñigo y dirigido por César Romero. La función se realiza en Casa Luján Centro Cultural Alternativo, ubicado en Saavedra 74, San Miguel de Tucumán. La entrada es libre y la salida es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "9c4d2be8b93eb4a18c5724a1755576ae6d77839c671b0686dc725eda5e381a37"
+  },
+  {
+    "id": "47669",
+    "source": "MEC",
+    "title": "27 de Noviembre | Eze Benítez presenta «El Seguidor» en La Colorida, una obra sobre memorias y ausencias",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-eze-benitez-presenta-el-seguidor-en-la-colorida-una-obra-sobre-memorias-y-ausencias/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-27T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "¿Seguir a alguien? ¿Seguir una huella? ¿Seguir buscando cuando parece que todo terminó? Con esas preguntas se presenta «El Seguidor» , la obra que protagoniza Eze Benítez y que llega a La Colorida Teatro el viernes 27 de noviembre a las 20:30 h, en el marco de la Ranchada Cultural . Historias que no se pueden abandonar La obra habla de memorias que no se pueden dejar atrás y de ausencias que siguen reclamando nuestra presencia. La actuación es de Eze Benítez , con dirección de Lucas Acevedo y dramaturgia de ambos. En la semana de la Ranchada Cultural La función integra la programación de La Colorida para la Ranchada Cultural, el movimiento autogestivo de artistas y espacios independientes que del 25 al 30 de noviembre llena las salas tucumanas de propuestas a la gorra, bajo la consigna «lo que el gobierno ignora, la comunidad sostiene». Reservá tu lugar La entrada es a la gorra consciente y las reservas se hacen al 3816865862. Un plan ideal para arrancar el fin de semana con teatro independiente y una historia que interpela. ¡No te la pierdas! Resumen Obra: «El Seguidor» Actuación: Eze Benítez Dirección: Lucas Acevedo Dramaturgia: Eze Benítez y Lucas Acevedo Fecha: viernes 27 de noviembre Hora: 20:30 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra consciente Reservas: 3816865862 Fuentes: La Colorida Teatro (Instagram @lacoloridateatro) y publicación de Lucas Acevedo.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s6.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3816865862"
+    ],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-27T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Eze Benítez presenta la obra teatral El Seguidor en La Colorida Teatro, ubicada en Mendoza 2955, San Miguel de Tucumán. La función será el viernes 27 de noviembre a las 20:30 h, en el marco de la Ranchada Cultural. La entrada es a la gorra consciente y se pueden hacer reservas al 3816865862.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "97ed5bd7a1c247594452457e70466eeba8182b8d99b6911ef46c9976241c9649"
+  },
+  {
+    "id": "47670",
+    "source": "MEC",
+    "title": "27 de Noviembre | «Barrio Viajantes, una infancia en los 90» llega a La Colorida con función a la gorra",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-barrio-viajantes-una-infancia-en-los-90-llega-a-la-colorida-con-funcion-a-la-gorra/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "21:30",
+    "time_end": "",
+    "start_datetime": "2026-11-27T21:30:00-03:00",
+    "end_datetime": "",
+    "description": "Los años 90, el barrio y la infancia son el punto de partida de «Barrio Viajantes, una infancia en los 90» , la obra de Pedro Noli dirigida por Jo Medina que se presenta el viernes 27 de noviembre a las 21:30 h en La Colorida Teatro , Mendoza 2955. Una obra de Pedro Noli con dirección de Jo Medina La propuesta invita a viajar a una época que muchos tucumanos recuerdan con cariño, desde la mirada de una infancia de barrio. Es la segunda función de la noche del viernes en La Colorida, que esa jornada también presenta «El Seguidor» a las 20:30 h. En el marco de la Ranchada Cultural La función es parte de la Ranchada Cultural, el movimiento autogestivo que del 25 al 30 de noviembre reúne a más de 20 espacios independientes de Tucumán con propuestas a la gorra, para visibilizar la situación del teatro independiente en la provincia. Entrada a la gorra La entrada es a la gorra y las reservas se hacen por mensaje privado a las redes de la sala. Si te criaste en los 90 o querés conocer cómo era esa época, este viernes tenés una cita imperdible en La Colorida. Resumen Obra: «Barrio Viajantes, una infancia en los 90» Autor: Pedro Noli Dirección: Jo Medina Fecha: viernes 27 de noviembre Hora: 21:30 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra (reservas por mensaje privado) Marco: Ranchada Cultural 2026 Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s7.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "21:30",
+        "time_end": "",
+        "start_datetime": "2026-11-27T21:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La obra teatral Barrio Viajantes, una infancia en los 90, escrita por Pedro Noli y dirigida por Jo Medina, propone un recorrido nostálgico por la infancia barrial de esa década. La función se realizará el viernes 27 de noviembre a las 21:30 h en La Colorida Teatro, ubicado en Mendoza 2955, San Miguel de Tucumán.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "3cc2c5309d53236859d7b51522d3b1b925081d762958e2a7722d6020591a15f2"
+  },
+  {
+    "id": "47676",
+    "source": "MEC",
+    "title": "27 de Noviembre | Casa Luján presenta «Lo que queda», una creación colectiva sobre la memoria y lo que nos construye",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-casa-lujan-presenta-lo-que-queda-una-creacion-colectiva-sobre-la-memoria-y-lo-que-nos-construye/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El viernes 27 de noviembre a las 22 h, Casa Luján presenta «Lo que queda» , una obra de creación colectiva , como parte de su programación en la Ranchada Cultural . La función es en Saavedra 74, con entrada libre y salida a la gorra. Desempolvar las memorias La asfixia de la cotidianidad, el recuerdo de los tiempos felices y los momentos trágicos vividos nos retienen, queriendo regresar a esas memorias donde todo parecía mejor. La obra habla de lo íntimo y, a la vez, de lo que nos ha construido: de cómo y con quiénes crecimos. Entre risas, llantos e incertidumbres, los personajes desempolvan sus recuerdos para ver lo que queda. En escena Actúan César Romero , Matías Chilo y Ana Silvia Quinteros , con dirección teatral de Casa Luján Teatro. La asistencia y el equipo técnico están a cargo de Huerto Bravo Yñigo, y el diseño gráfico y audiovisual, de Matías Chilo. Teatro independiente a la gorra Casa Luján participa de la Ranchada Cultural, el movimiento autogestivo de la comunidad teatral tucumana que del 25 al 30 de noviembre reclama por el cumplimiento de las leyes que afectan a las salas y grupos independientes. Acercate el viernes a la noche y acompañá esta propuesta. Resumen Obra: «Lo que queda» (creación colectiva) Elenco: César Romero, Matías Chilo y Ana Silvia Quinteros Fecha: viernes 27 de noviembre Hora: 22 h Lugar: Casa Luján, Saavedra 74, San Miguel de Tucumán Entrada: libre, salida a la gorra Marco: Ranchada Cultural 2026 Fuente: Casa Luján Teatro (Instagram @casalujan.teatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/casalujan-s4.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Luján Centro Cultural Alternativo",
+    "address": "Saavedra 74, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Luj%C3%A1n+Centro+Cultural+Alternativo%2C+Saavedra+74%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre a las 22 h, Casa Luján Centro Cultural Alternativo (Saavedra 74, San Miguel de Tucumán) presenta la obra de creación colectiva Lo que queda. La función forma parte de la Ranchada Cultural y aborda la memoria, los recuerdos y la identidad a través de la actuación de César Romero, Matías Chilo y Ana Silvia Quinteros. La entrada es libre con salida a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "fde168039f5bae18d5d7a1e3c939533b1236b0e94a12b1885b8eff0465419e57"
+  },
+  {
+    "id": "47683",
+    "source": "MEC",
+    "title": "27 de Noviembre | Jerónimo Verdún llega a La Gesta Cultural con su fusión de rock, jazz y funk",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-jeronimo-verdun-llega-a-la-gesta-cultural-con-su-fusion-de-rock-jazz-y-funk/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El viernes 27 de noviembre a las 22 h, La Gesta Cultural recibe a Jerónimo Verdún , cantante, compositor y multiinstrumentista bonaerense, para una noche a pura música en vivo en Av. Alem 747, San Miguel de Tucumán. Un músico con recorrido Jerónimo Verdún es reconocido por liderar proyectos como Raíz Árbol y por haber compartido escenario con grandes referentes como Fito Páez , Machi Rufino y Javier Malosetti . Llega a Tucumán con su fusión única de rock, jazz, funk y canción de autor. Una noche en La Gesta La Gesta Cultural, el espacio cooperativo de calle Alem que combina gastronomía, arte y comunidad, será el escenario de esta presentación. Un plan ideal para arrancar el fin de semana con buena música. Entradas Las entradas están disponibles a través de Passline. ¡No te lo pierdas y vení a compartir una noche de música en vivo! Resumen Artista: Jerónimo Verdún Fecha: viernes 27 de noviembre Hora: 22 h Lugar: La Gesta Cultural, Av. Alem 747, San Miguel de Tucumán Entradas: por Passline Fuente: La Gesta Cultural (Instagram @lagestacultural).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/jeronimo-verdun-la-gesta.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Gesta Cultural",
+    "address": "Av. Alem 747, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural%2C+Av.+Alem+747%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El músico Jerónimo Verdún se presentará el viernes 27 de noviembre a las 22 h en La Gesta Cultural, ubicada en Av. Alem 747, San Miguel de Tucumán. El artista ofrecerá un show de fusión de rock, jazz, funk y canción de autor. Las entradas se consiguen a través de Passline.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "ca9146a4c7751c15ccd88ea3d145a3a2220872ffafb7ec068c59d27e2c811d65"
+  },
+  {
+    "id": "47685",
+    "source": "MEC",
+    "title": "27 de Noviembre | La Taberna de Saturno se suma a la Ranchada Cultural con El Tango Me Dijo Loca Mía, Yunguera y Palmito Wey",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-la-taberna-de-saturno-se-suma-a-la-ranchada-cultural-con-el-tango-me-dijo-loca-mia-yunguera-y-palmito-wey/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Ranchada Cultural llega a Yerba Buena. El viernes 27 de noviembre, La Taberna de Saturno propone una noche de música, arte y cultura independiente con tres propuestas en vivo y entrada a la gorra. La grilla de la noche La noche arranca a las 22 h con El Tango Me Dijo Loca Mía ; a las 23 h sigue Yunguera , y a la medianoche cierra Palmito Wey . Tres estilos distintos para disfrutar de punta a punta en uno de los espacios culturales más queridos de Yerba Buena. Un homenaje al Día Nacional del Teatro La jornada se enmarca en el homenaje al Día Nacional del Teatro y en la Ranchada Cultural, que del 25 al 30 de noviembre reúne a más de 20 espacios independientes de Tucumán bajo una misma consigna: lo que el gobierno ignora, la comunidad sostiene. Vení a bancar la cultura independiente La entrada es a la gorra. Si buscás un plan para el viernes a la noche con música en vivo, la Taberna te espera para compartir y acompañar a los artistas locales. Resumen Evento: Ranchada Cultural en La Taberna de Saturno Grilla: 22 h El Tango Me Dijo Loca Mía; 23 h Yunguera; 0 h Palmito Wey Fecha: viernes 27 de noviembre Lugar: La Taberna de Saturno, Chacho Peñaloza y Pringles, Yerba Buena Entrada: a la gorra Fuente: La Taberna de Saturno (Instagram @latabernadesaturno).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ranchada-taberna-de-saturno-viernes.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Taberna de Saturno",
+    "address": "Chacho Peñaloza y Pringles, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Taberna+de+Saturno%2C+Chacho+Pe%C3%B1aloza+y+Pringles%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre , La Taberna de Saturno, ubicada en Chacho Peñaloza y Pringles en Yerba Buena, se suma a la Ranchada Cultural con música en vivo desde las 22 h. Se presentarán El Tango Me Dijo Loca Mía, Yunguera y Palmito Wey. La entrada es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c7319a1a799332e39ca2dac4c3b3d632e06c77f1f158d697c3154a8ac38feb4d"
+  },
+  {
+    "id": "47686",
+    "source": "MEC",
+    "title": "28 de Noviembre | Circo, clown y música: la Ranchada Cultural copa La Taberna de Saturno en Yerba Buena",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-circo-clown-y-musica-la-ranchada-cultural-copa-la-taberna-de-saturno-en-yerba-buena/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "El sábado 28 de noviembre, La Taberna de Saturno vuelve a abrir sus puertas a la Ranchada Cultural con una jornada de arte, música, circo y clown junto a artistas y espacios culturales independientes de Tucumán. Desde las 19 h, en Chacho Peñaloza y Pringles, Yerba Buena, con entrada a la gorra. La programación La tarde arranca a las 19 h con Mariposa Naty Díaz (circo). A las 19:40 siguen Los Ensayistas (música); a las 20:15 llega La Valija (clown); a las 21 h toca Nico Malacresta , y a las 21:30 cierra Polaroid . La conducción está a cargo de El Comadreja y la jornada cuenta con la participación de Qoqi Méndez . Más de 20 espacios independientes La Ranchada Cultural reúne a más de 20 espacios independientes en una semana, del 25 al 30 de noviembre, para celebrar y sostener la cultura autogestiva. «Porque lo que el gobierno ignora, la comunidad sostiene», es la consigna que acompaña cada actividad. Un plan para toda la familia Con propuestas de circo y clown en el arranque y música en vivo después, es un buen plan para ir con chicos o con amigos. La entrada es a la gorra: ¡vení a compartir y a bancar el arte independiente! Resumen Evento: Ranchada Cultural en La Taberna de Saturno Fecha: sábado 28 de noviembre Programación: 19 h Mariposa Naty Díaz (circo); 19:40 h Los Ensayistas (música); 20:15 h La Valija (clown); 21 h Nico Malacresta (música); 21:30 h Polaroid (música) Conduce: El Comadreja Lugar: La Taberna de Saturno, Chacho Peñaloza y Pringles, Yerba Buena Entrada: a la gorra Fuente: La Taberna de Saturno (Instagram @latabernadesaturno).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ranchada-taberna-de-saturno-sabado.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Taberna de Saturno",
+    "address": "Chacho Peñaloza y Pringles, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Taberna+de+Saturno%2C+Chacho+Pe%C3%B1aloza+y+Pringles%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "La Ranchada Cultural llega a La Taberna de Saturno con una jornada familiar de circo, clown y música en vivo de artistas independientes. El evento se realiza el sábado 28 de noviembre desde las 19 h en Chacho Peñaloza y Pringles, Yerba Buena. La entrada es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "564c46c469a91759ca7566ac2c9e82063d097dd1ab95fc16a4cfaae01b883d7a"
+  },
+  {
+    "id": "47671",
+    "source": "MEC",
+    "title": "28 de Noviembre | «Las olorosas aventuras de William Calderón», un plan teatral para toda la familia en La Colorida",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-las-olorosas-aventuras-de-william-calderon-un-plan-teatral-para-toda-la-familia-en-la-colorida/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "19:30",
+    "time_end": "",
+    "start_datetime": "2026-11-28T19:30:00-03:00",
+    "end_datetime": "",
+    "description": "El sábado de la Ranchada Cultural arranca en familia en La Colorida Teatro con «Las olorosas aventuras de William Calderón» , un espectáculo pensado para grandes y chicos que se presenta el sábado 28 de noviembre a las 19:30 h, en Mendoza 2955. Un espectáculo para toda la familia En escena están Lucas Acevedo y Lucas Ferrán Gómez , con vestuario y espacio escénico de Patricia Mariscal y dirección de Máximo Gómez . Una propuesta de humor y aventuras para compartir con los más chicos en el comienzo de la noche del sábado. Parte de la Ranchada Cultural La función integra la grilla de La Colorida para la Ranchada Cultural, el movimiento autogestivo de artistas y espacios independientes de Tucumán que del 25 al 30 de noviembre propone funciones a la gorra en distintas salas de la provincia. Reservá tu lugar La entrada es a la gorra y se puede reservar por WhatsApp al 3815754143. Llevá a los chicos y disfrutá de una tarde-noche de teatro en familia. ¡Los esperan! Resumen Obra: «Las olorosas aventuras de William Calderón» Actuaciones: Lucas Acevedo y Lucas Ferrán Gómez Vestuario y espacio escénico: Patricia Mariscal Dirección: Máximo Gómez Fecha: sábado 28 de noviembre Hora: 19:30 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra (reservas por WhatsApp al 3815754143) Público: toda la familia Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s8.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3815754143"
+    ],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "19:30",
+        "time_end": "",
+        "start_datetime": "2026-11-28T19:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "19:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfruta en familia de Las olorosas aventuras de William Calderón, una obra de humor y teatro infantil parte de la Ranchada Cultural. La función será el sábado 28 de noviembre a las 19:30 h en La Colorida Teatro, ubicado en Mendoza 2955, San Miguel de Tucumán. La entrada es a la gorra y se requiere reserva previa por WhatsApp al 3815754143.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "402e8775eb9cfd7a918dfed7a4a39c1edd1803c643d8e161632a0c1f23658a62"
+  },
+  {
+    "id": "47680",
+    "source": "MEC",
+    "title": "28 de Noviembre | Jorge Figueroa expone «Chimeneas», una mirada artística y política sobre los ingenios tucumanos",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-jorge-figueroa-expone-chimeneas-una-mirada-artistica-y-politica-sobre-los-ingenios-tucumanos/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "20:00",
+    "time_end": "23:00",
+    "start_datetime": "2026-11-28T20:00:00-03:00",
+    "end_datetime": "2026-11-28T23:00:00-03:00",
+    "description": "Las chimeneas de los ingenios, esos «obeliscos de la industria» que marcan el paisaje tucumano, son las protagonistas de «Chimeneas» , la propuesta de Jorge Figueroa que se presenta el sábado 28 de noviembre de 20 a 23 h en el Teatro Puerto Libertad , Las Piedras 1850, en el marco de la Ranchada Cultural . Videoperformance, fotoperformance y fotografías La exposición reúne imágenes de chimeneas de tres ingenios, una videoperformance, fotoperformance y fotografías que dan cuenta de su carácter político y artístico. Figueroa trabajó en diferentes chimeneas de ingenios, e incluso en la de la cerámica Mata, explorando el adentro y el afuera, el centro y el margen. Memoria de una provincia El trabajo comenzó hace años por un interés en las formas, las columnas, el arte y la arquitectura, y luego se cruzó con la nostalgia por la llamada modernidad perdida: la prosperidad que concluyó con el cierre de 11 ingenios en la provincia entre 1966 y 1968, una decisión de la dictadura de Juan Carlos Onganía que por estos días cumple 60 años. Una cita con el arte contemporáneo Si te interesan la fotografía, la performance y la historia tucumana, acercate el sábado a Puerto Libertad y recorré esta muestra que dialoga con nuestra identidad. Resumen Propuesta: «Chimeneas», de Jorge Figueroa (videoperformance, fotoperformance y fotografías) Fecha: sábado 28 de noviembre Horario: de 20 a 23 h Lugar: Teatro Puerto Libertad, Las Piedras 1850, San Miguel de Tucumán Marco: Ranchada Cultural 2026 Fuente: Teatro Puerto Libertad (Instagram @teatropuertolibertad_).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/chimeneas-jorge-figueroa.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Puerto Cultural Libertad",
+    "address": "Las Piedras 1850",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Puerto+Cultural+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "20:00",
+        "time_end": "23:00",
+        "start_datetime": "2026-11-28T20:00:00-03:00",
+        "end_datetime": "2026-11-28T23:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre, de 20 a 23 h, se presenta Chimeneas, la exposición de Jorge Figueroa que incluye videoperformance, fotoperformance y fotografías sobre los ingenios tucumanos. La cita es en el Teatro Puerto Libertad, ubicado en Las Piedras 1850, en el marco de la Ranchada Cultural.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6a20a9534bd5149c50dec0acf33e7e583ffa4cda856127658b7f2938c663e787"
+  },
+  {
+    "id": "47682",
+    "source": "MEC",
+    "title": "28 de Noviembre | «Ese Palomo Herido» lleva la poesía de Lorca y la música en vivo a El Atelier",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-ese-palomo-herido-lleva-la-poesia-de-lorca-y-la-musica-en-vivo-a-el-atelier/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "20:30",
+    "time_end": "",
+    "start_datetime": "2026-11-28T20:30:00-03:00",
+    "end_datetime": "",
+    "description": "La poesía de Federico García Lorca se hace teatro en «Ese Palomo Herido» , la obra de Rafael Nofal que se presenta el sábado 28 de noviembre a las 20:30 h en El Atelier Espacio Cultural , Av. Mate de Luna 2930, como parte de la Ranchada Cultural 2026 . Una actriz entre la poesía y las anécdotas En escena, una actriz entra y sale de la poesía lorquiana a través de diversas anécdotas, acompañada por música en vivo. Una propuesta íntima que recorre los textos del poeta granadino desde la emoción y el humor de lo cotidiano. Un homenaje con sello tucumano La obra lleva la firma de Rafael Nofal, uno de los nombres más queridos del teatro tucumano, y se suma a la grilla de la Ranchada Cultural, el movimiento autogestivo de artistas y espacios independientes que del 25 al 30 de noviembre propone funciones a la gorra en toda la provincia. Espectáculo a la gorra La función es a la gorra. Si te gusta la poesía, el teatro y la música en vivo, el sábado tenés una cita en El Atelier. ¡Te esperan! Resumen Obra: «Ese Palomo Herido», de Rafael Nofal, con textos de Federico García Lorca Fecha: sábado 28 de noviembre Hora: 20:30 h Lugar: El Atelier Espacio Cultural, Av. Mate de Luna 2930, San Miguel de Tucumán Entrada: a la gorra Marco: Ranchada Cultural 2026 Fuente: El Atelier Espacio Cultural (Instagram @elatelierespaciocultural).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ese-palomo-herido-el-atelier.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "El Atelier Espacio Cultural",
+    "address": "Av. Mate de Luna 2930, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=El+Atelier+Espacio+Cultural%2C+Av.+Mate+de+Luna+2930%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "20:30",
+        "time_end": "",
+        "start_datetime": "2026-11-28T20:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "20:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre a las 20:30 h se presenta «Ese Palomo Herido», la obra de Rafael Nofal basada en la poesía de Federico García Lorca con música en vivo. La función se realiza en El Atelier Espacio Cultural, ubicado en Av. Mate de Luna 2930, en el marco de la Ranchada Cultural 2026. La entrada es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "f0c5f9486a47ca3b8ba3e351174da6df2e2b939a5dbe9281accf576a93c78073"
+  },
+  {
+    "id": "47679",
+    "source": "MEC",
+    "title": "28 de Noviembre | Malamba y Kimsa Juy comparten escenario en el Teatro Puerto Libertad",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-malamba-y-kimsa-juy-comparten-escenario-en-el-teatro-puerto-libertad/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La música también es parte de la Ranchada Cultural . El sábado 28 de noviembre a las 21 h, el Teatro Puerto Libertad recibe a Malamba y Kimsa Juy en una noche compartida, en Las Piedras 1850, San Miguel de Tucumán. Dos propuestas en una misma noche Malamba y Kimsa Juy se suben al mismo escenario para una velada musical dentro de la programación de la Ranchada Cultural, que durante esa semana llena de actividades a los espacios independientes de la provincia. La Ranchada Cultural La Ranchada Cultural es un movimiento autogestivo de artistas, trabajadores de la cultura y espacios independientes de Tucumán que, del 25 al 30 de noviembre, organiza funciones, recitales y muestras para visibilizar la importancia del trabajo cultural independiente. Puerto Libertad suma varias propuestas a la grilla de ese sábado. Entrada libre y a la gorra La entrada es libre y a la gorra. Si buscás un plan musical para el sábado a la noche, acercate a Puerto Libertad y disfrutá de estas dos propuestas en vivo. Resumen Artistas: Malamba y Kimsa Juy Fecha: sábado 28 de noviembre Hora: 21 h Lugar: Teatro Puerto Libertad, Las Piedras 1850, San Miguel de Tucumán Entrada: libre y a la gorra Marco: Ranchada Cultural 2026 Fuente: Teatro Puerto Libertad (Instagram @teatropuertolibertad_).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/malamba-kimsa-juy-puerto-libertad.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Puerto Cultural Libertad",
+    "address": "Las Piedras 1850",
+    "city": "San Miguel de Tucumán",
+    "organizer": "funciones, recitales y muestras para visibilizar la importancia del trabajo cultural independiente",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Puerto+Cultural+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Malamba y Kimsa Juy se presentan en vivo en el marco de la Ranchada Cultural. La cita es el sábado 28 de noviembre a las 21 h en el Teatro Puerto Libertad, ubicado en Las Piedras 1850, San Miguel de Tucumán. La entrada es libre y a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "22a5afe0e1731d268548133cebe588ed6e63d29f412d2c254997b686fa7d7ade"
+  },
+  {
+    "id": "47684",
+    "source": "MEC",
+    "title": "28 de Noviembre | «El Día del Enemigo»: Ayahuasca, Brahmans y Carola Mabel ponen rock a La Gesta Cultural",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-el-dia-del-enemigo-ayahuasca-brahmans-y-carola-mabel-ponen-rock-a-la-gesta-cultural/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El rock tucumano tiene una cita el sábado 28 de noviembre a las 21 h en La Gesta Cultural , Av. Alem 747. Bajo el nombre de «El Día del Enemigo» , Ayahuasca , Brahmans y Carola Mabel comparten una noche de canciones nuevas y algunas viejas. Tres bandas, una sola noche Ayahuasca promete un repertorio que mezcla canciones nuevas con algunas de siempre, y para Brahmans será la última fecha de 2026 en Tucumán. Completa la grilla Carola Mabel, que se suma a la invitación para compartir escenario con las otras dos bandas. Rock en La Gesta La Gesta Cultural, el espacio cooperativo de calle Alem que combina arte, gastronomía y comunidad, vuelve a abrir sus puertas a la escena local para una noche de rock en vivo. Entradas anticipadas Las entradas anticipadas cuestan $15.000 con consumición y se consiguen en La Rockería, en Norteticket o por mensaje privado a las bandas. Si sos de los que no se pierden una fecha del rock tucumano, agendá este sábado. Resumen Evento: El Día del Enemigo Bandas: Ayahuasca, Brahmans y Carola Mabel Fecha: sábado 28 de noviembre Hora: 21 h Lugar: La Gesta Cultural, Av. Alem 747, San Miguel de Tucumán Entradas: anticipadas $15.000 con consumición (La Rockería, Norteticket y por mensaje privado) Fuentes: La Gesta Cultural (Instagram @lagestacultural) y publicaciones de Ayahuasca y Brahmans.",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/dia-del-enemigo-ayahuasca-brahmans-carola-mabel.jpg",
+    "price": 15000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "La Gesta Cultural",
+    "address": "Av. Alem 747, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Gesta+Cultural%2C+Av.+Alem+747%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre a las 21 h, La Gesta Cultural (Av. Alem 747, San Miguel de Tucumán) recibe el festival de rock «El Día del Enemigo» con las bandas Ayahuasca, Brahmans y Carola Mabel. Las entradas anticipadas cuestan $15.000 con consumición e incluyen la última fecha del año en la provincia para Brahmans. Se consiguen en La Rockería, Norteticket o por mensaje privado a los grupos.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "74d8e85095185397d7b480452f756858b404a0f00460c7415b492fcb747f446d"
+  },
+  {
+    "id": "47677",
+    "source": "MEC",
+    "title": "28 de Noviembre | «Leyendas del Viejo Timbó», una obra para todo público en Casa Luján",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-leyendas-del-viejo-timbo-una-obra-para-todo-publico-en-casa-lujan/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El sábado 28 de noviembre a las 21 h, Casa Luján suma a su cartelera de la Ranchada Cultural la obra «Leyendas del Viejo Timbó» , una propuesta para todo público que se presenta en Saavedra 74 con entrada libre y salida a la gorra. Leyendas para compartir «Leyendas del Viejo Timbó» es una obra apta para todo público, con una duración aproximada de 40 minutos. Una buena opción para ir en familia o con amigos y disfrutar de una noche de teatro independiente en una de las salas más activas de la ciudad. Casa Luján en la Ranchada Cultural Durante la semana del 25 al 29 de noviembre, Casa Luján presenta una función por día en el marco de la Ranchada Cultural, un movimiento autogestivo de la comunidad teatral tucumana que busca visibilizar la situación de las salas y grupos independientes y reclamar el cumplimiento de las leyes vigentes. Entrada libre, salida a la gorra No hace falta comprar entrada: se paga a la gorra, a la salida. Acercate el sábado y sumá tu apoyo al teatro independiente tucumano. Resumen Obra: «Leyendas del Viejo Timbó» Público: todo público (duración aproximada: 40 minutos) Fecha: sábado 28 de noviembre Hora: 21 h Lugar: Casa Luján, Saavedra 74, San Miguel de Tucumán Entrada: libre, salida a la gorra Marco: Ranchada Cultural 2026 Fuente: Casa Luján Teatro (Instagram @casalujan.teatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/casalujan-s5.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Luján Centro Cultural Alternativo",
+    "address": "Saavedra 74, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Luj%C3%A1n+Centro+Cultural+Alternativo%2C+Saavedra+74%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre a las 21 h se presentará la obra apta para todo público «Leyendas del Viejo Timbó» en Casa Luján, ubicada en Saavedra 74, San Miguel de Tucumán. Esta función de 40 minutos forma parte de la Ranchada Cultural y la entrada es libre con salida a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "f9ffbe15967eac3f80f0b33a81e15ee5a6fdc1d64f3dd8e73fbd2dfc01e3e886"
+  },
+  {
     "id": "47595",
     "source": "MEC",
     "title": "Del 20 al 28 de Noviembre | El grupo de teatro de niños del Ente Cultural presenta «La Patria Necesita de estos Locos» en el Teatro Orestes Caviglia",
@@ -521,6 +1709,455 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "42a7fcc173f7f9c6a9d6477d5cd24825daec0e8573c67cde876d79120a849150"
+  },
+  {
+    "id": "47672",
+    "source": "MEC",
+    "title": "28 de Noviembre | «El sueño de los Serbios», de Nicolás Aráoz, cierra el sábado de la Ranchada en La Colorida",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-el-sueno-de-los-serbios-de-nicolas-araoz-cierra-el-sabado-de-la-ranchada-en-la-colorida/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "21:30",
+    "time_end": "",
+    "start_datetime": "2026-11-28T21:30:00-03:00",
+    "end_datetime": "",
+    "description": "La noche del sábado en La Colorida Teatro cierra con «El sueño de los Serbios» , la obra de Nicolás Aráoz que se presenta el sábado 28 de noviembre a las 21:30 h en Mendoza 2955, como parte de la programación de la Ranchada Cultural . Una obra de Nicolás Aráoz La propuesta lleva la firma del dramaturgo tucumano Nicolás Aráoz y llega de la mano de Grupo Tajo . Es la segunda función del sábado en la sala, que ese día abre a las 19:30 h con «Las olorosas aventuras de William Calderón». La Ranchada Cultural, en todas las salas Del 25 al 30 de noviembre, la Ranchada Cultural reúne a artistas, trabajadores de la cultura y espacios independientes de Tucumán en una semana de funciones a la gorra, con el objetivo de visibilizar la situación de las salas y grupos de teatro independiente. Un cierre de sábado con teatro Si buscás una salida distinta para el sábado a la noche, esta función es una gran opción. La entrada es a la gorra: acercate a La Colorida y acompañá al teatro independiente tucumano. Resumen Obra: «El sueño de los Serbios» Autor: Nicolás Aráoz Fecha: sábado 28 de noviembre Hora: 21:30 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra Marco: Ranchada Cultural 2026 Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s9.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "21:30",
+        "time_end": "",
+        "start_datetime": "2026-11-28T21:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "21:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre a las 21:30 h, La Colorida Teatro (Mendoza 2955, San Miguel de Tucumán) presenta la obra «El sueño de los Serbios», escrita por Nicolás Aráoz y realizada por el Grupo Tajo. La función forma parte de la Ranchada Cultural y la entrada es a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "7d94bd56cbd5dbb9d990b4446cffbf1d1f51a3e02edfd3c864b5dea4a520464e"
+  },
+  {
+    "id": "47687",
+    "source": "MEC",
+    "title": "Del 28 al 29 de Noviembre | San Javier recibe el Motocross y Endurocross con fechas del Campeonato NOA y el Tucumano",
+    "url": "https://agendatucuman.com.ar/eventos/del-28-al-29-de-noviembre-san-javier-recibe-el-motocross-y-endurocross-con-fechas-del-campeonato-noa-y-el-tucumano/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "10:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T10:00:00-03:00",
+    "end_datetime": "",
+    "description": "Los amantes de los fierros tienen una cita en el cerro: el sábado 28 y el domingo 29 de noviembre, desde las 10 h, San Javier recibe un fin de semana a puro motor con la 7ª fecha del Campeonato NOA y la 3ª fecha del Campeonato Tucumano de Motocross y Endurocross . Un circuito único rodeado de naturaleza La competencia se corre en el circuito de San Javier, un trazado rodeado del paisaje del cerro que promete carreras de primer nivel. Desde la Comuna invitan a ir en familia a disfrutar del deporte y de la naturaleza del lugar. Deporte y turismo en el cerro El evento es organizado por la Comuna de San Javier junto con la Secretaría de Deportes, y apunta a seguir impulsando el turismo y la actividad en la comunidad. Una excusa perfecta para subir al cerro, pasar el día y vivir la adrenalina de las carreras. Subí al cerro el fin de semana Si te gusta el motor o simplemente buscás un plan al aire libre, este fin de semana San Javier te espera. Como dicen desde la Comuna: San Javier cerca, San Javier enamora. Resumen Evento: Motocross y Endurocross (7ª fecha del Campeonato NOA y 3ª fecha del Campeonato Tucumano) Fechas: sábado 28 y domingo 29 de noviembre Hora: desde las 10 h Lugar: Circuito San Javier, San Javier, Tucumán Organizan: Comuna de San Javier y Secretaría de Deportes Fuente: San Javier Turismo (Facebook).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/motocross-endurocross-san-javier.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "San Javier",
+    "address": "San Javier",
+    "city": "",
+    "organizer": "Comuna de San Javier y Secretaría de Deportes Fuente: San Javier Turismo (Facebook)",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Deportes"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=San+Javier%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "10:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T10:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "10:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 y domingo 29 de noviembre, desde las 10 h, San Javier será sede de la 7ª fecha del Campeonato NOA y la 3ª fecha del Campeonato Tucumano de Motocross y Endurocross. La competencia se desarrollará en el circuito de San Javier y promete un fin de semana a puro motor rodeado de naturaleza.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "055cf367ea51155b738f4d8b152d3cd38ce09e80ccd190a615662aae9ddf5758"
+  },
+  {
+    "id": "47681",
+    "source": "MEC",
+    "title": "29 de Noviembre | Cristian El Magioso llega desde España con «Jacky, una historia de piratas» al Teatro Puerto Libertad",
+    "url": "https://agendatucuman.com.ar/eventos/29-de-noviembre-cristian-el-magioso-llega-desde-espana-con-jacky-una-historia-de-piratas-al-teatro-puerto-libertad/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "Magia, humor y aventuras para toda la familia: llegado directamente desde España y en única función , Cristian El Magioso presenta «Jacky, una historia de piratas» el domingo 29 de noviembre a las 18 h en el Teatro Puerto Libertad , Las Piedras 1850. Un pirata excéntrico y un barco lleno de trucos El espectáculo cuenta la historia de un pirata excéntrico que invita a chicos y grandes a embarcarse en una aventura llena de trucos, risas y sorpresas. Con la participación del público y el humor como brújula, el teatro se transforma en un mundo de piratas. La obra se estrenó en España poco después de la llegada de El Magioso a Madrid y recorrió salas, colegios y centros culturales de distintos puntos de ese país. Más de 30 años de trayectoria Cristian El Magioso tiene más de 30 años de recorrido artístico en Argentina y cuatro en España. Participó en dos temporadas de «Humor en Barra», en Telefe Tucumán, e hizo quince temporadas en Mar del Plata con espectáculos como «Knockout de Risas», «Sinvergüenzas» y «Magiosadas». En España presentó «Magiosadas», «Ridíkulus», «Magia o Plomo» y «Piedra, Papel o Tijera», entre otras propuestas. La producción es de Araceli Vildoza. Entradas La entrada anticipada cuesta $15.000; hay una promo para niños de hasta 12 años de 2x$25.000, y en puerta el valor es de $20.000. Un plan ideal para cerrar el fin de semana en familia: ¡sacá tus entradas y subí a bordo! Resumen Espectáculo: «Jacky, una historia de piratas» Artista: Cristian El Magioso Fecha: domingo 29 de noviembre (única función) Hora: 18 h Lugar: Teatro Puerto Libertad, Las Piedras 1850, San Miguel de Tucumán Entradas: anticipada $15.000; promo niños hasta 12 años 2x$25.000; en puerta $20.000 Público: familiar Fuente: Teatro Puerto Libertad (Instagram @teatropuertolibertad_).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/jacky-historia-de-piratas.webp",
+    "price": 15000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Puerto Cultural Libertad",
+    "address": "Las Piedras 1850",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Puerto+Cultural+Libertad%2C+Las+Piedras+1850%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-29",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El ilusionista español Cristian El Magioso presenta su espectáculo familiar Jacky, una historia de piratas en única función. La cita es el domingo 29 de noviembre a las 18 h en el Teatro Puerto Libertad, ubicado en Las Piedras 1850. Las entradas anticipadas cuestan $15.000, hay una promoción de 2x$25.000 para niños de hasta 12 años y en puerta valen $20.000.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "28453640d46ba4d2f49071a3720e6ff51dfe980285c87bd330182a8d6d04a6b8"
+  },
+  {
+    "id": "47673",
+    "source": "MEC",
+    "title": "29 de Noviembre | «Los Sonámbulos» vuelve a escena en La Colorida con una función para toda la familia",
+    "url": "https://agendatucuman.com.ar/eventos/29-de-noviembre-los-sonambulos-vuelve-a-escena-en-la-colorida-con-una-funcion-para-toda-la-familia/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "El domingo de la Ranchada Cultural en La Colorida Teatro trae el reestreno de «Los Sonámbulos» , un espectáculo para toda la familia que sube a escena el domingo 29 de noviembre a las 18 h, en Mendoza 2955. Un elenco grande y un texto de Cristian Palacios La obra cuenta con texto de Cristian Palacios y dirección de Máximo Gómez . Actúan Lucas Acevedo, Lucas Ferrán Gómez, Lourdes Grisuca, Ángeles Cosiansi y Máximo Gómez. Las luces son de Nerina Dip y la confección de vestuario, de Patricia Mariscal. El cierre de la semana en La Colorida Con esta función, La Colorida cierra su programación de la Ranchada Cultural, el movimiento autogestivo que del 25 al 30 de noviembre reúne a artistas y espacios independientes de Tucumán con propuestas a la gorra. Reservá tu lugar La entrada es a la gorra y se puede reservar por WhatsApp al 3815754143. Un plan ideal para el domingo a la tarde con los chicos: ¡no te quedes afuera! Resumen Obra: «Los Sonámbulos» (reestreno) Texto: Cristian Palacios Dirección: Máximo Gómez Elenco: Lucas Acevedo, Lucas Ferrán Gómez, Lourdes Grisuca, Ángeles Cosiansi y Máximo Gómez Fecha: domingo 29 de noviembre Hora: 18 h Lugar: La Colorida Teatro, Mendoza 2955, San Miguel de Tucumán Entrada: a la gorra (reservas por WhatsApp al 3815754143) Público: toda la familia Fuente: La Colorida Teatro (Instagram @lacoloridateatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/colorida-s10.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "La Colorida Teatro",
+    "address": "Mendoza 2955, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3815754143"
+    ],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=La+Colorida+Teatro%2C+Mendoza+2955%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-29",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El reestreno de la obra familiar «Los Sonámbulos» se presentará el domingo 29 de noviembre a las 18 h en La Colorida Teatro, ubicado en Mendoza 2955, San Miguel de Tucumán. Esta función cierra la programación de la Ranchada Cultural. La entrada es a la gorra, con reserva previa por WhatsApp al 3815754143.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b288765b4c9f1c9b6cee035929dcb92ac078db87a46e81efb84a312cf07ee632"
+  },
+  {
+    "id": "47678",
+    "source": "MEC",
+    "title": "29 de Noviembre | «Tuquito y Yunguita», clown y títeres para querer las Yungas en Casa Luján",
+    "url": "https://agendatucuman.com.ar/eventos/29-de-noviembre-tuquito-y-yunguita-clown-y-titeres-para-querer-las-yungas-en-casa-lujan/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Para cerrar su semana en la Ranchada Cultural , Casa Luján propone un plan para toda la familia: «Tuquito y Yunguita» , una obra de teatro, clown y títeres que se presenta el domingo 29 de noviembre a las 19 h, en Saavedra 74, con entrada libre y salida a la gorra. Una obra para quererse y querer nuestras Yungas «Tuquito» sale a vivir aventuras en la inmensidad de los cerros tucumanos, donde se encuentra con «Yunguita», que lo invita a conocer nuevos lugares y a los amigos que los habitan. A través del clown, la música y los títeres, los personajes hacen un recorrido regional que muestra la importancia de todos los seres vivos de nuestro ambiente. Una propuesta premiada Los payasos, títeres y la dramaturgia son de Indra Loto y Ramiro Salvador . La escenografía es de Tania Sofía Fernández, con su instalación escénica «Portal al Inconsciente», y la asistencia técnica, de Iván Salvador. La obra fue seleccionada en la Fiesta Provincial del Teatro INT 2024 y nominada a Mejor Espectáculo Infantil en los Premios ARTEA 2024. Un domingo en familia La función forma parte de la Ranchada Cultural, el movimiento autogestivo de la comunidad teatral tucumana. Llevá a los chicos, disfrutá de una historia hermosa sobre nuestro monte y colaborá a la gorra con el teatro independiente. Resumen Obra: «Tuquito y Yunguita» (teatro, clown y títeres) Payasos, títeres y dramaturgia: Indra Loto y Ramiro Salvador Fecha: domingo 29 de noviembre Hora: 19 h Lugar: Casa Luján, Saavedra 74, San Miguel de Tucumán Público: todo público Entrada: libre, salida a la gorra Contacto: 3812061140 / 3814563133 Fuente: Casa Luján Teatro (Instagram @casalujan.teatro).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/casalujan-s6.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Luján Centro Cultural Alternativo",
+    "address": "Saavedra 74, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3812061140",
+      "3814563133"
+    ],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Luj%C3%A1n+Centro+Cultural+Alternativo%2C+Saavedra+74%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-29",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El domingo 29 de noviembre a las 19 h se presenta la obra de teatro, clown y títeres «Tuquito y Yunguita» en Casa Luján, ubicada en Saavedra 74, San Miguel de Tucumán. La función familiar, que invita a conocer y valorar las Yungas tucumanas, tiene entrada libre y salida a la gorra.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "ab3ffcedb2df1cea065405618ebf9cc5c298cf64083f1495f36732f9df826f78"
+  },
+  {
+    "id": "47665",
+    "source": "MEC",
+    "title": "Del 27 al 29 de Noviembre | Los chicos del Ente Cultural reviven la vida de San Martín en «La Patria Necesita de estos Locos»",
+    "url": "https://agendatucuman.com.ar/eventos/del-27-al-29-de-noviembre-los-chicos-del-ente-cultural-reviven-la-vida-de-san-martin-en-la-patria-necesita-de-estos-locos/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "El grupo de teatro de niños y niñas del Ente Cultural de Tucumán sube al escenario del Teatro Orestes Caviglia con «La Patria Necesita de estos Locos» , una obra de Nicolás Aráoz que recorre la vida y el legado del General José de San Martín . Después de sus primeras funciones, la propuesta tiene tres fechas más: viernes 27 y sábado 28 de noviembre a las 21 h, y domingo 29 a las 18 h. Una historia que va de la infancia a la gesta libertadora La obra repasa la historia del Libertador desde su infancia hasta su muerte, con un elenco integrado por chicos y chicas que se forman en el grupo de teatro del Ente Cultural. La dirección general está a cargo de Lilian Mirkin . Un elenco de chicos y un equipo de lujo En escena están Florencia Rojo, Briana Lucero, Amanda Girbau, Lisa Mirkin, Guillermina Moroni, Florentina Guzmán, Valentín Lorenzo Minué, Luisa Flores Guerra, Gerónimo Suárez, Emma Gutiérrez, Augusto Grondona, Salvador Armanini, Luján Sánchez, Felipe Prado Maldonado, Corina Armanini, Alma Salas Barber, Máximo Canducci y Eva Rodríguez Vaisblat. La música original es de Fernando Flores Blasco; el diseño de vestuario, de Elizabeth Cárdenas; y la asistencia técnica y de dirección, de Silvina Schliserman, quien también opera las imágenes. Completan el equipo los operadores de música Fernando Flores Blasco y Chicho Ortega, el equipo de utilería y las asistentes de escena Martina Steimberg y Vania Iskra. Entradas con promo 2×1 La entrada general cuesta $10.000 y tiene promoción 2×1 . Se consiguen en la boletería del teatro y en la venta online del Ente Cultural. Si buscás un plan para compartir en familia este fin de semana, esta es una gran oportunidad para que los más chicos se acerquen a la historia argentina desde el teatro. ¡Sacá tus entradas y acompañá a este elenco de pequeños grandes actores! Resumen Obra: «La Patria Necesita de estos Locos», de Nicolás Aráoz Elenco: Grupo de teatro de niños y niñas del Ente Cultural de Tucumán Dirección general: Lilian Mirkin Fechas: viernes 27 y sábado 28 de noviembre a las 21 h; domingo 29 de noviembre a las 18 h Lugar: Teatro Orestes Caviglia, San Martín 251, San Miguel de Tucumán Entrada: $10.000, con promoción 2×1 (boletería del teatro y venta online) Fuente: Ente Cultural de Tucumán (enteculturaltucuman.gob.ar/agenda e Instagram @culturadetucuman).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/la-patria-necesita-de-estos-locos.webp",
+    "price": 10000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Teatro Orestes Caviglia",
+    "address": "San Martín 251 - San Miguel De Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Orestes+Caviglia%2C+San+Mart%C3%ADn+251+-+San+Miguel+De+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El grupo infantil del Ente Cultural de Tucumán presenta la obra «La Patria Necesita de estos Locos», que repasa la vida de San Martín. Las funciones son del 27 al 29 de noviembre en el Teatro Orestes Caviglia, ubicado en San Martín 251. Las entradas cuestan $10.000 con promoción 2×1 y se adquieren en la boletería o de forma online.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "c7060ac672763989035eeed3fea67f512b45485f221478c3406e8be289dabdb3"
   },
   {
     "id": "47615",

@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-23T04:50:31.364597-03:00",
+  "generated_at": "2026-11-23T21:02:22.562069-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
@@ -88,7 +88,7 @@
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-23",
+      "release_date": "2026-11-24",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"

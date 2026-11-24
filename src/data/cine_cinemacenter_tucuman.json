@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-23T04:50:31.364736-03:00",
+  "generated_at": "2026-11-23T21:02:22.562212-03:00",
   "reference_date": "2026-11-23",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "a811365a073371338e00fcab4410f117c2a83ff7d7b9610618bc4f778e5063d6"
+    "pdf_sha256": "c0fc20eedea23ecc623d9661ab31d335c0f48a258e36e9203fd98389827340c2"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -128,7 +128,6 @@
           "sábado": [],
           "domingo": [],
           "lunes": [
-            "17:00",
             "18:40",
             "20:00"
           ],
@@ -144,12 +143,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "17:00",
-            "datetime": "2026-11-23T17:00:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-23",
             "time": "18:40",
@@ -258,9 +251,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "17:30"
-          ],
+          "lunes": [],
           "martes": [
             "17:30"
           ],
@@ -269,12 +260,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "17:30",
-            "datetime": "2026-11-23T17:30:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "17:30",
@@ -293,7 +278,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -348,7 +333,6 @@
           "sábado": [],
           "domingo": [],
           "lunes": [
-            "16:00",
             "19:10",
             "22:20"
           ],
@@ -364,12 +348,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "16:00",
-            "datetime": "2026-11-23T16:00:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-23",
             "time": "19:10",
