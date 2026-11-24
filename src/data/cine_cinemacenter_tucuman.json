@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-23T21:02:22.562212-03:00",
-  "reference_date": "2026-11-23",
+  "generated_at": "2026-11-24T07:04:27.334754-03:00",
+  "reference_date": "2026-11-24",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "c0fc20eedea23ecc623d9661ab31d335c0f48a258e36e9203fd98389827340c2"
+    "pdf_sha256": "4028f75ccf18f745ad821b55b861146a4d2c7c8f3265d96814c62a3c39d44cd7"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -37,9 +37,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "21:20"
-          ],
+          "lunes": [],
           "martes": [
             "21:20"
           ],
@@ -48,12 +46,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "21:20",
-            "datetime": "2026-11-23T21:20:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "21:20",
@@ -72,7 +64,7 @@
           "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 130,
           "genres": [
             "Animación Aventuras"
@@ -127,10 +119,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "18:40",
-            "20:00"
-          ],
+          "lunes": [],
           "martes": [
             "17:00",
             "18:40",
@@ -143,18 +132,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "18:40",
-            "datetime": "2026-11-23T18:40:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-11-23",
-            "time": "20:00",
-            "datetime": "2026-11-23T20:00:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "17:00",
@@ -197,7 +174,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -332,10 +309,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "19:10",
-            "22:20"
-          ],
+          "lunes": [],
           "martes": [
             "16:00",
             "19:10",
@@ -348,18 +322,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "19:10",
-            "datetime": "2026-11-23T19:10:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-11-23",
-            "time": "22:20",
-            "datetime": "2026-11-23T22:20:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "16:00",
@@ -402,7 +364,7 @@
           "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 158,
           "genres": [
             "Acción Ciencia Ficción"
@@ -463,9 +425,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "22:30"
-          ],
+          "lunes": [],
           "martes": [
             "22:30"
           ],
@@ -474,12 +434,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "22:30",
-            "datetime": "2026-11-23T22:30:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "22:30",
@@ -498,7 +452,7 @@
           "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 115,
           "genres": [
             "Fantasía"
@@ -560,9 +514,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "18:10"
-          ],
+          "lunes": [],
           "martes": [
             "18:10"
           ],
@@ -571,12 +523,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "18:10",
-            "datetime": "2026-11-23T18:10:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "18:10",
@@ -595,7 +541,7 @@
           "title": "PLUMAS OPERACION RESCATE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 85,
           "genres": [
             "Animación"
@@ -652,10 +598,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "19:30",
-            "22:10"
-          ],
+          "lunes": [],
           "martes": [
             "19:30",
             "22:10"
@@ -666,18 +609,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "19:30",
-            "datetime": "2026-11-23T19:30:00",
-            "weekday": "lunes"
-          },
-          {
-            "date": "2026-11-23",
-            "time": "22:10",
-            "datetime": "2026-11-23T22:10:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "19:30",
@@ -708,7 +639,7 @@
           "title": "YO SOY ROCKY - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 127,
           "genres": [
             "Biográfica"
@@ -770,9 +701,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "20:10"
-          ],
+          "lunes": [],
           "martes": [
             "20:10"
           ],
@@ -781,12 +710,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "20:10",
-            "datetime": "2026-11-23T20:10:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "20:10",
@@ -805,7 +728,7 @@
           "title": "RECEN POR MI - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 110,
           "genres": [
             "Documental"
@@ -858,9 +781,7 @@
           "viernes": [],
           "sábado": [],
           "domingo": [],
-          "lunes": [
-            "22:40"
-          ],
+          "lunes": [],
           "martes": [
             "22:40"
           ],
@@ -869,12 +790,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-23",
-            "time": "22:40",
-            "datetime": "2026-11-23T22:40:00",
-            "weekday": "lunes"
-          },
           {
             "date": "2026-11-24",
             "time": "22:40",
@@ -893,7 +808,7 @@
           "title": "LA ASISTENTE DE LA MORGUE - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-23",
+          "release_date": "2026-11-24",
           "duration_minutes": 94,
           "genres": [
             "Terror Suspenso"
