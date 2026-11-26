@@ -1,14 +1,14 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-25T18:48:36.609323-03:00",
-  "reference_date": "2026-11-25",
+  "generated_at": "2026-11-26T05:37:43.869959-03:00",
+  "reference_date": "2026-11-26",
   "source": {
     "name": "Cinemacenter",
     "homepage": "https://www.cinemacenter.com.ar/cartelera#contenido",
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "fa7191f4284c4987f3fc7dfab70d99d91b2794331367913e175c029b33aac6ae"
+    "pdf_sha256": "59cb93248c393b731ddca663249e9904d9f1454ff2a2b4b546db7aab1ba6116e"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -17,83 +17,9 @@
     "country": "Argentina"
   },
   "cartelera": {
-    "week_start": "2026-11-19",
-    "week_end": "2026-11-25",
+    "week_start": "2026-11-26",
+    "week_end": "2026-12-02",
     "movies": [
-      {
-        "id": "cinemacenter-tucuman-wildwood-el-bosque-salvaje-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "WILDWOOD: EL BOSQUE SALVAJE",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "21:20"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-25",
-            "time": "21:20",
-            "datetime": "2026-11-25T21:20:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 6073,
-        "metadata": {
-          "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-25",
-          "duration_minutes": 130,
-          "genres": [
-            "Animación Aventuras"
-          ],
-          "director": [
-            "Travis Knight"
-          ],
-          "cast": [
-            "Peyton Elizabeth Lee",
-            "Jacob Tremblay",
-            "Carey Mulliga"
-          ],
-          "synopsis": "La trama sigue a Prue McKeel y a su compañero de clase Curtis Mehlberg cuando se ven arrastrados a un bosque mágico oculto en un intento de salvar a Mac, el hermano pequeño de Prue que ha sido secuestrado, de los cuervos liderados por una misteriosa mujer llamada Alexandra.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3614_img2.jpg",
-          "classification": "SP - Supervisión Parental sugerida",
-          "nationality": "Estados Unidos",
-          "distributor": "Imagen Films",
-          "trailer": "https://www.youtube.com/embed/d-pcACsvl10",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6073-WILDWOOD-EL-BOSQUE-SALVAJE---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6073,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
       {
         "id": "cinemacenter-tucuman-el-gato-con-sombrero-2d-cast",
         "source": "cinemacenter",
@@ -104,38 +30,121 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "16:30",
+            "19:00"
+          ],
+          "viernes": [
+            "16:30",
+            "19:00"
+          ],
+          "sábado": [
+            "16:30",
+            "19:00"
+          ],
+          "domingo": [
+            "16:30",
+            "19:00"
+          ],
+          "lunes": [
+            "16:30",
+            "19:00"
+          ],
+          "martes": [
+            "16:30",
+            "19:00"
+          ],
           "miércoles": [
-            "17:00",
-            "18:40",
-            "20:00"
+            "16:30",
+            "19:00"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-25",
-            "time": "17:00",
-            "datetime": "2026-11-25T17:00:00",
+            "date": "2026-11-26",
+            "time": "16:30",
+            "datetime": "2026-11-26T16:30:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-26",
+            "time": "19:00",
+            "datetime": "2026-11-26T19:00:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "16:30",
+            "datetime": "2026-11-27T16:30:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "19:00",
+            "datetime": "2026-11-27T19:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "16:30",
+            "datetime": "2026-11-28T16:30:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "19:00",
+            "datetime": "2026-11-28T19:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "16:30",
+            "datetime": "2026-11-29T16:30:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "19:00",
+            "datetime": "2026-11-29T19:00:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "16:30",
+            "datetime": "2026-11-30T16:30:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "19:00",
+            "datetime": "2026-11-30T19:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "16:30",
+            "datetime": "2026-12-01T16:30:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "19:00",
+            "datetime": "2026-12-01T19:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "16:30",
+            "datetime": "2026-12-02T16:30:00",
             "weekday": "miércoles"
           },
           {
-            "date": "2026-11-25",
-            "time": "18:40",
-            "datetime": "2026-11-25T18:40:00",
-            "weekday": "miércoles"
-          },
-          {
-            "date": "2026-11-25",
-            "time": "20:00",
-            "datetime": "2026-11-25T20:00:00",
+            "date": "2026-12-02",
+            "time": "19:00",
+            "datetime": "2026-12-02T19:00:00",
             "weekday": "miércoles"
           }
         ],
@@ -144,80 +153,7 @@
           "title": "EL GATO CON SOMBRERO - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-25",
-          "duration_minutes": 114,
-          "genres": [
-            "Animación Familiar"
-          ],
-          "director": [
-            "Alessandro Carloni",
-            "Erica Rivinoja"
-          ],
-          "cast": [],
-          "synopsis": "¡Conoce al Gato con Sombrero que no conocías! En la maravillosa y fantástica tradición de Dr. Seuss, El Gato con Sombrero llega a la pantalla grande en su debut en película animada, una aventura épica y completamente nueva, con un toque rebelde, donde la travesura, la magia y el caos gobiernan por completo.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3269_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Estados Unidos",
-          "distributor": "WARNER BROS.",
-          "trailer": "https://www.youtube.com/embed/jcAbu9R07WI",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6078-EL-GATO-CON-SOMBRERO---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [
-            "cast"
-          ],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 5 de Noviembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "partial_source",
-          "cinemacenter_movie_id": 6078,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-el-gato-con-sombrero-3d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "EL GATO CON SOMBRERO",
-        "status": "cartelera_vigente",
-        "format": "3D",
-        "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "17:30"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-25",
-            "time": "17:30",
-            "datetime": "2026-11-25T17:30:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 6078,
-        "metadata": {
-          "title": "EL GATO CON SOMBRERO - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-25",
+          "release_date": "2026-11-26",
           "duration_minutes": 114,
           "genres": [
             "Animación Familiar"
@@ -264,15 +200,39 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "16:00",
+            "19:10",
+            "22:20"
+          ],
+          "viernes": [
+            "16:00",
+            "19:10",
+            "22:20"
+          ],
+          "sábado": [
+            "16:00",
+            "19:10",
+            "22:20"
+          ],
+          "domingo": [
+            "16:00",
+            "19:10",
+            "22:20"
+          ],
+          "lunes": [
+            "16:00",
+            "19:10",
+            "22:20"
+          ],
+          "martes": [
+            "16:00",
+            "19:10",
+            "22:20"
+          ],
           "miércoles": [
             "16:00",
             "19:10",
@@ -281,21 +241,129 @@
         },
         "occurrences": [
           {
-            "date": "2026-11-25",
+            "date": "2026-11-26",
             "time": "16:00",
-            "datetime": "2026-11-25T16:00:00",
-            "weekday": "miércoles"
+            "datetime": "2026-11-26T16:00:00",
+            "weekday": "jueves"
           },
           {
-            "date": "2026-11-25",
+            "date": "2026-11-26",
             "time": "19:10",
-            "datetime": "2026-11-25T19:10:00",
+            "datetime": "2026-11-26T19:10:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-26",
+            "time": "22:20",
+            "datetime": "2026-11-26T22:20:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "16:00",
+            "datetime": "2026-11-27T16:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "19:10",
+            "datetime": "2026-11-27T19:10:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "22:20",
+            "datetime": "2026-11-27T22:20:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "16:00",
+            "datetime": "2026-11-28T16:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "19:10",
+            "datetime": "2026-11-28T19:10:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "22:20",
+            "datetime": "2026-11-28T22:20:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "16:00",
+            "datetime": "2026-11-29T16:00:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "19:10",
+            "datetime": "2026-11-29T19:10:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "22:20",
+            "datetime": "2026-11-29T22:20:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "16:00",
+            "datetime": "2026-11-30T16:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "19:10",
+            "datetime": "2026-11-30T19:10:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "22:20",
+            "datetime": "2026-11-30T22:20:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "16:00",
+            "datetime": "2026-12-01T16:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "19:10",
+            "datetime": "2026-12-01T19:10:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "22:20",
+            "datetime": "2026-12-01T22:20:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "16:00",
+            "datetime": "2026-12-02T16:00:00",
             "weekday": "miércoles"
           },
           {
-            "date": "2026-11-25",
+            "date": "2026-12-02",
+            "time": "19:10",
+            "datetime": "2026-12-02T19:10:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-12-02",
             "time": "22:20",
-            "datetime": "2026-11-25T22:20:00",
+            "datetime": "2026-12-02T22:20:00",
             "weekday": "miércoles"
           }
         ],
@@ -304,7 +372,7 @@
           "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-25",
+          "release_date": "2026-11-26",
           "duration_minutes": 158,
           "genres": [
             "Acción Ciencia Ficción"
@@ -349,68 +417,115 @@
         }
       },
       {
-        "id": "cinemacenter-tucuman-ebenezer-los-fantasmas-de-navidad-2d-cast",
+        "id": "cinemacenter-tucuman-los-juegos-del-hambre-amanecer-en-la-cosecha-2d-sub",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
         "cinema": "Cinemacenter Tucumán",
         "city": "San Miguel de Tucumán",
-        "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD",
+        "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA",
         "status": "cartelera_vigente",
         "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
+        "language": "SUB",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "21:30"
+          ],
+          "viernes": [
+            "21:30"
+          ],
+          "sábado": [
+            "21:30"
+          ],
+          "domingo": [
+            "21:30"
+          ],
+          "lunes": [
+            "21:30"
+          ],
+          "martes": [
+            "21:30"
+          ],
           "miércoles": [
-            "22:30"
+            "21:30"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-25",
-            "time": "22:30",
-            "datetime": "2026-11-25T22:30:00",
+            "date": "2026-11-26",
+            "time": "21:30",
+            "datetime": "2026-11-26T21:30:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "21:30",
+            "datetime": "2026-11-27T21:30:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "21:30",
+            "datetime": "2026-11-28T21:30:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "21:30",
+            "datetime": "2026-11-29T21:30:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "21:30",
+            "datetime": "2026-11-30T21:30:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "21:30",
+            "datetime": "2026-12-01T21:30:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "21:30",
+            "datetime": "2026-12-02T21:30:00",
             "weekday": "miércoles"
           }
         ],
-        "cinemacenter_movie_id": 6108,
+        "cinemacenter_movie_id": 6091,
         "metadata": {
-          "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
+          "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D SUB",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-25",
-          "duration_minutes": 115,
+          "release_date": "2026-11-26",
+          "duration_minutes": 158,
           "genres": [
-            "Fantasía"
+            "Acción Ciencia Ficción"
           ],
           "director": [
-            "Ti West"
+            "Francis Lawrence"
           ],
           "cast": [
-            "Johnny Depp",
-            "Andrea Riseborough",
-            "Ian McKellen",
-            "Tramell Tillman",
-            "Daisy Ridley",
-            "Rupert Grint",
-            "Sam Claflin",
-            "Charlie Murphy",
-            "Arthur Conti",
-            "Ellie Bamber."
+            "Joseph Zada como Haymitch Abernathy",
+            "Kieran Culkin como Caesar Flickerman (versión joven del icónico presentador)",
+            "Elle Fanning como Effie Trinket joven",
+            "Ralph Fiennes como Presidente Coriolanus Snow",
+            "Jesse Plemons como Plutarch Heavensbee",
+            "Maya Hawke como Wiress",
+            "Ben Wang como Wyatt Callow",
+            "Glenn Close como Drusilla Sickle",
+            "Mckenna Grace como Maysilee Donner."
           ],
-          "synopsis": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3605_img2.jpg",
-          "classification": "SP - Supervisión Parental sugerida",
+          "synopsis": "Mucho antes de que Katniss Everdeen se ofreciera como tributo, existió otro sobreviviente. La historia nos lleva 24 años antes de los eventos de la saga original, al amanecer del día de la cosecha de los 50° Juegos del Hambre, conocidos como el Second Quarter Quell. En esta edición especial, el Capitolio impone una regla brutal: cada distrito deberá enviar el doble de tributos, convirtiendo la arena en el espectáculo más cruel jamás visto. Entre los elegidos está Haymitch Abernathy, un joven del Distrito 12 que deberá usar su inteligencia y astucia para sobrevivir en un juego diseñado para destruirlos a todos. Pero incluso si logra ganar descubrirá que en los Juegos del Hambre la victoria también tiene un precio.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3408_img2.jpg",
+          "classification": "R13 - Restringida para menores de 13 años",
           "nationality": "Estados Unidos",
-          "distributor": "UIP",
-          "trailer": "https://www.youtube.com/embed/TKz2QyzSnFY",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6108-EBENEZER-LOS-FANTASMAS-DE-NAVIDAD---2D-CAST",
+          "distributor": "BF + Paris Films",
+          "trailer": "https://www.youtube.com/embed/bHBmT6yWWvc",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6091-LOS-JUEGOS-DEL-HAMBRE-AMANECER-EN-LA-COSECHA---2D-SUB",
           "source": "Cinemacenter",
           "trailer_source": "iframe",
           "metadata_missing": [],
@@ -418,87 +533,11 @@
             "original_title"
           ],
           "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
             "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
           ],
           "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6108,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-plumas-operacion-rescate-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "PLUMAS OPERACION RESCATE",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
-            "18:10"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-25",
-            "time": "18:10",
-            "datetime": "2026-11-25T18:10:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 6111,
-        "metadata": {
-          "title": "PLUMAS OPERACION RESCATE - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-25",
-          "duration_minutes": 85,
-          "genres": [
-            "Animación"
-          ],
-          "director": [
-            "Dong Long",
-            "Nigel W. Tierney"
-          ],
-          "cast": [
-            "Liu Xingzuo",
-            "Xingliner",
-            "Chen Hao",
-            "Park Shi-yoon"
-          ],
-          "synopsis": "Un joven águila criado por gallinas abandona el hogar para descubrir su verdadera identidad. Al encontrar su familia de águilas y propósito con la Fuerza Emplumada, ignora una siniestra trama que se gesta en la ciudad cercana.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3687_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Tailandia",
-          "distributor": "Zennit",
-          "trailer": null,
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6111-PLUMAS-OPERACION-RESCATE---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": null,
-          "metadata_missing": [],
-          "metadata_unavailable_on_source": [
-            "original_title"
-          ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-          ],
-          "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6111,
+          "cinemacenter_movie_id": 6091,
           "cinemacenter_cinema_id": null,
           "cinemacenter_city_id": 13,
           "cinemacenter_ficha_source": "direct_ficha_link",
@@ -515,31 +554,72 @@
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "jueves": [
+            "22:40"
+          ],
+          "viernes": [
+            "22:40"
+          ],
+          "sábado": [
+            "22:40"
+          ],
+          "domingo": [
+            "22:40"
+          ],
+          "lunes": [
+            "22:40"
+          ],
+          "martes": [
+            "22:40"
+          ],
           "miércoles": [
-            "19:30",
-            "22:10"
+            "22:40"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-25",
-            "time": "19:30",
-            "datetime": "2026-11-25T19:30:00",
-            "weekday": "miércoles"
+            "date": "2026-11-26",
+            "time": "22:40",
+            "datetime": "2026-11-26T22:40:00",
+            "weekday": "jueves"
           },
           {
-            "date": "2026-11-25",
-            "time": "22:10",
-            "datetime": "2026-11-25T22:10:00",
+            "date": "2026-11-27",
+            "time": "22:40",
+            "datetime": "2026-11-27T22:40:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "22:40",
+            "datetime": "2026-11-28T22:40:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "22:40",
+            "datetime": "2026-11-29T22:40:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "22:40",
+            "datetime": "2026-11-30T22:40:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "22:40",
+            "datetime": "2026-12-01T22:40:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "22:40",
+            "datetime": "2026-12-02T22:40:00",
             "weekday": "miércoles"
           }
         ],
@@ -548,7 +628,7 @@
           "title": "YO SOY ROCKY - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-25",
+          "release_date": "2026-11-26",
           "duration_minutes": 127,
           "genres": [
             "Biográfica"
@@ -594,131 +674,191 @@
         }
       },
       {
-        "id": "cinemacenter-tucuman-recen-por-mi-2d-cast",
+        "id": "cinemacenter-tucuman-la-nueva-focker-2d-cast",
         "source": "cinemacenter",
         "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
         "cinema": "Cinemacenter Tucumán",
         "city": "San Miguel de Tucumán",
-        "title": "RECEN POR MI",
+        "title": "LA NUEVA FOCKER",
         "status": "cartelera_vigente",
         "format": "2D",
         "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
         "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
-          "miércoles": [
+          "jueves": [
+            "17:50",
             "20:10"
-          ]
-        },
-        "occurrences": [
-          {
-            "date": "2026-11-25",
-            "time": "20:10",
-            "datetime": "2026-11-25T20:10:00",
-            "weekday": "miércoles"
-          }
-        ],
-        "cinemacenter_movie_id": 6122,
-        "metadata": {
-          "title": "RECEN POR MI - 2D CAST",
-          "original_title": null,
-          "year": 2026,
-          "release_date": "2026-11-25",
-          "duration_minutes": 110,
-          "genres": [
-            "Documental"
           ],
-          "director": [
-            "Facundo Bartucci"
+          "viernes": [
+            "17:50",
+            "20:10",
+            "22:30"
           ],
-          "cast": [],
-          "synopsis": "Recen por mí: la historia de Francisco es un documental que narra la vida del Papa Francisco, poniendo el foco en su labor social y humanitaria. La película revela una figura profundamente comprometida con las causas de los pobres, los marginados y los olvidados, desde su juventud en la Argentina hasta su rol como líder espiritual en el escenario global. Con material de archivo exclusivo y su testimonio personal, esta biografía revela un retrato íntimo de un líder espiritual cuya voz e ideales siguen conmoviendo al mundo entero.",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3673_img2.jpg",
-          "classification": "G - Audiencia General",
-          "nationality": "Argentina",
-          "distributor": "Moving Pics",
-          "trailer": "https://www.youtube.com/embed/lWSHNKlqkxE",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6122-RECEN-POR-MI---2D-CAST",
-          "source": "Cinemacenter",
-          "trailer_source": "iframe",
-          "metadata_missing": [
-            "cast"
+          "sábado": [
+            "17:50",
+            "20:10",
+            "22:30"
           ],
-          "metadata_unavailable_on_source": [
-            "original_title"
+          "domingo": [
+            "17:50",
+            "20:10"
           ],
-          "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
-            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          "lunes": [
+            "17:50",
+            "20:10",
+            "22:30"
           ],
-          "metadata_status": "partial_source",
-          "cinemacenter_movie_id": 6122,
-          "cinemacenter_cinema_id": null,
-          "cinemacenter_city_id": 13,
-          "cinemacenter_ficha_source": "direct_ficha_link",
-          "release_date_source": "Cinemacenter cartelera Tucumán"
-        }
-      },
-      {
-        "id": "cinemacenter-tucuman-la-asistente-de-la-morgue-2d-cast",
-        "source": "cinemacenter",
-        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-        "cinema": "Cinemacenter Tucumán",
-        "city": "San Miguel de Tucumán",
-        "title": "LA ASISTENTE DE LA MORGUE",
-        "status": "cartelera_vigente",
-        "format": "2D",
-        "language": "CAST",
-        "week_start": "2026-11-19",
-        "week_end": "2026-11-25",
-        "schedule": {
-          "jueves": [],
-          "viernes": [],
-          "sábado": [],
-          "domingo": [],
-          "lunes": [],
-          "martes": [],
+          "martes": [
+            "17:50",
+            "20:10"
+          ],
           "miércoles": [
-            "22:40"
+            "17:50",
+            "20:10",
+            "22:30"
           ]
         },
         "occurrences": [
           {
-            "date": "2026-11-25",
-            "time": "22:40",
-            "datetime": "2026-11-25T22:40:00",
+            "date": "2026-11-26",
+            "time": "17:50",
+            "datetime": "2026-11-26T17:50:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-26",
+            "time": "20:10",
+            "datetime": "2026-11-26T20:10:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "17:50",
+            "datetime": "2026-11-27T17:50:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "20:10",
+            "datetime": "2026-11-27T20:10:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "22:30",
+            "datetime": "2026-11-27T22:30:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "17:50",
+            "datetime": "2026-11-28T17:50:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "20:10",
+            "datetime": "2026-11-28T20:10:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "22:30",
+            "datetime": "2026-11-28T22:30:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "17:50",
+            "datetime": "2026-11-29T17:50:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "20:10",
+            "datetime": "2026-11-29T20:10:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "17:50",
+            "datetime": "2026-11-30T17:50:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "20:10",
+            "datetime": "2026-11-30T20:10:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "22:30",
+            "datetime": "2026-11-30T22:30:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "17:50",
+            "datetime": "2026-12-01T17:50:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "20:10",
+            "datetime": "2026-12-01T20:10:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "17:50",
+            "datetime": "2026-12-02T17:50:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "20:10",
+            "datetime": "2026-12-02T20:10:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "22:30",
+            "datetime": "2026-12-02T22:30:00",
             "weekday": "miércoles"
           }
         ],
-        "cinemacenter_movie_id": 6123,
+        "cinemacenter_movie_id": 6129,
         "metadata": {
-          "title": "LA ASISTENTE DE LA MORGUE - 2D CAST",
+          "title": "LA NUEVA FOCKER - 2D CAST",
           "original_title": null,
           "year": 2026,
-          "release_date": "2026-11-25",
-          "duration_minutes": 94,
+          "release_date": "2026-11-26",
+          "duration_minutes": 105,
           "genres": [
-            "Terror Suspenso"
+            "Comedia Familiar"
           ],
           "director": [
-            "Jeremiah Kipp"
+            "John Hamburg"
           ],
           "cast": [
-            "Willa Holland Paul Sparks John Adams"
+            "Robert De Niro",
+            "Ben Stiller",
+            "Ariana Grande",
+            "Owen Wilson",
+            "Blythe Danner",
+            "Teri Polo",
+            "Skyler Gisondo",
+            "Liza Koshy"
           ],
-          "synopsis": "Rebecca Owens, una licenciada en ciencias mortuorias que acepta un trabajo nocturno en la funeraria River Fields. Lo que comienza como un trabajo rutinario pronto se vuelve siniestro al enfrentarse a terroríficas fuerzas sobrenaturales",
-          "poster": "https://www.cinemacenter.com.ar/img_movies/3508_img2.jpg",
-          "classification": "R17 - Restringida para menores de 17 años",
+          "synopsis": "Diez años después de los últimos eventos, los papeles se invierten y Greg Focker (Ben Stiller) se enfrenta a su mayor reto: ser el suegro. Cuando su hijo Henry anuncia su compromiso, Greg intenta ser el patriarca comprensivo que nunca tuvo, pero la presión hace que afloren en él inseguridades y termina recurriendo a las tácticas de espionaje y paranoia que aprendió del mismísimo Jack Byrnes (Robert De Niro)... Cuarta entrega de la saga \"Los padres de ella\".",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3546_img2.jpg",
+          "classification": "G - Audiencia General",
           "nationality": "Estados Unidos",
-          "distributor": "Terrorífico Films",
-          "trailer": "https://www.youtube.com/embed/NXq2FW9-1Ys",
-          "source_url": "https://www.cinemacenter.com.ar/ficha/6123-LA-ASISTENTE-DE-LA-MORGUE---2D-CAST",
+          "distributor": "UIP",
+          "trailer": "https://www.youtube.com/embed/eCpW1ykb6js",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6129-LA-NUEVA-FOCKER---2D-CAST",
           "source": "Cinemacenter",
           "trailer_source": "iframe",
           "metadata_missing": [],
@@ -726,11 +866,501 @@
             "original_title"
           ],
           "metadata_warnings": [
-            "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
+            "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
             "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
           ],
           "metadata_status": "complete_source",
-          "cinemacenter_movie_id": 6123,
+          "cinemacenter_movie_id": 6129,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-la-nueva-focker-2d-sub",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "LA NUEVA FOCKER",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "SUB",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
+        "schedule": {
+          "jueves": [
+            "22:30"
+          ],
+          "viernes": [],
+          "sábado": [],
+          "domingo": [
+            "22:30"
+          ],
+          "lunes": [],
+          "martes": [
+            "22:30"
+          ],
+          "miércoles": []
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-26",
+            "time": "22:30",
+            "datetime": "2026-11-26T22:30:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "22:30",
+            "datetime": "2026-11-29T22:30:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "22:30",
+            "datetime": "2026-12-01T22:30:00",
+            "weekday": "martes"
+          }
+        ],
+        "cinemacenter_movie_id": 6130,
+        "metadata": {
+          "title": "LA NUEVA FOCKER - 2D SUB",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-26",
+          "duration_minutes": 105,
+          "genres": [
+            "Comedia Familiar"
+          ],
+          "director": [
+            "John Hamburg"
+          ],
+          "cast": [
+            "Robert De Niro",
+            "Ben Stiller",
+            "Ariana Grande",
+            "Owen Wilson",
+            "Blythe Danner",
+            "Teri Polo",
+            "Skyler Gisondo",
+            "Liza Koshy"
+          ],
+          "synopsis": "Diez años después de los últimos eventos, los papeles se invierten y Greg Focker (Ben Stiller) se enfrenta a su mayor reto: ser el suegro. Cuando su hijo Henry anuncia su compromiso, Greg intenta ser el patriarca comprensivo que nunca tuvo, pero la presión hace que afloren en él inseguridades y termina recurriendo a las tácticas de espionaje y paranoia que aprendió del mismísimo Jack Byrnes (Robert De Niro)... Cuarta entrega de la saga \"Los padres de ella\".",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3546_img2.jpg",
+          "classification": "G - Audiencia General",
+          "nationality": "Estados Unidos",
+          "distributor": "UIP",
+          "trailer": "https://www.youtube.com/embed/eCpW1ykb6js",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6130-LA-NUEVA-FOCKER---2D-SUB",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6130,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-hechizo-bienvenidos-a-hexe-2d-cast",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "HECHIZO: BIENVENIDOS A HEXE",
+        "status": "cartelera_vigente",
+        "format": "2D",
+        "language": "CAST",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
+        "schedule": {
+          "jueves": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ],
+          "viernes": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ],
+          "sábado": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ],
+          "domingo": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ],
+          "lunes": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ],
+          "martes": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ],
+          "miércoles": [
+            "18:00",
+            "19:20",
+            "20:20",
+            "21:40"
+          ]
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-26",
+            "time": "18:00",
+            "datetime": "2026-11-26T18:00:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-26",
+            "time": "19:20",
+            "datetime": "2026-11-26T19:20:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-26",
+            "time": "20:20",
+            "datetime": "2026-11-26T20:20:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-26",
+            "time": "21:40",
+            "datetime": "2026-11-26T21:40:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "18:00",
+            "datetime": "2026-11-27T18:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "19:20",
+            "datetime": "2026-11-27T19:20:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "20:20",
+            "datetime": "2026-11-27T20:20:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "21:40",
+            "datetime": "2026-11-27T21:40:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "18:00",
+            "datetime": "2026-11-28T18:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "19:20",
+            "datetime": "2026-11-28T19:20:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "20:20",
+            "datetime": "2026-11-28T20:20:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "21:40",
+            "datetime": "2026-11-28T21:40:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "18:00",
+            "datetime": "2026-11-29T18:00:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "19:20",
+            "datetime": "2026-11-29T19:20:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "20:20",
+            "datetime": "2026-11-29T20:20:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "21:40",
+            "datetime": "2026-11-29T21:40:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "18:00",
+            "datetime": "2026-11-30T18:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "19:20",
+            "datetime": "2026-11-30T19:20:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "20:20",
+            "datetime": "2026-11-30T20:20:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "21:40",
+            "datetime": "2026-11-30T21:40:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "18:00",
+            "datetime": "2026-12-01T18:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "19:20",
+            "datetime": "2026-12-01T19:20:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "20:20",
+            "datetime": "2026-12-01T20:20:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "21:40",
+            "datetime": "2026-12-01T21:40:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "18:00",
+            "datetime": "2026-12-02T18:00:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "19:20",
+            "datetime": "2026-12-02T19:20:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "20:20",
+            "datetime": "2026-12-02T20:20:00",
+            "weekday": "miércoles"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "21:40",
+            "datetime": "2026-12-02T21:40:00",
+            "weekday": "miércoles"
+          }
+        ],
+        "cinemacenter_movie_id": 6132,
+        "metadata": {
+          "title": "HECHIZO: BIENVENIDOS A HEXE - 2D CAST",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-26",
+          "duration_minutes": 109,
+          "genres": [
+            "Animación"
+          ],
+          "director": [
+            "Fawn Veerasunthorn",
+            "Jason Hand"
+          ],
+          "cast": [
+            "Hailee Steinfeld",
+            "Rashida Jones",
+            "Tracey Ullman",
+            "Stephen Fry"
+          ],
+          "synopsis": "Una adolescente torpe y su madre aprenden que sus peculiaridades podrían ser poderes mágicos, transformando sus vidas y revelando un reino mágico oculto.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3581_img2.jpg",
+          "classification": "G - Audiencia General",
+          "nationality": "Estados Unidos",
+          "distributor": "Disney",
+          "trailer": "https://www.youtube.com/embed/aew6VXYxYtg",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6132-HECHIZO-BIENVENIDOS-A-HEXE---2D-CAST",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6132,
+          "cinemacenter_cinema_id": null,
+          "cinemacenter_city_id": 13,
+          "cinemacenter_ficha_source": "direct_ficha_link",
+          "release_date_source": "Cinemacenter cartelera Tucumán"
+        }
+      },
+      {
+        "id": "cinemacenter-tucuman-hechizo-bienvenidos-a-hexe-3d-cast",
+        "source": "cinemacenter",
+        "source_url": "https://www.cinemacenter.com.ar/cartelera#contenido",
+        "cinema": "Cinemacenter Tucumán",
+        "city": "San Miguel de Tucumán",
+        "title": "HECHIZO: BIENVENIDOS A HEXE",
+        "status": "cartelera_vigente",
+        "format": "3D",
+        "language": "CAST",
+        "week_start": "2026-11-26",
+        "week_end": "2026-12-02",
+        "schedule": {
+          "jueves": [
+            "17:00"
+          ],
+          "viernes": [
+            "17:00"
+          ],
+          "sábado": [
+            "17:00"
+          ],
+          "domingo": [
+            "17:00"
+          ],
+          "lunes": [
+            "17:00"
+          ],
+          "martes": [
+            "17:00"
+          ],
+          "miércoles": [
+            "17:00"
+          ]
+        },
+        "occurrences": [
+          {
+            "date": "2026-11-26",
+            "time": "17:00",
+            "datetime": "2026-11-26T17:00:00",
+            "weekday": "jueves"
+          },
+          {
+            "date": "2026-11-27",
+            "time": "17:00",
+            "datetime": "2026-11-27T17:00:00",
+            "weekday": "viernes"
+          },
+          {
+            "date": "2026-11-28",
+            "time": "17:00",
+            "datetime": "2026-11-28T17:00:00",
+            "weekday": "sábado"
+          },
+          {
+            "date": "2026-11-29",
+            "time": "17:00",
+            "datetime": "2026-11-29T17:00:00",
+            "weekday": "domingo"
+          },
+          {
+            "date": "2026-11-30",
+            "time": "17:00",
+            "datetime": "2026-11-30T17:00:00",
+            "weekday": "lunes"
+          },
+          {
+            "date": "2026-12-01",
+            "time": "17:00",
+            "datetime": "2026-12-01T17:00:00",
+            "weekday": "martes"
+          },
+          {
+            "date": "2026-12-02",
+            "time": "17:00",
+            "datetime": "2026-12-02T17:00:00",
+            "weekday": "miércoles"
+          }
+        ],
+        "cinemacenter_movie_id": 6132,
+        "metadata": {
+          "title": "HECHIZO: BIENVENIDOS A HEXE - 2D CAST",
+          "original_title": null,
+          "year": 2026,
+          "release_date": "2026-11-26",
+          "duration_minutes": 109,
+          "genres": [
+            "Animación"
+          ],
+          "director": [
+            "Fawn Veerasunthorn",
+            "Jason Hand"
+          ],
+          "cast": [
+            "Hailee Steinfeld",
+            "Rashida Jones",
+            "Tracey Ullman",
+            "Stephen Fry"
+          ],
+          "synopsis": "Una adolescente torpe y su madre aprenden que sus peculiaridades podrían ser poderes mágicos, transformando sus vidas y revelando un reino mágico oculto.",
+          "poster": "https://www.cinemacenter.com.ar/img_movies/3581_img2.jpg",
+          "classification": "G - Audiencia General",
+          "nationality": "Estados Unidos",
+          "distributor": "Disney",
+          "trailer": "https://www.youtube.com/embed/aew6VXYxYtg",
+          "source_url": "https://www.cinemacenter.com.ar/ficha/6132-HECHIZO-BIENVENIDOS-A-HEXE---2D-CAST",
+          "source": "Cinemacenter",
+          "trailer_source": "iframe",
+          "metadata_missing": [],
+          "metadata_unavailable_on_source": [
+            "original_title"
+          ],
+          "metadata_warnings": [
+            "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
+            "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+          ],
+          "metadata_status": "complete_source",
+          "cinemacenter_movie_id": 6132,
           "cinemacenter_cinema_id": null,
           "cinemacenter_city_id": 13,
           "cinemacenter_ficha_source": "direct_ficha_link",
@@ -783,9 +1413,9 @@
   ],
   "mi_boleteria_url": "https://www.miboleteria.com.ar",
   "summary": {
-    "cartelera_total": 9,
-    "metadata_con_movie_id": 9,
-    "metadata_ok": 9,
+    "cartelera_total": 8,
+    "metadata_con_movie_id": 8,
+    "metadata_ok": 8,
     "metadata_failures": 0,
     "metadata_source": "Cinemacenter-only",
     "failures": []

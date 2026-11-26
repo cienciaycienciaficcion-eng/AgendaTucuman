@@ -1,94 +1,13 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-25T18:48:36.609169-03:00",
+  "generated_at": "2026-11-26T05:37:43.869801-03:00",
   "source_policy": "Cinemacenter-only",
   "movies": [
     {
-      "title": "WILDWOOD: EL BOSQUE SALVAJE - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-11-25",
-      "duration_minutes": 130,
-      "genres": [
-        "Animación Aventuras"
-      ],
-      "director": [
-        "Travis Knight"
-      ],
-      "cast": [
-        "Peyton Elizabeth Lee",
-        "Jacob Tremblay",
-        "Carey Mulliga"
-      ],
-      "synopsis": "La trama sigue a Prue McKeel y a su compañero de clase Curtis Mehlberg cuando se ven arrastrados a un bosque mágico oculto en un intento de salvar a Mac, el hermano pequeño de Prue que ha sido secuestrado, de los cuervos liderados por una misteriosa mujer llamada Alexandra.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3614_img2.jpg",
-      "classification": "SP - Supervisión Parental sugerida",
-      "nationality": "Estados Unidos",
-      "distributor": "Imagen Films",
-      "trailer": "https://www.youtube.com/embed/d-pcACsvl10",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6073-WILDWOOD-EL-BOSQUE-SALVAJE---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 29 de Octubre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6073,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
       "title": "EL GATO CON SOMBRERO - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-25",
-      "duration_minutes": 114,
-      "genres": [
-        "Animación Familiar"
-      ],
-      "director": [
-        "Alessandro Carloni",
-        "Erica Rivinoja"
-      ],
-      "cast": [],
-      "synopsis": "¡Conoce al Gato con Sombrero que no conocías! En la maravillosa y fantástica tradición de Dr. Seuss, El Gato con Sombrero llega a la pantalla grande en su debut en película animada, una aventura épica y completamente nueva, con un toque rebelde, donde la travesura, la magia y el caos gobiernan por completo.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3269_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Estados Unidos",
-      "distributor": "WARNER BROS.",
-      "trailer": "https://www.youtube.com/embed/jcAbu9R07WI",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6078-EL-GATO-CON-SOMBRERO---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [
-        "cast"
-      ],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 5 de Noviembre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "partial_source",
-      "cinemacenter_movie_id": 6078,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "EL GATO CON SOMBRERO - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-11-25",
+      "release_date": "2026-11-26",
       "duration_minutes": 114,
       "genres": [
         "Animación Familiar"
@@ -128,7 +47,7 @@
       "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-25",
+      "release_date": "2026-11-26",
       "duration_minutes": 158,
       "genres": [
         "Acción Ciencia Ficción"
@@ -172,36 +91,35 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "EBENEZER: LOS FANTASMAS DE NAVIDAD - 2D CAST",
+      "title": "LOS JUEGOS DEL HAMBRE: AMANECER EN LA COSECHA - 2D SUB",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-25",
-      "duration_minutes": 115,
+      "release_date": "2026-11-26",
+      "duration_minutes": 158,
       "genres": [
-        "Fantasía"
+        "Acción Ciencia Ficción"
       ],
       "director": [
-        "Ti West"
+        "Francis Lawrence"
       ],
       "cast": [
-        "Johnny Depp",
-        "Andrea Riseborough",
-        "Ian McKellen",
-        "Tramell Tillman",
-        "Daisy Ridley",
-        "Rupert Grint",
-        "Sam Claflin",
-        "Charlie Murphy",
-        "Arthur Conti",
-        "Ellie Bamber."
+        "Joseph Zada como Haymitch Abernathy",
+        "Kieran Culkin como Caesar Flickerman (versión joven del icónico presentador)",
+        "Elle Fanning como Effie Trinket joven",
+        "Ralph Fiennes como Presidente Coriolanus Snow",
+        "Jesse Plemons como Plutarch Heavensbee",
+        "Maya Hawke como Wiress",
+        "Ben Wang como Wyatt Callow",
+        "Glenn Close como Drusilla Sickle",
+        "Mckenna Grace como Maysilee Donner."
       ],
-      "synopsis": "Una emocionante historia de fantasmas ambientada en el Londres de Dickens, que sigue el viaje sobrenatural de un hombre para enfrentar su pasado, presente y futuro mientras lucha por una segunda oportunidad de redención.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3605_img2.jpg",
-      "classification": "SP - Supervisión Parental sugerida",
+      "synopsis": "Mucho antes de que Katniss Everdeen se ofreciera como tributo, existió otro sobreviviente. La historia nos lleva 24 años antes de los eventos de la saga original, al amanecer del día de la cosecha de los 50° Juegos del Hambre, conocidos como el Second Quarter Quell. En esta edición especial, el Capitolio impone una regla brutal: cada distrito deberá enviar el doble de tributos, convirtiendo la arena en el espectáculo más cruel jamás visto. Entre los elegidos está Haymitch Abernathy, un joven del Distrito 12 que deberá usar su inteligencia y astucia para sobrevivir en un juego diseñado para destruirlos a todos. Pero incluso si logra ganar descubrirá que en los Juegos del Hambre la victoria también tiene un precio.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3408_img2.jpg",
+      "classification": "R13 - Restringida para menores de 13 años",
       "nationality": "Estados Unidos",
-      "distributor": "UIP",
-      "trailer": "https://www.youtube.com/embed/TKz2QyzSnFY",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6108-EBENEZER-LOS-FANTASMAS-DE-NAVIDAD---2D-CAST",
+      "distributor": "BF + Paris Films",
+      "trailer": "https://www.youtube.com/embed/bHBmT6yWWvc",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6091-LOS-JUEGOS-DEL-HAMBRE-AMANECER-EN-LA-COSECHA---2D-SUB",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -209,54 +127,11 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6108,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "PLUMAS OPERACION RESCATE - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-11-25",
-      "duration_minutes": 85,
-      "genres": [
-        "Animación"
-      ],
-      "director": [
-        "Dong Long",
-        "Nigel W. Tierney"
-      ],
-      "cast": [
-        "Liu Xingzuo",
-        "Xingliner",
-        "Chen Hao",
-        "Park Shi-yoon"
-      ],
-      "synopsis": "Un joven águila criado por gallinas abandona el hogar para descubrir su verdadera identidad. Al encontrar su familia de águilas y propósito con la Fuerza Emplumada, ignora una siniestra trama que se gesta en la ciudad cercana.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3687_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Tailandia",
-      "distributor": "Zennit",
-      "trailer": null,
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6111-PLUMAS-OPERACION-RESCATE---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": null,
-      "metadata_missing": [],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 12 de Noviembre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6111,
+      "cinemacenter_movie_id": 6091,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -266,7 +141,7 @@
       "title": "YO SOY ROCKY - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-25",
+      "release_date": "2026-11-26",
       "duration_minutes": 127,
       "genres": [
         "Biográfica"
@@ -311,66 +186,34 @@
       "release_date_source": "Cinemacenter cartelera Tucumán"
     },
     {
-      "title": "RECEN POR MI - 2D CAST",
+      "title": "LA NUEVA FOCKER - 2D CAST",
       "original_title": null,
       "year": 2026,
-      "release_date": "2026-11-25",
-      "duration_minutes": 110,
+      "release_date": "2026-11-26",
+      "duration_minutes": 105,
       "genres": [
-        "Documental"
+        "Comedia Familiar"
       ],
       "director": [
-        "Facundo Bartucci"
-      ],
-      "cast": [],
-      "synopsis": "Recen por mí: la historia de Francisco es un documental que narra la vida del Papa Francisco, poniendo el foco en su labor social y humanitaria. La película revela una figura profundamente comprometida con las causas de los pobres, los marginados y los olvidados, desde su juventud en la Argentina hasta su rol como líder espiritual en el escenario global. Con material de archivo exclusivo y su testimonio personal, esta biografía revela un retrato íntimo de un líder espiritual cuya voz e ideales siguen conmoviendo al mundo entero.",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3673_img2.jpg",
-      "classification": "G - Audiencia General",
-      "nationality": "Argentina",
-      "distributor": "Moving Pics",
-      "trailer": "https://www.youtube.com/embed/lWSHNKlqkxE",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6122-RECEN-POR-MI---2D-CAST",
-      "source": "Cinemacenter",
-      "trailer_source": "iframe",
-      "metadata_missing": [
-        "cast"
-      ],
-      "metadata_unavailable_on_source": [
-        "original_title"
-      ],
-      "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
-        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
-      ],
-      "metadata_status": "partial_source",
-      "cinemacenter_movie_id": 6122,
-      "cinemacenter_cinema_id": null,
-      "cinemacenter_city_id": 13,
-      "cinemacenter_ficha_source": "direct_ficha_link",
-      "release_date_source": "Cinemacenter cartelera Tucumán"
-    },
-    {
-      "title": "LA ASISTENTE DE LA MORGUE - 2D CAST",
-      "original_title": null,
-      "year": 2026,
-      "release_date": "2026-11-25",
-      "duration_minutes": 94,
-      "genres": [
-        "Terror Suspenso"
-      ],
-      "director": [
-        "Jeremiah Kipp"
+        "John Hamburg"
       ],
       "cast": [
-        "Willa Holland Paul Sparks John Adams"
+        "Robert De Niro",
+        "Ben Stiller",
+        "Ariana Grande",
+        "Owen Wilson",
+        "Blythe Danner",
+        "Teri Polo",
+        "Skyler Gisondo",
+        "Liza Koshy"
       ],
-      "synopsis": "Rebecca Owens, una licenciada en ciencias mortuorias que acepta un trabajo nocturno en la funeraria River Fields. Lo que comienza como un trabajo rutinario pronto se vuelve siniestro al enfrentarse a terroríficas fuerzas sobrenaturales",
-      "poster": "https://www.cinemacenter.com.ar/img_movies/3508_img2.jpg",
-      "classification": "R17 - Restringida para menores de 17 años",
+      "synopsis": "Diez años después de los últimos eventos, los papeles se invierten y Greg Focker (Ben Stiller) se enfrenta a su mayor reto: ser el suegro. Cuando su hijo Henry anuncia su compromiso, Greg intenta ser el patriarca comprensivo que nunca tuvo, pero la presión hace que afloren en él inseguridades y termina recurriendo a las tácticas de espionaje y paranoia que aprendió del mismísimo Jack Byrnes (Robert De Niro)... Cuarta entrega de la saga \"Los padres de ella\".",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3546_img2.jpg",
+      "classification": "G - Audiencia General",
       "nationality": "Estados Unidos",
-      "distributor": "Terrorífico Films",
-      "trailer": "https://www.youtube.com/embed/NXq2FW9-1Ys",
-      "source_url": "https://www.cinemacenter.com.ar/ficha/6123-LA-ASISTENTE-DE-LA-MORGUE---2D-CAST",
+      "distributor": "UIP",
+      "trailer": "https://www.youtube.com/embed/eCpW1ykb6js",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6129-LA-NUEVA-FOCKER---2D-CAST",
       "source": "Cinemacenter",
       "trailer_source": "iframe",
       "metadata_missing": [],
@@ -378,11 +221,143 @@
         "original_title"
       ],
       "metadata_warnings": [
-        "Fecha de estreno de Cinemacenter no válida: Jueves 19 de Noviembre de 2026",
+        "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
         "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
       ],
       "metadata_status": "complete_source",
-      "cinemacenter_movie_id": 6123,
+      "cinemacenter_movie_id": 6129,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "LA NUEVA FOCKER - 2D SUB",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-11-26",
+      "duration_minutes": 105,
+      "genres": [
+        "Comedia Familiar"
+      ],
+      "director": [
+        "John Hamburg"
+      ],
+      "cast": [
+        "Robert De Niro",
+        "Ben Stiller",
+        "Ariana Grande",
+        "Owen Wilson",
+        "Blythe Danner",
+        "Teri Polo",
+        "Skyler Gisondo",
+        "Liza Koshy"
+      ],
+      "synopsis": "Diez años después de los últimos eventos, los papeles se invierten y Greg Focker (Ben Stiller) se enfrenta a su mayor reto: ser el suegro. Cuando su hijo Henry anuncia su compromiso, Greg intenta ser el patriarca comprensivo que nunca tuvo, pero la presión hace que afloren en él inseguridades y termina recurriendo a las tácticas de espionaje y paranoia que aprendió del mismísimo Jack Byrnes (Robert De Niro)... Cuarta entrega de la saga \"Los padres de ella\".",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3546_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Estados Unidos",
+      "distributor": "UIP",
+      "trailer": "https://www.youtube.com/embed/eCpW1ykb6js",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6130-LA-NUEVA-FOCKER---2D-SUB",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6130,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "HECHIZO: BIENVENIDOS A HEXE - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-11-26",
+      "duration_minutes": 109,
+      "genres": [
+        "Animación"
+      ],
+      "director": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "cast": [
+        "Hailee Steinfeld",
+        "Rashida Jones",
+        "Tracey Ullman",
+        "Stephen Fry"
+      ],
+      "synopsis": "Una adolescente torpe y su madre aprenden que sus peculiaridades podrían ser poderes mágicos, transformando sus vidas y revelando un reino mágico oculto.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3581_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Estados Unidos",
+      "distributor": "Disney",
+      "trailer": "https://www.youtube.com/embed/aew6VXYxYtg",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6132-HECHIZO-BIENVENIDOS-A-HEXE---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6132,
+      "cinemacenter_cinema_id": null,
+      "cinemacenter_city_id": 13,
+      "cinemacenter_ficha_source": "direct_ficha_link",
+      "release_date_source": "Cinemacenter cartelera Tucumán"
+    },
+    {
+      "title": "HECHIZO: BIENVENIDOS A HEXE - 2D CAST",
+      "original_title": null,
+      "year": 2026,
+      "release_date": "2026-11-26",
+      "duration_minutes": 109,
+      "genres": [
+        "Animación"
+      ],
+      "director": [
+        "Fawn Veerasunthorn",
+        "Jason Hand"
+      ],
+      "cast": [
+        "Hailee Steinfeld",
+        "Rashida Jones",
+        "Tracey Ullman",
+        "Stephen Fry"
+      ],
+      "synopsis": "Una adolescente torpe y su madre aprenden que sus peculiaridades podrían ser poderes mágicos, transformando sus vidas y revelando un reino mágico oculto.",
+      "poster": "https://www.cinemacenter.com.ar/img_movies/3581_img2.jpg",
+      "classification": "G - Audiencia General",
+      "nationality": "Estados Unidos",
+      "distributor": "Disney",
+      "trailer": "https://www.youtube.com/embed/aew6VXYxYtg",
+      "source_url": "https://www.cinemacenter.com.ar/ficha/6132-HECHIZO-BIENVENIDOS-A-HEXE---2D-CAST",
+      "source": "Cinemacenter",
+      "trailer_source": "iframe",
+      "metadata_missing": [],
+      "metadata_unavailable_on_source": [
+        "original_title"
+      ],
+      "metadata_warnings": [
+        "Fecha de estreno de Cinemacenter no válida: Jueves 26 de Noviembre de 2026",
+        "La fecha de estreno de la ficha no se utiliza; se usa la primera fecha de cartelera de Tucumán."
+      ],
+      "metadata_status": "complete_source",
+      "cinemacenter_movie_id": 6132,
       "cinemacenter_cinema_id": null,
       "cinemacenter_city_id": 13,
       "cinemacenter_ficha_source": "direct_ficha_link",
@@ -422,9 +397,9 @@
     }
   ],
   "summary": {
-    "total": 9,
-    "complete_source": 6,
-    "partial_source": 3,
+    "total": 8,
+    "complete_source": 7,
+    "partial_source": 1,
     "without_metadata": 0,
     "upcoming_with_metadata": 0,
     "proximos_estrenos_conservados": 1
