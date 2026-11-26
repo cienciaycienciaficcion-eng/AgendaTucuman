@@ -818,6 +818,175 @@
     "summary_source_hash": "c4d545c802d0c528f725c35a78ee6a6f03289e0bf847ff39b990d2a9cce3e2be"
   },
   {
+    "id": "47806",
+    "source": "MEC",
+    "title": "26 de Noviembre | Nancy Pedro y Gallego Estrada rinden homenaje a Mercedes Sosa en una cena show en Tafí Viejo",
+    "url": "https://agendatucuman.com.ar/eventos/26-de-noviembre-nancy-pedro-y-gallego-estrada-rinden-homenaje-a-mercedes-sosa-en-una-cena-show-en-tafi-viejo/",
+    "date_start": "2026-11-26",
+    "date_end": "2026-11-26",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-26T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Folclore, buena mesa y el recuerdo de la Negra. Este jueves 26 de noviembre, desde las 22, el restaurante Perdido en las Cerrazones, en el Hotel Atahualpa Yupanqui de Tafí Viejo, presenta una nueva edición de su Cena Show, esta vez dedicada a Mercedes Sosa. Un homenaje a la cantora tucumana La velada tendrá la música en vivo de Nancy Pedro y Gallego Estrada, que recorrerán las raíces de la música popular argentina con un repertorio pensado para rendir tributo a una de las máximas referentes del folclore. Gastronomía y canciones para compartir La propuesta combina cena y música en un ambiente cálido, ideal para una salida distinta entre amigos, en pareja o en familia, con el legado de Mercedes Sosa sonando en cada canción. Cómo reservar Los lugares se consiguen reservando la mesa con anticipación al 3814582731. Si querés despedir el jueves con folclore del bueno y una mesa servida, reservá tu lugar y dejate llevar por las canciones de la Negra en Tafí Viejo.\n\nQué hacer en tucumán este fin de semana qué: Cena Show homenaje a Mercedes Sosa, con Nancy Pedro y Gallego Estrada Cuándo: jueves 26 de noviembre, 22 h Dónde: Restaurante Perdido en las Cerrazones, Hotel Atahualpa Yupanqui (Paysandú 2400, Tafí Viejo) Reservas: 3814582731 Fuente: Municipalidad de Tafí Viejo – tafiviejo.gob.ar/noticia/hosteria-atahualpa-yupanqui/136615/cena-show-brindaran-homenaje-mercedes-sosa",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Cena Show homenaje a Mercedes Sosa, con Nancy Pedro y Gallego Estrada Cuándo: jueves 26 de noviembre, 22 h Dónde: Restaurante Perdido en las Cerrazones, Hotel Atahualpa Yupanqui (Paysandú 2400, Tafí Viejo) Reservas: 3814582731 Fuente: Municipalidad de Tafí Viejo – tafiviejo.gob.ar/noticia/hosteria-atahualpa-yupanqui/136615/cena-show-brindaran-homenaje-mercedes-sosa"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/cena-show-mercedes-sosa.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Hotel Atahualpa Yupanqui",
+    "address": "Tafí Viejo, Tucumán",
+    "city": "Tafí Viejo",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3814582731"
+    ],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Hotel+Atahualpa+Yupanqui%2C+Taf%C3%AD+Viejo%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-26",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-26T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-26",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Disfrutá de una cena show en homenaje a Mercedes Sosa con la música en vivo de Nancy Pedro y Gallego Estrada. La cita es el jueves 26 de noviembre a las 22 horas en el restaurante Perdido en las Cerrazones, ubicado en el Hotel Atahualpa Yupanqui de Tafí Viejo. Los lugares se reservan con anticipación comunicándose al 3814582731.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "2c75c9a06f8a0a1c23c7ffab766a18b7157e3cded72a7a0013b506d3eb4c4df8"
+  },
+  {
+    "id": "47855",
+    "source": "MEC",
+    "title": "27, 28 y 29 de Noviembre | Las ferias municipales llenan de sabores, artesanías y emprendimientos los parques y plazas de la ciudad",
+    "url": "https://agendatucuman.com.ar/eventos/27-28-y-29-de-noviembre-las-ferias-municipales-llenan-de-sabores-artesanias-y-emprendimientos-los-parques-y-plazas-de-la-ciudad/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-29",
+    "time_start": "16:00",
+    "time_end": "00:00",
+    "start_datetime": "2026-11-27T16:00:00-03:00",
+    "end_datetime": "2026-11-29T00:00:00-03:00",
+    "description": "Si estás buscando un plan para este fin de semana largo de noviembre, las ferias municipales de San Miguel de Tucumán son una gran opción para salir a pasear, comer rico y apoyar a los productores locales. Del viernes 27 al domingo 29, gastronómicos, artesanos y emprendedores se instalarán en el Parque El Provincial, el Parque Avellaneda, la Plaza Independencia, la Plaza Libertad y el barrio Manantial Sur, con propuestas para toda la familia. La programación, organizada por la Municipalidad de San Miguel de Tucumán, combina ferias de diseño, artesanías, comida gourmet y paseos gastronómicos, en horarios que se extienden hasta la medianoche en la mayoría de los casos. Ideal para aprovechar las noches de calor y recorrer la ciudad al aire libre. Sábado en el Parque El Provincial El sábado 28 de noviembre, de 18 a 00 h, la Feria de Emprendedores se instala en el predio de avenida Roca y Chacabuco. Una buena ocasión para descubrir marcas locales, productos de diseño y propuestas originales para regalar o darse un gusto. Artesanías y cocina gourmet en el Parque Avellaneda El sábado 28 y el domingo 29, de 18 a 00 h, el Parque Avellaneda reúne dos ferias en simultáneo: Feria de Artesanos: sobre avenida Mate de Luna y la caminería central del parque. Feria Gourmet: sobre calle Asunción, con opciones gastronómicas para cenar o picar algo mientras se recorren los puestos. Domingo a pleno en la Plaza Independencia El corazón de la ciudad será el punto de encuentro del domingo 29 de noviembre, con tres propuestas que arrancan desde la tarde: Feria Parque 9 de Julio: de 15.30 a 00 h, sobre calle 24 de Septiembre y Laprida. Feria Paseo Gastronómico: de 16 a 00 h, sobre calle 24 de Septiembre al 300. Feria de Emprendedores: de 16.45 a 00 h, sobre calle 24 de Septiembre y Laprida. Manos que Crean en la Plaza Libertad El viernes 27 y el sábado 28 de noviembre, de 18 a 21.30 h, la Feria Manos que Crean se instala en la Plaza Libertad, sobre calle Alberdi y Las Piedras. La propuesta reúne artesanías, gastronomía y productos locales elaborados por familias emprendedoras de Casa Azul, una linda manera de comprar con sentido solidario. Feria en el barrio Manantial Sur La Feria Manantial Sur – 2500 Viviendas funcionará el sábado 28 y el domingo 29 de noviembre, de 18 a 22 h, sobre avenida Palavecino, entre Constitución y Pueyrredón, acercando la propuesta ferial a los vecinos de la zona sur. Un plan para disfrutar al aire libre Elegí tu feria favorita, armá la salida con amigos o en familia y date una vuelta por los parques y plazas de la ciudad. Comprar en las ferias es una forma concreta de acompañar a los emprendedores y artesanos tucumanos, y de paso disfrutar de la noche tucumana con buena comida y buena compañía. ¡No te lo pierdas! Resumen:\n\nQué: Ferias municipales de emprendedores, artesanos y gastronomía. Cuándo: viernes 27, sábado 28 y domingo 29 de noviembre. Parque El Provincial (Roca y Chacabuco): Feria de Emprendedores, sábado 28, de 18 a 00 h. Parque Avellaneda: Feria de Artesanos (Mate de Luna y caminería central) y Feria Gourmet (calle Asunción), sábado 28 y domingo 29, de 18 a 00 h. Plaza Independencia: domingo 29. Feria Parque 9 de Julio desde las 15.30 h, Paseo Gastronómico desde las 16 h y Feria de Emprendedores desde las 16.45 h, todas hasta las 00 h. Plaza Libertad (Alberdi y Las Piedras): Feria Manos que Crean, viernes 27 y sábado 28, de 18 a 21.30 h. Barrio Manantial Sur (Av. Palavecino, entre Constitución y Pueyrredón): sábado 28 y domingo 29, de 18 a 22 h. Organiza: Municipalidad de San Miguel de Tucumán. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán (comunicacionsmt.gob.ar)",
+    "highlighted_metadata": {
+      "qué": "Ferias municipales de emprendedores, artesanos y gastronomía. Cuándo: viernes 27, sábado 28 y domingo 29 de noviembre. Parque El Provincial (Roca y Chacabuco): Feria de Emprendedores, sábado 28, de 18 a 00 h. Parque Avellaneda: Feria de Artesanos (Mate de Luna y caminería central) y Feria Gourmet (calle Asunción), sábado 28 y domingo 29, de 18 a 00 h. Plaza Independencia: domingo 29. Feria Parque 9 de Julio desde las 15.30 h, Paseo Gastronómico desde las 16 h y Feria de Emprendedores desde las 16.45 h, todas hasta las 00 h. Plaza Libertad (Alberdi y Las Piedras): Feria Manos que Crean, viernes 27 y sábado 28, de 18 a 21.30 h. Barrio Manantial Sur (Av. Palavecino, entre Constitución y Pueyrredón): sábado 28 y domingo 29, de 18 a 22 h. Organiza: Municipalidad de San Miguel de Tucumán. Fuente: Dirección de Comunicación de la Municipalidad de San Miguel de Tucumán (comunicacionsmt.gob.ar)"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/ferias-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "mayoría de los casos",
+    "address": "Asunción), sábado 28",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Municipalidad de San Miguel de Tucumán",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=mayor%C3%ADa+de+los+casos%2C+Asunci%C3%B3n%29%2C+s%C3%A1bado+28%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "16:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-11-27T16:00:00-03:00",
+        "end_datetime": "2026-11-27T00:00:00-03:00"
+      },
+      {
+        "date": "2026-11-28",
+        "time_start": "16:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-11-28T16:00:00-03:00",
+        "end_datetime": "2026-11-28T00:00:00-03:00"
+      },
+      {
+        "date": "2026-11-29",
+        "time_start": "16:00",
+        "time_end": "00:00",
+        "start_datetime": "2026-11-29T16:00:00-03:00",
+        "end_datetime": "2026-11-29T00:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "narrative",
+        "score": 0.65
+      },
+      "overall": 0.91
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "16:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "narrative",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Del 27 al 29 de noviembre, las ferias municipales llenarán de diseño, artesanías y gastronomía distintos parques y plazas de San Miguel de Tucumán. Participarán emprendedores y artesanos locales con propuestas al aire libre para toda la familia en horarios que se extienden hasta la medianoche en la mayoría de los casos.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b81c49f4ca885ddb4244474c32572940cd551f528f5cf11499f810cd8d74e29f"
+  },
+  {
     "id": "47740",
     "source": "MEC",
     "title": "27 de Noviembre | Andu_art dicta un taller a la gorra de stickers caseros en La Veleta",
@@ -966,6 +1135,82 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "bd2dc295a4830774f42e8c23c1645117976ad903a2d39963bef93eff0c9f5024"
+  },
+  {
+    "id": "47815",
+    "source": "MEC",
+    "title": "27 de Noviembre | «SMT con acento francés»: el Bus Turístico recorre la huella francesa de la ciudad",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-smt-con-acento-frances-el-bus-turistico-recorre-la-huella-francesa-de-la-ciudad/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "19:30",
+    "time_end": "",
+    "start_datetime": "2026-11-27T19:30:00-03:00",
+    "end_datetime": "",
+    "description": "La ciudad tiene acento francés y se puede recorrer en bus. El viernes 27 de noviembre, a las 19:30, sale el paseo «SMT con acento francés», organizado por la Municipalidad junto a la Alianza Francesa de Tucumán. La influencia francesa en Tucumán A bordo del Bus Turístico, los participantes conocerán la influencia francesa en la historia, la arquitectura y el patrimonio de San Miguel de Tucumán. Intervenciones artísticas El recorrido suma intervenciones artísticas en distintas paradas. Cómo anotarse La salida es desde calle Laprida primera cuadra. Hay que inscribirse previamente en el sitio del Bus Turístico de la Municipalidad. Se suspende por lluvia. Anotate a tiempo y descubrí otra cara de la ciudad el viernes a la noche.\n\nQué hacer en tucumán este fin de semana qué: paseo turístico «SMT con acento francés» Cuándo: viernes 27 de noviembre, 19:30 Dónde: salida desde Laprida primera cuadra (Plaza Independencia) Inscripción: sitio del Bus Turístico SMT; se suspende por lluvia Organizan: Municipalidad de San Miguel de Tucumán y Alianza Francesa Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "paseo turístico «SMT con acento francés» Cuándo: viernes 27 de noviembre, 19:30 Dónde: salida desde Laprida primera cuadra (Plaza Independencia) Inscripción: sitio del Bus Turístico SMT; se suspende por lluvia Organizan: Municipalidad de San Miguel de Tucumán y Alianza Francesa Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt-acento-frances.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Parada del Bus Turístico SMT - Plaza Independencia",
+    "address": "Laprida 50, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "Municipalidad de San Miguel de Tucumán y Alianza Francesa Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Parada+del+Bus+Tur%C3%ADstico+SMT+-+Plaza+Independencia%2C+Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "19:30",
+        "time_end": "",
+        "start_datetime": "2026-11-27T19:30:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "19:30",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre a las 19:30 se realizará el paseo en bus turístico SMT con acento francés para conocer la influencia de Francia en la historia y arquitectura local. La salida será desde la parada de Plaza Independencia (Laprida 50) e incluirá intervenciones artísticas. Requiere inscripción previa en el sitio web del Bus Turístico y se suspende por lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "d5b2cde6df976e60dc8a746c707e316916bfb3d56beb69f22253687d32f615ba"
   },
   {
     "id": "47737",
@@ -1200,6 +1445,390 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "97ed5bd7a1c247594452457e70466eeba8182b8d99b6911ef46c9976241c9649"
+  },
+  {
+    "id": "47821",
+    "source": "MEC",
+    "title": "27 de Noviembre | El Teatro Rosita Ávila proyecta gratis «Ensayo sobre la vejez», de Valeria Sampedro y Daniel Raichijk",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-el-teatro-rosita-avila-proyecta-gratis-ensayo-sobre-la-vejez-de-valeria-sampedro-y-daniel-raichijk/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un documental para mirar de frente el paso del tiempo. El viernes 27 de noviembre, a las 21, el Teatro Municipal Rosita Ávila proyecta «Ensayo sobre la vejez», de Valeria Sampedro y Daniel Raichijk. Las voces de la experiencia La película propone escuchar a quienes ya transitan la vejez y reflexionar sobre esta etapa de la vida. Entradas sin costo La entrada es gratuita hasta completar el aforo. Hay que retirarla en la boletería del teatro, en Las Piedras 1550, con un máximo de dos por persona. La boletería abre de lunes a viernes de 9 a 18 y los días de función desde las 17. Cine documental en el Rosita Una buena oportunidad para ver cine argentino en pantalla grande y compartir la charla a la salida. Retirá tu entrada con tiempo y sumate el viernes a esta función.\n\nQué hacer en tucumán este fin de semana qué: «Ensayo sobre la vejez», documental de Valeria Sampedro y Daniel Raichijk Cuándo: viernes 27 de noviembre, 21 h Dónde: Teatro Municipal Rosita Ávila (Las Piedras 1550) Entrada: gratis, retirar en boletería (hasta dos por persona) Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "«Ensayo sobre la vejez», documental de Valeria Sampedro y Daniel Raichijk Cuándo: viernes 27 de noviembre, 21 h Dónde: Teatro Municipal Rosita Ávila (Las Piedras 1550) Entrada: gratis, retirar en boletería (hasta dos por persona) Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/03/teatro-rosita-avila-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1500, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1500%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre a las 21 se proyectará el documental «Ensayo sobre la vejez», dirigido por Valeria Sampedro y Daniel Raichijk. La función será en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1550, San Miguel de Tucumán. La entrada es gratuita hasta completar el aforo y se debe retirar previamente en la boletería del teatro, con un máximo de dos por persona.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "7e8768b970c922ba90d9c6b344243456ca4b5fd7c6b62688d92d0f129cdb9433"
+  },
+  {
+    "id": "47811",
+    "source": "MEC",
+    "title": "27 de Noviembre | El dúo La Yunta llega a la Casa de la Cultura de Yerba Buena con los Recitales SADAIC",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-el-duo-la-yunta-llega-a-la-casa-de-la-cultura-de-yerba-buena-con-los-recitales-sadaic/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Música en vivo y en un clima cercano. Este viernes 27 de noviembre, a las 21, el dúo La Yunta se presenta en la Casa de la Cultura de Yerba Buena como parte de los Recitales SADAIC, con entrada libre y gratuita. Los Recitales SADAIC siguen sumando fechas El ciclo, que acerca músicos y autores a los espacios culturales, suma una nueva noche en la Casa del Bicentenario, esta vez con las canciones de La Yunta. Un show íntimo La propuesta invita a disfrutar del repertorio del dúo en un formato cercano, ideal para escuchar de cerca y compartir una noche de música. Dónde queda La Casa de la Historia y la Cultura del Bicentenario está en Higueritas 1850, en Yerba Buena. Si buscás un plan gratis para arrancar el fin de semana con música, el viernes la cita es en la Casa de la Cultura.\n\nQué hacer en tucumán este fin de semana qué: La Yunta en los Recitales SADAIC Cuándo: viernes 27 de noviembre, 21 h Dónde: Casa de la Cultura de Yerba Buena (Higueritas 1850) Entrada: libre y gratuita Fuente: Cultura Yerba Buena – instagram.com/p/DgNMZfSuisM/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "La Yunta en los Recitales SADAIC Cuándo: viernes 27 de noviembre, 21 h Dónde: Casa de la Cultura de Yerba Buena (Higueritas 1850) Entrada: libre y gratuita Fuente: Cultura Yerba Buena – instagram.com/p/DgNMZfSuisM/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/la-yunta-yerba-buena.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura de Yerba Buena",
+    "address": "Las Higueritas 1850, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+de+Yerba+Buena%2C+Las+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El dúo La Yunta se presentará en vivo en el marco de los Recitales SADAIC. El show íntimo se realizará el viernes 27 de noviembre a las 21 horas en la Casa de la Cultura de Yerba Buena, ubicada en Las Higueritas 1850. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "979f930b308c6c44377f9558ba37681c0fafe6bf8a1fc055facbec5e3858307e"
+  },
+  {
+    "id": "47813",
+    "source": "MEC",
+    "title": "27 de Noviembre | El taller Pulso Im-Perfecto estrena «Casi desconocidos» en la Sociedad Sirio Libanesa",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-el-taller-pulso-im-perfecto-estrena-casi-desconocidos-en-la-sociedad-sirio-libanesa/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Estreno teatral en el centro. El viernes 27 de noviembre, a las 21, el Taller de Teatro Pulso Im-Perfecto estrena «Casi desconocidos» en la Sociedad Sirio Libanesa, con dirección general de Soledad Berrondo. Risas y emociones La obra promete un elenco cargado de humor, emociones y momentos para disfrutar sobre el escenario. Un taller que sube a escena El estreno es el resultado del trabajo del taller Pulso Im-Perfecto, que lleva a la sala de Maipú 575 su propuesta de fin de año. Cómo conseguir entradas Las reservas se hacen por WhatsApp al 3814189627. Si te gusta el teatro y querés acompañar un estreno, escribí y asegurá tu lugar para el viernes.\n\nQué hacer en tucumán este fin de semana qué: estreno de «Casi desconocidos», Taller de Teatro Pulso Im-Perfecto Cuándo: viernes 27 de noviembre, 21 h Dónde: Sociedad Sirio Libanesa (Maipú 575) Dirección: Soledad Berrondo Entradas: WhatsApp 3814189627 Fuente: Sociedad Sirio Libanesa de Tucumán – instagram.com/p/DgMkVezShM4/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "estreno de «Casi desconocidos», Taller de Teatro Pulso Im-Perfecto Cuándo: viernes 27 de noviembre, 21 h Dónde: Sociedad Sirio Libanesa (Maipú 575) Dirección: Soledad Berrondo Entradas: WhatsApp 3814189627 Fuente: Sociedad Sirio Libanesa de Tucumán – instagram.com/p/DgMkVezShM4/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/casi-desconocidos-sirio.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Sociedad Sirio Libanesa",
+    "address": "Maipú 575, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3814189627"
+    ],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Sociedad+Sirio+Libanesa%2C+Maip%C3%BA+575%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El taller teatral Pulso Im-Perfecto estrena la obra «Casi desconocidos», bajo la dirección de Soledad Berrondo. La función será el viernes 27 de noviembre a las 21 en la Sociedad Sirio Libanesa, ubicada en Maipú 575, San Miguel de Tucumán. Las entradas se pueden reservar por WhatsApp al 3814189627.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "e8ae22626311ccbb67bb4ca4486d0139ceeeb7a81d66ca8951e82b6922082dfc"
+  },
+  {
+    "id": "47835",
+    "source": "MEC",
+    "title": "27 de Noviembre | Gustavo Calleja presenta «6 veces Lola», un libro de monólogos sobre Lola Mora, en el Museo Avellaneda",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-gustavo-calleja-presenta-6-veces-lola-un-libro-de-monologos-sobre-lola-mora-en-el-museo-avellaneda/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "La figura de Lola Mora vuelve a escena, esta vez desde la literatura y el teatro. El viernes 27 de noviembre , a las 21 , el Museo Histórico Provincial Presidente Nicolás Avellaneda (Congreso 56) recibe la presentación del libro «6 veces Lola» , de Gustavo Calleja , con entrada libre y gratuita . Monólogos para recorrer la vida de la escultora La publicación, editada por Ediciones del Parque, reúne una serie de textos teatrales que atraviesan distintos momentos de la vida de Lola Mora, desde sus últimos años hasta sus comienzos como escultora. A través de monólogos, Calleja propone acercarse a la artista tucumana desde el lenguaje teatral y recuperar aspectos de su historia personal y de su trayectoria. Teatro y música en vivo La presentación no será una lectura más: la actriz Alejandra Jiménez dará voz a los textos, y habrá participación musical de Iris Brandán y Flavio Cruz , en una propuesta que cruza literatura, teatro y música. Un homenaje en un lugar con historia La actividad forma parte de la agenda del Ente Cultural de Tucumán por el 160° aniversario del natalicio de Lola Mora y el Día Nacional del Escultor y las Artes Plásticas. El escenario elegido no es casual: el Museo Avellaneda alberga la Galería de los Gobernadores, integrada por retratos realizados por la propia Lola Mora. Si querés redescubrir a una de las grandes figuras del patrimonio artístico tucumano y argentino, esta es una cita imperdible para el viernes a la noche. Resumen Actividad: presentación del libro «6 veces Lola», de Gustavo Calleja Participan: Alejandra Jiménez (actuación), Iris Brandán y Flavio Cruz (música) Fecha: viernes 27 de noviembre Hora: 21 Lugar: Museo Histórico Provincial Presidente Nicolás Avellaneda, Congreso 56, San Miguel de Tucumán Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán (enteculturaltucuman.gob.ar).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/6-veces-lola-calleja.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Museo Histórico Provincial Presidente Nicolás Avellaneda",
+    "address": "Congreso 56, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+Hist%C3%B3rico+Provincial+Presidente+Nicol%C3%A1s+Avellaneda%2C+Congreso+56%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre a las 21 se presenta el libro «6 veces Lola», de Gustavo Calleja, en el Museo Histórico Provincial Presidente Nicolás Avellaneda, ubicado en Congreso 56, San Miguel de Tucumán. La actividad incluye monólogos teatrales interpretados por Alejandra Jiménez y música en vivo de Iris Brandán y Flavio Cruz para repasar la vida de la escultora. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "4e370010d85796f1e81803191c17d454deacc23947b03b72c6f6d50371a4fca3"
+  },
+  {
+    "id": "47808",
+    "source": "MEC",
+    "title": "27 de Noviembre | «6 veces Lola»: Gustavo Calleja presenta su libro de monólogos sobre Lola Mora en el Museo Avellaneda",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-6-veces-lola-gustavo-calleja-presenta-su-libro-de-monologos-sobre-lola-mora-en-el-museo-avellaneda/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Lola Mora vuelve a escena a través de la palabra. Este viernes 27 de noviembre, a las 21, el Museo Histórico Provincial Presidente Nicolás Avellaneda será sede de la presentación de «6 veces Lola», el libro de Gustavo Calleja, con entrada libre y gratuita. Monólogos inspirados en la escultora Editada por Ediciones del Parque, la publicación reúne textos teatrales que recorren distintos momentos de la vida de Lola Mora, desde sus últimos años hasta sus comienzos como escultora. A través de monólogos, el autor propone acercarse a la artista desde el lenguaje teatral. Teatro y música en vivo La presentación tendrá la interpretación de la actriz Alejandra Jiménez, que dará voz a los textos, y la participación musical de Iris Brandán y Flavio Cruz. Un lugar con historia La actividad forma parte de la agenda por el 160° aniversario del natalicio de Lola Mora y el Día Nacional del Escultor y las Artes Plásticas. Y no es un escenario cualquiera: el Museo Avellaneda alberga la Galería de los Gobernadores, con retratos realizados por la propia Lola Mora. Si te interesa la historia de una de las artistas más grandes de Tucumán, el viernes tenés una cita para redescubrirla entre teatro, música y literatura.\n\nQué hacer en tucumán este fin de semana qué: presentación del libro «6 veces Lola», de Gustavo Calleja Cuándo: viernes 27 de noviembre, 21 h Dónde: Museo Histórico Provincial Presidente Nicolás Avellaneda (Congreso 56) Entrada: libre y gratuita Participan: Alejandra Jiménez (actriz), Iris Brandán y Flavio Cruz (música) Fuente: Ente Cultural de Tucumán – enteculturaltucuman.gob.ar/events/6-veces-lola/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "presentación del libro «6 veces Lola», de Gustavo Calleja Cuándo: viernes 27 de noviembre, 21 h Dónde: Museo Histórico Provincial Presidente Nicolás Avellaneda (Congreso 56) Entrada: libre y gratuita Participan: Alejandra Jiménez (actriz), Iris Brandán y Flavio Cruz (música) Fuente: Ente Cultural de Tucumán – enteculturaltucuman.gob.ar/events/6-veces-lola/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/6-veces-lola.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Museo Histórico Provincial Presidente Nicolás Avellaneda",
+    "address": "Congreso 56, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Museo+Hist%C3%B3rico+Provincial+Presidente+Nicol%C3%A1s+Avellaneda%2C+Congreso+56%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre a las 21 h, el Museo Histórico Provincial Presidente Nicolás Avellaneda (Congreso 56) presentará el libro de monólogos «6 veces Lola», de Gustavo Calleja. La actividad incluye teatro con la actriz Alejandra Jiménez y música en vivo de Iris Brandán y Flavio Cruz. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "f6f5e0e4f1394d775115555a07f19758ce677fe2a6cdac2f6197df60633ddaa5"
   },
   {
     "id": "47727",
@@ -1646,6 +2275,84 @@
     "summary_source_hash": "c7319a1a799332e39ca2dac4c3b3d632e06c77f1f158d697c3154a8ac38feb4d"
   },
   {
+    "id": "47847",
+    "source": "MEC",
+    "title": "27 de Noviembre | Q’ Tono pone folklore a la noche del viernes en Lo de la Paliza",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-q-tono-pone-folklore-a-la-noche-del-viernes-en-lo-de-la-paliza/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El viernes llega con guitarras y voces. El 27 de noviembre, a las 22, Q’ Tono se presenta en Lo de la Paliza (Laprida 181) con una noche de folklore, artistas invitados, buena comida y tragos. Folklore en vivo en el centro El dúo propone una velada de música de raíz para disfrutar de cerca, en uno de los espacios peñeros del microcentro tucumano. Artistas invitados La noche suma la participación de artistas invitados, en un formato pensado para compartir mesa, canciones y brindis. Valor y reservas El valor del espectáculo es de $7.000, en efectivo. Para consultas y reservas, el espacio atiende por WhatsApp al 3812 418094 y por teléfono al 2588995. Si querés arrancar el fin de semana entre zambas y chacareras, el viernes la cita es en Laprida 181.\n\nQué hacer en tucumán este fin de semana qué: Q’ Tono, noche de folklore con artistas invitados Cuándo: viernes 27 de noviembre, 22 h Dónde: Lo de la Paliza (Laprida 181, San Miguel de Tucumán) Valor del espectáculo: $7.000 en efectivo Reservas: WhatsApp 3812 418094 / teléfono 2588995 Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Q’ Tono, noche de folklore con artistas invitados Cuándo: viernes 27 de noviembre, 22 h Dónde: Lo de la Paliza (Laprida 181, San Miguel de Tucumán) Valor del espectáculo: $7.000 en efectivo Reservas: WhatsApp 3812 418094 / teléfono 2588995 Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/qtono-lo-de-la-paliza.jpg",
+    "price": 7000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Lo de la Paliza",
+    "address": "Laprida 181, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3812 418094"
+    ],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El viernes 27 de noviembre a las 22 h, el grupo Q' Tono ofrecerá una noche de folklore en vivo con artistas invitados en Lo de la Paliza, ubicado en Laprida 181, San Miguel de Tucumán. El valor del espectáculo es de $7.000 en efectivo. Las reservas y consultas se pueden realizar por WhatsApp al 3812 418094 o al teléfono 2588995.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "419c4d24dedee80753c565370a1b3b62ebfc7bd039c9db01dfd81defa340dbb5"
+  },
+  {
     "id": "47723",
     "source": "MEC",
     "title": "27 de Noviembre | Santiago Caminos y Francis Moreno repasan «Clásicos de todos los tiempos» con Tony Molteni en Tafí Viejo",
@@ -1719,6 +2426,169 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "a685cb5d93b1888dffae4fc951479465ad8a662083f1355ae48c3722c4ebf777"
+  },
+  {
+    "id": "47818",
+    "source": "MEC",
+    "title": "27 de Noviembre | Viernes Escondido: Alina Di Vece, Martu Bongiovanni y Xamira Ríos encienden la peña de calle Miguel Lillo",
+    "url": "https://agendatucuman.com.ar/eventos/27-de-noviembre-viernes-escondido-alina-di-vece-martu-bongiovanni-y-xamira-rios-encienden-la-pena-de-calle-miguel-lillo/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-27",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "La noche del viernes tiene sabor a empanada, vino y guitarra en La Escondida . La peña de la calle Miguel Lillo arma una nueva edición de su Viernes Escondido el 27 de noviembre , desde las 22 , con una cartelera que reúne voces jóvenes del folclore tucumano y la propuesta de siempre: bar, peña y guitarreada hasta tarde. Una cartelera con voces nuevas del folclore Sobre el escenario estarán Alina Di Vece , Martu Bongiovanni , Músicos de la Tierea y Xamira Ríos , artistas que vienen ganando lugar en el circuito de peñas de la provincia. La propuesta combina el show en vivo con la ronda de guitarras que se arma entre las mesas, una marca registrada de la casa. Bar, peña y guitarreada en pleno centro La Escondida funciona en Miguel Lillo 234 , en San Miguel de Tucumán, y abre sus puertas los jueves, viernes y sábados. El espacio se presenta como un lugar de «encuentro, tradición y amistad», donde se puede cenar, tomar algo y bailar chacareras y zambas sin mirar el reloj. Este fin de semana, además, la casa ya calienta motores para su gran peña de fin de año, prevista para el lunes 7 de diciembre. Reservá tu mesa Las reservas de mesa se toman por WhatsApp al 381 561 6818 . Si estás buscando un plan para el viernes a la noche en Tucumán, con música en vivo y el calor de una peña de las de antes, juntá a tus amigos, reservá con tiempo y animate a cerrar la semana bailando en La Escondida. Resumen Evento: Viernes Escondido – bar, peña y guitarreada Artistas: Alina Di Vece, Martu Bongiovanni, Músicos de la Tierea y Xamira Ríos Fecha: viernes 27 de noviembre Hora: desde las 22 Lugar: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Reservas: 381 561 6818 Fuente: Instagram de La Escondida (@laescondida.tucuman).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/viernes-escondido-27-noviembre.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Viernes Escondido se realizará el viernes 27 de noviembre desde las 22 en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. Habrá música en vivo con las actuaciones de Alina Di Vece, Martu Bongiovanni, Músicos de la Tierea y Xamira Ríos, además de una guitarreada. Las reservas de mesa se pueden realizar comunicándose por WhatsApp al 381 561 6818.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "603397aad8862c77d4cfda1e058c313bc769277aaba27e7c7b191030873db7f0"
+  },
+  {
+    "id": "47837",
+    "source": "MEC",
+    "title": "27 y 29 de Noviembre | «El cisne equivocado» abre la casa y el universo creativo de Bernardo Kehoe en el Espacio INCAA",
+    "url": "https://agendatucuman.com.ar/eventos/27-y-29-de-noviembre-el-cisne-equivocado-abre-la-casa-y-el-universo-creativo-de-bernardo-kehoe-en-el-espacio-incaa/",
+    "date_start": "2026-11-27",
+    "date_end": "2026-11-29",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-27T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El Espacio INCAA Tucumán suma a su cartelera «El cisne equivocado» , el documental de Andy Morasso y Lucila Frank , con dos funciones gratuitas: el viernes 27 de noviembre a las 22 y el domingo 29 de noviembre a las 18 , en la Sala Hynes O’Connor . Un artista que se resiste a las convenciones La película se mete en la casa de Bernardo Kehoe , y al abrir esas puertas abre también las de un universo creativo que fluye sin detenerse. Rodeado de mujeres inspiradoras, magos, samuráis y geishas, Kehoe dirige su obra y su vida con una libertad que se resiste a las convenciones. El documental propone un retrato íntimo y luminoso de un creador singular. Dos funciones para elegir La proyección forma parte de la programación del Espacio INCAA Tucumán, que gestiona el Ente Cultural de Tucumán. Con la opción del viernes a la noche o del domingo a la tarde, es un plan ideal para quienes disfrutan del cine documental argentino y de las historias de artistas fuera de lo común. Entrada libre La entrada es libre y gratuita . Si querés sumar una buena película a tu fin de semana sin gastar, elegí tu función y acercate a la sala con tiempo. Resumen Película: «El cisne equivocado», de Andy Morasso y Lucila Frank (documental) Funciones: viernes 27 de noviembre a las 22 y domingo 29 de noviembre a las 18 Lugar: Espacio INCAA Tucumán – Sala Hynes O’Connor Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán (enteculturaltucuman.gob.ar).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/el-cisne-equivocado-incaa.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Espacio INCAA – Sala Hynes O'Connor",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Espacio+INCAA+%E2%80%93+Sala+Hynes+O%27Connor%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-27",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-27T22:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-11-28",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T22:00:00-03:00",
+        "end_datetime": ""
+      },
+      {
+        "date": "2026-11-29",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_days",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-27",
+      "card_time": "22:00",
+      "date": "title_days",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Se proyectará el documental «El cisne equivocado», de Andy Morasso y Lucila Frank, que retrata el universo creativo de Bernardo Kehoe. Las funciones serán el viernes 27 de noviembre a las 22 y el domingo 29 de noviembre a las 18 en el Espacio INCAA Tucumán, ubicado en la Sala Hynes O’Connor (San Martín 251). La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "439c55fa7cee6225df4096eb3441ef52c62668bba9f2e4675de7e57b249b63ab"
   },
   {
     "id": "47717",
@@ -2019,6 +2889,313 @@
     "summary_source_hash": "eb32291b0fd885cfec8a086980d203f4e935eb1136eaee0090bdf2491051c4fc"
   },
   {
+    "id": "47850",
+    "source": "MEC",
+    "title": "28 de Noviembre | Fama Anime Con llena Famaillá de bandas, juegos y el show de las Guerreras K-Pop",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-fama-anime-con-llena-famailla-de-bandas-juegos-y-el-show-de-las-guerreras-k-pop/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "16:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-28T16:00:00-03:00",
+    "end_datetime": "2026-11-28T21:00:00-03:00",
+    "description": "El animé y la cultura asiática tienen cita en el sur tucumano. El sábado 28 de noviembre, de 16 a 21, Famaillá recibe la Fama Anime Con en el Parque Industrial (ex escuela técnica). Una tarde a puro animé La convención propone bandas, shows, sorteos, competencias, juegos, peloteros y stands de productos asiáticos, entre otras actividades para todas las edades. El show de las Guerreras K-Pop Uno de los momentos destacados será el espectáculo de las Guerreras K-Pop, pensado para los fans del pop coreano y del animé. Entradas Las entradas se venden en la Oficina Técnica y de Gestión Social (ex ENET 1) de Famaillá. La propuesta cuenta con el apoyo del Municipio de Famaillá y de Tucumán Turismo. Si en casa hay fans del animé, el sábado tienen un plan para disfrutar en familia en Famaillá.\n\nQué hacer en tucumán este fin de semana qué: Fama Anime Con Cuándo: sábado 28 de noviembre, de 16 a 21 h Dónde: Parque Industrial de Famaillá (ex escuela técnica) Actividades: bandas, shows, sorteos, competencias, juegos, peloteros y stands de productos asiáticos Show destacado: Guerreras K-Pop Entradas: Oficina Técnica y de Gestión Social (ex ENET 1) Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Fama Anime Con Cuándo: sábado 28 de noviembre, de 16 a 21 h Dónde: Parque Industrial de Famaillá (ex escuela técnica) Actividades: bandas, shows, sorteos, competencias, juegos, peloteros y stands de productos asiáticos Show destacado: Guerreras K-Pop Entradas: Oficina Técnica y de Gestión Social (ex ENET 1) Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/fama-anime-con-famailla.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Parque Industrial de Famaillá (ex escuela técnica)",
+    "address": "Famaillá, Tucumán",
+    "city": "Famaillá",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Parque+Industrial+de+Famaill%C3%A1+%28ex+escuela+t%C3%A9cnica%29%2C+Famaill%C3%A1%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "16:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-28T16:00:00-03:00",
+        "end_datetime": "2026-11-28T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "16:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Llega la Fama Anime Con el sábado 28 de noviembre, de 16 a 21 h, al Parque Industrial de Famaillá. Habrá bandas, shows, competencias, juegos y stands de productos asiáticos, destacándose la presentación de las Guerreras K-Pop. Las entradas se consiguen en la Oficina Técnica y de Gestión Social.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "118d13b7f7dbc66f357e09a8ebb32676acd5eeffdc2520f5918300359ba33339"
+  },
+  {
+    "id": "47825",
+    "source": "MEC",
+    "title": "28 de Noviembre | Los Centros Culturales Municipales presentan su muestra final de talleres en la Casa de la Cultura",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-los-centros-culturales-municipales-presentan-su-muestra-final-de-talleres-en-la-casa-de-la-cultura/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "17:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T17:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un año de aprendizaje sobre el escenario. El sábado 28 de noviembre, a las 17, la Casa de la Cultura del Parque 9 de Julio recibe la muestra final de los talleres de los Centros Culturales Municipales. Lo que dejó el año Los participantes presentarán producciones, saberes y experiencias de los talleres que se dictaron durante 2026. Cuatro centros culturales La muestra reúne a alumnos del Centro Cultural Mercedes Sosa, la Casa del Bicentenario, el Centro Cultural Don Bosco y la Casa de la Cultura. Gratis y en el parque La entrada es libre y gratuita. En caso de lluvia, se suspende. Acompañá a los talleristas en su cierre de año y disfrutá de una tarde en el Parque 9 de Julio.\n\nQué hacer en tucumán este fin de semana qué: muestra final de talleres de los Centros Culturales Municipales Cuándo: sábado 28 de noviembre, 17 h Dónde: Casa de la Cultura (Parque 9 de Julio) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "muestra final de talleres de los Centros Culturales Municipales Cuándo: sábado 28 de noviembre, 17 h Dónde: Casa de la Cultura (Parque 9 de Julio) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/08/talleres.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Cultura Municipal – Parque 9 de Julio",
+    "address": "Av. Gobernador del Campo y Capitán Cáceres, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+Municipal+%E2%80%93+Parque+9+de+Julio%2C+Av.+Gobernador+del+Campo+y+Capit%C3%A1n+C%C3%A1ceres%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "17:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T17:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "17:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Los Centros Culturales Municipales presentan su muestra final de talleres con presentaciones de alumnos de cuatro espacios culturales. El evento se realizará el sábado 28 de noviembre a las 17 h en la Casa de la Cultura del Parque 9 de Julio. La entrada es libre y gratuita, y se suspende en caso de lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "a11573aa0691a4aa158992869615aed4d95a2c2b2c08d0baaa1ead2e280c4171"
+  },
+  {
+    "id": "47814",
+    "source": "MEC",
+    "title": "28 de Noviembre | Talleres gratuitos de adornos navideños reciclados y el último Bingo de Plantas en el Campus Ambiental",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-talleres-gratuitos-de-adornos-navidenos-reciclados-y-el-ultimo-bingo-de-plantas-en-el-campus-ambiental/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "18:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T18:00:00-03:00",
+    "end_datetime": "",
+    "description": "La Navidad se arma con materiales reciclados. El sábado 28 de noviembre, a las 18, el Campus Educativo Ambiental «Doctora Yolanda Ortiz» ofrece talleres gratuitos para crear adornos navideños. Qué se puede hacer Los asistentes aprenderán a elaborar arbolitos de macramé, servilleteros navideños, pesebres de cerámica, adornos para el árbol y renos decorativos. El último Bingo de Plantas del año La jornada se completa con el último Bingo de Plantas de 2026, organizado por la Secretaría de Ambiente y Desarrollo Sustentable. Sin inscripción Los talleres son gratuitos y no requieren inscripción previa, pero los cupos son limitados y se asignan por orden de llegada. Además, el campus abre los fines de semana de 15 a 19 con visitas guiadas gratuitas. Llegá temprano, llevá a los chicos y armá tus adornos con conciencia ambiental.\n\nQué hacer en tucumán este fin de semana qué: talleres de adornos navideños reciclados y Bingo de Plantas Cuándo: sábado 28 de noviembre, 18 h Dónde: Campus Educativo Ambiental «Doctora Yolanda Ortiz» (Lamadrid al 3700) Entrada: gratis, sin inscripción, cupos por orden de llegada Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "talleres de adornos navideños reciclados y Bingo de Plantas Cuándo: sábado 28 de noviembre, 18 h Dónde: Campus Educativo Ambiental «Doctora Yolanda Ortiz» (Lamadrid al 3700) Entrada: gratis, sin inscripción, cupos por orden de llegada Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/smt-adornos-navidenos.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Campus Educativo Ambiental «Doctora Yolanda Ortiz»",
+    "address": "Lamadrid 3700, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "la Secretaría de Ambiente y Desarrollo Sustentable",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Talleres y Cursos"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Campus+Educativo+Ambiental+%C2%ABDoctora+Yolanda+Ortiz%C2%BB%2C+Lamadrid+3700%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "18:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T18:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre a las 18 h, el Campus Educativo Ambiental Doctora Yolanda Ortiz, ubicado en Lamadrid 3700 de San Miguel de Tucumán, ofrece talleres gratuitos de adornos navideños reciclados y el último Bingo de Plantas de 2026. La entrada es libre y sin inscripción previa, con cupos limitados por orden de llegada.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "af25957daf9b240de3c55d405ee099395790cea505e8e8f3f8c5c4d1738b5ab1"
+  },
+  {
+    "id": "47824",
+    "source": "MEC",
+    "title": "28 de Noviembre | «Juventud en movimiento 2026» llena la Plaza Independencia de baile y emprendimientos",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-juventud-en-movimiento-2026-llena-la-plaza-independencia-de-baile-y-emprendimientos/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "18:00",
+    "time_end": "21:00",
+    "start_datetime": "2026-11-28T18:00:00-03:00",
+    "end_datetime": "2026-11-28T21:00:00-03:00",
+    "description": "Baile, música urbana y emprendedores jóvenes en el corazón de la ciudad. El sábado 28 de noviembre, de 18 a 21, la Plaza Independencia recibe «Juventud en movimiento 2026». Un punto de encuentro joven La iniciativa se consolida como un espacio para jóvenes que apuestan por la cultura y el crecimiento local, con muestras de baile y exhibición emprendedora. Shows en vivo Se presentarán el grupo Idypia (K-pop y ritmos urbanos), Puro Flow (reggaetón, latino y pop), Estudio de Danza Martínez (reggaetón, juvenil y street fusión) y Vanguardia Dance. Feria de emprendedores Habrá puestos de sublimación, papelería, repostería y bijouterie, entre otros rubros. Pasá el sábado por la plaza y bancá el talento joven tucumano.\n\nQué hacer en tucumán este fin de semana qué: Juventud en movimiento 2026 Cuándo: sábado 28 de noviembre, de 18 a 21 h Dónde: Plaza Independencia Entrada: libre y gratuita; se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Juventud en movimiento 2026 Cuándo: sábado 28 de noviembre, de 18 a 21 h Dónde: Plaza Independencia Entrada: libre y gratuita; se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/05/baile.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Plaza Independencia",
+    "address": "Laprida 50",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Plaza+Independencia%2C+Laprida+50%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "18:00",
+        "time_end": "21:00",
+        "start_datetime": "2026-11-28T18:00:00-03:00",
+        "end_datetime": "2026-11-28T21:00:00-03:00"
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": true
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "18:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre, de 18 a 21 h, la Plaza Independencia será sede de «Juventud en movimiento 2026», un encuentro con muestras de baile, música urbana y una feria de emprendedores jóvenes. El evento ofrece entrada libre y gratuita en Laprida 50, aunque se suspende por lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0d93959db76532e56ca150b57cd4a649ef53af8c4f8551fecc9236388c753a6d"
+  },
+  {
     "id": "47686",
     "source": "MEC",
     "title": "28 de Noviembre | Circo, clown y música: la Ranchada Cultural copa La Taberna de Saturno en Yerba Buena",
@@ -2091,6 +3268,83 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "564c46c469a91759ca7566ac2c9e82063d097dd1ab95fc16a4cfaae01b883d7a"
+  },
+  {
+    "id": "47826",
+    "source": "MEC",
+    "title": "28 de Noviembre | Delegaciones jóvenes de todo el país comparten una feria cultural en la Casa Museo de la Ciudad",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-delegaciones-jovenes-de-todo-el-pais-comparten-una-feria-cultural-en-la-casa-museo-de-la-ciudad/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Tucumán recibe a jóvenes de todo el país. El sábado 28 de noviembre, a las 19, la Casa Museo de la Ciudad será sede de una feria cultural abierta a la comunidad con delegaciones jóvenes de distintas provincias. En el marco del ENJU 2026 La jornada forma parte del Encuentro Nacional de Juventudes (ENJU) 2026, impulsado por la Red Argentina de Juventudes (RAJ). Abierta a todos La feria es libre y gratuita, una oportunidad para conocer propuestas culturales de distintos rincones del país. Si llueve La actividad se suspende en caso de lluvia. Acercate el sábado a Salta 532 y sumate al intercambio cultural.\n\nQué hacer en tucumán este fin de semana qué: feria cultural del Encuentro Nacional de Juventudes (ENJU) 2026 Cuándo: sábado 28 de noviembre, 19 h Dónde: Casa Museo de la Ciudad (Salta 532) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "feria cultural del Encuentro Nacional de Juventudes (ENJU) 2026 Cuándo: sábado 28 de noviembre, 19 h Dónde: Casa Museo de la Ciudad (Salta 532) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/ferias-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa Museo de la Ciudad",
+    "address": "Salta 532",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Variedades"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+Museo+de+la+Ciudad%2C+Salta+532%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El sábado 28 de noviembre a las 19 h, la Casa Museo de la Ciudad (Salta 532) recibirá una feria cultural abierta a la comunidad con delegaciones jóvenes de todo el país en el marco del ENJU 2026. La entrada es libre y gratuita. La actividad se suspende en caso de lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "2ff08ea1423e2c0bcd98fbbef467f0a19ad6e405e72b163956e29709d718ac74"
   },
   {
     "id": "47671",
@@ -2169,6 +3423,83 @@
     "summary_source_hash": "402e8775eb9cfd7a918dfed7a4a39c1edd1803c643d8e161632a0c1f23658a62"
   },
   {
+    "id": "47819",
+    "source": "MEC",
+    "title": "28 de Noviembre | El pianista Nima Sarkechik presenta «Ecos de lo eterno» en el Cementerio del Oeste",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-el-pianista-nima-sarkechik-presenta-ecos-de-lo-eterno-en-el-cementerio-del-oeste/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un concierto de piano entre mausoleos y esculturas. El sábado 28 de noviembre, a las 20, el pianista franco-iraní Nima Sarkechik presenta «Ecos de lo eterno» en el Cementerio del Oeste, con entrada libre y gratuita. Los grandes del piano El programa reúne obras de Chopin, Bach, Satie, Liszt y Beethoven, en un recorrido por algunas de las páginas más queridas del repertorio pianístico. Un escenario único El Cementerio del Oeste, una de las necrópolis más antiguas de la capital, suma a la noche el valor histórico y arquitectónico de su patrimonio. Con lluvia también Según informó la Municipalidad, el concierto no se suspende por lluvia y se mantiene en el horario previsto. Una experiencia musical distinta, gratis y en un lugar cargado de historia: agendala para el sábado.\n\nQué hacer en tucumán este fin de semana qué: «Ecos de lo eterno», concierto de Nima Sarkechik Cuándo: sábado 28 de noviembre, 20 h Dónde: Cementerio del Oeste (Asunción 150) Entrada: libre y gratuita No se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "«Ecos de lo eterno», concierto de Nima Sarkechik Cuándo: sábado 28 de noviembre, 20 h Dónde: Cementerio del Oeste (Asunción 150) Entrada: libre y gratuita No se suspende por lluvia Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/10/teatro-recordar-cementerio-del-oeste.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Cementerio del Oeste",
+    "address": "Asunción 150, San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cementerio+del+Oeste%2C+Asunci%C3%B3n+150%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El pianista franco-iraní Nima Sarkechik ofrecerá el concierto gratuito «Ecos de lo eterno» con obras de Chopin, Bach, Satie, Liszt y Beethoven. La cita será el sábado 28 de noviembre a las 20 h en el Cementerio del Oeste, ubicado en Asunción 150. El evento no se suspende por lluvia y destaca por realizarse en un escenario histórico.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "7141d202bf46b833d4eaad1cf08d2d65f42337dd547b7425bb2e887b67b67d32"
+  },
+  {
     "id": "47680",
     "source": "MEC",
     "title": "28 de Noviembre | Jorge Figueroa expone «Chimeneas», una mirada artística y política sobre los ingenios tucumanos",
@@ -2241,6 +3572,82 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "6a20a9534bd5149c50dec0acf33e7e583ffa4cda856127658b7f2938c663e787"
+  },
+  {
+    "id": "47812",
+    "source": "MEC",
+    "title": "28 de Noviembre | «Cuando las hadas despiertan»: Tole Tole presenta su nueva obra familiar en Yerba Buena",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-cuando-las-hadas-despiertan-tole-tole-presenta-su-nueva-obra-familiar-en-yerba-buena/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un bosque encantado se despierta en Yerba Buena. El sábado 28 de noviembre, a las 20, el grupo Tole Tole presenta «Cuando las hadas despiertan» en la Casa de la Cultura, como parte de las Muestras Anuales de los Talleres de Cultura. Una historia mágica La obra invita a entrar en un bosque encantado donde la magia empieza a despertarse. Una propuesta pensada para disfrutar con chicos y grandes. El cierre de un año de taller La función es parte del cierre de año del taller de teatro, una oportunidad para acompañar el trabajo de quienes se formaron durante todo el año. Entradas Se consiguen en la boletería de la Casa de la Cultura antes de la función. Llevá a toda la familia y sumate el sábado a esta aventura entre hadas y bosques.\n\nQué hacer en tucumán este fin de semana qué: «Cuando las hadas despiertan», de Tole Tole Cuándo: sábado 28 de noviembre, 20 h Dónde: Casa de la Cultura de Yerba Buena (Higueritas 1850) Entradas: en boletería antes de la función Fuente: Cultura Yerba Buena – instagram.com/p/DgNJp_9OTiu/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "«Cuando las hadas despiertan», de Tole Tole Cuándo: sábado 28 de noviembre, 20 h Dónde: Casa de la Cultura de Yerba Buena (Higueritas 1850) Entradas: en boletería antes de la función Fuente: Cultura Yerba Buena – instagram.com/p/DgNJp_9OTiu/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/tole-tole-hadas-1.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Casa de la Cultura de Yerba Buena",
+    "address": "Las Higueritas 1850, Yerba Buena",
+    "city": "Yerba Buena",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Teatro"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Cultura+de+Yerba+Buena%2C+Las+Higueritas+1850%2C+Yerba+Buena%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El grupo Tole Tole presenta la obra familiar Cuando las hadas despiertan como cierre de las muestras anuales de los talleres de cultura. La función se realizará el sábado 28 de noviembre a las 20 en la Casa de la Cultura de Yerba Buena, ubicada en Las Higueritas 1850. Las entradas se pueden adquirir en la boletería antes del inicio del evento.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "08832939eacc99e908ef41e7b68aa140e5f6494fd66a21d0297e880637a78aa1"
   },
   {
     "id": "47732",
@@ -2463,6 +3870,82 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "22a5afe0e1731d268548133cebe588ed6e63d29f412d2c254997b686fa7d7ade"
+  },
+  {
+    "id": "47822",
+    "source": "MEC",
+    "title": "28 de Noviembre | Rock and Time rinde tributo a Electric Light Orchestra en el Teatro Rosita Ávila",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-rock-and-time-rinde-tributo-a-electric-light-orchestra-en-el-teatro-rosita-avila/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "21:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T21:00:00-03:00",
+    "end_datetime": "",
+    "description": "Un viaje a los clásicos de los 70, 80 y 90. El sábado 28 de noviembre, a las 21, Rock and Time sube al escenario del Teatro Rosita Ávila con un show tributo a Electric Light Orchestra y las mejores canciones de los 80 y 90. Cinco músicos con experiencia La banda está formada por cinco experimentados músicos que reviven melodías icónicas que marcaron toda una época. Un repertorio para cantar El show recorre el universo de ELO y suma grandes éxitos de las décadas del 80 y 90. Entradas Se consiguen en la ticketera digital de la Municipalidad y en la boletería del teatro (Las Piedras 1550), de lunes a viernes de 9 a 18 y los días de función desde las 17. Si sos de los que cantan «Mr. Blue Sky» a todo volumen, el sábado tenés una cita en el Rosita.\n\nQué hacer en tucumán este fin de semana qué: Rock and Time – Tributo a Electric Light Orchestra Cuándo: sábado 28 de noviembre, 21 h Dónde: Teatro Municipal Rosita Ávila (Las Piedras 1550) Entradas: ticketera municipal y boletería Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Rock and Time – Tributo a Electric Light Orchestra Cuándo: sábado 28 de noviembre, 21 h Dónde: Teatro Municipal Rosita Ávila (Las Piedras 1550) Entradas: ticketera municipal y boletería Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/07/rosita-avila.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1500, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1500%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "21:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T21:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "21:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El grupo Rock and Time brindará un show tributo a Electric Light Orchestra y éxitos de los 80 y 90. La cita es el sábado 28 de noviembre a las 21 h en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1550, San Miguel de Tucumán. Las entradas se pueden adquirir en la boletería del teatro y en la ticketera digital de la Municipalidad.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "91335cbc19591f5330b644aed901c2dcac3d825450f84d287ea1cd553b7d040d"
   },
   {
     "id": "47729",
@@ -2911,6 +4394,236 @@
     "summary_source_hash": "7d94bd56cbd5dbb9d990b4446cffbf1d1f51a3e02edfd3c864b5dea4a520464e"
   },
   {
+    "id": "47838",
+    "source": "MEC",
+    "title": "28 de Noviembre | El Ciclo Kino Federal proyecta «Gotteskinder», cine alemán gratis en el Espacio INCAA Tucumán",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-el-ciclo-kino-federal-proyecta-gotteskinder-cine-aleman-gratis-en-el-espacio-incaa-tucuman/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El cine alemán tiene su lugar en la agenda tucumana. El sábado 28 de noviembre , a las 22 , el Ciclo Kino Federal proyecta «Gotteskinder» , de Frauke Lodders , en la Sala Hynes O’Connor del Espacio INCAA Tucumán , con entrada libre y gratuita . De qué se trata «Gotteskinder» sigue a dos hermanos criados en una familia conservadora que enfrentan una crisis cuando sus verdaderas identidades y deseos chocan con los valores tradicionales que les inculcaron sus padres. Un drama sobre la fe, la familia y la libertad de ser quien uno es. Una película alemana por mes Kino Federal es un ciclo que recorre distintas ciudades de la Argentina con una selección de películas del archivo cinematográfico del Goethe-Institut Buenos Aires , a razón de un título por mes. En Tucumán se presenta en el Espacio INCAA, que gestiona el Ente Cultural de Tucumán, y es una oportunidad para acceder a producciones europeas que no suelen llegar a las salas comerciales. Un plan distinto para el sábado Si te gusta el cine de autor y querés cerrar el sábado con una historia intensa, acercate a la sala. La entrada es gratuita, así que conviene llegar con tiempo. Resumen Película: «Gotteskinder», de Frauke Lodders Ciclo: Kino Federal – Una película alemana por mes Fecha: sábado 28 de noviembre Hora: 22 Lugar: Espacio INCAA Tucumán – Sala Hynes O’Connor Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán (enteculturaltucuman.gob.ar).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/gotteskinder-incaa.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Espacio INCAA – Sala Hynes O'Connor",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Espacio+INCAA+%E2%80%93+Sala+Hynes+O%27Connor%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El ciclo Kino Federal proyecta el drama alemán Gotteskinder, de Frauke Lodders, sobre dos hermanos en crisis con los valores familiares. La función es el sábado 28 de noviembre a las 22 en la Sala Hynes O’Connor del Espacio INCAA Tucumán, ubicado en San Martín 251. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "0d1b6520ad7a2a5f3ad26d40fdbd761f2809325a664cb60928390426325ab262"
+  },
+  {
+    "id": "47810",
+    "source": "MEC",
+    "title": "28 de Noviembre | El ciclo Kino Federal proyecta la película alemana «Gotteskinder» en el Espacio INCAA",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-el-ciclo-kino-federal-proyecta-la-pelicula-alemana-gotteskinder-en-el-espacio-incaa/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "Cine alemán gratis en el centro tucumano. El sábado 28 de noviembre, a las 22, el ciclo Kino Federal presenta «Gotteskinder», de Frauke Lodders, en la Sala Hynes O’Connor del Espacio INCAA Tucumán. Una película por mes Kino Federal es un ciclo que recorre distintas ciudades de Argentina con una película alemana por mes, seleccionada del archivo cinematográfico del Goethe-Institut Buenos Aires. La historia Dos hermanos criados en una familia conservadora enfrentan una crisis cuando sus verdaderas identidades y deseos chocan con los valores tradicionales que les inculcaron sus padres. Entrada libre La función es libre y gratuita, en San Martín 251. Si te gusta el cine europeo y las historias que interpelan, el sábado a la noche tenés un plan para no perderte.\n\nQué hacer en tucumán este fin de semana qué: «Gotteskinder», de Frauke Lodders (ciclo Kino Federal) Cuándo: sábado 28 de noviembre, 22 h Dónde: Sala Hynes O’Connor – Espacio INCAA Tucumán (San Martín 251) Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán – enteculturaltucuman.gob.ar/events/gotteskinder/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "«Gotteskinder», de Frauke Lodders (ciclo Kino Federal) Cuándo: sábado 28 de noviembre, 22 h Dónde: Sala Hynes O’Connor – Espacio INCAA Tucumán (San Martín 251) Entrada: libre y gratuita Fuente: Ente Cultural de Tucumán – enteculturaltucuman.gob.ar/events/gotteskinder/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/gotteskinder.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Espacio INCAA – Sala Hynes O'Connor",
+    "address": "San Martín 251",
+    "city": "",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Cine",
+      "Gratis"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Espacio+INCAA+%E2%80%93+Sala+Hynes+O%27Connor%2C+San+Mart%C3%ADn+251%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El ciclo Kino Federal proyecta la película alemana «Gotteskinder» en el Espacio INCAA Tucumán, ubicado en San Martín 251. La cita es el sábado 28 de noviembre a las 22 horas en la Sala Hynes O’Connor. La entrada es libre y gratuita.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "6bf3fa93f0a44d45b031f417bf34f2c5e9bb93cc546882d9fce0b49bd822dd58"
+  },
+  {
+    "id": "47849",
+    "source": "MEC",
+    "title": "28 de Noviembre | Los Arrieros llegan a Lo de la Paliza con una noche de folklore",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-los-arrieros-llegan-a-lo-de-la-paliza-con-una-noche-de-folklore/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El sábado tiene sabor a peña. El 28 de noviembre, a las 22, Los Arrieros se presentan en Lo de la Paliza (Laprida 181) con una noche de folklore, artistas invitados, buena comida y tragos. Música de raíz en el centro El grupo sube al escenario de uno de los espacios peñeros del microcentro para una velada dedicada al folklore. Artistas invitados La propuesta se completa con artistas invitados, en un clima ideal para compartir la mesa con amigos o en familia. Valor y reservas El valor del espectáculo es de $7.000, en efectivo. Las reservas se hacen por WhatsApp al 3812 418094 o por teléfono al 2588995. Si el sábado pinta peña, reservá tu lugar y sumate a la noche de Los Arrieros.\n\nQué hacer en tucumán este fin de semana qué: Los Arrieros, noche de folklore con artistas invitados Cuándo: sábado 28 de noviembre, 22 h Dónde: Lo de la Paliza (Laprida 181, San Miguel de Tucumán) Valor del espectáculo: $7.000 en efectivo Reservas: WhatsApp 3812 418094 / teléfono 2588995 Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Los Arrieros, noche de folklore con artistas invitados Cuándo: sábado 28 de noviembre, 22 h Dónde: Lo de la Paliza (Laprida 181, San Miguel de Tucumán) Valor del espectáculo: $7.000 en efectivo Reservas: WhatsApp 3812 418094 / teléfono 2588995 Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/los-arrieros-lo-de-la-paliza.jpg",
+    "price": 7000.0,
+    "currency": "ARS",
+    "is_free": false,
+    "location": "Lo de la Paliza",
+    "address": "Laprida 181, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [
+      "3812 418094"
+    ],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Lo+de+la+Paliza%2C+Laprida+181%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Los Arrieros se presentan el sábado 28 de noviembre a las 22 en Lo de la Paliza, ubicado en Laprida 181, San Miguel de Tucumán, para una noche de folklore con artistas invitados. El valor del espectáculo es de $7.000 en efectivo. Las reservas se realizan por WhatsApp al 3812 418094 o al teléfono 2588995.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "b253b4efa5a7d247f018a71e88f504482497dd0f02b75f985d97e1655b041c9c"
+  },
+  {
     "id": "47758",
     "source": "MEC",
     "title": "28 de Noviembre | Lourdes Brito encabeza una noche de peña folklórica en El Cardón con artistas invitados",
@@ -2983,6 +4696,156 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "754428065be06d959ad6b1b04a877c06ced3241bf3c5c1f703bdd138e462ca10"
+  },
+  {
+    "id": "47828",
+    "source": "MEC",
+    "title": "28 de Noviembre | Sábado Campero en La Escondida con Benjamín Jiménez, Juan Ángel, Miguel Aragón y Wakallas",
+    "url": "https://agendatucuman.com.ar/eventos/28-de-noviembre-sabado-campero-en-la-escondida-con-benjamin-jimenez-juan-angel-miguel-aragon-y-wakallas/",
+    "date_start": "2026-11-28",
+    "date_end": "2026-11-28",
+    "time_start": "22:00",
+    "time_end": "",
+    "start_datetime": "2026-11-28T22:00:00-03:00",
+    "end_datetime": "",
+    "description": "El sábado se viste de poncho y sombrero en La Escondida . La peña tucumana de la calle Miguel Lillo propone un Sábado Campero el 28 de noviembre , desde las 22 , con una grilla bien folclórica para cerrar la semana entre zambas, chacareras y guitarreada. Quiénes suben al escenario La cartelera de la noche reúne a Benjamín Jiménez , Juan Ángel , Miguel Aragón y el grupo Wakallas . Cada uno aporta su estilo dentro del cancionero de raíz, en una velada pensada para escuchar, cantar a coro y salir a bailar entre las mesas. Una peña con identidad propia La Escondida, que se define como un lugar de «encuentro, tradición y amistad», abre jueves, viernes y sábados con su fórmula de bar, peña y guitarreada. El espacio, ubicado en Miguel Lillo 234 , en San Miguel de Tucumán, ya se prepara además para su gran peña de fin de año, anunciada para el lunes 7 de diciembre. Cómo reservar Las reservas de mesa se toman al 381 561 6818 . Si querés vivir una noche de folclore auténtico en la capital tucumana, reservá tu lugar, llevá ganas de bailar y sumate a este Sábado Campero. Resumen Evento: Sábado Campero – bar, peña y guitarreada Artistas: Benjamín Jiménez, Juan Ángel, Miguel Aragón y Wakallas Fecha: sábado 28 de noviembre Hora: desde las 22 Lugar: Peña La Escondida, Miguel Lillo 234, San Miguel de Tucumán Reservas: 381 561 6818 Fuente: Instagram de La Escondida (@laescondida.tucuman).",
+    "highlighted_metadata": {},
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/sabado-campero-la-escondida-28-noviembre.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Peña La Escondida",
+    "address": "Miguel Lillo 234, San Miguel de Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Pe%C3%B1a+La+Escondida%2C+Miguel+Lillo+234%2C+San+Miguel+de+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-28",
+        "time_start": "22:00",
+        "time_end": "",
+        "start_datetime": "2026-11-28T22:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-28",
+      "card_time": "22:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El Sábado Campero se realizará el sábado 28 de noviembre desde las 22 en la Peña La Escondida, ubicada en Miguel Lillo 234, San Miguel de Tucumán. La noche de folclore contará con las actuaciones de Benjamín Jiménez, Juan Ángel, Miguel Aragón y el grupo Wakallas. Las reservas de mesa se pueden realizar al 381 561 6818.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "79bd0bce4af4537463201e1c7765af12451252cf31766f867fbe2adb702a61ea"
+  },
+  {
+    "id": "47851",
+    "source": "MEC",
+    "title": "29 de Noviembre | San Pedro de Colalao corre la segunda edición del 21 Km Mountain Trail",
+    "url": "https://agendatucuman.com.ar/eventos/29-de-noviembre-san-pedro-de-colalao-corre-la-segunda-edicion-del-21-km-mountain-trail/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "06:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T06:00:00-03:00",
+    "end_datetime": "",
+    "description": "Donde termina el asfalto, empieza la aventura. El domingo 29 de noviembre, San Pedro de Colalao recibe la segunda edición del 21 Km Mountain Trail 2026, una carrera de montaña con circuitos de 5, 10 y 21 kilómetros. Tres distancias para elegir La competencia ofrece recorridos de 5K, 10K y 21K entre cerros y senderos de la villa veraniega, para corredores de distintos niveles. El cronograma La concentración será a las 6. A las 6:30 llega la entrada en calor; a las 7 larga el circuito de 21 km, a las 7:15 el de 10 km y a las 7:30 el de 5 km. A las 10 habrá una presentación de bailes tradicionales y a las 10:30, la premiación. Inscripción Las inscripciones se hacen escaneando el código QR del afiche oficial. La organización está a cargo del Equipo Mountain Trail SPC. Si te gusta correr en la montaña, anotate y viví el domingo una mañana distinta en San Pedro de Colalao. Y si no corrés, el paisaje y los bailes tradicionales también valen el viaje.\n\nQué hacer en tucumán este fin de semana qué: 21 Km Mountain Trail 2026 (segunda edición) Cuándo: domingo 29 de noviembre; concentración 6 h, largada de 21 km 7 h Dónde: San Pedro de Colalao Distancias: 5K, 10K y 21K Inscripción: código QR del afiche oficial Organiza: Equipo Mountain Trail SPC Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "21 Km Mountain Trail 2026 (segunda edición) Cuándo: domingo 29 de noviembre; concentración 6 h, largada de 21 km 7 h Dónde: San Pedro de Colalao Distancias: 5K, 10K y 21K Inscripción: código QR del afiche oficial Organiza: Equipo Mountain Trail SPC Fuente: Tucumán Turismo – tucumanturismo.gob.ar/eventos"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/21k-mountain-trail-san-pedro.jpg",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "San Pedro de Colalao",
+    "address": "San Pedro de Colalao",
+    "city": "San Pedro de Colalao",
+    "organizer": "Equipo Mountain Trail SPC Fuente: Tucumán Turismo – tucumanturismo",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Deportes"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=San+Pedro+de+Colalao%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "06:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T06:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-29",
+      "card_time": "06:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "El domingo 29 de noviembre se realizará la segunda edición del 21 Km Mountain Trail en San Pedro de Colalao, una competencia de trekking con circuitos de 5, 10 y 21 kilómetros. La concentración será a las 6 y la largada principal a las 7, con inscripciones mediante el código QR del afiche oficial.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "48c12d35ca9bb3f54caf44fe553436a10637344f62bd1a446e20d5c46cd7661b"
   },
   {
     "id": "47687",
@@ -3358,6 +5221,83 @@
     "summary_source_hash": "b288765b4c9f1c9b6cee035929dcb92ac078db87a46e81efb84a312cf07ee632"
   },
   {
+    "id": "47820",
+    "source": "MEC",
+    "title": "29 de Noviembre | Nancy Pedro y Gallego Estrada recorren el cancionero popular en la Casa de la Ciudad",
+    "url": "https://agendatucuman.com.ar/eventos/29-de-noviembre-nancy-pedro-y-gallego-estrada-recorren-el-cancionero-popular-en-la-casa-de-la-ciudad/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "19:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T19:00:00-03:00",
+    "end_datetime": "",
+    "description": "Guitarra, voz y raíz folclórica para cerrar el fin de semana. El domingo 29 de noviembre, a las 19, los artistas tucumanos Nancy Pedro y Gallego Estrada se presentan en la Casa de la Ciudad con entrada libre y gratuita. Formato íntimo La propuesta, en formato de guitarra y voz, invita a un recorrido sensible por obras emblemáticas del cancionero popular argentino y latinoamericano. Música de raíz El espectáculo está dedicado a la música popular de raíz folclórica, con dos voces conocidas de la escena tucumana. Con lluvia también La función no se suspende por lluvia. Cerrá el domingo con canciones de siempre: la cita es en Catamarca 920.\n\nQué hacer en tucumán este fin de semana qué: Nancy Pedro y Gallego Estrada en concierto Cuándo: domingo 29 de noviembre, 19 h Dónde: Casa de la Ciudad (Catamarca 920) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Nancy Pedro y Gallego Estrada en concierto Cuándo: domingo 29 de noviembre, 19 h Dónde: Casa de la Ciudad (Catamarca 920) Entrada: libre y gratuita Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/05/casa-de-la-ciudad-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": true,
+    "location": "Casa de la Ciudad",
+    "address": "Catamarca 920, San Miguel de Tucumán, Tucumán, Argentina",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Gratis",
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Casa+de+la+Ciudad%2C+Catamarca+920%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n%2C+Argentina",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "19:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T19:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-29",
+      "card_time": "19:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Los artistas tucumanos Nancy Pedro y Gallego Estrada ofrecerán un concierto íntimo de guitarra y voz recorriendo obras emblemáticas del cancionero popular. La cita es el domingo 29 de noviembre a las 19 en la Casa de la Ciudad, ubicada en Catamarca 920. El espectáculo cuenta con entrada libre y gratuita y no se suspende por lluvia.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "80bcb43bac425fd8953b9e198ad918a7940a694ab233201970c633ab2cb0d392"
+  },
+  {
     "id": "47743",
     "source": "MEC",
     "title": "29 de Noviembre | «La Tucumanesa, la historia que no debe ser olvidada» llega a La Veleta con función a la gorra",
@@ -3657,6 +5597,82 @@
     "summary_source_hash": "2df47353329b64e102dc77c870db2335cad03b669dd9493ddd471608b259a48e"
   },
   {
+    "id": "47823",
+    "source": "MEC",
+    "title": "29 de Noviembre | Show Choirs Tucumán presenta la «Fiesta del Pop Vol. 2» en el Teatro Rosita Ávila",
+    "url": "https://agendatucuman.com.ar/eventos/29-de-noviembre-show-choirs-tucuman-presenta-la-fiesta-del-pop-vol-2-en-el-teatro-rosita-avila/",
+    "date_start": "2026-11-29",
+    "date_end": "2026-11-29",
+    "time_start": "20:00",
+    "time_end": "",
+    "start_datetime": "2026-11-29T20:00:00-03:00",
+    "end_datetime": "",
+    "description": "Cuatro décadas de hits pop en un solo escenario. El domingo 29 de noviembre, a las 20, llega al Teatro Rosita Ávila la «Fiesta del Pop» de Show Choirs Tucumán Vol. 2. Canto, coreografías y teatro musical El espectáculo combina canto en vivo, coreografías grupales y teatro musical, con un recorrido por los grandes éxitos pop de las últimas cuatro décadas. Quiénes lo producen La producción es de la Fundación para el Desarrollo de las Artes Escénicas (FUNDAE) junto a Chapeau! Escuela de Teatro Musical. Entradas Se consiguen en la ticketera digital de la Municipalidad y en la boletería del teatro. Cerrá el fin de semana a puro pop: el domingo, en el Rosita.\n\nQué hacer en tucumán este fin de semana qué: Fiesta del Pop – Show Choirs Tucumán Vol. 2 Cuándo: domingo 29 de noviembre, 20 h Dónde: Teatro Municipal Rosita Ávila (Las Piedras 1550) Producen: FUNDAE y Chapeau! Escuela de Teatro Musical Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/",
+    "highlighted_metadata": {
+      "qué hacer en tucumán este fin de semana qué": "Fiesta del Pop – Show Choirs Tucumán Vol. 2 Cuándo: domingo 29 de noviembre, 20 h Dónde: Teatro Municipal Rosita Ávila (Las Piedras 1550) Producen: FUNDAE y Chapeau! Escuela de Teatro Musical Fuente: Municipalidad de San Miguel de Tucumán – comunicacionsmt.gob.ar/contenido/18302/"
+    },
+    "image": "https://agendatucuman.com.ar/wp-content/uploads/2025/03/teatro-rosita-avila-scaled.webp",
+    "price": null,
+    "currency": "",
+    "is_free": false,
+    "location": "Teatro Municipal Rosita Ávila",
+    "address": "Las Piedras 1500, San Miguel de Tucumán, Tucumán",
+    "city": "San Miguel de Tucumán",
+    "organizer": "",
+    "contact_email": [],
+    "contact_phone": [],
+    "categories": [
+      "Musica"
+    ],
+    "tags": [],
+    "map_urls": [],
+    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Municipal+Rosita+%C3%81vila%2C+Las+Piedras+1500%2C+San+Miguel+de+Tucum%C3%A1n%2C+Tucum%C3%A1n",
+    "registration_urls": [],
+    "external_urls": [],
+    "occurrences": [
+      {
+        "date": "2026-11-29",
+        "time_start": "20:00",
+        "time_end": "",
+        "start_datetime": "2026-11-29T20:00:00-03:00",
+        "end_datetime": ""
+      }
+    ],
+    "confidence": {
+      "date": {
+        "source": "title_day",
+        "score": 0.95
+      },
+      "time": {
+        "source": "mec_card",
+        "score": 1.0,
+        "has_start": true,
+        "has_end": false
+      },
+      "location": {
+        "source": "jsonld",
+        "score": 0.9
+      },
+      "overall": 0.96
+    },
+    "_sources": {
+      "page_status": 200,
+      "rest_status": 200,
+      "card_date": "2026-11-29",
+      "card_time": "20:00",
+      "date": "title_day",
+      "time": "mec_card",
+      "location": "jsonld",
+      "jsonld_count": 2,
+      "v11_enrichment_error": "",
+      "query_month": "2026-11"
+    },
+    "summary": "Show Choirs Tucumán presenta la Fiesta del Pop Vol. 2, un espectáculo de canto en vivo, coreografías y teatro musical con hits de cuatro décadas. La cita es el domingo 29 de noviembre a las 20 h en el Teatro Municipal Rosita Ávila, ubicado en Las Piedras 1500, San Miguel de Tucumán. Las entradas se adquieren en la boletería del teatro y en la ticketera digital de la Municipalidad.",
+    "summary_generated": true,
+    "summary_version": 1,
+    "summary_source_hash": "685a5c4884a2f46ec27a481ceb650bb5657425ce49712d0949c03cb14885ef7a"
+  },
+  {
     "id": "47724",
     "source": "MEC",
     "title": "29 de Noviembre | «La pasión nunca se apaga»: el Estudio Romero Dance presenta su muestra anual en Tafí Viejo",
@@ -3803,80 +5819,6 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "ec333bd024d8ea3890104a9f1285ebfd948926d72046c6cf34a500c5f8f0bcbb"
-  },
-  {
-    "id": "47665",
-    "source": "MEC",
-    "title": "Del 27 al 29 de Noviembre | Los chicos del Ente Cultural reviven la vida de San Martín en «La Patria Necesita de estos Locos»",
-    "url": "https://agendatucuman.com.ar/eventos/del-27-al-29-de-noviembre-los-chicos-del-ente-cultural-reviven-la-vida-de-san-martin-en-la-patria-necesita-de-estos-locos/",
-    "date_start": "2026-11-29",
-    "date_end": "2026-11-29",
-    "time_start": "21:00",
-    "time_end": "",
-    "start_datetime": "2026-11-29T21:00:00-03:00",
-    "end_datetime": "",
-    "description": "El grupo de teatro de niños y niñas del Ente Cultural de Tucumán sube al escenario del Teatro Orestes Caviglia con «La Patria Necesita de estos Locos» , una obra de Nicolás Aráoz que recorre la vida y el legado del General José de San Martín . Después de sus primeras funciones, la propuesta tiene tres fechas más: viernes 27 y sábado 28 de noviembre a las 21 h, y domingo 29 a las 18 h. Una historia que va de la infancia a la gesta libertadora La obra repasa la historia del Libertador desde su infancia hasta su muerte, con un elenco integrado por chicos y chicas que se forman en el grupo de teatro del Ente Cultural. La dirección general está a cargo de Lilian Mirkin . Un elenco de chicos y un equipo de lujo En escena están Florencia Rojo, Briana Lucero, Amanda Girbau, Lisa Mirkin, Guillermina Moroni, Florentina Guzmán, Valentín Lorenzo Minué, Luisa Flores Guerra, Gerónimo Suárez, Emma Gutiérrez, Augusto Grondona, Salvador Armanini, Luján Sánchez, Felipe Prado Maldonado, Corina Armanini, Alma Salas Barber, Máximo Canducci y Eva Rodríguez Vaisblat. La música original es de Fernando Flores Blasco; el diseño de vestuario, de Elizabeth Cárdenas; y la asistencia técnica y de dirección, de Silvina Schliserman, quien también opera las imágenes. Completan el equipo los operadores de música Fernando Flores Blasco y Chicho Ortega, el equipo de utilería y las asistentes de escena Martina Steimberg y Vania Iskra. Entradas con promo 2×1 La entrada general cuesta $10.000 y tiene promoción 2×1 . Se consiguen en la boletería del teatro y en la venta online del Ente Cultural. Si buscás un plan para compartir en familia este fin de semana, esta es una gran oportunidad para que los más chicos se acerquen a la historia argentina desde el teatro. ¡Sacá tus entradas y acompañá a este elenco de pequeños grandes actores! Resumen Obra: «La Patria Necesita de estos Locos», de Nicolás Aráoz Elenco: Grupo de teatro de niños y niñas del Ente Cultural de Tucumán Dirección general: Lilian Mirkin Fechas: viernes 27 y sábado 28 de noviembre a las 21 h; domingo 29 de noviembre a las 18 h Lugar: Teatro Orestes Caviglia, San Martín 251, San Miguel de Tucumán Entrada: $10.000, con promoción 2×1 (boletería del teatro y venta online) Fuente: Ente Cultural de Tucumán (enteculturaltucuman.gob.ar/agenda e Instagram @culturadetucuman).",
-    "highlighted_metadata": {},
-    "image": "https://agendatucuman.com.ar/wp-content/uploads/2026/11/la-patria-necesita-de-estos-locos.webp",
-    "price": 10000.0,
-    "currency": "ARS",
-    "is_free": false,
-    "location": "Teatro Orestes Caviglia",
-    "address": "San Martín 251 - San Miguel De Tucumán",
-    "city": "San Miguel de Tucumán",
-    "organizer": "",
-    "contact_email": [],
-    "contact_phone": [],
-    "categories": [
-      "Teatro"
-    ],
-    "tags": [],
-    "map_urls": [],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Teatro+Orestes+Caviglia%2C+San+Mart%C3%ADn+251+-+San+Miguel+De+Tucum%C3%A1n",
-    "registration_urls": [],
-    "external_urls": [],
-    "occurrences": [
-      {
-        "date": "2026-11-29",
-        "time_start": "21:00",
-        "time_end": "",
-        "start_datetime": "2026-11-29T21:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "confidence": {
-      "date": {
-        "source": "title_day",
-        "score": 0.95
-      },
-      "time": {
-        "source": "mec_card",
-        "score": 1.0,
-        "has_start": true,
-        "has_end": false
-      },
-      "location": {
-        "source": "jsonld",
-        "score": 0.9
-      },
-      "overall": 0.96
-    },
-    "_sources": {
-      "page_status": 200,
-      "rest_status": 200,
-      "card_date": "2026-11-27",
-      "card_time": "21:00",
-      "date": "title_day",
-      "time": "mec_card",
-      "location": "jsonld",
-      "jsonld_count": 2,
-      "v11_enrichment_error": "",
-      "query_month": "2026-11"
-    },
-    "summary": "El grupo de teatro infantil del Ente Cultural presenta la obra La Patria Necesita de estos Locos, que recorre la vida del General José de San Martín. Las funciones serán el viernes 27 y sábado 28 de noviembre a las 21 h, y el domingo 29 a las 18 h en el Teatro Orestes Caviglia, ubicado en San Martín 251. La entrada general cuesta $10.000 con promoción 2×1 y se adquiere en la boletería o de forma online.",
-    "summary_generated": true,
-    "summary_version": 1,
-    "summary_source_hash": "c7060ac672763989035eeed3fea67f512b45485f221478c3406e8be289dabdb3"
   },
   {
     "id": "47615",
@@ -4101,56 +6043,5 @@
     "summary_generated": true,
     "summary_version": 1,
     "summary_source_hash": "dce11c4efd7bab4099befa22014e9b93cc0cd4d3b1d9991e89eae69f1beeef6a"
-  },
-  {
-    "id": "cine-estrenos-semana-2026-11-26",
-    "source": "CINEMACENTER",
-    "title": "Estrenos de la semana",
-    "url": "https://www.cinemacenter.com.ar/cartelera#contenido",
-    "date_start": "2026-11-26",
-    "date_end": "2026-12-02",
-    "time_start": "",
-    "time_end": "",
-    "start_datetime": "2026-11-26T00:00:00-03:00",
-    "end_datetime": "",
-    "description": "<p><strong>Nuevas películas que llegan a la cartelera de Cinemacenter Tucumán esta semana:</strong></p>\n<ul>\n<li>HECHIZO: BIENVENIDOS A HEXE — estreno 26 de noviembre de 2026</li>\n<li>LA NUEVA FOCKER — estreno 26 de noviembre de 2026</li>\n</ul>\n<p><a href=\"https://www.cinemacenter.com.ar/cartelera#contenido\">Ver cartelera y horarios</a></p>",
-    "summary": "",
-    "image": "https://www.cinemacenter.com.ar/img_movies/3581_img2.jpg",
-    "price": null,
-    "currency": "",
-    "is_free": false,
-    "location": "Cinemacenter Tucumán",
-    "address": "Av. Néstor Kirchner (Ex Roca) 3450",
-    "city": "San Miguel de Tucumán",
-    "organizer": "Cinemacenter",
-    "categories": [
-      "Cine"
-    ],
-    "tags": [
-      "Cine",
-      "Estrenos"
-    ],
-    "map_search_url": "https://www.google.com/maps/search/?api=1&query=Cinemacenter+Tucumán",
-    "registration_urls": [
-      "https://www.miboleteria.com.ar"
-    ],
-    "external_urls": [
-      "https://www.cinemacenter.com.ar/cartelera#contenido",
-      "https://www.miboleteria.com.ar"
-    ],
-    "occurrences": [
-      {
-        "date": "2026-11-26",
-        "time_start": "",
-        "time_end": "",
-        "start_datetime": "2026-11-26T00:00:00-03:00",
-        "end_datetime": ""
-      }
-    ],
-    "cinemacenter_release_titles": [
-      "HECHIZO: BIENVENIDOS A HEXE",
-      "LA NUEVA FOCKER"
-    ],
-    "cinemacenter_release_count": 2
   }
 ]
