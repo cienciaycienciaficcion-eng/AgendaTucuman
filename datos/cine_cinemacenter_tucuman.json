@@ -1,6 +1,6 @@
 {
   "schema_version": "3.0",
-  "generated_at": "2026-11-27T05:52:08.751823-03:00",
+  "generated_at": "2026-11-27T18:33:21.153792-03:00",
   "reference_date": "2026-11-27",
   "source": {
     "name": "Cinemacenter",
@@ -8,7 +8,7 @@
     "city": "Tucumán",
     "city_id": 13,
     "official_schedule_url": "https://www.cinemacenter.com.ar/pdf/horariospdf.php?cityId=13",
-    "pdf_sha256": "6772b2004d0c7d157485a21de7f96375c075a5e45f377fa7429baeb2f86ebd22"
+    "pdf_sha256": "e46be4bfc5a7b073dc961c28240a9287ef0d1733f6ec30f40c129f46eb7e0f52"
   },
   "cinema": {
     "name": "Cinemacenter Tucumán",
@@ -35,7 +35,6 @@
         "schedule": {
           "jueves": [],
           "viernes": [
-            "11:00",
             "16:30",
             "19:00"
           ],
@@ -61,12 +60,6 @@
           ]
         },
         "occurrences": [
-          {
-            "date": "2026-11-27",
-            "time": "11:00",
-            "datetime": "2026-11-27T11:00:00",
-            "weekday": "viernes"
-          },
           {
             "date": "2026-11-27",
             "time": "16:30",
